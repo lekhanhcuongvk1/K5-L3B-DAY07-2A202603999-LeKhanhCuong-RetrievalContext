@@ -1,0 +1,22 @@
+[
+  {"query_id":"A01","pass":true,"citation_support":[true,true],"reason":"Đúng hạng LPI 48 và hạ tầng 44."},
+  {"query_id":"A02","pass":true,"citation_support":[true],"reason":"Đúng 420 lên 775."},
+  {"query_id":"A03","pass":true,"citation_support":[true,true],"reason":"Đúng 780 triệu USD."},
+  {"query_id":"A04","pass":true,"citation_support":[true],"reason":"Đúng 10,6%, 22,0% và chênh 11,4 điểm phần trăm."},
+  {"query_id":"A05","pass":true,"citation_support":[true,true],"reason":"Đúng Hà Nội và TP.HCM."},
+  {"query_id":"A06","pass":true,"citation_support":[true],"reason":"Đúng Hà Nội và Map 4.4."},
+  {"query_id":"A07","pass":true,"citation_support":[true],"reason":"Đủ ba chức năng đầu của Figure 7.12."},
+  {"query_id":"A08","pass":true,"citation_support":[true],"reason":"Đúng nông nghiệp 81% và công nghiệp 15%."},
+  {"query_id":"A09","pass":true,"citation_support":[true],"reason":"Đúng 5,6 điểm phần trăm."},
+  {"query_id":"A10","pass":true,"citation_support":[true],"reason":"Đúng 9,6 lên 21,7."},
+  {"query_id":"A11","pass":true,"citation_support":[true,true,true],"reason":"Đủ 15,5 triệu và tỷ lệ 21,7."},
+  {"query_id":"A12","pass":true,"citation_support":[true,true],"reason":"Đúng 30 triệu và gần hai giờ cho 40 km; dùng evidence thay thế hợp lệ cùng tài liệu."},
+  {"query_id":"A13","pass":false,"citation_support":[true,true,true],"reason":"Hai giá trị 81% và 79% đúng, nhưng câu kết thêm quan hệ nhân quả nông nghiệp làm suy giảm rừng chưa được các citation này hỗ trợ trực tiếp."},
+  {"query_id":"A14","pass":true,"citation_support":[true,true,true,true],"reason":"Đủ bốn hướng cải cách trải trên trang 148–149; retry provider một lần sau timeout."},
+  {"query_id":"A15","pass":true,"citation_support":[true,true],"reason":"Đủ cả bốn nền tảng sau context repacking."},
+  {"query_id":"A16","pass":true,"citation_support":[true],"reason":"Đúng định nghĩa hiệu quả chính phủ."},
+  {"query_id":"A17","pass":true,"citation_support":[true],"reason":"Đúng 8% và 25%."},
+  {"query_id":"A18","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Không có ngân sách metro Hà Nội tuyến 5."},
+  {"query_id":"A19","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Không có giá đóng cửa VN-Index được hỏi."},
+  {"query_id":"A20","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Thông tin Nobel năm 2035 không tồn tại trong báo cáo 2016."}
+]

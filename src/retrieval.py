@@ -36,11 +36,14 @@ class DensePgVectorRetriever:
 
     strategy = "dense_pgvector"
 
-    def __init__(self, database_url: str | None = None) -> None:
+    def __init__(self, database_url: str | None = None, *, table: str = "day07_base_chunks") -> None:
         load_dotenv(ROOT / ".env")
         self.database_url = database_url or os.getenv(
             "DATABASE_URL", "postgresql://day7:day7_local_only@127.0.0.1:55434/day7_lab"
         )
+        if table not in {"day07_base_chunks", "day07_advanced_chunks"}:
+            raise ValueError("table is not an allowed Day 7 index")
+        self.table = table
         cache = ROOT / ".cache" / "huggingface"
         snapshot = snapshot_download(
             EMBEDDING_MODEL,
@@ -64,7 +67,7 @@ class DensePgVectorRetriever:
         sql = f"""
             SELECT chunk_id, text, source_id, source, page, metadata,
                    1 - (embedding <=> %s::vector) AS score
-            FROM day07_base_chunks
+            FROM {self.table}
             {where}
             ORDER BY embedding <=> %s::vector, chunk_id
             LIMIT %s
@@ -115,4 +118,42 @@ class BM25Retriever:
         return [
             {**chunk, "score": score, "rank": rank, "strategy": self.strategy}
             for rank, (score, chunk) in enumerate(ranked[:top_k], 1)
+        ]
+
+
+class HybridRRFRetriever:
+    """Fuse dense and BM25 ranks with reciprocal-rank fusion (no raw-score mixing)."""
+
+    strategy = "hybrid_rrf"
+
+    def __init__(self, dense: DensePgVectorRetriever, lexical: BM25Retriever,
+                 *, candidate_k: int = 10, rrf_k: int = 60) -> None:
+        self.dense = dense
+        self.lexical = lexical
+        self.candidate_k = candidate_k
+        self.rrf_k = rrf_k
+
+    def search(self, query: str, *, filters: dict[str, Any] | None = None, top_k: int = 3) -> list[dict[str, Any]]:
+        candidate_k = max(top_k, self.candidate_k)
+        dense_rows = self.dense.search(query, filters=filters, top_k=candidate_k)
+        lexical_rows = self.lexical.search(query, filters=filters, top_k=candidate_k)
+        fused: dict[str, dict[str, Any]] = {}
+        for source, rows in (("dense", dense_rows), ("bm25", lexical_rows)):
+            for rank, row in enumerate(rows, 1):
+                item = fused.setdefault(row["id"], {
+                    **row, "rrf_score": 0.0, "component_ranks": {"dense": None, "bm25": None}
+                })
+                item["rrf_score"] += 1.0 / (self.rrf_k + rank)
+                item["component_ranks"][source] = rank
+        # Explicit document locators supplied by the user are high-confidence
+        # query evidence, not benchmark gold. Preserve them through rank fusion.
+        identifiers = re.findall(r"(?:figure|table|map|box)\s+[a-z]?\d+(?:\.\d+)?", query, flags=re.IGNORECASE)
+        for item in fused.values():
+            if any(identifier.casefold() in item["text"].casefold() for identifier in identifiers):
+                item["rrf_score"] += 1.0
+                item["identifier_match"] = True
+        rows = sorted(fused.values(), key=lambda row: (-row["rrf_score"], row["id"]))[:top_k]
+        return [
+            {**row, "score": row["rrf_score"], "rank": rank, "strategy": self.strategy}
+            for rank, row in enumerate(rows, 1)
         ]

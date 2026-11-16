@@ -1,0 +1,69 @@
+{
+  "physical_pages": 409,
+  "indexed_pages": 397,
+  "chunk_count": 1076,
+  "skipped_pages": [
+    {
+      "physical_pdf_page": 1,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 2,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 4,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 8,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 26,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 34,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 38,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 40,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 114,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 146,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 407,
+      "reason": "no_extractable_text"
+    },
+    {
+      "physical_pdf_page": 409,
+      "reason": "no_extractable_text"
+    }
+  ],
+  "modality_counts": {
+    "text": 860,
+    "table": 86,
+    "chart": 119,
+    "image_or_diagram": 11
+  },
+  "embedding_seconds": 162.385,
+  "database_rows": 1076,
+  "table": "day07_advanced_chunks",
+  "embedding_model": "bkai-foundation-models/vietnamese-bi-encoder",
+  "embedding_revision": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+  "dimensions": 768,
+  "metric": "cosine",
+  "service_cost_usd": 0
+}

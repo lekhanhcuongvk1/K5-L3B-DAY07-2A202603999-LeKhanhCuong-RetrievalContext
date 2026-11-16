@@ -1,0 +1,33 @@
+{
+  "split": "dev",
+  "config_id": "bm25_original_query",
+  "trace_count": 21,
+  "successful_runs": 21,
+  "errors": 0,
+  "tool_use": 21,
+  "search_calls_distribution": {
+    "1": 21
+  },
+  "grounded_answer_grades": {
+    "0": 13,
+    "1": 2,
+    "2": 3
+  },
+  "grounded_answer_mean_over_2": 0.444,
+  "citation_validity": {
+    "valid": 6,
+    "total": 8,
+    "rate": 0.75
+  },
+  "answers_with_citation": 6,
+  "abstention": {
+    "correct": 3,
+    "total_unanswerable": 3,
+    "false_refusals": 12,
+    "answerable_total": 18
+  },
+  "median_total_ms": 4481.83,
+  "service_cost_usd": 0,
+  "test_opened": false,
+  "human_reviewed": true
+}

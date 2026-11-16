@@ -1,0 +1,34 @@
+{
+  "checkpoint": "CP3",
+  "selection_split": "dev",
+  "test_opened": false,
+  "benchmark_sha256": "f3032d24b44c765da14846116777817199aae03cbd0e6f30884538f1f046e582",
+  "selection_rule": [
+    "complete_context_evidence",
+    "evidence_hit3",
+    "hit1",
+    "lower_median_retrieval_ms"
+  ],
+  "selected_config": {
+    "config_id": "advanced_hybrid_translated_wide",
+    "split": "dev",
+    "answerable_n": 17,
+    "method": "hybrid_rrf",
+    "translated_query": true,
+    "top_k": 10,
+    "hypothesis": "Improvement 4: preserve translated constraints and widen context for visual/multi-hop evidence.",
+    "hit1": 12,
+    "evidence_hit3": 16,
+    "complete_context_evidence": 16,
+    "median_retrieval_ms": 90.435,
+    "service_cost_usd": 0
+  },
+  "selected_context": "rank-interleaved same-page blocks; adjacent page fallback; top-three-page compression for multi-evidence cases",
+  "selected_agent": {
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "Anthropic-compatible gateway at api.nghimmo.com",
+    "dev_human_review_pass": "19/20",
+    "known_limitation": "A13 included an unsupported causal interpretation despite correct numeric evidence."
+  },
+  "test_run_count_at_freeze": 0
+}

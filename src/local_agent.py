@@ -72,6 +72,10 @@ class LocalQwen:
         ]
         used_aliases = [item.upper() for item in used_aliases]
         answer_match = re.search(r"ANSWER\s*:\s*(.+)", raw, flags=re.IGNORECASE | re.DOTALL)
+        if used_aliases and not answer_match:
+            remainder = raw[support_line.end():].strip() if support_line else ""
+            if remainder and "INSUFFICIENT" not in remainder.upper():
+                answer_match = re.match(r"(.*)", remainder, flags=re.DOTALL)
         # Small local models occasionally omit the requested label while copying a
         # supported answer verbatim.  Accept only an exact normalized substring
         # match in one retrieved block; this is auditable citation attribution,
@@ -110,10 +114,10 @@ def pack_context(results: list[dict[str, Any]], budget_chars: int) -> tuple[str,
 
 
 def run(question: str, model: LocalQwen, retriever: Any, *, filters: dict[str, Any] | None = None,
-        top_k: int = 3, budget_chars: int = 3600) -> dict[str, Any]:
+        top_k: int = 3, budget_chars: int = 3600, rewrite_query: bool = True) -> dict[str, Any]:
     started = time.perf_counter()
     query_started = time.perf_counter()
-    query = model.make_query(question)
+    query = model.make_query(question) if rewrite_query else question
     query_ms = (time.perf_counter() - query_started) * 1000
     search_started = time.perf_counter()
     results = retriever.search(query, filters=filters, top_k=top_k)
@@ -134,7 +138,7 @@ def run(question: str, model: LocalQwen, retriever: Any, *, filters: dict[str, A
         "citations": citations,
         "events": [{
             "event": "search", "tool": retriever.strategy, "query": query,
-            "filter": filters, "top_k": top_k, "results": results,
+            "query_transformed": rewrite_query, "filter": filters, "top_k": top_k, "results": results,
             "context": context, "context_ids": ids,
         }, {"event": status, "raw_model_output": raw}],
         "timing_ms": {"query_generation": round(query_ms, 2), "retrieval": round(search_ms, 2),

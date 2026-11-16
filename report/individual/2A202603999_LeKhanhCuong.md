@@ -23,6 +23,8 @@
 
 Một cấu hình có thể đồng thời là phương pháp mới và cải thiện; phần kết quả sẽ báo `n/N`, tỷ lệ, thời gian, chi phí, hai lỗi Dev và lý do chọn trước khi mở Test.
 
+Trên Base Dev, dense đạt Hit@1 `12/18`, Evidence Hit@3 `14/18`; BM25 đạt `13/18`, `17/18`; hybrid RRF đạt `13/18`, `17/18`. BM25 được chọn theo tie-break latency và khóa trước Test. Agent Claude qua gateway tương thích Anthropic đạt `20/21` sau chấm tay; lỗi B01 do evidence không vào BM25 top-3. Local Qwen có grounded-answer mean `0,444/2`, cho thấy retrieval tốt nhưng model nhỏ chưa tuân thủ citation ổn định.
+
 ## Agent và đánh giá
 
 - CP2 dùng `Qwen/Qwen2.5-1.5B-Instruct` revision `989aa7980e4cf806f80c7fef2b1adb7bc71aa306`, chạy local. Model tạo query và câu trả lời; hai tool đầu tiên là exact dense pgvector và BM25. Mỗi smoke có một lượt retrieval, top-3, context tối đa 3.600 ký tự; thiếu citation hợp lệ hoặc thiếu evidence thì abstain. Lỗi được truyền ra, không có mock fallback.
@@ -42,6 +44,7 @@ Một cấu hình có thể đồng thời là phương pháp mới và cải th
 - Tài liệu đã khóa: *Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy*, World Bank và Bộ Kế hoạch và Đầu tư, 2016, DOI `10.1596/978-1-4648-0824-1`, 409 trang vật lý, CC BY 3.0 IGO. URL, SHA-256 và attribution nằm ở `advanced/source_manifest.json`.
 - Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý: sẽ được ghi từ pipeline thực tế.
 - Benchmark riêng đã khóa gồm 20 Dev (17 có đáp án, 3 thiếu evidence) và 30 Test (24 có đáp án, 6 thiếu evidence). Test có đúng 6 câu bảng, 5 ảnh/sơ đồ, 5 biểu đồ, 4 multi-hop và 4 text; từng gold locator có trang, vùng, bounding box và đoạn trích từ PDF gốc.
+- Index Advanced bao phủ 397/409 trang, 1.076 chunks; 12 trang không có text extractable được ghi rõ. Cấu hình hybrid + dịch query bảo toàn locator + context theo layout đạt Evidence Hit@3 `16/17`, complete context `16/17`; agent đạt `19/20` Dev sau chấm tay. Gateway chỉ trả token usage, không trả giá USD nên chi phí được để `null`, không tự ước lượng.
 
 | Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
 |---|---|---|---|

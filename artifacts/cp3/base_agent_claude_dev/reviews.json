@@ -1,0 +1,23 @@
+[
+  {"query_id":"B01","pass":false,"answer_grade":0,"citation_support":[],"reason":"BM25 top-3 không chứa chunk định nghĩa; agent abstain đúng với context nhưng là false refusal."},
+  {"query_id":"B02","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đúng Ada Augusta, citation hỗ trợ trực tiếp."},
+  {"query_id":"B03","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đúng Walter Bright, Digital Mars và năm 2001."},
+  {"query_id":"B04","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đủ bốn lĩnh vực và citation đúng."},
+  {"query_id":"B05","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đủ người thiết kế và phiên bản Visual Studio."},
+  {"query_id":"B06","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đủ thị trường thích hợp, máy ICL và giảng dạy."},
+  {"query_id":"B07","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đủ bốn ứng dụng của bộ tự mã hóa."},
+  {"query_id":"B08","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đúng loại dữ liệu, phạm vi chữ số và ba tác giả."},
+  {"query_id":"B09","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đúng năm, nhóm xây dựng và quy mô ImageNet."},
+  {"query_id":"B10","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đủ hai nguyên nhân bong bóng AI."},
+  {"query_id":"B11","pass":true,"answer_grade":2,"citation_support":[true,true,true],"reason":"Đúng thời điểm ra mắt và hai tháng đạt 100 triệu người dùng."},
+  {"query_id":"B12","pass":true,"answer_grade":2,"citation_support":[true,true],"reason":"Đúng tác giả, năm và khả năng tạo dữ liệu mới."},
+  {"query_id":"B13","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đúng self-attention và xử lý song song."},
+  {"query_id":"B14","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đúng hai phần công trình Nobel."},
+  {"query_id":"B15","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Định nghĩa kiểu mạnh đầy đủ."},
+  {"query_id":"B16","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đủ Linux, Mac OS X, Android và iOS."},
+  {"query_id":"B17","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đúng field và $1/$2/$3."},
+  {"query_id":"B18","pass":true,"answer_grade":2,"citation_support":[true],"reason":"Đúng .bat/.cmd và Command Prompt."},
+  {"query_id":"B19","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Không có Rust/borrow checker; abstain đúng."},
+  {"query_id":"B20","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Không có giới hạn âm thanh GPT-4o; abstain đúng."},
+  {"query_id":"B21","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Không có thay đổi GIL Python 3.13; abstain đúng."}
+]

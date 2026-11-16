@@ -1,0 +1,61 @@
+{
+  "configs": [
+    {
+      "config_id": "dense_baseline",
+      "split": "dev",
+      "answerable_n": 18,
+      "method": "dense_pgvector",
+      "top_k": 3,
+      "context_budget_chars": 3600,
+      "hypothesis": "Baseline exact cosine; same Day 6 embedding/index.",
+      "hit1": 12,
+      "evidence_hit3": 14,
+      "context_evidence": 14,
+      "median_retrieval_ms": 70.566,
+      "service_cost_usd": 0
+    },
+    {
+      "config_id": "bm25",
+      "split": "dev",
+      "answerable_n": 18,
+      "method": "bm25",
+      "top_k": 3,
+      "context_budget_chars": 3600,
+      "hypothesis": "Lexical method; tests exact names and rare terms.",
+      "hit1": 13,
+      "evidence_hit3": 17,
+      "context_evidence": 17,
+      "median_retrieval_ms": 1.147,
+      "service_cost_usd": 0
+    },
+    {
+      "config_id": "hybrid_rrf",
+      "split": "dev",
+      "answerable_n": 18,
+      "method": "hybrid_rrf",
+      "top_k": 3,
+      "context_budget_chars": 3600,
+      "hypothesis": "Improvement 1: fuse complementary dense/lexical ranks without mixing raw scores.",
+      "hit1": 13,
+      "evidence_hit3": 17,
+      "context_evidence": 17,
+      "median_retrieval_ms": 68.146,
+      "service_cost_usd": 0
+    },
+    {
+      "config_id": "hybrid_rrf_wide",
+      "split": "dev",
+      "answerable_n": 18,
+      "method": "hybrid_rrf",
+      "top_k": 5,
+      "context_budget_chars": 5000,
+      "hypothesis": "Improvement 2: wider candidate/context budget may recover evidence missed at top 3.",
+      "hit1": 13,
+      "evidence_hit3": 17,
+      "context_evidence": 17,
+      "median_retrieval_ms": 71.166,
+      "service_cost_usd": 0
+    }
+  ],
+  "selected": "bm25"
+}
