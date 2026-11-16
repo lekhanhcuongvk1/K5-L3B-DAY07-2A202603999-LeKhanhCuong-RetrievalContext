@@ -1,0 +1,82 @@
+{
+  "plan_version": 1,
+  "student": {
+    "name": "Lê Khánh Cường",
+    "student_id": "2A202603999",
+    "class": "L3B"
+  },
+  "day6_source": {
+    "repository": "https://github.com/lekhanhcuongvk1/K5-L3B-DAY06-LeKhanhCuong-2A202603999-DataIngestion",
+    "commit": "3f67d939f92734f11cfbe5ee7be025b38c2b3403",
+    "corpus_id": "vi-wikipedia-computing-snapshot-2026-11-13",
+    "license": "CC-BY-SA-4.0",
+    "document_count": 30,
+    "normalized_characters": 334955,
+    "chunk_strategy": "B",
+    "chunking": "paragraph-aware max 1000 characters, no overlap",
+    "chunk_count": 418,
+    "embedding_model": "bkai-foundation-models/vietnamese-bi-encoder",
+    "embedding_revision": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+    "embedding_dimensions": 768,
+    "vector_store": "PostgreSQL 16 + pgvector 0.8.7",
+    "vector_table": "day06_chunks_vi",
+    "distance_metric": "cosine",
+    "search_mode": "exact"
+  },
+  "base_benchmark": {
+    "is_new_for_day7": true,
+    "dev": {
+      "answerable": 18,
+      "unanswerable": 3,
+      "total": 21
+    },
+    "test": {
+      "answerable": 6,
+      "unanswerable": 3,
+      "total": 9
+    },
+    "retrieval_methods": [
+      "dense_pgvector",
+      "lexical",
+      "hybrid_rrf"
+    ],
+    "minimum_improvement_configs": 2
+  },
+  "advanced_benchmark": {
+    "enabled": true,
+    "minimum_document_pages": 100,
+    "required_modalities": [
+      "text",
+      "table",
+      "image_or_diagram",
+      "chart"
+    ],
+    "dev": {
+      "answerable": 17,
+      "unanswerable": 3,
+      "total": 20
+    },
+    "test": {
+      "answerable": 24,
+      "unanswerable": 6,
+      "total": 30,
+      "primary_group_minimums": {
+        "table": 6,
+        "image_or_diagram": 5,
+        "chart": 5,
+        "multi_hop": 4,
+        "text": 4
+      },
+      "pass_threshold": 0.9
+    }
+  },
+  "integrity_policy": {
+    "select_on": "dev_only",
+    "freeze_before_test": true,
+    "test_runs_after_freeze": 1,
+    "gold_in_agent_or_query": false,
+    "silent_mock_fallback": false,
+    "record_provider_errors": true,
+    "record_latency_and_cost": true
+  }
+}

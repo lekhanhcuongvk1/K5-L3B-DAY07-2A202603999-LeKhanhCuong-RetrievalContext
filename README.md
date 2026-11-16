@@ -1,8 +1,37 @@
 # Day 7 — Agentic RAG
 
-**Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
+**Bài cá nhân · Lê Khánh Cường · 2A202603999 · L3B · Python 3.11+**
+
+Repository này là bài nộp Day 7, tiếp nối pipeline dữ liệu tiếng Việt đã hoàn
+thành ở Day 6. Phần cơ bản xây agent có retrieval, context, citation và
+abstention; phần nâng cao xử lý một tài liệu thực tế từ 100 trang có text, bảng,
+ảnh và biểu đồ.
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
+
+## Nguồn Day 6 đã khóa
+
+- Repo nguồn: [K5-L3B-DAY06-LeKhanhCuong-2A202603999-DataIngestion](https://github.com/lekhanhcuongvk1/K5-L3B-DAY06-LeKhanhCuong-2A202603999-DataIngestion), commit `3f67d939f92734f11cfbe5ee7be025b38c2b3403`.
+- Corpus: 30 bài Wikipedia tiếng Việt, 334.955 ký tự chuẩn hóa, CC BY-SA 4.0.
+- Chunk dùng cho Day 7: strategy B, paragraph-aware tối đa 1.000 ký tự, 418 chunks.
+- Embedding: `bkai-foundation-models/vietnamese-bi-encoder`, revision `84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0`, 768 chiều, chạy local.
+- Store: PostgreSQL 16 + pgvector 0.8.7, bảng `day06_chunks_vi`, exact cosine search.
+
+Các giá trị trên là bất biến đầu vào. Nếu phải đổi corpus, model hoặc index, bài
+làm sẽ ghi thành một thí nghiệm mới thay vì âm thầm thay thế baseline.
+
+## Kế hoạch đánh giá đã khóa
+
+- Phần cơ bản dùng benchmark Day 7 mới gồm 21 Dev và 9 Test: 24 câu có đáp án,
+  6 câu thiếu evidence. Dev dùng để chọn cấu hình; Test chỉ chạy sau freeze.
+- So sánh tối thiểu dense, lexical và hybrid trên cùng corpus và nhãn.
+- Thử ít nhất hai cấu hình cải thiện trên Dev; lưu query, tool call, ranking,
+  context, answer, citation, thời gian, chi phí và lỗi.
+- Phần nâng cao dùng benchmark riêng: 20 Dev và 30 Test, trong đó Test có đủ
+  24 câu có đáp án theo năm nhóm và 6 câu thiếu evidence.
+- Không đưa gold answer, gold source hay evidence vào agent, query hoặc filter.
+
+Đặc tả máy đọc được nằm tại [`config/experiment_plan.json`](config/experiment_plan.json).
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
 
