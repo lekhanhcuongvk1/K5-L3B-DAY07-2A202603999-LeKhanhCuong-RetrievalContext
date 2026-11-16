@@ -1,0 +1,77 @@
+AlexNet là một kiến trúc mạng thần kinh tích chập được phát triển để phân loại hình ảnh, nổi bật qua thành tích tại cuộc thi nhận dạng hình ảnh quy mô lớn ImageNet ( ImageNet Large Scale Visual Recognition Challenge , ILSVRC). Mô hình phân loại hình ảnh vào 1.000 danh mục đối tượng khác nhau và được xem là ứng dụng đầu tiên được công nhận rộng rãi của mạng thần kinh tích chập sâu trong nhận dạng hình ảnh quy mô lớn.
+
+AlexNet được phát triển năm 2012 bởi Alex Krizhevsky cùng với Ilya Sutskever và người hướng dẫn nghiên cứu sinh của ông là Geoffrey Hinton tại Đại học Toronto . Mô hình chứa 60 triệu tham số và 650.000 neuron nhân tạo . Kết quả chính của bài báo gốc là độ sâu của mô hình đóng vai trò thiết yếu với hiệu suất cao, đòi hỏi chi phí tính toán lớn nhưng khả thi nhờ sử dụng bộ xử lý đồ họa (GPU) trong quá trình huấn luyện.
+
+Ba tác giả lập thành đội SuperVision và nộp AlexNet tham dự ILSVRC vào ngày 30 tháng 9 năm 2012. Mạng đạt tỉ lệ lỗi top-5 là 15,3% để giành chiến thắng, vượt trội hơn đội về nhì hơn 10,8 điểm phần trăm.
+
+Lịch sử phát triển
+
+Trong giai đoạn 1990–2010, mạng thần kinh nhân tạo không vượt trội hơn các phương pháp học máy khác như hồi quy nhân , máy vector hỗ trợ hay AdaBoost trong lĩnh vực thị giác máy tính, bất chấp thành công của LeNet . Phần lớn tiến bộ trong giai đoạn này đến từ việc thiết kế đặc trưng thủ công như SIFT, SURF hay HoG . Quan điểm rằng đặc trưng có thể được học trực tiếp từ dữ liệu chỉ là thiểu số trong cộng đồng thị giác máy tính, trước khi AlexNet thay đổi điều đó.
+
+Năm 2011, Geoffrey Hinton bắt đầu tiếp cận các đồng nghiệp với câu hỏi làm thế nào để thuyết phục họ rằng mạng thần kinh là tương lai. Jitendra Malik , một người hoài nghi về mạng thần kinh, đề xuất thử thách PASCAL Visual Object Classes. Hinton cho rằng tập dữ liệu đó quá nhỏ, và Malik giới thiệu ông với cuộc thi ImageNet .
+
+Tập dữ liệu ImageNet , yếu tố trung tâm cho thành công của AlexNet, được Fei-Fei Li và các cộng sự xây dựng từ năm 2007. Với mục tiêu thúc đẩy nhận dạng hình ảnh qua dữ liệu quy mô lớn, Li đã tạo ra một tập dữ liệu lớn hơn nhiều so với các nỗ lực trước đó, cuối cùng chứa hơn 14 triệu ảnh có nhãn thuộc 22.000 danh mục. ImageNet sau đó trở thành nền tảng của thử thách ILSVRC và một nguồn tài nguyên chủ chốt trong sự trỗi dậy của học sâu .
+
+Sutskever và Krizhevsky đều là nghiên cứu sinh vào thời điểm đó. Trước năm 2011, Krizhevsky đã viết phần mềm cuda-convnet để huấn luyện các mạng CNN nhỏ trên tập dữ liệu CIFAR-10 với một GPU duy nhất. Sutskever thuyết phục Krizhevsky mở rộng hệ thống để huấn luyện CNN trên ImageNet, với Hinton là người hướng dẫn chính. AlexNet được huấn luyện trên hai GPU Nvidia GTX 580 đặt trong phòng ngủ của Krizhevsky tại nhà bố mẹ ông, trong vòng năm đến sáu ngày. Hinton sau này nhận xét: "Ilya nghĩ ra ý tưởng, Alex làm cho nó hoạt động, còn tôi thì nhận giải Nobel".
+
+Thành công của AlexNet năm 2012 là kết quả hội tụ của ba yếu tố quan trọng: tập dữ liệu có nhãn quy mô lớn, điện toán GPU đa dụng, và các phương pháp huấn luyện được cải thiện cho mạng thần kinh sâu. Nhìn lại ý nghĩa của sự kiện này hơn một thập kỷ sau, Fei-Fei Li phát biểu trong một cuộc phỏng vấn năm 2024: "Khoảnh khắc đó mang tính biểu tượng với thế giới AI vì ba yếu tố nền tảng của AI hiện đại đã hội tụ lần đầu tiên".
+
+Kiến trúc
+
+AlexNet nhận đầu vào là ảnh màu RGB kích thước 227×227 pixel và xử lý qua 8 lớp có tham số học được. Do mạng không vừa với bộ nhớ VRAM của một GPU Nvidia GTX 580 3GB duy nhất, toàn bộ mạng ngoại trừ lớp cuối được chia thành hai nhánh chạy song song trên hai GPU. Kiến trúc gồm năm lớp tích chập và ba lớp fully connected, với các lớp max-pooling và chuẩn hóa phản hồi cục bộ (local response normalization) xen kẽ ở một số vị trí.
+
+C1 là lớp tích chập đầu tiên, áp dụng 96 kernel kích thước 11×11 với stride 4 lên ảnh đầu vào, tạo ra 96 feature map kích thước 55×55. Sau đó lớp này đi qua chuẩn hóa phản hồi cục bộ rồi max-pooling với cửa sổ 3×3 và stride 2, thu nhỏ xuống còn 27×27×96.
+
+C2 áp dụng 256 kernel kích thước 5×5 với padding 2, tạo ra 256 feature map kích thước 27×27. Sau chuẩn hóa và max-pooling tương tự, kích thước thu nhỏ xuống còn 13×13×256.
+
+C3 áp dụng 384 kernel kích thước 3×3 với padding 1, tạo ra 384 feature map kích thước 13×13.
+
+C4 áp dụng 384 kernel kích thước 3×3 với padding 1, giữ nguyên kích thước 13×13×384.
+
+C5 áp dụng 256 kernel kích thước 3×3 với padding 1, tạo ra 256 feature map kích thước 13×13, sau đó đi qua max-pooling với cửa sổ 3×3 và stride 2, thu nhỏ xuống còn 6×6×256. Ba lớp tích chập CONV3, CONV4, CONV5 được kết nối trực tiếp với nhau mà không qua bất kỳ lớp pooling hay chuẩn hóa nào.
+
+FC1 và FC2 là hai lớp fully connected, mỗi lớp có 4.096 neuron. Đầu vào của FC6 là vector phẳng 9.216 chiều từ đầu ra của CONV5. Cả hai lớp đều áp dụng dropout với xác suất bỏ 0,5 trong quá trình huấn luyện để tránh overfitting.
+
+FC3 (Softmax) là lớp đầu ra với 1.000 neuron tương ứng với 1.000 danh mục đối tượng của ImageNet, đi qua hàm softmax để cho ra phân phối xác suất.
+
+Toàn bộ mạng sử dụng hàm kích hoạt ReLU không bão hòa thay vì tanh hay sigmoid thông thường, giúp tốc độ huấn luyện nhanh hơn đáng kể. Tổng số tham số của mạng vào khoảng 60 triệu, gấp khoảng 1.000 lần so với LeNet-5.
+
+Ảnh hưởng
+
+Tại Hội nghị Thị giác Máy tính châu Âu (ECCV) năm 2012, ngay sau chiến thắng của AlexNet, nhà nghiên cứu Yann LeCun mô tả mô hình này là "một bước ngoặt không thể phủ nhận trong lịch sử thị giác máy tính". Tính đến đầu năm 2025, bài báo AlexNet đã được trích dẫn hơn 184.000 lần theo Google Scholar.
+
+AlexNet có ảnh hưởng lớn đến các nghiên cứu tiếp theo, đặc biệt trong việc áp dụng mạng thần kinh tích chập cho thị giác máy tính và sử dụng GPU để tăng tốc học sâu . Tại thời điểm công bố, chưa có framework nào hỗ trợ huấn luyện và suy luận mạng thần kinh trên GPU. Mã nguồn AlexNet được phát hành theo giấy phép BSD và được sử dụng rộng rãi trong nghiên cứu mạng thần kinh trong nhiều năm tiếp theo.
+
+Một hướng nghiên cứu tiếp theo nhằm huấn luyện các CNN ngày càng sâu hơn với hiệu suất ngày càng cao hơn trên ImageNet, bao gồm GoogLeNet (2014), VGGNet (2014), Highway network (2015), và ResNet (2015). Một hướng khác nhằm tái tạo hiệu suất của AlexNet với chi phí tính toán thấp hơn, bao gồm SqueezeNet (2016), MobileNet (2017), và EfficientNet (2019).
+
+Geoffrey Hinton, Ilya Sutskever và Alex Krizhevsky sau đó thành lập công ty DNNResearch và bán lại cho Google, cùng với mã nguồn AlexNet. Phiên bản gốc của AlexNet năm 2012, tại thời điểm giành chiến thắng tại ImageNet, đã được phát hành theo giấy phép BSD-2 thông qua Bảo tàng Lịch sử Máy tính .
+
+Tham khảo
+
+1 2 3 4 5 6 7 Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey E. (2012). "ImageNet classification with deep convolutional neural networks" (PDF) . Communications of the ACM . 60 (6): 84– 90. doi : 10.1145/3065386 .
+
+↑ "ImageNet Large Scale Visual Recognition Competition 2012 (ILSVRC2012)" . image-net.org .
+
+1 2 3 Zhang, Aston; Lipton, Zachary; Li, Mu; Smola, Alexander J. (2024). "8.1. Deep Convolutional Neural Networks (AlexNet)" . Dive into deep learning . Cambridge University Press. ISBN 978-1-009-38943-3 .
+
+1 2 3 4 "How a stubborn computer scientist accidentally launched the deep learning boom" . Ars Technica . ngày 11 tháng 11 năm 2024.
+
+1 2 hhackford (ngày 20 tháng 3 năm 2025). "CHM Releases AlexNet Source Code" . CHM .
+
+↑ "AlexNet paper on Google Scholar" .
+
+↑ Szegedy, Christian; Wei Liu; Yangqing Jia; Sermanet, Pierre; Reed, Scott; Anguelov, Dragomir; Erhan, Dumitru; Vanhoucke, Vincent; Rabinovich, Andrew (tháng 6 năm 2015). "Going deeper with convolutions" . IEEE: 1– 9. doi : 10.1109/CVPR.2015.7298594 . ISBN 978-1-4673-6964-0 . {{ Chú thích tập san học thuật }} : Chú thích journal cần | journal= ( trợ giúp )
+
+↑ Simonyan, Karen; Zisserman, Andrew (2015). "Very Deep Convolutional Networks for Large-Scale Image Recognition" . arXiv . 1409.1556.
+
+↑ Srivastava, Rupesh Kumar; Greff, Klaus; Schmidhuber, Jürgen (2015). "Training Very Deep Networks" . Advances in Neural Information Processing Systems . 28 . doi : 10.48550/arXiv.1507.06228 .
+
+↑ He, Kaiming; Zhang, Xiangyu; Ren, Shaoqing; Sun, Jian (tháng 6 năm 2016). "Deep Residual Learning for Image Recognition" . CVPR . IEEE: 770– 778. doi : 10.1109/CVPR.2016.90 . ISBN 978-1-4673-8851-1 .
+
+↑ Iandola, Forrest N.; Han, Song; Moskewicz, Matthew W.; Ashraf, Khalid; Dally, William J.; Keutzer, Kurt (2016). "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size" . arXiv . 1602.07360. doi : 10.48550/arXiv.1602.07360 .
+
+↑ Howard, Andrew G.; Zhu, Menglong; Chen, Bo; Kalenichenko, Dmitry; Wang, Weijun; Weyand, Tobias; Andreetto, Marco; Adam, Hartwig (2017). "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications" . arXiv . 1704.04861. doi : 10.48550/arXiv.1704.04861 .
+
+↑ Tan, Mingxing; Le, Quoc V. (2019). "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks". Proceedings of the 36th International Conference on Machine Learning (ICML) . tr. 6105– 6114. doi : 10.48550/arXiv.1905.11946 .
+
+↑ "computerhistory/AlexNet-Source-Code" . Computer History Museum. ngày 22 tháng 3 năm 2025.

@@ -15,7 +15,9 @@ Dùng embedding và vector store từ Day 6 để xây một agent biết tìm b
 - Corpus: 30 bài Wikipedia tiếng Việt, 334.955 ký tự chuẩn hóa, CC BY-SA 4.0.
 - Chunk dùng cho Day 7: strategy B, paragraph-aware tối đa 1.000 ký tự, 418 chunks.
 - Embedding: `bkai-foundation-models/vietnamese-bi-encoder`, revision `84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0`, 768 chiều, chạy local.
-- Store: PostgreSQL 16 + pgvector 0.8.7, bảng `day06_chunks_vi`, exact cosine search.
+- Store: PostgreSQL 16 + pgvector 0.8.7 chạy độc lập trong Day 7, bảng
+  `day07_base_chunks`, exact cosine search. Upsert 418/418 chunks có thể chạy lại
+  mà không sinh bản ghi trùng.
 
 Các giá trị trên là bất biến đầu vào. Nếu phải đổi corpus, model hoặc index, bài
 làm sẽ ghi thành một thí nghiệm mới thay vì âm thầm thay thế baseline.
@@ -56,6 +58,24 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 2. Tạo repo cá nhân theo [cách nộp bài](SUBMISSION.md), chuẩn bị đầu ra Day 6 và model hỗ trợ tool calling.
 3. Dùng hoặc thay thế [starter](starter/README.md); bạn cần kết nối model và vector store thật.
 4. Chạy `python -m unittest discover -s tests -v`. Test mock chỉ kiểm tra code, không phải benchmark agent thật.
+
+### Tái lập CP1
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python scripts/download_models.py
+docker compose -p day7_agentic_rag -f infra/docker-compose.yml up -d
+python scripts/build_base_index.py
+python scripts/download_advanced_source.py
+python scripts/build_base_benchmark.py
+python scripts/build_advanced_benchmark.py
+python scripts/validate_cp1.py
+```
+
+Model và PDF được tải vào thư mục bị Git ignore; source manifest, checksum, benchmark,
+code và metadata index được nộp để người chấm tái lập. CP1 chưa dùng test để chọn cấu hình.
 
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 

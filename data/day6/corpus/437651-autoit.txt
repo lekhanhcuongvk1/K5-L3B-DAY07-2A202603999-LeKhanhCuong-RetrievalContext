@@ -1,0 +1,67 @@
+AutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.
+
+Ngôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.
+
+Một tập lệnh tự động hóa AutoIt có thể được chuyển đổi thành một tệp thực thi được nén, độc lập có thể chạy trên máy tính ngay cả khi chúng không được cài đặt trình thông dịch AutoIt. Một loạt các thư viện chức năng (được gọi là UDF, hoặc "User Defined Functions") cũng được bao gồm dưới dạng tiêu chuẩn hoặc có sẵn trên trang web để thêm chức năng chuyên biệt. AutoIt cũng được phân phối với một IDE dựa trên trình soạn thảo SciTE miễn phí. Trình biên dịch và văn bản trợ giúp được tích hợp đầy đủ và cung cấp môi trường tiêu chuẩn trên thực tế cho các nhà phát triển sử dụng AutoIt.
+
+Tính năng
+
+Ở đây là các tính năng chính:
+
+Dễ học vì các cú pháp đơn giản.
+
+Giả lập được các hành động nhấn phím và di chuyển chuột.
+
+Thao tác được với các tiến trình và cửa sổ.
+
+Tương tác được với các control trên cửa sổ.
+
+Tệp tin kịch bản có thể được biên dịch thành một tệp tin thực thi duy nhất.
+
+Cho phép tạo GUI - giao diện đồ họa người dùng.
+
+Hỗ trợ COM (Component Object Model).
+
+Hỗ trợ Biểu thức chính quy ( Regular Expression ).
+
+Gọi một cách có định hướng các tệp tin DLL mở rộng và các hàm API .
+
+Tài liệu chi tiết và cộng đồng hỗ trợ lớn.
+
+Tương thích với tất cả phân hệ của Windows.
+
+Hỗ trợ Unicode và x64.
+
+Làm việc với User Account Control (UAC) trên Windows Vista .
+
+AutoIt được thiết kế sao cho nhỏ nhất có thể và không cần dùng đến các tệp tin DLL mở rộng hoặc Registry để nó có thể an toàn khi chạy trên các Server. Các tệp tin kịch bản có thể được biên dịch thành tệp tin thực thi (*.exe) với công cụ Aut2Exe.
+
+Sự kết hợp các COM và DLL từ việc gọi AutoItX cho phép bạn thêm các tính năng độc nhất vào các đoạn kịch bản hay ngôn ngữ lập trình yêu thích.
+
+Điểm yếu
+
+Ngoài các thuận lợi nêu ở trên, AutoIt cũng mắc phải một số điểm yếu khiến người dùng vô cùng khó chịu:
+
+Hệ thống dữ liệu không định kiểu: AutoIt không định nghĩa kiểu dữ liệu cho các biến, điều này là 1 thuận lợi khá lớn cho người không chuyên nghiệp nhưng đối với những người chuyên nghiệp thì thực sự rất khó chịu vì rất khó debug.
+
+Dễ bị Decompile: Khi biên dịch, mã nguồn của AutoIt bị nén luôn vào tệp tin thực thi, dù có được mã hóa đi nữa nhưng vẫn dễ dàng để decompile, một số lập trình viên có trình độ thường phải dùng thêm một số thủ thuật để khắc phục.
+
+Thường bị các chương trình diệt Vi-rút nhận diện là mã độc.
+
+Chú thích
+
+↑ "AutoIt Downloads" .
+
+↑ "AutoIt v3.3.15.3 Beta" . AutoIt. ngày 16 tháng 5 năm 2020 . Truy cập ngày 29 tháng 5 năm 2020 .
+
+↑ Reply by Jon (AutoIt creator) to a forum topic discussing correct pronunciation
+
+↑ Kaplan, Steve (2003). Citrix Metaframe Access Suite for Windows Server 2003 . New York: McGraw-Hill. ISBN 0-07-219566-5 .
+
+↑ https://www.autoitscript.com/wiki/User_Defined_Functions
+
+Liên kết ngoài
+
+Website chính thức
+
+AutoIt trên Facebook

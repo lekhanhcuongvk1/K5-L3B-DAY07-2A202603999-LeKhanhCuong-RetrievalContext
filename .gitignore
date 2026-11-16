@@ -5,6 +5,11 @@ __pycache__/
 .env.*
 !.env.example
 .codex-log/
+.cache/
+tmp/
+
+# Reproducible external source: keep manifest/scripts, not downloaded binaries.
+advanced/source/*.pdf
 
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/

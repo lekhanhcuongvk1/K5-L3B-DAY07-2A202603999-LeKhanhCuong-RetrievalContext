@@ -1,0 +1,77 @@
+Trong việc lập trình, các ngôn ngữ lập trình thường được coi là kiểu yếu hoặc kiểu mạnh . Nói chung thì các khái niệm này không có định nghĩa chính xác cụ thể. Thực ra, người ta lại có xu hướng dùng chúng để ủng hộ hoặc phê bình một ngôn ngữ lập trình nào đó bằng việc giải thích tại sao ngôn ngữ này tốt hơn (kém hơn) ngôn ngữ khác qua tính mạnh yếu về kiểu.
+
+Lịch sử
+
+Vào năm 1974, Liskov và Zilles mô tả một ngôn ngữ lập trình "kiểu mạnh" là ở ngôn ngữ đó "mỗi khi một đối tượng được truyền từ hàm đang gọi sang hàm được gọi, kiểu của nó phải tương thích với kiểu khai báo trong nguyên mẫu của hàm được gọi." Jackson viết, "Trong một ngôn ngữ kiểu mạnh, mỗi loại dữ liệu có một kiểu riêng biệt và mỗi tiến trình sẽ đề ra các yêu cầu để giao tiếp bằng các kiểu này."
+
+Định nghĩa về "mạnh" và "yếu"
+
+Người ta coi một số quyết định khi thiết kế ngôn ngữ lập trình là bằng chứng cho tính "mạnh" hay "yếu". Thật vậy, nhiều trong số chúng được hiểu một cách chính xác là sự tồn tại hay không tồn tại của tính an toàn kiểu , tính an toàn trong truy cập bộ nhớ , việc kiểm tra kiểu tĩnh (hoặc động), v.v.
+
+Chuyển kiểu tự động và ép kiểu
+
+Một số ngôn ngữ lập trình cho phép người lập trình sử dụng một giá trị ở kiểu này như thể nó ở một kiểu khác. Việc này đôi khi được coi là "kiểu yếu".
+
+Ví dụ: Aahz Maruch viết rằng " việc ép kiểu xảy ra khi bạn có một ngôn ngữ kiểu tĩnh và bạn dùng các tính năng có từ cú pháp để buộc nó sử dụng đối tượng kiểu này như kiểu khác (như việc sử dụng con trỏ void* khá phổ biến trong C). Việc ép kiểu thường được coi là dấu hiệu của kiểu yếu. Trong khi đó, việc chuyển đổi kiểu tạo ra một đối tượng hoàn toàn mới ở kiểu thích hợp "
+
+Một ví dụ khác: GCC miêu tả việc này là chơi kiểu (type-punning) và cảnh báo rằng nó sẽ bẻ vỡ tính chặt chẽ trong việc ánh xạ dữ liệu . Thiago Macieira nêu ra nhiều vấn đề có thể xảy ra khi việc chơi kiểu khiến trình biên dịch sai lầm trong việc tối ưu hoá chương trình xuất.
+
+Tuy việc tập trung vào cú pháp dễ hơn, nhưng lý luận của Macieira thực sự là về ngữ nghĩa chương trình. Có nhiều ngôn ngữ cho phép việc chuyển kiểu ngầm, nhưng khác là theo một cách đảm bảo tính an toàn về kiểu. Ví dụ: cả C++ và C# cho phép chương trình định nghĩa các toán tử để chuyển đổi giá trị từ kiểu này sang kiểu khác theo một cách có ý nghĩa (như từ số thực sang số nguyên: ta tiến hành làm tròn, kiểm tra phạm vi giá trị, tạo ra biến nguyên mới và gán giá trị đã xử lý). Khi một trình dịch gặp thao tác chuyển như vậy, nó coi thao tác này như một phép gọi hàm thông thường. Trái lại, việc chuyển một giá trị sang kiểu void* của C là một thao tác không an toàn nhưng trình biên dịch lại không phát hiện được.
+
+Con trỏ
+
+Một số ngôn ngữ lập trình không quản lý con trỏ chặt chẽ mà lại cho phép người dùng thao tác trên chúng như các giá trị số thông thường. Các ngôn ngữ này nhiều khi được coi là "kiểu yếu", vì người dùng có thể dùng các thao tác con trỏ để tránh né hệ thống kiểu của ngôn ngữ (tạo con trỏ thuộc kiểu này và một giá trị kiểu khác, sau đó trỏ con trỏ về biến đó; như thế ta có thể thao tác với giá trị kiểu khác dưới dạng kiểu này).
+
+Kiểu hợp nhất (union)
+
+Một số ngôn ngữ lập trình cho phép sử dụng Kiểu và khai báo biến trong C# Kiểu hợp nhất kiểu hợp nhất . Kiểu này cho phép một giá trị thuộc một kiểu được dùng như giá trị thuộc kiểu khác. Trong bài viết có tựa đề A hacked Boolean , Bill McCarthy mô tả cách mà giá trị kiểu boolean trong .NET có thể bị "hỏng", khiến cho hai giá trị đều là "đúng" vẫn có thể bị coi là khác nhau.
+
+Kiểm tra kiểu động
+
+Kiểm tra kiểu động là thủ tục kiểm tra kiểu của giá trị trong quá trình chạy; kiểm tra kiểu tĩnh là thủ tục kiểm tra kiểu của giá trị trong lúc biên dịch.
+
+Một số ngôn ngữ lập trình không kiểm tra kiểu tĩnh. Bằng những ngôn ngữ đó, ta có thể dễ dàng viết các chương trình "khác thường" mà thủ tục kiểm tra kiểu tĩnh thông thường sẽ ngăn chặn. Ví dụ: một biến có thể lưu giá trị số lẫn logic "sai". Một số lập trình viên coi các ngôn ngữ này là "kiểu yếu", vì chúng có vẻ như không thi hành các biện pháp để đảm bảo tính nghiêm ngặt về kiểu có trong các ngôn ngữ có thủ tục kiểm tra kiểu tĩnh.
+
+Kiểm tra kiểu tĩnh
+
+Trong bài viết Typeful Programming của Luca Cardelli , một "hệ thống kiểu mạnh" được mô tả là một hệ thống trong đó lỗi về kiểu trong quá trình chạy không thể xảy ra. Nói cách khác, sự tồn tại của lỗi chạy chưa được phát hiện được coi là tính an toàn hay an toàn về kiểu ; những bài viết đầu tiên của Tony Hoare gọi đặc tính này là tính bảo mật .
+
+Tính dự đoán được
+
+Một số lập trình viên coi một ngôn ngữ là "yếu về kiểu" nếu các thao tác đơn giản không thực thi theo cách họ mong đợi. Xem chương trình ví dụ sau đây:
+
+Các ngôn ngữ lập trình khác nhau sẽ gán các giá trị khác nhau vào 'x':
+
+Một ngôn ngữ có thể chuyển số 6 thành chuỗi, rồi ghép nó với chuỗi "5" tạo thành chuỗi "56".
+
+Một ngôn ngữ khác có thể chuyển "5" thành số, rồi cộng nó với số 6 tạo thành số 11.
+
+Một ngôn ngữ nọ lại có thể chuyển chuỗi "5" thành một con trỏ chỉ địa chỉ lưu chuỗi trong bộ nhớ, và cộng số 6 với địa chỉ đó, tạo thành một địa chỉ linh tinh.
+
+Một ngôn ngữ kia có thể sẽ không biên dịch chương trình này và thông báo rằng hai toán hạng có kiểu không tương thích.
+
+Các ngôn ngữ hoạt động giống ba ví dụ đầu nhiều khi đều được gọi là "kiểu yếu", cho dù chỉ một trong ba, cụ thể là cái thứ ba, vì gây mất an toàn.
+
+Suy đoán kiểu
+
+Các ngôn ngữ có hệ thống kiểu tĩnh (đối lập với kiểu động) yêu cầu người dùng tự khai báo tất cả các kiểu họ dùng trong chương trình. Một số ngôn ngữ như C yêu cầu ta khai báo kiểu cho từng biến. Một số ngôn ngữ khác như Haskell dùng phương pháp Hindley-Milner để suy đoán kiểu dựa trên một quá trình phân tích. Các ngôn ngữ như C# và C++ nằm khoảng giữa hai nhóm đó: một số kiểu có thể được suy đoán dựa trên thông tin liên quan, nhưng một số khác lại phải được khai báo rõ ràng. Một số lập trình viên gọi các ngôn ngữ suy đoán kiểu là "kiểu yếu", (thường) không biết rằng thông tin về kiểu có tồn tại, chỉ là ở dạng ngầm.
+
+Sự khác nhau giữa các ngôn ngữ lập trình
+
+Lưu ý rằng một số định nghĩa trên mâu thuẫn với nhau, một số lại trực giao, và một số khác lại chỉ là trường hợp đặc biệt của một số định nghĩa "mở" (ít rõ ràng) khác. Vì sự phân hóa trong các định nghĩa này, ta có thể bào chữa cho hầu hết luận điểm về tính mạnh yếu về kiểu của phần lớn ngôn ngữ lập trình.
+
+Vì lý do này, tác giả khi muốn viết một cách chính xác về hệ thống kiểu thường tránh từ "kiểu mạnh" và dùng các từ như "tính an toàn kiểu" thay vào đó.
+
+Tham khảo
+
+↑ Liskov, B; Zilles, S (1974). "Programming with abstract data types". ACM Sigplan Notices . CiteSeer x : 10.1.1.136.3043 .
+
+↑ Jackson, K. (1977). "Parallel processing and modular software construction" . Lecture Notes in Computer Science . Lecture Notes in Computer Science. Quyển 54. tr. 436– 443. doi : 10.1007/BFb0021435 . ISBN 3-540-08360-X .
+
+↑ Typing: Strong vs. Weak, Static vs. Dynamic
+
+↑ "Type-punning and strict-aliasing, Thiago Macieira" . Bản gốc lưu trữ ngày 27 tháng 10 năm 2014 . Truy cập ngày 5 tháng 11 năm 2013 .
+
+↑ "A hacked Boolean" . Bản gốc lưu trữ ngày 11 tháng 11 năm 2013 . Truy cập ngày 5 tháng 11 năm 2013 .
+
+↑ ftp://gatekeeper.research.compaq.com/pub/DEC/SRC/research-reports/SRC-045.pdf trang 3

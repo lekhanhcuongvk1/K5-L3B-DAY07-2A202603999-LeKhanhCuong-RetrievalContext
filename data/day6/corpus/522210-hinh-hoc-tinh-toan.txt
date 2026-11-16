@@ -1,0 +1,53 @@
+Hình học tính hay Hình học tính toán là một phần của toán học rời rạc xem xét các thuật toán giải các bài toán hình học. Trong hình học tính, những bài toán như phép đo tam giác , phép dựng bao lồi, xác định tính thuộc của một đối tượng đối với đối tượng khác, tìm kiếm sự giao nhau của chúng, v.v. được xem xét, dựa trên các đối tượng hình học như: điểm , đoạn thẳng , đa giác , đường tròn ,...
+
+Hình học tính được ứng dụng trong nhận dạng mẫu , đồ họa máy tính , thiết kế kĩ thuật,...
+
+Số học véctơ
+
+Ở đây chúng ta xét trường hợp hệ tọa độ Đê-các bình thường.
+
+Độ dài véctơ a → = ( x , y , z ) được ký hiệu là | a → | = x 2 + y 2 + z 2 .
+
+Đối với hai véctơ a → = ( x 1 , y 1 , z 1 ) và b → = ( x 2 , y 2 , z 2 ) tổng của chúng được xác định là a → + b → = ( x 1 + x 2 , y 1 + y 2 , z 1 + z 2 ) .
+
+Phép nhân véctơ a → = ( x , y , z ) với một đại lượng vô hướng được xác định là b → = k a → = ( k x , k y , k z ) . Ở đây độ dài véctơ thay đổi | k | lần. Nếu k < 0, thì hướng của véctơ thay đổi theo chiều ngược lại.
+
+Tích vô hướng của các véctơ a → = ( x 1 , y 1 , z 1 ) và b → = ( x 2 , y 2 , z 2 ) bằng x 1 x 2 + y 1 y 2 + z 1 z 2 .
+
+Tích vectơ của các véctơ a → = ( x 1 , y 1 ) và b → = ( x 2 , y 2 ) bằng { y 1 z 2 − z 1 y 2 , z 1 x 2 − x 1 z 2 , x 1 y 2 − y 1 x 2 } . Đây là phép toán duy nhất, trong đó sự thu nhỏ kích thước (số chiều) không gian không dẫn đến loại bỏ tọa độ thứ ba (thay thế nó bằng 0). Thông thường đối với các véctơ hai chiều, người ta sẽ lấy tọa độ thứ ba tương ứng với các véctơ ba chiều làm giá trị của tích véctơ: x 1 y 2 − x 2 y 1 .
+
+Vị trí tương đối của điểm và đường thẳng
+
+Tọa độ cực
+
+Các dạng đa giác
+
+Các thuật toán
+
+Xem thêm
+
+Chú thích
+
+Tham khảo
+
+Прапарата Ф., Шеймос М. Computational Geometry An introduction [ Вычислительная геометрия: Введение ] (bằng tiếng Nga). Moskva: Мир. tr. 478.
+
+Ласло М. Вычислительная геометрия и компьютерная графика на C++ (bằng tiếng Nga). Moskva: БИНОМ. tr. 304.
+
+Скворцов А.В. Триангуляция Делоне и ее применение (bằng tiếng Nga). Томск: Издательство Томского университета. tr. 128.
+
+Кормен, Томас Х., Лейзерсон, Чарльз И., Ривест, Рональд Л., Штайн, Клифорд. " Глава 33. Вычислительная геометрия ". Introduction to Algorithms [ Алгоритмы: построение и анализ ] (bằng tiếng Nga) (ấn bản thứ 2). Moskva: «Вильямс» . tr. 304. ISBN 5-8459-0857-4 . {{ Chú thích sách }} : Quản lý CS1: nhiều tên: danh sách tác giả ( liên kết )
+
+Mark de Berg, Marc van Kreveld, Mark Overmars, Otfried Schwarzkopf. Computational Geometry: Algorithms and Applications . Springer. tr. 368. {{ Chú thích sách }} : Quản lý CS1: nhiều tên: danh sách tác giả ( liên kết )
+
+David M. Mount. Computional Geometry . University of Maryland. tr. 122.
+
+Elmar Langetepe, Gabriel Zachmann. Geometric Data Structures for Computer Graphics . A K Peters. tr. 362. ISBN 1568812353 .
+
+Hormoz Pirzadeh. Computational Geometry with the Rotating Calipers . McGill University. tr. 118.
+
+Jacob E. Goodman, Joseph O'Rourke. Handbook of Discrete and Computational Geometry . CRC Press LLC. tr. 956.
+
+Jianer Chen. Computational Geometry: Methods and Applications . Texas A&M University. tr. 228.
+
+Joseph O'Rourke. Computational Geometry in C . Cambridge University Press. tr. 362.

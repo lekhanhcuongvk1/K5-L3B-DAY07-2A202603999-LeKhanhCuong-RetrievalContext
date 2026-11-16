@@ -1,0 +1,127 @@
+Batch là một ngôn ngữ lập trình được dựa trên các tập tin thực thi batch (*.bat, *.cmd,...) để chạy. Chúng sẽ được thực thi dưới dạng một cửa sổ Command Prompt để chạy những dòng lệnh. Batch cũng có thể rất nguy hiểm nếu sử dụng không đúng cách (xoá toàn bộ ổ cứng, làm tắt internet vĩnh viễn,...) thậm chí còn có thể làm hư cả hệ điều hành. Batch có thể được viết bằng các phần mềm chỉnh sửa văn bản đơn giản như Notepad , Sublime Text , v.v...
+
+Lịch sử
+
+Batch được giới thiệu cùng với hệ điều hành MS-DOS , với khả năng thực hiện nhiều câu lệnh hàng loạt thay vì chạy từng câu lệnh như trước đây.
+
+Batch cho đến nay vẫn còn được sử dụng trên các hệ điều hành Mircosoft Windows , với nhiều cải tiến như khả năng thực hiện các phép tính, đọc dữ liệu từ bàn phím hay thay đổi màu sắc trên cửa sổ Command Prompt.
+
+Cú pháp
+
+Do một chương trình Batch là tập hợp các câu lệnh, nên cú pháp của nó rất đơn giản:
+
+Trong Batch có một số câu lệnh đặc biệt, thường hay được sử dụng trong nhiều chương trình:
+
+Ví dụ
+
+Muốn viết được chương trình Hello World, ta có thể sử dụng ví dụ đơn giản dưới đây:
+
+Trong đó:
+
+@: Làm cho câu lệnh không hiển thị ra màn hình (VD: "C:\> echo off" sẽ được ẩn đi trong dòng lệnh này)
+
+echo off: Chuyển chế độ sang ẩn câu lệnh (tức là dấu "@" sẽ được thêm vào trước các câu lệnh)
+
+Là câu lệnh xoá màn hình.
+
+Là câu lệnh dùng để hiển thị tên của cửa sổ Command Prompt. Trong trường hợp này, cửa sổ có tên là Hello World
+
+Là câu lệnh đổi màu chữ để tăng vẻ đẹp cho chương trình. Chữ thứ nhất chỉ định cho màu nền (0), chữ thứ hai chỉ định cho màu chữ (2). Chúng ta có thể thay thế số 2 bằng các màu khác:
+
++ 0 là đen (màu ngầm định của nền)
+
++ 1 là màu xanh dương
+
++ 2 là màu xanh lá cây
+
++ 3 là màu xanh mòng biển
+
++ 4 là màu đỏ
+
++ 5 là màu tím hồng
+
++ 6 là màu vàng
+
++ 7 là màu trắng (màu ngầm định của chữ)
+
++ 8 là màu xám
+
++ 9 là màu xanh dương sáng
+
++ A là màu xanh lá cây sáng
+
++ B là màu xanh mòng biển sáng
+
++ C là màu đỏ sáng
+
++ D là màu hồng sáng
+
++ E là màu vàng sáng
+
++ F là màu trắng sáng
+
+echo là câu lệnh viết lên màn hình. Trong ví dụ này ta viết lên màn hình dòng chữ Hello world.
+
+Tuy nhiên, echo off và echo on thì không thể viết lên màn hình được.
+
+Có thể sử dụng echo. để xuống dòng.
+
+Đặt biến và nhập dữ liệu
+
+Trong mọi ngôn ngữ lập trình, biến là không thể thiếu, Batch cũng không ngoại lệ. Cách để khai báo biến:
+
+Trong đó:
+
+a là giá trị của biến là số hoặc chuỗi.
+
+b là giá trị của biến là số.
+
+Ví dụ:
+
+Sử dụng biến để tính toán
+
+Bạn có thể sử dụng biến để tính các phép tính đơn giản. Tuy nhiên, điểm hạn chế là nó không hỗ trợ số thập phân.
+
+Ví dụ:
+
+Sử dụng biến để cắt và thay thế chữ
+
+Việc thay thế chữ (hoặc cắt chữ) cũng rất quan trọng.:
+
+Điều đặc biệt là bạn có thể làm như vậy với biến số.
+
+Đọc biến nhập từ bàn phím
+
+Nếu bạn có dự định làm một phần mềm viết bằng Batch, thì bạn cũng có thể đọc dữ liệu từ bàn phím
+
+Tuy nhiên, việc đọc từ mật khẩu từ bàn phím không phải là lựa chọn tốt nhất để làm một chương trình khóa các tệp.
+
+Một số từ khóa trong Batch
+
+ver: Trả về phiên bản MS-DOS đang sử dụng
+
+cd: Chuyển hướng thư mục đang làm việc
+
+cls: Xóa màn hình MS-DOS
+
+copy: Sao chép file
+
+del: Xóa file
+
+dir: Hiển thị nội dùng của một thư mục
+
+echo: Hiển thị văn bản trên màn hình MS-DOS
+
+exit: Thoát chương trình
+
+md: Tạo một thư mục mởi vị trí hiện tại đang làm việc
+
+pause: Ngăn không cho chương trình thoát và đợi cho tới khi bất kì phím nào trên bàn phím đucợ nhấn
+
+Gọi tên một chương trình Batch khác
+
+Nếu bạn có nhiều chương trình batch trong 1 thư mục, thì bạn cũng có thể gọi cái chương trình ấy ra mà không làm cho chương trình của bạn bị thoát.
+
+Sử dụng bằng lệnh "call <tên chương trình> <các biến>"
+
+Nó còn có thể gọi được tất cả các lệnh của batch nữa. (call echo Hello World)

@@ -6,8 +6,8 @@
 
 - Nguồn Day 6: 30 bài Wikipedia tiếng Việt, CC BY-SA 4.0, snapshot `vi-wikipedia-computing-snapshot-2026-11-13`, 418 chunks strategy B.
 - Vector store và embedding: PostgreSQL 16 + pgvector 0.8.7; `bkai-foundation-models/vietnamese-bi-encoder` revision `84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0`, 768 chiều, cosine exact search.
-- Agent model, cách chạy và phân chia dev/test: sẽ được điền sau khi benchmark và provider được khóa trên Dev.
-- Cách xác định câu có/thiếu evidence và tiêu chí chấm: benchmark Day 7 mới sẽ được kiểm chứng trên toàn corpus và khóa checksum trước retrieval; không đưa gold vào agent hoặc query.
+- Agent model sẽ được khóa ở checkpoint sau. Benchmark cơ bản đã được khóa trước retrieval: Dev 18 câu có đáp án + 3 câu thiếu evidence, Test 6 + 3; checksum nằm ở `benchmark/base_freeze.json`.
+- Mỗi câu có đáp án được đối chiếu với evidence trong snapshot 418 chunks. Câu thiếu evidence được dò trên toàn snapshot. Gold không được đưa vào agent, query hoặc filter.
 
 ## Retrieval và thử nghiệm
 
@@ -38,9 +38,9 @@ Một cấu hình có thể đồng thời là phương pháp mới và cải th
 
 ## Thử thách nâng cao
 
-- Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản: sẽ khóa trước khi trích xuất.
+- Tài liệu đã khóa: *Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy*, World Bank và Bộ Kế hoạch và Đầu tư, 2016, DOI `10.1596/978-1-4648-0824-1`, 409 trang vật lý, CC BY 3.0 IGO. URL, SHA-256 và attribution nằm ở `advanced/source_manifest.json`.
 - Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý: sẽ được ghi từ pipeline thực tế.
-- Benchmark riêng gồm 20 Dev và 30 Test; Test có 24 câu có đáp án và 6 câu thiếu bằng chứng, được khóa trước thử nghiệm.
+- Benchmark riêng đã khóa gồm 20 Dev (17 có đáp án, 3 thiếu evidence) và 30 Test (24 có đáp án, 6 thiếu evidence). Test có đúng 6 câu bảng, 5 ảnh/sơ đồ, 5 biểu đồ, 4 multi-hop và 4 text; từng gold locator có trang, vùng, bounding box và đoạn trích từ PDF gốc.
 
 | Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
 |---|---|---|---|

@@ -1,0 +1,237 @@
+AlphaFold là một hệ thống trí tuệ nhân tạo (AI) do Google DeepMind phát triển nhằm dự đoán cấu trúc 3D của protein dựa trên trình tự amino acid . Nó được xây dựng dựa trên kỹ thuật học sâu .
+
+DeepMind đã phát triển ba phiên bản chính của AlphaFold, mỗi phiên bản đều giành vị trí dẫn đầu tại cuộc thi Đánh giá Độ quan trọng của Dự đoán Cấu trúc Protein ( Critical Assessment of Structure Prediction , CASP). AlphaFold 1, ra mắt năm 2018, đứng đầu CASP13. AlphaFold 2, ra mắt năm 2020, đứng đầu CASP14 với độ chính xác được đánh giá là ngang bằng các phương pháp thực nghiệm nhưng trên nhiều mục tiêu dự đoán hơn. AlphaFold 3, công bố năm 2024 và phát triển cùng Isomorphic Labs , mở rộng khả năng dự đoán sang cả các phức hợp protein như DNA , RNA và nhiều loại phân tử khác.
+
+Năm 2024, hai lãnh đạo nhóm nghiên cứu của Google DeepMind trong dự án Alphafold Demis Hassabis và John Jumper được trao một nửa giải Nobel Hóa học "cho công trình dự đoán cấu trúc protein", nửa giải còn lại thuộc về David Baker "cho công trình thiết kế protein bằng tính toán".
+
+Bối cảnh
+
+Protein được cấu thành từ các chuỗi amino acid tự cuộn gập lại để hình thành cấu trúc không gian ba chiều. Cấu trúc ba chiều này quyết định phần lớn chức năng sinh học của protein, nên việc biết được cấu trúc là điều kiện cần để hiểu protein hoạt động như thế nào.
+
+Trước khi AlphaFold ra đời, việc xác định cấu trúc protein bằng thực nghiệm thông qua các phương pháp truyền thống như nhiễu xạ tia X , kính hiển vi điện tử lạnh ( Cryo-electron microscopy ) hay cộng hưởng từ hạt nhân thường rất tốn kém và mất nhiều thời gian trong khi chỉ xác định được một mẫu duy nhất mỗi lần thử. Chính vì vậy, trong hơn 60 năm, giới khoa học mới chỉ xác định được cấu trúc của khoảng 170.000 protein, trong khi có hơn 200 triệu protein đã biết trên toàn bộ các dạng sự sống. Đây là lý do khiến bài toán dự đoán cấu trúc protein bằng tính toán thuần túy mà không cần qua thực nghiệm đã trở thành một thách thức lớn của sinh học trong nhiều thập kỷ.
+
+Giới nghiên cứu đã phát triển nhiều phương pháp tính toán để dự đoán cấu trúc ba chiều của protein chỉ từ trình tự amino acid, thay vì phải xác định bằng thực nghiệm. Phương pháp thành công nhất trước AlphaFold là mô hình hóa đồng đẳng ( homology modeling ), dựa trên nguyên lý tiến hóa phân tử: nếu biết cấu trúc của một protein có trình tự tương đồng, người ta có thể suy ra cấu trúc gần đúng của protein đang cần dự đoán. Trong trường hợp thuận lợi nhất, độ chính xác của cách làm này có thể tiệm cận với các phương pháp thực nghiệm như cộng hưởng từ hạt nhân.
+
+Để theo dõi và thúc đẩy tiến bộ trong lĩnh vực này, cuộc thi CASP được tổ chức hai năm một lần kể từ năm 1994, yêu cầu các nhóm nghiên cứu dự đoán cấu trúc của những protein mà cấu trúc thực nghiệm vừa được xác định nhưng chưa công bố. Vào năm 1994, các dự đoán cho những protein lớn và phức tạp chỉ đạt điểm GDT ( global distance test ) khoảng 20 trên thang 100. Kết quả này được một giám khảo CASP mô tả là "một thảm họa hoàn toàn". Đến năm 2016, nhờ khai thác thông tin từ các cấu trúc protein tương đồng đã biết, các nhóm dẫn đầu mới nâng điểm số này lên khoảng 40 cho nhóm protein khó nhất. AlphaFold bắt đầu tham gia CASP từ năm 2018, sử dụng kỹ thuật học sâu thay vì chỉ dựa vào so sánh tương đồng như các phương pháp trước đó.
+
+Các phiên bản
+
+AlphaFold 1 (2018)
+
+Các phương pháp dựa trên đồng tiến hóa ( co-evolution ) là nền tảng cho cách tiếp cận của AlphaFold. Cách làm như sau: lấy một lượng lớn trình tự amino acid (thường 100.000 đến 1 triệu trình tự) của các protein tương đồng với protein cần dự đoán, rồi xếp thẳng hàng chúng lại. Từ bảng xếp hàng này, người ta tìm ra những cặp vị trí amino acid có xu hướng đột biến cùng nhau qua thời gian tiến hóa – dấu hiệu cho thấy hai vị trí đó nằm gần nhau trong không gian dù cách xa nhau trên chuỗi trình tự. Thế hệ phương pháp đầu tiên dùng cách này chỉ dự đoán nhị phân: hai mắt xích amino acid ( residue ) có gần kề nhau (dưới 0.8 nm) hay không, rồi đưa kết quả vào các công cụ cuộn gập protein như Rosetta hoặc I-TASSER để dựng cấu trúc 3D.
+
+Ngay trước CASP13, một hệ thống tên RaptorX đã cải tiến cách làm trên: thay vì chỉ dự đoán tiếp xúc nhị phân, RaptorX dự đoán xác suất cho từng khoảng cách rời rạc giữa hai mắt xích, rồi chỉ lấy giá trị trung bình và phương sai của phân phối đó để suy ra cận trên/dưới cho khoảng cách, trước khi đưa vào công cụ gấp protein.
+
+AlphaFold đi theo hướng tương tự nhưng khai thác sâu hơn: thay vì chỉ lấy trung bình và phương sai , hệ thống dùng toàn bộ phân phối xác suất khoảng cách làm một hàm thế năng thống kê đặc trưng cho riêng protein đang xét, rồi tối ưu trực tiếp hàm này bằng suy giảm độ dốc (cụ thể là thuật toán L-BFGS) để thu được tọa độ 3D mà không cần tạo ra nhiều cấu trúc ứng viên rồi chọn lọc như Rosetta hay I-TASSER vẫn làm. Đội phát triển ban đầu đã thử các cách phức tạp hơn bằng cách kết hợp lắp ghép đoạn chuỗi ( fragment assembly ) của Rosetta với bộ mã hóa tự động biến phân , nhưng đến giữa kỳ thi CASP13 họ phát hiện ra rằng việc tối ưu hóa trực tiếp bằng suy giảm độ dốc đơn giản đã đủ cho kết quả chính xác. Một điểm kỹ thuật khác là hàm thế năng được chuẩn hóa bằng một "trạng thái tham chiếu" ( reference state ) do chính mạng học được, thay vì dùng trạng thái tham chiếu định sẵn theo kinh nghiệm như các hàm thế năng thống kê truyền thống. Về kiến trúc, AlphaFold 1 sử dụng mạng neuron tích chập ResNet sâu tới hàng trăm lớp sử dụng tích chập giãn nở ( dilated convolution ) để mô hình học được các tương tác xa nhau trên toàn bộ chiều dài trình tự acid.
+
+Tại kỳ thi CASP lần thứ 13 vào tháng 12 năm 2018, AlphaFold đứng đầu bảng xếp hạng chung. Trong nhóm 43 mục tiêu không có cấu trúc mẫu tương đồng sẵn có (nhóm khó nhất theo phân loại của ban tổ chức) AlphaFold đạt điểm TM-score từ 0,7 trở lên cho 24 mục tiêu, trong khi phương pháp tốt thứ hai chỉ đạt mức này cho 14 mục tiêu. Xét trên nhóm mục tiêu khó nhất, AlphaFold đạt điểm GDT trung vị là 58,9, vượt xa hai đội xếp sau với 52,5 và 52,4.
+
+Mã nguồn của AlphaFold 1 không được công bố công khai vào thời điểm thi đấu năm 2018. Đến tháng 1 năm 2020, DeepMind mới phát hành mã nguồn minh họa, kèm ghi chú rằng mã này chỉ chạy được trên bộ dữ liệu CASP13 chứ không thể dùng để dự đoán cấu trúc của một trình tự protein bất kỳ, do phần trích xuất đặc trưng gắn chặt với hạ tầng nội bộ của DeepMind.
+
+AlphaFold 2 (2020)
+
+Thuật toán
+
+AlphaFold 2 là một hệ thống được thiết kế lại hoàn toàn so với AlphaFold 1, tham gia CASP14 dưới tên "AlphaFold2" và không dùng chung kiến trúc với hệ thống dự CASP13. Khối xử lý trung tâm của mạng, gọi là Evoformer, là một biến thể mở rộng của kiến trúc Transformer , kiến trúc mạng neuron dựa trên cơ chế chú ý .
+
+Đầu vào của Evoformer là một bảng căn chỉnh đa chuỗi ( multiple sequence alignment , MSA) thu được bằng cách lấy hàng trăm nghìn đến hàng triệu trình tự của các protein tương đồng, thành một bảng mà trong đó mỗi hàng là một trình tự tương đồng, mỗi cột là một vị trí mắt xích amino acid trên trình tự cần dự đoán. Qua mỗi lớp Evoformer, bảng MSA thô này được biến đổi dần thành một "biểu diễn MSA" ngày càng tinh chỉnh.
+
+Khác với Transformer xử lý ngôn ngữ vốn chỉ có một luồng dữ liệu duy nhất là chuỗi các từ, AlphaFold 2 duy trì song song một luồng dữ liệu thứ hai gọi là "biểu diễn cặp" ( pair representation ). Biểu diễn cặp là một ma trận vuông với kích thước bằng với số mắt xích, trong đó ô ở hàng i cột j chứa một vector mô tả quan hệ không gian giữa mắt xích thứ i và thứ j . Ở mỗi lớp Evoformer, biểu diễn MSA được dùng để cập nhật biểu diễn cặp, và ngược lại biểu diễn cặp cũng quay lại chi phối cơ chế chú ý diễn ra bên trong biểu diễn MSA, khép vòng trao đổi thông tin giữa hai phía.
+
+Vì biểu diễn MSA là một bảng hai chiều chứ không phải một chuỗi một chiều như câu văn, Evoformer không áp dụng cơ chế chú ý theo kiểu so mọi ô trong ma trận chiều ngược với mọi ô trong ma trận chiều xuôi vì chi phí tính toán quá tốt kém, mà dùng kỹ thuật chú ý theo trục ( axial attention ) vốn được phát triển trước đó cho xử lý ảnh trong thị giác máy tính, trong đó phép tính chú ý được tính lần lượt theo từng trục của bảng: một lượt so sánh các cột của ma trận với nhau, một lượt khác so sánh các hàng của ma trận với nhau.
+
+Biểu diễn cặp còn có thêm các phép cập nhật đặc thù với ràng buộc cho hình học không gian. Nếu ba mắt xích amino acid A , B , C ở gần nhau trong không gian ba chiều, khoảng cách giữa ba cặp ( A − B , B − C , A − C ) phải thỏa mãn bất đẳng thức tam giác , tức cạnh này không được dài hơn tổng hai cạnh kia. AlphaFold 2 khai thác ràng buộc này bằng cách tổ chức các phép cập nhật biểu diễn cặp theo từng bộ ba cạnh nối ba đỉnh: một phiên bản dùng cơ chế tự chú ý tam giác ( triangle self-attention , thêm thông tin từ cạnh còn thiếu vào phép tính chú ý của hai cạnh kia) và một phiên bản không dùng chú ý mà chỉ nhân ma trận thông thường nhưng cùng nguyên lý ( triangle multiplicative update rẻ hơn về tính toán). AlphaFold2 dùng cả hai cùng lúc, giúp cho kết quả chính xác hơn là chỉ dùng riêng từng cái.
+
+Sau 48 lớp Evoformer xếp chồng, mạng chuyển sang một mô-đun cấu trúc ( structure module ) để dựng cấu trúc ba chiều cụ thể. Mỗi mắt xích amino acid được biểu diễn như một vật thể rắn độc lập trôi tự do trong không gian, có vị trí và hướng riêng, đại diện cho phần khung xương chính (gồm các nguyên tử Natri , Carbon alpha, và Carbon ) của mắt xích đó. Ban đầu mọi mắt xích được đặt cùng một chỗ và cùng một hướng; qua nhiều vòng lặp, mô-đun này dần dịch chuyển và xoay từng mắt xích đến đúng vị trí của nó. Để làm việc này, Structure Module dùng một cơ chế chú ý mới gọi là chú ý điểm bất biến ( invariant point attention , IPA): mỗi mắt xích, ngoài vector đặc trưng thông thường, còn sinh ra một số điểm tọa độ ba chiều trong hệ quy chiếu cục bộ của riêng nó. Các điểm này được chuyển sang hệ quy chiếu chung của toàn phân tử để so sánh khoảng cách thực sự với điểm tọa độ này của các mắt xích khác, rồi kết quả được chuyển ngược lại hệ quy chiếu cục bộ. Nhờ vậy, khi toàn bộ protein bị xoay hoặc dịch chuyển trong không gian, kết quả của phép tích chú ý sẽ không thay đổi (là phần "bất biến" trong tên gọi). Sau mỗi vòng IPA, mạng tính ra một bản cập nhật vị trí và hướng cho từng mắt xích, rồi lặp lại.
+
+Toàn bộ mạng gồm Evoformer và Structure Module được chạy lặp lại nhiều lượt theo cơ chế gọi là "tái chế" ( recycling ): cấu trúc thu được ở cuối một lượt chạy được đưa ngược lại làm một phần đầu vào cho lượt tiếp theo, giúp cấu trúc dần được tinh chỉnh qua từng lượt, cải thiện đáng kể độ chính xác trong khi chỉ tốn thêm rất ít thời gian huấn luyện. Sau khi mạng cho ra cấu trúc hoàn chỉnh, một bước hoàn thiện cuối cùng áp dụng suy giảm độ dốc trên trường lực AMBER (một hệ thống quản lý gói tin nhằm mô phỏng động lực học của phân tử ) để sửa các vi phạm hình học cục bộ, như góc liên kết peptide không đúng theo hóa học thật; bước này thường không cải thiện độ chính xác tổng thể đo bằng các thước đo như GDT, mà chỉ loại bỏ các lỗi hóa học gây khó chịu khi quan sát cấu trúc.
+
+Tại CASP14, AlphaFold 2 đứng đầu bảng xếp hạng, đưa ra dự đoán tốt nhất cho 88 trong tổng số 97 mục tiêu. Trên toàn bộ các mục tiêu, cấu trúc do AlphaFold 2 dự đoán đạt độ chính xác khung xương chính trung vị là 0,096 nm (đo bằng RMSD95 – độ lệch bình phương trung bình gốc của nguyên tử Carbon alpha, tính trên 95% số mắt xích amino acid có độ phủ tốt nhất), so với 2,8 Å của phương pháp tốt thứ hai. Điểm GDT trung vị đạt 92,4 trên thang 100, mức được xem là ngang bằng độ chính xác của các phương pháp thực nghiệm đối với phần lớn mục tiêu.
+
+Bản cập nhật tháng 10 năm 2021, gọi là AlphaFold-Multimer, giúp mở rộng dữ liệu huấn luyện để bao gồm cả phức hợp nhiều protein, thay vì chỉ huấn luyện trên các chuỗi đơn lẻ trong tập dữ liệu của cuộc thi CASP14 gốc.
+
+Nhược điểm
+
+Về giới hạn, AlphaFold 2 dựa nhiều vào chất lượng của bảng MSA đầu vào: khi số trình tự tương đồng tìm được cho một protein quá ít (dưới khoảng 30 trình tự hiệu quả), độ chính xác dự đoán giảm mạnh. Đây là lý do khiến AlphaFold 2 thường kém chính xác hơn đối với các protein mồ côi ( orphan protein , tức các loại protein mà không có protein tương đồng nào được biết đến) hoặc protein mới xuất hiện qua tiến hóa ( de novo protein ).
+
+Một giới hạn khác là AlphaFold 2 dự đoán với độ tin cậy thấp ở các vùng protein không có cấu trúc cố định ( intrinsically disordered region ), tức những đoạn chuỗi vốn dĩ không cuộn gập thành một hình dạng ổn định duy nhất trong tự nhiên. Khi dùng để đánh giá tác động của đột biến điểm lên cấu trúc và năng lượng tự do của protein, AlphaFold 2 chỉ đạt kết quả thành công một phần vì không nằm trong phạm vi huấn luyện ban đầu. Ngoài ra, vì mô hình di chuyển tự do vị trí từng mắt xích amino acid mà không ràng buộc chặt tính liên tục vật lý của chuỗi trong quá trình dự đoán, AlphaFold 2 (thử nghiệm trên phiên bản 2.3.2) đôi khi cho ra cấu trúc sai về mặt tô pô , ví dụ tạo thành các nút thắt không có thật trong protein gốc.
+
+AlphaFold 3 (2024)
+
+Thuật toán
+
+AlphaFold 3 được công bố ngày 8 tháng 5 năm 2024, do Google DeepMind và Isomorphic Labs cùng phát triển. Khác với AlphaFold 2 vốn chỉ dự đoán cấu trúc của một chuỗi protein đơn lẻ (hoặc phức hợp nhiều chuỗi protein với nhau qua bản cập nhật AlphaFold-Multimer), AlphaFold 3 có thể dự đoán cấu trúc của phức hợp giữa protein với DNA, RNA, các phối tử ( ligand ) nhỏ, ion , và các mắt xích amino acid đã bị biến đổi sau dịch mã .
+
+Để làm được điều này, AlphaFold 3 phải thay đổi cách biểu diễn đầu vào. AlphaFold 2 chỉ xử lý mắt xích amino acid, vốn có đúng 20 loại cố định nên có thể gán mỗi mắt xích một token tương ứng với một trong 20 loại đó. Nhưng phối tử và các phân tử nhỏ không có một bộ loại cố định như vậy: có vô số phân tử khác nhau về hình dạng và thành phần nguyên tử. Vì vậy AlphaFold 3 dùng cách token hóa hỗn hợp, trong đó mỗi mắt xích amino acid hoặc nucleotide vẫn được gán một token duy nhất như trước, nhưng mỗi phân tử phối tử hoặc ion thì được token hóa ở cấp độ từng nguyên tử riêng lẻ.
+
+Khối xử lý trung tâm của AlphaFold 2, Evoformer, được thay bằng một khối đơn giản hơn gọi là Pairformer. Pairformer vẫn duy trì hai luồng dữ liệu tương tự AlphaFold 2 – biểu diễn cặp và biểu diễn đơn ( single representation , tương ứng với một hàng của biểu diễn MSA cũ) – và cũng được xếp chồng 48 lớp. Tuy nhiên, khác với Evoformer vốn liên tục cập nhật qua lại với toàn bộ biểu diễn MSA ở mọi lớp, Pairformer không còn mang theo toàn bộ biểu diễn MSA xuyên suốt quá trình xử lý; thông tin từ MSA chỉ được xử lý riêng ở một mô-đun nhỏ đặt trước đó (gồm 4 lớp, so với 48 lớp Evoformer của AlphaFold 2), trước khi được gộp vào biểu diễn cặp và biểu diễn đơn để đưa vào Pairformer. Việc giảm vai trò của MSA một phần là do nhiều thành phần AlphaFold 3 cần dự đoán như phối tử hay ion không có khái niệm "trình tự tương đồng" giống protein, nên không thể luôn dựa vào MSA như AlphaFold 2.
+
+Thay đổi lớn nhất nằm ở phần dựng cấu trúc 3D cuối cùng. AlphaFold 2 dùng Structure Module với cơ chế IPA, biểu diễn mỗi mắt xích amino acid như một khối cứng có vị trí và hướng riêng, rồi suy ra thêm góc xoay của các nguyên tử side chain. Trong khi đó, AlphaFold 3 thay toàn bộ phần này bằng một mô hình khuếch tán để dự đoán trực tiếp tọa độ ba chiều của từng nguyên tử mà không cần đến khái niệm khối cứng hay góc xoay riêng. Cách hoạt đọng của nó cũng giống với mô hình khuếch tán để tạo sinh ảnh thông thường: quá trình bắt đầu từ một đám mây nguyên tử với vị trí hoàn toàn ngẫu nhiên lấy từ phân phối Gauss , sau đó mạng học cách khử nhiễu dần dần qua nhiều bước, mỗi bước dịch chuyển các nguyên tử đến gần vị trí thật hơn một chút, dựa trên thông tin từ biểu diễn cặp và biểu diễn đơn do Pairformer cung cấp làm điều kiện dẫn dắt. Ở những bước có mức nhiễu thấp, mô hình tập trung sửa các chi tiết cục bộ (như độ dài liên kết, góc liên kết hóa học); ở những bước có mức nhiễu cao, mô hình xử lý hình dạng tổng thể của toàn bộ phức hợp phân tử.
+
+Nhược điểm
+
+Về nhược điểm, chính bài báo công bố AlphaFold 3 đã nêu rõ mô hình chỉ hỗ trợ một danh mục giới hạn các cấu trúc phối tử (như một số ion kim loại và cofactor được chọn lọc sẵn) cùng một tập hợp giới hạn các biến đổi sau dịch mã ( post-translational modification ). Một nghiên cứu năm 2025 đánh giá riêng khả năng mô hình hóa glycan (chuỗi đường gắn vào protein) của AlphaFold 3 cho thấy, dù mô hình có hỗ trợ glycan như một dạng biến đổi sau dịch mã, sự mơ hồ trong cách xác định liên kết và cấu hình lập thể bậc cao của glycan vẫn là một giới hạn đáng kể khi áp dụng vào các tương tác protein-glycan trong thực tế.
+
+Một số nghiên cứu độc lập khác đặt câu hỏi về mức độ AlphaFold 3 thực sự "hiểu" hóa học tương tác protein-phối tử, hay chỉ đang ghi nhớ lại các trường hợp đã gặp trong dữ liệu huấn luyện. Độ chính xác của mô hình giảm rõ rệt khi thử nghiệm trên các phối tử có cấu trúc hóa học khác biệt nhiều so với dữ liệu huấn luyện, chứng minh khả năng tổng quát hóa của nó còn chưa đủ tốt. Một nghiên cứu khác phát hiện AlphaFold 3 không nhạy với các "mồi nhử đối kháng" ( adversarial decoy ), tức các phối tử giả được tạo ra bằng cách thay đổi tính chất hóa lý của vùng liên kết giữa các protein. Điều này cho thấy mô hình có thể đang dựa vào việc ghi nhớ dữ liệu huấn luyện thuần túy hơn là hiểu biết hóa học thực sự về tương tác phân tử.
+
+Một giới hạn của cả AlphaFold 2 lẫn AlphaFold 3 nằm ở khả năng dự đoán nhiều trạng thái cấu hình ( conformation ) khác nhau của cùng một protein. Trong tự nhiên, nhiều protein không chỉ có một hình dạng cố định mà chuyển đổi qua lại giữa các trạng thái cấu hình khác nhau để thực hiện chức năng, chẳng hạn như trong điều hòa dị lập thể ( allosteric regulation ), nơi protein đổi hình dạng để bật/tắt hoạt tính. Tuy nhiên, cả hai mô hình đều có xu hướng chỉ đưa ra một cấu trúc tĩnh duy nhất cho mỗi trình tự. Một nghiên cứu năm 2025 thử nghiệm AlphaFold 2, AlphaFold 3 và một số biến thể cải tiến trên tập hợp các protein tự ức chế ( autoinhibited protein , loại protein có ít nhất hai trạng thái cấu hình khác biệt rõ rệt về chức năng) cho thấy AlphaFold 2 không tái tạo được cấu trúc thực nghiệm của nhiều protein loại này, dù việc lấy mẫu con từ bảng MSA đầu vào theo cách đồng đều có thể giúp mô hình nắm bắt được phần nào sự đa dạng cấu hình.
+
+Cơ sở dữ liệu AlphaFold
+
+Cơ sở dữ liệu Cấu trúc Protein AlphaFold ( AlphaFold Protein Structure Database , viết tắt AFDB) là một dự án hợp tác giữa Google DeepMind và EMBL-EBI ( European Molecular Biology Laboratory-European Bioinformatics Institute , Phòng thí nghiệm Sinh học Phân tử châu Âu-Viện Tin sinh học châu Âu), ra mắt ngày 22 tháng 7 năm 2021. Khi ra mắt, cơ sở dữ liệu chứa hơn 350.000 cấu trúc do AlphaFold 1 dự đoán, bao phủ gần như toàn bộ hệ protein của người và 20 loài sinh vật mẫu có ý nghĩa sinh học quan trọng như E. coli , ruồi giấm , chuột , cá ngựa vằn , ký sinh trùng sốt rét và vi khuẩn lao . Cơ sở dữ liệu không bao gồm các protein có ít hơn 16 mắt xích amino acid, hoặc nhiều hơn 2.700 mắt xích đối với trình tự thuộc Swiss-Prot (phần dữ liệu của cơ sở dữ liệu UniProt đã qua thẩm định thủ công bởi chuyên gia) hay thuộc hệ protein tham chiếu, hoặc nhiều hơn 1.280 mắt xích đối với các trình tự UniProt khác (tức TrEMBL, phần chú giải tự động chưa qua thẩm định thủ công), cũng như các trình tự chứa amino acid không tiêu chuẩn.
+
+Đến ngày 28 tháng 7 năm 2022, nhóm phát triển đã mở rộng cơ sở dữ liệu lên hơn 200 triệu cấu trúc protein từ khoảng 1 triệu loài, bao phủ gần như mọi loài sinh vật hiện có dữ liệu trình tự protein. Đến năm 2024, con số này đã đạt hơn 214 triệu cấu trúc. Trong đó, khoảng 188 triệu trình tự hoàn toàn không trùng lặp (tập hợp gọi là TED-100), nghĩa là khoảng 26 triệu cấu trúc còn lại tương ứng với các trình tự trùng khớp hoàn toàn với một protein khác đã có sẵn trong cơ sở dữ liệu.
+
+Cơ sở dữ liệu tích hợp các công cụ Foldseek giúp tìm kiếm và so sánh cấu trúc protein nhanh và chính xác, cùng công cụ AlphaMissense dùng AlphaFold để dự đoán khả năng gây bệnh của các đột biến sai nghĩa ( missense ) ở protein người. Cho đến đầu năm 2025, các cấu trúc trong AFDB vẫn đều ở dạng đơn phân – tức chỉ dự đoán từng protein riêng lẻ, không phải phức hợp nhiều protein – dù các cấu trúc đa phân do những cơ sở dữ liệu khác dự đoán có thể được truy cập gián tiếp qua giao diện lập trình 3D-Beacons. Đến tháng 3 năm 2026, EMBL-EBI và Google DeepMind bắt đầu bổ sung trực tiếp các dự đoán phức hợp protein vào AFDB, khởi đầu bằng phức hợp đồng nhị trùng ( homodimer , hai bản sao của cùng một protein): 1,7 triệu dự đoán độ tin cậy cao được thêm trực tiếp vào cơ sở dữ liệu, cùng 18 triệu dự đoán độ tin cậy thấp hơn có thể tải hàng loạt qua máy chủ FTP của EMBL-EBI.
+
+Tính đến đầu năm 2026, AFDB vẫn chỉ dùng AlphaFold 2 cho các dự đoán protein đơn lẻ trong cơ sở dữ liệu chính, chưa chuyển sang AlphaFold 3. Cơ sở dữ liệu vừa được đồng bộ lại với bản dữ liệu UniProt phát hành tháng 3 năm 2025 (UniProt 2025_03), đồng thời bổ sung dữ liệu về các isoform (biến thể protein từ cùng một gene) và bảng MSA đi kèm mỗi dự đoán, cùng giao diện người dùng được thiết kế lại.
+
+Cơ sở dữ liệu phái sinh
+
+AlphaFill bổ sung thêm cofactor và ion vào các mô hình của AlphaFold, vốn thiếu hoàn toàn các phân tử nhỏ này (ví dụ hemoglobin trong mô hình AlphaFold không có nhóm heme gắn kèm). Nó tìm trong Ngân hàng Dữ liệu Protein ( Protein Data Bank ) các cấu trúc tương tự rồi ghép các cofactor vào vị trí tương ứng.
+
+TmAlphaFold gắn các mô hình AlphaFold vào màng sinh học bằng phương pháp hình học TMDET ( Trans-Membrane DETector , một công cụ xác định protein xuyên màng dựa trên hình học không gian của cấu trúc), tương tự cách cơ sở dữ liệu OPM ( Orientations of Proteins in Membranes , cơ sở dữ liệu Định hướng Protein trong Màng) đã làm với các cấu trúc thực nghiệm từ Ngân hàng Dữ liệu Protein.
+
+AFTM dùng phương pháp PPM3 ( Positioning of Proteins in Membranes , tính toán vị trí protein trong màng tế bào ) có tính đến độ cong màng và các loại màng khác nhau để xác định vùng xuyên màng trong protein người từ mô hình AlphaFold, và tích hợp kết quả từ cả UniProt, TmAlphaFold cùng các nguồn khác để so sánh.
+
+ChannelsDB 2.0 dùng mô hình từ Ngân hàng Dữ liệu Protein hoặc AlphaFill để tính đường đi mà một phân tử có thể theo để đến vị trí hoạt động của enzyme, hoặc để xuyên qua một lỗ xuyên màng; nhờ bổ sung dữ liệu từ AlphaFill, phạm vi chú giải kênh (channel) của cơ sở dữ liệu này đã tăng khoảng 4,6 lần.
+
+The Encyclopedia of Domains (TED) áp dụng phương pháp nhận diện domain lên 188 triệu trình tự không trùng lặp trong AFDB, xác định được gần 365 triệu domain – nhiều hơn 100 triệu so với các phương pháp dựa trên trình tự.
+
+Cơ sở dữ liệu Phân loại Tiến hóa các Vùng Protein (ECOD) đã phân loại hơn 542.000 protein thuộc tập Swiss-Prot trong AFDB, xác định được hơn 1.032.000 domain.
+
+Mã nguồn, bản sao và biến thể
+
+Mã nguồn của AlphaFold 2 được DeepMind công bố công khai trên GitHub vào tháng 7 năm 2021, cùng thời điểm công bố bài báo trên Nature .
+
+AlphaFold 3 lại đi theo hướng ngược lại khi mới công bố: DeepMind ban đầu chỉ cho phép truy cập AlphaFold 3 qua một máy chủ web hạn chế, không công bố mã nguồn. Quyết định này vấp phải chỉ trích đáng kể từ giới khoa học vốn coi trọng việc mở mã nguồn để kiểm chứng kết quả thí nghiệm. Pushmeet Kohli , trưởng bộ phận khoa học AI của DeepMind, giải thích công ty cần cân bằng giữa việc phổ biến công cụ cho cộng đồng khoa học và việc không ảnh hưởng đến khả năng theo đuổi nghiên cứu thuốc mang tính thương mại của Isomorphic Labs, đồng phát triển AlphaFold 3. Đến tháng 11 năm 2024, DeepMind công khai hoàn toàn mã nguồn của AlphaFold 3 trên GitHub theo giấy phép Apache 2.0 . Tuy nhiên, tham số mô hình ( model parameters ) đã huấn luyện vẫn phải xin cấp riêng qua một biểu mẫu do Google toàn quyền quyết định có cấp hay không, và chỉ giới hạn cho mục đích nghiên cứu phi thương mại; một điều kiện vẫn duy trì đến nay.
+
+Một số bản sao ( clone ) của AlphaFold đã được công bố, phần lớn theo giấy phép mã nguồn mở dễ sử dụng lại. Với AlphaFold 3, các bản sao gồm Protenix của ByteDance ( giấy phép Apache 2.0 ), OpenFold-3 của phòng thí nghiệm AlQuraishi ( giấy phép MIT ), và Boltz-1/Boltz-2 (giấy phép MIT).
+
+Phiên bản biến thể cũ hơn, ESMFold do Meta phát triển, đã thay thế bảng MSA đầu vào bằng không gian tiềm ẩn ( latent space ) của một mô hình ngôn ngữ protein – tức mô hình học các quy luật thống kê trong trình tự protein tương tự cách mô hình ngôn ngữ học quy luật trong văn bản , nhờ đó không cần tìm kiếm trình tự tương đồng như AlphaFold 2.
+
+Bên cạnh các bản sao, một số công cụ mã nguồn mở khác được phát triển để bổ trợ cho AlphaFold. Ví dụ được nhiều người sử dụng nhất là ColabFold: pipeline gốc của AlphaFold dùng HHblits, mộtcông cụ tìm kiếm trình tự tương đồng dựa trên so sánh mô hình Markov ẩn , có độ nhạy cao nhưng thường mất hàng giờ để hoàn thành bước tìm kiếm cho một trình tự; trong khi ColabFold thay bằng MMseqs2, một công cụ tìm kiếm nhanh hơn nhiều nhờ lọc trước bằng các đoạn ngắn ( k-mer ) trước khi tinh chỉnh kết quả, rút ngắn bước này xuống còn vài phút. Nhờ vậy, toàn bộ quy trình AlphaFold có thể chạy trên phần cứng miễn phí và hạn chế như Google Colab .
+
+Đón nhận và giải thưởng
+
+Kết quả của AlphaFold 2 tại CASP14 được giới khoa học đón nhận rất tích cực. Venki Ramakrishnan , nhà sinh học cấu trúc từng đoạt giải Nobel Hóa học năm 2009 khi đó là Chủ tịch Hội Hoàng gia Luân Đôn , gọi đây là "một bước tiến gây kinh ngạc đối với bài toán gấp protein". Thành tựu này thu hút sự chú ý rộng rãi của truyền thông, với các bài viết trên nhiều tạp chí khoa học lớn như Nature , Science , MIT Technology Review , New Scientist , cùng nhiều tờ báo lớn khác. Chủ đề được nhắc đến nhiều nhất là khả năng dự đoán cấu trúc protein chỉ từ trình tự amino acid, được kỳ vọng mang lại lợi ích cho khoa học sự sống thông qua việc đẩy nhanh quá trình tìm ra thuốc mới và giúp hiểu rõ hơn về cơ chế bệnh tật. Trong kỳ thi CASP15 diễn ra năm 2022, DeepMind không tham gia trực tiếp lần này, nhưng phần lớn các đội tham dự sử dụng AlphaFold hoặc các công cụ xây dựng dựa trên AlphaFold cho dự đoán của mình.
+
+Bên cạnh sự đón nhận tích cực, một số nhà khoa học lưu ý rằng dù AlphaFold 2 dự đoán cấu trúc rất chính xác, việc này không đồng nghĩa với việc hiểu được bài toán gấp protein theo nghĩa sâu hơn như cơ chế thực sự khiến một chuỗi amino acid tự gấp lại thành hình dạng đó trong tự nhiên, và tại sao đôi khi quá trình này xảy ra sai lệch (gấp sai, hay proteopathy ).
+
+Năm 2023, Demis Hassabis và John Jumper được trao giải Breakthrough Prize trong lĩnh vực Khoa học Sự sống, cùng giải Albert Lasker cho Nghiên cứu Y học Cơ bản , ghi nhận vai trò lãnh đạo của họ trong dự án AlphaFold. Năm 2024, cả hai tiếp tục được trao chung một nửa giải Nobel Hóa học cho công trình dự đoán cấu trúc protein, cùng với David Baker (nhận nửa giải còn lại cho công trình thiết kế protein bằng tính toán).
+
+Ứng dụng
+
+AlphaFold đã được dùng để dự đoán cấu trúc các protein của SARS-CoV-2 , tác nhân gây bệnh COVID-19 , khi những cấu trúc này còn chưa được xác định bằng thực nghiệm vào đầu năm 2020. Kết quả được các nhà khoa học tại Viện Francis Crick tại Anh thẩm định trước khi công bố cho cộng đồng nghiên cứu rộng hơn. Nhóm phát triển cũng xác nhận độ chính xác của dự đoán bằng cách so sánh với cấu trúc protein gai của SARS-CoV-2 đã xác định bằng thực nghiệm và công bố trên Ngân hàng Dữ liệu Protein, trước khi công bố các cấu trúc protein khác vẫn còn ít được nghiên cứu do virus tính toán ra. Dự đoán của AlphaFold cho cấu trúc protein ORF3a khớp tốt với cấu trúc thực nghiệm do phòng thí nghiệm của Stephen Brohawn tại Đại học California, Berkeley xác định bằng kính hiển vi điện tử lạnh, công bố vào tháng 6 năm 2020 – mức độ khớp tốt đến độ đã thúc đẩy DeepMind công bố thêm các dự đoán khác cho những protein SARS-CoV-2 khi đó chưa có cấu trúc thực nghiệm. Nghiên cứu của Berkeley cho thấy ORF3a hoạt động như một kênh ion, có liên quan đến việc ức chế quá trình tự thực ( autophagy ) của tế bào, kích hoạt quá trình chết tế bào theo chương trình , và kích hoạt phản ứng viêm thông qua viêm thể ( inflammasome ) khi nhiễm bệnh.
+
+Trong nghiên cứu vắc-xin sốt rét, nhóm của Matthew Higgins tại Đại học Oxford đã kết hợp dữ liệu tinh thể học tia X với một mô hình AlphaFold 2 để xác định cấu trúc đầy đủ của Pfs48/45, một protein bề mặt của ký sinh trùng sốt rét , ứng viên hàng đầu cho vắc-xin ngăn chặn lây truyền bệnh. Trước đó, nhóm nghiên cứu chỉ thu được hình ảnh mờ, độ phân giải thấp cho vùng đầu N của protein này bằng tinh thể học tia X và kính hiển vi điện tử lạnh; kết hợp thêm mô hình AlphaFold 2 giúp họ dựng được cấu trúc hoàn chỉnh, làm rõ vị trí gắn của các kháng thể có khả năng chặn lây truyền.
+
+Trong lĩnh vực thiết kế enzyme , Trung tâm Đổi mới Enzyme ( Centre for Enzyme Innovation ) tại Đại học Portsmouth tại Anh đã hợp tác với DeepMind, dùng thư viện cấu trúc do AlphaFold dự đoán làm khuôn mẫu để thiết kế các enzyme phân hủy nhựa nhanh hơn, bền hơn và rẻ hơn nhằm phục vụ mục tiêu xử lý các loại nhựa dùng một lần gây ô nhiễm phổ biến, như nhựa PET .
+
+Tham khảo
+
+↑ Tunyasuvunakool, Kathryn; Adler, Jonas; Wu, Zachary; Green, Tim; Zielinski, Michal; Žídek, Augustin; Bridgland, Alex; Cowie, Andrew; Meyer, Clemens; Laydon, Agata; Velanka, Sameer; Kleywegt, Gerard J.; Bateman, Alex; Evans, Richard; Pritzel, Alexander; Figurnov, Michael; Ronneberger, Olaf; Bates, Russ; Kohl, Simon A. A.; Potapenko, Anna; Ballard, Andrew J.; Romera-Paredes, Bernardino; Nikolov, Stanislav; Jain, Rishub; Clancy, Ellen; Reiman, David; Petersen, Stig; Senior, Andrew; Kavukcuoglu, Koray; Birney, Ewan; Kohli, Pushmeet; Jumper, John; Hassabis, Demis (ngày 22 tháng 7 năm 2021). "Enabling high-accuracy protein structure prediction at the proteome scale" . Google DeepMind (bằng tiếng Anh) . Truy cập ngày 11 tháng 4 năm 2026 .
+
+↑ "AlphaFold" . Deepmind . Lưu trữ bản gốc ngày 19 tháng 1 năm 2021 . Truy cập ngày 30 tháng 11 năm 2020 .
+
+↑ Heavenarchive, Will Douglas. "DeepMind's protein-folding AI has solved a 50-year-old grand challenge of biology" . MIT Technology Review (bằng tiếng Anh). Lưu trữ bản gốc ngày 28 tháng 8 năm 2021 . Truy cập ngày 30 tháng 11 năm 2020 .
+
+1 2 "Press release: The Nobel Prize in Chemistry 2024" . The Royal Swedish Academy of Sciences. ngày 9 tháng 10 năm 2024 . Truy cập ngày 29 tháng 11 năm 2024 .
+
+↑ Alberts, Bruce; Johnson, Alexander; Lewis, Julian; Raff, Martin; Roberts, Keith; Walter, Peter (2002), "The Shape and Structure of Proteins" , Molecular Biology of the Cell. 4th edition (bằng tiếng Anh), Garland Science, ISBN 978-0815332183 , truy cập ngày 16 tháng 7 năm 2026
+
+1 2 3 4 5 Service, Robert F. (ngày 30 tháng 11 năm 2020). " 'The game has changed.' AI triumphs at solving protein structures" . Science (bằng tiếng Anh). Bản gốc lưu trữ ngày 24 tháng 6 năm 2023 . Truy cập ngày 11 tháng 4 năm 2026 .
+
+↑ Moult, John; Fidelis, Krzysztof; Kryshtafovych, Andriy; Schwede, Torsten; Tramontano, Anna (2016). "Critical assessment of methods of protein structure prediction: progress and new directions in round XI". Proteins . 84 (Suppl 1): 4– 14. doi : 10.1002/prot.25064 .
+
+1 2 3 4 AlQuraishi, Mohammed (ngày 22 tháng 5 năm 2019). "AlphaFold at CASP13". Bioinformatics . 35 (22): 4862– 4865. doi : 10.1093/bioinformatics/btz422 .
+
+1 2 Senior, Andrew W.; Evans, Richard; Jumper, John; Kirkpatrick, James; Sifre, Laurent; Green, Tim; Qin, Chongli; Žídek, Augustin; và đồng nghiệp (ngày 15 tháng 1 năm 2020). "Improved protein structure prediction using potentials from deep learning". Nature . 577 (7792): 706– 710. doi : 10.1038/s41586-019-1923-7 . PMID 31942072 .
+
+↑ CASP 13 data tables Lưu trữ ngày 14 tháng 3 năm 2022 tại Wayback Machine for 043 A7D, 322 Zhang, and 089 MULTICOM
+
+↑ "deepmind/deepmind-research" . GitHub (bằng tiếng Anh). Lưu trữ bản gốc ngày 1 tháng 2 năm 2022 . Truy cập ngày 30 tháng 11 năm 2020 .
+
+1 2 3 4 5 6 7 8 9 10 11 12 Jumper, John; Evans, Richard; Pritzel, Alexander; Green, Tim; Figurnov, Michael; Ronneberger, Olaf; Tunyasuvunakool, Kathryn; Bates, Russ; và đồng nghiệp (2021). "Highly accurate protein structure prediction with AlphaFold" . Nature . 596 (7873): 583– 589. doi : 10.1038/s41586-021-03819-2 . PMC 8371605 . PMID 34265844 .
+
+↑ Vaswani, Ashish; Shazeer, Noam; Parmar, Niki; Uszkoreit, Jakob; Jones, Llion; Gomez, Aidan N.; Kaiser, Łukasz; Polosukhin, Illia (2017). "Attention is All you Need" (PDF) . Advances in Neural Information Processing Systems . 30 . Curran Associates, Inc.: 5998–6008.
+
+↑ Callaway, Ewen (ngày 13 tháng 4 năm 2022). "What's next for AlphaFold and the AI protein-folding revolution". Nature . 604 (7905): 234– 238. doi : 10.1038/d41586-022-00997-5 . PMID 35418629 .
+
+↑ Michaud, Jennifer M.; Madani, Ali; Fraser, James S. (tháng 11 năm 2022). "A language model beats alphafold2 on orphans" . Nature Biotechnology . 40 (11): 1576– 1577. doi : 10.1038/s41587-022-01466-0 . PMC 9669189 . PMID 36192635 .
+
+↑ Thornton, Janet M.; Laskowski, Roman A.; Borkakoti, Neera (ngày 12 tháng 10 năm 2021). "AlphaFold heralds a data-driven revolution in biology and medicine". Nature Medicine . 27 (10): 1666– 1669. doi : 10.1038/s41591-021-01533-0 . PMID 34635855 .
+
+↑ McBride, John M.; Polev, Konstantin; Abdirasulov, Amirbek; Reinharz, Vladimir; Grzybowski, Bartosz A.; Tlusty, Tsvi (ngày 20 tháng 11 năm 2023). "AlphaFold2 Can Predict Single-Mutation Effects". Physical Review Letters . 131 (21) 218401. arXiv : 2204.06860 . doi : 10.1103/PhysRevLett.131.218401 . PMID 38072605 .
+
+↑ Dabrowski-Tumanski, Pawel; Stasiak, Andrzej (ngày 7 tháng 11 năm 2023). "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins' Topology" . Molecules . 28 (22): 7462. doi : 10.3390/molecules28227462 . PMC 10672856 . PMID 38005184 . {{ Chú thích tập san học thuật }} : Quản lý CS1: DOI truy cập mở nhưng không được đánh ký hiệu ( liên kết )
+
+1 2 3 4 5 Abramson, Josh; Adler, Jonas; Dunger, Jack; Evans, Richard; Green, Tim; Pritzel, Alexander; Ronneberger, Olaf; Willmore, Lindsay; và đồng nghiệp (2024). "Accurate structure prediction of biomolecular interactions with AlphaFold 3" . Nature . 630 (8016): 493– 500. doi : 10.1038/s41586-024-07487-w . PMC 11168924 . PMID 38718835 .
+
+↑ Huang, Chin; Kannan, Natarajan; Moremen, Kelley W (2025). "Modeling glycans with AlphaFold 3: capabilities, caveats, and limitations". Glycobiology . 35 (10) cwaf048. doi : 10.1093/glycob/cwaf048 .
+
+↑ Škrinjar, Peter; Eberhardt, Jérôme; Tauriello, Gerardo; Schwede, Torsten; Durairaj, Janani (ngày 4 tháng 8 năm 2025). "Have protein-ligand cofolding methods moved beyond memorisation?". bioRxiv 10.1101/2025.02.03.636309 .
+
+↑ Masters, Matthew R.; Mahmoud, Amr H.; Lill, Markus A. (ngày 6 tháng 10 năm 2025). "Investigating whether deep learning models for co-folding learn the physics of protein-ligand interactions" . Nature Communications . 16 (1): 8854. doi : 10.1038/s41467-025-63947-5 . PMC 12501370 . PMID 41053181 .
+
+↑ Perkins-Jechow, Brooks H.; Iglesias Ahualli, Juan Pablo; Nhu, Huyen Thuc; Omidi, Alireza; Li, Chunchao; Holguin-Cruz, Jorge A.; Cho, Daeahn; Na, Dokyun; và đồng nghiệp (ngày 26 tháng 11 năm 2025). "Challenging AlphaFold in predicting proteins with large-scale allosteric transitions". Communications Chemistry . 8 378. doi : 10.1038/s42004-025-01763-0 .
+
+↑ Hatch, Victoria (ngày 22 tháng 7 năm 2021). "DeepMind and EMBL release the most complete database of predicted 3D structures of human proteins" . EMBL-EBI . Truy cập ngày 19 tháng 7 năm 2026 .
+
+1 2 Varadi, Mihaly; Bertoni, Damian; Magana, Paulyna; Paramval, Urmila; Pidruchna, Ivanna; Radhakrishnan, Malarvizhi; Tsenkov, Maxim; Nair, Sreenath; và đồng nghiệp (2024). "AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences". Nucleic Acids Research . 52 (D1): D368 – D375 . doi : 10.1093/nar/gkad1011 .
+
+↑ Callaway, Ewen (ngày 28 tháng 7 năm 2022). " 'The entire protein universe': AI predicts shape of nearly every known protein". Nature . 608 (7921): 15– 16. doi : 10.1038/d41586-022-02083-2 . PMID 35902752 .
+
+1 2 Lau, Andy M.; Bordin, Nicola; Kandathil, Shaun M.; Sillitoe, Ian; Waman, Vaishali P.; Wells, Jude; Orengo, Christine A.; Jones, David T. (2024). "Exploring structural diversity across the protein universe with The Encyclopedia of Domains". Science . 386 (6721) eadq4946. doi : 10.1126/science.adq4946 . PMID 39480926 .
+
+↑ Fleming, Jennifer; Magana, Paulyna; Nair, Sreenath; Tsenkov, Maxim; Bertoni, Damian; Pidruchna, Ivanna (2025). "AlphaFold Protein Structure Database and 3D-Beacons: New Data and Capabilities". Journal of Molecular Biology . 437 (15) 168967. doi : 10.1016/j.jmb.2025.168967 . PMID 40133787 .
+
+↑ Fleming, Jennifer; Magana, Paulyna; Nair, Sreenath; Tsenkov, Maxim; Bertoni, Damian; Pidruchna, Ivanna (2025). "AlphaFold Protein Structure Database and 3D-Beacons: New Data and Capabilities". Journal of Molecular Biology . 437 (15) 168967. doi : 10.1016/j.jmb.2025.168967 . PMID 40133787 .
+
+↑ Stroe, Oana (ngày 16 tháng 3 năm 2026). "Millions of protein complexes added to AlphaFold Database shed light on how proteins interact" . EMBL . Truy cập ngày 19 tháng 7 năm 2026 .
+
+↑ Bertoni, Damian; Tsenkov, Maxim; Magana, Paulyna; Nair, Sreenath; Pidruchna, Ivanna (2026). "AlphaFold Protein Structure Database 2025: a redesigned interface and updated structural coverage". Nucleic Acids Research . 54 (D1): D358 – D362 . doi : 10.1093/nar/gkaf1226 .
+
+↑ Hekkelman, Maarten L.; de Vries, Ida; Joosten, Robbie P.; Perrakis, Anastassis (2023). "AlphaFill: enriching AlphaFold models with ligands and cofactors" . Nature Methods . 20 (2): 205– 213. doi : 10.1038/s41592-022-01685-y . PMC 9911346 . PMID 36424442 .
+
+↑ Dobson, Laszlo; Szekeres, Levente I.; Gerdán, Csongor; Langó, Tamás; Zeke, András; Tusnády, Gábor E. (2023). "TmAlphaFold database: membrane localization and evaluation of AlphaFold2 predicted alpha-helical transmembrane protein structures". Nucleic Acids Research . 51 (D1): D517 – D522 .
+
+↑ Pei, Jimin; Cong, Qian (2023). "AFTM: a database of transmembrane regions in the human proteome predicted by AlphaFold". Database (Oxford) . 2023 baad008. doi : 10.1093/database/baad008 .
+
+↑ Špačková, Anna; Vávra, Ondřej; Raček, Tomáš; Bazgier, Václav; Sehnal, David; Damborský, Jiří; Svobodová, Radka; Bednář, David; Berka, Karel (2024). "ChannelsDB 2.0: a comprehensive database of protein tunnels and pores in AlphaFold era". Nucleic Acids Research . 52 (D1): D413 – D418 . doi : 10.1093/nar/gkad1012 .
+
+↑ Schaeffer, R. Dustin; Zhang, Jing; Cong, Qian; Grishin, Nick V. (2026). "ECOD: Classification of domains in AFDB Swiss-Prot structure predictions". PLOS Computational Biology . 22 (3) e1013431. doi : 10.1371/journal.pcbi.1013431 . {{ Chú thích tập san học thuật }} : Quản lý CS1: DOI truy cập mở nhưng không được đánh ký hiệu ( liên kết )
+
+↑ "google-deepmind/alphafold: Open source code for AlphaFold 2" . GitHub . Truy cập ngày 19 tháng 7 năm 2026 .
+
+↑ Johnson, Bryce (ngày 7 tháng 7 năm 2024). "Why AlphaFold 3 needs to be open source" . ASBMB Today . Truy cập ngày 19 tháng 7 năm 2026 .
+
+↑ "google-deepmind/alphafold3: AlphaFold 3 inference pipeline" . GitHub . Truy cập ngày 19 tháng 7 năm 2026 .
+
+↑ McKay, Chris (ngày 11 tháng 11 năm 2024). "Google DeepMind Makes AlphaFold 3 Open Source for Academia" . Maginative . Truy cập ngày 19 tháng 7 năm 2026 .
+
+↑ ByteDance AML AI4Science Team (ngày 11 tháng 1 năm 2025). "Protenix - Advancing Structure Prediction Through a Comprehensive AlphaFold3 Reproduction". bioRxiv 10.1101/2025.01.08.631967 . {{ Chú thích bioRxiv }} : Quản lý CS1: tên số: danh sách tác giả ( liên kết )
+
+↑ Naddaf, Miryam (ngày 28 tháng 10 năm 2025). "Open-source protein structure AI aims to match AlphaFold". Nature . doi : 10.1038/d41586-025-03546-y . PMID 41152525 .
+
+↑ Lin, Zeming; Akin, Halil; Rao, Roshan; Hie, Brian; Zhu, Zhongkai; Lu, Wenting; Smetanin, Nikita; Verkuil, Robert; và đồng nghiệp (ngày 17 tháng 3 năm 2023). "Evolutionary-scale prediction of atomic-level protein structure with a language model" . Science . 379 (6637): 1123– 1130. doi : 10.1126/science.ade2574 . PMID 36927031 .
+
+↑ Mirdita, Milot; Schütze, Konstantin; Moriwaki, Yoshitaka; Heo, Lim; Ovchinnikov, Sergey; Steinegger, Martin (ngày 30 tháng 5 năm 2022). "ColabFold: Making protein folding accessible to all" . Nature Methods . 19 (6): 679– 682. doi : 10.1038/s41592-022-01488-1 . PMC 9184281 . PMID 35637307 .
+
+↑ Callaway, Ewen (ngày 30 tháng 11 năm 2020). " 'It will change everything': DeepMind's AI makes gigantic leap in solving protein structures". Nature . 588 (7837): 203– 204. doi : 10.1038/d41586-020-03348-4 . PMID 33257889 .
+
+↑ Callaway, Ewen (ngày 13 tháng 12 năm 2022). "After AlphaFold: protein-folding contest seeks next big breakthrough". Nature . 613 (7942): 13– 14. doi : 10.1038/d41586-022-04438-1 . PMID 36513827 .
+
+↑ Bowman, Greg (ngày 8 tháng 12 năm 2020). "Protein folding and related problems remain unsolved despite AlphaFold's advance" . Folding@home . Bản gốc lưu trữ ngày 13 tháng 7 năm 2022 . Truy cập ngày 19 tháng 7 năm 2026 .
+
+↑ Knapp, Alex. "2023 Breakthrough Prizes Announced: Deepmind's Protein Folders Awarded $3 Million" . Forbes . Truy cập ngày 19 tháng 7 năm 2026 .
+
+↑ Sosnick, Tobin R. (ngày 21 tháng 9 năm 2023). "AlphaFold developers Demis Hassabis and John Jumper share the 2023 Albert Lasker Basic Medical Research Award". Journal of Clinical Investigation . doi : 10.1172/JCI174915 .
+
+↑ Jumper, John; Tunyasuvunakool, Kathryn; Kohli, Pushmeet; Hassabis, Demis (ngày 4 tháng 8 năm 2020). "Computational predictions of protein structures associated with COVID-19" . Deepmind . Truy cập ngày 1 tháng 12 năm 2020 .
+
+↑ Kern, David M.; Sorum, Ben; Mali, Sonali S.; Hoel, Christopher M.; Sridharan, Savitha; Remis, Jonathan P.; Toso, Daniel B.; Kotecha, Abhay; và đồng nghiệp (2021). "Cryo-EM structure of SARS-CoV-2 ORF3a in lipid nanodiscs". Nature Structural & Molecular Biology . 28 : 573– 582. doi : 10.1038/s41594-021-00619-0 .
+
+↑ Ko, Kuang-Ting; Lennartz, Frank; Mekhaiel, David; Guloglu, Busra; Marini, Arianna; Deuker, Daniel J.; Long, Carole A.; Jore, Matthijs M.; và đồng nghiệp (ngày 24 tháng 9 năm 2022). "Structure of the malaria vaccine candidate Pfs48/45 and its recognition by transmission blocking antibodies". Nature Communications . 13 5603. doi : 10.1038/s41467-022-33379-6 .
+
+↑ "Enzyme researchers partner with pioneering AI company, DeepMind, in developing green solutions to combat plastic waste" . University of Portsmouth . ngày 22 tháng 7 năm 2021 . Truy cập ngày 19 tháng 7 năm 2026 .

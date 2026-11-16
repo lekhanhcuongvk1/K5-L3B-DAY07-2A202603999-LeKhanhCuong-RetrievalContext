@@ -1,0 +1,23 @@
+Trong khoa học máy tính , đa xử lý ( tiếng Anh : multiprocessing ) là việc sử dụng từ hai bộ vi xử lý trung tâm (central processing unit, CPU) trở lên trong một hệ thống máy tính đơn. Thuật ngữ này còn chỉ khả năng của một hệ thống trong việc hỗ trợ từ hai bộ xử lý trở lên, hoặc khả năng của hệ thống trong việc phân công task (nhiệm vụ) giữa các bộ xử lý này. Đa xử lý có nhiều định nghĩa khác nhau tùy theo văn cảnh, nhưng hầu hết đều chỉ cách " CPU được xác định như thế nào?" (đa lõi (multiple core) trên một die , đa die trên một package, đa package trên một unit hệ thống, v.v.).
+
+Theo một số từ điển trực tuyến, một bộ đa xử lý là một hệ thống máy tính có từ hai bộ xử lý trở lên cùng chia sẻ bộ nhớ chính và các thiết bị ngoại vi (peripheral), để đồng thời xử lý các program (chương trình). Một cuốn sách giáo khoa xuất bản năm 2009 cũng định nghĩa hệ thống multiprocessor tương tự, cụ thể các processor có thể chia sẻ "một phần hoặc tất cả bộ nhớ của hệ thống và các thiết bị xuất/nhập"; ngoài ra sách cũng đưa ra một thuật ngữ đồng nghĩa khác là hệ thống kết chặt .
+
+Trong phân loại của Flynn, bộ đa xử lý được định nghĩa như trên là những hệ thống MIMD. Nhưng thuật ngữ "bộ đa xử lý" thường chỉ những hệ thống mà tất cả các bộ vi xử lý cùng chia sẻ bộ nhớ nên những hệ thống này không phải là toàn bộ lớp máy tính MIMD. Ngoài bộ đa xử lý, lớp máy tính MIMD còn bao gồm cả những hệ thống máy tính giao tiếp bằng cách truyền thông điệp .
+
+Tham khảo
+
+↑ Raj Rajagopal (1999). Introduction to Microsoft Windows NT Cluster Server: Programming and Administration . CRC Press. tr. 4. ISBN 978-1-4200-7548-9 .
+
+↑ Mike Ebbers; John Kettner; Wayne O'Brien; Bill Ogden (2012). Introduction to the New Mainframe: z/OS Basics . IBM. tr. 96. ISBN 978-0-7384-3534-3 .
+
+↑ "Chip multiprocessing" . Bản gốc lưu trữ ngày 13 tháng 2 năm 2009 . Truy cập ngày 19 tháng 1 năm 2017 .
+
+↑ "Multiprocessor dictionary definition" . Truy cập ngày 31 tháng 1 năm 2017 .
+
+↑ "Multiprocessor" . Truy cập ngày 31 tháng 1 năm 2017 .
+
+↑ Irv Englander (2009). The architecture of Computer Hardware and Systems Software. An Information Technology Approach (ấn bản thứ 4). Wiley. tr. 265. Bản gốc lưu trữ ngày 9 tháng 3 năm 2001 . Truy cập ngày 19 tháng 1 năm 2017 .
+
+1 2 Giladi, Ran (ngày 29 tháng 8 năm 2008). Network Processors: Architecture, Programming, and Implementation (bằng tiếng Anh). Morgan Kaufmann. ISBN 978-0-08-091959-1 .
+
+↑ Shiva, Sajjan G. (ngày 20 tháng 9 năm 2005). Advanced Computer Architectures (bằng tiếng Anh). CRC Press. ISBN 978-0-8493-3758-1 .

@@ -1,0 +1,12 @@
+{
+  "provider": "Hugging Face local",
+  "model": "bkai-foundation-models/vietnamese-bi-encoder",
+  "revision": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+  "license": "Apache-2.0",
+  "cache": ".cache/huggingface",
+  "dimensions": 768,
+  "probe_shape": [
+    1,
+    768
+  ]
+}

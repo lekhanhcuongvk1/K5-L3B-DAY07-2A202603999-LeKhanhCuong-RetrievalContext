@@ -1,0 +1,449 @@
+{
+  "benchmark_id": "day07-vi-computing-agent-v1",
+  "questions": [
+    {
+      "id": "B01",
+      "split": "dev",
+      "answerable": true,
+      "question": "Tên đầy đủ tạo nên chữ viết tắt BASIC là gì?",
+      "expected_answer": "Beginner's All-purpose Symbolic Instruction Code.",
+      "gold": [
+        {
+          "source_id": "viwiki-10293",
+          "page": "viwiki-10293-u01",
+          "evidence": "BASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh ."
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "split": "dev",
+      "answerable": true,
+      "question": "Ngôn ngữ Ada được đặt tên theo ai?",
+      "expected_answer": "Ada Augusta, nữ bá tước xứ Lovelace.",
+      "gold": [
+        {
+          "source_id": "viwiki-113366",
+          "page": "viwiki-113366-u01",
+          "evidence": "Ngôn ngữ này được đặt tên theo Ada Augusta nữ bá tước xứ Lovelace (1815 – 1852)"
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "split": "dev",
+      "answerable": true,
+      "question": "Ai tạo ra ngôn ngữ D và ngôn ngữ này được phát hành năm nào?",
+      "expected_answer": "Walter Bright của Digital Mars tạo ra D và phát hành năm 2001.",
+      "gold": [
+        {
+          "source_id": "viwiki-13486371",
+          "page": "viwiki-13486371-u01",
+          "evidence": "D là một ngôn ngữ lập trình hệ thống hướng đối tượng , dùng câu lệnh , đa mẫu hình do Walter Bright của Digital Mars tạo ra và phát hành năm 2001."
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "split": "dev",
+      "answerable": true,
+      "question": "Ngoài ảnh hưởng tới các ngôn ngữ khác, APL đã ảnh hưởng lớn đến bốn lĩnh vực nào?",
+      "expected_answer": "Mô hình hóa khái niệm, bảng tính, lập trình hàm và gói tính toán máy tính.",
+      "gold": [
+        {
+          "source_id": "viwiki-14596871",
+          "page": "viwiki-14596871-u01",
+          "evidence": "Nó đã có ảnh hưởng lớn đến sự phát triển của mô hình hóa khái niệm, bảng tính , lập trình hàm , và gói tính toán máy tính."
+        }
+      ],
+      "filter": {
+        "collection": "ngon_ngu_lap_trinh"
+      }
+    },
+    {
+      "id": "B05",
+      "split": "dev",
+      "answerable": true,
+      "question": "Ai là người thiết kế chủ yếu C# và phiên bản 9.0 được phát hành cùng sản phẩm nào?",
+      "expected_answer": "Anders Hejlsberg; C# 9.0 được phát hành cùng Visual Studio 2019 phiên bản 16.8.",
+      "gold": [
+        {
+          "source_id": "viwiki-15438",
+          "page": "viwiki-15438-u01",
+          "evidence": "C# được thiết kế chủ yếu bởi Anders Hejlsberg kiến trúc sư phần mềm nổi tiếng với các sản phẩm Turbo Pascal , Delphi , J++, WFC. Phiên bản gần đây nhất là 9.0, được phát hành vào năm 2020 cùng với Visual Studio 2019 phiên bản 16.8."
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "split": "dev",
+      "answerable": true,
+      "question": "Nhận định ALGOL 68 không có triển khai và người dùng chỉ đúng một phần vì ngôn ngữ này từng được dùng ở đâu?",
+      "expected_answer": "Nó được dùng trong các thị trường thích hợp, đặc biệt tại Vương quốc Anh trên máy ICL và trong giảng dạy.",
+      "gold": [
+        {
+          "source_id": "viwiki-15481628",
+          "page": "viwiki-15481628-u01",
+          "evidence": "ALGOL 68 đã được sử dụng trong một số thị trường thích hợp, đặc biệt là ở Vương quốc Anh nơi nó phổ biến trên các máy ICL và trong vai trò giảng dạy."
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "split": "dev",
+      "answerable": true,
+      "question": "Bộ tự mã hóa được nêu là ứng dụng trong bốn bài toán nào?",
+      "expected_answer": "Nhận dạng khuôn mặt, phát hiện đặc trưng, phát hiện bất thường và học nghĩa của từ.",
+      "gold": [
+        {
+          "source_id": "viwiki-19509897",
+          "page": "viwiki-19509897-u01",
+          "evidence": "Bộ tự mã hóa được ứng dụng trong nhiều bài toán, bao gồm nhận dạng khuôn mặt , phát hiện đặc trưng , phát hiện bất thường , và học nghĩa của từ ."
+        }
+      ],
+      "filter": {
+        "collection": "khoa_hoc_may_tinh"
+      }
+    },
+    {
+      "id": "B08",
+      "split": "dev",
+      "answerable": true,
+      "question": "MNIST chứa loại dữ liệu nào, các chữ số trong phạm vi nào và do những ai tạo ra?",
+      "expected_answer": "Các chữ số viết tay từ 0 đến 9; Yann LeCun, Corinna Cortes và Christopher J.C. Burges.",
+      "gold": [
+        {
+          "source_id": "viwiki-19549095",
+          "page": "viwiki-19549095-u01",
+          "evidence": "là một cơ sở dữ liệu lớn gồm các chữ số viết tay từ 0 đến 9, được tạo ra bởi Yann LeCun , Corinna Cortes và Christopher J.C. Burges ."
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "split": "dev",
+      "answerable": true,
+      "question": "ImageNet được xây dựng từ năm nào, bởi ai, và cuối cùng có quy mô khoảng bao nhiêu?",
+      "expected_answer": "Fei-Fei Li và cộng sự xây dựng từ năm 2007; hơn 14 triệu ảnh có nhãn thuộc 22.000 danh mục.",
+      "gold": [
+        {
+          "source_id": "viwiki-19991504",
+          "page": "viwiki-19991504-u01",
+          "evidence": "Tập dữ liệu ImageNet , yếu tố trung tâm cho thành công của AlexNet, được Fei-Fei Li và các cộng sự xây dựng từ năm 2007. Với mục tiêu thúc đẩy nhận dạng hình ảnh qua dữ liệu quy mô lớn, Li đã tạo ra một tập dữ liệu lớn hơn nhiều so với các nỗ lực trước đó, cuối cùng chứa hơn 14 triệu ảnh có nhãn thuộc 22.000 danh mục."
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "split": "dev",
+      "answerable": true,
+      "question": "Hai nguyên nhân chính nào làm dấy lên lo ngại về bong bóng AI?",
+      "expected_answer": "Vòng đầu tư tuần hoàn giữa các công ty AI làm tăng giá trị cổ phiếu nhưng chưa thu hồi vốn, cùng sự tương đồng với bong bóng dot-com.",
+      "gold": [
+        {
+          "source_id": "viwiki-19992736",
+          "page": "viwiki-19992736-u01",
+          "evidence": "Lo ngại về bong bóng phần lớn xuất phát từ việc các công ty công nghệ AI hàng đầu tham gia vào một vòng đầu tư tuần hoàn nhằm thổi phồng giá trị cổ phiếu của nhau, trong khi không thu lại được số tiền vốn bỏ ra. Bên cạnh đó, nhiều người cũng đưa ra sự so sánh giữa môi trường tài chính công nghệ hiện tại với bong bóng dot-com vào cuối thập niên 1990 và đầu thập niên 2000."
+        }
+      ]
+    },
+    {
+      "id": "B11",
+      "split": "dev",
+      "answerable": true,
+      "question": "ChatGPT ra mắt khi nào và mất bao lâu để đạt 100 triệu người dùng?",
+      "expected_answer": "Ra mắt cuối năm 2022 và đạt 100 triệu người dùng trong hai tháng.",
+      "gold": [
+        {
+          "source_id": "viwiki-19996278",
+          "page": "viwiki-19996278-u01",
+          "evidence": "ChatGPT – một chatbot do OpenAI phát triển, ra mắt vào cuối năm 2022 và đạt 100 triệu người dùng chỉ trong vòng hai tháng"
+        }
+      ]
+    },
+    {
+      "id": "B12",
+      "split": "dev",
+      "answerable": true,
+      "question": "Ai giới thiệu VAE vào năm 2013 và VAE có khả năng chính nào của mô hình tạo sinh?",
+      "expected_answer": "Diederik P. Kingma và Max Welling; VAE có thể tạo dữ liệu mới.",
+      "gold": [
+        {
+          "source_id": "viwiki-20005728",
+          "page": "viwiki-20005728-u01",
+          "evidence": "Bộ mã hóa tự động biến phân , hay bộ tự mã hóa biến phân ( tiếng Anh : Variational Autoencoder , viết tắt VAE ) là một kiến trúc mạng neuron nhân tạo do Diederik P. Kingma và Max Welling giới thiệu năm 2013. VAE là một mô hình xác suất đồ thị và phương pháp Bayes biến phân , đồng thời là một dạng mô hình tạo sinh có khả năng tạo ra dữ liệu mới."
+        }
+      ]
+    },
+    {
+      "id": "B13",
+      "split": "dev",
+      "answerable": true,
+      "question": "Transformer năm 2017 thay thế xử lý tuần tự của RNN bằng cơ chế nào và đem lại lợi ích gì?",
+      "expected_answer": "Transformer chỉ dùng tự chú ý và cho phép xử lý song song toàn bộ chuỗi.",
+      "gold": [
+        {
+          "source_id": "viwiki-20015378",
+          "page": "viwiki-20015378-u01",
+          "evidence": "Năm 2017, Vaswani và cộng sự công bố kiến trúc Transformer trong bài báo \" Attention is all you need \" nổi tiếng, loại bỏ hoàn toàn thành phần hồi quy và chỉ dùng tự chú ý làm cơ chế tính toán chính, cho phép xử lý song song toàn bộ chuỗi thay vì tuần tự từng ký tự như RNN."
+        }
+      ],
+      "filter": {
+        "collection": "khoa_hoc_may_tinh"
+      }
+    },
+    {
+      "id": "B14",
+      "split": "dev",
+      "answerable": true,
+      "question": "Trong Nobel Hóa học 2024 liên quan đến protein, Demis Hassabis và John Jumper được trao giải cho công trình gì, còn David Baker cho công trình gì?",
+      "expected_answer": "Hassabis và Jumper cho dự đoán cấu trúc protein; Baker cho thiết kế protein bằng tính toán.",
+      "gold": [
+        {
+          "source_id": "viwiki-20018632",
+          "page": "viwiki-20018632-u01",
+          "evidence": "Năm 2024, hai lãnh đạo nhóm nghiên cứu của Google DeepMind trong dự án Alphafold Demis Hassabis và John Jumper được trao một nửa giải Nobel Hóa học \"cho công trình dự đoán cấu trúc protein\", nửa giải còn lại thuộc về David Baker \"cho công trình thiết kế protein bằng tính toán\"."
+        }
+      ]
+    },
+    {
+      "id": "B15",
+      "split": "dev",
+      "answerable": true,
+      "question": "Theo mô tả của Liskov và Zilles năm 1974, điều kiện nào làm một ngôn ngữ được gọi là kiểu mạnh?",
+      "expected_answer": "Khi một đối tượng truyền giữa hàm gọi và hàm được gọi, kiểu của nó phải tương thích với kiểu khai báo trong nguyên mẫu hàm được gọi.",
+      "gold": [
+        {
+          "source_id": "viwiki-2419095",
+          "page": "viwiki-2419095-u01",
+          "evidence": "Vào năm 1974, Liskov và Zilles mô tả một ngôn ngữ lập trình \"kiểu mạnh\" là ở ngôn ngữ đó \"mỗi khi một đối tượng được truyền từ hàm đang gọi sang hàm được gọi, kiểu của nó phải tương thích với kiểu khai báo trong nguyên mẫu của hàm được gọi.\""
+        }
+      ]
+    },
+    {
+      "id": "B16",
+      "split": "dev",
+      "answerable": true,
+      "question": "GCC là trình dịch tiêu chuẩn trên những hệ điều hành giống Unix nào được nêu, và còn có thể biên dịch cho hai nền tảng di động nào?",
+      "expected_answer": "Linux và Mac OS X; Android và iOS.",
+      "gold": [
+        {
+          "source_id": "viwiki-274357",
+          "page": "viwiki-274357-u01",
+          "evidence": "GCC là một thành phần quan trọng của GNU toolchain , và được hầu hết các hệ điều hành giống Unix , như Linux và Mac OS X chọn làm trình dịch tiêu chuẩn. Các dòng hệ điều hành BSD đa phần đều sử dụng GCC, dù một số dòng như FreeBSD và OpenBSD lại sử dụng Clang làm trình biên dịch chuẩn. Các phiên bản sau đó của GCC cũng hỗ trợ trên cả Microsoft Windows và một số hệ điều hành khác. GCC cũng có thể biên dịch chương trình cho cả Android và iOS ."
+        }
+      ]
+    },
+    {
+      "id": "B17",
+      "split": "dev",
+      "answerable": true,
+      "question": "Trong AWK, các cột của tệp được gọi là gì và ba cột đầu được đặt tên ra sao?",
+      "expected_answer": "Các cột được xem là các trường, đặt tên $1, $2 và $3.",
+      "gold": [
+        {
+          "source_id": "viwiki-311392",
+          "page": "viwiki-311392-u01",
+          "evidence": "Với một file như vậy các cột được Awk xem như các trường và được đặt tên $1 cho cột thứ nhất, $2 cho cột thứ hai, $3 cho cột thứ ba,..."
+        }
+      ]
+    },
+    {
+      "id": "B18",
+      "split": "dev",
+      "answerable": true,
+      "question": "Batch chạy dựa trên các phần mở rộng tệp nào và được thực thi trong môi trường gì?",
+      "expected_answer": "Các tệp .bat và .cmd, thực thi trong cửa sổ Command Prompt.",
+      "gold": [
+        {
+          "source_id": "viwiki-3646533",
+          "page": "viwiki-3646533-u01",
+          "evidence": "Batch là một ngôn ngữ lập trình được dựa trên các tập tin thực thi batch (*.bat, *.cmd,...) để chạy. Chúng sẽ được thực thi dưới dạng một cửa sổ Command Prompt để chạy những dòng lệnh."
+        }
+      ],
+      "filter": {
+        "collection": "ngon_ngu_lap_trinh"
+      }
+    },
+    {
+      "id": "B19",
+      "split": "dev",
+      "answerable": false,
+      "question": "Rust sử dụng bộ kiểm tra mượn như thế nào để bảo đảm an toàn bộ nhớ?",
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Corpus có nhắc nhiều ngôn ngữ nhưng không có tài liệu về Rust hoặc borrow checker.",
+      "absence_check": {
+        "scope": "all_418_chunks",
+        "searched_terms": [
+          "borrow checker",
+          "kiểm tra mượn"
+        ]
+      }
+    },
+    {
+      "id": "B20",
+      "split": "dev",
+      "answerable": false,
+      "question": "GPT-4o hỗ trợ tối đa bao nhiêu phút âm thanh trong một request API?",
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Corpus không có tài liệu về giới hạn âm thanh hoặc API của GPT-4o.",
+      "absence_check": {
+        "scope": "all_418_chunks",
+        "searched_terms": [
+          "gpt-4o",
+          "GPT-4o"
+        ]
+      }
+    },
+    {
+      "id": "B21",
+      "split": "dev",
+      "answerable": false,
+      "question": "Python 3.13 thay đổi cơ chế Global Interpreter Lock ra sao?",
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Corpus chỉ nhắc Python như nguồn cảm hứng hoặc ví dụ, không mô tả Python 3.13 hay thay đổi GIL.",
+      "absence_check": {
+        "scope": "all_418_chunks",
+        "searched_terms": [
+          "Python 3.13",
+          "Global Interpreter Lock"
+        ]
+      }
+    },
+    {
+      "id": "B22",
+      "split": "test",
+      "answerable": true,
+      "question": "Mục đích ban đầu của AutoIt là gì?",
+      "expected_answer": "Tạo các tập lệnh tự động hóa cho chương trình Microsoft Windows.",
+      "gold": [
+        {
+          "source_id": "viwiki-437651",
+          "page": "viwiki-437651-u01",
+          "evidence": "Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows"
+        }
+      ]
+    },
+    {
+      "id": "B23",
+      "split": "test",
+      "answerable": true,
+      "question": "Ngành tương tác người–máy tập trung giải quyết thách thức gì?",
+      "expected_answer": "Làm cho máy tính và công việc tính toán hữu ích, dễ sử dụng với mọi người dùng.",
+      "gold": [
+        {
+          "source_id": "viwiki-4663",
+          "page": "viwiki-4663-u01",
+          "evidence": "ngành tương tác người-máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng."
+        }
+      ],
+      "filter": {
+        "collection": "khoa_hoc_may_tinh"
+      }
+    },
+    {
+      "id": "B24",
+      "split": "test",
+      "answerable": true,
+      "question": "C++11 được ISO chấp nhận vào ngày nào và thay thế tiêu chuẩn nào?",
+      "expected_answer": "Ngày 12 tháng 4 năm 2011, thay thế C++03.",
+      "gold": [
+        {
+          "source_id": "viwiki-819391",
+          "page": "viwiki-819391-u01",
+          "evidence": "Tiêu chuẩn này được chấp nhận bởi tổ chức ISO vào ngày 12 tháng 4 năm 2011 nhằm thay thế cho tiêu chuẩn C++03."
+        }
+      ]
+    },
+    {
+      "id": "B25",
+      "split": "test",
+      "answerable": true,
+      "question": "Cấu trúc dữ liệu B-tree đặc biệt phù hợp với loại ứng dụng nào?",
+      "expected_answer": "Thiết kế cơ sở dữ liệu.",
+      "gold": [
+        {
+          "source_id": "viwiki-85746",
+          "page": "viwiki-85746-u01",
+          "evidence": "Ví dụ, các B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu."
+        }
+      ]
+    },
+    {
+      "id": "B26",
+      "split": "test",
+      "answerable": true,
+      "question": "Trong cây biểu diễn tập hợp rời nhau, phần tử đại diện đóng vai trò gì và các phần tử còn lại là gì?",
+      "expected_answer": "Phần tử đại diện là gốc cây; các phần tử còn lại là các nút của cây.",
+      "gold": [
+        {
+          "source_id": "viwiki-91470",
+          "page": "viwiki-91470-u01",
+          "evidence": "Để dùng cây biểu diễn tập, ta chọn một phần tử trong tập hợp làm đại diện cho tập. Phần tử này sẽ làm gốc của cây. Các phần tử khác trong tập là các nút của cây."
+        }
+      ]
+    },
+    {
+      "id": "B27",
+      "split": "test",
+      "answerable": true,
+      "question": "Thiết bị không hiển thị thông điệp có thể thay dòng chữ Hello World bằng tín hiệu nào?",
+      "expected_answer": "Bật sáng đèn LED.",
+      "gold": [
+        {
+          "source_id": "viwiki-974178",
+          "page": "viwiki-974178-u01",
+          "evidence": "Trong các thiết bị không hiển thị thông điệp, một chương trình đơn giản là phát sinh tín hiệu, như bật đèn LED sáng để thay thế cho dòng chữ \"Hello world\" như là một chương trình chỉ dẫn."
+        }
+      ],
+      "filter": {
+        "collection": "ngon_ngu_lap_trinh"
+      }
+    },
+    {
+      "id": "B28",
+      "split": "test",
+      "answerable": false,
+      "question": "AlphaFold 3 sử dụng learning rate chính xác bao nhiêu trong lần huấn luyện cuối?",
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Tài liệu AlphaFold không cung cấp learning rate huấn luyện AlphaFold 3.",
+      "absence_check": {
+        "scope": "all_418_chunks",
+        "searched_terms": [
+          "learning rate",
+          "tốc độ học"
+        ]
+      }
+    },
+    {
+      "id": "B29",
+      "split": "test",
+      "answerable": false,
+      "question": "CIFAR-10 được thu thập bằng loại máy ảnh nào và khẩu độ ống kính bao nhiêu?",
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Tài liệu CIFAR mô tả dữ liệu, kích thước và nhãn nhưng không nêu thiết bị hay khẩu độ chụp.",
+      "absence_check": {
+        "scope": "all_418_chunks",
+        "searched_terms": [
+          "khẩu độ",
+          "máy ảnh"
+        ]
+      }
+    },
+    {
+      "id": "B30",
+      "split": "test",
+      "answerable": false,
+      "question": "Phiên bản AutoIt tiếp theo dự kiến phát hành vào ngày cụ thể nào?",
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Tài liệu không có lịch phát hành tương lai của AutoIt.",
+      "absence_check": {
+        "scope": "all_418_chunks",
+        "searched_terms": [
+          "dự kiến phát hành",
+          "lịch phát hành"
+        ]
+      }
+    }
+  ]
+}

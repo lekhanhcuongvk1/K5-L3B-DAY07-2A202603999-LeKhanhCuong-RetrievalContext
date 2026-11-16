@@ -1,0 +1,237 @@
+Bong bóng AI ( tiếng Anh : AI bubble ) là một bong bóng thị trường chứng khoán được cho là đang hình thành trong bối cảnh bùng nổ AI , một giai đoạn mà đầu tư vào lĩnh vực trí tuệ nhân tạo (AI) đang gia tăng nhanh chóng, tác động trực tiếp đến nền kinh tế rộng lớn hơn. Lo ngại về bong bóng phần lớn xuất phát từ việc các công ty công nghệ AI hàng đầu tham gia vào một vòng đầu tư tuần hoàn nhằm thổi phồng giá trị cổ phiếu của nhau, trong khi không thu lại được số tiền vốn bỏ ra. Bên cạnh đó, nhiều người cũng đưa ra sự so sánh giữa môi trường tài chính công nghệ hiện tại với bong bóng dot-com vào cuối thập niên 1990 và đầu thập niên 2000.
+
+Lịch sử
+
+Sự bùng nổ của trí tuệ nhân tạo
+
+Trí tuệ nhân tạo (AI) là lĩnh vực khoa học máy tính nghiên cứu cách tạo ra các hệ thống có khả năng thực hiện những nhiệm vụ thường đòi hỏi trí thông minh của con người, chẳng hạn như đọc hiểu văn bản, trả lời câu hỏi, viết lách, hay phân tích hình ảnh. Dù AI đã tồn tại nhiều thập kỷ dưới vai trò là một lĩnh vực nghiên cứu hàn lâm, nó chỉ thực sự trở thành hiện tượng đại chúng toàn cầu kể từ cuối năm 2022.
+
+Vào ngày 30 tháng 11 năm 2022, công ty Mỹ OpenAI ra mắt ChatGPT , một phần mềm cho phép người dùng trò chuyện bằng ngôn ngữ tự nhiên với máy tính và nhận được phản hồi mạch lạc, chi tiết về gần như bất kỳ chủ đề nào. ChatGPT thu hút một triệu người dùng chỉ trong năm ngày đầu tiên nhanh hơn bất kỳ ứng dụng nào trong lịch sử tính đến thời điểm đó và đạt 100 triệu người dùng sau hai tháng. Sự phổ biến nhanh chóng của ChatGPT khiến giới doanh nghiệp và nhà đầu tư toàn cầu nhận ra rằng AI tạo sinh đã đủ chín muồi để ứng dụng thương mại rộng rãi.
+
+Làn sóng đầu tư theo sau là chưa từng có tiền lệ. Để huấn luyện và vận hành các mô hình AI quy mô lớn như ChatGPT, cần có hàng chục nghìn bộ vi xử lý đồ họa chuyên dụng (GPU), vốn ban đầu được phát triển cho ngành game nhưng hóa ra phù hợp với tính toán AI hơn bất kỳ loại chip nào khác. Nvidia, công ty Mỹ chiếm lĩnh thị trường GPU cao cấp, trở thành người hưởng lợi trực tiếp nhất. Doanh thu trung tâm dữ liệu của Nvidia tăng 171% so với cùng kỳ năm trước ngay trong quý đầu tiên sau khi ChatGPT bùng nổ, và vốn hóa thị trường của công ty vượt mốc 1 nghìn tỷ đô la vào tháng 5 năm 2023 (tăng từ khoảng 300 tỷ đô la trước khi ChatGPT ra mắt) rồi tiếp tục tăng lên 2 nghìn tỷ đô la vào tháng 2 năm 2024 và 3 nghìn tỷ đô la vào tháng 6 năm 2024. Không chỉ Nvidia, các công ty công nghệ lớn như Microsoft, Google, Meta, và Amazon đều công bố kế hoạch đầu tư hàng chục đến hàng trăm tỷ đô la vào cơ sở hạ tầng AI trong những năm tiếp theo, thúc đẩy giá cổ phiếu của họ leo thang và kéo theo toàn bộ thị trường chứng khoán Mỹ lên cao.
+
+DeepSeek và những lo ngại đầu tiên
+
+Vào cuối tháng 1 năm 2025, sự ra mắt bất ngờ thành công của chatbot do Trung Quốc phát triển là DeepSeek đã làm dấy lên lo ngại về bong bóng AI. DeepSeek công bố đã xây dựng một mô hình AI có hiệu năng ngang ngửa các sản phẩm hàng đầu của OpenAI và Google, nhưng chỉ tốn khoảng 6 triệu đô la tiền tính toán – một phần rất nhỏ so với hàng trăm triệu đến hàng tỷ đô la mà các công ty Mỹ chi cho mỗi mô hình. Điều này đặt ra câu hỏi mà giới đầu tư không thể bỏ qua: nếu AI có thể được phát triển với chi phí thấp đến vậy, thì liệu hàng nghìn tỷ đô la đang được đổ vào chip GPU và trung tâm dữ liệu có thực sự cần thiết không? Ngay lập tức, giá cổ phiếu của nhiều công ty AI lao dốc, trong đó cổ phiếu Nvidia giảm 17% chỉ trong một ngày, tương đương khoảng 593 tỷ đô la giá trị vốn hóa bị xóa sổ chỉ trong một ngày.
+
+Trong khi đó, số tiền mà các công nghệ của Mỹ rót vào lĩnh vực này chưa có dấu hiệu dừng lại. Vào tháng 8 năm 2025, một báo cáo của Nanda (Networked Agents and Decentralized AI) thuộc Phòng thí nghiệm Truyền thông MIT kết luận rằng "dù doanh nghiệp đã đầu tư 30-40 tỷ đô la vào GenAI , [...] 95% tổ chức không thu được bất kỳ lợi nhuận nào". Tổng chi tiêu của các tập đoàn lớn tại Mỹ dự kiến đạt 1,1 nghìn tỷ đô la trong giai đoạn 2026–2029, và tổng chi tiêu cho AI toàn cầu dự kiến vượt 1,6 nghìn tỷ đô la.
+
+Tiền vẫn tiếp tục được bơm vào thị trường
+
+Do nhu cầu chip bán dẫn phục vụ AI ngày càng tăng, Nvidia trở thành công ty có giá trị vốn hóa lớn nhất thế giới và là công ty đầu tiên đạt mức vốn hóa 4 nghìn tỷ đô la vào tháng 7 năm 2025, gấp bốn lần kể từ năm 2023 khi Nvidia lần đầu vượt mốc 1 nghìn tỷ đô la. Vốn hóa của Nvidia chiếm khoảng 7,3% chỉ số S&P 500 , đạt mức cao kỷ lục. Đến tháng 10 năm 2025, vốn hóa Nvidia tiếp tục tăng vượt mốc 5 nghìn tỷ đô la, cao hơn GDP của tất cả các quốc gia ngoại trừ Mỹ và Trung Quốc theo dữ liệu của Ngân hàng Thế giới . Trong suốt năm 2025, các doanh nghiệp liên quan đến AI chiếm khoảng 80% mức tăng trưởng của thị trường chứng khoán Mỹ . Một số nhà hoài nghi cảnh báo rằng sự tăng trưởng nhanh chóng của các công ty công nghệ AI có thể là kết quả của việc kỹ thuật tài chính quá mức.
+
+Microsoft tiết lộ đã chi gần 35 tỷ đô la cho cơ sở hạ tầng AI trong ba tháng tính đến cuối tháng 9. Vào tháng 10, Microsoft trở thành công ty có giá trị vốn hóa lớn thứ hai thế giới, một phần nhờ khoản cổ phần 27% tại OpenAI . Dù doanh thu tăng 18% và lợi nhuận ròng tăng 12%, giá cổ phiếu vẫn giảm 4% trong giao dịch sau giờ do nhà đầu tư lo ngại về chi phí duy trì bùng nổ AI .
+
+Vào cuối năm 2025, thị trường chứng khóa Mỹ đạt mức tập trung cao nhất trong nữa thế kỷ khi 30% chỉ số S&P 500 của Mỹ và 20% chỉ số MSCI World chỉ được nắm giữ bởi năm công ty lớn nhất, đồng thời định giá cổ phiếu của chúng được đánh giá là bị thổi phồng nhiều nhất kể từ thời bong bóng dot-com. Các chuyên gia cảnh báo rằng các công ty AI đang bị định giá quá cao khi S&P 500 đang giao dịch ở mức 23 lần thu nhập dự phóng và chỉ số FTSE 100 ở mức 14 lần, cho thấy mức độ đắt đỏ của thị trường Mỹ. Tỷ lệ giá trên thu nhập Case-Shiller của thị trường Mỹ cũng vượt mốc 40 lần đầu tiên kể từ bong bóng dot-com .
+
+Nghi ngờ về sự hình thành của bong bóng
+
+Sam Altman , CEO của OpenAI và người tạo ra ChatGPT , tuyên bố vào năm 2025 rằng ông tin một bong bóng AI đang tồn tại. Đầu năm 2025, đồng giám đốc đầu tư của Bridgewater Associates là Ray Dalio nhận định rằng mức độ đầu tư vào AI hiện tại "rất giống" bong bóng dot-com. Tháng 9 năm 2025, tờ Australian Financial Review nhận xét: "Nếu chúng ta thực sự đang trong một bong bóng thị trường chứng khoán khác, đây chắc chắn là ví dụ được tiên liệu nhiều nhất trong lịch sử."
+
+Vào tháng 10 cùng năm, Jamie Dimon , Giám đốc điều hành của JPMorgan Chase , ngân hàng lớn nhất nước Mỹ, nói rằng ông tin "AI là có thực" nhưng cho rằng một phần tiền đầu tư hiện tại sẽ bị lãng phí. Ông cũng nhận định xác suất thị trường chứng khoán giảm mạnh trong hai năm tới cao hơn những gì thị trường đang phản ánh. Dimon cảnh báo rằng một vụ sụp đổ thị trường do AI gây ra có thể khiến nhiều khoản đầu tư tổn thất nặng nề, mặc dù ông thừa nhận AI "sẽ được đền đáp [...] giống như ô tô và TV cũng đã được đền đáp, nhưng hầu hết những người tham gia vào đó đều không thu được lợi".
+
+Đầu tư vòng tròn
+
+Điều khiến người ta lo ngại nhất về sự tồn tại của một bong bóng kinh tế trong ngành AI ở việc giá trị cổ phiếu các công ty công nghệ này tăng cao ngất ngưởng dù doanh thu còn hạn chế, và chỉ tăng trưởng đơn thuần nhờ công ty này đầu tư và rót tiền vào công ty kia.
+
+Vào tháng 3 năm 2025, OpenAI ký hợp đồng trị giá 11,9 tỷ đô la với nhà cung cấp dịch vụ điện toán đám mây CoreWeave và nắm giữ cổ phần 350 triệu đô la tại công ty này. Cùng thời điểm đó, CoreWeave đã vay gần 8 tỷ đô la để mua chip GPU của Nvidia nhằm xây dựng cơ sở hạ tầng trung tâm dữ liệu của mình. Vào tháng 7 năm 2025, OpenAI thông báo sử dụng dịch vụ đám mây của Google cho ChatGPT.
+
+Tháng 9 năm 2025 chứng kiến một loạt thỏa thuận lớn được ký kết. Ngày 9 tháng 9, Nvidia ký hợp đồng trị giá 6,3 tỷ đô la để mua lại năng lực trung tâm dữ liệu chưa được sử dụng của CoreWeave cho đến năm 2032, trong khi đồng thời nắm giữ 7% cổ phần và cung cấp cho CoreWeave chính những chip GPU mà công ty này cần mua. Vào cuối tháng đó, OpenAI mở rộng hợp đồng với CoreWeave lên tới 22,4 tỷ đô la, đồng thời ký hợp đồng điện toán đám mây trị giá 300 tỷ đô la với Oracle . Meta cũng ký hợp đồng thuê đám mây ban đầu trị giá 14,2 tỷ đô la với CoreWeave, hợp đồng đám mây sáu năm trị giá hơn 10 tỷ đô la với Google, và hợp đồng khoảng 20 tỷ đô la với Oracle.
+
+Vào tháng 10 năm 2025, OpenAI mua cổ phần của AMD thông qua thỏa thuận mua chip GPU, và ký thỏa thuận thiết kế chip tùy chỉnh với Broadcom . Trong khi đó, Oracle mua khoảng 40 tỷ đô la chip GPU của Nvidia để xây dựng trung tâm dữ liệu cho OpenAI trong khuôn khổ dự án Stargate.
+
+Vào tháng 11 năm 2025, Nvidia đầu tư vào Anthropic, đưa công ty này lên mức định giá khoảng 350 tỷ đô la. Broadcom tiết lộ Anthropic là khách hàng ẩn danh đã đặt hàng chip trị giá hơn 10 tỷ đô la của họ.
+
+Sang năm 2026, quy mô đầu tư tiếp tục leo thang. Tháng 1, Nvidia tăng cổ phần tại CoreWeave thêm 2 tỷ đô la. Tháng 2, Meta ký thỏa thuận mua chip GPU của AMD lên tới 100 tỷ đô la, chỉ vài tuần sau khi mở rộng hợp đồng mua chip GPU và CPU của Nvidia. Amazon công bố hợp tác chiến lược với OpenAI và đầu tư 50 tỷ đô la vào công ty này, trong khi OpenAI đặt mua dịch vụ đám mây từ Amazon trị giá hơn 38 tỷ đô la. Tháng 3 năm 2026, Nvidia hoàn tất khoản đầu tư 30 tỷ đô la vào OpenAI trong vòng gọi vốn kỷ lục 122 tỷ đô la. Tháng 4 năm 2026, Amazon nâng tổng mức đầu tư vào Anthropic lên tới 33 tỷ đô la kèm theo hợp đồng điện toán đám mây 10 năm trị giá hơn 100 tỷ đô la, đồng thời Meta ký hợp đồng sản xuất chip tùy chỉnh tương đương 1 gigawatt với Broadcom và mở rộng thỏa thuận CoreWeave thêm 21 tỷ đô la.
+
+Cấu trúc tài chính này, trong đó các công ty AI vừa là nhà đầu tư vừa là khách hàng của nhau, đã bị nhiều nhà phân tích đặt câu hỏi về tính bền vững. Một số người lo ngại rằng khi bất kỳ mắt xích nào trong chuỗi mất khả năng tài trợ cho tăng trưởng, toàn bộ vòng tròn có nguy cơ sụp đổ theo.
+
+Thiếu khả năng sinh lời
+
+Việc các công ty đang ra sức bơm tiền cho nhau, khiến giá trị cổ phiếu của các chúng bị thổi phồng dựa trên sự kỳ vọng vào AI bất kể các chỉ số cơ bản của thị trường hay thực trạng tài chính thực sự từ việc thương mại hóa các sản phẩm AI. Một nghiên cứu của Cục Nghiên cứu Kinh tế Quốc gia Hoa Kỳ công bố vào tháng 2 năm 2026 cho thấy dù 90% doanh nghiệp báo cáo AI không có tác động đến năng suất lao động, các giám đốc điều hành vẫn dự phóng AI sẽ tăng năng suất thêm 1,4% và sản lượng thêm 0,8%, dẫn đến những so sánh với nghịch lý năng suất , một sự kiện vào những năm 1970s và 1980s khi năng suất lao động giảm bất chấp các tiến bộ vượt bậc trong ngành công nghệ thông tin .
+
+OpenAI cam kết chi 1,4 nghìn tỷ đô la Mỹ trong 8 năm để xây dựng các trung tâm dữ liệu mới, hợp tác với Nvidia để cung cấp 10 gigawatt năng lực tính toán cho các mô hình AI của họ, trong khi chỉ đạt doanh thu 13 đô la Mỹ tỷ, tức chưa đến 1% mức đầu tư này. Kế hoạch chi tiêu dài hạn này được tài trợ bằng nợ. Ước tính của Morgan Stanley đặt tổng chi tiêu toàn cầu cho trung tâm dữ liệu từ năm 2025 đến 2028 ở mức 3 đô la Mỹ nghìn tỷ, trong đó một nửa được tài trợ bằng tín dụng tư nhân. OpenAI chưa trình bày được lộ trình sinh lời hợp lý hay cách hoàn trả các khoản đầu tư này. Vào tháng 11 năm 2025, OpenAI cho biết họ dự kiến sẽ tiếp tục thua lỗ hàng năm đến hết năm 2028, bao gồm khoản lỗ hoạt động 74 đô la Mỹ tỷ chỉ riêng trong năm 2028. Tờ The Wall Street Journal thu được các tài liệu tài chính trong đó OpenAI dự phóng lợi nhuận đáng kể vào năm 2030 dù phải chịu thua lỗ sâu trong những năm trước đó. Nhà phân tích của Deutsche Bank là Jim Reid ước tính tổng thua lỗ của OpenAI từ 2024 đến 2029 lên tới 140 tỷ đô la Mỹ .
+
+Ngoài chi phí trung tâm dữ liệu, OpenAI còn chịu chi phí chạy mô hình đã qua huấn luyện ( inference ) ngày càng tăng, khiến ChatGPT ngày càng tốn kém hơn khi người dùng gửi mỗi yêu cầu. Trong năm 2024, họ chi 3,76 đô la Mỹ tỷ cho việc chạy các mô hình này, và con số này tăng lên 5,02 đô la Mỹ tỷ chỉ riêng trong nửa đầu năm 2025 thông qua Microsoft Azure . Cựu quản lý của Fidelity Investments , George Noble, cho biết OpenAI đang "đốt 15 triệu đô la Mỹ mỗi ngày chỉ riêng cho Sora ". Ông cũng cảnh báo rằng các công ty AI sẽ phải đối mặt với lợi nhuận biên giảm dần trong việc cải thiện mô hình trong khi chi phí vẫn tăng, nói rằng "sẽ tốn gấp 5 lần năng lượng và tiền bạc để làm cho các mô hình này tốt hơn 2 lần". OpenAI được dự đoán sẽ cạn kiệt tiền mặt vào giữa năm 2027.
+
+Nợ và so sánh với bong bóng dot-com
+
+Tài trợ bằng nợ cũng đã làm gia tăng rủi ro bong bóng. Các nhà phân tích của Morgan Stanley ước tính nợ dùng để tài trợ trung tâm dữ liệu AI có thể vượt 1 nghìn tỷ đô la vào năm 2028. Nhiều trái phiếu tài trợ trung tâm dữ liệu AI được xếp hạng BBB hoặc là trái phiếu rác .
+
+Điều này gợi lên những liên tưởng với giai đoạn bong bóng dot-com, khi các công ty viễn thông Mỹ đổ hơn 500 tỷ đô la vào việc xây dựng mạng cáp quang và hạ tầng không dây trong giai đoạn 1996-2001, phần lớn cũng được tài trợ bằng nợ vay như công nghệ AI. Tệ hơn, con số 500 tỷ đô la này chỉ phản ánh đầu tư của riêng ngành viễn thông, chứ chưa bao gồm toàn bộ hệ sinh thái dot-com. Chủ tịch Ủy ban Truyền thông Liên bang Michael Powell sau đó xác nhận trước Ủy ban Thương mại Thượng viện Mỹ vào tháng 7 năm 2002 rằng ngành viễn thông đã gánh tổng nợ lên đến 1 nghìn tỷ đô la, "phần lớn sẽ không bao giờ được hoàn trả và buộc phải được các nhà đầu tư xóa sổ". Con số này tương đương với ước tính về mức nợ cho các trung tâm dữ liệu AI.
+
+Bong bóng AI đã thu hút nhiều so sánh với bong bóng dot-com thập niên 2000. Nhà đầu tư tỷ phú Ray Dalio (người từng dự đoán được khủng hoảng tài chính 2008 ) cảnh báo rằng bong bóng AI phản ánh bong bóng dot-com ở chỗ định giá cổ phiếu công nghệ bị thổi phồng quá mức trong môi trường lãi suất thấp. Trong khi đó, nhà chuyên gia về quan hệ công chúng Ed Zitron cho rằng sự so sánh với bong bóng dot-com là còn nhẹ, bởi vì bong bóng AI còn lớn hơn và do đó sẽ gây tổn hại nhiều hơn khi vỡ. Tài sản cơ bản của bong bóng AI là GPU , thứ có chi phí và công năng hạn chế hơn nhiều so với hạ tầng mạng và cáp quang của thời dot-com. Julien Garran, nhà nghiên cứu và đối tác tại MacroStrategy Partnership, công bố báo cáo vào tháng 10 năm 2025 gọi bong bóng AI là "bong bóng lớn nhất và nguy hiểm nhất thế giới từng chứng kiến", với quy mô gấp 17 lần so với bong bóng dot-com.
+
+Tuyên bố của Ngân hàng Trung ương Anh
+
+Ngân hàng Trung ương Anh cảnh báo về rủi ro ngày càng tăng của việc thị trường toàn cầu có thể điều chỉnh giảm mạnh do định giá quá cao của các công ty công nghệ AI hàng đầu, điển hình là OpenAI, khi công ty này đã tăng giá trị hơn gấp ba lần từ 157 tỷ đô la vào tháng 10 năm 2024 lên 500 tỷ đô la vào năm sau. Ngân hàng cũng cảnh báo rằng các định giá này có thể giảm thêm nếu chi phí cơ sở hạ tầng cần thiết để vận hành các hệ thống AI hóa ra quá cao. Ngân hàng nhấn mạnh rằng các nhà đầu tư chưa được cảnh báo đúng mức về rủi ro sụp đổ thị trường nếu AI không đáp ứng được kỳ vọng.
+
+Quỹ Tiền tệ Quốc tế đồng ý và củng cố thêm các nhận định của Ngân hàng Trung ương Anh. Kristalina Georgieva , nhà kinh tế học người Bulgaria và Giám đốc điều hành thứ 12 của IMF, cũng rút ra so sánh với bong bóng dot-com năm 2001 và nhấn mạnh rằng một đợt điều chỉnh thị trường có thể kìm hãm tăng trưởng toàn cầu và làm suy yếu kinh tế các nước đang phát triển.
+
+Phản biện
+
+Một số cá nhân và tổ chức tài chính lớn đã phản bác quan điểm cho rằng bong bóng AI đang hình thành, lập luận rằng định giá hiện tại phản ánh tăng trưởng lợi nhuận thực sự chứ không phải đầu cơ thuần túy.
+
+David Kostin, chiến lược gia vốn cổ phần hàng đầu của Goldman Sachs với 31 năm kinh nghiệm trước khi nghỉ hưu vào cuối năm 2025, lập luận rằng thị trường công cộng chưa ở trong tình trạng bong bóng AI. Ông chỉ ra rằng các công ty AI lớn mới chỉ đang giao dịch ở mức khoảng 30 lần thu nhập, thấp hơn đáng kể so với mức 50 lần trong thời kỳ dot-com và 40 lần sau đại dịch COVID-19. Tuy nhiên, Kostin thừa nhận rằng thị trường tư nhân – nơi các công ty AI huy động vốn ở mức định giá ngày càng cao và các giao dịch tài chính vòng tròn của nhà cung cấp phổ biến – có thể đang ở trong tình trạng bong bóng thực sự, nhưng nhấn mạnh rằng "đây là sự phân biệt then chốt giữa thị trường công và thị trường tư nhân trong lĩnh vực AI".
+
+Các nhà phân tích của Morgan Stanley mô tả lo ngại về bong bóng là "chưa đúng chỗ" hoặc "còn quá sớm", dẫn dữ liệu cho thấy dòng tiền trung bình và dự trữ vốn của 500 công ty Mỹ hàng đầu cao gấp khoảng ba lần so với các giai đoạn bong bóng trước đây. Họ cũng lưu ý rằng các công ty dẫn đầu thị trường hiện nay, khác với các công ty thời dot-com, tạo ra doanh thu thực sự và biên lợi nhuận dương.
+
+JPMorgan , ngân hàng lớn nhất Hoa Kỳ, kết luận thông qua phân tích năm tiêu chí vào tháng 12 năm 2025 rằng đầu tư AI gắn với doanh thu doanh nghiệp thực tế chứ không chỉ là đầu cơ đơn thuần. Đáng chú ý là lập luận này mâu thuẫn với tuyên bố của chính CEO của JPMorgan, Jamie Dimon, người mới hai tháng trước đó cảnh báo về khả năng thị trường sụt giảm đáng kể.
+
+Chủ tịch Cục Dự trữ Liên bang Mỹ Jerome Powell cũng phân biệt bong bóng AI với dot-com, lập luận rằng các công ty AI tạo ra doanh thu thực sự và chi tiêu cho trung tâm dữ liệu AI đang đóng góp vào tăng trưởng kinh tế rộng lớn hơn. Tuy nhiên, nhà bình luận tài chính Ed Zitron phản bác quan điểm này, lập luận rằng doanh thu không đồng nghĩa với lợi nhuận và mô hình kinh doanh của nhiều công ty AI vẫn chưa có lộ trình rõ ràng dẫn đến khả năng sinh lời trong tương lai gần.
+
+Vào cuối tháng 3 năm 2026, nhà phê bình văn hóa Mary McNamara của tờ Los Angeles Times khẳng định rằng sự kết thúc của mô hình Sora của ChatGPT sẽ không phải là "quân cờ domino đầu tiên hay việc bong bóng AI vỡ", mà chỉ phản ánh sự thờ ơ của công chúng đối với một số sản phẩm AI cụ thể.
+
+Tham khảo
+
+↑ Aspan, Maria (ngày 30 tháng 8 năm 2025). "AI and Nvidia have been bright spots in an uncertain economy, but there are doubts now" . NPR . Lưu trữ bản gốc ngày 6 tháng 9 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ De Vynck, Gerrit (ngày 4 tháng 8 năm 2025). "The AI spending boom could have real consequences for the U.S. economy" . The Washington Post . Lưu trữ bản gốc ngày 5 tháng 8 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Casselman, Ben; Ember, Sydney (ngày 22 tháng 11 năm 2025). "The A.I. Boom Is Driving the Economy. What Happens if It Falters?" . The New York Times .
+
+↑ Tobin, Meaghan (ngày 3 tháng 10 năm 2025). "A.I. Is Driving a Stock Market Rally in China, Too" . The New York Times .
+
+↑ DePillis, Lydia (ngày 27 tháng 8 năm 2025). "The A.I. Spending Frenzy Is Propping Up the Real Economy, Too" . The New York Times .
+
+↑ Munjal, Mayank; Sachdev, Vineet (ngày 5 tháng 12 năm 2025). "Investment in AI is exploding" . Reuters .
+
+↑ Russell, Stuart J.; Norvig, Peter (2021). Artificial intelligence: a modern approach . Pearson series in artificial intelligence (ấn bản thứ 4). Hoboken: Pearson. ISBN 978-0-13-461099-3 .
+
+↑ "ChatGPT gained 1 million users in under a week" . Reuters . ngày 2 tháng 2 năm 2023. Lưu trữ bản gốc ngày 3 tháng 2 năm 2023 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ "NVIDIA Reports First Quarter Fiscal 2024 Financial Results" . U.S. Securities and Exchange Commission. ngày 24 tháng 5 năm 2023.
+
+↑ "Nvidia hits $3 trillion market cap due to AI data center boom" . Data Center Dynamics . ngày 5 tháng 6 năm 2024. Lưu trữ bản gốc ngày 27 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Mackenzie, Michael (ngày 28 tháng 1 năm 2025). "What's DeepSeek, China's AI startup sending shockwaves through global tech?" . Al Jazeera . Lưu trữ bản gốc ngày 20 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Hoskins, Peter; Edwards, Charlotte (ngày 28 tháng 1 năm 2025). "Nvidia and Microsoft shares steady after DeepSeek AI app shock" . BBC . Lưu trữ bản gốc ngày 3 tháng 9 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Challapally, Aditya; Pease, Chris; Raskar, Ramesh; Char, Pradyumna (tháng 7 năm 2025). "The GenAI Divide State of AI in Business 2025" (PDF) . MIT NANDA . Lưu trữ (PDF) bản gốc ngày 20 tháng 8 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Aquino, Kristine; Leon, Joel (ngày 10 tháng 10 năm 2025). "Companies Overpaying for AI Add to Bubble Risks, Survey Shows" . Bloomberg .
+
+↑ Edwards, Charlotte (ngày 9 tháng 7 năm 2025). "Nvidia becomes world's first $4tn company" . BBC News . Lưu trữ bản gốc ngày 1 tháng 11 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Montgomery, Blake (ngày 9 tháng 7 năm 2025). "Nvidia becomes first company to reach $4tn in market value" . The Guardian .
+
+↑ Nishant, Niket; Singh, Rashika (ngày 29 tháng 10 năm 2025). "Nvidia hits $5 trillion valuation as AI boom powers meteoric rise" . Reuters . Lưu trữ bản gốc ngày 30 tháng 11 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Kaye, Danielle (ngày 29 tháng 10 năm 2025). "Nvidia hits new milestone as world's first $5tn company" . BBC News . Lưu trữ bản gốc ngày 2 tháng 11 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Sephton, Connor (ngày 30 tháng 10 năm 2025). "Microsoft, Alphabet and Meta results overshadowed by growing fears of AI bubble" . Sky News . Lưu trữ bản gốc ngày 31 tháng 10 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+1 2 "Bank of England warns of 'sharp correction' for markets if AI bubble bursts - and IMF agrees" . Sky News . ngày 8 tháng 10 năm 2025. Lưu trữ bản gốc ngày 24 tháng 10 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+1 2 More, Durva (ngày 16 tháng 10 năm 2025). "Experts warn AI could trigger next global stock market crash — here's what might happen" . The Economic Times . Lưu trữ bản gốc ngày 18 tháng 11 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+1 2 Nolan, Beatrice (ngày 19 tháng 8 năm 2025). "Wall Street isn't worried about an AI bubble. Sam Altman is" . Fortune . Lưu trữ bản gốc ngày 25 tháng 8 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Thomson, James (ngày 26 tháng 9 năm 2025). " 'Close to full ponzi': What big fundies are doing as markets flash red" . Australian Financial Review . Lưu trữ bản gốc ngày 29 tháng 9 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+1 2 Towfighi, John (ngày 9 tháng 10 năm 2025). "Jamie Dimon is worried about a stock market correction" . CNN . Lưu trữ bản gốc ngày 12 tháng 10 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Jack, Simon; McNamee, Michael Sheils (ngày 9 tháng 10 năm 2025). "America's top banker sounds warning on US stock market fall" . BBC . Lưu trữ bản gốc ngày 5 tháng 11 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Field, Hayden (ngày 10 tháng 3 năm 2025). "OpenAI to pay CoreWeave $11.9 billion over five years for AI data centers, services" . CNBC .
+
+↑ Leswing, Kif (ngày 26 tháng 3 năm 2025). "The concern with CoreWeave's 250,000 Nvidia chips ahead of its IPO" . CNBC . Lưu trữ bản gốc ngày 18 tháng 5 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Novet, Jordan (ngày 16 tháng 7 năm 2025). "OpenAI says it will use Google's cloud for ChatGPT" . CNBC .
+
+1 2 CoreWeave, Inc. (ngày 15 tháng 9 năm 2025). "Form 8-K" . U.S. Securities and Exchange Commission (SEC) . Lưu trữ bản gốc ngày 14 tháng 12 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Ford, Brody; Ludlow, Edward (ngày 25 tháng 9 năm 2025). "CoreWeave expands deals with OpenAI to as much as $22.4 billion" . Bloomberg .
+
+↑ Wheatley, Mike (ngày 10 tháng 9 năm 2025). "OpenAI and Oracle strike $300B cloud computing deal to power AI" . SiliconAngle .
+
+↑ Capoot, Ashley (ngày 30 tháng 9 năm 2025). "CoreWeave stock closes up 12% after company lands $14 billion deal with Meta" . CNBC .
+
+↑ Novet, Jordan; Vanian, Jonathan (ngày 21 tháng 8 năm 2025). "Google scores six-year Meta cloud deal worth over $10 billion" . CNBC . Lưu trữ bản gốc ngày 20 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Novet, Jordan (ngày 16 tháng 10 năm 2025). "Oracle confirms Meta cloud deal" . CNBC . Lưu trữ bản gốc ngày 16 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Sigalos, MacKenzie (ngày 6 tháng 10 năm 2025). "OpenAI looks to take 10% stake in AMD through AI chip deal" . CNBC .
+
+↑ Sigalos, MacKenzie (ngày 13 tháng 10 năm 2025). "Broadcom stock pops 9% on OpenAI custom chip deal, adding to Nvidia and AMD agreements" . CNBC .
+
+↑ Petrova, Magdalena (ngày 15 tháng 10 năm 2025). "A guide to the $1 trillion-worth of AI deals between OpenAI, Nvidia and others" . CNBC . Lưu trữ bản gốc ngày 22 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Capoot, Ashley; Sigalos, MacKenzie (ngày 18 tháng 11 năm 2025). "Anthropic valued in range of $350 billion following investment deal with Microsoft, Nvidia" . CNBC . Lưu trữ bản gốc ngày 18 tháng 11 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Leswing, Kif; Sigalos, MacKenzie (ngày 11 tháng 12 năm 2025). "Broadcom reveals its mystery $10 billion customer is Anthropic" . CNBC . Lưu trữ bản gốc ngày 1 tháng 7 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Bass, Dina; King, Ian (ngày 26 tháng 1 năm 2026). "Nvidia invests another $2 billion in CoreWeave, offers new chip" . Bloomberg .
+
+↑ Tarasov, Katie (ngày 24 tháng 2 năm 2026). "Meta strikes AI chip deal with AMD days after committing to deploy millions of Nvidia GPUs" . CNBC . Lưu trữ bản gốc ngày 15 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ "OpenAI and Amazon announce strategic partnership" . OpenAI. ngày 27 tháng 2 năm 2026. Lưu trữ bản gốc ngày 25 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Bishop, Todd (ngày 2 tháng 3 năm 2026). "Amazon's $50 billion OpenAI gambit" . GeekWire . Lưu trữ bản gốc ngày 22 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Capoot, Ashley (ngày 31 tháng 3 năm 2026). "OpenAI closes record-breaking $122 billion funding round as anticipation builds for IPO" . CNBC . Lưu trữ bản gốc ngày 24 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Capoot, Ashley (ngày 20 tháng 4 năm 2026). "Amazon to invest up to another $25 billion in Anthropic as part of AI infrastructure deal" . CNBC .
+
+↑ Tarasov, Katie; Novet, Jordan (ngày 14 tháng 4 năm 2026). "Meta commits to 1 gigawatt of custom chips with Broadcom as Hock Tan decides to leave board" . CNBC .
+
+↑ "CoreWeave and Meta Announce $21 Billion Expanded AI Infrastructure Agreement" . SEC (CoreWeave Form 8-K). ngày 9 tháng 4 năm 2026. Lưu trữ bản gốc ngày 20 tháng 5 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Weil, Jonathan (ngày 22 tháng 10 năm 2025). "Is the Flurry of Circular AI Deals a Win-Win—or Sign of a Bubble?" . The Wall Street Journal . Lưu trữ bản gốc ngày 30 tháng 11 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Rogelberg, Sasha. "Thousands of CEOs just admitted AI had no impact on employment or productivity—and it has economists resurrecting a paradox from 40 years ago" . Fortune . Lưu trữ bản gốc ngày 9 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Yotzov, Ivan (tháng 2 năm 2026). "Firm Data on AI" . Working Paper Series. National Bureau of Economic Research. doi : 10.3386/w34836 . Lưu trữ bản gốc ngày 22 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Milmo, Dan (ngày 10 tháng 11 năm 2025). "Can OpenAI keep pace with industry's soaring costs?" . The Guardian .
+
+↑ Bort, Julie (ngày 6 tháng 11 năm 2025). "Sam Altman says OpenAI has $20B ARR and about $1.4 trillion in data center commitments" . TechCrunch . Lưu trữ bản gốc ngày 2 tháng 2 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Kinder, Tabby; Hammond, George (ngày 28 tháng 11 năm 2025). "OpenAI partners amass $100bn debt pile to fund its ambitions" . The Irish Times . Lưu trữ bản gốc ngày 28 tháng 12 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Milmo, Dan (ngày 2 tháng 11 năm 2025). "Boom or bubble? Inside the $3tn AI datacentre spending spree" . The Guardian .
+
+↑ Smith, Dave (ngày 12 tháng 11 năm 2025). "OpenAI says it plans to report stunning annual losses through 2028—and then turn wildly profitable just two years later" . Fortune . Lưu trữ bản gốc ngày 5 tháng 2 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Jin, Berber (ngày 10 tháng 11 năm 2025). "Anthropic Is on Track to Turn a Profit Much Faster Than OpenAI" . The Wall Street Journal . Lưu trữ bản gốc ngày 26 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Tangermann, Victor (ngày 5 tháng 12 năm 2025). "OpenAI Is Suddenly in Major Trouble" . Futurism . Lưu trữ bản gốc ngày 4 tháng 2 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Zitron, Edward (ngày 12 tháng 11 năm 2025). "Exclusive: Here's How Much OpenAI Spends On Inference and Its Revenue Share With Microsoft" . Where's Your Ed At? . Lưu trữ bản gốc ngày 7 tháng 2 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Tangermann, Victor (ngày 25 tháng 1 năm 2026). "Asset Manager Warns That OpenAI Is Likely Headed for Financial Disaster" . Futurism . Lưu trữ bản gốc ngày 3 tháng 2 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Mallaby, Sebastian (ngày 13 tháng 1 năm 2026). "This Is What Convinced Me OpenAI Will Run Out of Money" . The New York Times . Lưu trữ bản gốc ngày 15 tháng 1 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Gregg, Aaron (ngày 23 tháng 1 năm 2026). "Big Tech is taking on more debt than ever to fund its AI aspirations" . The Washington Post . Lưu trữ bản gốc ngày 23 tháng 1 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Weise, Karen; Tan, Eli (ngày 15 tháng 12 năm 2025). "How Tech's Biggest Companies Are Offloading the Risks of the A.I. Boom" . The New York Times .
+
+↑ Metz, Cade (ngày 10 tháng 11 năm 2025). "Why Debt Funding Is Ratcheting Up the Risks of the A.I. Boom" . The New York Times . Lưu trữ bản gốc ngày 15 tháng 1 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Raitano, Lucy; Cooper, Amanda. "Five debt hotspots in the AI data centre boom" . Reuters .
+
+↑ Starr, Paul (tháng 9 năm 2002). "The Great Telecom Implosion" . The American Prospect . Lưu trữ bản gốc ngày 25 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Powell, Michael K. (ngày 30 tháng 7 năm 2002). "Written Statement of FCC Chairman Michael K. Powell: Financial Turmoil in the Telecommunications Marketplace" . Federal Communications Commission .
+
+↑ Letzing, John; Sung, Minji (ngày 7 tháng 10 năm 2025). "What we mean when we talk about an artificial intelligence 'bubble' " . World Economic Forum . Lưu trữ bản gốc ngày 6 tháng 2 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Foley, John; Samson, Adam (ngày 27 tháng 1 năm 2025). "Wall Street's AI 'bubble' echoes dotcom excesses, Ray Dalio warns" . Financial Times . Lưu trữ bản gốc ngày 22 tháng 1 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+1 2 3 Zitron, Edward (ngày 16 tháng 1 năm 2026). "Premium: This Is Worse Than The Dot Com Bubble" . Where's Your Ed At? . Lưu trữ bản gốc ngày 30 tháng 1 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Morrow, Allison (ngày 18 tháng 10 năm 2025). "Why this analyst says the AI bubble is 17 times bigger than the dot-com bust" . CNN . Lưu trữ bản gốc ngày 18 tháng 11 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Makortoff, Kalyeena (ngày 8 tháng 10 năm 2025). "Bank of England warns of growing risk that AI bubble could burst" . The Guardian .
+
+↑ Goldstein, Steve (ngày 4 tháng 12 năm 2025). "Goldman's chief strategist is retiring after 31 years. Where he sees a bubble right now" . MarketWatch (bằng tiếng Anh). Lưu trữ bản gốc ngày 5 tháng 12 năm 2025 . Truy cập ngày 18 tháng 6 năm 2026 .
+
+↑ Gottsegen, Gordon (ngày 9 tháng 10 năm 2025). "Morgan Stanley believes AI bubble fears are 'misplaced' as tech stocks waver today" . MarketWatch .
+
+↑ Manoukian, Jacob (ngày 12 tháng 12 năm 2025). "Is AI a bubble? Here are 5 ways to find out" . JPMorgan Private Bank . Lưu trữ bản gốc ngày 12 tháng 1 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ Yip, Jaures (ngày 29 tháng 10 năm 2025). "Powell says AI is different from dotcom bubble and is major source of economic growth" . CNBC . Lưu trữ bản gốc ngày 30 tháng 10 năm 2025 . Truy cập ngày 22 tháng 4 năm 2026 .
+
+↑ McNamara, Mary (ngày 26 tháng 3 năm 2026). "Sora's demise doesn't mean the AI bubble is bursting anytime soon" . Los Angeles Times . Lưu trữ bản gốc ngày 30 tháng 4 năm 2026 . Truy cập ngày 22 tháng 4 năm 2026 .

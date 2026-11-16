@@ -1,0 +1,49 @@
+Trong lập trình máy tính, callback là một đoạn code chạy được (thường là một hàm A) được sử dụng như tham số truyền vào của hàm B nào đó. Hàm A được gọi ngay lập tức hoặc trễ một chút sau khi hàm B được gọi. Các ngôn ngữ lập trình khác nhau hỗ trợ callback theo các cách khác nhau, thường được triển khai dưới dạng chương trình con , hàm nặc danh, chuỗi lệnh hoặc con trỏ hàm .
+
+Thiết kế
+
+Có hai loại callback: đồng bộ (blocking callback) và không đồng bộ (asynchronous callback). Trong khi callback đồng bộ được gọi trước khi hàm trả về (trong ví dụ ngôn ngữ lập trình C bên dưới, hàm callback đồng bộ ở đây là hàm main), callback không đồng bộ có thể được gọi sau khi hàm trả về. Callback không đồng bộ thường được dùng trong các thao tác vào / ra hoặc trong việc xử lý sự kiện (event), và được gọi bằng lệnh ngắt hoặc từ các tiểu trình (thread). Callback đồng bộ thường không được sử dụng cho việc đồng bộ dữ liệu giữ liệu giữa các thread.
+
+Callback được dùng nhiều trong các chương trình có sử dụng giao diện cửa sổ . Trong trường hợp này, chương trình X cung cấp (1 tham chiếu tới) hàm callback Y của nó cho hệ điều hành và để cho hệ điều hành gọi hàm Y này, từ đó  chương trình X có thể bắt và xử lý sự kiện click chuột hoặc ấn phím....(do hệ điều hành tạo ra)  bằng hàm Y. Vấn đề được quan tâm ở đây là quyền hạn thực hiện và tính bảo mật. Vì hàm Y của chương trình X được gọi bởi hệ điều hành, Y không nên có cùng quyền hạn với các hàm khác của hệ thống.
+
+Cài đặt
+
+Cách tạo và gọi callback rất khác nhau giữa các ngôn ngữ lập trình:
+
+Assembly , C , C++ , Pascal , Modula2 và các ngôn ngữ tương tự, một con trỏ hàm có thể được dùng như là tham số cho 1 hàm khác. Điều này được hỗ trợ bởi phần lớn trình biên dịch và cho phép dùng đồng thời nhiều ngôn ngữ khác nhau mà không cần đến thư viện hoặc lớp. Ví dụ như Windows API có thể được gọi trực tiếp từ nhiều ngôn ngữ lập trình và trình biên dịch khác nhau.
+
+Nhiều ngôn ngữ thông dịch , như là Javascript , Lua , Python , Perl và PHP , cho phép sử dụng  đối tượng định nghĩa hàm làm tham số.
+
+Trong lập trình hướng đối tượng , với ngôn ngữ mà không cho phép dùng hàm làm tham số của hàm khác như trong Java phiên bản < 8, việc sử dụng callback được tạo ra bằng cách dùng đối tượng của lớp dạng abstract hoặc interface làm tham số. Cách dùng callback này được ứng dụng để cài đặt một số design pattern như: Visitor, Observer và Strategy.
+
+Ví dụ sử dụng
+
+Javascript
+
+C/C++
+
+Ví dụ 3
+
+Ví dụ 4
+
+Xem thêm
+
+Lập trình hướng sự kiện
+
+Windows Message
+
+Lời gọi hàm
+
+Tham khảo
+
+"Perl Cookbook - 11.4. Taking References to Functions". Truy cập 2008-03-03.
+
+"Advanced Perl Programming - 4.2 Using Subroutine References". Truy cập 2008-03-03.
+
+"PHP Language Reference - Anonymous functions". Truy cập 2011-06-08.
+
+"What's New in JDK 8". oracle.com.
+
+"Callbacks". Mozilla Developer Network. Truy cập ngày 13 tháng 12 năm 2012.
+
+"Creating Javascript Callbacks in Components". Mozilla Developer Network. Truy cập ngày 13 tháng 12 năm 2012.

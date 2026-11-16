@@ -1,0 +1,307 @@
+Cơn sốt AI ( tiếng Anh : AI boom ) là giai đoạn phát triển nhanh chóng của lĩnh vực trí tuệ nhân tạo (AI), bắt đầu dần từ cuối thập niên 2010 và tăng tốc mạnh vào đầu thập niên 2020. Cơn sốt hiện tại được đánh dấu bằng sự xuất hiện hàng loạt của các công nghệ AI tạo sinh như mô hình ngôn ngữ lớn và trình tạo ảnh bằng AI, chủ yếu được phát triển bởi các công ty như OpenAI , cũng như các bước đột phá khoa học như dự đoán cấu trúc protein dẫn đầu bởi Google DeepMind . Giai đoạn này đôi khi còn được gọi là mùa xuân A I ( AI spring ), để phân biệt với các mùa đông AI trước đó khi kỳ vọng thái quá không được đáp ứng khiến nguồn tài trợ và sự quan tâm vào AI cạn kiệt hoàn toàn.
+
+Bước đột phá được chú ý rộng rãi nhất của cơn sốt AI là sự trỗi dậy của các mô hình ngôn ngữ lớn , tiêu biểu là ChatGPT – một chatbot do OpenAI phát triển, ra mắt vào cuối năm 2022 và đạt 100 triệu người dùng chỉ trong vòng hai tháng, trở thành ứng dụng phần mềm tăng trưởng nhanh nhất trong lịch sử tính đến thời điểm đó. Tính đến năm 2025, ChatGPT đã trở thành trang web được truy cập nhiều thứ 4 trên toàn cầu, chỉ sau Google , YouTube , và Facebook .
+
+Lịch sử
+
+Những năm đầu và mùa đông AI lần thứ nhất (1950–1980)
+
+Năm 1950, Alan Turing đề xuất khái niệm "máy tính biết suy nghĩ" và thiết kế bài kiểm tra Turing để đánh giá khả năng này. Năm 1956, John McCarthy lần đầu sử dụng thuật ngữ "trí tuệ nhân tạo" tại Hội nghị Dartmouth , sự kiện đặt nền móng cho AI như một lĩnh vực học thuật độc lập. Giai đoạn tiếp theo tràn ngập lạc quan khi các nhà nghiên cứu hàng đầu dự đoán máy tính có thể đạt trí tuệ ngang ngửa con người chỉ trong vài thập kỷ tới.
+
+Tuy nhiên, kỳ vọng đó sớm vượt xa khả năng thực tế của công nghệ. Năm 1973, giáo sư Sir James Lighthill được Quốc hội Anh giao nhiệm vụ đánh giá tình trạng nghiên cứu AI. Báo cáo Lighthill kết luận rằng AI đã hoàn toàn thất bại trong việc đạt được các "mục tiêu khoa trương" mà lĩnh vực này từng hứa hẹn, và chỉ ra rằng phần lớn thành công của AI khi đó chỉ xuất hiện trong các bài toán nhỏ thực hiện trong môi trường thí nghiệm, còn khi áp dụng vào các vấn đề thực tế thì nhanh chóng thất bại. Hệ quả là chính phủ Anh cắt tài trợ cho AI tại hầu hết các trường đại học, còn DARPA của Mỹ cũng cắt giảm mạnh ngân sách sau khi Tu chính án Mansfield năm 1969 yêu cầu cơ quan này chỉ tài trợ cho những nghiên cứu có mục tiêu quân sự trực tiếp. Mùa đông AI lần thứ nhất (1974–1980) bắt đầu.
+
+Hệ chuyên gia và mùa đông AI lần thứ hai (1980–1993)
+
+Đầu thập niên 1980, AI hồi sinh nhờ một hướng tiếp cận khiêm tốn hơn: các hệ chuyên gia – phần mềm sử dụng hàng nghìn quy luật dạng điều kiện nếu-thì để mô phỏng quá trình ra quyết định của chuyên gia trong một lĩnh vực hẹp như y tế hay tài chính. Ví dụ thương mại nổi bật nhất là hệ thống XCON , được ước tính đã giúp Digital Equipment Corporation tiết kiệm khoảng 40 triệu đô la Mỹ chỉ trong sáu năm vận hành. Đến năm 1985, các doanh nghiệp được cho là đã chi hơn 1 tỷ đô la Mỹ mỗi năm cho các hệ chuyên gia và phòng ban AI nội bộ.
+
+Nhưng lịch sử lại lặp lại. Từ năm 1987, thị trường máy tính chuyên dụng của các hệ thống chuyên gia chạy trên ngôn ngữ lập trình Lisp sụp đổ khi máy tính cá nhân thông thường đã đủ mạnh để thay thế. Các hệ chuyên gia cũng dần lộ ra giới hạn cốt lõi: chúng cực kỳ tốn kém để bảo trì, không thể tự học hay tự thích nghi, và hoàn toàn bó tay trước các tình huống nằm ngoài phạm vi lập trình sẵn. DARPA một lần nữa cắt tài trợ. Mùa đông AI lần thứ hai kéo dài đến đầu thập niên 2000.
+
+Bước ngoặt học sâu và các đột phá thập niên 2010
+
+Mầm mống của cơn sốt AI hiện tại đến từ hai bước tiến hội tụ trong cùng một giai đoạn. Năm 2006, Geoffrey Hinton và các cộng sự công bố các phương pháp huấn luyện hiệu quả hơn cho mạng neuron nhiều tầng, góp phần phục hồi niềm tin vào học sâu . Đồng thời, sự phát triển của bộ xử lý đồ họa (GPU) và sự bùng nổ của dữ liệu số khiến việc huấn luyện các mạng sâu trở nên khả thi về mặt thời gian và chi phí.
+
+Tháng 9 năm 2012, mô hình AlexNet do Alex Krizhevsky , Ilya Sutskever và Geoffrey Hinton phát triển tại Đại học Toronto giành chiến thắng tại cuộc thi ImageNet với tỉ lệ lỗi top-5 khoảng 15,3%, thấp hơn gần 11 điểm phần trăm so với mô hình xếp thứ hai. Kết quả này thuyết phục cả giới học thuật lẫn công nghiệp rằng học sâu đã trở thành phương pháp thực dụng có thể vượt trội rõ rệt so với các kỹ thuật trước đó, và mở ra làn sóng đầu tư lớn từ Google, Facebook, Microsoft vào lĩnh vực này.
+
+Những năm tiếp theo chứng kiến hàng loạt đột phá tiếp nối. Năm 2014, Ian Goodfellow và các cộng sự đề xuất kiến trúc mạng đối nghịch tạo sinh (GAN), trong đó hai mạng neuron cạnh tranh nhau để tạo ra dữ liệu ngày càng thực hơn, đặt nền tảng cho toàn bộ lĩnh vực AI tạo sinh hình ảnh và video về sau. Năm 2016, AlphaGo của Google DeepMind đánh bại nhà vô địch thế giới Lee Sedol trong môn cờ vây – trò chơi từng được coi là bất khả thi với AI do độ phức tạp cực cao, với số nước đi khả dĩ nhiều hơn cả số nguyên tử trong vũ trụ quan sát được. Năm sau, "người" kế nhiệm của nó là AlphaZero có thể tự học chơi cờ vây, cờ vua và shogi chỉ thông qua tự chơi với chính mình, không cần bất kỳ dữ liệu từ con người nào. Năm 2017, các nhà nghiên cứu tại Google Brain giới thiệu kiến trúc Transformer qua bài báo Attention Is All You Need , nền tảng kỹ thuật trực tiếp của toàn bộ các mô hình ngôn ngữ lớn sau này. Năm 2020, AlphaFold giải quyết bài toán dự đoán cấu trúc protein sau hơn 50 năm bế tắc, mở ra triển vọng lớn cho nghiên cứu dược phẩm.
+
+Cơn sốt mô hình ngôn ngữ lớn (2020–nay)
+
+Transformer tạo ra hiệu ứng dây chuyền rõ rệt trong lĩnh vực xử lý ngôn ngữ tự nhiên. Năm 2018, Google ra mắt BERT , mô hình Transformer đầu tiên cho thấy hiểu ngôn ngữ theo ngữ cảnh hai chiều, trở thành nền tảng cho nhiều ứng dụng tìm kiếm và phân tích văn bản. Năm 2020, OpenAI công bố GPT-3 với 175 tỷ tham số, gấp hàng trăm lần so với BERT, và lần đầu tiên chứng minh rằng khi quy mô tham số đủ lớn, mô hình có thể thực hiện các nhiệm vụ ngôn ngữ hoàn toàn mới mà không cần huấn luyện chuyên biệt, chỉ từ vài ví dụ trong câu lệnh. Tuy nhiên, hầu hết các phát trong suốt giai đoạn này chỉ tồn tại trong giới học thuật, trong khi công chúng phổ thông hầu như chưa tiếp xúc trực tiếp với công nghệ.
+
+Bước ngoặt đó đến vào tháng 11 năm 2022 khi OpenAI ra mắt ChatGPT , một giao diện trò chuyện trực tiếp cho phép bất kỳ ai cũng có thể tương tác với mô hình ngôn ngữ lớn mà không cần kiến thức kỹ thuật. ChatGPT đạt 100 triệu người dùng chỉ trong hai tháng, trở thành ứng dụng phần mềm tăng trưởng nhanh nhất trong lịch sử tính đến thời điểm đó.
+
+Sự kiện này châm ngòi cho một cuộc chạy đua vũ trang giữa các tập đoàn công nghệ lớn. Google nhanh chóng ra mắt Bard rồi Gemini ; Anthropic phát triển Claude với trọng tâm về an toàn mô hình; xAI của Elon Musk giới thiệu Grok và tích hợp trực tiếp vào nền tảng X (trước đây là Twitter ); Meta phát hành dòng mô hình LLaMA theo hướng mở mã nguồn; còn Microsoft đầu tư hàng chục tỷ đô la vào OpenAI và tích hợp AI vào hệ sinh thái sản phẩm thông qua Copilot .
+
+Các công ty công nghệ Trung Quốc cũng nhanh chóng tham gia cuộc đua. Alibaba phát triển Qwen , Zhipu AI phát hành dòng mô hình GLM và chatbot ChatGLM, Moonshot AI ra mắt Kimi với lợi thế xử lý ngữ cảnh dài, trong khi DeepSeek gây chấn động toàn cầu vào năm 2025 khi công bố các mô hình hiệu năng cao với chi phí huấn luyện thấp hơn đáng kể so với các đối thủ Mỹ. Thành công của DeepSeek khiến giới đầu tư đặt câu hỏi liệu việc chi hàng trăm tỷ đô la cho GPU và trung tâm dữ liệu có thực sự cần thiết hay không.
+
+Đồng thời, xu hướng công khai trọng số mô hình cũng trở nên phổ biến hơn. Các mô hình như LLaMA , Qwen và DeepSeek cho phép nhà phát triển độc lập và doanh nghiệp nhỏ tự triển khai, tinh chỉnh và mở rộng hệ thống AI mà không hoàn toàn phụ thuộc vào các dịch vụ đóng của OpenAI hay Google, góp phần thúc đẩy mạnh mẽ hệ sinh thái mã nguồn mở trong AI tạo sinh.
+
+Về mặt kinh tế, quy mô đầu tư vào AI tăng từ 18 tỷ đô la năm 2014 lên 119 tỷ đô la năm 2021, với riêng AI tạo sinh chiếm khoảng 30% tổng đầu tư vào năm 2023. Theo Brookings Institution, riêng các công ty công nghệ lớn được dự đoán sẽ chi khoảng 364 tỷ đô la Mỹ cho AI trong năm 2025. Vốn hóa thị trường của nhà cung cấp GPU chủ chốt cho việc huấn luyện AI Nvidia tăng từ khoảng 300 tỷ đô la trước khi ChatGPT ra mắt lên 5 nghìn tỷ đô la vào tháng 10 năm 2025, trở thành công ty đầu tiên trong lịch sử đạt mốc này.
+
+Các lĩnh vực tiến bộ
+
+Y sinh
+
+Năm 2020, chương trình AlphaFold của Google DeepMind , được thiết kế để dự đoán cấu trúc gấp protein , đã đạt điểm số trên 90 trong bài kiểm tra Global distance test (GDT) của cuộc thi CASP . Nhà sinh học cấu trúc và người đoạt Giải Nobel Hóa học Venki Ramakrishnan gọi kết quả này là "một bước tiến vượt bậc đáng kinh ngạc trong bài toán gấp protein". Khả năng dự đoán chính xác cấu trúc protein dựa trên chuỗi axit amin cấu thành có thể thúc đẩy việc tìm ra các loại thuốc mới và giúp hiểu rõ hơn về cơ chế của các bệnh. Khi so với phương pháp truyền thống gọi là homology modeling (dự đoán dựa trên sự giống nhau với các protein đã biết), AlphaFold 2 được phát triển 2 năm sau đó có thể mô hình hóa thêm khoảng 25% số vị trí amino acid với độ chính xác cao. Năm 2024, AlphaFold 3 tiếp tục mở rộng khả năng dự đoán cấu trúc 3D không chỉ của protein mà còn của DNA , RNA và các phân tử nhỏ, mở ra tiềm năng lớn cho thiết kế thuốc và nghiên cứu sinh học phân tử .
+
+Ở chiều hướng ngược lại, các nhà nghiên cứu cũng bày tỏ lo ngại về khả năng các hệ thống AI trong tương lai có thể hỗ trợ tạo ra các mầm bệnh đặc biệt nguy hiểm và dễ lây lan.
+
+Hình ảnh và video
+
+Năm 2015, sự phổ biến ban đầu của AI tạo sinh hình ảnh bắt đầu với sự ra mắt của DeepDream từ Google , một mô hình AI tạo ra các hình ảnh mang tính ảo giác bằng cách lấy đầu vào từ một hình ảnh có sẵn và biến đổi nó. Tháng 1 năm 2021, OpenAI ra mắt DALL-E , cho phép tạo hình ảnh thông qua câu lệnh văn bản, mở đầu cho xu hướng các mô hình tạo ảnh mạnh mẽ. Năm 2022, DALL-E 2 và Midjourney được phát hành và nhanh chóng phổ biến rộng rãi trong công chúng.
+
+Sự phổ biến của các công cụ chuyển văn bản thành video tăng vọt. Với sự ra mắt của Sora của OpenAI vào năm 2024, việc sử dụng các công cụ tạo video bằng AI trở nên phổ biến hơn trong nhiều lĩnh vực, đặc biệt trong quảng cáo , giúp tiết kiệm chi phí sản xuất và tăng tốc độ ra sản phẩm. Tuy nhiên, AI tạo sinh đang phát triển nhanh hơn các công cụ phát hiện hiện có, làm dấy lên lo ngại về việc sử dụng công nghệ này để tạo deepfake phục vụ thông tin sai lệch về chính trị.
+
+Ngôn ngữ
+
+GPT-3 là một mô hình ngôn ngữ lớn được OpenAI phát hành năm 2020, có khả năng tạo ra văn bản gần giống người thật với 175 tỷ tham số. Phiên bản mới hơn là GPT-4 được phát hành ngày 14 tháng 3 năm 2023 và được sử dụng trong công cụ tìm kiếm Microsoft Bing . Các mô hình ngôn ngữ lớn khác cũng được phát hành trong giai đoạn này, tiêu biểu là Claude của Anthropic, Gemini của Google, LLaMA của Meta Platforms, Grok của xAI, Qwen của Alibaba, GLM của Zhipu AI, Kimi của Moonshot AI, hay DeepSeek.
+
+Phát triển phần mềm
+
+AI tạo sinh có thể được sử dụng để tạo, chỉnh sửa, giải thích và gỡ lỗi mã nguồn. Công cụ nổi bật nhất trong lĩnh vực này là GitHub Copilot , được phát triển bởi Microsoft và OpenAI, với hơn 15 triệu người dùng và hiện diện tại 90% công ty trong danh sách Fortune 100. Một nghiên cứu năm 2026 trên tạp chí * Management Science * cho thấy các lập trình viên ít kinh nghiệm có tỷ lệ áp dụng cao hơn và đạt được mức tăng năng suất lớn hơn so với những người có kinh nghiệm.
+
+Xu hướng này cũng thúc đẩy sự xuất hiện của khái niệm " viết code theo cảm tính ", trong đó người dùng mô tả mục tiêu bằng ngôn ngữ tự nhiên và để AI tự viết toàn bộ mã nguồn, được nhà nghiên cứu AI Andrej Karpathy đặt tên vào tháng 2 năm 2025. Tuy nhiên, nhiều nghiên cứu độc lập cũng chỉ ra rằng code do AI tạo ra có xu hướng làm tăng tỷ lệ "code rác", tức những đoạn code bị sửa hoặc xóa trong vòng hai tuần sau khi viết; đồng thời các AI cũng thường xuyên sao chép thay vì tái sử dụng code một cách có cấu trúc.
+
+Âm nhạc và giọng nói
+
+Năm 2016, Google DeepMind phát triển WaveNet , một mô hình có khả năng tạo ra âm thanh giọng nói và đàn piano thô từ đầu, và có thể tạo ra các giọng nói khác nhau bằng cách nhận diện người nói. WaveNet trở thành nền tảng quan trọng cho các mô hình tạo giọng nói và âm nhạc sau này. Năm 2020, OpenAI phát hành mô hình quy mô lớn đầu tiên có khả năng tạo ra các bài hát hoàn chỉnh trong nhiều thể loại và phong cách âm nhạc khác nhau dưới tên gọi Jukebox.
+
+Đến năm 2024, các mô hình AI có khả năng tạo ra âm nhạc chất lượng cao đã trở nên phổ biến với công chúng. Tháng 6 năm 2024, hai dịch vụ âm nhạc AI là Udio và Suno AI bị một nhóm các hãng thu âm lớn kiện vì vi phạm bản quyền. Bên cạnh âm nhạc, các công cụ nhân bản giọng nói như ElevenLabs cho phép tạo giọng nói của bất kỳ ai chỉ từ một đoạn âm thanh ngắn. Tuy nhiên, thứ công nghệ này đã bị lợi dụng trong một số trường hợp, đáng chú ý nhất là vụ sử dụng giọng nói giả mạo của tổng thống Joe Biden trong các cuộc gọi tự động nhằm thao túng cử tri trước bầu cử.
+
+Tranh cãi và lo ngại
+
+Sở hữu trí tuệ
+
+Các công ty công nghệ như Meta, OpenAI và Nvidia đã bị các nghệ sĩ , nhà văn , nhà báo và lập trình viên kiện vì sử dụng tác phẩm của họ để huấn luyện mô hình AI mà không xin phép. ChatGPT gây ra nghi ngờ rằng dữ liệu huấn luyện có thể bao gồm các thư viện nội dung vi phạm bản quyền, sau khi chatbot này tạo ra các tóm tắt chi tiết về từng phần của cuốn sách The Bedwetter của Sarah Silverman và trích dẫn nguyên văn nội dung từ The New York Times đặt sau paywall . Tại Anh, để phản đối việc chính phủ tham vấn về khả năng sử dụng âm nhạc có bản quyền để huấn luyện AI, hơn một nghìn nhạc sĩ Anh đã phát hành một album hoàn toàn không có âm thanh, mang tên Is This What We Want?
+
+Tại Việt Nam, tranh cãi tương tự nổ ra xung quanh dự thảo sửa đổi Luật Sở hữu trí tuệ năm 2025, trong đó có điều khoản bổ sung ngoại lệ cho phép khai thác văn bản và dữ liệu để huấn luyện AI mà không cần xin phép chủ sở hữu bản quyền. Những người phản đối cho rằng điều khoản này quá rộng, quá thiếu điều kiện và thiếu cơ chế giám sát, trong khi các công ty AI mới là bên hưởng lợi chính. Luật cuối cùng vẫn được Quốc hội thông qua vào ngày 10 tháng 12 năm 2025, cùng ngày với Luật Trí tuệ nhân tạo – đạo luật AI đầu tiên của Việt Nam, yêu cầu gắn nhãn các sản phẩm AI và cấm sử dụng AI để giả mạo người khác.
+
+An toàn mạng
+
+AI được cho là sẽ cải thiện đáng kể "khả năng tiếp cận, tỷ lệ thành công, quy mô, tốc độ, tính ẩn danh và mức độ nguy hiểm của các tấn công mạng ", có thể gây ra "những biến động địa chính trị đáng kể" nếu nó tăng cường tấn công nhiều hơn phòng thủ. Theo báo cáo thường niên của CrowdStrike năm 2025, 79% các cuộc xâm nhập mạng trong năm 2024 không sử dụng phần mềm độc hại truyền thống mà thay vào đó khai thác danh tính và công cụ hợp pháp; trong khi đó Microsoft ghi nhận mức tăng 46% trong nội dung lừa đảo được tạo bằng AI.
+
+Bên cạnh đó, khả năng tạo ra các tin nhắn thuyết phục, được cá nhân hóa cũng như hình ảnh và video chân thực của AI có thể tạo điều kiện cho thông tin sai lệch , thao túng và tuyên truyền quy mô lớn. Tháng 4 năm 2024, trong khuôn khổ cuộc đối đầu Drake–Kendrick Lamar , rapper Drake phát hành bài diss track " Taylor Made Freestyle " có sử dụng giọng hát được tạo bằng AI giả mạo giọng của Tupac Shakur và Snoop Dogg , khiến gia đình Tupac đe dọa kiện vì vi phạm quyền nhận dạng cá nhân . Tháng 1 năm 2024, các hình ảnh deepfake khiêu dâm của ca sĩ Taylor Swift lan rộng trên internet, thúc đẩy Mỹ xem xét ban hành Đạo luật DEFIANCE vào tháng 3 năm 2024. Ngoài ra, giọng nói của các chính trị gia cũng bị nhân bản để phục vụ mục đích thao túng, tiêu biểu là vụ sử dụng giọng giả mạo của tổng thống Joe Biden trong các cuộc gọi tự động nhằm ngăn cản cử tri đi bỏ phiếu.
+
+Môi trường và năng lượng
+
+Phần cứng phục vụ AI tiêu thụ một lượng điện khổng lồ và đang ngày càng gia tăng. Theo Cơ quan Năng lượng Quốc tế (IEA), các trung tâm dữ liệu toàn cầu tiêu thụ khoảng 415 terawatt-giờ (TWh) điện vào năm 2024, tương đương khoảng 1,5% tổng lượng tiêu thụ điện của thế giới, và con số này được dự báo sẽ tăng hơn gấp đôi lên trên 1.000 TWh vào năm 2030. Nhu cầu điện tăng đột biến này đã kéo dài thời gian hoạt động của các nhà máy điện chạy bằng nhiên liệu hóa thạch vốn lẽ ra đã phải ngừng hoạt động, và khiến lượng khí thải nhà kính của Google tăng gần 50% trong giai đoạn 2019–2023, chủ yếu do mức tiêu thụ năng lượng tại các trung tâm dữ liệu AI. Để đáp ứng nhu cầu này, Microsoft, Google và Amazon đều đã đầu tư vào các nhà máy điện hạt nhân hiện có hoặc đang được đề xuất. Tháng 9 năm 2024, Microsoft ký thỏa thuận với Constellation Energy để mua điện từ một lò phản ứng tại Three Mile Island , một nhà máy vốn đã ngừng hoạt động từ năm 2019, nằm ngay cạnh lò phản ứng gây ra tai nạn hạt nhân tồi tệ nhất lịch sử Mỹ năm 1979, và dự kiến hoạt động trở lại vào năm 2028 để cung cấp điện cho các trung tâm dữ liệu của Microsoft.
+
+Ngoài điện năng, các trung tâm dữ liệu AI còn tiêu thụ một lượng nước sạch khổng lồ để làm mát máy chủ. Theo IEA, các trung tâm dữ liệu toàn cầu tiêu thụ khoảng 560 tỷ lít nước mỗi năm, và con số này có thể tăng lên 1,2 nghìn tỷ lít vào năm 2030. Các nhà nghiên cứu tại Đại học California, Riverside ước tính rằng mỗi cuộc trò chuyện AI khoảng 20 câu hỏi tiêu tốn lượng nước tương đương một chai nước. Đáng lo ngại hơn, khoảng một phần tư số trung tâm dữ liệu hiện tại và gần một phần ba số đang được xây dựng nằm ở các khu vực được dự báo sẽ đối mặt với tình trạng khan hiếm nước nghiêm trọng hơn vào năm 2050.
+
+Văn hóa, xã hội và thiên kiến
+
+Các mô hình ngôn ngữ lớn bị chỉ trích vì tái tạo và khuếch đại các thiên kiến kế thừa từ dữ liệu huấn luyện. Một nghiên cứu năm 2024 của Đại học Washington thử nghiệm ba mô hình ngôn ngữ lớn hàng đầu trên hơn 550 hồ sơ xin việc thực tế, chỉ thay đổi tên ứng viên để phản ánh các chủng tộc và giới tính khác nhau. Kết quả cho thấy các mô hình ưu tiên tên gắn với người da trắng trong 85% trường hợp, tên gắn với nữ giới chỉ trong 11% trường hợp, và không bao giờ ưu tiên tên thường thuộc về nam giới da đen hơn tên nam giới da trắng. Một nghiên cứu năm 2024 trên tạp chí Nature phân tích sáu mô hình ngôn ngữ lớn hàng đầu và phát hiện tất cả đều thể hiện một mức độ thiên kiến giới tính nhất định. Ngoài lĩnh vực tuyển dụng, thiên kiến AI còn xuất hiện trong các hệ thống nhận diện khuôn mặt, cấp tín dụng và phân tích hình ảnh y tế ; những lĩnh vực mà sai lệch có thể gây ra hậu quả trực tiếp và nghiêm trọng đối với người dùng.
+
+Ở cấp độ xã hội rộng hơn, theo một khảo sát của Pew Research Center năm 2025 trên 5.023 người Mỹ trưởng thành, 50% cho biết họ lo ngại nhiều hơn là hào hứng về sự hiện diện ngày càng gia tăng của AI trong cuộc sống hàng ngày (tăng từ mức 37% năm 2021) và hơn một nửa (57%) đánh giá rủi ro xã hội của AI ở mức cao. Nghiên cứu của Nikolova và Angrisani cùng năm cho thấy người dùng đặc biệt không tin tưởng AI trong các mối quan hệ cá nhân, trong khi mức độ tin tưởng cao hơn đáng kể trong lĩnh vực y tế.
+
+Kinh tế
+
+Một số nhà kinh tế học tỏ ra lạc quan về tiềm năng của AI trong việc thúc đẩy năng suất và tăng trưởng kinh tế . Nhà kinh tế học Erik Brynjolfsson của Đại học Stanford đã đưa ra lập luận về một "sự bùng nổ năng suất nhờ AI", trong khi nhà kinh tế học Robert Gordon của Đại học Northwestern lại bi quan hơn về tác động thực tế do kỳ vọng tương tự đối với sự bùng nổ của công nghệ thông tin đã không những không xảy ra mà còn góp phần vào sự hình thành của bong bóng dot-com . Hai người thậm chí đã đặt cược chính thức tại Long Bets về tốc độ tăng năng suất trong thập niên 2020, dự kiến phân giải vào cuối thập kỷ.
+
+Theo nghiên cứu của Bell và Korinek (2023), tác động kinh tế của AI có thể làm trầm trọng thêm bất bình đẳng kinh tế khi những cá nhân và tổ chức nắm đầu các chuỗi cung ứng AI sẽ chi phối được nhiều mặt của xã hội thông qua thứ công nghệ này, qua đó đe dọa nền dân chủ theo những cách khác biệt với các mối đe dọa từ việc AI bị sử dụng trong thông tin sai lệch và tuyên truyền đơn thuần.
+
+Thêm vào đó, lĩnh vực AI thương mại hiện đang bị thống trị bởi các tập đoàn công nghệ lớn của Mỹ như Alphabet , Amazon , Apple , Meta và Microsoft , với mức đầu tư vượt qua cả các quỹ đầu tư mạo hiểm. Các công ty này nắm giữ phần lớn cơ sở hạ tầng điện toán đám mây , chip AI và năng lực tính toán từ các trung tâm dữ liệu, tạo ra rào cản gia nhập cao đối với các công ty nhỏ hơn và các quốc gia không có năng lực hạ tầng tương đương. Cuộc chạy đua AI còn bị chỉ trích vì ưu tiên tốc độ và lợi nhuận hơn an toàn và bảo vệ người dùng.
+
+Trong khi đó, nhiều dịch vụ AI thương mại đang bị nghi ngờ về giá trị thực thế. Dù các công ty đã đổ hơn 60 tỷ đô la vào AI trong năm 2025, nghiên cứu của MIT chỉ ra rằng 95% các dự án AI doanh nghiệp không có lợi nhuận. Bản thân các nhà sản xuất AI tạo sinh như OpenAI cũng đang có chi phí vượt xa doanh thu; trong khi tập đoàn cung cấp phần cứng chủ yếu Nvidia là ví dụ điển hình cho thấy sự mong manh của toàn bộ ngành nếu nhu cầu thực tế không đáp ứng được mức đầu tư hiện tại khi cổ phiếu của họ bốc hơi hơn 500 triệu đô trong một ngày sau sự ra mắt của DeepSeek, xong nhanh chóng vượt mốc 5 nghìn tỷ đô la chưa đến một năm sau. Nhiều nhà phân tích so sánh tình trạng này với bong bóng dot-com cuối thập niên 1990: khi đó, đầu tư tràn lan vào các công ty internet mà không có mô hình kinh doanh bền vững, dẫn đến sự sụp đổ nghiêm trọng vào năm 2000–2001.
+
+Rủi ro về AI thay thế con người và tranh luận về kiểm soát AI
+
+Nhiều lãnh đạo ngành và nhà nghiên cứu đã ký Tuyên bố về rủi ro AI , lập luận rằng nhân loại có thể mất kiểm soát không thể khắc phục đối với một trí tuệ nhân tạo tổng quát đủ tiên tiến. Tuy nhiên, mức độ nghiêm trọng của rủi ro này là chủ đề của một cuộc tranh luận sâu sắc ngay trong nội bộ giới nghiên cứu AI hàng đầu, tiêu biểu là bất đồng giữa ba "Bố già AI" – Yoshua Bengio , Geoffrey Hinton và Yann LeCun .
+
+Bengio và Hinton đều đã chuyển hướng đáng kể sang lĩnh vực an toàn AI. Bengio tích cực cảnh báo về nguy cơ AI bị lạm dụng bởi giới cầm quyền cho các mục đích xấu như tấn công mạng hay thao túng dư luận, cũng như nguy cơ sống còn nếu AI vượt khỏi tầm kiểm soát. Hinton, sau khi rời Google năm 2023, so sánh việc mở mã nguồn AI không kiểm soát giống như công bố cho cả thế giới biết mật mã của vũ khí hạt nhân .
+
+Ngược lại, LeCun cho rằng những lo ngại về rủi ro này là "cường điệu hóa" và "khoa học viễn tưởng". Ông lập luận rằng các mô hình AI hiện tại thậm chí còn "kém thông minh hơn cả mèo nhà", và các hàm tối ưu hóa của chúng được thiết kế hoàn toàn rõ ràng nên chúng không có nhu cầu "thống trị" con người, khác với các sinh vật sống chịu áp lực của chọn lọc tự nhiên . Ông ủng hộ việc mở mã nguồn để tránh độc quyền công nghệ bởi các tập đoàn lớn; đồng thời chỉ trích các CEO của OpenAI, Google DeepMind và Anthropic vì đã "vận động hành lang" cho các quy định quản lý AI nhằm thâu tóm thị trường và cáo buộc Bengio lẫn Hinton "tiếp tay" cho những nỗ lực này bằng cách cường điệu hóa các nguy hiểm của AI. Bengio phản bác rằng vấn đề lạm dụng AI của các công ty hoàn toàn có thể được kiểm soát thông qua quản lý của chính phủ, và sự cân bằng giữa lợi ích của doanh nghiệp, chính phủ và công chúng mới là giải pháp đúng đắn; chứ không phải mã nguồn mở không kiểm soát.
+
+Tham khảo
+
+↑ "The Artificial Intelligence Boom" . engineering.washu.edu (bằng tiếng Anh). Fall 2023 . Truy cập ngày 26 tháng 10 năm 2025 .
+
+↑ Bommasani, Rishi (ngày 17 tháng 3 năm 2023). "AI Spring? Four Takeaways from Major Releases in Foundation Models" . Stanford HAI .
+
+1 2 Milmo, Dan (ngày 2 tháng 2 năm 2023). "ChatGPT reaches 100 million users two months after launch" . The Guardian .
+
+↑ "Most Visited Websites in Worldwide 2025" . Semrush .
+
+↑ "Artificial Intelligence (AI) Coined at Dartmouth" . Dartmouth .
+
+↑ Lighthill, James (1973). Artificial Intelligence: A General Survey . Science Research Council.
+
+↑ NRC (1999). "Developments in Artificial Intelligence". Funding a Revolution: Government Support for Computing Research . National Academy Press.
+
+1 2 Crevier, Daniel (1993). AI: the tumultuous history of the search for artificial intelligence . Basic Books. ISBN 978-0-465-02997-6 .
+
+↑ Newquist, HP (1994). The Brain Makers: Genius, Ego, and Greed in the Quest for Machines That Think . Macmillan/SAMS. tr. 189– 201. ISBN 978-0-9885937-1-8 .
+
+↑ Hinton, Geoffrey E.; Osindero, Simon; Teh, Yee-Whye (2006). "A Fast Learning Algorithm for Deep Belief Nets" . Neural Computation . 18 (7): 1527– 1554. doi : 10.1162/neco.2006.18.7.1527 .
+
+↑ Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey E. (2017). "ImageNet Classification with Deep Convolutional Neural Networks". Communications of the ACM . 60 (6): 84– 90. doi : 10.1145/3065386 .
+
+↑ Sejnowski, Terrence J. (2018). The Deep Learning Revolution . MIT Press. tr. 181 –186. ISBN 978-0-262-03803-4 .
+
+↑ Goodfellow, Ian; Pouget-Abadie, Jean; Mirza, Mehdi; Xu, Bing; Warde-Farley, David; Ozair, Sherjil; Courville, Aaron; Bengio, Yoshua (2014). Generative Adversarial Networks (PDF) . Proceedings of the International Conference on Neural Information Processing Systems (NIPS 2014). tr. 2672– 2680.
+
+↑ "Artificial intelligence: Go master Lee Se-dol wins against AlphaGo program" . BBC News Online . ngày 13 tháng 3 năm 2016 . Truy cập ngày 13 tháng 3 năm 2016 .
+
+↑ Silver, David; Hubert, Thomas; Schrittwieser, Julian; Antonoglou, Ioannis; Lai, Matthew; Guez, Arthur; Lanctot, Marc; Sifre, Laurent; Kumaran, Dharshan (ngày 7 tháng 12 năm 2018). "A general reinforcement learning algorithm that masters chess, shogi, and go through self-play" . Science . 362 (6419): 1140– 1144. Bibcode : 2018Sci...362.1140S . doi : 10.1126/science.aar6404 . PMID 30523106 .
+
+↑ Vaswani, Ashish; Shazeer, Noam; Parmar, Niki; Uszkoreit, Jakob; Jones, Llion; Gomez, Aidan N.; Kaiser, Łukasz; Polosukhin, Illia (ngày 4 tháng 12 năm 2017). "Attention is all you need" . Proceedings of the 31st International Conference on Neural Information Processing Systems . Red Hook, NY, USA: Curran Associates Inc.: 6000– 6010. ISBN 978-1-5108-6096-4 .
+
+1 2 Callaway, Ewen (ngày 30 tháng 11 năm 2020). " 'It will change everything': DeepMind's AI makes gigantic leap in solving protein structures" . Nature (bằng tiếng Anh). 588 (7837): 203– 204. doi : 10.1038/d41586-020-03348-4 .
+
+↑ Devlin, Jacob; Chang, Ming-Wei; Lee, Kenton; Toutanova, Kristina (ngày 11 tháng 10 năm 2018). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". arXiv : 1810.04805v2 [ cs.CL ].
+
+↑ Heaven, Will Douglas (ngày 20 tháng 7 năm 2020). "OpenAI's new language generator GPT-3 is shockingly good—and completely mindless" . MIT Technology Review .
+
+↑ "ChatGPT sets record for fastest-growing user base - analyst note" . Reuters (bằng tiếng Anh). Lưu trữ bản gốc ngày 21 tháng 10 năm 2025 . Truy cập ngày 29 tháng 4 năm 2026 .
+
+↑ "Google announces Bard A.I. in response to ChatGPT" . CNBC . ngày 6 tháng 2 năm 2023.
+
+↑ "Google to pause Gemini AI model's image generation of people due to inaccuracies" . Reuters . ngày 22 tháng 2 năm 2024.
+
+↑ "Anthropic releases more powerful Claude 3 AI as tech race continues" . Reuters . ngày 4 tháng 3 năm 2024.
+
+↑ "Elon Musk's xAI releases its latest flagship model, Grok 3" . TechCrunch . ngày 17 tháng 2 năm 2025.
+
+↑ "Meta releases early versions of its Llama 3 AI model" . Reuters . ngày 18 tháng 4 năm 2024.
+
+↑ Park, Alicia. "Microsoft And OpenAI End Exclusive Partnership" . Forbes (bằng tiếng Anh) . Truy cập ngày 29 tháng 4 năm 2026 .
+
+↑ "Alibaba releases AI model it says surpasses DeepSeek" . Reuters (bằng tiếng Anh). Lưu trữ bản gốc ngày 31 tháng 3 năm 2025 . Truy cập ngày 29 tháng 4 năm 2026 .
+
+↑ "Tech unicorn Zhipu AI joins China's LLM price war amid new funding round" . South China Morning Post . ngày 5 tháng 6 năm 2024.
+
+↑ "China's Moonshot AI launches new model lauded as No 1 among open-source systems" . South China Morning Post . ngày 8 tháng 11 năm 2025.
+
+↑ "What's DeepSeek, China's AI startup sending shockwaves through global tech?" . Al Jazeera . ngày 28 tháng 1 năm 2025.
+
+↑ "The state of AI in 2023: Generative AI's breakout year" . McKinsey . Bản gốc lưu trữ ngày 23 tháng 1 năm 2025 . Truy cập ngày 29 tháng 4 năm 2026 .
+
+↑ West, Darrell M. (ngày 7 tháng 11 năm 2025). "Is there an AI bubble?" . Brookings Institution .
+
+↑ "Nvidia becomes the world's first $5 trillion company" . Axios . ngày 29 tháng 10 năm 2025.
+
+1 2 Service, Robert F. (ngày 30 tháng 11 năm 2020). " 'The game has changed.' AI triumphs at solving protein structures" . Science .
+
+↑ Akdel, Mehmet; Pires, Douglas E. V.; Pardo, Eduard Porta; Jänes, Jürgen; Zalevsky, Arthur O.; Mészáros, Bálint; Bryant, Patrick; Good, Lydia L.; Laskowski, Roman A. (tháng 11 năm 2022). "A structural biology community assessment of AlphaFold2 applications" . Nature Structural & Molecular Biology (bằng tiếng Anh). 29 (11): 1056– 1067. doi : 10.1038/s41594-022-00849-w . ISSN 1545-9985 . PMC 9663297 . PMID 36344848 .
+
+↑ Abramson, Josh; Adler, Jonas; Dunger, Jack; Evans, Richard; Green, Tim; Pritzel, Alexander; Ronneberger, Olaf; Willmore, Lindsay; Ballard, Andrew J. (tháng 6 năm 2024). "Accurate structure prediction of biomolecular interactions with AlphaFold 3" . Nature (bằng tiếng Anh). 630 (8016): 493– 500. doi : 10.1038/s41586-024-07487-w . ISSN 1476-4687 . PMC 11168924 . PMID 38718835 .
+
+↑ Piper, Kelsey (ngày 21 tháng 6 năm 2023). "How AI could spark the next pandemic" . Vox .
+
+↑ Daniel Culpan (ngày 3 tháng 7 năm 2015). "These Google "Deep Dream" Images Are Weirdly Mesmerising" . Wired . Truy cập ngày 25 tháng 7 năm 2015 .
+
+↑ Ramesh, Aditya; và đồng nghiệp (tháng 2 năm 2021). "Zero-Shot Text-to-Image Generation" . arXiv . 2102.12092.
+
+↑ "DALL-E 2, Stable Diffusion, Midjourney: How do AI art generators work, and should artists fear them?" . Euronews . ngày 30 tháng 12 năm 2022.
+
+↑ Heaven, Will Douglas (ngày 6 tháng 4 năm 2022). "This horse-riding astronaut is a milestone on AI's long road towards understanding" . MIT Technology Review .
+
+↑ Heaven, Will Douglas (ngày 15 tháng 2 năm 2024). "OpenAI teases an amazing new generative video model called Sora" . MIT Technology Review .
+
+↑ "Science & Tech Spotlight: Deepfakes" . www.gao.gov .
+
+↑ "What Are Large Language Models (LLMs)?" . IBM . ngày 6 tháng 10 năm 2021.
+
+↑ Lardinois, Frederic (ngày 14 tháng 3 năm 2023). "Microsoft's new Bing was using GPT-4 all along" . TechCrunch .
+
+↑ Staff, Inbal Shani, GitHub (ngày 13 tháng 6 năm 2023). "Survey reveals AI's impact on the developer experience" . The GitHub Blog . {{ Chú thích web }} : Quản lý CS1: nhiều tên: danh sách tác giả ( liên kết )
+
+↑ Cui, Kevin Zheyuan; và đồng nghiệp (ngày 27 tháng 2 năm 2026). "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers". Management Science . doi : 10.1287/mnsc.2025.00535 .
+
+↑ Chowdhury, Hasan; Mann, Jyoti (ngày 13 tháng 2 năm 2025). "Silicon Valley's next act: bringing 'vibe coding' to the world" . Business Insider . Lưu trữ bản gốc ngày 26 tháng 2 năm 2025 . Truy cập ngày 3 tháng 3 năm 2025 .
+
+↑ "Coding on Copilot: 2023 Data Suggests Downward Pressure on Code Quality" . GitClear .
+
+↑ van den Oord, Aäron; và đồng nghiệp (ngày 12 tháng 9 năm 2016). "WaveNet: A Generative Model for Raw Audio" . arXiv . 1609.03499.
+
+↑ Heaven, Will Douglas (ngày 1 tháng 5 năm 2020). "These pop songs were written by OpenAI's deep-learning algorithm" . MIT Technology Review .
+
+↑ Hiatt, Brian (ngày 10 tháng 4 năm 2024). "AI-Music Arms Race: Meet Udio, the Other ChatGPT for Music" . Rolling Stone .
+
+↑ "Training AI music models is about to get very expensive" . MIT Technology Review .
+
+1 2 Knibbs, Kate (ngày 26 tháng 1 năm 2024). "Researchers Say the Deepfake Biden Robocall Was Likely Made With Tools From AI Startup ElevenLabs" . Wired .
+
+↑ Kafka, Peter (ngày 1 tháng 2 năm 2023). "The AI boom is here, and so are the lawsuits" . Vox .
+
+↑ "Sarah Silverman and novelists sue ChatGPT-maker OpenAI for ingesting their books" . AP News . ngày 12 tháng 7 năm 2023.
+
+↑ Glynn, Paul (ngày 25 tháng 2 năm 2025). "Artists Release Silent Album in Protest Against AI Using Their Work" . BBC .
+
+↑ Tiến Long; Ngọc An (ngày 24 tháng 11 năm 2025). "Tranh luận công nhận sản phẩm trí tuệ nhân tạo (AI), đại biểu đề nghị thận trọng tránh sao chép" . Tuổi Trẻ .
+
+↑ Trần Văn (ngày 24 tháng 11 năm 2025). "Luật Sở hữu trí tuệ: Các đại biểu Quốc hội thảo luận vấn đề sản phẩm do AI tạo ra" . Luật sư Việt Nam .
+
+↑ "Quốc hội lần đầu thông qua Luật Trí tuệ nhân tạo, yêu cầu gắn nhãn các sản phẩm AI" . Tuổi Trẻ . ngày 10 tháng 12 năm 2025.
+
+↑ Hendrycks, Dan; Mazeika, Mantas (ngày 21 tháng 6 năm 2023). "An Overview of Catastrophic AI Risks". arXiv : 2306.12001 [ cs.CY ].
+
+↑ "CrowdStrike 2025 Global Threat Report" . SiliconAngle . ngày 27 tháng 2 năm 2025.
+
+↑ "Microsoft Digital Defense Report 2024" . Microsoft .
+
+↑ Verma, Pranshu (ngày 18 tháng 12 năm 2023). "The rise of AI fake news is creating a 'misinformation superspreader' " . Washington Post .
+
+↑ Peters, Mitchell (ngày 20 tháng 4 năm 2024). "Drake Takes Aim at Kendrick Lamar With AI Tupac & Snoop Dogg Vocals on 'Taylor Made Freestyle' Diss Track" . Billboard .
+
+↑ "Defiance Act passes in the Senate, potentially allowing deepfake victims to sue over nonconsensual images" . NBC News . ngày 23 tháng 7 năm 2024.
+
+↑ "Executive summary – Energy and AI" . IEA .
+
+↑ Chu, Amanda (ngày 30 tháng 5 năm 2024). "AI's thirst for electricity risks slowing US coal phaseout" . Financial Times .
+
+↑ Milmo, Dan (ngày 2 tháng 7 năm 2024). "Google's emissions climb nearly 50% in five years due to AI energy demand" . The Guardian .
+
+↑ Browne, Ryan (ngày 16 tháng 10 năm 2024). "Why Big Tech is turning to nuclear to power its energy-intensive AI ambitions" . CNBC .
+
+↑ Mandler, C (ngày 20 tháng 9 năm 2024). "Three Mile Island nuclear plant will reopen to power Microsoft data centers" . NPR .
+
+1 2 "When AI Meets Water Scarcity: Data Centers in a Thirsty World" . MSCI .
+
+↑ "AI's Cooling Problem: How Data Centers Are Transforming Water Use" . Environmental Law Institute .
+
+↑ "AI tools show biases in ranking job applicants' names according to perceived race and gender" . University of Washington . ngày 31 tháng 10 năm 2024.
+
+↑ "AI Bias Report 2025: LLM Discrimination" . All About AI .
+
+1 2 Fang, Xiao; Che, Shangkun; Mao, Minjia; Zhang, Hongzhe; Zhao, Ming; Zhao, Xiaohang (ngày 4 tháng 3 năm 2024). "Bias of AI-generated content: an examination of news produced by large language models" . Scientific Reports (bằng tiếng Anh). 14 (1): 5224. doi : 10.1038/s41598-024-55686-2 . ISSN 2045-2322 .
+
+↑ Yang, Yifan; Liu, Xiaoyu; Jin, Qiao; Huang, Furong; Lu, Zhiyong (ngày 10 tháng 9 năm 2024). "Unmasking and quantifying racial bias of large language models in medical report generation" . Communications Medicine (bằng tiếng Anh). 4 (1): 176. doi : 10.1038/s43856-024-00601-z . ISSN 2730-664X .
+
+↑ Kennedy, Brian; và đồng nghiệp (ngày 17 tháng 9 năm 2025). "How Americans View AI and Its Impact on People and Society" . Pew Research Center .
+
+↑ Nikolova, Milena; Angrisani, Marco (ngày 20 tháng 8 năm 2025). "Why people mistrust AI advancements" . Brookings .
+
+↑ Baily, Martin Neil; Brynjolfsson, Erik; Korinek, Anton (ngày 10 tháng 5 năm 2023). "Machines of mind: The case for an AI-powered productivity boom" . Brookings .
+
+↑ Smialek, Jeanna (ngày 21 tháng 2 năm 2024). "Are We in a Productivity Boom? For Clues, Look to 1994" . The New York Times .
+
+↑ "A Long Bet: Bet 868" . longbets.org .
+
+↑ Bell, Stephanie A.; Korinek, Anton. "AI's economic peril to democracy" . Brookings .
+
+↑ Hammond, George (ngày 27 tháng 12 năm 2023). "Big Tech is spending more than VC firms on AI startups" . Ars Technica .
+
+1 2 3 Karma, Rogé (ngày 7 tháng 9 năm 2025). "Just How Bad Would an AI Bubble Be?" . The Atlantic .
+
+↑ Fung, Brian (ngày 19 tháng 12 năm 2023). "Where the battle to dominate AI may be won" . CNN Business .
+
+↑ Chow, Andrew R.; Perrigo, Billy (ngày 17 tháng 2 năm 2023). "The AI Arms Race Is Changing Everything" . Time . Bản gốc lưu trữ ngày 19 tháng 2 năm 2023 . Truy cập ngày 29 tháng 4 năm 2026 .
+
+↑ Snow, Jackie (ngày 8 tháng 9 năm 2025). "AI bubble fears get worse. Wall Street plays it cool" . Quartz .
+
+↑ Hoskins, Peter; Edwards, Charlotte (ngày 28 tháng 1 năm 2025). "Nvidia and Microsoft shares steady after DeepSeek AI app shock" . BBC .
+
+↑ Nishant, Niket; Singh, Rashika (ngày 29 tháng 10 năm 2025). "Nvidia hits $5 trillion valuation as AI boom powers meteoric rise" . Reuters .
+
+↑ More, Durva (ngày 16 tháng 10 năm 2025). "Experts warn AI could trigger next global stock market crash — here's what might happen" . The Economic Times .
+
+↑ Roose, Kevin (ngày 30 tháng 5 năm 2023). "A.I. Poses 'Risk of Extinction,' Industry Leaders Warn" . The New York Times .
+
+1 2 " 'Godfathers of AI' Yoshua Bengio and Yann LeCun weigh in on potential of human-level AI, emerging risks and future frontiers at NUS lectures" . National University of Singapore . ngày 2 tháng 5 năm 2025.
+
+↑ Jain, Rounak. " 'Let's Open Source Nuclear Weapons Too': Godfather Of AI Geoffrey Hinton Mocks Fellow AI Godfather's Attempts To Trivialize Risks Of AI" . Benzinga .
+
+↑ "In a Rare Outburst, Meta's LeCun Blasts OpenAI, Turing Awardees" . AI Business .
+
+↑ Nolan, Beatrice. "The 'stakes are too high' to ignore extinction risks of AI, AI godfather warns" . Business Insider .

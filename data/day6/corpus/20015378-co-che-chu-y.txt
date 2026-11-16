@@ -1,0 +1,227 @@
+Trong học máy , cơ chế chú ý ( tiếng Anh : attention mechanism ) là một kỹ thuật giúp mô hình xác định phần nào của dữ liệu đầu vào quan trọng hơn so với các phần còn lại, từ đó tăng giá trị trọng số của những phần đó khi tạo giá trị đầu ra. Một số tác giả so sánh cơ chế này với sự chú ý ở con người , cho rằng nó mô phỏng nhận thức có ý thức của con người về một số thông tin cụ thể, làm nổi bật các chi tiết quan trọng để tập trung nhiều hơn vào những khía cạnh thiết yếu của dữ liệu; dẫn tới tên gọi này của nó.
+
+Cơ chế chú ý hoạt động bằng cách so sánh từng phần tử cần xử lý (gọi là "truy vấn" query ) với tất cả các phần tử khác trong dữ liệu đầu vào (gọi là "khóa" key ), nhằm tính ra mức độ liên quan giữa chúng. Mức độ liên quan này sau đó được chuyển thành trọng số, trong đó phần tử nào giống nhau giữa hai bên nhiều hơn sẽ nhận trọng số cao hơn. Cuối cùng, mô hình lấy tổng có trọng số của các giá trị tương ứng để tạo ra đầu ra, giúp thông tin từ những phần tử liên quan đến nhau đóng góp nhiều hơn so với phần còn lại. Kỹ thuật này có thể được sử dụng khi truy vấn và khóa được lấy từ hai chuỗi khác nhau ( chú ý chéo , cross-attention ), hoặc trên cùng một chuỗi để so sánh từng thành phần trong chính nó ( tự chú ý , self-attention ).
+
+Cơ chế chú ý là thành phần cốt lõi của kiến trúc Transformer, kiến trúc nền tảng cho các mô hình ngôn ngữ lớn (LLM) hiện nay như GPT , cũng như nhiều ứng dụng thị giác máy tính hiện đại thông qua các mô hình Vision Transformer (ViT).
+
+Lịch sử
+
+Trước khi các mạng neuron học sâu hiện đại xuất hiện, một số ý tưởng có liên quan đến việc lấy trung bình có trọng số theo mức độ tương đồng dữ liệu đã được đề xuất trong nhiều lĩnh vực khác nhau. Trong xử lý ảnh , bộ lọc song phương ( bilateral filter ) được giới thiệu năm 1998 dùng ma trận độ tương đồng theo cặp để làm mượt ảnh trong khi vẫn giữ được biên cạnh. Năm 1992, Jürgen Schmidhuber đề xuất "bộ điều khiển trọng số nhanh" ( fast weight controller ), trong đó một mạng neuron "chậm" tạo ra trọng số cho một mạng "nhanh" khác thông qua tích ngoài ( outer product ) của các vector . Về sau ý tưởng này được xem là khởi nguồn của cơ chế tự chú ý tuyến tính hóa.
+
+Cơ chế chú ý theo nghĩa hiện đại – được huấn luyện trong mạng neuron bằng lan truyền ngược – xuất hiện lần đầu năm 2014, khi Bahdanau, Cho và Bengio đưa nó vào mô hình dịch máy dựa trên mạng thần kinh hồi quy (RNN) dạng mã hóa-giải mã ( encoder-decoder ). Trước đó, mô hình encoder-decoder phải nén toàn bộ câu nguồn vào một vector ẩn có độ dài cố định, khiến chất lượng dịch giảm mạnh với câu dài vì biểu diễn ẩn của chúng cũng chỉ ngang với một câu ngắn. Cơ chế chú ý giải quyết vấn đề này bằng cách cho phép bộ giải mã tính lại trọng số cho toàn bộ chuỗi trạng thái ẩn của bộ mã hóa ở mỗi bước tạo từ, thay vì chỉ dựa vào một vector tổng hợp duy nhất. Năm 2015, Lương, Phạm, và Manning đề xuất hai biến thể đơn giản và hiệu quả hơn: chú ý toàn cục ( global attention , dựa trên tích vô hướng, còn gọi là chú ý nhân) và chú ý cục bộ ( local attention , chỉ xét một cửa sổ con của chuỗi nguồn) giúp cải thiện thêm chất lượng dịch máy. Cùng năm, cơ chế chú ý được mở rộng sang thị giác máy tính : Xu và cộng sự áp dụng nó vào bài toán chú thích ảnh, cho phép mô hình "nhìn" vào từng vùng ảnh khác nhau khi sinh ra từng từ trong câu mô tả.
+
+Lúc này, cơ chế chú ý vẫn chỉ được dùng như một thành phần bổ trợ gắn thêm vào RNN, chứ chưa thay thế hoàn toàn cấu trúc hồi quy. Một hướng nghiên cứu khác bắt đầu khám phá "tự chú ý" ( self-attention ) cho phép các phần tử trong cùng một chuỗi tính trọng số với nhau, thay vì chỉ giữa chuỗi nguồn và chuỗi đích. Cheng, Dong và Lapata tích hợp tự chú ý vào mạng bộ nhớ dài-ngắn hạn (LSTM) để mô hình hóa quan hệ nội tại giữa các từ trong bài toán đọc hiểu văn bản. Parikh và cộng sự dùng mô hình chú ý phân rã được ( decomposable attention ) cho bài toán suy luận ngôn ngữ tự nhiên, còn Lin và cộng sự đề xuất biểu diễn câu tự chú ý có cấu trúc ( structured self-attentive sentence embedding ).
+
+Năm 2017, Vaswani và cộng sự công bố kiến trúc Transformer trong bài báo " Attention is all you need " nổi tiếng, loại bỏ hoàn toàn thành phần hồi quy và chỉ dùng tự chú ý làm cơ chế tính toán chính, cho phép xử lý song song toàn bộ chuỗi thay vì tuần tự từng ký tự như RNN. Đây được xem là bước ngoặt quan trọng nhất trong lịch sử phát triển của cơ chế chú ý, vì nó chuyển vai trò của chú ý từ một thành phần bổ trợ thành nền tảng tính toán duy nhất của mô hình. Transformer nhanh chóng trở thành nền tảng cho các mô hình ngôn ngữ như BERT và GPT .
+
+Sau 2017, tự chú ý được mở rộng ra ngoài phạm vi xử lý ngôn ngữ tự nhiên. Wang và cộng sự đưa tự chú ý vào thị giác máy tính qua mạng neuron phi cục bộ ( non-local neural network ), giúp mô hình nắm bắt quan hệ giữa các vùng ảnh ở khoảng cách xa nhau để không phu thuộc vào các lớp lọc của mạng thần kinh tích chập . Veličković và cộng sự đưa cơ chế chú ý vào mạng neuron đồ thị để tạo thành mạng chú ý đồ thị ( graph attention network ) bằng cách dùng cơ chế này làm phuơng pháp lan truyền thông điẹp giữa các đỉnh. Năm 2021, Dosovitskiy và cộng sự chứng minh rằng Transformer có thể áp dụng trực tiếp cho ảnh bằng cách chia ảnh thành các mảng nhỏ và xử lý như một chuỗi token, tạo ra Vision Transformer (ViT), đạt kết quả tương đương với mạng tích chập trên bài toán phân loại ảnh. Kiến trúc dựa trên chú ý cũng được áp dụng sang các lĩnh vực khoa học khác, như AlphaFold trong dự đoán cấu trúc protein và CLIP trong học biểu diễn kết hợp ảnh và văn bản.
+
+Cơ chế toán học
+
+Chú ý cộng (additive attention) và chú ý nhân (multiplicative attention)
+
+Trước khi kiến trúc Transformer ra đời, hai công thức chú ý từng được dùng phổ biến trong các mô hình dịch máy dựa trên RNN , khác nhau ở cách tính điểm tương đồng giữa truy vấn và khóa.
+
+Chú ý cộng, do Bahdanau, Cho và Bengio đề xuất năm 2014, tính điểm tương đồng bằng một mạng neuron một lớp ẩn với hàm kích hoạt tanh, nhận đầu vào là tổng của truy vấn và khóa đã qua phép chiếu tuyến tính riêng:
+
+Attention ( Q , K , V ) = softmax ( tanh ⁡ ( W Q Q + W K K ) ) V
+
+trong đó W Q và W K là các ma trận trọng số học được. Gọi là "chú ý cộng" vì bước cốt lõi là phép cộng hai vector đã chiếu trước khi đưa qua hàm phi tuyến , khác với việc nhân trực tiếp hai vector.
+
+Chú ý nhân, do Lương, Phạm và Manning đề xuất năm 2015, thay phép cộng và mạng neuron bằng một phép nhân ma trận đơn giản hơn:
+
+Attention ( Q , K , V ) = softmax ( Q W K T ) V
+
+trong đó W là một ma trận trọng số học được. Về mặt tính toán, chú ý nhân rẻ hơn chú ý cộng đáng kể, vì phép nhân ma trận có thể tận dụng các thư viện đại số tuyến tính được tối ưu hóa cao trên phần cứng hiện đại (như GPU ), trong khi chú ý cộng cần một mạng neuron riêng với hàm kích hoạt phi tuyến, tốn thêm chi phí tính toán và bộ nhớ. Đây là một trong những lý do khiến dạng chú ý dựa trên tích vô hướng (một biến thể đơn giản hóa của chú ý nhân, không có ma trận W ở giữa) trở thành lựa chọn mặc định trong kiến trúc Transformer.
+
+Chú ý tích vô hướng theo tỷ lệ (Scaled dot-product attention)
+
+Đây là dạng chú ý phổ biến nhất, được dùng trong kiến trúc Transformer . Cơ chế này nhận vào ba ma trận : ma trận truy vấn Q ∈ ℝ m × d k , ma trận khóa K ∈ ℝ n × d k , và ma trận giá trị V ∈ ℝ n × d v . Công thức tổng quát là:
+
+Attention ( Q , K , V ) = softmax ( Q K T d k ) V
+
+Quy trình tính toán gồm ba bước:
+
+Bước thứ nhất là đo độ tương đồng. Với mỗi truy vấn, mô hình tính tích vô hướng của truy vấn đó với từng khóa trong tập K , cho ra ma trận điểm số Q K T . Tích vô hướng giữa hai vector càng lớn nghĩa là hai vector càng gần nhau trong không gian nhiều chiều, tức mức độ liên quan giữa truy vấn và khóa đó càng cao.
+
+Bước thứ hai là chuẩn hóa điểm số thành trọng số. Ma trận điểm số được chia cho d k trước khi đưa qua hàm softmax theo từng hàng. Nguyên nhân là khi số chiều d k lớn, tổng của nhiều số hạng trong tích vô hướng khiến giá trị điểm số có phương sai lớn theo tỷ lệ với d k . Nếu không điều chỉnh, một vài điểm số sẽ lớn vượt trội so với phần còn lại, khiến hàm softmax gán gần như toàn bộ trọng số cho một khóa duy nhất và gần như bằng 0 cho các khóa khác. Hậu quả là đạo hàm của softmax tại các vùng này gần bằng 0, khiến quá trình huấn luyện bằng lan truyền ngược trở nên chậm hoặc bị đình trệ. Chia điểm số cho d k giữ phương sai ổn định bất kể số chiều lớn hay nhỏ, tránh được vấn đề này. Kết quả của bước này là một phân phối xác suất trên tập khóa cho mỗi truy vấn, gọi là "trọng số chú ý".
+
+Bước thứ ba là tổng hợp thông tin. Trọng số chú ý vừa tính được dùng để lấy tổng có trọng số của các vector trong V , cho ra vector đầu ra cho từng truy vấn. Nói cách khác, đầu ra không phải là một giá trị đơn lẻ được chọn ra, mà là sự pha trộn có trọng số của tất cả các giá trị, trong đó giá trị nào liên quan nhiều hơn (theo bước một và hai) sẽ đóng góp nhiều hơn vào kết quả cuối cùng.
+
+Một tính chất quan trọng của phép tính này là nó không phân biệt thứ tự các cặp khóa-giá trị: nếu hoán vị thứ tự các hàng trong K và V theo cùng một cách, kết quả đầu ra không thay đổi. Tính chất này gọi là bất biến hoán vị ( permutation invariance ) đối với khóa và giá trị. Ngược lại, nếu hoán vị thứ tự các hàng trong Q , kết quả đầu ra cũng bị hoán vị theo đúng thứ tự đó, gọi là biến đổi tương ứng hoán vị ( permutation equivariance ) đối với truy vấn. Hệ quả của tính chất này là bản thân cơ chế chú ý không có khả năng phân biệt thứ tự các từ trong một câu: nếu đảo ngược thứ tự từ, mô hình không tự nhận ra sự khác biệt. Vì vậy, khi áp dụng chú ý cho dữ liệu dạng chuỗi như văn bản hay kể cả là ảnh sau khi chia mảnh, cần bổ sung thêm thông tin vị trí ( positional encoding ) một cách riêng biệt để cộng vào biểu diễn của dữ liệu trước khi đưa vào cơ chế chú ý.
+
+Chú ý có mặt nạ (Masked attention)
+
+Khi dùng chú ý cho bộ giải mã tự hồi quy (mô hình sinh từng từ dựa trên các từ đã sinh ra trước đó, như trong bài toán tạo văn bản), cần ngăn không cho mô hình sử dụng thông tin từ các từ ở vị trí tương lai chưa được sinh ra, vì trong thực tế mô hình chưa biết chúng là gì. Yêu cầu này được gọi là tính nhân quả ( causality ). Để đảm bảo tính nhân quả, người ta cộng thêm một ma trận mặt nạ M vào điểm số trước bước softmax:
+
+Attention ( Q , K , V ) = softmax ( Q K T d k + M ) V
+
+Ma trận M có giá trị bằng 0 tại các vị trí được phép tham chiếu (từ hiện tại và các từ trước đó), và bằng âm vô cực tại các vị trí thuộc về tương lai. Khi cộng âm vô cực vào điểm số rồi đưa qua softmax, kết quả tại các vị trí đó xấp xỉ bằng 0, tức mô hình gán trọng số gần như tuyệt đối bằng 0 cho các từ tương lai, hiệu quả tương đương với việc chặn hoàn toàn luồng thông tin từ tương lai về hiện tại. Đây là kỹ thuật được dùng trong phần giải mã của Transformer và cả trong các mô hình ngôn ngữ chỉ dùng bộ giải mã như GPT.
+
+Chú ý đa đầu (Multi-head attention)
+
+Thay vì chỉ tính một phép chú ý duy nhất, kiến trúc Transformer chia phép tính thành nhiều nhánh song song gọi là "đầu" ( head ). Mỗi đầu có bộ trọng số riêng để chiếu Q , K , V sang một không gian con khác nhau, sau đó tính chú ý độc lập trong không gian con đó, cuối cùng ghép kết quả của tất cả các đầu lại và chiếu qua một lớp tuyến tính chung:
+
+MultiHead ( Q , K , V ) = Concat ( head 1 , … , head h ) W O
+
+trong đó mỗi đầu h e a d i được tính bằng:
+
+head i = Attention ( Q W i Q , K W i K , V W i V )
+
+với W i Q , W i K , W i V là ma trận trọng số riêng của đầu thứ i , còn W O là ma trận trọng số dùng để kết hợp kết quả của tất cả các đầu.
+
+Lý do cần nhiều đầu thay vì một đầu duy nhất là vì một phép chú ý đơn lẻ chỉ có thể học một kiểu quan hệ giữa các từ tại một thời điểm, do toàn bộ trọng số chú ý được tính trong cùng một không gian biểu diễn. Với nhiều đầu, mỗi đầu có thể chuyên biệt hóa vào một loại quan hệ khác nhau. Ví dụ, một đầu có thể học tập trung vào quan hệ cú pháp giữa các từ liền kề nhau, trong khi một đầu khác học tập trung vào quan hệ ngữ nghĩa giữa các từ ở xa nhau trong câu. Việc kết hợp nhiều đầu cho phép mô hình nắm bắt đồng thời nhiều loại quan hệ, thay vì phải thỏa hiệp vào một biểu diễn trung bình duy nhất.
+
+Tự chú ý
+
+Tự chú ý là trường hợp đặc biệt của chú ý, trong đó Q , K , V đều được tính từ cùng một chuỗi đầu vào, khác với chú ý chéo nơi truy vấn đến từ một chuỗi còn khóa và giá trị đến từ một chuỗi khác (ví dụ trong dịch máy , truy vấn từ bộ giải mã còn khóa và giá trị từ bộ mã hóa). Với một chuỗi vector ẩn h 0 , h 1 , … được ghép thành ma trận H , tự chú ý được tính bằng:
+
+H ′ = Attention ( H W Q , H W K , H W V )
+
+Kết quả là mỗi vị trí trong chuỗi tính được một biểu diễn mới, tổng hợp thông tin từ tất cả các vị trí khác trong cùng chuỗi đó, với mức độ đóng góp tỷ lệ theo độ liên quan giữa các vị trí. Trong RNN, thông tin từ một từ ở đầu câu phải đi qua nhiều bước tính toán trung gian mới đến được từ ở cuối câu, và mỗi bước trung gian đều có nguy cơ làm suy giảm hoặc pha loãng thông tin gốc. Nhưng trong tự chú ý, mỗi vị trí tham chiếu trực tiếp đến mọi vị trí khác chỉ trong một bước tính toán duy nhất, không phụ thuộc vào khoảng cách giữa hai vị trí đó.
+
+Cách diễn giải về trọng số của cơ chế chú ý
+
+Ngoài vai trò tính toán, trọng số chú ý còn được dùng như một công cụ trực quan hóa để tìm hiểu quá trình ra quyết định của mô hình. Đối với mô hình dịch máy dựa trên RNN, người ta có thể xếp các vector trọng số chú ý qua từng bước giải mã lại với nhau tạo thành một ma trận căn chỉnh ( alignment matrix ) nhằm thể hiện mức độ tương ứng giữa từng từ của câu nguồn và từng từ của câu đích. Với các mô hình dùng cơ chế tự chú ý như Vision Transformer, việc trực quan hóa trọng số chú ý dưới dạng bản đồ nhiệt ( heat map ), còn gọi là bản đồ chú ý ( attention map ) hoặc bản đồ độ nổi bật ( saliency map ), đã trở thành một cách phổ biến để kiểm tra mô hình đang "tập trung" vào vùng nào của ảnh khi đưa ra dự đoán. Có thể tính bản đồ chú ý ứng với bất kỳ đầu chú ý nào ở bất kỳ lớp nào trong mô hình, và các lớp sâu hơn thường cho ra bản đồ mang nhiều ý nghĩa ngữ nghĩa hơn.
+
+Vì một mô hình Transformer thường có nhiều lớp chú ý xếp chồng lên nhau, thông tin từ một token bị trộn lẫn dần qua từng lớp, khiến trọng số chú ý ở một lớp đơn lẻ không phản ánh đầy đủ mức độ ảnh hưởng thực sự của token đó đến đầu ra cuối cùng. Để giải quyết vấn đề này, Abnar và Zuidema đề xuất "cuộn chú ý" ( attention rollout ), một thuật toán đệ quy kết hợp trọng số chú ý qua tất cả các lớp bằng cách nhân liên tiếp các ma trận chú ý của từng lớp, cho ra một ước lượng về mức độ ảnh hưởng tổng hợp của mỗi token đầu vào.
+
+Trong khi đó, có một số mô hình ViT được huấn luyện theo kiểu tự giám sát, bản đồ chú ý mặc định không phân biệt theo lớp ( class ) phân loại cụ thể. Khi gắn thêm một đầu phân loại vào Vision Transformer, Brocki, Binda và Chung đề xuất bản đồ chú ý phân biệt theo lớp ( class-discriminative attention maps , CDAM), kết hợp bản đồ chú ý với gradient tính theo token phân loại [CLS], cho ra bản đồ nhạy với nhãn dự đoán cụ thể thay vì chỉ phản ánh chú ý chung chung (tức là nếu mô hình dự đoán một ảnh có nhãn "chó" thì bản đồ sẽ tô đỏ vùng mà nó nghĩ thuộc về con chó). Một số phương pháp diễn giải khác vốn được phát triển cho mạng tích chập cũng được điều chỉnh để áp dụng cho Vision Transformer, ví dụ GradCAM lan truyền ngược gradient tới đầu ra của lớp chú ý cuối cùng để xác định vùng ảnh quan trọng nhất đối với một dự đoán cụ thể.
+
+Việc dùng trọng số chú ý làm cơ sở giải thích cho quyết định của mô hình, dù phổ biến trong cả xử lý ngôn ngữ và thị giác máy tính , vẫn còn gây tranh cãi. Một số nghiên cứu ban đầu coi trọng số chú ý như một dạng giải thích trực tiếp cho quyết định của mô hình, chẳng hạn Mullenbach và cộng sự dùng trọng số chú ý để chỉ ra đoạn văn bản lâm sàng nào dẫn đến việc gán một mã bệnh cụ thể trong hồ sơ y tế. Tuy nhiên, Serrano và Smith cho thấy trọng số chú ý cao hơn không phải lúc nào cũng tương ứng với ảnh hưởng lớn hơn đến kết quả dự đoán của mô hình: khi thao túng trực tiếp trọng số chú ý của một mô hình phân loại văn bản đã huấn luyện xong, họ phát hiện xếp hạng dựa trên gradient dự đoán ảnh hưởng thực tế của một trọng số tốt hơn so với chỉ nhìn vào độ lớn của chính trọng số đó. Nói cách khác, trọng số chú ý cho biết mô hình phân bổ "sự chú ý" như thế nào về mặt tính toán, nhưng không nhất thiết phản ánh chính xác token nào thực sự quyết định kết quả đầu ra.
+
+Biến thể
+
+Biến thể trong thị giác máy tính
+
+Khi được tích hợp vào CNN , các biến thể của cơ chế chú ý thường được phân loại theo chiều dữ liệu mà chúng tác động: chú ý kênh ( channel attention ) hoặc chú ý không gian ( spatial attention) . Chú ý kênh gán trọng số khác nhau cho từng kênh đặc trưng ( feature channel ) của bản đồ đặc trưng, dựa trên mức độ quan trọng của kênh đó đối với tác vụ đang xử lý. Hu, Shen và Sun đề xuất mạng nén-kích hoạt ( Squeeze-and-Excitation Network , SENet), trong đó thông tin không gian của mỗi kênh được nén thành một giá trị đơn bằng phép gộp trung bình toàn cục, rồi dùng một mạng neuron nhỏ để học trọng số cho từng kênh. Trong khi đó, chú ý không gian gán trọng số khác nhau cho từng vị trí trên bản đồ đặc trưng, xác định vùng nào trong ảnh quan trọng hơn bất kể kênh nào.
+
+Woo và cộng sự kết hợp cả hai hướng để tạo ra mô-đun chú ý khối tích chập ( Convolutional Block Attention Module , CBAM). Mô-đun này cho phép dữ liệu đi qua chú ý kênh trước, sau đó qua chú ý không gian, cho phép mô hình tinh chỉnh đặc trưng theo cả hai chiều mà chỉ tốn thêm rất ít chi phí tính toán.
+
+Biến thể trong Transformer và mô hình ngôn ngữ lớn
+
+Từ khi Transformer trở thành kiến trúc nền tảng cho các mô hình ngôn ngữ lớn (LLM), nhiều biến thể của chú ý đa đầu được đề xuất nhằm giảm chi phí tính toán và bộ nhớ khi suy luận ( inference ), đặc biệt khi xử lý chuỗi văn bản dài.
+
+Trong chú ý đa đầu tiêu chuẩn, mỗi đầu có bộ ma trận khóa và giá trị riêng. Khi mô hình sinh văn bản từng token một, toàn bộ các vector khóa và giá trị đã tính từ trước cần được lưu lại trong bộ nhớ đệm ( KV cache ) để đỡ phải tính toán lại, song kích thước bộ nhớ đệm này sẽ tỷ lệ thuận với số đầu chú ý khiến cần một lượng lưu trữ rất lớn cho các LLM. Shazeer đề xuất chú ý đa truy vấn ( Multi-Query Attention , MQA), trong đó tất cả các đầu chú ý dùng chung một bộ ma trận khóa và giá trị duy nhất, chỉ giữ ma trận truy vấn riêng cho từng đầu. Cách này giảm mạnh kích thước bộ nhớ đệm cần lưu, tăng tốc độ suy luận, nhưng đánh đổi bằng việc giảm chất lượng mô hình do các đầu mất đi sự đa dạng trong biểu diễn khóa-giá trị.
+
+Để cân bằng giữa tốc độ của MQA và chất lượng của chú ý đa đầu tiêu chuẩn, Ainslie và cộng sự đề xuất chú ý đa truy vấn theo nhóm ( Grouped-Query Attention , GQA): thay vì dùng chung một bộ khóa-giá trị cho toàn bộ các đầu, các đầu được chia thành nhiều nhóm nhỏ, mỗi nhóm dùng chung một bộ khóa-giá trị riêng. Khi số nhóm bằng 1, GQA trở thành MQA; khi số nhóm bằng số đầu, GQA trở thành chú ý đa đầu tiêu chuẩn. Nhóm tác giả cũng đề xuất cách chuyển đổi một mô hình đã huấn luyện sẵn bằng chú ý đa đầu tiêu chuẩn sang GQA mà không cần huấn luyện lại từ đầu, chỉ cần tinh chỉnh thêm một phần nhỏ dữ liệu huấn luyện.
+
+Một hướng tiếp cận khác là chú ý ẩn đa đầu ( Multi-head Latent Attention , MLA), giới thiệu trong mô hình DeepSeek -V2. Thay vì lưu trực tiếp các vector khóa và giá trị đầy đủ trong bộ nhớ đệm, MLA nén chúng thành một vector ẩn ( latent vector ) có số chiều nhỏ hơn nhiều, rồi khôi phục lại khóa và giá trị từ vector ẩn đó khi cần tính chú ý. Cách này giảm mạnh kích thước bộ nhớ đệm cần lưu so với cả chú ý đa đầu tiêu chuẩn lẫn GQA, trong khi vẫn giữ được chất lượng mô hình gần như tương đương với chú ý đa đầu tiêu chuẩn.
+
+Tối ưu hóa tính toán
+
+Ngoài các biến thể thay đổi cách tính khóa-giá trị, một hướng khác tập trung tối ưu hóa cách triển khai phép tính chú ý tiêu chuẩn trên phần cứng mà không thay đổi kết quả toán học.
+
+Kích thước ma trận chú ý tỷ lệ thuận với bình phương độ dài chuỗi đầu vào, nên khi chuỗi dài, việc tính và lưu toàn bộ ma trận này tốn rất nhiều bộ nhớ GPU. Dao và cộng sự đề xuất FlashAttention, chia phép tính chú ý thành các khối nhỏ vừa với bộ nhớ nhanh trên chip của GPU, giúp tránh phải ghi toàn bộ ma trận chú ý trung gian ra bộ nhớ chậm hơn. Kết quả tính toán không đổi so với chú ý tiêu chuẩn, nhưng tốc độ và mức sử dụng bộ nhớ được cải thiện đáng kể.
+
+Nhóm nghiên cứu của Meta phát triển FlexAttention phép người dùng tùy chỉnh điểm số chú ý trước bước softmax (ví dụ để cài đặt các dạng mặt nạ khác nhau) trong khi vẫn tự động chọn thuật toán tối ưu tương đương FlashAttention để thực thi.
+
+Với các mô hình cần xử lý chuỗi rất dài, một hướng khác là xấp xỉ phép tính chú ý bậc hai bằng các phương pháp có độ phức tạp thấp hơn, chẳng hạn Reformer dùng băm nhạy cảm cục bộ ( locality-sensitive hashing ) để chỉ tính chú ý giữa các token có khả năng liên quan cao, Linformer ước tính ma trận chú ý bằng một ma trận hạng thấp, và Performer dùng đặc trưng ngẫu nhiên dương ( positive random features ) để xấp xỉ hàm softmax mà không cần tính chính xác đầy đủ toàn bộ ma trận chú ý.
+
+Ứng dụng
+
+Cơ chế chú ý hiện được ứng dụng rộng rãi trong nhiều lĩnh vực của học máy, chủ yếu thông qua kiến trúc Transformer.
+
+Xử lý ngôn ngữ tự nhiên
+
+Trong xử lý ngôn ngữ tự nhiên , ngoài dịch máy (nguồn gốc của cơ chế chú ý trong bài báo " Attention is all you need "), cơ chế chú ý còn là thành phần cốt lõi của các mô hình dùng cho bài toán trả lời câu hỏi và tóm tắt văn bản. Devlin và cộng sự phát triển BERT , một mô hình chỉ dùng bộ mã hóa Transformer, huấn luyện trước bằng cách dự đoán các từ bị che trong câu, sau đó tinh chỉnh cho các tác vụ hiểu ngôn ngữ khác nhau; trên bộ dữ liệu trả lời câu hỏi SQuAD, mô hình đạt điểm F1 cao hơn hệ thống tốt nhất trước đó tại thời điểm công bố. Với bài toán tóm tắt văn bản, See, Liu và Manning kết hợp chú ý với cơ chế con trỏ ( pointer network ) trong mô hình pointer-generator, cho phép mô hình vừa sinh từ mới vừa sao chép trực tiếp từ trong văn bản gốc dựa trên trọng số chú ý, giảm hiện tượng lặp từ và sai lệch thông tin so với các mô hình sinh văn bản thuần túy trước đó.
+
+Cơ chế chú ý cũng là nền tảng của các mô hình LLM hiện nay. Các mô hình này thường dùng kiến trúc chỉ có bộ giải mã Transformer với chú ý có mặt nạ và được huấn luyện bằng cách dự đoán token tiếp theo trên khối lượng văn bản lớn. Brown và cộng sự cho thấy khi tăng số tham số của mô hình GPT lên 175 tỷ, mô hình đạt được khả năng học trong ngữ cảnh ( in-context learning ): chỉ cần đưa vài ví dụ minh họa trực tiếp vào đoạn văn bản đầu vào, mô hình có thể thực hiện một tác vụ mới mà không cần huấn luyện lại hay cập nhật trọng số, nhờ cơ chế chú ý cho phép mô hình liên kết thông tin giữa các ví dụ minh họa và phần cần dự đoán trong cùng một chuỗi đầu vào. Khả năng này là nền tảng cho các ứng dụng LLM hiện nay như chatbot , hỗ trợ lập trình , và các tác vụ suy luận đa bước.
+
+Thị giác máy tính
+
+Trong thị giác máy tính , ngoài chú thích ảnh và Vision Transformer , chú ý được dùng trực tiếp trong bài toán phát hiện đối tượng. Carion và cộng sự đề xuất DETR ( DEtection TRansformer ), trong đó họ xử lý bài toán phát hiện đối tượng giống bài toán dự đoán trực tiếp một tập hợp, dùng bộ mã hóa-giải mã Transformer để mô hình hóa quan hệ giữa các đối tượng trong ảnh, qua đó loại bỏ các bước xử lý thủ công như triệt tiêu không tối đa ( non-maximum suppression ) hay tạo sinh khung neo ( anchor generation ) vốn cần thiết trong các phương pháp phát hiện đối tượng trước đó.
+
+Nhận dạng giọng nói
+
+Trong nhận dạng giọng nói , Chan và cộng sự đề xuất LAS ( Listen, Attend and Spell ), một mô hình chuyển trực tiếp tín hiệu âm thanh thành chuỗi ký tự văn bản mà không cần các thành phần riêng biệt cho mô hình âm học, mô hình phát âm và mô hình ngôn ngữ như hệ thống nhận dạng giọng nói truyền thống dựa trên mạng neuron sâu kết hợp mô hình Markov ẩn . Thành phần "speller" trong mô hình là một bộ giải mã hồi quy dùng cơ chế chú ý để xác định phần nào của tín hiệu âm thanh đầu vào liên quan đến ký tự đang được sinh ra.
+
+Khoa học liên ngành
+
+Ngoài ngôn ngữ, thị giác và giọng nói, kiến trúc dựa trên cơ chế chú ý còn được áp dụng cho các bài toán khoa học chuyên biệt. AlphaFold dùng cơ chế chú ý để dự đoán cấu trúc ba chiều của protein từ trình tự amino acid , đạt độ chính xác gần với phương pháp thực nghiệm trên nhiều mục tiêu đánh giá. CLIP học biểu diễn chung cho ảnh và văn bản bằng cách huấn luyện đồng thời một bộ mã hóa ảnh và một bộ mã hóa văn bản dựa trên Transformer, dùng cơ chế chú ý để đối chiếu các cặp ảnh-chú thích nhằm mô hình học được sự tương ứng giữa hai loại dữ liệu mà không cần nhãn phân loại thủ công.
+
+Tham khảo
+
+↑ Hassanin, Mohammed; Anwar, Saeed; Radwan, Ibrahim; Khan, Fahad Shahbaz; Mian, Ajmal (2024). "Visual attention methods in deep learning: An in-depth survey". Information Fusion . 108 : 102417. doi : 10.1016/j.inffus.2024.102417 .
+
+1 2 3 4 5 6 7 8 9 10 11 12 13 Vaswani, Ashish; Shazeer, Noam; Parmar, Niki; Uszkoreit, Jakob; Jones, Llion; Gomez, Aidan N.; Kaiser, Łukasz; Polosukhin, Illia (2017). Attention Is All You Need . Advances in Neural Information Processing Systems 30 (NeurIPS 2017). tr. 5998– 6008. arXiv : 1706.03762 .
+
+↑ Tomasi, Carlo (1998). Bilateral filtering for gray and color images . Sixth International Conference on Computer Vision (ICCV 1998). tr. 839– 846. doi : 10.1109/ICCV.1998.710815 .
+
+↑ Schmidhuber, Jürgen (1992). "Learning to control fast-weight memories: an alternative to recurrent nets" . Neural Computation . 4 (1): 131– 139. doi : 10.1162/neco.1992.4.1.131 .
+
+↑ Schlag, Imanol; Irie, Kazuki; Schmidhuber, Jürgen (2021). Linear Transformers Are Secretly Fast Weight Programmers . International Conference on Machine Learning (ICML 2021). tr. 9355– 9366.
+
+1 2 Bahdanau, Dzmitry; Cho, Kyunghyun; Bengio, Yoshua (2015). Neural Machine Translation by Jointly Learning to Align and Translate . 3rd International Conference on Learning Representations (ICLR 2015). arXiv : 1409.0473 .
+
+1 2 3 Luong, Minh-Thang; Pham, Hieu; Manning, Christopher D. (2015). Effective Approaches to Attention-based Neural Machine Translation . 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015). tr. 1412– 1421. arXiv : 1508.04025 . doi : 10.18653/v1/D15-1166 .
+
+↑ Xu, Kelvin; Ba, Jimmy; Kiros, Ryan; Cho, Kyunghyun; Courville, Aaron; Salakhutdinov, Ruslan; Zemel, Richard S.; Bengio, Yoshua (2015). Show, Attend and Tell: Neural Image Caption Generation with Visual Attention . 32nd International Conference on Machine Learning (ICML 2015). tr. 2048– 2057. arXiv : 1502.03044 .
+
+↑ Cheng, Jianpeng; Dong, Li; Lapata, Mirella (2016). Long Short-Term Memory-Networks for Machine Reading . 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP 2016). tr. 551– 561. arXiv : 1601.06733 .
+
+↑ Parikh, Ankur P.; Täckström, Oscar; Das, Dipanjan; Uszkoreit, Jakob (2016). A Decomposable Attention Model for Natural Language Inference . 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP 2016). tr. 2249– 2255. arXiv : 1606.01933 .
+
+↑ Lin, Zhouhan; Feng, Minwei; Santos, Cicero Nogueira dos; Yu, Mo; Xiang, Bing; Zhou, Bowen; Bengio, Yoshua (2017). A Structured Self-Attentive Sentence Embedding . 5th International Conference on Learning Representations (ICLR 2017). arXiv : 1703.03130 .
+
+↑ Niu, Zhaoyang; Zhong, Guoqiang; Yu, Hui (2021). "A review on the attention mechanism of deep learning". Neurocomputing . 452 : 48– 62. doi : 10.1016/j.neucom.2021.03.091 .
+
+1 2 Devlin, Jacob; Chang, Ming-Wei; Lee, Kenton; Toutanova, Kristina (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding . 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2019). tr. 4171– 4186. doi : 10.18653/v1/N19-1423 .
+
+↑ Radford, Alec; Narasimhan, Karthik; Salimans, Tim; Sutskever, Ilya (2018). "Improving Language Understanding by Generative Pre-Training" (PDF) . OpenAI.
+
+↑ Wang, Xiaolong; Girshick, Ross; Gupta, Abhinav; He, Kaiming (2018). Non-local Neural Networks . 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2018). tr. 7794– 7803. arXiv : 1711.07971 . doi : 10.1109/CVPR.2018.00813 .
+
+↑ Veličković, Petar; Cucurull, Guillem; Casanova, Arantxa; Romero, Adriana; Liò, Pietro; Bengio, Yoshua (2018). Graph Attention Networks . 6th International Conference on Learning Representations (ICLR 2018). arXiv : 1710.10903 .
+
+1 2 3 Dosovitskiy, Alexey; Beyer, Lucas; Kolesnikov, Alexander; Weissenborn, Dirk; Zhai, Xiaohua; Unterthiner, Thomas; Dehghani, Mostafa; Minderer, Matthias; Heigold, Georg; Gelly, Sylvain; Uszkoreit, Jakob; Houlsby, Neil (2021). An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale . 9th International Conference on Learning Representations (ICLR 2021). arXiv : 2010.11929 .
+
+1 2 Jumper, John; Evans, Richard; Pritzel, Alexander; và đồng nghiệp (2021). "Highly accurate protein structure prediction with AlphaFold" . Nature . 596 (7873): 583– 589. doi : 10.1038/s41586-021-03819-2 . PMC 8371605 . PMID 34265844 .
+
+1 2 Radford, Alec; Kim, Jong Wook; Hallacy, Chris; và đồng nghiệp (2021). Learning Transferable Visual Models From Natural Language Supervision . International Conference on Machine Learning (ICML 2021). tr. 8748– 8763.
+
+↑ Lee, Juho; Lee, Yoonho; Kim, Jungtaek; Kosiorek, Adam R.; Choi, Seungjin; Teh, Yee Whye (2019). Set Transformer: A Framework for Attention-based Permutation-Invariant Neural Networks . 36th International Conference on Machine Learning (ICML 2019). tr. 3744– 3753. arXiv : 1810.00825 .
+
+↑ Radford, Alec; Narasimhan, Karthik; Salimans, Tim; Sutskever, Ilya (2018). "Improving Language Understanding by Generative Pre-Training" (PDF) . OpenAI.
+
+↑ Abnar, Samira; Zuidema, Willem (2020). Quantifying Attention Flow in Transformers . 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020). tr. 4190– 4197. doi : 10.18653/v1/2020.acl-main.385 .
+
+↑ Brocki, Lennart; Binda, Jakub; Chung, Neo Christopher (2024). "Class-Discriminative Attention Maps for Vision Transformers". Transactions on Machine Learning Research . arXiv : 2312.02364 .
+
+↑ Chefer, Hila; Gur, Shir; Wolf, Lior (2021). Transformer Interpretability Beyond Attention Visualization . 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2021). tr. 782– 791. doi : 10.1109/CVPR46437.2021.00084 .
+
+↑ Mullenbach, James; Wiegreffe, Sarah; Duke, Jon; Sun, Jimeng; Eisenstein, Jacob (2018). Explainable Prediction of Medical Codes from Clinical Text . 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2018). tr. 1101– 1111. doi : 10.18653/v1/N18-1100 .
+
+↑ Serrano, Sofia; Smith, Noah A. (2019). Is Attention Interpretable? . 57th Annual Meeting of the Association for Computational Linguistics (ACL 2019). tr. 2931– 2951. doi : 10.18653/v1/P19-1282 .
+
+↑ Hu, Jie; Shen, Li; Sun, Gang (2018). Squeeze-and-Excitation Networks . 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2018). tr. 7132– 7141. arXiv : 1709.01507 . doi : 10.1109/CVPR.2018.00745 .
+
+↑ Zhu, Xizhou; Cheng, Dazhi; Zhang, Zheng; Lin, Stephen; Dai, Jifeng (2019). An Empirical Study of Spatial Attention Mechanisms in Deep Networks . 2019 IEEE/CVF International Conference on Computer Vision (ICCV 2019). tr. 6687– 6696. arXiv : 1904.05873 . doi : 10.1109/ICCV.2019.00679 .
+
+↑ Woo, Sanghyun; Park, Jongchan; Lee, Joon-Young; Kweon, In So (2018). CBAM: Convolutional Block Attention Module . 15th European Conference on Computer Vision (ECCV 2018). tr. 3– 19. arXiv : 1807.06521 .
+
+↑ Shazeer, Noam (2019). "Fast Transformer Decoding: One Write-Head is All You Need". arXiv : 1911.02150 [ cs.NE ].
+
+↑ Ainslie, Joshua; Lee-Thorp, James; de Jong, Michiel; Zemlyanskiy, Yury; Lebrón, Federico; Sanghai, Sumit (2023). GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints . 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023). arXiv : 2305.13245 .
+
+↑ DeepSeek-AI (2024). "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model". arXiv : 2405.04434 [ cs.CL ].
+
+↑ Tay, Yi; Dehghani, Mostafa; Bahri, Dara; Metzler, Donald (2022). "Efficient Transformers: A Survey". ACM Computing Surveys . 55 (6): 1– 28. doi : 10.1145/3530811 .
+
+↑ Dao, Tri; Fu, Daniel Y.; Ermon, Stefano; Rudra, Atri; Ré, Christopher (2022). FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness . 36th Conference on Neural Information Processing Systems (NeurIPS 2022). arXiv : 2205.14135 .
+
+↑ Dong, Juechu; Feng, Boyuan; Guessous, Driss; Liang, Yanbo; He, Horace (2025). Flex Attention: A Programming Model for Generating Optimized Attention Kernels . 8th MLSys Conference. arXiv : 2412.05496 .
+
+↑ Kitaev, Nikita; Kaiser, Łukasz; Levskaya, Anselm (2020). Reformer: The Efficient Transformer . 8th International Conference on Learning Representations (ICLR 2020). arXiv : 2001.04451 .
+
+↑ Wang, Sinong; Li, Belinda Z.; Khabsa, Madian; Fang, Han; Ma, Hao (2020). "Linformer: Self-Attention with Linear Complexity". arXiv : 2006.04768 [ cs.LG ].
+
+↑ Choromanski, Krzysztof; Likhosherstov, Valerii; Dohan, David; và đồng nghiệp (2021). Rethinking Attention with Performers . 9th International Conference on Learning Representations (ICLR 2021). arXiv : 2009.14794 .
+
+↑ See, Abigail; Liu, Peter J.; Manning, Christopher D. (2017). Get To The Point: Summarization with Pointer-Generator Networks . 55th Annual Meeting of the Association for Computational Linguistics (ACL 2017). tr. 1073– 1083. doi : 10.18653/v1/P17-1099 .
+
+↑ Brown, Tom B.; Mann, Benjamin; Ryder, Nick; Subbiah, Melanie; và đồng nghiệp (2020). Language Models are Few-Shot Learners . 34th Conference on Neural Information Processing Systems (NeurIPS 2020). tr. 1877– 1901.
+
+↑ Carion, Nicolas; Massa, Francisco; Synnaeve, Gabriel; Usunier, Nicolas; Kirillov, Alexander; Zagoruyko, Sergey (2020). End-to-End Object Detection with Transformers . 16th European Conference on Computer Vision (ECCV 2020). tr. 213– 229. doi : 10.1007/978-3-030-58452-8_13 .
+
+↑ Chan, William; Jaitly, Navdeep; Le, Quoc V.; Vinyals, Oriol (2016). Listen, Attend and Spell: A Neural Network for Large Vocabulary Conversational Speech Recognition . 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2016). tr. 4960– 4964. doi : 10.1109/ICASSP.2016.7472621 .

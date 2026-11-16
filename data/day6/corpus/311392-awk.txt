@@ -1,0 +1,109 @@
+AWK là ngôn ngữ lập trình được nhằm mục đích xử lý các Tập tin chữ ( text file ) theo nguyên lý khớp mẫu ( pattern matching ); đồng thời còn là tên gọi một chương trình trong hệ điều hành UNIX . Trong UNIX các chương trình được viết tên chữ thường nên AWK còn được gọi là Awk hoặc awk .
+
+Lịch sử
+
+Vào đầu những năm 1970 , công cụ mạnh trong UNIX có nhiệm vụ xử lý các file văn bản là grep , dựa trên nguyên tắc khớp mẫu. Các tác giả muốn bổ sung tính năng thao tác với số để đưa Awk thành một công cụ hữu hiệu có thể gần với một ngôn ngữ lập trình thực thụ. Đặc biệt là khả năng phân tách cú pháp ; về phương diện này thì Awk gần như đảm đương được vai trò của lex và yacc .
+
+Tên gọi AWK bắt nguồn từ cách gọi đùa của các đồng nghiệp tại Bell Labs , ghép các chữ cái đầu của tên ba tác giả: Aho, Weinberger, và Kernighan.
+
+Cú pháp
+
+Dạng cú pháp cơ bản của Awk là:
+
+Theo đó máy tính sẽ dò từng dòng trong file chữ và so sánh với mẫu 1. Nếu khớp, câu lệnh 1 được thực hiện. Tiếp theo máy tính so sánh dòng chữ với mẫu 2. Nếu khớp, câu lệnh 2 được thực hiện; và cứ như vậy.
+
+Ví dụ
+
+Để minh họa ta lấy ví dụ một file hồ sơ sức khỏe có nội dung như sau (mỗi người có thông tin giới tính và chiều cao )
+
+An nam 165
+
+Mai nu 158
+
+Minh nam 170
+
+Minh nu 162
+
+Thanh nam 169
+
+Với một file như vậy các cột được Awk xem như các trường và được đặt tên $1 cho cột thứ nhất, $2 cho cột thứ hai, $3 cho cột thứ ba,...
+
+Mẫu
+
+Một mẫu chính là biểu thức so sánh ( biểu thức logic ) giữa tên cột và giá trị. Chẳng hạn:
+
+tên người là Minh tương ứng với mẫu sau:
+
+giới tính là nam tương ứng với mẫu sau:
+
+Khi gặp một mẫu, máy tính hiểu rằng chỉ thực hiện câu lệnh với những dòng tương ứng với mẫu đó. Trong trường hợp thực hiện lệnh với mọi dòng trong file chữ thì mẫu được bỏ qua, chỉ cần viết:
+
+Đối với mẫu, còn có thể dùng các toán tử logic như || (hoặc), && (và). Để trình bày được đơn giản, ở đây ta không đề cập đến.
+
+Câu lệnh
+
+Câu lệnh thường dùng trong Awk là lệnh in ra màn hình ( print ). Chẳng hạn:
+
+In ra tên người:
+
+In ra chiều cao quy đổi ra mét:
+
+Trong trường hợp in đầy đủ cả dòng thì ta bỏ qua phần {câu lệnh} .
+
+Câu lệnh của Awk còn bao gồm cả những cấu trúc điều khiển (lặp, rẽ nhánh) thường gặp trong các ngôn ngữ lập trình. Ở đây, để đơn giản ta không đề cập đến.
+
+Ngoài ra, nếu có nhiều câu lệnh trong một cặp { } thì chúng cần được phân tách bởi dấu chấm phẩy.
+
+Lệnh đầy đủ: mẫu đi kèm câu lệnh
+
+In ra tên và chiều cao những người là nam giới
+
+In ra chiều cao quy ra mét của mọi người trong danh sách (không cần viết ra mẫu )
+
+In ra thông tin đầy đủ của tất cả những người có tên Minh (không cần viết câu lệnh print )
+
+Trường hợp đặc biệt
+
+Thông thường với mỗi dòng mẫu {câu lệnh} máy sẽ kiểm tra đối chiếu với tất cả các dòng trong file chữ, lần lượt từ trên xuống dưới. Nếu dòng nào khớp với mẫu thì thực hiện câu lệnh. Awk cho phép một ngoại lệ là được thực hiện một số câu lệnh trước và sau khi khi rà soát file chữ. Các câu lệnh ngoại lệ này được đặt kèm với BEGIN { } và END { } .
+
+Chẳng hạn cần một dòng tiêu đề ở trên cùng, tiếp theo là in ra các con số chiều cao của những người nữ giới (giấu tên); cuối cùng là tổng kết có bao nhiêu người là nữ và chiều cao trung bình là bao nhiêu:
+
+Biến
+
+Các biến trong Awk có kiểu động , không cần khai báo và tự động lấy các giá trị mặc định (bằng 0 với kiểu số, bằng xâu rỗng đối với chuỗi ký tự ).
+
+Trong ví dụ trên hai biến là sonu và caotb được dùng đến mà không cần được khởi tạo trong phần BEGIN .
+
+Chạy chương trình
+
+Từ dấu nhắc lệnh có thể gọi trực tiếp Awk với đoạn mã cùng tên file chữ, theo mẫu:
+
+Chẳng hạn:
+
+Hoặc nếu đã lưu file mã lệnh, chẳng hạn trung_binh.awk thì có thể gọi
+
+Đối với UNIX và Linux , có thể xâu chuỗi Awk với các lệnh khác theo kiểu ống dẫn lệnh .
+
+Các phiên bản
+
+Hai phiên bản chính của Awk là:
+
+gawk : theo giấy phép GPL .
+
+nawk : một hệ Awk mới ( new Awk ) với nhiều tính năng được bổ sung.
+
+Xem thêm
+
+xử lý văn bản chữ ( text processing )
+
+phân tách
+
+cơ sở dữ liệu
+
+Tài liệu
+
+Aho, Alfred V., Brian W. Kernighan, và Peter J. Weinberger. The AWK Programming Language . Addison-Wesley, 1988, ISBN 0-201-07981-X Lưu trữ ngày 20 tháng 4 năm 2006 tại Wayback Machine .
+
+Tham khảo
+
+↑ Phỏng vấn Aho về ngôn ngữ lập trình Awk

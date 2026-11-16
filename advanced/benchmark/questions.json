@@ -1,0 +1,1476 @@
+{
+  "benchmark_id": "vietnam-2035-multimodal-v1",
+  "source_id": "vietnam-2035-world-bank-2016",
+  "created_before_retrieval_experiments": true,
+  "test_policy": "sealed_until_pipeline_freeze",
+  "questions": [
+    {
+      "id": "A01",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng O.1, Việt Nam xếp hạng LPI tổng thể và hạ tầng năm 2014 lần lượt là bao nhiêu?",
+      "expected_answer": "48 và 44.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 66,
+          "printed_page": "28",
+          "region": "Table O.1, Vietnam 2014 row",
+          "bbox_points": [
+            36.0,
+            136.28,
+            506.84,
+            674.61
+          ],
+          "evidence_excerpt": "Institutional connectivity. The “software”  side of things includes trade facilitation,  structural and regulatory reforms, and  transport and logistics facilitation. Vietnam  performs relatively well on the World Bank’s  Logistics Performance Index (LPI), ranking  48 among 160 countries on the overall rat- ing and the highest among the lower-middle-  income countries (table O.1), although still  lagging regional upper-middle-income coun- tries such as China, Malaysia, and Thai- land. Its rankings have improved since 2007  across the board, except for customs proce- dures.15 Health and sanitation performance  standards inspections are underperforming,  below Vietnam’s ASEAN peers. Physical connectivity. A well-connected coun- try has abundant and high- quality physical  infrastructure, especially international gate- ways and multimodal interfaces, including  ports, airports, road and rail links, as well as  ICTs. It also includes energy, which is vital to  the continued success of manufacturing ﬁ rms,  and can be traded among neighboring coun- tries. Vietnam comes out well on the infra- structure component of the LPI ranking (44),  but many transport aspects require attention. Vietnam, 2007 53 37 60 47 56 53 65 Vietnam, 2014 48 61 44 42 49 48 56 China, 2014 25 27 26 10 32 23 31 Malaysia, 2014 28 38 23 22 35 29 36 Thailand, 2014 35 36 30 39 38 33 29",
+          "verification_terms": [
+            "Vietnam, 2014",
+            "48",
+            "44"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A02",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 4.1, từ 1995 đến 2015 số đô thị tăng từ bao nhiêu lên bao nhiêu?",
+      "expected_answer": "Từ 420 lên 775 đô thị.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 248,
+          "printed_page": "210",
+          "region": "Table 4.1, 1995 and 2015 rows",
+          "bbox_points": [
+            36.0,
+            251.83,
+            499.73,
+            447.02
+          ],
+          "evidence_excerpt": "TABLE 4.1  Urbanization of land and people, 1995–2015 1995 420 836,117 2.53 14.9 20.8 17.9 2015 775 1,642,420 4.96 31.0 34.3 18.9 1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013",
+          "verification_terms": [
+            "1995",
+            "420",
+            "2015",
+            "775"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A03",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Bảng B5.3.1 ước tính tổng chi phí do tác động của vệ sinh kém là bao nhiêu?",
+      "expected_answer": "780 triệu USD.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 293,
+          "printed_page": null,
+          "region": "Table B5.3.1, Impact of poor sanitation row",
+          "bbox_points": [
+            93.0,
+            570.55,
+            422.0,
+            658.88
+          ],
+          "evidence_excerpt": "TABLE B5.3.1  The estimated cost of poor sanitation-related impacts is US$780 million Impact of poor sanitation 780 Water-related diseases 262 Impact on water sources 287 Land use 119 Other welfare losses 43 Tourism 69",
+          "verification_terms": [
+            "estimated cost of poor sanitation",
+            "780"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A04",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 7.1, tỷ lệ công chức trên 50 tuổi thay đổi thế nào từ 2005 đến 2012?",
+      "expected_answer": "Tăng từ 10,6% lên 22,0%, tức tăng 11,4 điểm phần trăm.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 399,
+          "printed_page": null,
+          "region": "Table 7.1, Older than 50 years row",
+          "bbox_points": [
+            72.0,
+            583.19,
+            246.58,
+            592.25
+          ],
+          "evidence_excerpt": "Older than 50 years 10.6 22.0",
+          "verification_terms": [
+            "Older than 50 years",
+            "10.6",
+            "22.0"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A05",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Bản đồ 4.3 cho thấy giá trị sản lượng công nghiệp trên mỗi km² tập trung cao nhất ở hai đô thị nào?",
+      "expected_answer": "Hà Nội và Thành phố Hồ Chí Minh.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 254,
+          "printed_page": "216",
+          "region": "Map 4.3",
+          "bbox_points": [
+            102.0,
+            186.36,
+            290.2,
+            207.51
+          ],
+          "evidence_excerpt": "MAP 4.3 Industrial output values per km2 are  highest in Hanoi and Ho Chi Minh City",
+          "verification_terms": [
+            "highest in Hanoi and Ho Chi Minh City",
+            "MAP 4.3"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A06",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Bản đồ 4.4 kết luận không gian đường phố của thành phố nào không phù hợp với giao thông đô thị?",
+      "expected_answer": "Hà Nội.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 265,
+          "printed_page": null,
+          "region": "Map 4.4",
+          "bbox_points": [
+            72.09,
+            99.85,
+            318.45,
+            111.0
+          ],
+          "evidence_excerpt": "MAP 4.4  Hanoi’s street space is ill suited for urban transport",
+          "verification_terms": [
+            "Hanoi’s street space",
+            "urban transport"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A07",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Trong sơ đồ Hình 7.12, ba chức năng đầu tiên của trung tâm chính phủ là gì?",
+      "expected_answer": "Quản lý chiến lược; điều phối chính sách; theo dõi và cải thiện hiệu quả.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 397,
+          "printed_page": null,
+          "region": "Figure 7.12",
+          "bbox_points": [
+            293.03,
+            575.54,
+            375.71,
+            590.17
+          ],
+          "evidence_excerpt": "1. Managing  strategically 2. Coordinating policy",
+          "verification_terms": [
+            "Managing strategically",
+            "Coordinating policy",
+            "Monitoring and improving performance"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A08",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Hình 5.1 phân bổ mức sử dụng nước giữa nông nghiệp và công nghiệp lần lượt bao nhiêu phần trăm?",
+      "expected_answer": "Nông nghiệp 81%, công nghiệp 15%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 288,
+          "printed_page": "250",
+          "region": "Figure 5.1 pie chart",
+          "bbox_points": [
+            102.0,
+            148.17,
+            296.88,
+            625.37
+          ],
+          "evidence_excerpt": "Water The risks of water resource degradation and  depletion from climate change and increasing  water exploitation—within and outside  Vietnam—raise concerns over water avail- ability in the future. Until recently some 80  percent of total freshwater withdrawals in the  country came from agriculture (ﬁ gure 5.1).  Since the mid-1970s, some $6 billion (present  value) has been invested in irrigation, about  80 percent of the government’s capital invest- ment in the sector. Although irrigation cover- age is high with most suitable areas equipped,  the irrigation systems were designed primarily  for rice (World Bank 2013a). But irrigation  has helped diversify agricultural production,  including in coffee, horticulture, and aquacul- ture (World Bank 2013a). Agriculture, 81% Industrial, 15%",
+          "verification_terms": [
+            "Agriculture",
+            "81%",
+            "Industrial",
+            "15%"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A09",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Theo Hình 4.11, nhóm thành phố trên 2 triệu dân tăng tỷ trọng dân số bao nhiêu điểm phần trăm giai đoạn 1989–2009?",
+      "expected_answer": "5,6 điểm phần trăm.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 254,
+          "printed_page": "216",
+          "region": "Figure 4.11, >2 million bar",
+          "bbox_points": [
+            139.95,
+            507.6,
+            497.35,
+            681.35
+          ],
+          "evidence_excerpt": ">2 million (n=2) FIGURE  4.11  Change in share of Vietnam’s  population, by city size, 1989–2009 5.6 >2 million (n=2) 1989–2009 (%)",
+          "verification_terms": [
+            ">2 million",
+            "5.6",
+            "1989–2009"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A10",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Hình 6.35 và phần diễn giải dự báo tỷ lệ phụ thuộc người cao tuổi tăng từ bao nhiêu lên bao nhiêu trong giai đoạn 2015–2035?",
+      "expected_answer": "Từ 9,6 lên 21,7.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 363,
+          "printed_page": null,
+          "region": "Figure 6.35 and adjacent paragraph",
+          "bbox_points": [
+            72.0,
+            436.28,
+            266.8,
+            628.0
+          ],
+          "evidence_excerpt": "Part of this social protection reform  agenda is driven by the fact that Vietnam  is at a demographic turning point, facing a  slowdown in the growth of the labor force  and a sharp expansion of the old-age popu- lation. The old-age dependency ratio—the  ratio of older dependents to the working-age   population—has been roughly constant for  decades in Vietnam but will climb from 9.6  to 21.7 between 2015 and 2035 and continue  to rise in the following decades. In other  words, Vietnam will soon have many more  old-age people to support for every person of  working age (ﬁ gure 6.35). Expanding social  insurance coverage is both vital and chal- lenging in light of the society’s rapid aging.",
+          "verification_terms": [
+            "9.6",
+            "21.7",
+            "2015 and 2035"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A11",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Kết hợp dự báo dân số cao tuổi và tỷ lệ phụ thuộc: đến 2035 có bao nhiêu người trên 65 tuổi và tỷ lệ phụ thuộc người cao tuổi là bao nhiêu?",
+      "expected_answer": "15,5 triệu người trên 65 tuổi và tỷ lệ phụ thuộc 21,7.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 50,
+          "printed_page": "12",
+          "region": "demographic paragraph",
+          "bbox_points": [
+            102.0,
+            100.28,
+            296.81,
+            232.0
+          ],
+          "evidence_excerpt": "working age will start to fall soon after 2035.  More important, Vietnam reached a turn- ing point in the size of its older population  in 2015 and will become one of the world’s  fastest-aging societies. The number of Viet- namese older than 65 years will grow from  6.3 million today to 15.5 million. The share  of the population older than 65 years will  rise from 6.7 percent in 2015 to 14.4 percent  in 2035 (ﬁ gure O.2), transforming it from a  young to an aged society.",
+          "verification_terms": [
+            "15.5 million",
+            "older than 65"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 363,
+          "printed_page": null,
+          "region": "old-age dependency paragraph",
+          "bbox_points": [
+            72.0,
+            295.82,
+            476.87,
+            699.92
+          ],
+          "evidence_excerpt": "Part of this social protection reform  agenda is driven by the fact that Vietnam  is at a demographic turning point, facing a  slowdown in the growth of the labor force  and a sharp expansion of the old-age popu- lation. The old-age dependency ratio—the  ratio of older dependents to the working-age   population—has been roughly constant for  decades in Vietnam but will climb from 9.6  to 21.7 between 2015 and 2035 and continue  to rise in the following decades. In other  words, Vietnam will soon have many more  old-age people to support for every person of  working age (ﬁ gure 6.35). Expanding social  insurance coverage is both vital and chal- lenging in light of the society’s rapid aging. Looking ahead to 2035, for Vietnam two  strategic questions emerge for the social pro- tection system: What is the desirable and sustainable  social contract, with respect to social protec- tion, between the Vietnamese state and its  citizens and how will it differ from today?  The period until 2035 will see a fundamen- tal rebalancing of the relative roles of citizens  and the state in social protection, driven by  demographics in a low-fertility, aging soci- ety. It is also likely to be driven by changing  social attitudes, increased wealth combined  with greater income volatility, urbanization,  and greater mobility of people, all of which  change the expectations of citizens, especially  among the younger generations. For exam- ple, more than 60 percent of the Vietnamese  people expect the state to be their primary  source of support in old age, an expectation  that the country is not in a position to meet  (ﬁ gure 6.36). 1975 1995 2015 2035 2055 2075 0",
+          "verification_terms": [
+            "21.7",
+            "2035"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A12",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Đối chiếu đô thị hóa và giao thông: dân số đô thị hiện tại được nêu là bao nhiêu và mất khoảng bao lâu để đi 40 km từ trung tâm TP.HCM đến Bình Dương?",
+      "expected_answer": "30 triệu dân đô thị và gần hai giờ cho quãng đường 40 km.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 72,
+          "printed_page": "34",
+          "region": "urban transformation paragraph",
+          "bbox_points": [
+            37.0,
+            124.18,
+            506.81,
+            699.9
+          ],
+          "evidence_excerpt": "Over the past three decades, Vietnam has  undergone an extensive urban transformation  that has driven its structural transformation  and economic development. In 1986, Vietnam  had fewer than 13 million urban residents; it  now has 30 million of them, and urban areas  contribute over half of national GDP. Along- side rising economic density, the country also  has an impressive record in keeping rural– urban and regional disparities in check through  central transfers aimed at poorer areas that has  allowed for the expansion of basic services and  infrastructure. Even in cities, slums and urban  segregation appear less of a challenge than in  many other developing economies. As Vietnam embarks on an even more  ambitious growth trajectory, cities should be  prepared to play a greater role in nurturing a  burgeoning domestic private sector, support- ing the growth of ﬁ rm clusters that integrate  into GVCs, and providing the logistics sup- port and managerial capabilities to enhance  productivity and accelerate growth. Policies  and investments can be reshaped so that  economic density is ampliﬁ ed around large  metropolitan areas as well as secondary cities  with demonstrated potential; economic dis- tance to large markets is reduced to enable  specialization; and social division in access  to services between migrants and urban  residents is dissipated to encourage human- capital development for social inclusion and  greater agglomeration economies. Reshaping policies is important as there  are signals that the current urbanization  model is constraining economic transforma- tion. The main signal is the land conversion–  based urban development model, with  industrial zones developed ahead of demand  and a proliferation of small, fragmented  urban expansions that are no",
+          "verification_terms": [
+            "30 million",
+            "urban"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 248,
+          "printed_page": "210",
+          "region": "peri-urban travel paragraph",
+          "bbox_points": [
+            312.0,
+            528.94,
+            506.92,
+            696.66
+          ],
+          "evidence_excerpt": "Much of the development in the metropoli- tan areas of Ho Chi Minh City and Hanoi is  in peri-urban areas beyond the urban core  (ﬁ gure 4.6). Featuring low-density develop- ment with weak regional connections,  Vietnam’s urban areas are like fragmented  oases that do not function like economically  and physically integrated metropolitan  regions. For example, on an ordinary day,  and even at off-peak hours, it takes nearly  two hours to travel from the central business  district of Ho Chi Minh City to the center of  Binh Duong New City, a distance of only  40 kilometers. If such patterns persist,",
+          "verification_terms": [
+            "nearly two hours",
+            "40 kilometers"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A13",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "So sánh hai chỉ báo môi trường: nông nghiệp chiếm bao nhiêu phần trăm sử dụng nước và rừng nguyên sinh đã giảm bao nhiêu phần trăm trong 20 năm?",
+      "expected_answer": "Nông nghiệp chiếm 81% sử dụng nước; rừng nguyên sinh giảm 79%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 288,
+          "printed_page": "250",
+          "region": "Figure 5.1",
+          "bbox_points": [
+            102.0,
+            148.17,
+            296.88,
+            625.37
+          ],
+          "evidence_excerpt": "Water The risks of water resource degradation and  depletion from climate change and increasing  water exploitation—within and outside  Vietnam—raise concerns over water avail- ability in the future. Until recently some 80  percent of total freshwater withdrawals in the  country came from agriculture (ﬁ gure 5.1).  Since the mid-1970s, some $6 billion (present  value) has been invested in irrigation, about  80 percent of the government’s capital invest- ment in the sector. Although irrigation cover- age is high with most suitable areas equipped,  the irrigation systems were designed primarily  for rice (World Bank 2013a). But irrigation  has helped diversify agricultural production,  including in coffee, horticulture, and aquacul- ture (World Bank 2013a). Agriculture, 81% Industrial,",
+          "verification_terms": [
+            "Agriculture",
+            "81%"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 288,
+          "printed_page": "250",
+          "region": "forests paragraph",
+          "bbox_points": [
+            312.0,
+            436.17,
+            506.87,
+            628.79
+          ],
+          "evidence_excerpt": "Forests, biodiversity, and ecosystem services Forests. Although the surface area of  Vietnam’s forests has increased from  29 percent of total surface area in 1990 to 45  percent in 2013 (after having fallen from  72 percent in 1909), degradation has contin- ued. Over the past 20 years, primary forests  have decreased by 79 percent. The area under  mangroves has declined by 70 percent in  nearly ﬁ ve decades due to toxic chemicals in  the earlier years and shrimp farming practices  more recently (MONRE 2005). Only 8 per- cent of land area is covered by resource-rich  tropical rainforests, compared with 50 per- cent in other Southeast Asian countries  (Trương Quang Học 2012).",
+          "verification_terms": [
+            "primary forests",
+            "79 percent"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A14",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Báo cáo nêu bốn hướng cải cách tức thời nào để phục hồi tăng trưởng năng suất?",
+      "expected_answer": "Tạo môi trường cho khu vực tư nhân trong nước; cải tổ DNNN; củng cố liên kết doanh nghiệp FDI–nội địa; nâng kỹ năng và năng lực đổi mới.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 148,
+          "printed_page": "110",
+          "region": "productivity reform discussion",
+          "bbox_points": [
+            102.0,
+            376.28,
+            506.83,
+            700.0
+          ],
+          "evidence_excerpt": "Several factors explain the weak produc- tivity growth. The public sector’s presence in  production and control over factor markets  remain pervasive, with the state still mak- ing up about a third of GDP. Public invest- ment is not as efﬁ cient as it should be because  of the uncoordinated and often incoherent  investment decisions of a fragmented state  (chapter 7). Further more, SOEs—driven by  distorted incentives and by multiple objec- tives that rarely include proﬁ t—are nearly all  inefﬁ cient producers. Widespread inefﬁ cien- cies in state investment thus perpetuate the  economy-wide productivity weakness. But  they do not explain the worsening productiv- ity growth. Their performance, though still  weak, has been stable because of a series of  restructuring measures. The main reason for the drop in produc- tivity growth is especially worrisome. Steady  erosion of the productivity growth of the  domestic private sector—universally viewed  as the main engine of future growth—has  ensured that it is now just as inefﬁ cient on  average as the state sector. Why? Reviving productivity growth is imperative  if Vietnam is to meet its ambitious income  objectives for 2035. The reform agenda will  be demanding, given that the productivity  growth decline is widespread. An immediate  focus is needed on four fronts. First, Vietnam needs to create an enabling  environment for a more productive and com- petitive domestic private sector. This will  require the microeconomic foundations of  the market economy to be strengthened, with  emphasis on protecting property rights and  enforcing competition policies. Correcting  distortions in the factor markets— capital  and land markets primarily—will also be  important. (Factor markets are restrictive,  underdeveloped, and overly c",
+          "verification_terms": [
+            "four fronts",
+            "private sector",
+            "SOE"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A15",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Bốn nền tảng của nền kinh tế dẫn dắt bởi đổi mới trong Hộp 3.1 tập trung vào những gì?",
+      "expected_answer": "Tăng cầu tri thức trong doanh nghiệp; tăng năng lực học công nghệ; tăng sản xuất tri thức, nhân lực trình độ cao và R&D; liên tục nâng chất lượng và mức phù hợp của kỹ năng lao động qua giáo dục đại học.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 208,
+          "printed_page": "170",
+          "region": "Box 3.1",
+          "bbox_points": [
+            57.43,
+            100.28,
+            487.37,
+            650.47
+          ],
+          "evidence_excerpt": "Some gains come from putting firms under  greater pressure to compete (Foundation I,  box 3.1). Gains also come from helping them  identify, adapt, and use knowledge and tech- nology (Foundation II), including ensuring a  sound, enabling environment. On the supply  side, some gains entail raising R&D quality  and  relevance. Other enhancements involve  improving the advanced human capital  training system (Foundation III), such as the   tertiary education system (Foundation IV).  Success also includes ensuring that the demand  and supply sides are appropriately linked. Foundation I: Raising the demand for knowledge  in ﬁ rms, mainly by increasing the competitive pres- sure under which they operate. Many noneconomic  factors—political connections, bureaucratic inef- ficiency, lack of competitive pressure—mean that  firms that are not the best producers can survive,  sometimes comfortably. Labor productivity does not  have to grow to ensure a ﬁ rm’s survival, so produc- tivity has stagnated. Raising competitive pressures  will force ﬁ rms to seek knowledge to stay in business. Foundation II: Helping firms improve their  capacity for “technology learning.” This gradual  process educates Vietnamese ﬁ rms in the process and  production technologies used elsewhere. It gives an  advantage to the fastest-learning ﬁ rms and  prepares  them to seek “frontier knowledge”—information  that is new to the world. Foundation III: Raising knowledge production,  advanced human capital training, and R&D quan- tity, quality, and relevance. The tertiary educationa Foundation IV: Continuously improving the  quality and relevance of labor force skills through  increased responsiveness and dynamism in tertiary  education. The average worker raises his or her skills  and human capital by complet",
+          "verification_terms": [
+            "Foundation I",
+            "Foundation II",
+            "Foundation III",
+            "Foundation IV"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A16",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Báo cáo định nghĩa hiệu quả của chính phủ là gì?",
+      "expected_answer": "Năng lực của nhà nước trong việc xây dựng và thực thi chính sách và pháp luật.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 380,
+          "printed_page": "342",
+          "region": "government effectiveness paragraph",
+          "bbox_points": [
+            312.0,
+            160.28,
+            506.93,
+            448.0
+          ],
+          "evidence_excerpt": "While the relationship between govern- ment and growth is not linear, one consis- tently important element is government  effectiveness, deﬁ ned as the capability of the  state to formulate and implement policy and  law. The WGI government effectiveness indi- cator is most closely associated with the rate  of growth among developing countries—at  least those that are not dependent on oil for  export revenues (Pincus 2015). This indica- tor, which measures the quality of the bureau- cracy and specific public sector outcomes  relating to service delivery and infrastructure  development, captures the capacity of govern- ment to set clear objectives and meet them.  The idea of state effectiveness recalls Max  Weber’s classic formulation of an effective  bureaucracy: ﬁ xed jurisdictions (to prevent  overlapping authority); hierarchical organiza- tion; meticulous record keeping; meritocracy;  full-time employment; and rule-based author- ity. These features are echoed elsewhere, from  Confucian political philosophy to modern  public administration theory (box 7.1).",
+          "verification_terms": [
+            "capability of the state",
+            "formulate and implement policy and law"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A17",
+      "split": "dev",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Mục tiêu giảm phát thải khí nhà kính năm 2030 của Việt Nam là bao nhiêu nếu không và nếu có hỗ trợ quốc tế?",
+      "expected_answer": "Giảm 8% so với kịch bản thông thường bằng nguồn lực trong nước, và tới 25% khi có hỗ trợ quốc tế.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 285,
+          "printed_page": null,
+          "region": "NDC paragraph",
+          "bbox_points": [
+            314.99,
+            497.7,
+            521.62,
+            629.22
+          ],
+          "evidence_excerpt": "Building on several of these national commit- ments, Vietnam has put forth its Nationally Deter- mined Contribution (NDC) to mitigate climate  change. This NDC presents the country’s GHG  reduction path for 2021–30, which includes reduc- ing domestic GHG emissions in 2030 by 8 percent  versus business as usual. With international support,  Vietnam commits to reducing emissions by up to  25 percent. The NDC also describes the adaptation  gaps in ﬁ nancing, technology, institutions, policies,  and human resources, as well as the priority adapta- tion measures for 2021–30.",
+          "verification_terms": [
+            "8 percent",
+            "25 percent",
+            "international support"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A18",
+      "split": "dev",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Báo cáo công bố ngân sách chính xác của tuyến metro Hà Nội số 5 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Báo cáo thảo luận giao thông đô thị nhưng không công bố ngân sách tuyến metro Hà Nội số 5.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "Hanoi metro line 5",
+          "metro line 5"
+        ]
+      }
+    },
+    {
+      "id": "A19",
+      "split": "dev",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Báo cáo nêu giá đóng cửa VN-Index ngày 31/12/2015 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Không có chuỗi giá chứng khoán hằng ngày hoặc giá đóng cửa VN-Index được yêu cầu.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "VN-Index",
+          "closing price"
+        ]
+      }
+    },
+    {
+      "id": "A20",
+      "split": "dev",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Báo cáo cho biết tên người đoạt Nobel Kinh tế năm 2035 là ai?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Đây là thông tin tương lai, không tồn tại trong báo cáo xuất bản năm 2016.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "Nobel Prize in Economics 2035",
+          "Nobel economics 2035"
+        ]
+      }
+    },
+    {
+      "id": "A21",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng O.1, hạng hải quan của Việt Nam thay đổi từ năm 2007 sang 2014 như thế nào?",
+      "expected_answer": "Từ hạng 37 xuống hạng 61, tức kém hơn 24 bậc.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 66,
+          "printed_page": "28",
+          "region": "Table O.1, Customs column",
+          "bbox_points": [
+            36.0,
+            625.54,
+            480.19,
+            674.61
+          ],
+          "evidence_excerpt": "Vietnam, 2007 53 37 60 47 56 53 65 Vietnam, 2014 48 61 44 42 49 48 56 China, 2014 25 27 26 10 32 23 31 Malaysia, 2014 28 38 23 22 35 29 36 Thailand, 2014 35 36 30 39 38 33 29",
+          "verification_terms": [
+            "Vietnam, 2007",
+            "37",
+            "Vietnam, 2014",
+            "61"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A22",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 4.1, tỷ lệ đất đô thị và tỷ lệ dân số đô thị năm 2015 là bao nhiêu?",
+      "expected_answer": "Đất đô thị chiếm 4,96% tổng diện tích và dân số đô thị chiếm 34,3%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 248,
+          "printed_page": "210",
+          "region": "Table 4.1, 2015 row",
+          "bbox_points": [
+            36.0,
+            340.7,
+            470.54,
+            447.02
+          ],
+          "evidence_excerpt": "TABLE 4.1  Urbanization of land and people, 1995–2015 2015 775 1,642,420 4.96 31.0 34.3 18.9",
+          "verification_terms": [
+            "2015",
+            "4.96",
+            "34.3"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A23",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Trong Bảng B5.3.1, chi phí tác động lên nguồn nước và du lịch lần lượt là bao nhiêu?",
+      "expected_answer": "287 triệu USD và 69 triệu USD.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 293,
+          "printed_page": null,
+          "region": "Table B5.3.1, water sources and tourism rows",
+          "bbox_points": [
+            93.0,
+            599.82,
+            420.41,
+            658.88
+          ],
+          "evidence_excerpt": "Impact of poor sanitation 780 Water-related diseases 262 Impact on water sources 287 Land use 119 Other welfare losses 43 Tourism 69",
+          "verification_terms": [
+            "water sources",
+            "287",
+            "Tourism",
+            "69"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A24",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 5.1, nước biển dâng gây ba hậu quả chính nào?",
+      "expected_answer": "Xâm nhập mặn, mất đất và tác động đến nông nghiệp, đồng thời làm trầm trọng thời tiết cực đoan như nước dâng do bão.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 296,
+          "printed_page": "258",
+          "region": "Table 5.1, sea-level rise row",
+          "bbox_points": [
+            102.0,
+            129.44,
+            506.94,
+            700.0
+          ],
+          "evidence_excerpt": "Projections show that a significant sea- level rise over the coming decades in  Vietnam will exacerbate the impacts on cur- rently affected communities. For instance,  the South Hai Thinh commune in the  Red River Delta experienced a 34 percent  increase in the erosion rate over 1965–95  (and a subsequent 12 percent increase over  1995–2005), attributed to the direct effect  of sea-level rise (Duc, Nhuan, and Van Ngoi  2012). By mid-century, the sea level is likely  to be 28–33 centimeters above 1980–99 lev- els (MONRE 2012). Close to the equator,  sea-level rise along the coastline relative to  1986–2005 is forecast to be 10–15 percent  higher than the global mean by the end of  the 21st century. Poor farmers Ethnic minorities, the elderly,  women, children Sea-level rise of  about 3 centimeters  a decade Salinization, loss of land,  impacts on agriculture,  worsening of extreme weather  events (storm surges)",
+          "verification_terms": [
+            "Sea-level rise",
+            "Salinization",
+            "loss of land",
+            "storm surges"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A25",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Bảng 6.4 nêu cơ chế tài chính nào cho lộ trình nhanh đạt bảo hiểm 100% và bất lợi chính là gì?",
+      "expected_answer": "Dùng nguồn thu thuế chung; bất lợi là gánh nặng tài khóa ngắn hạn lớn hơn và ít thời gian xử lý các điểm kém hiệu quả hiện có.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 360,
+          "printed_page": "322",
+          "region": "Table 6.4, Faster route row",
+          "bbox_points": [
+            102.0,
+            177.19,
+            493.82,
+            216.25
+          ],
+          "evidence_excerpt": "“Faster route” General tax  revenue Larger short-term ﬁ scal burden Allows less time to address  existing ineﬃ  ciencies before  expanding coverage",
+          "verification_terms": [
+            "Faster route",
+            "General tax revenue",
+            "Larger short-term"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A26",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 7.1, nhóm công chức dưới 30 tuổi thay đổi ra sao từ 2005 đến 2012?",
+      "expected_answer": "Giảm từ 23,8% xuống 18,0%, tức giảm 5,8 điểm phần trăm.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 399,
+          "printed_page": null,
+          "region": "Table 7.1, Younger than 30 years row",
+          "bbox_points": [
+            72.0,
+            557.19,
+            246.41,
+            566.25
+          ],
+          "evidence_excerpt": "Younger than 30 years 23.8 18.0",
+          "verification_terms": [
+            "Younger than 30 years",
+            "23.8",
+            "18.0"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A27",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Bản đồ 4.1 minh họa sự mở rộng đô thị của vùng kết tụ nào trong giai đoạn khoảng 2000–2010?",
+      "expected_answer": "Vùng kết tụ Thành phố Hồ Chí Minh.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 249,
+          "printed_page": null,
+          "region": "Map 4.1",
+          "bbox_points": [
+            72.09,
+            386.25,
+            337.53,
+            681.52
+          ],
+          "evidence_excerpt": "MAP 4.1 Urban expansion in the Ho Chi Minh City agglomeration Urban expansion c 2000–2010",
+          "verification_terms": [
+            "Urban expansion in the Ho Chi Minh City agglomeration",
+            "2000–2010"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A28",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Bản đồ 4.2 minh họa vấn đề gì ở vùng ven Thành phố Hồ Chí Minh?",
+      "expected_answer": "Nhiều khu công nghiệp ở vùng ven còn trống hoặc có tỷ lệ lấp đầy rất thấp.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 251,
+          "printed_page": null,
+          "region": "Map 4.2",
+          "bbox_points": [
+            72.0,
+            473.65,
+            448.92,
+            494.8
+          ],
+          "evidence_excerpt": "MAP 4.2  Many industrial zones are empty in the periphery of Ho Chi Minh City metropolitan  region",
+          "verification_terms": [
+            "industrial zones are empty",
+            "periphery of Ho Chi Minh City"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A29",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Trong Bản đồ 4.2, hai khu công nghiệp ví dụ có tỷ lệ lấp đầy lần lượt là bao nhiêu?",
+      "expected_answer": "Tân Phú Trung 0,0% và Dầu Giây 2,5%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 251,
+          "printed_page": null,
+          "region": "Map 4.2 callouts",
+          "bbox_points": [
+            72.0,
+            640.91,
+            433.21,
+            678.72
+          ],
+          "evidence_excerpt": "Tan Phu Trung IZ, Cu Chi District, HCMC est: 2013 occupancy rate: 0.0% kms. to city center: 24 Dau Giay IZ, Thong Nhat District, Dong Nai Province est: 2008 occupancy rate: 2.5% kms. to city center: 50",
+          "verification_terms": [
+            "Tan Phu Trung",
+            "0.0%",
+            "Dau Giay",
+            "2.5%"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A30",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Sơ đồ Hình 7.12 đề xuất cấu trúc nào để tinh gọn nguồn lực và hoạt động?",
+      "expected_answer": "Một trung tâm chính phủ được tăng cường.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 397,
+          "printed_page": null,
+          "region": "Figure 7.12",
+          "bbox_points": [
+            72.0,
+            511.99,
+            521.62,
+            699.91
+          ],
+          "evidence_excerpt": "A strengthened center of government will  serve Vietnam well in addressing vertical and FIGURE 7.12  A strengthened center will serve Vietnam well in  streamlining resources and operations",
+          "verification_terms": [
+            "strengthened center",
+            "streamlining resources and operations"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A31",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Bản đồ 4.4 so sánh mạng đường Hà Nội với ba thành phố nào?",
+      "expected_answer": "Bangkok, Seoul và New York.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 265,
+          "printed_page": null,
+          "region": "Map 4.4 city panels",
+          "bbox_points": [
+            72.0,
+            99.85,
+            476.88,
+            699.8
+          ],
+          "evidence_excerpt": "Experience from other countries shows  that urban compression and large capacity  transport systems are closely related, espe- cially when urban development is based on  public transport. Hong Kong SAR, China;  New York; Seoul; Singapore; and Tokyo are  good examples. Given the very high density  of population and employment in Singapore and in Hong Kong SAR, China, public trans- port systems are extremely efficient. So to  address trafﬁ c congestion, especially in Hanoi  and Ho Chi Minh City, Vietnamese policy  makers should take advantage of the organic  relationship between urban compression and  the public transport systems. But the develop- ment plans for the center of Hanoi and Ho  Chi Minh City show that it may not be pos- sible due to the conﬂ icting policies. On the  one hand are the tens-of-billions-of-dollar  plans to build a large-capacity public trans- port system based on metro, trams, and  express buses (Clement and Charles 2015).  On the other hand is the view associated with  policies on restricting density and height in  the central areas, which could create numer- ous small congestion points that will ulti- mately spread out in these big cities. HANOI BANGKOK SEOUL Area of primary and secondary roads As % of total area within 9 km2 around the city center Hanoi Bangkok New York Scoul NEW YORK MAP 4.4  Hanoi’s street space is ill suited for urban transport",
+          "verification_terms": [
+            "HANOI",
+            "BANGKOK",
+            "SEOUL",
+            "NEW YORK"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A32",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Theo Hình O.2, tỷ lệ dân số trên 65 tuổi tăng từ bao nhiêu năm 2015 lên bao nhiêu năm 2035?",
+      "expected_answer": "Từ 6,7% lên 14,4%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 50,
+          "printed_page": "12",
+          "region": "Figure O.2 and adjacent paragraph",
+          "bbox_points": [
+            37.0,
+            100.07,
+            506.83,
+            650.83
+          ],
+          "evidence_excerpt": "working age will start to fall soon after 2035.  More important, Vietnam reached a turn- ing point in the size of its older population  in 2015 and will become one of the world’s  fastest-aging societies. The number of Viet- namese older than 65 years will grow from  6.3 million today to 15.5 million. The share  of the population older than 65 years will  rise from 6.7 percent in 2015 to 14.4 percent  in 2035 (ﬁ gure O.2), transforming it from a  young to an aged society. Vietnam’s Emerging Middle Class Vietnam’s rapidly emerging middle class,  also increasingly more urban, will offer  another signiﬁ cant opportunity. Vietnam is a  country of 90 million people, the 14th most  populous on the planet. Its $200 billion  economy is likely to be close to the trillion  dollar mark (in 2015 prices) by 2035, with  more than half the population projected  to join the ranks of the global middle class  with consumption of $15 a day or more in  2011 purchasing power parity (PPP) terms  (figure O.3), compared with 11 percent  today, giving new potency to the domestic  market as a driver of growth. FIGURE O.2  The share of population over 65 will more than  double between 2015 and 2035 2075 2065 2055 2045 2035 2025 2015 2005 1995 1985 1975",
+          "verification_terms": [
+            "6.7 percent",
+            "14.4 percent",
+            "2035"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A33",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Theo Hình O.4, ba kịch bản tăng GDP bình quân đầu người 5%, 6% và 7% đưa mức năm 2035 đến khoảng bao nhiêu?",
+      "expected_answer": "Lần lượt gần 15.000 USD, 18.000 USD và 22.200 USD (PPP 2011).",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 53,
+          "printed_page": null,
+          "region": "Figure O.4 and adjacent paragraph",
+          "bbox_points": [
+            71.99,
+            137.78,
+            476.81,
+            413.5
+          ],
+          "evidence_excerpt": "How well is Vietnam positioned to  become a modern, industrial economy by  2035? Its GDP per capita — at $5,370 (in  2011 PPP) in 2014 — would need to grow  at a minimum of 6 percent a year to reach  the $18,000 mark by 2035 (figure O.4).  This would be signiﬁ cantly higher than the  average per capita growth rate of 5.5 per- cent between 1990 and 2014 — and well  above the 3.8 percent average for all mid- dle-income countries over the same period.  A lower and more feasible (but still ambi- tious) per capita growth rate of 5.0 percent  (Vietnam’s average over the last 10 years)  would take its GDP per capita to just under  $15,000 by 2035 and put Vietnam on par  with Brazil in 2014, well poised to reach  $18,000 by 2040. A growth path of 7 per- cent (Vietnam’s aspirational growth target)  would take per capita GDP to $22,200,  roughly the income of the Republic of Korea  in 2002 or Malaysia in 2013. This higher  growth rate would also enhance Vietnam’s 1. A GDP per capita of at least $18,000 (in  2011 PPP) 2. A majority (over 50 percent) of the Viet- namese population living in urban areas 3. A share of industry and services in GDP  at more than 90 percent and in employ- ment at more than 70 percent 4. A private-sector share in GDP of at least  80 percent",
+          "verification_terms": [
+            "5.0 percent",
+            "$15,000",
+            "6 percent",
+            "$18,000",
+            "aspirational growth target",
+            "$22,200"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A34",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Hình 4.10 cho biết năm 2009 nhóm thành phố trên 2 triệu dân chiếm bao nhiêu phần trăm dân số Việt Nam?",
+      "expected_answer": "10,0%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 254,
+          "printed_page": "216",
+          "region": "Figure 4.10, >2 million bar",
+          "bbox_points": [
+            102.0,
+            507.6,
+            477.73,
+            681.35
+          ],
+          "evidence_excerpt": "FIGURE 4.10  Share of Vietnam’s population, by  city size, 2009 10.0 >2 million (n=2) Share of Vietnam’s population, 2009 (%) FIGURE  4.11  Change in share of Vietnam’s  population, by city size, 1989–2009 >2 million (n=2) 1989–2009 (%)",
+          "verification_terms": [
+            ">2 million",
+            "10.0",
+            "2009"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A35",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Trong Hình 5.1, hộ gia đình và dịch vụ lần lượt chiếm bao nhiêu phần trăm sử dụng nước?",
+      "expected_answer": "Hộ gia đình 3% và dịch vụ 2%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 288,
+          "printed_page": "250",
+          "region": "Figure 5.1 pie chart",
+          "bbox_points": [
+            235.74,
+            436.17,
+            506.87,
+            650.52
+          ],
+          "evidence_excerpt": "Forests, biodiversity, and ecosystem services Forests. Although the surface area of  Vietnam’s forests has increased from  29 percent of total surface area in 1990 to 45  percent in 2013 (after having fallen from  72 percent in 1909), degradation has contin- ued. Over the past 20 years, primary forests  have decreased by 79 percent. The area under  mangroves has declined by 70 percent in  nearly ﬁ ve decades due to toxic chemicals in  the earlier years and shrimp farming practices  more recently (MONRE 2005). Only 8 per- cent of land area is covered by resource-rich  tropical rainforests, compared with 50 per- cent in other Southeast Asian countries  (Trương Quang Học 2012). Services, 2% Households, 3%",
+          "verification_terms": [
+            "Households",
+            "3%",
+            "Services",
+            "2%"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A36",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Theo Hình 6.35, xu hướng tỷ lệ người cao tuổi so với dân số trong độ tuổi lao động sau 2015 là gì?",
+      "expected_answer": "Tăng nhanh và tiếp tục tăng qua các thập kỷ sau 2035.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 363,
+          "printed_page": null,
+          "region": "Figure 6.35",
+          "bbox_points": [
+            72.0,
+            99.93,
+            476.87,
+            699.92
+          ],
+          "evidence_excerpt": "Part of this social protection reform  agenda is driven by the fact that Vietnam  is at a demographic turning point, facing a  slowdown in the growth of the labor force  and a sharp expansion of the old-age popu- lation. The old-age dependency ratio—the  ratio of older dependents to the working-age   population—has been roughly constant for  decades in Vietnam but will climb from 9.6  to 21.7 between 2015 and 2035 and continue  to rise in the following decades. In other  words, Vietnam will soon have many more  old-age people to support for every person of  working age (ﬁ gure 6.35). Expanding social  insurance coverage is both vital and chal- lenging in light of the society’s rapid aging. Looking ahead to 2035, for Vietnam two  strategic questions emerge for the social pro- tection system: What is the desirable and sustainable  social contract, with respect to social protec- tion, between the Vietnamese state and its  citizens and how will it differ from today?  The period until 2035 will see a fundamen- tal rebalancing of the relative roles of citizens  and the state in social protection, driven by  demographics in a low-fertility, aging soci- ety. It is also likely to be driven by changing  social attitudes, increased wealth combined  with greater income volatility, urbanization,  and greater mobility of people, all of which  change the expectations of citizens, especially  among the younger generations. For exam- ple, more than 60 percent of the Vietnamese  people expect the state to be their primary  source of support in old age, an expectation  that the country is not in a position to meet  (ﬁ gure 6.36). 1975 1995 2015 2035 2055 2075 0 FIGURE 6.35  The old-age dependency ratio will  increase rapidly Source: United Nations 2015.",
+          "verification_terms": [
+            "increase rapidly",
+            "2015",
+            "2035",
+            "2055"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A37",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Kết hợp kịch bản tăng trưởng và đô thị hóa: mức tăng GDP bình quân đầu người tối thiểu nào giúp đạt 18.000 USD năm 2035, và đô thị hiện đóng góp bao nhiêu GDP quốc gia?",
+      "expected_answer": "Tối thiểu 6% mỗi năm; khu vực đô thị đóng góp hơn một nửa GDP quốc gia.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 53,
+          "printed_page": null,
+          "region": "growth scenario paragraph",
+          "bbox_points": [
+            71.99,
+            137.78,
+            476.81,
+            413.5
+          ],
+          "evidence_excerpt": "How well is Vietnam positioned to  become a modern, industrial economy by  2035? Its GDP per capita — at $5,370 (in  2011 PPP) in 2014 — would need to grow  at a minimum of 6 percent a year to reach  the $18,000 mark by 2035 (figure O.4).  This would be signiﬁ cantly higher than the  average per capita growth rate of 5.5 per- cent between 1990 and 2014 — and well  above the 3.8 percent average for all mid- dle-income countries over the same period.  A lower and more feasible (but still ambi- tious) per capita growth rate of 5.0 percent  (Vietnam’s average over the last 10 years)  would take its GDP per capita to just under  $15,000 by 2035 and put Vietnam on par  with Brazil in 2014, well poised to reach  $18,000 by 2040. A growth path of 7 per- cent (Vietnam’s aspirational growth target)  would take per capita GDP to $22,200,  roughly the income of the Republic of Korea  in 2002 or Malaysia in 2013. This higher  growth rate would also enhance Vietnam’s 1. A GDP per capita of at least $18,000 (in  2011 PPP) 2. A majority (over 50 percent) of the Viet- namese population living in urban areas 3. A share of industry and services in GDP  at more than 90 percent and in employ- ment at more than 70 percent 4. A private-sector share in GDP of at least  80 percent",
+          "verification_terms": [
+            "minimum of 6 percent",
+            "$18,000"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 72,
+          "printed_page": "34",
+          "region": "urban transformation paragraph",
+          "bbox_points": [
+            312.0,
+            124.18,
+            506.79,
+            303.9
+          ],
+          "evidence_excerpt": "Over the past three decades, Vietnam has  undergone an extensive urban transformation  that has driven its structural transformation  and economic development. In 1986, Vietnam  had fewer than 13 million urban residents; it  now has 30 million of them, and urban areas  contribute over half of national GDP. Along- side rising economic density, the country also  has an impressive record in keeping rural– urban and regional disparities in check through  central transfers aimed at poorer areas that has  allowed for the expansion of basic services and  infrastructure. Even in cities, slums and urban  segregation appear less of a challenge than in  many other developing economies.",
+          "verification_terms": [
+            "over half of national GDP"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A38",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Đối chiếu hạ tầng logistics và khu công nghiệp: hạ tầng LPI của Việt Nam năm 2014 xếp hạng bao nhiêu, và tỷ lệ lấp đầy bình quân của 212 khu đang hoạt động là bao nhiêu?",
+      "expected_answer": "Hạ tầng LPI xếp hạng 44; tỷ lệ lấp đầy bình quân là 66%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 66,
+          "printed_page": "28",
+          "region": "LPI infrastructure paragraph",
+          "bbox_points": [
+            36.0,
+            100.28,
+            506.84,
+            674.61
+          ],
+          "evidence_excerpt": "Physical connectivity. A well-connected coun- try has abundant and high- quality physical  infrastructure, especially international gate- ways and multimodal interfaces, including  ports, airports, road and rail links, as well as  ICTs. It also includes energy, which is vital to  the continued success of manufacturing ﬁ rms,  and can be traded among neighboring coun- tries. Vietnam comes out well on the infra- structure component of the LPI ranking (44),  but many transport aspects require attention. Service activities such as R&D, design,  and engineering should be developed as a  way of upgrading participation in GVCs  (see the section “Spurring Learning and  Inno vation to Sustain Rapid, Long-Run  Growth”). Modern services are also a direct  source of exports, growth, and job creation.  If the country can upgrade its human capi- tal base and its information and communi- cations technology (ICT) infrastructure and  connectivity, it can become a regional pow- erhouse in IT-enabled sectors. Overall LPI Customs Infrastructure Vietnam, 2007 53 37 60 47 56 53 65 Vietnam, 2014 48 61 44 42 49 48 56 China, 2014 25 27 26 10 32 23 31 Malaysia, 2014 28 38 23 22 35 29 36 Thailand, 2014 35 36 30 39 38 33 29",
+          "verification_terms": [
+            "infrastructure",
+            "44"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 249,
+          "printed_page": null,
+          "region": "industrial zones paragraph",
+          "bbox_points": [
+            72.0,
+            208.17,
+            266.93,
+            364.0
+          ],
+          "evidence_excerpt": "Limited efﬁ ciency of peri-urban industrial  zones Industrial zones have had a big part in  Vietnam’s success. According to ofﬁ cial sta- tistics of the Ministry of Planning and  Investment, there were 299 industrial zones  in September 2015, of which 212 were oper- ating with an occupancy rate of 66 percent.  They were home to 5,964 foreign-invested  projects with total registered capital of  $96 billion and to 5,647 domestic-invested  projects with a total registered capital of  around D 568 trillion (around $26 billion).",
+          "verification_terms": [
+            "212",
+            "occupancy rate",
+            "66 percent"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A39",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "So sánh hai thay đổi nhân khẩu học đến 2035: tỷ lệ dân số trên 65 tuổi và tỷ lệ phụ thuộc người cao tuổi đạt bao nhiêu?",
+      "expected_answer": "Tỷ lệ dân số trên 65 tuổi đạt 14,4%; tỷ lệ phụ thuộc người cao tuổi đạt 21,7.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 50,
+          "printed_page": "12",
+          "region": "older population paragraph",
+          "bbox_points": [
+            37.0,
+            100.07,
+            506.83,
+            650.83
+          ],
+          "evidence_excerpt": "working age will start to fall soon after 2035.  More important, Vietnam reached a turn- ing point in the size of its older population  in 2015 and will become one of the world’s  fastest-aging societies. The number of Viet- namese older than 65 years will grow from  6.3 million today to 15.5 million. The share  of the population older than 65 years will  rise from 6.7 percent in 2015 to 14.4 percent  in 2035 (ﬁ gure O.2), transforming it from a  young to an aged society. Vietnam’s Emerging Middle Class Vietnam’s rapidly emerging middle class,  also increasingly more urban, will offer  another signiﬁ cant opportunity. Vietnam is a  country of 90 million people, the 14th most  populous on the planet. Its $200 billion  economy is likely to be close to the trillion  dollar mark (in 2015 prices) by 2035, with  more than half the population projected  to join the ranks of the global middle class  with consumption of $15 a day or more in  2011 purchasing power parity (PPP) terms  (figure O.3), compared with 11 percent  today, giving new potency to the domestic  market as a driver of growth. FIGURE O.2  The share of population over 65 will more than  double between 2015 and 2035 2075 2065 2055 2045 2035 2025 2015 2005 1995 1985 1975",
+          "verification_terms": [
+            "14.4 percent",
+            "2035"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 363,
+          "printed_page": null,
+          "region": "old-age dependency paragraph",
+          "bbox_points": [
+            72.0,
+            295.82,
+            476.87,
+            699.92
+          ],
+          "evidence_excerpt": "Part of this social protection reform  agenda is driven by the fact that Vietnam  is at a demographic turning point, facing a  slowdown in the growth of the labor force  and a sharp expansion of the old-age popu- lation. The old-age dependency ratio—the  ratio of older dependents to the working-age   population—has been roughly constant for  decades in Vietnam but will climb from 9.6  to 21.7 between 2015 and 2035 and continue  to rise in the following decades. In other  words, Vietnam will soon have many more  old-age people to support for every person of  working age (ﬁ gure 6.35). Expanding social  insurance coverage is both vital and chal- lenging in light of the society’s rapid aging. Looking ahead to 2035, for Vietnam two  strategic questions emerge for the social pro- tection system: What is the desirable and sustainable  social contract, with respect to social protec- tion, between the Vietnamese state and its  citizens and how will it differ from today?  The period until 2035 will see a fundamen- tal rebalancing of the relative roles of citizens  and the state in social protection, driven by  demographics in a low-fertility, aging soci- ety. It is also likely to be driven by changing  social attitudes, increased wealth combined  with greater income volatility, urbanization,  and greater mobility of people, all of which  change the expectations of citizens, especially  among the younger generations. For exam- ple, more than 60 percent of the Vietnamese  people expect the state to be their primary  source of support in old age, an expectation  that the country is not in a position to meet  (ﬁ gure 6.36). 1975 1995 2015 2035 2055 2075 0",
+          "verification_terms": [
+            "21.7",
+            "2035"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A40",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Kết hợp dữ liệu đất đô thị và giao thông: năm 2015 đất đô thị chiếm bao nhiêu phần trăm diện tích, còn đường chính và phụ quanh trung tâm Hà Nội chiếm bao nhiêu phần trăm diện tích?",
+      "expected_answer": "Đất đô thị chiếm 4,96%; đường chính và phụ quanh trung tâm Hà Nội chiếm 9,03%.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 248,
+          "printed_page": "210",
+          "region": "Table 4.1, 2015 row",
+          "bbox_points": [
+            36.0,
+            340.7,
+            470.54,
+            447.02
+          ],
+          "evidence_excerpt": "TABLE 4.1  Urbanization of land and people, 1995–2015 2015 775 1,642,420 4.96 31.0 34.3 18.9",
+          "verification_terms": [
+            "2015",
+            "4.96"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 265,
+          "printed_page": null,
+          "region": "Map 4.4 road-area comparison",
+          "bbox_points": [
+            72.09,
+            99.85,
+            476.88,
+            699.8
+          ],
+          "evidence_excerpt": "and in Hong Kong SAR, China, public trans- port systems are extremely efficient. So to  address trafﬁ c congestion, especially in Hanoi  and Ho Chi Minh City, Vietnamese policy  makers should take advantage of the organic  relationship between urban compression and  the public transport systems. But the develop- ment plans for the center of Hanoi and Ho  Chi Minh City show that it may not be pos- sible due to the conﬂ icting policies. On the  one hand are the tens-of-billions-of-dollar  plans to build a large-capacity public trans- port system based on metro, trams, and  express buses (Clement and Charles 2015).  On the other hand is the view associated with  policies on restricting density and height in  the central areas, which could create numer- ous small congestion points that will ulti- mately spread out in these big cities. HANOI BANGKOK Area of primary and secondary roads As % of total area within 9 km2 around the city center Hanoi Bangkok New York Scoul 9.03% 7.88% 31.90% 13.56% MAP 4.4  Hanoi’s street space is ill suited for urban transport",
+          "verification_terms": [
+            "Hanoi",
+            "9.03%"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A41",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Bốn biểu hiện hiện đại hóa kinh tế được báo cáo liệt kê là gì?",
+      "expected_answer": "Chuyển dịch cơ cấu; hướng ngoại và tham gia chuỗi giá trị toàn cầu; chuyển sang hệ thống định hướng thị trường với vai trò tư nhân tăng; chuyển dịch không gian từ nông thôn sang đô thị.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 150,
+          "printed_page": "112",
+          "region": "four transformations list",
+          "bbox_points": [
+            102.0,
+            363.78,
+            506.84,
+            699.5
+          ],
+          "evidence_excerpt": "1. Structural transformation have shifted  resources from agriculture to manufac- turing and services. 2. Outward orientation of the economy has  lodged Vietnam more deeply in GVCs. 3. Transition from a centrally planned and  state-dominated economy to a market- oriented system has allowed the private  sector taking an increasing role. 4. Spatial transformation has shifted popu- lation from rural to urban areas. Spatial transformation is discussed  in chapter 4. The other three are briefly  described below. Accelerated Structural Transformation",
+          "verification_terms": [
+            "Structural transformation",
+            "Outward orientation",
+            "private sector",
+            "Spatial transformation"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A42",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Vì sao tăng trưởng khu vực tư nhân trong nước bị suy giảm năng suất theo báo cáo?",
+      "expected_answer": "Do doanh nghiệp chủ yếu rất nhỏ, thiếu lợi ích quy mô, chuyên môn hóa và đổi mới; thâm dụng vốn tăng mà không có lợi ích quy mô làm năng suất vốn giảm.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 148,
+          "printed_page": "110",
+          "region": "domestic private firms paragraph",
+          "bbox_points": [
+            312.01,
+            100.28,
+            506.8,
+            376.0
+          ],
+          "evidence_excerpt": "gains from scale economies, specialization,  and innovation—ingredients for sustained  long-term growth (World Bank 2007).  Moreover, small ﬁ rms have become increas- ingly capital-intensive, which—without  scale  economies—has led to a sharp decline  in their capital productivity. The few large  domestic ﬁ rms are usually even more unpro- ductive than the smaller ones. This reﬂ ects  their short-term view on investment and  proﬁ ts and their rising concentration of land  and capital assets in construction, real estate,  and banking and ﬁ nance—sectors that have  shown some of the country’s lowest levels  and growth of productivity. Foreign-invested  ﬁ rms have grown their presence in Vietnam  and led the country’s rapid growth in manu- facturing and exports. But links with domes- tic firms have been lacking in key sectors,  impeding productivity-enhancing transfers of  technology and management practices. There  is an emerging concern about a “Mexican  phenomenon.”1",
+          "verification_terms": [
+            "capital-intensive",
+            "scale economies",
+            "capital productivity"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A43",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Ba thuộc tính kết nối được báo cáo nêu để tham gia chuỗi giá trị là gì?",
+      "expected_answer": "Kết nối thể chế, kết nối vật chất và kết nối giữa người với người.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 66,
+          "printed_page": "28",
+          "region": "institutional and physical connectivity discussion",
+          "bbox_points": [
+            312.0,
+            136.28,
+            506.84,
+            472.0
+          ],
+          "evidence_excerpt": "Institutional connectivity. The “software”  side of things includes trade facilitation,  structural and regulatory reforms, and  transport and logistics facilitation. Vietnam  performs relatively well on the World Bank’s  Logistics Performance Index (LPI), ranking  48 among 160 countries on the overall rat- ing and the highest among the lower-middle-  income countries (table O.1), although still  lagging regional upper-middle-income coun- tries such as China, Malaysia, and Thai- land. Its rankings have improved since 2007  across the board, except for customs proce- dures.15 Health and sanitation performance  standards inspections are underperforming,  below Vietnam’s ASEAN peers. Physical connectivity. A well-connected coun- try has abundant and high- quality physical  infrastructure, especially international gate- ways and multimodal interfaces, including  ports, airports, road and rail links, as well as  ICTs. It also includes energy, which is vital to  the continued success of manufacturing ﬁ rms,  and can be traded among neighboring coun- tries. Vietnam comes out well on the infra- structure component of the LPI ranking (44),  but many transport aspects require attention.",
+          "verification_terms": [
+            "Institutional connectivity",
+            "Physical connectivity"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 67,
+          "printed_page": null,
+          "region": "people-to-people connectivity discussion",
+          "bbox_points": [
+            72.0,
+            281.78,
+            266.86,
+            449.5
+          ],
+          "evidence_excerpt": "People-to-people connectivity. The third  attribute refers to ease of movement of   people across borders (for service provi- sion, education, and tourism). Vietnam has   abolished caps on the number of foreign  workers that foreign ﬁ rms can hire, and has  new procedures for them to obtain work  permits. Managers, executives, and special- ists who enter the country as intra- corporate  transferees are allowed to stay for an initial  three years, subject to extension. But there  is still wide scope to better meet global   businesses’ need to bring in specialist inter- national staff.",
+          "verification_terms": [
+            "People-to-people connectivity",
+            "third attribute"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A44",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Một trung tâm chính phủ được tăng cường có ba chức năng chính nào theo phần diễn giải?",
+      "expected_answer": "Lập kế hoạch chiến lược; điều phối và theo dõi hiệu quả; bảo đảm trách nhiệm giải trình.",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 397,
+          "printed_page": null,
+          "region": "strengthened center paragraph",
+          "bbox_points": [
+            282.0,
+            100.27,
+            476.96,
+            459.99
+          ],
+          "evidence_excerpt": "horizontal fragmentation (ﬁ gure 7.12). The  main functions include strategic planning,  coordinating and monitoring performance,  and ensuring accountability. The building  blocks of a coherent national bureaucracy are  rationalization of the personnel system,  improved management information systems,  and public finance reforms. These compo- nents link concrete objectives to the resources  needed to achieve them and the performance  of responsible administrators. Results-based  management methods and robust information  systems can deliver substantial improvements  to evidence-based policy formulation and  implementation. A more effective center of  government function does not mean a reversal  of decentralization. It should yield greater  clarity on the roles and tasks assigned to sub- national government agencies and their rela- tionship to the execution of national policies.  Clear responsibilities increase accountability  while preserving the authority of decentral- ized decision makers to be responsive to the  citizen’s needs. Hiring based on competencies,  competitive compensation, and rigorous per- formance evaluation increases accountability  and reduces scope for corruption, while care- ful economic assessment of policy impact nar- rows the scope for self-interested behavior  and improves the quality of regulation.",
+          "verification_terms": [
+            "strategic planning",
+            "coordinating and monitoring performance",
+            "ensuring accountability"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "A45",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Bảng 4.1 cho biết diện tích đất đô thị riêng của Đà Nẵng năm 2015 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Bảng chỉ đưa tổng số toàn quốc, không tách riêng Đà Nẵng.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "Da Nang urban land 2015",
+          "Danang urban land 2015"
+        ]
+      }
+    },
+    {
+      "id": "A46",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Báo cáo dự báo tỷ giá USD/VND chính xác vào ngày 1/1/2035 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Báo cáo không dự báo tỷ giá theo một ngày cụ thể trong năm 2035.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "USD/VND on January 1 2035",
+          "exchange rate on 1 January 2035"
+        ]
+      }
+    },
+    {
+      "id": "A47",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Hình O.2 cho biết dân số trên 65 tuổi của riêng tỉnh Lào Cai năm 2035 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Hình O.2 là dữ liệu cấp quốc gia, không có dự báo riêng cho Lào Cai.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "Lao Cai population over 65",
+          "Lào Cai population over 65"
+        ]
+      }
+    },
+    {
+      "id": "A48",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Bản đồ 4.2 cho biết giá thuê đất mỗi mét vuông của KCN Dầu Giây là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Bản đồ nêu vị trí, năm thành lập, khoảng cách và tỷ lệ lấp đầy, không nêu giá thuê đất.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "Dau Giay land rent",
+          "Dau Giay rental price"
+        ]
+      }
+    },
+    {
+      "id": "A49",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Báo cáo nêu lượng điện tiêu thụ của từng trung tâm dữ liệu AI tại Việt Nam năm 2035 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Báo cáo không có dữ liệu theo từng trung tâm dữ liệu AI cho năm 2035.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "AI data center electricity",
+          "AI datacenter electricity"
+        ]
+      }
+    },
+    {
+      "id": "A50",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Bảng 7.1 cho biết mức lương trung vị của công chức trên 50 tuổi năm 2012 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Bảng 7.1 chỉ nêu cơ cấu tuổi theo phần trăm, không có mức lương.",
+      "absence_check": {
+        "scope": "all_409_physical_pages",
+        "searched_phrases": [
+          "median salary of civil servants",
+          "median civil service salary"
+        ]
+      }
+    }
+  ]
+}

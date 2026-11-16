@@ -1,0 +1,21 @@
+{
+  "benchmark_file": "advanced/benchmark/questions.json",
+  "sha256": "f3032d24b44c765da14846116777817199aae03cbd0e6f30884538f1f046e582",
+  "question_count": 50,
+  "distribution": {
+    "dev.chart": 3,
+    "dev.image_or_diagram": 3,
+    "dev.multi_hop": 3,
+    "dev.table": 4,
+    "dev.text": 4,
+    "dev.unanswerable": 3,
+    "test.chart": 5,
+    "test.image_or_diagram": 5,
+    "test.multi_hop": 4,
+    "test.table": 6,
+    "test.text": 4,
+    "test.unanswerable": 6
+  },
+  "sealed_test": true,
+  "selection_split": "dev"
+}

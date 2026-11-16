@@ -1,0 +1,29 @@
+Cơ sở dữ liệu CIFAR-10 và CIFAR-100 ( tiếng Anh viết tắt từ Canadian Institute For Advanced Research hay Viện Nghiên cứu Cao cấp Canada ) là hai cơ sở dữ liệu ảnh màu được sử dụng rộng rãi trong nghiên cứu học máy và thị giác máy tính , được tạo ra bởi Alex Krizhevsky , Vinod Nair và Geoffrey Hinton tại Đại học Toronto . Cả hai tập dữ liệu đều gồm 60.000 ảnh 32×32 pixel màu RGB , chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. CIFAR-10 phân loại ảnh thành 10 loại nhãn, trong khi CIFAR-100 phân loại thành 100 loại nhãn. Đây là hai trong những benchmark phổ biến nhất trong lịch sử học sâu , đặc biệt đối với bài toán phân loại ảnh.
+
+Tệp dữ liệu
+
+CIFAR-10 và CIFAR-100 đều gồm 60.000 ảnh màu RGB kích thước 32×32 pixel, chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. Tập huấn luyện được chia thành năm lô ( batch ), mỗi lô 10.000 ảnh; tập kiểm thử gồm một batch duy nhất với đúng 1.000 ảnh được chọn ngẫu nhiên từ mỗi lớp.
+
+CIFAR-10 gồm 10 nhãn với 6.000 ảnh mỗi nhãn: máy bay , ô tô , chim , mèo , nai , chó , ếch , ngựa , tàu thủy và xe tải . CIFAR-100 gồm 100 nhãn mịn ( fine label ) với 600 ảnh mỗi lớp, được nhóm lại thành 20 nhãn thô ( coarse label hay superclass ). Ví dụ, nhãn thô " động vật có vú sống dưới nước " bao gồm năm nhãn mịn là hải ly , cá heo , rái cá , hải cẩu và cá voi . Mỗi ảnh trong CIFAR-100 được gán đồng thời cả nhãn mịn lẫn nhãn thô.
+
+Lịch sử
+
+Vào cuối những năm 2000, nghiên cứu học máy đang cần các tập dữ liệu ảnh màu có độ phức tạp cao hơn MNIST vốn chỉ gồm ảnh đen trắng 28×28 pixel của chữ số viết tay. Nền tảng trực tiếp của CIFAR là tập dữ liệu 80 Million Tiny Images , được Torralba, Fergus và Freeman công bố năm 2008 trên tạp chí IEEE Transactions on Pattern Analysis and Machine Intelligence. Tập dữ liệu này gồm khoảng 79 triệu ảnh 32×32 pixel màu RGB được thu thập từ internet và phân loại lỏng lẻo theo các danh từ trong WordNet , nhưng không được gán nhãn thủ công một cách có kiểm soát.
+
+Năm 2009, Alex Krizhevsky, khi đó còn là nghiên cứu sinh tại Đại học Toronto dưới sự hướng dẫn của Geoffrey Hinton , đã trích xuất từ 80 Million Tiny Images hai tập con được gán nhãn thủ công và công bố trong một báo cáo kỹ thuật. CIFAR-10 gồm 60.000 ảnh thuộc 10 nhãn; CIFAR-100 gồm cùng số ảnh nhưng phân thành 100 nhãn mịn và 20 nhãn thô. Mục tiêu ban đầu là cung cấp benchmark để đánh giá các mô hình sinh học sâu, cụ thể là Restricted Boltzmann Machines và Deep Belief Networks.
+
+Khoảng năm 2017, kết quả trên CIFAR-10 bắt đầu cho thấy dấu hiệu bão hòa khi tỉ lệ lỗi của các phương pháp tốt nhất đã giảm xuống mức xấp xỉ giới hạn của con người trên tập dữ liệu này. Bên cạnh đó, nghiên cứu cũng phát hiện ra 3.3% ảnh trong tập kiểm thử CIFAR-10 bị trùng lặp với tập huấn luyện, dẫn đến sai lệch trong đánh giá.
+
+Năm 2020, 80 Million Tiny Images bị thu hồi hoàn toàn sau khi các nhà nghiên cứu phát hiện tập dữ liệu này chứa nhiều nhãn mang tính xúc phạm và phân biệt chủng tộc . CIFAR-10 và CIFAR-100 không bị thu hồi theo, vì nhãn của chúng được gán thủ công và kiểm soát độc lập với hệ thống phân loại của tập dữ liệu gốc.
+
+Tham khảo
+
+1 2 3 4 5 Krizhevsky, Alex; Hinton, Geoffrey (2009). Learning multiple layers of features from tiny images (PDF) (Báo cáo). University of Toronto.
+
+↑ Torralba, Antonio; Fergus, Rob; Freeman, William T. (2008). "80 million tiny images: A large data set for nonparametric object and scene recognition". IEEE Transactions on Pattern Analysis and Machine Intelligence . 30 (11): 1958– 1970. doi : 10.1109/TPAMI.2008.128 .
+
+↑ Chrabaszcz, Patryk; Loshchilov, Ilya; Hutter, Frank (2017). "A downsampled variant of ImageNet as an alternative to the CIFAR datasets". arXiv : 1707.08819 [ cs.CV ].
+
+↑ Barz, Björn; Denzler, Joachim (ngày 2 tháng 6 năm 2020). "Do We Train on Test Data? Purging CIFAR of Near-Duplicates" . Journal of Imaging (bằng tiếng Anh). 6 (6): 41. doi : 10.3390/jimaging6060041 . ISSN 2313-433X . PMC 8321059 . PMID 34460587 . {{ Chú thích tập san học thuật }} : Quản lý CS1: DOI truy cập mở nhưng không được đánh ký hiệu ( liên kết )
+
+↑ Peng, Kenny; Mathur, Arunesh; Narayanan, Arvind (2021). Mitigating dataset harms requires stewardship: Lessons from 1000 papers . Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS 2021). arXiv : 2108.02922 .

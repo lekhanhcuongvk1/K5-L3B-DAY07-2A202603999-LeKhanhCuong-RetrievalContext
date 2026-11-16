@@ -1,0 +1,469 @@
+C# ( C Sharp , đọc là "xi-sáp" ) là một ngôn ngữ lập trình hướng đối tượng đa năng, mạnh mẽ được phát triển bởi Microsoft , C# là phần khởi đầu cho kế hoạch .NET của họ. Tên của ngôn ngữ bao gồm ký tự thăng theo Microsoft nhưng theo ECMA là C# , chỉ bao gồm dấu số thường. Microsoft phát triển C# dựa trên C++ và Java . C# được miêu tả là ngôn ngữ có được sự cân bằng giữa C++, Visual Basic , Delphi và Java .
+
+C# được thiết kế chủ yếu bởi Anders Hejlsberg kiến trúc sư phần mềm nổi tiếng với các sản phẩm Turbo Pascal , Delphi , J++, WFC. Phiên bản gần đây nhất là 9.0, được phát hành vào năm 2020 cùng với Visual Studio 2019 phiên bản 16.8.
+
+Mục tiêu của việc phát triển C#
+
+Tiêu chuẩn ECMA liệt kê các mục tiêu của việc thiết kế ngôn ngữ C#:
+
+Ngôn ngữ được dự định là một ngôn ngữ lập trình đơn giản, hiện đại, hướng đến nhiều mục đích sử dụng, và là một ngôn ngữ lập trình hướng đối tượng .
+
+Ngôn ngữ và việc triển khai đáp ứng các nguyên tắc của ngành kỹ thuật phần mềm như kiểm tra chặt chẽ kiểu dữ liệu, kiểm tra giới hạn mảng, phát hiện các trường hợp sử dụng các biến chưa có dữ liệu, và tự động thu gom rác . Tính mạnh mẽ, sự bền bỉ, và năng suất của việc lập trình là rất quan trọng đối với ngôn ngữ này.
+
+Ngôn ngữ sẽ được sử dụng để phát triển các thành phần của phần mềm theo hướng thích hợp cho việc triển khai trong các môi trường phân tán.
+
+Khả năng di chuyển (portability) là rất quan trọng, đặc biệt là đối với những lập trình viên đã quen với C và C++.
+
+Hỗ trợ quốc tế hóa (i18n).
+
+Ngôn ngữ sẽ được thiết kế để phù hợp với việc viết các ứng dụng cho cả hai hệ thống: hosted và nhúng , từ các phần mềm quy mô lớn, đến các phần mềm chỉ có các chức năng đơn giản.
+
+Mặc dù các ứng dụng C# có tính kinh tế đối với các yêu cầu về bộ nhớ và chế độ xử lý, ngôn ngữ này không cạnh tranh trực tiếp về hiệu năng và kích thước đối với ngôn ngữ C hoặc assembly .
+
+Ứng dụng của C#
+
+Phát triển web backend ( ASP.NET MVC, ASP.NET core, Web API,Graph API,gPRC, Blazor sevver,Uno platform, Mono)
+
+Phát triển web front end (Blazor WebAssembly,Uno platform)
+
+Phát triển desktop app (Winform, WPF, UWP,WinUI, Mono, Uno, MAUI,Blazor desktop...)
+
+Phát triển game 2D, 3D đa nền tảng ( Game engine : Unity , Monogame, Godot, Stride, CryEngine, Flax Engine, Evergine, NeoAxis, XNA ..)
+
+Phát triển thực tế ảo (VR), thực tế tăng cường(AR), thực tế hỗn hợp (MR) (HoloLens,Unity,CryEngine, Oculus quest..)
+
+Phát triển ứng dụng đồ họa 2D,3D đa nền tảng (2D: SkiaSharp, ImageSharp...; 3D: OpenTK, SharpDX, SharpVulkan, Vulkan.NET, Veldrid, Silk.NET, Helix Toolkit, Aspose..)
+
+Phát triển mobile app , IOS native, Android native (Xamarin,MAUI,Uno platform)
+
+Phát triển đám mây ( Azure ,AWS,Google Cloud...)
+
+Học máy và trí tuệ nhân tạo ( ML.Net , TensorFlow, csiSharp..)
+
+Data science, bigdata (csiSharp, Apache Spark)
+
+Blockchain ( NEO, Stratis )
+
+Microservices and containers
+
+Internet of thing (IoT,5G)
+
+Hệ thống nhúng ( Raspberry pi , PLC)
+
+Đặc điểm ngôn ngữ
+
+C# theo một hướng nào đó, là ngôn ngữ lập trình phản ánh trực tiếp nhất đến .NET Framework mà tất cả các chương trình.NET chạy, và nó phụ thuộc mạnh mẽ vào framework này. Mọi dữ liệu cơ sở đều là đối tượng, được cấp phát và hủy bỏ bởi trình dọn rác Garbage-Collector (GC), và nhiều kiểu trừu tượng khác chẳng hạn như class, delegate, interface, exception... phản ánh rõ ràng những đặc trưng của.NET runtime.
+
+So sánh với C và C++, ngôn ngữ này bị giới hạn và được nâng cao ở một vài đặc điểm nào đó, nhưng không bao gồm các giới hạn sau đây:
+
+Các con trỏ chỉ có thể được sử dụng trong chế độ không an toàn. Hầu hết các đối tượng được tham chiếu an toàn, và các phép tính đều được kiểm tra tràn bộ đệm. Các con trỏ chỉ được sử dụng để gọi các loại kiểu giá trị; còn những đối tượng thuộc bộ gom rác ( garbage-collector ) thì chỉ được gọi bằng cách tham chiếu.
+
+Các đối tượng không thể được giải phóng tường minh.
+
+Chỉ có đơn kế thừa, nhưng có thể cài đặt nhiều interface trừu tượng (abstract interfaces). Chức năng này làm đơn giản hóa sự thực thi của thời gian thực thi.
+
+C# thì an-toàn-kiểu ( typesafe ) hơn C++.
+
+Cú pháp khai báo mảng khác nhau (" int[] a = new int[5] " thay vì " int a[5] ").
+
+Kiểu thứ tự được thay thế bằng tên miền không gian ( namespace ).
+
+C# không có tiêu bản.
+
+Có thêm Properties, các phương pháp có thể gọi các Properties để truy cập dữ liệu.
+
+Có reflection.
+
+Lập trình chức năng
+
+Hỗ trợ kiểu động
+
+Đặc trưng của ngôn ngữ C#
+
+C# là ngôn ngữ đơn giản, mạnh mẽ C# được dựng trên nền tảng C++ và Java, ảnh hưởng bởi Delphi, VisualBasic nên ngôn ngữ C# được thừa hưởng các ưu điểm vào loại bỏ các yếu điểm của các ngôn ngữ trên, vì vậy nó khá đơn giản, đồng thời loại bỏ các cú pháp dư thừa và thêm vào đó các cú pháp cải tiến hơn C# là ngôn ngữ lập trình bậc cao , đa nền tảng vì vậy nó dễ dàng tiếp cận và phù hợp cho người mới bắt đầu học , ví dụ câu lệnh kinh điển dành cho người mới bắt đầu học là in ra dòng chữ "Hello world", với C# ta chỉ cần 1 câu lệnh: System.Console.WriteLine("Hello world");
+
+C# được dựng trên nền tảng C++ và Java, ảnh hưởng bởi Delphi, VisualBasic nên ngôn ngữ C# được thừa hưởng các ưu điểm vào loại bỏ các yếu điểm của các ngôn ngữ trên, vì vậy nó khá đơn giản, đồng thời loại bỏ các cú pháp dư thừa và thêm vào đó các cú pháp cải tiến hơn
+
+C# là ngôn ngữ lập trình bậc cao , đa nền tảng vì vậy nó dễ dàng tiếp cận và phù hợp cho người mới bắt đầu học , ví dụ câu lệnh kinh điển dành cho người mới bắt đầu học là in ra dòng chữ "Hello world", với C# ta chỉ cần 1 câu lệnh: System.Console.WriteLine("Hello world");
+
+C# là ngôn ngữ đa năng và hiện đại C# phù hợp cho việc phát triển trong thời đại 4.0, bao gồm việc phát triển web, mobile app, game, học máy và trí tuệ nhân tạo, phát triển đám mây, IoT, blockchain, microservices...
+
+C# phù hợp cho việc phát triển trong thời đại 4.0, bao gồm việc phát triển web, mobile app, game, học máy và trí tuệ nhân tạo, phát triển đám mây, IoT, blockchain, microservices...
+
+C# là một ngôn ngữ lập trình hướng đối tượng đồng thời hỗ trợ lập trình chức năng C# hỗ trợ mạnh mẽ cho phương pháp lập trình hướng đối tượng, ngoài ra C# còn hỗ trợ các phương pháp lập trình chức năng thông qua các biểu thức lamba, khớp mẫu, functions, các thuộc tính bất biến.
+
+C# hỗ trợ mạnh mẽ cho phương pháp lập trình hướng đối tượng, ngoài ra C# còn hỗ trợ các phương pháp lập trình chức năng thông qua các biểu thức lamba, khớp mẫu, functions, các thuộc tính bất biến.
+
+C# là ngôn ngữ gõ tĩnh, định kiểu mạnh, hỗ trợ gõ động. C# được gõ tĩnh nên nó mang đầy đủ các ưu việt của phương pháp gõ tĩnh như bảo đảm an toàn kiểu, tự động phân tích và nhận biết lỗi cú pháp ngay trong quá trình viết mã... Ngoài ra khi sử dụng C# kết hợp với IDE Visual Studio, C# được hỗ trợ gợi ý code bởi Visual Studio IntelliCode sử dụng trí tuệ nhân tạo giúp cho việc viết code trở nên nhanh chóng và dễ dàng hơn
+
+C# được gõ tĩnh nên nó mang đầy đủ các ưu việt của phương pháp gõ tĩnh như bảo đảm an toàn kiểu, tự động phân tích và nhận biết lỗi cú pháp ngay trong quá trình viết mã...
+
+Ngoài ra khi sử dụng C# kết hợp với IDE Visual Studio, C# được hỗ trợ gợi ý code bởi Visual Studio IntelliCode sử dụng trí tuệ nhân tạo giúp cho việc viết code trở nên nhanh chóng và dễ dàng hơn
+
+C# là một ngôn ngữ ít từ khóa C# có khoảng hơn 80 từ khóa
+
+C# có khoảng hơn 80 từ khóa
+
+C# là một trong các ngôn ngữ lập trình phổ biến và phát triển nhất Theo TIOBE Index , tính đến tháng 10/2020, C# là ngôn ngữ phổ biến thứ 5 thế giới. Theo PYPL , tính đến tháng 10/2020, C# là ngôn ngữ được cộng đồng quan tâm và chia sẻ nhiều thứ 4 thế giới. Theo [./ Https://github.com/ Github] (Kho lưu trữ mã nguồn lớn nhất thế giới), tính đến tháng 10/2020, C# là ngôn ngữ hoạt động nhiều thứ 4. Cộng đồng phát triển và số người theo học ngôn ngữ C# tăng khônng ngừng theo mỗi năm.Theo ước tính 10/2020, cộng đồng phát triển C# là hơn 6 triệu người
+
+Theo TIOBE Index , tính đến tháng 10/2020, C# là ngôn ngữ phổ biến thứ 5 thế giới.
+
+Theo PYPL , tính đến tháng 10/2020, C# là ngôn ngữ được cộng đồng quan tâm và chia sẻ nhiều thứ 4 thế giới.
+
+Theo [./ Https://github.com/ Github] (Kho lưu trữ mã nguồn lớn nhất thế giới), tính đến tháng 10/2020, C# là ngôn ngữ hoạt động nhiều thứ 4.
+
+Cộng đồng phát triển và số người theo học ngôn ngữ C# tăng khônng ngừng theo mỗi năm.Theo ước tính 10/2020, cộng đồng phát triển C# là hơn 6 triệu người
+
+C# kết hợp chặt chẽ với nền tảng.NET - một khung nền tảng được đầu tư rất mạnh của Microsoft.
+
+Ngoài ra C# còn có những ưu điểm: C# là ngôn ngữ lập trình mã nguồn mở ,vì vậy C# là miễn phí với tất cả mọi người, đồng thời mọi người đều có thể cùng tham gia phát triển, đề xuất thiết kế ngôn ngữ C# C# là ngôn ngữ đa nền tảng vì vậy có thể biên dịch trên nhiều nền tảng máy tính khác nhau (Windows, Linux, MacOS ) C# có hiệu suất cao và tốc độ thực thi nhanh do sử dụng trình biên dich trung gian ( CLR ), điểm cộng nữa là tốc độ phát triển phần mềm nhanh chóng so với đa số các ngôn ngữ hiện tại. C# có IDE Visual Studio cùng nhiều plug-in vô cùng mạnh mẽ. ngoài ra có thể viết C# bằng bất kỳ text editor nào khác như Visual Studio Code, Vim, Netbeam... C# có cấu trúc khá gần gũi với các ngôn ngữ lập trình truyền thống, song cũng được bổ sung các yếu tố mang tính hiện đại nên dễ dàng tiếp cận cho người mới học và học nhanh với C#. C# có cộng đồng nhà phát triển vô cùng lớn mạnh. C# được phát triển và cải tiến không ngừng với tần suất 1 phiên bản/ 1 năm, đáp ứng các mong muốn cải thiện, cải tiến cho phù hợp với nhu cầu công nghệ của các nhà phát triển. C# có tài liệu tham khảo và hướng dẫn vô cùng phong phú và chất lượng, đồng thời có các buổi hội thảo giới thiệu tính năng mới và định hướng phát triển ngôn ngữ trong tương lai. C# và.NET được đánh giá là có design tốt, vì vậy cú pháp và logic rất nhất quán, mã nguồn C# dễ đọc và mở rộng. C# được thiết kế và phát triển bởi Microsoft nên rất được Microsoft quan tâm và hỗ trợ.
+
+C# là ngôn ngữ lập trình mã nguồn mở ,vì vậy C# là miễn phí với tất cả mọi người, đồng thời mọi người đều có thể cùng tham gia phát triển, đề xuất thiết kế ngôn ngữ C#
+
+C# là ngôn ngữ đa nền tảng vì vậy có thể biên dịch trên nhiều nền tảng máy tính khác nhau (Windows, Linux, MacOS )
+
+C# có hiệu suất cao và tốc độ thực thi nhanh do sử dụng trình biên dich trung gian ( CLR ), điểm cộng nữa là tốc độ phát triển phần mềm nhanh chóng so với đa số các ngôn ngữ hiện tại.
+
+C# có IDE Visual Studio cùng nhiều plug-in vô cùng mạnh mẽ. ngoài ra có thể viết C# bằng bất kỳ text editor nào khác như Visual Studio Code, Vim, Netbeam...
+
+C# có cấu trúc khá gần gũi với các ngôn ngữ lập trình truyền thống, song cũng được bổ sung các yếu tố mang tính hiện đại nên dễ dàng tiếp cận cho người mới học và học nhanh với C#.
+
+C# có cộng đồng nhà phát triển vô cùng lớn mạnh.
+
+C# được phát triển và cải tiến không ngừng với tần suất 1 phiên bản/ 1 năm, đáp ứng các mong muốn cải thiện, cải tiến cho phù hợp với nhu cầu công nghệ của các nhà phát triển.
+
+C# có tài liệu tham khảo và hướng dẫn vô cùng phong phú và chất lượng, đồng thời có các buổi hội thảo giới thiệu tính năng mới và định hướng phát triển ngôn ngữ trong tương lai.
+
+C# và.NET được đánh giá là có design tốt, vì vậy cú pháp và logic rất nhất quán, mã nguồn C# dễ đọc và mở rộng.
+
+C# được thiết kế và phát triển bởi Microsoft nên rất được Microsoft quan tâm và hỗ trợ.
+
+Lịch sử
+
+Từ C và âm nhạc đến C#
+
+Cái tên "C sharp" được lấy cảm hứng từ ký hiệu âm nhạc, trong đó một dấu thăng sau nốt nhạc "#" nghĩa là một nốt được chơi cao hơn nửa cung. Điều này tương tự như trường hợp đặt tên của ngôn ngữ của C++, trong đó "++" chỉ ra rằng giá trị của một biến nên được tăng lên 1. Biểu tượng # cũng giống với bốn ký tự "+" (trong một lưới 2x2), ngụ ý rằng ngôn ngữ là một phiên bản tăng cường của C++ (gấp đôi C++). Bởi vì giới hạn kỹ thuật của việc hiển thị (các font chuẩn, trình duyệt...) và sự thật là ký tự thăng ( U+266F ♯ MUSIC SHARP SIGN (HTML & #9839; ) ) không hiện diện trong đa số các bàn phím, ký tự ( U+0023 # NUMBER SIGN (HTML & #35; ) ) đã được chọn để diễn đạt một cách tương đương trong cách viết tên ngôn ngữ.
+
+Hậu tố "#" đã được sử dụng bởi một số ngôn ngữ khác của.NET là các biến thể của các ngôn ngữ hiện tại, bao gồm J# (một ngôn ngữ.NET cũng được thiết kế bởi Microsoft có nguồn gốc từ Java 1.1), A# (từ Ada) và ngôn ngữ lập trình chức năng F#. Việc triển khai ban đầu của Eiffel for.NET được gọi là Eiffel#. Hậu tố cũng đã được sử dụng cho các thư viện, chẳng hạn như Gtk# (một wrapper NET cho GTK+ và các thư viện GNOME khác) và Cocoa#.
+
+Các phiên bản (versions)
+
+Các tính năng mới
+
+C# 2.0
+
+Generics
+
+Partial types
+
+Hàm Anonymous
+
+Iterators
+
+Các kiểu Nullable
+
+Khả năng tiếp cận getter/setter riêng biệt
+
+Phương pháp nhóm chuyển đổi (delegate)
+
+Co- và Contra-variance cho các delegates (delegate)
+
+Các lớp static
+
+Delegate inference
+
+C# 3.0
+
+LINQ
+
+Cải tiến trong việc khởi tạo đối tượng: Customer c = new Customer(); c.Name="James"; có thể viết là Customer c = new Customer { Name="James" };
+
+Các biểu thức lambda: listOfFoo.Where(delegate(Foo x) { return x.size>10;}) trở thành listOfFoo.Where(x => x.size>10);
+
+Mặc định gõ các biến cục bộ, ví dụ var x = "hello"; có thể hoán đổi với string x = "hello";
+
+Các property được tự động hiện thực hóa
+
+Các kiểu anonymous
+
+Các hàm extension
+
+Cây biểu thức
+
+Các hàm dạng partial
+
+C# 4.0
+
+Dynamic binding
+
+Đối số được đặt tên và tùy chọn
+
+Co- và contravariance dạng generic
+
+Các kiểu interop nhúng ("NoPIA")
+
+C# 5.0
+
+Các hàm asynchronous
+
+Tìm thông tin thành phần gọi hàm
+
+C# 6.0
+
+Compiler-as-a-service ( Roslyn )
+
+Nhập các thành viên kiểu static vào không gian tên.
+
+Exception filters
+
+Await trong các khối catch/finally
+
+Tự động cài đặt property
+
+Các thành viên trong thân biểu thức
+
+Toán tử kiểm tra null
+
+Chuỗi nội suy
+
+Toán tử nameof
+
+C# 7.0
+
+Các biến out
+
+Pattern matching
+
+Tuple
+
+Deconstruction
+
+Các hàm cục bộ
+
+Kiểu ValueTask
+
+Constructor and finalizer trong thân biểu thức
+
+Getter và setter trong thân biểu thức
+
+Throw cũng có thể được dùng làm biểu thức
+
+C# 7.1
+
+Async main
+
+Tên các phần tử tuple được nội suy
+
+C# 7.2
+
+Reference ngữ nghĩa với các loại giá trị
+
+Các đối số được đặt tên không có đuôi
+
+Giới hạn truy cập private protected cho các field
+
+C# 7.3
+
+Tuple hỗ trợ toán tử == và !=
+
+Quá tải phương thức in.
+
+Mở rộng các biến biểu thức trong trình khởi tạo.
+
+Đính kèm attribute vào trường sao lưu cho các thuộc tính được triiển khai tự động.
+
+C# 8.0 Hỗ trợ trong.NET Core 3.0 và.NET Standard 2.1 trở lên
+
+Kiểu tham chiếu nullable (Nullable reference types)
+
+Hỗ trợ biến thành viên chỉ đọc cho struct (Readonly Members)
+
+Phương thức mặc định trong interface (Default interface methods)
+
+Hàm cục bộ tĩnh (Static local functions).
+
+Mở rộng pattern matching cho biểu thức swich expressions, property patterns, tuple pattern, positional pattern (More patterns in more places)
+
+Phạm vi và chỉ số (Ranges and indices)
+
+Cải thiện khai báo từ khóa using (Using declarations)
+
+Toán tử kiểm tra và gán khi biến là null (Null- coalescing asignment)
+
+Luồng bất đồng bộ (Asynchronous stream)
+
+Asynchronous disposable
+
+Unmanaged constructed types
+
+Stackalloc in nested expressions
+
+Enhancement of interpolated verbatim strings
+
+C# 9.0 Hỗ trợ trong.NET 5.0 trở lên
+
+Bản ghi (Record)
+
+Thuộc tính bất biến (Init only setters)
+
+Biểu thức cấp cao nhất (Top-level statements): // Trước C# 9.0 using System ; class ExampleClass { static void Main ( string [] args ) { Console . WriteLine ( "Hello World!" ); } } // Từ C# 9.0 trở lên using System ; Console . WriteLine ( "Hello World!" );
+
+Cải tiến khớp mẫu (Pattern matching enhancements)
+
+Số nguyên tự nhiên theo từng kiến trúc máy tính (Native sized integers)
+
+Hàm con trỏ (Function pointers)
+
+Suppress emitting locals init flag
+
+Hỗ trợ tự động nhận và khởi tạo kiểu bằng biểu thức new (Target-typed new expressions)
+
+Hàm tĩnh ẩn danh (Static anonymous functions)
+
+Target-typed conditional expressions
+
+Covariant return types
+
+Extension GetEnumerator support for foreach loops
+
+Lambda discard parameters
+
+Attributes on local functions
+
+Module initializers
+
+.NET Framework
+
+.NET Framework là một thư viện class có thể được sử dụng với một ngôn ngữ.NET để thực thi các việc từ thao tác chuỗi cho đến phát sinh ra các trang web động (ASP.NET), phân tích XML và reflection..NET Framework được tổ chức thành tập hợp các namespace, nhóm các class có cùng chức năng lại với nhau, ví dụ như System.Drawing cho đồ hoạ, System.Collections cho cấu trúc dữ liệu và System.Windows.Forms cho hệ thống Windows Forms.
+
+Cấp cao hơn nữa được cung cấp bởi khái niệm này là assembly . Một assembly là một file hoặc nhiều file được liên kết với nhau (thông qua file al.exe), chứa đựng nhiều namespace và object. Các chương trình cần các lớp để thực thi một chức năng đặc biệt nào đó sẽ tham chiếu các assembly chẳng hạn như System.Drawing.dll và System.Windows.Forms.dll cũng như các core library (lưu trong file mscorlib.dll).
+
+.NET Core
+
+.NET Core là một nền tảng phát triển đa mục đích, mã nguồn mở được duy trì bởi Microsoft và cộng đồng.NET trên GitHub. Đó là nền tảng chéo (hỗ trợ Windows, macOS và Linux) và có thể được sử dụng để xây dựng các ứng dụng thiết bị, đám mây và IoT.
+
+.NET 5.0
+
+Bắt đầu từ.NET 5.0 là nền tảng mới nhất, nó hợp nhất giữa các phiên bản.NET.
+
+Tập trung vào hiệu suất và đa nền tảng..NET kế thừa từ các ưu việt của các nền tảng trước đó (.NET Framwork,.NET core,.NET Standard, Mono, Xamarin) để quản lý tập trung 1 framework với một hệ thống API hợp nhất cho các nền tảng phát triển của.NET, giúp nâng cao hiệu suất và tăng tốc độ phát triển các tính năng mới,
+
+Microsoft dự kiến ra mắt.NET với chu kỳ 1 năm, phiên bản tiếp theo là.NET 6.0 phát hành ngày 09/11/2021, đây là bản phát hành hỗ trợ dài hạn(LTS).
+
+Ví dụ đơn giản Hello World
+
+Dưới đây là một chương trình C# rất đơn giản, với ví dụ " Hello World " kinh điển:
+
+Chương trình này sẽ in ra màn hình console kết quả như sau:
+
+Ở đoạn code trên, mỗi dòng code có một mục đích đặc biệt, chi tiết như sau:
+
+Đầu tiên, dòng sau báo cho trình biên dịch biết chương trình sẽ sử dụng thư viện System.
+
+Tiếp theo, dòng sau khai báo một lớp.
+
+Hàm Main là hàm khởi động của chương trình. Trong C#, hầu như tất cả các hàm đều nằm trong một lớp nào đó. Do đó, Main có thể được đặt ở bất kỳ lớp nào trong chương trình, và khi có nhiều hàm Main , lập trình viên sẽ phải cấu hình cho trình biên dịch biết rằng hàm Main nào sẽ là hàm khởi động. Trong trường hợp này, chương trình của chúng ta sẽ sử dụng hàm Main ở class ExampleClass , hàm này trả về void (không có giá trị nào cả).
+
+Vì được khai báo là static , lập trình viên có thể gọi hàm này từ đoạn code khác với cú pháp
+
+Cuối cùng, câu lệnh sau là lệnh in ra màn hình của C#:
+
+Console là một lớp static ở namespace System . Lớp này cung cấp các interface chuẩn cho việc nhập, xuất và báo lỗi của chương trình C#. Chương trình của chúng ta gọi hàm WriteLine và in ra dòng "Hello World!"
+
+Thông thường mặc định khi tạo chương trình C#, các IDE sẽ tạo các code mẫu sẵn, chúng ta thực sự chỉ cần viết 1 dòng lệnh duy nhất là Console.WriteLine("Hello World!"); để in ra dòng chữ Hello World!
+
+Ghi chú
+
+↑ không đồng bộ
+
+↑ Tài liệu Microsoft C # 2.0 chỉ chứa các tính năng 2.0 mới. Đối với các tính năng cũ hơn, sử dụng thông số kỹ thuật 1.2
+
+↑ Không có thông số kỹ thuật ECMA hoặc ISO / IEC cho C # 3.0, 4.0, 5.0, 6.0 hoặc 7.0.
+
+↑ Không có thông số kỹ thuật ECMA hoặc ISO / IEC cho C # 3.0, 4.0, 5.0, 6.0 hoặc 7.0.
+
+↑ Không có thông số kỹ thuật ECMA hoặc ISO / IEC cho C # 3.0, 4.0, 5.0, 6.0 hoặc 7.0.
+
+1 2 3 4 https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8
+
+Tham khảo
+
+↑ "Welcome to C# 9.0" . Microsoft Docs . Microsoft . Truy cập ngày 13 tháng 11 năm 2020 .
+
+↑ "Nullable Reference Types Preview" . GitHub . Microsoft . Truy cập ngày 13 tháng 11 năm 2020 .
+
+↑ Torgersen, Mads (ngày 27 tháng 10 năm 2008). "New features in C# 4.0" . Microsoft . Bản gốc lưu trữ ngày 3 tháng 1 năm 2012 . Truy cập ngày 28 tháng 10 năm 2008 .
+
+↑ "coreclr/LICENSE.TXT at master · dotnet/coreclr" . GitHub . Truy cập ngày 19 tháng 11 năm 2025 .
+
+1 2 Naugler, David (tháng 5 năm 2007). "C# 2.0 for C++ and Java programmer: conference workshop". Journal of Computing Sciences in Colleges . Quyển 22 số 5. Although C# has been strongly influenced by Java it has also been strongly influenced by C++ and is best viewed as a descendant of both C++ and Java.
+
+↑ Hamilton, Naomi (ngày 1 tháng 10 năm 2008). "The A-Z of Programming Languages: C#" . Computerworld . Bản gốc lưu trữ ngày 24 tháng 3 năm 2010 . Truy cập ngày 12 tháng 2 năm 2010 . We all stand on the shoulders of giants here and every language builds on what went before it so we owe a lot to C, C++, Java, Delphi, all of these other things that came before us. ( Anders Hejlsberg )
+
+↑ "Chapel spec (Acknowlegements)" (PDF) . Cray Inc. ngày 1 tháng 10 năm 2015. Bản gốc (PDF) lưu trữ ngày 5 tháng 2 năm 2016 . Truy cập ngày 14 tháng 1 năm 2016 .
+
+↑ Borenszweig, Ary. "Crystal 0.18.0 released!" . It's heavily inspired by Ruby, and other languages (like C#, Go and Python).
+
+↑ "Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013" . Google . Truy cập ngày 22 tháng 12 năm 2013 .
+
+↑ Java 5.0 added several new language features (the enhanced for loop , autoboxing , varargs và annotations ), after they were introduced in the similar (and competing) C# language
+
+↑ Cornelius, Barry (ngày 1 tháng 12 năm 2005). "Java 5 catches up with C#" . University of Oxford Computing Services . Truy cập ngày 18 tháng 6 năm 2014 . In my opinion, it is C# that has caused these radical changes to the Java language. ( Barry Cornelius )
+
+↑ Ring Team (ngày 5 tháng 12 năm 2017). "Ring programming language and other languages" . ring-lang.net . ring-lang . Bản gốc lưu trữ ngày 25 tháng 12 năm 2018 . Truy cập ngày 14 tháng 2 năm 2018 .
+
+↑ Lattner, Chris (ngày 3 tháng 6 năm 2014). "Chris Lattner's Homepage" . Chris Lattner . Truy cập ngày 3 tháng 6 năm 2014 . The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, CLU, and far too many others to list.
+
+↑ "Visual Studio 2019" . Microsoft Docs .
+
+↑ http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-334.pdf
+
+↑ "Bản sao đã lưu trữ" . Bản gốc lưu trữ ngày 21 tháng 8 năm 2011 . Truy cập ngày 14 tháng 2 năm 2018 .
+
+↑ "Bản sao đã lưu trữ" . Bản gốc lưu trữ ngày 2 tháng 4 năm 2015 . Truy cập ngày 14 tháng 2 năm 2018 .
+
+↑ https://web.archive.org/web/20090218222543/http://research.microsoft.com/en-us/um/cambridge/projects/fsharp/faq.aspx
+
+↑ "Full Eiffel on the .NET Framework" . Truy cập ngày 19 tháng 11 năm 2025 .
+
+1 2 "Using C# 3.0 from.NET 2.0" . Danielmoth.com. ngày 13 tháng 5 năm 2007 . Truy cập ngày 4 tháng 10 năm 2012 .
+
+↑ "Mono and Roslyn" . Tirania Blog . Miguel de Icaza . Truy cập ngày 9 tháng 4 năm 2014 . Work in progress for C# 5.0.
+
+↑ "Visual Studio 2017 15.3 Release Notes" . Truy cập ngày 19 tháng 11 năm 2025 .
+
+↑ "Visual Studio 2017 15.9 Release Notes" . Truy cập ngày 19 tháng 11 năm 2025 .
+
+↑ "Download Visual Studio 2005 Retired documentation from Official Microsoft Download Center" . Microsoft Store - Download Center . Truy cập ngày 19 tháng 11 năm 2025 .
+
+↑ "Overview of C# 3.0" . Truy cập ngày 19 tháng 11 năm 2025 .
+
+↑ " [ LINQ ] Phần 1: Giới thiệu về LINQ Dam-mi-o" . Dam-mi-o . Truy cập ngày 20 tháng 2 năm 2017 .
+
+↑ "C# 4.0 - New C# Features in the .NET Framework 4" . Truy cập ngày 19 tháng 11 năm 2025 .
+
+↑ "Shows - Event & Video Content" . Truy cập ngày 19 tháng 11 năm 2025 .
+
+↑ "GitHub - dotnet/roslyn: The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs" . GitHub . Truy cập ngày 19 tháng 11 năm 2025 .
+
+↑ "The history of C#" . Truy cập ngày 19 tháng 11 năm 2025 .
+
+↑ "The history of C#" . Truy cập ngày 19 tháng 11 năm 2025 .
+
+Liên kết ngoài
+
+Ngôn ngữ C# (MSDN)
+
+DotNetSpace ASP.NET 2.0 code examples in C#
+
+Full C# Online book Lưu trữ ngày 29 tháng 1 năm 2008 tại Wayback Machine
+
+Tiêu chuẩn C#
+
+Tiêu chuẩn ECMA-334 về ngôn ngữ C# ( PDF )
+
+Tiêu chuẩn ISO về ngôn ngữ C# (phải mua)
+
+Microsoft Visual C#.NET
+
+F# Lưu trữ ngày 19 tháng 11 năm 2008 tại Wayback Machine
