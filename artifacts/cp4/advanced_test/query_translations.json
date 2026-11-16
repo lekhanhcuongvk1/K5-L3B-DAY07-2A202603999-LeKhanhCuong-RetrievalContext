@@ -1,0 +1,152 @@
+{
+  "A21": {
+    "original_query": "Theo Bảng O.1, hạng hải quan của Việt Nam thay đổi từ năm 2007 sang 2014 như thế nào?",
+    "translated_query": "What changes in tonnage did Vietnam's navy experience from 2007 to 2014 according to Table O.1?",
+    "raw_model_output": "What changes in tonnage did Vietnam's navy experience from 2007 to 2014 according to Table O.1?"
+  },
+  "A22": {
+    "original_query": "Theo Bảng 4.1, tỷ lệ đất đô thị và tỷ lệ dân số đô thị năm 2015 là bao nhiêu?",
+    "translated_query": "What are the urban land and population density ratios in 2015 according to Table 4.1? Table 4.1",
+    "raw_model_output": "What are the urban land and population density ratios in 2015 according to Table 4.1?"
+  },
+  "A23": {
+    "original_query": "Trong Bảng B5.3.1, chi phí tác động lên nguồn nước và du lịch lần lượt là bao nhiêu?",
+    "translated_query": "What are the costs attributed to water resources and tourism in Table B5.3.1? Table B5.3",
+    "raw_model_output": "What are the costs attributed to water resources and tourism in Table B5.3.1?"
+  },
+  "A24": {
+    "original_query": "Theo Bảng 5.1, nước biển dâng gây ba hậu quả chính nào?",
+    "translated_query": "What are the three main effects of sea level rise as shown in Table 5.1? Table 5.1",
+    "raw_model_output": "What are the three main effects of sea level rise as shown in Table 5.1?"
+  },
+  "A25": {
+    "original_query": "Bảng 6.4 nêu cơ chế tài chính nào cho lộ trình nhanh đạt bảo hiểm 100% và bất lợi chính là gì?",
+    "translated_query": "What is the financing mechanism described in Table 6.4 for achieving a fully insured status within a short timeframe, and what are its main disadvantages? Table 6.4",
+    "raw_model_output": "What is the financing mechanism described in Table 6.4 for achieving a fully insured status within a short timeframe, and what are its main disadvantages?"
+  },
+  "A26": {
+    "original_query": "Theo Bảng 7.1, nhóm công chức dưới 30 tuổi thay đổi ra sao từ 2005 đến 2012?",
+    "translated_query": "How did the group of civil servants under 30 change from 2005 to 2012? Table 7.1",
+    "raw_model_output": "How did the group of civil servants under 30 change from 2005 to 2012?"
+  },
+  "A27": {
+    "original_query": "Bản đồ 4.1 minh họa sự mở rộng đô thị của vùng kết tụ nào trong giai đoạn khoảng 2000–2010?",
+    "translated_query": "What is the map number 4 that illustrates the expansion of urban areas in the region during the period from 2000 to 2010? Map 4.1",
+    "raw_model_output": "What is the map number 4 that illustrates the expansion of urban areas in the region during the period from 2000 to 2010?"
+  },
+  "A28": {
+    "original_query": "Bản đồ 4.2 minh họa vấn đề gì ở vùng ven Thành phố Hồ Chí Minh?",
+    "translated_query": "What map shows the issue in the suburban area of Ho Chi Minh City? Map 4.2",
+    "raw_model_output": "What map shows the issue in the suburban area of Ho Chi Minh City?"
+  },
+  "A29": {
+    "original_query": "Trong Bản đồ 4.2, hai khu công nghiệp ví dụ có tỷ lệ lấp đầy lần lượt là bao nhiêu?",
+    "translated_query": "What are the fill rates of the two example industrial zones shown in Map 4.2? Map 4.2",
+    "raw_model_output": "What are the fill rates of the two example industrial zones shown in Map 4.2?"
+  },
+  "A30": {
+    "original_query": "Sơ đồ Hình 7.12 đề xuất cấu trúc nào để tinh gọn nguồn lực và hoạt động?",
+    "translated_query": "What is the proposed structure to streamline resources and activities as shown in Figure 7.12? Figure 7.12",
+    "raw_model_output": "What is the proposed structure to streamline resources and activities as shown in Figure 7.12?"
+  },
+  "A31": {
+    "original_query": "Bản đồ 4.4 so sánh mạng đường Hà Nội với ba thành phố nào?",
+    "translated_query": "4.4 Map comparing the road network of Hanoi with three other cities Map 4.4",
+    "raw_model_output": "4.4 Map comparing the road network of Hanoi with three other cities"
+  },
+  "A32": {
+    "original_query": "Theo Hình O.2, tỷ lệ dân số trên 65 tuổi tăng từ bao nhiêu năm 2015 lên bao nhiêu năm 2035?",
+    "translated_query": "The percentage of the population aged 65 and over increases from which year to 2035?",
+    "raw_model_output": "The percentage of the population aged 65 and over increases from which year to 2035?"
+  },
+  "A33": {
+    "original_query": "Theo Hình O.4, ba kịch bản tăng GDP bình quân đầu người 5%, 6% và 7% đưa mức năm 2035 đến khoảng bao nhiêu?",
+    "translated_query": "What are the GDP per capita targets for 2035 under a 5%, 6%, and 7% growth scenario based on Figure O.4?",
+    "raw_model_output": "What are the GDP per capita targets for 2035 under a 5%, 6%, and 7% growth scenario based on Figure O.4?"
+  },
+  "A34": {
+    "original_query": "Hình 4.10 cho biết năm 2009 nhóm thành phố trên 2 triệu dân chiếm bao nhiêu phần trăm dân số Việt Nam?",
+    "translated_query": "What percentage of Vietnam's population did the urban areas with a population over 2 million have in 2009? Figure 4.10",
+    "raw_model_output": "What percentage of Vietnam's population did the urban areas with a population over 2 million have in 2009?"
+  },
+  "A35": {
+    "original_query": "Trong Hình 5.1, hộ gia đình và dịch vụ lần lượt chiếm bao nhiêu phần trăm sử dụng nước?",
+    "translated_query": "What percentage of water use is accounted for by households and services in Figure 5.1? Figure 5.1",
+    "raw_model_output": "What percentage of water use is accounted for by households and services in Figure 5.1?"
+  },
+  "A36": {
+    "original_query": "Theo Hình 6.35, xu hướng tỷ lệ người cao tuổi so với dân số trong độ tuổi lao động sau 2015 là gì?",
+    "translated_query": "What is the trend in the ratio of elderly population to working-age population after 2015 as shown in Figure 6.35? Figure 6.35",
+    "raw_model_output": "What is the trend in the ratio of elderly population to working-age population after 2015 as shown in Figure 6.35?"
+  },
+  "A37": {
+    "original_query": "Kết hợp kịch bản tăng trưởng và đô thị hóa: mức tăng GDP bình quân đầu người tối thiểu nào giúp đạt 18.000 USD năm 2035, và đô thị hiện đóng góp bao nhiêu GDP quốc gia?",
+    "translated_query": "What is the minimum average GDP per capita growth rate needed to reach $18,000 in GDP by 2035, and what percentage of GDP does urbanization contribute?",
+    "raw_model_output": "What is the minimum average GDP per capita growth rate needed to reach $18,000 in GDP by 2035, and what percentage of GDP does urbanization contribute?"
+  },
+  "A38": {
+    "original_query": "Đối chiếu hạ tầng logistics và khu công nghiệp: hạ tầng LPI của Việt Nam năm 2014 xếp hạng bao nhiêu, và tỷ lệ lấp đầy bình quân của 212 khu đang hoạt động là bao nhiêu?",
+    "translated_query": "Compare logistics infrastructure and industrial park infrastructure: What is the ranking of Vietnam's logistics infrastructure in 2014, and what is the average fill rate of the 212 industrial parks currently operating?",
+    "raw_model_output": "Compare logistics infrastructure and industrial park infrastructure: What is the ranking of Vietnam's logistics infrastructure in 2014, and what is the average fill rate of the 212 industrial parks currently operating?"
+  },
+  "A39": {
+    "original_query": "So sánh hai thay đổi nhân khẩu học đến 2035: tỷ lệ dân số trên 65 tuổi và tỷ lệ phụ thuộc người cao tuổi đạt bao nhiêu?",
+    "translated_query": "Compare two demographic changes to 2035: elderly population ratio and elderly dependency ratio reach what percentage?",
+    "raw_model_output": "Compare two demographic changes to 2035: elderly population ratio and elderly dependency ratio reach what percentage?"
+  },
+  "A40": {
+    "original_query": "Kết hợp dữ liệu đất đô thị và giao thông: năm 2015 đất đô thị chiếm bao nhiêu phần trăm diện tích, còn đường chính và phụ quanh trung tâm Hà Nội chiếm bao nhiêu phần trăm diện tích?",
+    "translated_query": "What percentage of land area in 2015 was occupied by urban land, and what percentage of the total land area around the central district of Hanoi was made up of main roads and secondary roads?",
+    "raw_model_output": "What percentage of land area in 2015 was occupied by urban land, and what percentage of the total land area around the central district of Hanoi was made up of main roads and secondary roads?"
+  },
+  "A41": {
+    "original_query": "Bốn biểu hiện hiện đại hóa kinh tế được báo cáo liệt kê là gì?",
+    "translated_query": "What are the four indicators of modernization economics as reported?",
+    "raw_model_output": "What are the four indicators of modernization economics as reported?"
+  },
+  "A42": {
+    "original_query": "Vì sao tăng trưởng khu vực tư nhân trong nước bị suy giảm năng suất theo báo cáo?",
+    "translated_query": "Why has private sector growth in the country experienced a decline in productivity as per the report?",
+    "raw_model_output": "\"Why has private sector growth in the country experienced a decline in productivity as per the report?\""
+  },
+  "A43": {
+    "original_query": "Ba thuộc tính kết nối được báo cáo nêu để tham gia chuỗi giá trị là gì?",
+    "translated_query": "What are the three attributes that connect to report the three characteristics of value chain?",
+    "raw_model_output": "What are the three attributes that connect to report the three characteristics of value chain?"
+  },
+  "A44": {
+    "original_query": "Một trung tâm chính phủ được tăng cường có ba chức năng chính nào theo phần diễn giải?",
+    "translated_query": "Government center strengthened with three main functions explained",
+    "raw_model_output": "\"Government center strengthened with three main functions explained\""
+  },
+  "A45": {
+    "original_query": "Bảng 4.1 cho biết diện tích đất đô thị riêng của Đà Nẵng năm 2015 là bao nhiêu?",
+    "translated_query": "What is the area of urban land in Da Nang, Vietnam in 2015, as shown in Table 4.1? Table 4.1",
+    "raw_model_output": "What is the area of urban land in Da Nang, Vietnam in 2015, as shown in Table 4.1?"
+  },
+  "A46": {
+    "original_query": "Báo cáo dự báo tỷ giá USD/VND chính xác vào ngày 1/1/2035 là bao nhiêu?",
+    "translated_query": "What is the accurate USD to VND exchange rate forecasted for January 1, 2035?",
+    "raw_model_output": "What is the accurate USD to VND exchange rate forecasted for January 1, 2035?"
+  },
+  "A47": {
+    "original_query": "Hình O.2 cho biết dân số trên 65 tuổi của riêng tỉnh Lào Cai năm 2035 là bao nhiêu?",
+    "translated_query": "Hình O.2 cho biết dân số trên 65 tuổi của riêng tỉnh Lào Cai năm 2035 là bao nhiêu?",
+    "raw_model_output": "Hình O.2 cho biết dân số trên 65 tuổi của riêng tỉnh Lào Cai năm 2035 là bao nhiêu?"
+  },
+  "A48": {
+    "original_query": "Bản đồ 4.2 cho biết giá thuê đất mỗi mét vuông của KCN Dầu Giây là bao nhiêu?",
+    "translated_query": "What is the rental rate per square meter of land in the Dầu Giây Industrial Park according to Map 4.2? Map 4.2",
+    "raw_model_output": "What is the rental rate per square meter of land in the Dầu Giây Industrial Park according to Map 4.2?"
+  },
+  "A49": {
+    "original_query": "Báo cáo nêu lượng điện tiêu thụ của từng trung tâm dữ liệu AI tại Việt Nam năm 2035 là bao nhiêu?",
+    "translated_query": "What is the electricity consumption of each AI data center in Vietnam in 2035 as stated in the report?",
+    "raw_model_output": "What is the electricity consumption of each AI data center in Vietnam in 2035 as stated in the report?"
+  },
+  "A50": {
+    "original_query": "Bảng 7.1 cho biết mức lương trung vị của công chức trên 50 tuổi năm 2012 là bao nhiêu?",
+    "translated_query": "What was the median salary of civil servants over 50 years old in 2012? Table 7.1",
+    "raw_model_output": "What was the median salary of civil servants over 50 years old in 2012?"
+  }
+}

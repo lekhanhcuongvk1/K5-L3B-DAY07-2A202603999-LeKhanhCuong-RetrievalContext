@@ -1,0 +1,170 @@
+[
+  {
+    "query_id": "B22",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B23",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B24",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B26",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B27",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B28",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng vì corpus không có evidence."
+  },
+  {
+    "query_id": "B29",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng vì corpus không có evidence."
+  },
+  {
+    "query_id": "B30",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng vì corpus không có evidence."
+  },
+  {
+    "query_id": "B25",
+    "config_id": "bm25_selected",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B22",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B23",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B24",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B25",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B26",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B27",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": false,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng đáp án và citation."
+  },
+  {
+    "query_id": "B28",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng vì corpus không có evidence."
+  },
+  {
+    "query_id": "B29",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng vì corpus không có evidence."
+  },
+  {
+    "query_id": "B30",
+    "config_id": "dense_baseline",
+    "pass": true,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Từ chối đúng vì corpus không có evidence."
+  }
+]

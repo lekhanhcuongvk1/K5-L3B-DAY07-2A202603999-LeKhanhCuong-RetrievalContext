@@ -88,6 +88,11 @@ CP3 đã so sánh dense, BM25 và hybrid RRF trên toàn Dev, thử nhiều cấ
 thiện, index toàn bộ báo cáo 409 trang và khóa riêng cấu hình Base/Advanced trước
 Test. Kết quả, phân tích lỗi và quy tắc context nằm trong [`docs/CP3.md`](docs/CP3.md).
 
+CP4 đã chạy cấu hình khóa trên Test. Base đạt 9/9 cho cả dense baseline và BM25
+đã chọn. Advanced đạt 22/30 sau khi chấm tay từng câu theo PDF gốc, chưa đạt
+ngưỡng bonus 27/30; kết quả không được chỉnh lại bằng Test. Metrics, lỗi và lệnh
+tái lập nằm trong [`docs/CP4.md`](docs/CP4.md).
+
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
