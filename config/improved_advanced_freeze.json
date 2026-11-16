@@ -1,0 +1,26 @@
+{
+  "freeze_id": "advanced-pipeline-v2-before-independent-test",
+  "selection_split": "dev",
+  "selected_config": {
+    "retrieval": "multi-query hybrid RRF",
+    "per_query_top_k": 15,
+    "fused_top_k": 24,
+    "facet_priority_depth": 5,
+    "context_budget_chars": 18000,
+    "context_selection": "facet-round-robin candidates then previous/same/next page expansion",
+    "answer_validation": "requirement coverage with one format-only repair on malformed JSON"
+  },
+  "dev_result": {
+    "passed": 20,
+    "n": 20
+  },
+  "independent_test_created_at_freeze": false,
+  "independent_test_run_count_at_freeze": 0,
+  "files_sha256": {
+    "src/advanced_pipeline.py": "595acdd8d38356d2e873b939d798b62fad54e2562cc2c276bd743277b160f118",
+    "scripts/run_improved_advanced_dev.py": "767956ebb739bf20924e09360a26385d34e89b809e67663babbc779fe4b80489",
+    "artifacts/improvement/advanced_dev_v2/query_plans.json": "547fc9389b2da904b7cbce46740c5435cd7b702c954128343ff0db1cd05af65f",
+    "artifacts/improvement/advanced_dev_v2/traces.json": "b7d710273e0eb65d88bf01c72ab83a7db1df84ea2c5a9255fe9454a20fff2ff4",
+    "artifacts/improvement/advanced_dev_v2/reviews.json": "47f872b37e2486c20d86d26bbb70e357755bc006544269f5159203194be221be"
+  }
+}

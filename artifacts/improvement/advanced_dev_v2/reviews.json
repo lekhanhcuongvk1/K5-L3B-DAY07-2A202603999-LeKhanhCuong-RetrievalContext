@@ -1,0 +1,22 @@
+[
+  {"query_id":"A01","pass":true,"citation_support":[true,true,true],"reason":"Đúng LPI tổng thể 48 và hạ tầng 44."},
+  {"query_id":"A02","pass":true,"citation_support":[true],"reason":"Đúng số đô thị tăng từ 420 lên 775."},
+  {"query_id":"A03","pass":true,"citation_support":[true],"reason":"Đúng tổng chi phí 780 triệu USD."},
+  {"query_id":"A04","pass":true,"citation_support":[true],"reason":"Đúng 10,6% lên 22,0% và chênh 11,4 điểm phần trăm."},
+  {"query_id":"A05","pass":true,"citation_support":[true,true],"reason":"Đúng Hà Nội và TP.HCM; thông tin bổ sung được citation hỗ trợ."},
+  {"query_id":"A06","pass":true,"citation_support":[true,true],"reason":"Đúng Hà Nội; các tỷ lệ so sánh bổ sung có trong citation."},
+  {"query_id":"A07","pass":true,"citation_support":[true],"reason":"Đủ ba chức năng đầu của Hình 7.12."},
+  {"query_id":"A08","pass":true,"citation_support":[true],"reason":"Đúng nông nghiệp 81% và công nghiệp 15%."},
+  {"query_id":"A09","pass":true,"citation_support":[true,true],"reason":"Đúng mức tăng 5,6 điểm phần trăm."},
+  {"query_id":"A10","pass":true,"citation_support":[true,true],"reason":"Đúng tỷ lệ phụ thuộc 9,6 lên 21,7."},
+  {"query_id":"A11","pass":true,"citation_support":[true,true,true],"reason":"Đủ 15,5 triệu người trên 65 tuổi và tỷ lệ phụ thuộc 21,7; nêu thêm giá trị làm tròn 22 có citation."},
+  {"query_id":"A12","pass":true,"citation_support":[true,true,true],"reason":"Đúng hơn 30 triệu dân đô thị và gần hai giờ cho 40 km; dùng evidence thay thế hợp lệ cùng tài liệu."},
+  {"query_id":"A13","pass":true,"citation_support":[true,true],"reason":"Đúng khoảng 80% nước cho nông nghiệp và rừng nguyên sinh giảm 79%, không thêm quan hệ nhân quả."},
+  {"query_id":"A14","pass":true,"citation_support":[true,true,true],"reason":"Đủ bốn hướng cải cách năng suất."},
+  {"query_id":"A15","pass":true,"citation_support":[true,true,true],"reason":"Đủ bốn nền tảng trong Hộp 3.1."},
+  {"query_id":"A16","pass":true,"citation_support":[true],"reason":"Đúng định nghĩa hiệu quả chính phủ."},
+  {"query_id":"A17","pass":true,"citation_support":[true],"reason":"Đúng 8% khi không và 25% khi có hỗ trợ quốc tế."},
+  {"query_id":"A18","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Từ chối đúng; báo cáo không có ngân sách metro Hà Nội tuyến 5."},
+  {"query_id":"A19","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Từ chối đúng; báo cáo không có giá VN-Index ngày được hỏi."},
+  {"query_id":"A20","pass":true,"abstention_correct":true,"citation_support":[],"reason":"Từ chối đúng; báo cáo không thể có người đoạt Nobel năm 2035."}
+]

@@ -39,6 +39,22 @@ text phân tán. Test đã mở nên không tiếp tục chỉnh pipeline rồi 
 Test. Một vòng cải thiện hợp lệ cần tạo test mới hoặc giữ kết quả này làm đánh
 giá cuối và chỉ phân tích lỗi.
 
+## Thử nghiệm cải thiện sau đánh giá
+
+Sau lần đánh giá đầu, tôi chỉ dùng A21–A50 để phân tích lỗi. Pipeline cải thiện
+dùng nhiều truy vấn kết hợp hybrid RRF, ưu tiên kết quả của từng vế, mở rộng sang
+trang lân cận và kiểm tra xem context đã đủ các ý cần trả lời hay chưa. Cấu hình
+được chọn lại trên Dev, đạt `20/20`, rồi khóa tại
+`config/improved_advanced_freeze.json`.
+
+Test v2 độc lập gồm 30 câu mới được tạo và khóa trước lần chạy đầu tiên tại
+`advanced/benchmark_v2/`. Kết quả chấm tay là: bảng `5/6`, ảnh/sơ đồ `4/5`, biểu
+đồ `5/5`, multi-hop `1/4`, text `4/4`, thiếu bằng chứng `6/6`; tổng `25/30`
+(`83,3%`). Kết quả cao hơn lần đầu nhưng vẫn dưới ngưỡng `27/30`, nên bài không
+tuyên bố nhận bonus. Một cấu hình mở rộng tiếp theo cho kết quả Dev kém ổn định
+hơn nên không được chọn và cũng không được chạy trên Test mới. Pipeline v2 cùng
+checksum được giữ làm phiên bản cuối.
+
 ## Tái lập
 
 ```powershell
@@ -47,6 +63,8 @@ python scripts/run_cp4_base_test.py
 python scripts/run_cp4_advanced_test.py
 python scripts/summarize_cp4.py
 python scripts/validate_cp4.py
+python scripts/run_improved_advanced_dev.py
+python scripts/run_independent_advanced_test.py
 ```
 
 Các runner có resume theo `query_id`/cấu hình. API gateway chỉ trả token usage,

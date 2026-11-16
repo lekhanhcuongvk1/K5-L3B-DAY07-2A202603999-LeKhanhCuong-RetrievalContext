@@ -1,0 +1,620 @@
+{
+  "benchmark_id": "vietnam-2035-independent-v2",
+  "created_after_pipeline_freeze": true,
+  "test_policy": "sealed_until_v2_pipeline_freeze",
+  "questions": [
+    {
+      "id": "N01",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 2.1, tăng trưởng GDP bình quân năm giảm từ mức nào giai đoạn 1991–2000 xuống mức nào giai đoạn 2001–13?",
+      "expected_answer": "Từ 7,6% xuống 6,6%",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 166,
+          "region": "Table 2.1 GDP growth row",
+          "evidence_excerpt": "128 V I E T N A M 2 0 3 5\nTABLE 2.1 Sources of growth in Vietnam, 1990–2013 Percent\n1991–2000 2001–13\nAverage annual GDP growth 7.6 6.6 Labor productivity growth 5.2 3.8 Labor force growth 2.2 2.7\nDeterminants of labor productivity growth\nContributions of within-sector productivity and structural transformation\nWithin-sector labor productivity 99.8 37 Structural transformation 0.2 63 Contributions by factors of production to labor productivity a\nCapital deepening (growth of capital–output ratio) −3 59 Human capital 30 40 Total factor productivity 72 0\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. a. Annex 2B, using the scenario with increasing value of α.\nTABLE 2.2 Sectoral GDP and productivity growth, 1990–2035 Percent\nWholesale and\nFinance and\nPeriod Agriculture Mining Manufacturing\nPublic utilities Construction\nretail trade\nreal estate\nOther services Aggregate\nGDP growth 1990–2000 3.9 7.6 10.3 11.1 8.9 7.4 6.8 4.5 7.6 2000–13 3.5 2.3 9.9 10.6 8.1 7.8 5.7 10.4 6.6 2013–35 (projected) 2.9 2.7 7.9 3.0 6.8 7.0 6.4 6.5 6.1\nLabor force growth 1990–2000 1.5 −1.9 3.4 0.6 3.4 6.7 3.9 2.9 2.2 2000–13 0.1 2.7 6.9 15.9 10.4 5.5 10.0 5.6 2.7 2013–35 (projected) −2.6 0.5 2.9 −1.1 3.0 2.1 2.2 1.3 0.4\nLabor productivity growth 1990–2000 2.7 17.1 7.1 11.0 6.3 0.1 4.1 1.6 5.2 2000–13 3.4 −0.4 2.8 −4.6 −2.1 2.1 −4.0 4.6 3.8 2013–35 (projected) 5.6 2.3 4.9 4.1 3.7 4.8 4.3 5.1 5.6\nSource: Calculations and projections based on the General Statistics Oﬃ ce of Vietnam.\nby 2014, their asset productivity had fallen to less than half that of Chinese nonpublic ﬁ rms.\nGiven its hesitant emergence, Vietnam’s much lower entrepreneurial conﬁ dence than many of its developing-country peers is hardly surprising (box 2.4).",
+          "verification_terms": [
+            "Average annual GDP growth",
+            "7.6",
+            "6.6"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N02",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 3.1, Việt Nam xếp hạng GCI 2015–16 bao nhiêu và đạt điểm số nào?",
+      "expected_answer": "Hạng 56, điểm 4,30",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 210,
+          "region": "Table 3.1 Vietnam row",
+          "evidence_excerpt": "R&D Vietnam does not publish reliable, inter- nationally comparable statistics on gross expenditure for research and development (GERD) or subcomponents—itself a policy gap to be closed. The best estimates of comparable GERD ﬁ gures put spending at about 0.3 percent of GDP.1 This is low and inadequate, worsened because the majority of spending is for staff salaries at govern- ment research institutes (GRIs). Perhaps three-fourths of these staff members may not be directly involved in research. This means that Vietnam is only spending about $1 per person a year on science and tech- nology (S&T). Advanced Organisation for Economic Co-operation and Development (OECD) countries may spend closer to $1,000 per person.\nCompetitiveness Crude measures of Vietnam’s innovation capacity—its ability to identify, adapt, or\nTABLE 3.1 V ietnam’s ability to identify, adapt, and invent new technologies and to become more productive and diversify into new goods is weak\nCountry GCI 2015–16 rank (of 140) Score (1–7) GCI 2014–15 rank (of 148)\nUnited States 3 5.61 3 Taiwan, China 14 5.28 14 Malaysia 18 5.23 20 Korea, Rep. 26 4.99 26 China 28 4.89 28 Thailand 32 4.64 31 Chile 35 4.58 33 Vietnam 56 4.30 68 Mexico 57 4.29 61 Brazil 75 4.08 57 India 55 4.31 71\nSource: World Economic Forum 2015. Note: GCI = Global Competitiveness Index.",
+          "verification_terms": [
+            "Vietnam 56 4.30 68"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N03",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 3.7, tổng số giảng viên tăng từ bao nhiêu năm 2005 lên bao nhiêu năm 2012?",
+      "expected_answer": "Từ 48.266 lên 87.317",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 231,
+          "region": "Table 3.7 total row",
+          "evidence_excerpt": "These goals imply greater freedom for individ- ual institutions and measures that create a climate of competition among and within institutions. The government set the following targets for education: Increase revenue from S&T activities to 15 percent of total university revenue by 2010 and to 25 percent by 2020. Increase the proportion of university teach- ing staff with a master’s degree to 40 percent by 2010 and to 60 percent by 2020. Increase the share of university teaching staff with a doctoral degree to 25 percent by 2010 and to 35 percent by 2020. Reduce the ratio of university students to teaching staff to 20:1 by 2020.\nQuality and efficiency goals include lowering teacher–student ratios, revising entrance exams, training teachers better, and improving teaching methods. They also include developing research at universities that broaden teachers’ scholarship, transforming selected institutions into teaching and\nTABLE 3.7 University faculty have improved qualifi cations, with one in six faculty now having a doctorate and more than half a master’s degree (number of faculty by qualifi cation)\n2005 2010 2011 2012\nColleges 13,972 23,622 24,437 25,643 Doctor 293 586 633 693 Master 3,422 7509 8766 10015 University/college degrees 57 14939 14696 14714 Other qualiﬁ cations 10,200 588 342 221 Universities 34,294 50,951 59,672 61,674 Doctor 5,744 7,338 8,519 8,869 Master 12,609 23,299 28,037 29,476 University/college degrees 15,732 20,059 22,547 23,002 Other qualiﬁ cations 209 255 569 327 Total 48,266 74,573 84,109 87,317\nSource: Ministry of Education and Training 2013.",
+          "verification_terms": [
+            "Total 48,266 74,573 84,109 87,317"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N04",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 6.1, tử vong trẻ sơ sinh trên 1.000 ca sinh sống giảm từ bao nhiêu năm 1993 xuống bao nhiêu khoảng năm 2012?",
+      "expected_answer": "Từ 33 xuống 19",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 323,
+          "region": "Table 6.1 infant mortality row",
+          "evidence_excerpt": "P R O M O T I N G E Q U I T Y A N D S O C I A L I N C L U S I O N 285\nTABLE 6.1 Vietnam has experience dramatic improvements in a range of social indicators\n1993 Circa 2012\nEducation Percentage of 15–24-year-olds who have not completed primary school 24 6 Primary enro llment r ate (net)\nFemale 87 93 Male 86 92 Lower secondary enrollment rate (net)\nFemale 29 83 Male 31 80 Upper secondary enrollment rate (net)\nFemale 6 64 Male 8 56\nHealth Infant mortality (per 1,000 live births) 33 19 Under-5 mortality (per 1,000 live births) 45 24 Incidence of stunting (low height for age), Under-5 61 23 Incidence of underweight (low weight for age), Under-5 37 12 Life expectancy at birth (years) 71 76\nAccess to household infrastructure Percentage using electricity as main source of lighting 48 98 Percentage with access to an improved water source 67 95 Rural 60 94 Urban 91 98 Percentage with access to clean water 70 Rural 17 61 Urban 60 90 Percentage with access to sanitation facilities 43 75 Rural 36 67 Urban 68 93\nOwnership of assets Percentage of households with assets\nTV 22 92 Fan 31 88 Refrigerator 4 49 Car 0 1 Motorbike 11 80\nSources: Vietnam Living Standards Survey 2003, Multiple Indicator Cluster Survey 2011, and Vietnam Household Living Standards Survey 2012.\nSubjective measures show that Vietnam- ese are pleased with public amenities inﬂ u- enced by government policy (ﬁ gure 6.3). The greatest standouts are schools and affordable housing, where Vietnam ranks sixth and third among 143 surveyed countries. Air and water quality are less satisfactory.\nPolicy Issues\nVietnam’s vision for social inclusion in 2035, across the twin agendas, reflects expected changes across six thematic areas:",
+          "verification_terms": [
+            "Infant mortality",
+            "33 19"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N05",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 4.2, tỷ lệ lấp đầy khu công nghiệp của TP.HCM và Hà Nội năm 2013 lần lượt là bao nhiêu?",
+      "expected_answer": "56,4% và 44,7%",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 250,
+          "region": "Table 4.2 city rows",
+          "evidence_excerpt": "212 V I E T N A M 2 0 3 5\nFIGURE 4.7 Productivity is higher in industrial zones than in neighboring cities\n250\n200\n150\n100\n13 km from the city center. But the Tan Phu Trung industrial zone in Cu Chi District was completely unoccupied in 2014; it is 24 km from the city center. Similarly, the Dau Giay industrial zone in Dong Nai Province, 50 km from the center of Ho Chi Minh City, has an occupancy rate of 2.5 percent (map 4.2). Patterns are similar in Hanoi.\nValue added per worker\n50\nHanoi Haiphong Danang Cantho All others\n0 Total Ho Chi Minh City\nTotal industrial zones Total non industrial zones\nSource: World Bank spatial analysis by geo-referencing ﬁ rm-level data for 2011.\nUrban expansion and development of industrial zones led by administrative direc- tive rather than demand is thus unlikely to spur economic growth. That view is but- tressed by using nightlights as a proxy for economic growth: urban expansion over 2000–10 was not a leading indicator for sub- sequent economic growth in 2011–12.\nTABLE 4.2 Occupancy rates of industrial zones with comparable zoning and boundary defi nitions\nCity\nOccupancy rate of industrial zones (%) Year Source\nHo Chi Minh City 56.4 2013 Government\nHanoi 44.7 2013 Government\nDa Nang 49.6 2013 Government\nMetro Manila 90.2 2014 Colliers International\nShanghai 89.8 2014 Colliers International\nBeijing 99.0 2012 Beijing Business News",
+          "verification_terms": [
+            "Ho Chi Minh City 56.4",
+            "Hanoi 44.7"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N06",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "table",
+      "question": "Theo Bảng 2.1, đóng góp của chuyển dịch cơ cấu tăng từ bao nhiêu lên bao nhiêu giữa hai giai đoạn?",
+      "expected_answer": "Từ 0,2% lên 63%",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 166,
+          "region": "Table 2.1 structural transformation row",
+          "evidence_excerpt": "128 V I E T N A M 2 0 3 5\nTABLE 2.1 Sources of growth in Vietnam, 1990–2013 Percent\n1991–2000 2001–13\nAverage annual GDP growth 7.6 6.6 Labor productivity growth 5.2 3.8 Labor force growth 2.2 2.7\nDeterminants of labor productivity growth\nContributions of within-sector productivity and structural transformation\nWithin-sector labor productivity 99.8 37 Structural transformation 0.2 63 Contributions by factors of production to labor productivity a\nCapital deepening (growth of capital–output ratio) −3 59 Human capital 30 40 Total factor productivity 72 0\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. a. Annex 2B, using the scenario with increasing value of α.\nTABLE 2.2 Sectoral GDP and productivity growth, 1990–2035 Percent\nWholesale and\nFinance and\nPeriod Agriculture Mining Manufacturing\nPublic utilities Construction\nretail trade\nreal estate\nOther services Aggregate\nGDP growth 1990–2000 3.9 7.6 10.3 11.1 8.9 7.4 6.8 4.5 7.6 2000–13 3.5 2.3 9.9 10.6 8.1 7.8 5.7 10.4 6.6 2013–35 (projected) 2.9 2.7 7.9 3.0 6.8 7.0 6.4 6.5 6.1\nLabor force growth 1990–2000 1.5 −1.9 3.4 0.6 3.4 6.7 3.9 2.9 2.2 2000–13 0.1 2.7 6.9 15.9 10.4 5.5 10.0 5.6 2.7 2013–35 (projected) −2.6 0.5 2.9 −1.1 3.0 2.1 2.2 1.3 0.4\nLabor productivity growth 1990–2000 2.7 17.1 7.1 11.0 6.3 0.1 4.1 1.6 5.2 2000–13 3.4 −0.4 2.8 −4.6 −2.1 2.1 −4.0 4.6 3.8 2013–35 (projected) 5.6 2.3 4.9 4.1 3.7 4.8 4.3 5.1 5.6\nSource: Calculations and projections based on the General Statistics Oﬃ ce of Vietnam.\nby 2014, their asset productivity had fallen to less than half that of Chinese nonpublic ﬁ rms.\nGiven its hesitant emergence, Vietnam’s much lower entrepreneurial conﬁ dence than many of its developing-country peers is hardly surprising (box 2.4).",
+          "verification_terms": [
+            "Structural transformation 0.2 63"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N07",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Hình 3.4 cho thấy nhà quản lý Việt Nam mạnh ở khía cạnh nào nhưng yếu ở những khía cạnh chính nào?",
+      "expected_answer": "Mạnh về giám sát; yếu về mục tiêu dài hạn, công nghệ/thực hành mới và chính sách nhân sự",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 218,
+          "region": "Figure 3.4 and interpretation",
+          "evidence_excerpt": "Breaking down these management scores, ﬁ gure 3.4 suggests that Vietnam is strong on monitoring. But the country is weak on set- ting long-term targets, introducing new tech- nologies and best practices in operations, and developing human resource policies. Inter- views with firms reveal that many manag- ers meet their targets all the time. Anything less than 100 percent target achievement is unacceptable for senior management. But regardless of forward-thinking and strategic policies, Vietnamese managers emphasize that their principal objective is profit. The focus is always on the short term (Bloom et al. 2015).\nFIGURE 3.4 Managers in Vietnamese fi rms are strong on monitoring but weak on setting long-term targets, introducing new technologies, and reforming human resource policies\nChina\n2.71 2.49 2.90 2.62 2.69\nIndia\n2.61 2.11 2.84 2.59 2.60\n2.37 2.05\nMyanmar\n2.08 2.47\n2.64\nSingapore\n2.86 2.74 3.07 2.79 2.79\nThis is consistent with the report that 84 percent of ﬁ rms surveyed had no technol- ogy adaptation or R&D programs (Rand and Tarp 2012). A longer time horizon express- ing a vision of long-term ﬁ rm and product upgrading is largely absent, as are the human resources for innovation. For example, devel- oping talent is expensive and often unnec- essary because it is perceived to be easy to replace workers and even managers. This creates a gap as active innovation requires a dominance of best practice and a multiyear strategy for the ﬁ rm.\nUnited States\n3.31 3.30 3.55 3.21 3.19\nManagement quality thus becomes an important complement to stimulating R&D.\nVietnam\n2.66 2.55 2.82 2.58 2.62\n1.5 2 2.5 3 3.5 4\nAverage management scores for manufacturing\nOperations Monitoring People Management Targets\nSource: Bloom et al. 2015.",
+          "verification_terms": [
+            "strong on monitoring",
+            "weak on setting long-term targets"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N08",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Hình 2.23 minh họa đặc điểm gì của xuất khẩu điện tử Việt Nam?",
+      "expected_answer": "Hàm lượng nhập khẩu cao, phụ thuộc nhiều vào linh kiện nhập khẩu",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 191,
+          "region": "Figure 2.23 and adjacent text",
+          "evidence_excerpt": "In recent years, Vietnam’s ICT hardware export growth has depended heavily on imported components, more than in com- parator countries (ﬁ gure 2.23). A large share of its hardware exports can be linked to for- eign investors. Production consists mainly of imported intermediate inputs assembly.\nThe challenge now is to move up the GVCs in ICT. Higher value-added activi- ties—particularly design, R&D, and com- ponent production—are attractive over the\nPassenger vehicle production, by contrast, suffers from excessive fragmentation, over- capacity, and lack of supporting industries. This leads to high costs, excess capacity, low- volume production, and low proﬁ tability at most facilities. In 2013, total passenger vehicle production capacity in Vietnam’s 14 assembly plants was about 60 percent of the capacity of a typical plant in a large market such as the United States (Berger 2014). Even so, average capacity use for passenger vehicle assembly in Vietnam is estimated at around 40 percent. Moreover, most parts are imported from high- volume facilities abroad. Because auto parts constitute about 90 percent of the value of ﬁ nished vehicles, Vietnam’s passenger vehicle industry is unlikely to pick up strongly as long as the market suffers low domestic demand and negligible exports.\nFIGURE 2.23 High import content of electronics exports\n100\n80\n60\nPercent\n40\n20\n0\nChina\nPoland\nVietnam\nMalaysia\nThailand\nASEAN–5\nIndonesia\nKorea, Rep.\nSouth Africa Singapore\nPhilippines Rest of the world\nForeign value added share of gross exports\nDomestic value added share of gross exports",
+          "verification_terms": [
+            "High import content of electronics exports",
+            "imported components"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N09",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Thông điệp chính của Hình 4.7 về năng suất trong các khu công nghiệp là gì?",
+      "expected_answer": "Năng suất trong khu công nghiệp cao hơn các thành phố lân cận",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 250,
+          "region": "Figure 4.7 caption",
+          "evidence_excerpt": "212 V I E T N A M 2 0 3 5\nFIGURE 4.7 Productivity is higher in industrial zones than in neighboring cities\n250\n200\n150\n100\n13 km from the city center. But the Tan Phu Trung industrial zone in Cu Chi District was completely unoccupied in 2014; it is 24 km from the city center. Similarly, the Dau Giay industrial zone in Dong Nai Province, 50 km from the center of Ho Chi Minh City, has an occupancy rate of 2.5 percent (map 4.2). Patterns are similar in Hanoi.\nValue added per worker\n50\nHanoi Haiphong Danang Cantho All others\n0 Total Ho Chi Minh City\nTotal industrial zones Total non industrial zones\nSource: World Bank spatial analysis by geo-referencing ﬁ rm-level data for 2011.\nUrban expansion and development of industrial zones led by administrative direc- tive rather than demand is thus unlikely to spur economic growth. That view is but- tressed by using nightlights as a proxy for economic growth: urban expansion over 2000–10 was not a leading indicator for sub- sequent economic growth in 2011–12.\nTABLE 4.2 Occupancy rates of industrial zones with comparable zoning and boundary defi nitions\nCity\nOccupancy rate of industrial zones (%) Year Source\nHo Chi Minh City 56.4 2013 Government\nHanoi 44.7 2013 Government\nDa Nang 49.6 2013 Government\nMetro Manila 90.2 2014 Colliers International\nShanghai 89.8 2014 Colliers International\nBeijing 99.0 2012 Beijing Business News",
+          "verification_terms": [
+            "Productivity is higher in industrial zones than in neighboring cities"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N10",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Hình 4.15 mô tả thay đổi nào sau khi Thái Nguyên đạt đô thị loại I năm 2009?",
+      "expected_answer": "Thu ngân sách địa phương gần như tăng gấp đôi",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 262,
+          "region": "Figure 4.15 caption",
+          "evidence_excerpt": "There are coordination issues between the Ministry of Home Affairs (MOHA), which is responsible for defining the administrative boundary of urban areas, and the Ministry of Construction, which runs the City Classiﬁ cation System (CCS) and is the leading agency of urban planning and management. For example, the merging of the provinces within Hanoi has led to the absorption of rural populations in the Hanoi agglomera- tion. Similarly, the indicators for cities upgraded to Class I reveal deviation from tar- gets related to density, highlighting the sprawling growth in peri-urban areas. Between 2009 and 2011, seven cities attained\nFIGURE 4.15 After receiving Class I status in 2009, Thai Nguyen’s local receipts nearly doubled\n120\n100\nSocioeconomic development plans are one of the most important and are the responsibil- ity of the Ministry of Planning and Investment. They are usually developed every five years, with the latest being the Ninth Five-Year Plan (2011–15). They set goals and detailed production and investment targets across regions and productive sectors of the economy and combine (often without priori- tizing) sector-plan proposals. They are\n80\nTABLE 4.4 Criteria assessment of cities upgraded from Class II to Class I\n60\nCity Year upgraded Population Density (average)\n40\nCan Tho 2008 1,199,817 856/km²\nDa Lat 2007 n.a. n.a.\nVietnamese Dong (millions)\n20\nNha Trang 2007 397,563 30,000/km2 (city center)\n0\nNam Dinh 2010 352,108 5,290/km²\nTay Nguyen 2009 279,689 1,474/km²\nViet Tri 2011 188,564 4,561/km2\n2007 2008 2009 2010 2011 Local receipts Central transfers Attained class I status in 2009\nVinh 2007 305,609 2,911/km2\nSource: Ministry of Finance data and World Bank and Ministry of Planning and Investment calculations.",
+          "verification_terms": [
+            "After receiving Class I status in 2009",
+            "local receipts nearly doubled"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N11",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "image_or_diagram",
+      "question": "Hình 6.27 đặt thành tích học tập quốc tế của Việt Nam trong tương quan nào?",
+      "expected_answer": "Việt Nam đạt điểm cao hơn nhiều nước giàu",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 350,
+          "region": "Figure 6.27",
+          "evidence_excerpt": "Research confirms that the exam-based system of progression makes the path for ambitious students of moderate academic tal- ent and achievement more arduous. Parents sometimes discourage further schooling of students who are having difficulty achiev- ing top or even average grades (Duc and Tam 2013). Social attitudes and policy orientation choose to cast academic upper secondary school as a precious good not to be “wasted” on the less talented. Two problems stand out. First, it is unclear that the traditional deﬁ ni- tion of academic talent and aptitude is either optimal or measured accurately by the exam\nVietnamese schools are extremely good at achieving basic learning outcomes. Stu- dents in the Young Lives study documented learning gains and other characteristics from birth through age 15 for compatible cohorts of children in four countries (Ethiopia, India, Peru, and Vietnam). Children in all four countries show similar levels of cognitive development at age 5, but by age 8, after only three years in school, wide gaps emerge in their performance on standardized tests. At young ages, even the poorest students in Viet- nam outperform the average students in the other three countries, and the gaps widen the longer students are in school.\nFIGURE 6.27 Vietnam excels in international tests, scoring above many rich countries\n600\nSGP HKG KOR\n550\nMAC\nJPN\nCHE\nPOL EST\nVietnam\nDEU AUT NLD CAN\n500\nAUS DNK\nSVN CZE\nLVA PRT\nUSA\nSWE\nHRV\nISR\nROU\nGRC\nSRB\n450\nTUR\nBGR\nARE\nTHA\nCHL\nMean PISA math score\nMNE",
+          "verification_terms": [
+            "Vietnam excels in international tests",
+            "above many rich countries"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N12",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Hình 2.14 cho thấy xu hướng tăng trưởng năng suất lao động từ cuối thập niên 1990 như thế nào?",
+      "expected_answer": "Có xu hướng giảm",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 165,
+          "region": "Figure 2.14",
+          "evidence_excerpt": "E N A B L I N G E C O N O M I C M O D E R N I Z A T I O N A N D P R I V A T E S E C T O R D E V E L O P M E N T 127\nFIGURE 2.14 Labor productivity growth has been on a declining trend since the late 1990s\n8\n7\n6\n5\n4\nPercent\n3\n2\n1\n0\n2001\n2011\n2003\n2013\n1993\n2009\n1999\n2005\n1995\n2007\n1997\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. Note: Three-year moving average.\nwithin sectors, with structural transforma- tion playing a negligible role (table 2.1). The situation reversed in the 2000s as labor pro- ductivity growth declined sharply in a major- ity of economic sectors (table 2.2). But the pace of structural transformation increased with an acceleration in the movement of labor from agriculture to services and industry (see table B2.3.1). In the four sectors dominated by the public sector—mining, construction, public utilities, and ﬁ nance and real estate— labor productivity growth was negative in the latter period. The scenario in table 2.2 also makes clear the sharp turnaround in labor productivity growth needed in each sector if Vietnam is to achieve 6 percent average growth (5 percent per capita growth) in the next two decades. For higher growth trajec- tories, the turnaround needed in labor pro- ductivity growth at the sector level is even more spectacular.\nThese issues included inefficient SOEs, weak and worsening domestic private sec- tor performance, and fragmented, small- holder-dominated agriculture with heavy state involvement.\nWhat Explains the Stagnation in Productivity in Vietnam? Three Primordial Policy and Institutional Issues",
+          "verification_terms": [
+            "Labor productivity growth has been on a declining trend since the late 1990s"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N13",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Hình 5.9 cho thấy loại phương tiện nào dẫn dắt mức tăng sở hữu phương tiện đô thị giai đoạn 2000–11?",
+      "expected_answer": "Xe máy",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 300,
+          "region": "Figure 5.9 and text",
+          "evidence_excerpt": "Growth of transport Fossil fuel consumption has been increasing in transport. Motorcycles have seen the fastest rise over a decade, dominating growth in vehi- cle ownership (ﬁ gure 5.9). In Hanoi, public transportation provides only about 7 percent of passenger trips, and in Ho Chi Minh City around 5 percent. The largest share of motor- cycles nationwide is in cities, with 15 percent in Ho Chi Minh City and 8.5 percent in Hanoi in 2010 (MONRE and MOT 2012). Vehicles in Ho Chi Minh City accounted for one-third of total registered vehicles in Vietnam in 2012 (MONRE 2012).\nVietnam’s iron and steel plants use twice the energy per unit of output as the global average, largely because they use old technology. Getting the price right could improve power-generation technology and could cut carbon dioxide emissions over the next 15 years (World Bank 2015). The coun- try also has a conservative plan to increase the share of electricity produced from wind, bio- mass, and solar between 2010 and 2030. But to move to a more ambitious path, it must\nJudging from international experience, automobile ownership will increase as incomes rise. But motorization rates (the number of automobiles per 1,000 persons) remain below those in other countries at simi- lar income levels, reﬂ ecting higher acquisition costs for automobiles, including import duties and other taxes that are likely to fall with Association of Southeast Asian Nations (ASEAN) integration.\nFIGURE 5.9 Urban areas have seen a rapid increase in motorcycle ownership, 2000–11\nUnderlying Causes and Priority Challenges\n40,000 35,000\n5,000 10,000 15,000 20,000 25,000 30,000\nNumber of motorcycles and\nautomobiles in Vietnam (thousands)\n0 2000 2002 2004 2006 2008 2010\nTotal road vehicles Motorcycles Cars",
+          "verification_terms": [
+            "Motorcycles have seen the fastest rise",
+            "FIGURE 5.9"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N14",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Hình 2.17 so sánh năng suất doanh nghiệp tư nhân trong nước quy mô lớn với doanh nghiệp nhỏ như thế nào?",
+      "expected_answer": "Doanh nghiệp lớn trung bình kém năng suất hơn doanh nghiệp nhỏ",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 168,
+          "region": "Figure 2.17",
+          "evidence_excerpt": "Benefitting from the relatively safe and welcoming environment in Vietnam as well as the many mentioned preferences, foreign- invested ﬁ rms have grown their presence in Vietnam, leading the country’s rapid growth in manufacturing and exports. By 2015, the FDI sector was contributing over half of manufacturing output in over 70 percent of export turnover in Vietnam. But links with domestic firms have been lacking in key sectors, impeding productivity- enhancing\nFIGURE 2.17 Large domestic private fi rms have, on average, been less productive than smaller private fi rms\na. Revenue per unit asset, domestic nonstate\nb. Revenue per employee, domestic nonstate\nsector, by firm size\nsector, by firm size\n700\n3.5\n600\n3.0\n500\n2.5\n400\n2.0\n300\n1.5\n200\n1.0\nRevenue per unit asset\nRevenue per employee\n100\n0.5\n0\n0\n2001\n2003\n2005\n2007\n2009\n2011\n2013\n2001\n2003\n2005\n2007\n2009\n2011\n2013\n<51 employees 101–300 employees 51–100 employees >300 employees\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. Note: Revenue per employee is estimated after controlling for the eﬀ ects of the asset-to-labor ratio and total assets.",
+          "verification_terms": [
+            "FIGURE 2.17",
+            "Large domestic private",
+            "less productive than smaller private"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N15",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Hình 6.38 dự báo chi tiêu lương hưu của Việt Nam thay đổi thế nào trong những năm tới?",
+      "expected_answer": "Hiện thấp nhưng dự kiến tăng nhanh",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 365,
+          "region": "Figure 6.38",
+          "evidence_excerpt": "P R O M O T I N G E Q U I T Y A N D S O C I A L I N C L U S I O N 327\nFI GURE 6.37 Pension coverage should increase as Vietnam moves to upper-middle-income status, 2013\n100\n80\nJapan\n60\nKorea, Rep.\n40\nChina\n20\nVietnam\nShare of working age population covered (%)\n0 0\n1,000 5,000 10,000 2,500 25,000 50,000\nGDP per capita (2011 PPP US$)\nSource: World Bank 2014b.\nand continues to have high replacement rates, a product of high accrual rates in its pension system. This situation will improve somewhat as a result of the 2014 reforms, which reduced annual accrual rates18— though the adjustments only become fully effective from 2022—and still fall short of making the system sustainable. A com- plicating factor is that Vietnamese work- ers have typically contributed against a minimum base salary, so people combine high replacement rates with low abso- lute value of pensions. The 2014 reforms aim to broaden the compensation base on which contributions are levied, but achiev- ing the desired outcome will require sig- niﬁ cant improvements in social insurance administration.\nheavy public subsidies that match worker contributions.\nEven with the 2014 reforms, the current pension system is not sustainable. Prior to the reform, the pension fund was projected to enter into deﬁ cit from 2021 and to have\nVietnam has a high social contribution rate for pensions (table 6.6). In the region, the only country with a higher contribution rate is China, and more competitive parts of China have lower rates (for example, coastal prefectures of Guangdong). Some of its neigh- bors’ lower contribution rates are helped by\nFIGURE 6.38 Vietnam currently has low pension spending, but this is expected to rise quickly in coming years\n20\n18\n16\ny = 0.4362x – 1.0813\nR2 = 0.6867\n14\n12\n10\nJapan\nPhilippines\n8\n6",
+          "verification_terms": [
+            "low pension spending",
+            "expected to rise quickly"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N16",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "chart",
+      "question": "Hình 3.4 ghi điểm giám sát của Việt Nam là bao nhiêu?",
+      "expected_answer": "2,82",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 218,
+          "region": "Figure 3.4 Vietnam monitoring score",
+          "evidence_excerpt": "Breaking down these management scores, ﬁ gure 3.4 suggests that Vietnam is strong on monitoring. But the country is weak on set- ting long-term targets, introducing new tech- nologies and best practices in operations, and developing human resource policies. Inter- views with firms reveal that many manag- ers meet their targets all the time. Anything less than 100 percent target achievement is unacceptable for senior management. But regardless of forward-thinking and strategic policies, Vietnamese managers emphasize that their principal objective is profit. The focus is always on the short term (Bloom et al. 2015).\nFIGURE 3.4 Managers in Vietnamese fi rms are strong on monitoring but weak on setting long-term targets, introducing new technologies, and reforming human resource policies\nChina\n2.71 2.49 2.90 2.62 2.69\nIndia\n2.61 2.11 2.84 2.59 2.60\n2.37 2.05\nMyanmar\n2.08 2.47\n2.64\nSingapore\n2.86 2.74 3.07 2.79 2.79\nThis is consistent with the report that 84 percent of ﬁ rms surveyed had no technol- ogy adaptation or R&D programs (Rand and Tarp 2012). A longer time horizon express- ing a vision of long-term ﬁ rm and product upgrading is largely absent, as are the human resources for innovation. For example, devel- oping talent is expensive and often unnec- essary because it is perceived to be easy to replace workers and even managers. This creates a gap as active innovation requires a dominance of best practice and a multiyear strategy for the ﬁ rm.\nUnited States\n3.31 3.30 3.55 3.21 3.19\nManagement quality thus becomes an important complement to stimulating R&D.\nVietnam\n2.66 2.55 2.82 2.58 2.62\n1.5 2 2.5 3 3.5 4\nAverage management scores for manufacturing\nOperations Monitoring People Management Targets\nSource: Bloom et al. 2015.",
+          "verification_terms": [
+            "Vietnam",
+            "2.82"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N17",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "VAMC được thành lập năm nào, với vốn ban đầu bao nhiêu và tăng lên bao nhiêu vào tháng 4/2015?",
+      "expected_answer": "Năm 2013; 500 tỷ đồng; tăng lên 2 nghìn tỷ đồng",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 182,
+          "region": "Box 2.8",
+          "evidence_excerpt": "144 V I E T N A M 2 0 3 5\nBOX 2.8 Vietnam Asset Management Company\nThe Vietnam Asset Management Company (VAMC) was established in 2013 with a capital of D 500 bil- lion (about US$25 million),a which increased to D 2 trillion in April 2015. The VAMC can buy bad loans from banks at book value or market prices, making purchases with VAMC special zero-interest bonds. A bank can use these bonds to access liquidity from SBV or to reﬁ nance loans through SBV. The bonds must involve annual provisions of 20 percent by the bank on the refinanced loan. If a bank with high NPLs refuses to sell bad debt to the VAMC, SBV can carry out a special inspection or hire an independent auditor to assess the quality of the bank’s assets.\nVAMC likely needs yet more resources beyond those it received when the government quadru- pled its capital to D 2 trillion in Decree 34. It also requires greater ﬂ exibility, with its operating capac- ity and activities widened beyond the current use of the liquidity support approach and supported by changes in laws and regulations. In particular, substantial changes in the legal framework will be needed to strengthen claims enforcement, ease obstacles to voluntary workouts, and increase sales of collateral on the NPLs. Changes in the legal framework will also improve VAMC’s operations (including management of its holdings of assets) and improve its management of collateral on weak bank loans extended to the SOEs.",
+          "verification_terms": [
+            "established in 2013",
+            "500",
+            "2 trillion in April 2015"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N18",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Luật Doanh nghiệp 2005 đã thống nhất điều gì và mở đường cho cột mốc quốc tế nào năm 2007?",
+      "expected_answer": "Thống nhất khung pháp lý giữa các loại hình sở hữu và mở đường gia nhập WTO năm 2007",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 159,
+          "region": "Enterprise Law paragraph",
+          "evidence_excerpt": "The 2005 Enterprise Law marked another mile- stone. For the ﬁ rst time, the regulatory framework for different ownership categories of enterprises was uniﬁ ed. Differentiated legal treatments of SOEs, for- eign direct investment (FDI), and domestic private enterprises were essentially removed. This action paved the way for Vietnam’s accession to the World Trade Organization (WTO) in 2007. Protection of the rights and freedom to do business also improved with the 2005 Enterprise Law, which nulliﬁ ed all licenses and business conditions that were not speci- ﬁ ed in laws, ordinances, or decrees as of September 1, 2008. The 2005 Enterprise Law was recently replaced by the 2014 Enterprise Law, which removed the overlaps between the 2005 Enterprise Law and the 2005 Investment Law. The new law further simpli- ﬁ ed business licenses, introduced online business registration, and moved regulations on corporate governance closer to international practice.\nIn the 1990s private enterprises were still the subject of “socialist rehabilitation” and were only allowed to do business in areas stipulated by law. And starting and operating a formal private busi- ness was not made easy. To establish a business, pri- vate entrepreneurs needed to acquire a license from the provincial planning committee, after securing approval from the provincial people’s committee. During this process entrepreneurs also had to obtain many sublicenses from different government agen- cies with authorities at several government levels\nFIGURE 2.13 The number of newly registered domestic private companies has risen sharply since the 2000 Enterprise Law\n90\n80\n70\n60\n50\n40\n30\n20\nduring the year (thousands)\n10\nNumber of new firms registered\n0\n2000\n2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014",
+          "verification_terms": [
+            "regulatory framework",
+            "paved the way",
+            "WTO",
+            "2007"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N19",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Nghiên cứu được báo cáo dẫn lại cho thấy thêm một nhà khai thác di động ở châu Phi làm số thuê bao tăng bao nhiêu?",
+      "expected_answer": "57%",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 175,
+          "region": "Competition evidence paragraph",
+          "evidence_excerpt": "With insecure property rights, poorly enforced laws, barriers to entry, and monopolistic restrictions, the profit maxi- mizing firms will tend to have short time horizons and little fixed capital, and will tend to be small scale. The most profitable businesses may be in trade, redistributive activity, or the black market. Large firms with substantial fixed capital will exist only under the umbrella of government protection with substantial subsidies, tariff protection, and payoff to the polity— a mixture hardly conducive to productive efficiency. (North 1990)\nThis section focuses on the microeconomic market economy foundations for creating better enabling conditions for private sector\nWell-functioning markets have shown positive results across the world. In transi- tion economies, ﬁ rms facing more competi- tion have seen faster sales growth (Carlin, Schaffer, and Seabright 2004). In Africa, the entry of an additional mobile phone opera- tor, for example, was found to increase sub- scriptions by 57 percent (Gebreab 2002). Higher markups reduced productivity growth in Jordan and Morocco (Sekkat 2009).",
+          "verification_terms": [
+            "mobile phone opera",
+            "57 percent (Gebreab"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N20",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "text",
+      "question": "Đến năm 2015, khu vực FDI đóng góp bao nhiêu vào sản lượng chế tạo và kim ngạch xuất khẩu?",
+      "expected_answer": "Hơn một nửa sản lượng chế tạo và hơn 70% kim ngạch xuất khẩu",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 168,
+          "region": "FDI contribution paragraph",
+          "evidence_excerpt": "Benefitting from the relatively safe and welcoming environment in Vietnam as well as the many mentioned preferences, foreign- invested ﬁ rms have grown their presence in Vietnam, leading the country’s rapid growth in manufacturing and exports. By 2015, the FDI sector was contributing over half of manufacturing output in over 70 percent of export turnover in Vietnam. But links with domestic firms have been lacking in key sectors, impeding productivity- enhancing\nFIGURE 2.17 Large domestic private fi rms have, on average, been less productive than smaller private fi rms\na. Revenue per unit asset, domestic nonstate\nb. Revenue per employee, domestic nonstate\nsector, by firm size\nsector, by firm size\n700\n3.5\n600\n3.0\n500\n2.5\n400\n2.0\n300\n1.5\n200\n1.0\nRevenue per unit asset\nRevenue per employee\n100\n0.5\n0\n0\n2001\n2003\n2005\n2007\n2009\n2011\n2013\n2001\n2003\n2005\n2007\n2009\n2011\n2013\n<51 employees 101–300 employees 51–100 employees >300 employees\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. Note: Revenue per employee is estimated after controlling for the eﬀ ects of the asset-to-labor ratio and total assets.",
+          "verification_terms": [
+            "over half of manufacturing output",
+            "over 70 percent of export turnover"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N21",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Kết hợp năng lực đổi mới và vai trò FDI: chi R&D ước tính chiếm bao nhiêu GDP, còn FDI đóng góp thế nào cho chế tạo và xuất khẩu năm 2015?",
+      "expected_answer": "Khoảng 0,3% GDP; FDI đóng góp hơn nửa sản lượng chế tạo và hơn 70% xuất khẩu",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 210,
+          "region": "R&D estimate",
+          "evidence_excerpt": "R&D Vietnam does not publish reliable, inter- nationally comparable statistics on gross expenditure for research and development (GERD) or subcomponents—itself a policy gap to be closed. The best estimates of comparable GERD ﬁ gures put spending at about 0.3 percent of GDP.1 This is low and inadequate, worsened because the majority of spending is for staff salaries at govern- ment research institutes (GRIs). Perhaps three-fourths of these staff members may not be directly involved in research. This means that Vietnam is only spending about $1 per person a year on science and tech- nology (S&T). Advanced Organisation for Economic Co-operation and Development (OECD) countries may spend closer to $1,000 per person.\nCompetitiveness Crude measures of Vietnam’s innovation capacity—its ability to identify, adapt, or\nTABLE 3.1 V ietnam’s ability to identify, adapt, and invent new technologies and to become more productive and diversify into new goods is weak\nCountry GCI 2015–16 rank (of 140) Score (1–7) GCI 2014–15 rank (of 148)\nUnited States 3 5.61 3 Taiwan, China 14 5.28 14 Malaysia 18 5.23 20 Korea, Rep. 26 4.99 26 China 28 4.89 28 Thailand 32 4.64 31 Chile 35 4.58 33 Vietnam 56 4.30 68 Mexico 57 4.29 61 Brazil 75 4.08 57 India 55 4.31 71\nSource: World Economic Forum 2015. Note: GCI = Global Competitiveness Index.",
+          "verification_terms": [
+            "0.3 percent of GDP"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 168,
+          "region": "FDI contribution",
+          "evidence_excerpt": "Benefitting from the relatively safe and welcoming environment in Vietnam as well as the many mentioned preferences, foreign- invested ﬁ rms have grown their presence in Vietnam, leading the country’s rapid growth in manufacturing and exports. By 2015, the FDI sector was contributing over half of manufacturing output in over 70 percent of export turnover in Vietnam. But links with domestic firms have been lacking in key sectors, impeding productivity- enhancing\nFIGURE 2.17 Large domestic private fi rms have, on average, been less productive than smaller private fi rms\na. Revenue per unit asset, domestic nonstate\nb. Revenue per employee, domestic nonstate\nsector, by firm size\nsector, by firm size\n700\n3.5\n600\n3.0\n500\n2.5\n400\n2.0\n300\n1.5\n200\n1.0\nRevenue per unit asset\nRevenue per employee\n100\n0.5\n0\n0\n2001\n2003\n2005\n2007\n2009\n2011\n2013\n2001\n2003\n2005\n2007\n2009\n2011\n2013\n<51 employees 101–300 employees 51–100 employees >300 employees\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. Note: Revenue per employee is estimated after controlling for the eﬀ ects of the asset-to-labor ratio and total assets.",
+          "verification_terms": [
+            "over half of manufacturing output",
+            "over 70 percent"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N22",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Kết hợp Bảng 2.1 và Hình 2.14: tăng trưởng năng suất lao động giảm từ bao nhiêu xuống bao nhiêu giữa hai giai đoạn, và xu hướng dài hạn được mô tả thế nào?",
+      "expected_answer": "Từ 5,2% xuống 3,8%; xu hướng giảm từ cuối thập niên 1990",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 166,
+          "region": "Table 2.1",
+          "evidence_excerpt": "128 V I E T N A M 2 0 3 5\nTABLE 2.1 Sources of growth in Vietnam, 1990–2013 Percent\n1991–2000 2001–13\nAverage annual GDP growth 7.6 6.6 Labor productivity growth 5.2 3.8 Labor force growth 2.2 2.7\nDeterminants of labor productivity growth\nContributions of within-sector productivity and structural transformation\nWithin-sector labor productivity 99.8 37 Structural transformation 0.2 63 Contributions by factors of production to labor productivity a\nCapital deepening (growth of capital–output ratio) −3 59 Human capital 30 40 Total factor productivity 72 0\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. a. Annex 2B, using the scenario with increasing value of α.\nTABLE 2.2 Sectoral GDP and productivity growth, 1990–2035 Percent\nWholesale and\nFinance and\nPeriod Agriculture Mining Manufacturing\nPublic utilities Construction\nretail trade\nreal estate\nOther services Aggregate\nGDP growth 1990–2000 3.9 7.6 10.3 11.1 8.9 7.4 6.8 4.5 7.6 2000–13 3.5 2.3 9.9 10.6 8.1 7.8 5.7 10.4 6.6 2013–35 (projected) 2.9 2.7 7.9 3.0 6.8 7.0 6.4 6.5 6.1\nLabor force growth 1990–2000 1.5 −1.9 3.4 0.6 3.4 6.7 3.9 2.9 2.2 2000–13 0.1 2.7 6.9 15.9 10.4 5.5 10.0 5.6 2.7 2013–35 (projected) −2.6 0.5 2.9 −1.1 3.0 2.1 2.2 1.3 0.4\nLabor productivity growth 1990–2000 2.7 17.1 7.1 11.0 6.3 0.1 4.1 1.6 5.2 2000–13 3.4 −0.4 2.8 −4.6 −2.1 2.1 −4.0 4.6 3.8 2013–35 (projected) 5.6 2.3 4.9 4.1 3.7 4.8 4.3 5.1 5.6\nSource: Calculations and projections based on the General Statistics Oﬃ ce of Vietnam.\nby 2014, their asset productivity had fallen to less than half that of Chinese nonpublic ﬁ rms.\nGiven its hesitant emergence, Vietnam’s much lower entrepreneurial conﬁ dence than many of its developing-country peers is hardly surprising (box 2.4).",
+          "verification_terms": [
+            "Labor productivity growth 5.2 3.8"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 165,
+          "region": "Figure 2.14",
+          "evidence_excerpt": "E N A B L I N G E C O N O M I C M O D E R N I Z A T I O N A N D P R I V A T E S E C T O R D E V E L O P M E N T 127\nFIGURE 2.14 Labor productivity growth has been on a declining trend since the late 1990s\n8\n7\n6\n5\n4\nPercent\n3\n2\n1\n0\n2001\n2011\n2003\n2013\n1993\n2009\n1999\n2005\n1995\n2007\n1997\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. Note: Three-year moving average.\nwithin sectors, with structural transforma- tion playing a negligible role (table 2.1). The situation reversed in the 2000s as labor pro- ductivity growth declined sharply in a major- ity of economic sectors (table 2.2). But the pace of structural transformation increased with an acceleration in the movement of labor from agriculture to services and industry (see table B2.3.1). In the four sectors dominated by the public sector—mining, construction, public utilities, and ﬁ nance and real estate— labor productivity growth was negative in the latter period. The scenario in table 2.2 also makes clear the sharp turnaround in labor productivity growth needed in each sector if Vietnam is to achieve 6 percent average growth (5 percent per capita growth) in the next two decades. For higher growth trajec- tories, the turnaround needed in labor pro- ductivity growth at the sector level is even more spectacular.\nThese issues included inefficient SOEs, weak and worsening domestic private sec- tor performance, and fragmented, small- holder-dominated agriculture with heavy state involvement.\nWhat Explains the Stagnation in Productivity in Vietnam? Three Primordial Policy and Institutional Issues",
+          "verification_terms": [
+            "declining trend since the late 1990s"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N23",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Kết hợp dữ liệu xã hội và giao thông: tử vong trẻ sơ sinh giảm từ bao nhiêu xuống bao nhiêu, còn giao thông công cộng chiếm bao nhiêu chuyến đi ở Hà Nội và TP.HCM?",
+      "expected_answer": "33 xuống 19; khoảng 7% ở Hà Nội và 5% ở TP.HCM",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 323,
+          "region": "Table 6.1",
+          "evidence_excerpt": "P R O M O T I N G E Q U I T Y A N D S O C I A L I N C L U S I O N 285\nTABLE 6.1 Vietnam has experience dramatic improvements in a range of social indicators\n1993 Circa 2012\nEducation Percentage of 15–24-year-olds who have not completed primary school 24 6 Primary enro llment r ate (net)\nFemale 87 93 Male 86 92 Lower secondary enrollment rate (net)\nFemale 29 83 Male 31 80 Upper secondary enrollment rate (net)\nFemale 6 64 Male 8 56\nHealth Infant mortality (per 1,000 live births) 33 19 Under-5 mortality (per 1,000 live births) 45 24 Incidence of stunting (low height for age), Under-5 61 23 Incidence of underweight (low weight for age), Under-5 37 12 Life expectancy at birth (years) 71 76\nAccess to household infrastructure Percentage using electricity as main source of lighting 48 98 Percentage with access to an improved water source 67 95 Rural 60 94 Urban 91 98 Percentage with access to clean water 70 Rural 17 61 Urban 60 90 Percentage with access to sanitation facilities 43 75 Rural 36 67 Urban 68 93\nOwnership of assets Percentage of households with assets\nTV 22 92 Fan 31 88 Refrigerator 4 49 Car 0 1 Motorbike 11 80\nSources: Vietnam Living Standards Survey 2003, Multiple Indicator Cluster Survey 2011, and Vietnam Household Living Standards Survey 2012.\nSubjective measures show that Vietnam- ese are pleased with public amenities inﬂ u- enced by government policy (ﬁ gure 6.3). The greatest standouts are schools and affordable housing, where Vietnam ranks sixth and third among 143 surveyed countries. Air and water quality are less satisfactory.\nPolicy Issues\nVietnam’s vision for social inclusion in 2035, across the twin agendas, reflects expected changes across six thematic areas:",
+          "verification_terms": [
+            "Infant mortality",
+            "33 19"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 300,
+          "region": "Transport paragraph",
+          "evidence_excerpt": "Growth of transport Fossil fuel consumption has been increasing in transport. Motorcycles have seen the fastest rise over a decade, dominating growth in vehi- cle ownership (ﬁ gure 5.9). In Hanoi, public transportation provides only about 7 percent of passenger trips, and in Ho Chi Minh City around 5 percent. The largest share of motor- cycles nationwide is in cities, with 15 percent in Ho Chi Minh City and 8.5 percent in Hanoi in 2010 (MONRE and MOT 2012). Vehicles in Ho Chi Minh City accounted for one-third of total registered vehicles in Vietnam in 2012 (MONRE 2012).\nVietnam’s iron and steel plants use twice the energy per unit of output as the global average, largely because they use old technology. Getting the price right could improve power-generation technology and could cut carbon dioxide emissions over the next 15 years (World Bank 2015). The coun- try also has a conservative plan to increase the share of electricity produced from wind, bio- mass, and solar between 2010 and 2030. But to move to a more ambitious path, it must\nJudging from international experience, automobile ownership will increase as incomes rise. But motorization rates (the number of automobiles per 1,000 persons) remain below those in other countries at simi- lar income levels, reﬂ ecting higher acquisition costs for automobiles, including import duties and other taxes that are likely to fall with Association of Southeast Asian Nations (ASEAN) integration.\nFIGURE 5.9 Urban areas have seen a rapid increase in motorcycle ownership, 2000–11\nUnderlying Causes and Priority Challenges\n40,000 35,000\n5,000 10,000 15,000 20,000 25,000 30,000\nNumber of motorcycles and\nautomobiles in Vietnam (thousands)\n0 2000 2002 2004 2006 2008 2010\nTotal road vehicles Motorcycles Cars",
+          "verification_terms": [
+            "Hanoi",
+            "7 percent",
+            "Ho Chi Minh City",
+            "5 percent"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N24",
+      "split": "test",
+      "answerable": true,
+      "primary_group": "multi_hop",
+      "question": "Kết hợp giáo dục đại học và đổi mới: tổng số giảng viên năm 2012 là bao nhiêu, trong khi chi R&D ước tính chiếm bao nhiêu GDP?",
+      "expected_answer": "87.317 giảng viên và khoảng 0,3% GDP",
+      "gold": [
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 231,
+          "region": "Table 3.7",
+          "evidence_excerpt": "These goals imply greater freedom for individ- ual institutions and measures that create a climate of competition among and within institutions. The government set the following targets for education: Increase revenue from S&T activities to 15 percent of total university revenue by 2010 and to 25 percent by 2020. Increase the proportion of university teach- ing staff with a master’s degree to 40 percent by 2010 and to 60 percent by 2020. Increase the share of university teaching staff with a doctoral degree to 25 percent by 2010 and to 35 percent by 2020. Reduce the ratio of university students to teaching staff to 20:1 by 2020.\nQuality and efficiency goals include lowering teacher–student ratios, revising entrance exams, training teachers better, and improving teaching methods. They also include developing research at universities that broaden teachers’ scholarship, transforming selected institutions into teaching and\nTABLE 3.7 University faculty have improved qualifi cations, with one in six faculty now having a doctorate and more than half a master’s degree (number of faculty by qualifi cation)\n2005 2010 2011 2012\nColleges 13,972 23,622 24,437 25,643 Doctor 293 586 633 693 Master 3,422 7509 8766 10015 University/college degrees 57 14939 14696 14714 Other qualiﬁ cations 10,200 588 342 221 Universities 34,294 50,951 59,672 61,674 Doctor 5,744 7,338 8,519 8,869 Master 12,609 23,299 28,037 29,476 University/college degrees 15,732 20,059 22,547 23,002 Other qualiﬁ cations 209 255 569 327 Total 48,266 74,573 84,109 87,317\nSource: Ministry of Education and Training 2013.",
+          "verification_terms": [
+            "Total 48,266 74,573 84,109 87,317"
+          ]
+        },
+        {
+          "source_id": "vietnam-2035-world-bank-2016",
+          "physical_pdf_page": 210,
+          "region": "R&D estimate",
+          "evidence_excerpt": "R&D Vietnam does not publish reliable, inter- nationally comparable statistics on gross expenditure for research and development (GERD) or subcomponents—itself a policy gap to be closed. The best estimates of comparable GERD ﬁ gures put spending at about 0.3 percent of GDP.1 This is low and inadequate, worsened because the majority of spending is for staff salaries at govern- ment research institutes (GRIs). Perhaps three-fourths of these staff members may not be directly involved in research. This means that Vietnam is only spending about $1 per person a year on science and tech- nology (S&T). Advanced Organisation for Economic Co-operation and Development (OECD) countries may spend closer to $1,000 per person.\nCompetitiveness Crude measures of Vietnam’s innovation capacity—its ability to identify, adapt, or\nTABLE 3.1 V ietnam’s ability to identify, adapt, and invent new technologies and to become more productive and diversify into new goods is weak\nCountry GCI 2015–16 rank (of 140) Score (1–7) GCI 2014–15 rank (of 148)\nUnited States 3 5.61 3 Taiwan, China 14 5.28 14 Malaysia 18 5.23 20 Korea, Rep. 26 4.99 26 China 28 4.89 28 Thailand 32 4.64 31 Chile 35 4.58 33 Vietnam 56 4.30 68 Mexico 57 4.29 61 Brazil 75 4.08 57 India 55 4.31 71\nSource: World Economic Forum 2015. Note: GCI = Global Competitiveness Index.",
+          "verification_terms": [
+            "0.3 percent of GDP"
+          ]
+        }
+      ],
+      "grading": "All stated values/conditions must be correct and supported by every required gold region."
+    },
+    {
+      "id": "N25",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Bảng 2.1 cho biết GDP của riêng tỉnh Quảng Ninh năm 2013 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Bảng chỉ có số liệu tăng trưởng cấp quốc gia.",
+      "absence_check": {
+        "scope": "all_409_physical_pages"
+      }
+    },
+    {
+      "id": "N26",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Hình 5.9 dự báo chính xác số ô tô điện tại Hà Nội năm 2035 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Hình không dự báo ô tô điện theo thành phố năm 2035.",
+      "absence_check": {
+        "scope": "all_409_physical_pages"
+      }
+    },
+    {
+      "id": "N27",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Báo cáo cho biết giá cổ phiếu VAMC ngày 31/12/2015 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "VAMC không được trình bày như cổ phiếu niêm yết và báo cáo không có giá này.",
+      "absence_check": {
+        "scope": "all_409_physical_pages"
+      }
+    },
+    {
+      "id": "N28",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Bảng 3.7 cho biết mức lương trung bình của từng giảng viên năm 2012 là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Bảng chỉ có số lượng theo trình độ.",
+      "absence_check": {
+        "scope": "all_409_physical_pages"
+      }
+    },
+    {
+      "id": "N29",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Hình 6.27 cho biết điểm PISA của riêng học sinh tỉnh Huế là bao nhiêu?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Hình so sánh cấp quốc gia, không có số liệu tỉnh Huế.",
+      "absence_check": {
+        "scope": "all_409_physical_pages"
+      }
+    },
+    {
+      "id": "N30",
+      "split": "test",
+      "answerable": false,
+      "primary_group": "unanswerable",
+      "question": "Báo cáo dự báo tên doanh nghiệp xuất khẩu điện tử lớn nhất Việt Nam năm 2035 là gì?",
+      "expected_behavior": "search_then_abstain_without_unsupported_claims",
+      "absence_reason": "Báo cáo không đưa dự báo doanh nghiệp cụ thể cho năm 2035.",
+      "absence_check": {
+        "scope": "all_409_physical_pages"
+      }
+    }
+  ]
+}

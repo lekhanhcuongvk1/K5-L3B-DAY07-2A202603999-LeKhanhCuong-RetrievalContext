@@ -1,0 +1,549 @@
+{
+  "N01": {
+    "requirements": [
+      "Theo Bảng 2.1, tăng trưởng GDP bình quân năm giảm từ mức nào giai đoạn 1991–2000 xuống mức nào giai đoạn 2001–13"
+    ],
+    "queries": [
+      "What was the average annual GDP growth rate from the period 1991-2000 to the period 2001-2013 as shown in Table 2.1?",
+      "GDP bình quân hàng năm giảm từ mức nào trong giai đoạn 1991-2000 xuống mức nào trong giai đoạn 2001-2013? Bảng 2.1"
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng 2.1, tăng trưởng GDP bình quân năm giảm từ mức nào giai đoạn 1991–2000 xuống mức nào giai đoạn 2001–13?",
+        "query": "What was the average annual GDP growth rate from the period 1991-2000 to the period 2001-2013 as shown in Table 2.1?"
+      },
+      {
+        "source": "Theo Bảng 2.1, tăng trưởng GDP bình quân năm giảm từ mức nào giai đoạn 1991–2000 xuống mức nào giai đoạn 2001–13",
+        "query": "GDP bình quân hàng năm giảm từ mức nào trong giai đoạn 1991-2000 xuống mức nào trong giai đoạn 2001-2013? Bảng 2.1"
+      }
+    ]
+  },
+  "N02": {
+    "requirements": [
+      "Theo Bảng 3.1, Việt Nam xếp hạng GCI 2015–16 bao nhiêu và đạt điểm số nào"
+    ],
+    "queries": [
+      "Which ranking did Vietnam achieve in the GCI 2015-16 according to Table 3.1?"
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng 3.1, Việt Nam xếp hạng GCI 2015–16 bao nhiêu và đạt điểm số nào?",
+        "query": "Which ranking did Vietnam achieve in the GCI 2015-16 according to Table 3.1?"
+      }
+    ]
+  },
+  "N03": {
+    "requirements": [
+      "Theo Bảng 3.7, tổng số giảng viên tăng từ bao nhiêu năm 2005 lên bao nhiêu năm 2012"
+    ],
+    "queries": [
+      "Tổng số giảng viên tăng từ năm nào đến năm nào? Bảng 3.7",
+      "Total number of faculty members increased from how many years 2005 to how many years 2012, based on Table 3.7"
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng 3.7, tổng số giảng viên tăng từ bao nhiêu năm 2005 lên bao nhiêu năm 2012?",
+        "query": "Tổng số giảng viên tăng từ năm nào đến năm nào? Bảng 3.7"
+      },
+      {
+        "source": "Theo Bảng 3.7, tổng số giảng viên tăng từ bao nhiêu năm 2005 lên bao nhiêu năm 2012",
+        "query": "Total number of faculty members increased from how many years 2005 to how many years 2012, based on Table 3.7"
+      }
+    ]
+  },
+  "N04": {
+    "requirements": [
+      "Theo Bảng 6.1, tử vong trẻ sơ sinh trên 1.000 ca sinh sống giảm từ bao nhiêu năm 1993 xuống bao nhiêu khoảng năm 2012"
+    ],
+    "queries": [
+      "How many years did the mortality rate of newborns under 1,000 live births decrease from 1993 to around 2012 according to Table 6.1?"
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng 6.1, tử vong trẻ sơ sinh trên 1.000 ca sinh sống giảm từ bao nhiêu năm 1993 xuống bao nhiêu khoảng năm 2012?",
+        "query": "How many years did the mortality rate of newborns under 1,000 live births decrease from 1993 to around 2012 according to Table 6.1?"
+      }
+    ]
+  },
+  "N05": {
+    "requirements": [
+      "Theo Bảng 4.2, tỷ lệ lấp đầy khu công nghiệp của TP.HCM và Hà Nội năm 2013 lần lượt là bao nhiêu"
+    ],
+    "queries": [
+      "What is the occupancy rate of industrial zones in Ho Chi Minh City and Hanoi in 2013 according to Table 4.2?",
+      "Table 4.2, fill rate of industrial zones in Ho Chi Minh City and Hanoi in 2013, respectively."
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng 4.2, tỷ lệ lấp đầy khu công nghiệp của TP.HCM và Hà Nội năm 2013 lần lượt là bao nhiêu?",
+        "query": "What is the occupancy rate of industrial zones in Ho Chi Minh City and Hanoi in 2013 according to Table 4.2?"
+      },
+      {
+        "source": "Theo Bảng 4.2, tỷ lệ lấp đầy khu công nghiệp của TP.HCM và Hà Nội năm 2013 lần lượt là bao nhiêu",
+        "query": "Table 4.2, fill rate of industrial zones in Ho Chi Minh City and Hanoi in 2013, respectively."
+      }
+    ]
+  },
+  "N06": {
+    "requirements": [
+      "Theo Bảng 2.1, đóng góp của chuyển dịch cơ cấu tăng từ bao nhiêu lên bao nhiêu giữa hai giai đoạn"
+    ],
+    "queries": [
+      "What was the percentage increase in the share of the economy from which exports have been reduced between two periods as shown in Table 2.1?",
+      "Table 2.1, contribution of structural shift from what percentage to what percentage between two periods"
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng 2.1, đóng góp của chuyển dịch cơ cấu tăng từ bao nhiêu lên bao nhiêu giữa hai giai đoạn?",
+        "query": "What was the percentage increase in the share of the economy from which exports have been reduced between two periods as shown in Table 2.1?"
+      },
+      {
+        "source": "Theo Bảng 2.1, đóng góp của chuyển dịch cơ cấu tăng từ bao nhiêu lên bao nhiêu giữa hai giai đoạn",
+        "query": "Table 2.1, contribution of structural shift from what percentage to what percentage between two periods"
+      }
+    ]
+  },
+  "N07": {
+    "requirements": [
+      "Hình 3.4 cho thấy nhà quản lý Việt Nam mạnh ở khía cạnh nào nhưng yếu ở những khía cạnh chính nào"
+    ],
+    "queries": [
+      "What aspects of management in Vietnam are strong, but where are they weak according to Figure 3.4?",
+      "Figure 3.4 shows that the manager of Vietnam is strong in one aspect but weak in several key areas."
+    ],
+    "translations": [
+      {
+        "source": "Hình 3.4 cho thấy nhà quản lý Việt Nam mạnh ở khía cạnh nào nhưng yếu ở những khía cạnh chính nào?",
+        "query": "What aspects of management in Vietnam are strong, but where are they weak according to Figure 3.4?"
+      },
+      {
+        "source": "Hình 3.4 cho thấy nhà quản lý Việt Nam mạnh ở khía cạnh nào nhưng yếu ở những khía cạnh chính nào",
+        "query": "Figure 3.4 shows that the manager of Vietnam is strong in one aspect but weak in several key areas."
+      }
+    ]
+  },
+  "N08": {
+    "requirements": [
+      "Hình 2.23 minh họa đặc điểm gì của xuất khẩu điện tử Việt Nam"
+    ],
+    "queries": [
+      "What characteristic of Vietnam's electronic exports is illustrated in Figure 2.23?",
+      "Minh họa Hình 2.23 trong tài liệu về đặc điểm xuất khẩu điện tử của Việt Nam"
+    ],
+    "translations": [
+      {
+        "source": "Hình 2.23 minh họa đặc điểm gì của xuất khẩu điện tử Việt Nam?",
+        "query": "What characteristic of Vietnam's electronic exports is illustrated in Figure 2.23?"
+      },
+      {
+        "source": "Hình 2.23 minh họa đặc điểm gì của xuất khẩu điện tử Việt Nam",
+        "query": "Minh họa Hình 2.23 trong tài liệu về đặc điểm xuất khẩu điện tử của Việt Nam"
+      }
+    ]
+  },
+  "N09": {
+    "requirements": [
+      "Thông điệp chính của Hình 4.7 về năng suất trong các khu công nghiệp là gì"
+    ],
+    "queries": [
+      "What is the main message of Figure 4.7 in the context of industrial productivity?"
+    ],
+    "translations": [
+      {
+        "source": "Thông điệp chính của Hình 4.7 về năng suất trong các khu công nghiệp là gì?",
+        "query": "What is the main message of Figure 4.7 in the context of industrial productivity?"
+      }
+    ]
+  },
+  "N10": {
+    "requirements": [
+      "Hình 4.15 mô tả thay đổi nào sau khi Thái Nguyên đạt đô thị loại I năm 2009"
+    ],
+    "queries": [
+      "What change is described in Figure 4.15 after Thanh-Nien achieved Class I city status in 2009?",
+      "Describe the change shown in Figure 4.15 after Thanh-Ninh achieved Class I city status in 2009"
+    ],
+    "translations": [
+      {
+        "source": "Hình 4.15 mô tả thay đổi nào sau khi Thái Nguyên đạt đô thị loại I năm 2009?",
+        "query": "What change is described in Figure 4.15 after Thanh-Nien achieved Class I city status in 2009?"
+      },
+      {
+        "source": "Hình 4.15 mô tả thay đổi nào sau khi Thái Nguyên đạt đô thị loại I năm 2009",
+        "query": "Describe the change shown in Figure 4.15 after Thanh-Ninh achieved Class I city status in 2009"
+      }
+    ]
+  },
+  "N11": {
+    "requirements": [
+      "Hình 6.27 đặt thành tích học tập quốc tế của Việt Nam trong tương quan nào"
+    ],
+    "queries": [
+      "Which international educational achievement record of Vietnam is compared with Figure 6.27?",
+      "Find Figure 6.27 in the context of Vietnam's international educational achievements compared to other countries."
+    ],
+    "translations": [
+      {
+        "source": "Hình 6.27 đặt thành tích học tập quốc tế của Việt Nam trong tương quan nào?",
+        "query": "Which international educational achievement record of Vietnam is compared with Figure 6.27?"
+      },
+      {
+        "source": "Hình 6.27 đặt thành tích học tập quốc tế của Việt Nam trong tương quan nào",
+        "query": "Find Figure 6.27 in the context of Vietnam's international educational achievements compared to other countries."
+      }
+    ]
+  },
+  "N12": {
+    "requirements": [
+      "Hình 2.14 cho thấy xu hướng tăng trưởng năng suất lao động từ cuối thập niên 1990 như thế nào"
+    ],
+    "queries": [
+      "What is the trend in labor productivity growth from the end of the 1990s as shown in Figure 2.14?",
+      "Chart 2.14 shows the trend in labor productivity growth from the end of the 1990s. Hình 2.14"
+    ],
+    "translations": [
+      {
+        "source": "Hình 2.14 cho thấy xu hướng tăng trưởng năng suất lao động từ cuối thập niên 1990 như thế nào?",
+        "query": "What is the trend in labor productivity growth from the end of the 1990s as shown in Figure 2.14?"
+      },
+      {
+        "source": "Hình 2.14 cho thấy xu hướng tăng trưởng năng suất lao động từ cuối thập niên 1990 như thế nào",
+        "query": "Chart 2.14 shows the trend in labor productivity growth from the end of the 1990s. Hình 2.14"
+      }
+    ]
+  },
+  "N13": {
+    "requirements": [
+      "Hình 5.9 cho thấy loại phương tiện nào dẫn dắt mức tăng sở hữu phương tiện đô thị giai đoạn 2000–11"
+    ],
+    "queries": [
+      "Which vehicle type led to the increase in urban transportation ownership during the period 2000-11 as shown in Figure 5.9?",
+      "Figure 5.9 shows the type of vehicle that led to the increase in urban vehicle ownership during the period 2000-11."
+    ],
+    "translations": [
+      {
+        "source": "Hình 5.9 cho thấy loại phương tiện nào dẫn dắt mức tăng sở hữu phương tiện đô thị giai đoạn 2000–11?",
+        "query": "Which vehicle type led to the increase in urban transportation ownership during the period 2000-11 as shown in Figure 5.9?"
+      },
+      {
+        "source": "Hình 5.9 cho thấy loại phương tiện nào dẫn dắt mức tăng sở hữu phương tiện đô thị giai đoạn 2000–11",
+        "query": "Figure 5.9 shows the type of vehicle that led to the increase in urban vehicle ownership during the period 2000-11."
+      }
+    ]
+  },
+  "N14": {
+    "requirements": [
+      "Hình 2.17 so sánh năng suất doanh nghiệp tư nhân trong nước quy mô lớn với doanh nghiệp nhỏ như thế nào"
+    ],
+    "queries": [
+      "Comparison of enterprise productivity between large-scale private enterprises in Vietnam and small businesses using Figure 2.17",
+      "Comparison of enterprise productivity between large-scale private enterprises in Vietnam and small businesses Hình 2.17"
+    ],
+    "translations": [
+      {
+        "source": "Hình 2.17 so sánh năng suất doanh nghiệp tư nhân trong nước quy mô lớn với doanh nghiệp nhỏ như thế nào?",
+        "query": "Comparison of enterprise productivity between large-scale private enterprises in Vietnam and small businesses using Figure 2.17"
+      },
+      {
+        "source": "Hình 2.17 so sánh năng suất doanh nghiệp tư nhân trong nước quy mô lớn với doanh nghiệp nhỏ như thế nào",
+        "query": "Comparison of enterprise productivity between large-scale private enterprises in Vietnam and small businesses Hình 2.17"
+      }
+    ]
+  },
+  "N15": {
+    "requirements": [
+      "Hình 6.38 dự báo chi tiêu lương hưu của Việt Nam thay đổi thế nào trong những năm tới"
+    ],
+    "queries": [
+      "What is the projected change in the Vietnamese government's pension spending over the next few years as shown in Figure 6.38?",
+      "Predictive analysis of wage and pension spending in Vietnam over the next few years as shown in Figure 6.38"
+    ],
+    "translations": [
+      {
+        "source": "Hình 6.38 dự báo chi tiêu lương hưu của Việt Nam thay đổi thế nào trong những năm tới?",
+        "query": "What is the projected change in the Vietnamese government's pension spending over the next few years as shown in Figure 6.38?"
+      },
+      {
+        "source": "Hình 6.38 dự báo chi tiêu lương hưu của Việt Nam thay đổi thế nào trong những năm tới",
+        "query": "Predictive analysis of wage and pension spending in Vietnam over the next few years as shown in Figure 6.38"
+      }
+    ]
+  },
+  "N16": {
+    "requirements": [
+      "Hình 3.4 ghi điểm giám sát của Việt Nam là bao nhiêu"
+    ],
+    "queries": [
+      "What is the monitoring score shown in Figure 3.4 for Vietnam?"
+    ],
+    "translations": [
+      {
+        "source": "Hình 3.4 ghi điểm giám sát của Việt Nam là bao nhiêu?",
+        "query": "What is the monitoring score shown in Figure 3.4 for Vietnam?"
+      }
+    ]
+  },
+  "N17": {
+    "requirements": [
+      "VAMC được thành lập năm nào, với vốn ban đầu bao nhiêu và tăng lên bao nhiêu vào tháng 4/2015"
+    ],
+    "queries": [
+      "When was VAMC established, with its initial capital and how much did it increase in April 2015?"
+    ],
+    "translations": [
+      {
+        "source": "VAMC được thành lập năm nào, với vốn ban đầu bao nhiêu và tăng lên bao nhiêu vào tháng 4/2015?",
+        "query": "When was VAMC established, with its initial capital and how much did it increase in April 2015?"
+      }
+    ]
+  },
+  "N18": {
+    "requirements": [
+      "Luật Doanh nghiệp 2005 đã thống nhất điều gì và mở đường cho cột mốc quốc tế nào năm 2007"
+    ],
+    "queries": [
+      "What did the 2005 Company Law unify and pave the way for an international benchmark in 2007?",
+      "Law on Business 2005 unified what and opened the international benchmark year 2007?"
+    ],
+    "translations": [
+      {
+        "source": "Luật Doanh nghiệp 2005 đã thống nhất điều gì và mở đường cho cột mốc quốc tế nào năm 2007?",
+        "query": "What did the 2005 Company Law unify and pave the way for an international benchmark in 2007?"
+      },
+      {
+        "source": "Luật Doanh nghiệp 2005 đã thống nhất điều gì và mở đường cho cột mốc quốc tế nào năm 2007",
+        "query": "Law on Business 2005 unified what and opened the international benchmark year 2007?"
+      }
+    ]
+  },
+  "N19": {
+    "requirements": [
+      "Nghiên cứu được báo cáo dẫn lại cho thấy thêm một nhà khai thác di động ở châu Phi làm số thuê bao tăng bao nhiêu"
+    ],
+    "queries": [
+      "What is the increase in the number of mobile subscribers reported by the study cited, compared to the previous one?",
+      "Mobile network operator in Africa reports increase in subscriber numbers"
+    ],
+    "translations": [
+      {
+        "source": "Nghiên cứu được báo cáo dẫn lại cho thấy thêm một nhà khai thác di động ở châu Phi làm số thuê bao tăng bao nhiêu?",
+        "query": "What is the increase in the number of mobile subscribers reported by the study cited, compared to the previous one?"
+      },
+      {
+        "source": "Nghiên cứu được báo cáo dẫn lại cho thấy thêm một nhà khai thác di động ở châu Phi làm số thuê bao tăng bao nhiêu",
+        "query": "Mobile network operator in Africa reports increase in subscriber numbers"
+      }
+    ]
+  },
+  "N20": {
+    "requirements": [
+      "Đến năm 2015, khu vực FDI đóng góp bao nhiêu vào sản lượng chế tạo và kim ngạch xuất khẩu"
+    ],
+    "queries": [
+      "What was the contribution of foreign direct investment (FDI) to manufacturing output and export value in 2015?",
+      "FDI contribution to manufacturing output and export value in 2015"
+    ],
+    "translations": [
+      {
+        "source": "Đến năm 2015, khu vực FDI đóng góp bao nhiêu vào sản lượng chế tạo và kim ngạch xuất khẩu?",
+        "query": "What was the contribution of foreign direct investment (FDI) to manufacturing output and export value in 2015?"
+      },
+      {
+        "source": "Đến năm 2015, khu vực FDI đóng góp bao nhiêu vào sản lượng chế tạo và kim ngạch xuất khẩu",
+        "query": "FDI contribution to manufacturing output and export value in 2015"
+      }
+    ]
+  },
+  "N21": {
+    "requirements": [
+      "chi R&D ước tính chiếm bao nhiêu GDP",
+      "FDI đóng góp thế nào cho chế tạo và xuất khẩu năm 2015"
+    ],
+    "queries": [
+      "How much of GDP is estimated to be spent on R&D, and what is the contribution of FDI to manufacturing and exports in 2015?",
+      "What is the approximate share of R&D spending in GDP?",
+      "What is the contribution of FDI to manufacturing and exports in 2015?"
+    ],
+    "translations": [
+      {
+        "source": "Kết hợp năng lực đổi mới và vai trò FDI: chi R&D ước tính chiếm bao nhiêu GDP, còn FDI đóng góp thế nào cho chế tạo và xuất khẩu năm 2015?",
+        "query": "How much of GDP is estimated to be spent on R&D, and what is the contribution of FDI to manufacturing and exports in 2015?"
+      },
+      {
+        "source": "chi R&D ước tính chiếm bao nhiêu GDP",
+        "query": "What is the approximate share of R&D spending in GDP?"
+      },
+      {
+        "source": "FDI đóng góp thế nào cho chế tạo và xuất khẩu năm 2015",
+        "query": "What is the contribution of FDI to manufacturing and exports in 2015?"
+      }
+    ]
+  },
+  "N22": {
+    "requirements": [
+      "tăng trưởng năng suất lao động giảm từ bao nhiêu xuống bao nhiêu giữa hai giai đoạn, và xu hướng dài hạn được mô tả thế nào"
+    ],
+    "queries": [
+      "Please provide the missing information or complete the sentence. Bảng 2.1 Hình 2.14",
+      "What is the percentage decrease in labor productivity growth between two periods, and what is the long-term trend described? Bảng 2.1 Hình 2.14"
+    ],
+    "translations": [
+      {
+        "source": "Kết hợp Bảng 2.1 và Hình 2.14: tăng trưởng năng suất lao động giảm từ bao nhiêu xuống bao nhiêu giữa hai giai đoạn, và xu hướng dài hạn được mô tả thế nào?",
+        "query": "Please provide the missing information or complete the sentence. Bảng 2.1 Hình 2.14"
+      },
+      {
+        "source": "tăng trưởng năng suất lao động giảm từ bao nhiêu xuống bao nhiêu giữa hai giai đoạn, và xu hướng dài hạn được mô tả thế nào",
+        "query": "What is the percentage decrease in labor productivity growth between two periods, and what is the long-term trend described? Bảng 2.1 Hình 2.14"
+      }
+    ]
+  },
+  "N23": {
+    "requirements": [
+      "tử vong trẻ sơ sinh giảm từ bao nhiêu xuống bao nhiêu",
+      "giao thông công cộng chiếm bao nhiêu chuyến đi ở Hà Nội và TP.HCM"
+    ],
+    "queries": [
+      "How many fewer infant deaths were there after combining social data with traffic data, and what percentage of public transportation trips does it account for in Hanoi and Ho Chi Minh City?",
+      "Tử vong trẻ sơ sinh giảm từ bao nhiêu xuống bao nhiêu?",
+      "What percentage of trips in Hanoi and Ho Chi Minh City are by public transportation?"
+    ],
+    "translations": [
+      {
+        "source": "Kết hợp dữ liệu xã hội và giao thông: tử vong trẻ sơ sinh giảm từ bao nhiêu xuống bao nhiêu, còn giao thông công cộng chiếm bao nhiêu chuyến đi ở Hà Nội và TP.HCM?",
+        "query": "How many fewer infant deaths were there after combining social data with traffic data, and what percentage of public transportation trips does it account for in Hanoi and Ho Chi Minh City?"
+      },
+      {
+        "source": "tử vong trẻ sơ sinh giảm từ bao nhiêu xuống bao nhiêu",
+        "query": "Tử vong trẻ sơ sinh giảm từ bao nhiêu xuống bao nhiêu?"
+      },
+      {
+        "source": "giao thông công cộng chiếm bao nhiêu chuyến đi ở Hà Nội và TP.HCM",
+        "query": "What percentage of trips in Hanoi and Ho Chi Minh City are by public transportation?"
+      }
+    ]
+  },
+  "N24": {
+    "requirements": [
+      "tổng số giảng viên năm 2012 là bao nhiêu, trong khi chi R&D ước tính chiếm bao nhiêu GDP"
+    ],
+    "queries": [
+      "Total number of university professors in 2012, compared to the estimated percentage of R&D spending in GDP",
+      "How many teachers were there in 2012, and what percentage of GDP does R&D estimate to represent?"
+    ],
+    "translations": [
+      {
+        "source": "Kết hợp giáo dục đại học và đổi mới: tổng số giảng viên năm 2012 là bao nhiêu, trong khi chi R&D ước tính chiếm bao nhiêu GDP?",
+        "query": "Total number of university professors in 2012, compared to the estimated percentage of R&D spending in GDP"
+      },
+      {
+        "source": "tổng số giảng viên năm 2012 là bao nhiêu, trong khi chi R&D ước tính chiếm bao nhiêu GDP",
+        "query": "How many teachers were there in 2012, and what percentage of GDP does R&D estimate to represent?"
+      }
+    ]
+  },
+  "N25": {
+    "requirements": [
+      "Bảng 2.1 cho biết GDP của riêng tỉnh Quảng Ninh năm 2013 là bao nhiêu"
+    ],
+    "queries": [
+      "What is the GDP of the province of Guangning in 2013 according to Table 2.1?"
+    ],
+    "translations": [
+      {
+        "source": "Bảng 2.1 cho biết GDP của riêng tỉnh Quảng Ninh năm 2013 là bao nhiêu?",
+        "query": "What is the GDP of the province of Guangning in 2013 according to Table 2.1?"
+      }
+    ]
+  },
+  "N26": {
+    "requirements": [
+      "Hình 5.9 dự báo chính xác số ô tô điện tại Hà Nội năm 2035 là bao nhiêu"
+    ],
+    "queries": [
+      "Predicted number of electric cars in Hanoi by 2035, Figure 5.9"
+    ],
+    "translations": [
+      {
+        "source": "Hình 5.9 dự báo chính xác số ô tô điện tại Hà Nội năm 2035 là bao nhiêu?",
+        "query": "Predicted number of electric cars in Hanoi by 2035, Figure 5.9"
+      }
+    ]
+  },
+  "N27": {
+    "requirements": [
+      "Báo cáo cho biết giá cổ phiếu VAMC ngày 31/12/2015 là bao nhiêu"
+    ],
+    "queries": [
+      "What was the price of VAMC shares on December 31, 2015?",
+      "What was the price of VAMC stock on December 31, 2015?"
+    ],
+    "translations": [
+      {
+        "source": "Báo cáo cho biết giá cổ phiếu VAMC ngày 31/12/2015 là bao nhiêu?",
+        "query": "What was the price of VAMC shares on December 31, 2015?"
+      },
+      {
+        "source": "Báo cáo cho biết giá cổ phiếu VAMC ngày 31/12/2015 là bao nhiêu",
+        "query": "What was the price of VAMC stock on December 31, 2015?"
+      }
+    ]
+  },
+  "N28": {
+    "requirements": [
+      "Bảng 3.7 cho biết mức lương trung bình của từng giảng viên năm 2012 là bao nhiêu"
+    ],
+    "queries": [
+      "What is the average salary of each professor in 2012 as shown in Table 3.7?",
+      "What is the average salary of each professor in 2012 according to Table 3.7?"
+    ],
+    "translations": [
+      {
+        "source": "Bảng 3.7 cho biết mức lương trung bình của từng giảng viên năm 2012 là bao nhiêu?",
+        "query": "What is the average salary of each professor in 2012 as shown in Table 3.7?"
+      },
+      {
+        "source": "Bảng 3.7 cho biết mức lương trung bình của từng giảng viên năm 2012 là bao nhiêu",
+        "query": "What is the average salary of each professor in 2012 according to Table 3.7?"
+      }
+    ]
+  },
+  "N29": {
+    "requirements": [
+      "Hình 6.27 cho biết điểm PISA của riêng học sinh tỉnh Huế là bao nhiêu"
+    ],
+    "queries": [
+      "What is the PISA score for individual students in Huế province, as shown in Figure 6.27?",
+      "What is the PISA score for individual students in Huế province? Hình 6.27"
+    ],
+    "translations": [
+      {
+        "source": "Hình 6.27 cho biết điểm PISA của riêng học sinh tỉnh Huế là bao nhiêu?",
+        "query": "What is the PISA score for individual students in Huế province, as shown in Figure 6.27?"
+      },
+      {
+        "source": "Hình 6.27 cho biết điểm PISA của riêng học sinh tỉnh Huế là bao nhiêu",
+        "query": "What is the PISA score for individual students in Huế province? Hình 6.27"
+      }
+    ]
+  },
+  "N30": {
+    "requirements": [
+      "Báo cáo dự báo tên doanh nghiệp xuất khẩu điện tử lớn nhất Việt Nam năm 2035 là gì"
+    ],
+    "queries": [
+      "What is the forecasted name of the largest e-commerce export company in Vietnam by 2035?",
+      "Forecast of the largest e-commerce export company in Vietnam by 2035"
+    ],
+    "translations": [
+      {
+        "source": "Báo cáo dự báo tên doanh nghiệp xuất khẩu điện tử lớn nhất Việt Nam năm 2035 là gì?",
+        "query": "What is the forecasted name of the largest e-commerce export company in Vietnam by 2035?"
+      },
+      {
+        "source": "Báo cáo dự báo tên doanh nghiệp xuất khẩu điện tử lớn nhất Việt Nam năm 2035 là gì",
+        "query": "Forecast of the largest e-commerce export company in Vietnam by 2035"
+      }
+    ]
+  }
+}

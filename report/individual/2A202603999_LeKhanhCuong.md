@@ -38,9 +38,9 @@ Trên Base Dev, dense đạt Hit@1 `12/18`, Evidence Hit@3 `14/18`; BM25 đạt 
 
 | Cấu hình / split | Tool use | Số lượt gọi | Grounded answer 0/1/2 và trung bình | Citation hợp lệ | Câu có citation | Abstention đúng | Từ chối nhầm |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| BM25 / Base Dev | 21/21 | 21 | 20 đạt, 1 không đạt | 20/20 | 17/18 câu có đáp án | 3/3 | 1 |
-| BM25 / Base Test | 9/9 | 9 | 9 đạt | 6/6 | 6/6 câu có đáp án | 3/3 | 0 |
-| Dense / Base Test | 9/9 | 9 | 9 đạt | 6/6 | 6/6 câu có đáp án | 3/3 | 0 |
+| BM25 / Base Dev | 21/21 | 21 | 0: 1, 1: 0, 2: 17; TB 1,889/2 | 20/20 | 17/18 câu có đáp án | 3/3 | 1/18 |
+| BM25 / Base Test | 9/9 | 9 | 0: 0, 1: 0, 2: 6; TB 2/2 | 6/6 | 6/6 câu có đáp án | 3/3 | 0/6 |
+| Dense / Base Test | 9/9 | 9 | 0: 0, 1: 0, 2: 6; TB 2/2 | 6/6 | 6/6 câu có đáp án | 3/3 | 0/6 |
 
 | Query ID | Loại câu | Tool call và kết quả | Câu trả lời và citation | Nhãn, lý do |
 |---|---|---|---|---|
@@ -66,17 +66,20 @@ Trên Base Dev, dense đạt Hit@1 `12/18`, Evidence Hit@3 `14/18`; BM25 đạt 
 
 | Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
 |---|---|---|---|
-| Bảng | 5/6 | 83,3% | A21 từ chối nhầm |
-| Ảnh, sơ đồ | 5/5 | 100% | Locator và số liệu đúng |
-| Biểu đồ | 4/5 | 80% | A34 nhầm mức tăng với tỷ trọng |
-| Multi-hop | 0/4 | 0% | Thiếu một hop hoặc từ chối nhầm |
-| Text | 2/4 | 50% | A41, A43 từ chối nhầm |
+| Bảng | 5/6 | 83,3% | N01 từ chối nhầm dù retrieval đủ evidence |
+| Ảnh, sơ đồ | 4/5 | 80% | N11 từ chối nhầm |
+| Biểu đồ | 5/5 | 100% | Đúng cả năm câu |
+| Multi-hop | 1/4 | 25% | N22–N24 không gom đủ các vế |
+| Text | 4/4 | 100% | Đúng cả bốn câu |
 | Thiếu bằng chứng | 6/6 | 100% | Từ chối đúng cả sáu câu |
-| **Toàn bộ** | **22/30** | **73,3%** | Chưa đạt ngưỡng bonus 27/30 |
+| **Toàn bộ** | **25/30** | **83,3%** | Test v2 độc lập; chưa đạt ngưỡng bonus 27/30 |
 
-- Trace, review từng câu và summary nằm tại `artifacts/cp4/advanced_test/`. Không
-  còn lỗi hệ thống trong artifact cuối; 179.358 input token, 6.815 output token,
-  median tổng 12.784 ms. Gateway không cung cấp giá USD.
-- Điểm yếu tập trung ở multi-hop và recall text. Vì Test đã mở, pipeline không
-  được chỉnh rồi báo lại trên cùng bộ Test. Lệnh tái lập, giới hạn và mô tả retry
-  nằm trong `docs/CP4.md`; benchmark gốc ở `advanced/benchmark/questions.json`.
+- Test đầu đạt `22/30`; từ thời điểm đó tôi chỉ dùng bộ này để phân tích lỗi.
+  Pipeline nhiều truy vấn được chọn lại trên Dev (`20/20`) và khóa trước khi tạo
+  Test v2 độc lập. Benchmark cùng checksum nằm ở `advanced/benchmark_v2/`; trace
+  và nhãn chấm từng câu nằm ở `artifacts/improvement/independent_test_v2/`.
+- Test v2 dùng 238.301 input token, 11.736 output token, median tổng 9.520 ms;
+  gateway không cung cấp giá USD nên tôi không tự ước lượng. Điểm yếu còn lại là
+  câu hỏi cần ghép nhiều nguồn và hiện tượng từ chối nhầm. Một cấu hình mở rộng
+  tiếp theo cho kết quả Dev kém ổn định hơn nên không được chọn và không chạy
+  Test mới. Bài không tuyên bố đạt bonus 15 điểm.

@@ -1,0 +1,19 @@
+{
+  "split": "independent_test_v2",
+  "n": 30,
+  "passed": 25,
+  "pass_rate": 0.8333,
+  "errors": 0,
+  "bonus_threshold": "27/30",
+  "bonus_threshold_met": false,
+  "groups": {
+    "table": {"passed": 5, "n": 6},
+    "image_or_diagram": {"passed": 4, "n": 5},
+    "chart": {"passed": 5, "n": 5},
+    "multi_hop": {"passed": 1, "n": 4},
+    "text": {"passed": 4, "n": 4},
+    "unanswerable": {"passed": 6, "n": 6}
+  },
+  "human_reviewed": true,
+  "used_for_later_diagnostics": true
+}

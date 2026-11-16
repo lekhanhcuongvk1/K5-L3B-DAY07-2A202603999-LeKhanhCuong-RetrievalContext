@@ -1,0 +1,363 @@
+{
+  "A01": {
+    "requirements": [
+      "Theo Bảng O.1, Việt Nam xếp hạng LPI tổng thể và hạ tầng năm 2014 lần lượt là bao nhiêu"
+    ],
+    "queries": [
+      "What are Vietnam's overall and infrastructure LPI rankings for 2014 according to Table O.1?",
+      "Bảng O.1: Tổng thể và hạ tầng năm 2014, xếp hạng Việt Nam ở vị trí nào?"
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng O.1, Việt Nam xếp hạng LPI tổng thể và hạ tầng năm 2014 lần lượt là bao nhiêu?",
+        "query": "What are Vietnam's overall and infrastructure LPI rankings for 2014 according to Table O.1?"
+      },
+      {
+        "source": "Theo Bảng O.1, Việt Nam xếp hạng LPI tổng thể và hạ tầng năm 2014 lần lượt là bao nhiêu",
+        "query": "Bảng O.1: Tổng thể và hạ tầng năm 2014, xếp hạng Việt Nam ở vị trí nào?"
+      }
+    ]
+  },
+  "A02": {
+    "requirements": [
+      "Theo Bảng 4.1, từ 1995 đến 2015 số đô thị tăng từ bao nhiêu lên bao nhiêu"
+    ],
+    "queries": [
+      "What was the increase in the number of urban areas from 1995 to 2015 as shown in Table 4.1?",
+      "English translation: Table 4.1, from 1995 to 2015, how many urban areas increased from how many?"
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng 4.1, từ 1995 đến 2015 số đô thị tăng từ bao nhiêu lên bao nhiêu?",
+        "query": "What was the increase in the number of urban areas from 1995 to 2015 as shown in Table 4.1?"
+      },
+      {
+        "source": "Theo Bảng 4.1, từ 1995 đến 2015 số đô thị tăng từ bao nhiêu lên bao nhiêu",
+        "query": "English translation: Table 4.1, from 1995 to 2015, how many urban areas increased from how many?"
+      }
+    ]
+  },
+  "A03": {
+    "requirements": [
+      "Bảng B5.3.1 ước tính tổng chi phí do tác động của vệ sinh kém là bao nhiêu"
+    ],
+    "queries": [
+      "What is the estimated total cost of poor sanitation in Table B5.3.1?"
+    ],
+    "translations": [
+      {
+        "source": "Bảng B5.3.1 ước tính tổng chi phí do tác động của vệ sinh kém là bao nhiêu?",
+        "query": "What is the estimated total cost of poor sanitation in Table B5.3.1?"
+      }
+    ]
+  },
+  "A04": {
+    "requirements": [
+      "Theo Bảng 7.1, tỷ lệ công chức trên 50 tuổi thay đổi thế nào từ 2005 đến 2012"
+    ],
+    "queries": [
+      "What was the change in the ratio of public servants over 50 years from 2005 to 2012 as shown in Table 7.1?",
+      "English translation: Table 7.1 shows how the ratio of public servants over 50 changed from 2005 to 2012."
+    ],
+    "translations": [
+      {
+        "source": "Theo Bảng 7.1, tỷ lệ công chức trên 50 tuổi thay đổi thế nào từ 2005 đến 2012?",
+        "query": "What was the change in the ratio of public servants over 50 years from 2005 to 2012 as shown in Table 7.1?"
+      },
+      {
+        "source": "Theo Bảng 7.1, tỷ lệ công chức trên 50 tuổi thay đổi thế nào từ 2005 đến 2012",
+        "query": "English translation: Table 7.1 shows how the ratio of public servants over 50 changed from 2005 to 2012."
+      }
+    ]
+  },
+  "A05": {
+    "requirements": [
+      "Bản đồ 4.3 cho thấy giá trị sản lượng công nghiệp trên mỗi km² tập trung cao nhất ở hai đô thị nào"
+    ],
+    "queries": [
+      "What are the two cities with the highest concentration of industrial production output per square kilometer shown on Map 4.3?",
+      "4.3 Map shows the highest concentration of industrial production per square kilometer in which two cities? Bản đồ 4.3"
+    ],
+    "translations": [
+      {
+        "source": "Bản đồ 4.3 cho thấy giá trị sản lượng công nghiệp trên mỗi km² tập trung cao nhất ở hai đô thị nào?",
+        "query": "What are the two cities with the highest concentration of industrial production output per square kilometer shown on Map 4.3?"
+      },
+      {
+        "source": "Bản đồ 4.3 cho thấy giá trị sản lượng công nghiệp trên mỗi km² tập trung cao nhất ở hai đô thị nào",
+        "query": "4.3 Map shows the highest concentration of industrial production per square kilometer in which two cities? Bản đồ 4.3"
+      }
+    ]
+  },
+  "A06": {
+    "requirements": [
+      "Bản đồ 4.4 kết luận không gian đường phố của thành phố nào không phù hợp với giao thông đô thị"
+    ],
+    "queries": [
+      "Which 4.4 map conclusion does not match the urban traffic space of which city? Bản đồ 4.4",
+      "4.4 Street Map Conclusion Does Not Match Urban Traffic Bản đồ 4.4"
+    ],
+    "translations": [
+      {
+        "source": "Bản đồ 4.4 kết luận không gian đường phố của thành phố nào không phù hợp với giao thông đô thị?",
+        "query": "Which 4.4 map conclusion does not match the urban traffic space of which city? Bản đồ 4.4"
+      },
+      {
+        "source": "Bản đồ 4.4 kết luận không gian đường phố của thành phố nào không phù hợp với giao thông đô thị",
+        "query": "4.4 Street Map Conclusion Does Not Match Urban Traffic Bản đồ 4.4"
+      }
+    ]
+  },
+  "A07": {
+    "requirements": [
+      "Trong sơ đồ Hình 7.12, ba chức năng đầu tiên của trung tâm chính phủ là gì"
+    ],
+    "queries": [
+      "What are the first three functions of the central government in Figure 7.12?"
+    ],
+    "translations": [
+      {
+        "source": "Trong sơ đồ Hình 7.12, ba chức năng đầu tiên của trung tâm chính phủ là gì?",
+        "query": "What are the first three functions of the central government in Figure 7.12?"
+      }
+    ]
+  },
+  "A08": {
+    "requirements": [
+      "Hình 5.1 phân bổ mức sử dụng nước giữa nông nghiệp và công nghiệp lần lượt bao nhiêu phần trăm"
+    ],
+    "queries": [
+      "What percentage of water usage is allocated between agriculture and industry in Figure 5.1?",
+      "Query: \"Figure 5.1 Allocation of water usage between agriculture and industry as percentages"
+    ],
+    "translations": [
+      {
+        "source": "Hình 5.1 phân bổ mức sử dụng nước giữa nông nghiệp và công nghiệp lần lượt bao nhiêu phần trăm?",
+        "query": "What percentage of water usage is allocated between agriculture and industry in Figure 5.1?"
+      },
+      {
+        "source": "Hình 5.1 phân bổ mức sử dụng nước giữa nông nghiệp và công nghiệp lần lượt bao nhiêu phần trăm",
+        "query": "Query: \"Figure 5.1 Allocation of water usage between agriculture and industry as percentages"
+      }
+    ]
+  },
+  "A09": {
+    "requirements": [
+      "Theo Hình 4.11, nhóm thành phố trên 2 triệu dân tăng tỷ trọng dân số bao nhiêu điểm phần trăm giai đoạn 1989–2009"
+    ],
+    "queries": [
+      "What was the percentage increase in the population share of cities with over 2 million inhabitants from 1989 to 2009 as shown in Figure 4.11?"
+    ],
+    "translations": [
+      {
+        "source": "Theo Hình 4.11, nhóm thành phố trên 2 triệu dân tăng tỷ trọng dân số bao nhiêu điểm phần trăm giai đoạn 1989–2009?",
+        "query": "What was the percentage increase in the population share of cities with over 2 million inhabitants from 1989 to 2009 as shown in Figure 4.11?"
+      }
+    ]
+  },
+  "A10": {
+    "requirements": [
+      "Hình 6.35 và phần diễn giải dự báo tỷ lệ phụ thuộc người cao tuổi tăng từ bao nhiêu lên bao nhiêu trong giai đoạn 2015–2035"
+    ],
+    "queries": [
+      "What is the increase in the percentage of elderly dependent population from what it was in 2015 to what it will be by 2035, as shown in Figure 6.35 and its accompanying explanation?",
+      "Query: \"Figure 6.35 and interpretation of projected dependence ratio for elderly population increasing from what percentage to what percentage during the period 2015-2035"
+    ],
+    "translations": [
+      {
+        "source": "Hình 6.35 và phần diễn giải dự báo tỷ lệ phụ thuộc người cao tuổi tăng từ bao nhiêu lên bao nhiêu trong giai đoạn 2015–2035?",
+        "query": "What is the increase in the percentage of elderly dependent population from what it was in 2015 to what it will be by 2035, as shown in Figure 6.35 and its accompanying explanation?"
+      },
+      {
+        "source": "Hình 6.35 và phần diễn giải dự báo tỷ lệ phụ thuộc người cao tuổi tăng từ bao nhiêu lên bao nhiêu trong giai đoạn 2015–2035",
+        "query": "Query: \"Figure 6.35 and interpretation of projected dependence ratio for elderly population increasing from what percentage to what percentage during the period 2015-2035"
+      }
+    ]
+  },
+  "A11": {
+    "requirements": [
+      "đến 2035 có bao nhiêu người trên 65 tuổi",
+      "tỷ lệ phụ thuộc người cao tuổi là bao nhiêu"
+    ],
+    "queries": [
+      "Population projections for elderly populations and dependency ratios: how many people over 65 will there be by 2035, and what is the elderly dependency ratio?",
+      "Combine high-age population projections",
+      "Population aged 65 and over by 2035: how many people?",
+      "What is the percentage of dependency on elderly people?"
+    ],
+    "translations": [
+      {
+        "source": "Kết hợp dự báo dân số cao tuổi và tỷ lệ phụ thuộc: đến 2035 có bao nhiêu người trên 65 tuổi và tỷ lệ phụ thuộc người cao tuổi là bao nhiêu?",
+        "query": "Population projections for elderly populations and dependency ratios: how many people over 65 will there be by 2035, and what is the elderly dependency ratio?"
+      },
+      {
+        "source": "Kết hợp dự báo dân số cao tuổi",
+        "query": "Combine high-age population projections"
+      },
+      {
+        "source": "tỷ lệ phụ thuộc: đến 2035 có bao nhiêu người trên 65 tuổi",
+        "query": "Population aged 65 and over by 2035: how many people?"
+      },
+      {
+        "source": "tỷ lệ phụ thuộc người cao tuổi là bao nhiêu",
+        "query": "What is the percentage of dependency on elderly people?"
+      }
+    ]
+  },
+  "A12": {
+    "requirements": [
+      "dân số đô thị hiện tại được nêu là bao nhiêu và mất khoảng bao lâu để đi 40 km từ trung tâm TP.HCM đến Bình Dương"
+    ],
+    "queries": [
+      "Urbanization and Transportation: Current Urban Population and Time to Travel 40 km from the Central TP.HCM to Binh Duong?",
+      "Query: Urbanization vs. Transportation: Current urban population and time to travel 40 km from the center of HCMC to Binh Duong"
+    ],
+    "translations": [
+      {
+        "source": "Đối chiếu đô thị hóa và giao thông: dân số đô thị hiện tại được nêu là bao nhiêu và mất khoảng bao lâu để đi 40 km từ trung tâm TP.HCM đến Bình Dương?",
+        "query": "Urbanization and Transportation: Current Urban Population and Time to Travel 40 km from the Central TP.HCM to Binh Duong?"
+      },
+      {
+        "source": "Đối chiếu đô thị hóa và giao thông: dân số đô thị hiện tại được nêu là bao nhiêu và mất khoảng bao lâu để đi 40 km từ trung tâm TP.HCM đến Bình Dương",
+        "query": "Query: Urbanization vs. Transportation: Current urban population and time to travel 40 km from the center of HCMC to Binh Duong"
+      }
+    ]
+  },
+  "A13": {
+    "requirements": [
+      "nông nghiệp chiếm bao nhiêu phần trăm sử dụng nước và rừng nguyên sinh đã giảm bao nhiêu phần trăm trong 20 năm"
+    ],
+    "queries": [
+      "Compare two environmental indicators: how much agricultural use of water has increased over the past 20 years, and how much forested land has decreased?",
+      "Compare two environmental indicators: how much agricultural use of water has increased over the past 20 years, and how much forested land has decreased by percentage in the same period."
+    ],
+    "translations": [
+      {
+        "source": "So sánh hai chỉ báo môi trường: nông nghiệp chiếm bao nhiêu phần trăm sử dụng nước và rừng nguyên sinh đã giảm bao nhiêu phần trăm trong 20 năm?",
+        "query": "Compare two environmental indicators: how much agricultural use of water has increased over the past 20 years, and how much forested land has decreased?"
+      },
+      {
+        "source": "So sánh hai chỉ báo môi trường: nông nghiệp chiếm bao nhiêu phần trăm sử dụng nước và rừng nguyên sinh đã giảm bao nhiêu phần trăm trong 20 năm",
+        "query": "Compare two environmental indicators: how much agricultural use of water has increased over the past 20 years, and how much forested land has decreased by percentage in the same period."
+      }
+    ]
+  },
+  "A14": {
+    "requirements": [
+      "Báo cáo nêu bốn hướng cải cách tức thời nào để phục hồi tăng trưởng năng suất"
+    ],
+    "queries": [
+      "What are the four immediate reform directions mentioned in the report to revive productivity growth?",
+      "Four immediate reform directions to revive productivity growth: report"
+    ],
+    "translations": [
+      {
+        "source": "Báo cáo nêu bốn hướng cải cách tức thời nào để phục hồi tăng trưởng năng suất?",
+        "query": "What are the four immediate reform directions mentioned in the report to revive productivity growth?"
+      },
+      {
+        "source": "Báo cáo nêu bốn hướng cải cách tức thời nào để phục hồi tăng trưởng năng suất",
+        "query": "Four immediate reform directions to revive productivity growth: report"
+      }
+    ]
+  },
+  "A15": {
+    "requirements": [
+      "Bốn nền tảng của nền kinh tế dẫn dắt bởi đổi mới trong Hộp 3.1 tập trung vào những gì"
+    ],
+    "queries": [
+      "What are the four pillars of the economy led by innovation in Box 3.1?",
+      "English translation: \"Four pillars of the economy led by innovation in Box 3.1 focus on what?"
+    ],
+    "translations": [
+      {
+        "source": "Bốn nền tảng của nền kinh tế dẫn dắt bởi đổi mới trong Hộp 3.1 tập trung vào những gì?",
+        "query": "What are the four pillars of the economy led by innovation in Box 3.1?"
+      },
+      {
+        "source": "Bốn nền tảng của nền kinh tế dẫn dắt bởi đổi mới trong Hộp 3.1 tập trung vào những gì",
+        "query": "English translation: \"Four pillars of the economy led by innovation in Box 3.1 focus on what?"
+      }
+    ]
+  },
+  "A16": {
+    "requirements": [
+      "Báo cáo định nghĩa hiệu quả của chính phủ là gì"
+    ],
+    "queries": [
+      "What is the definition of government effectiveness as defined in the report?"
+    ],
+    "translations": [
+      {
+        "source": "Báo cáo định nghĩa hiệu quả của chính phủ là gì?",
+        "query": "What is the definition of government effectiveness as defined in the report?"
+      }
+    ]
+  },
+  "A17": {
+    "requirements": [
+      "Mục tiêu giảm phát thải khí nhà kính năm 2030 của Việt Nam là bao nhiêu nếu không và nếu có hỗ trợ quốc tế"
+    ],
+    "queries": [
+      "What are Vietnam's 2030 greenhouse gas emission reduction targets without and with international support?"
+    ],
+    "translations": [
+      {
+        "source": "Mục tiêu giảm phát thải khí nhà kính năm 2030 của Việt Nam là bao nhiêu nếu không và nếu có hỗ trợ quốc tế?",
+        "query": "What are Vietnam's 2030 greenhouse gas emission reduction targets without and with international support?"
+      }
+    ]
+  },
+  "A18": {
+    "requirements": [
+      "Báo cáo công bố ngân sách chính xác của tuyến metro Hà Nội số 5 là bao nhiêu"
+    ],
+    "queries": [
+      "What is the exact amount of the metro line 5 budget report published by Hanoi City in 2019?",
+      "What is the exact amount of the metro line 5 budget report published by Hanoi?"
+    ],
+    "translations": [
+      {
+        "source": "Báo cáo công bố ngân sách chính xác của tuyến metro Hà Nội số 5 là bao nhiêu?",
+        "query": "What is the exact amount of the metro line 5 budget report published by Hanoi City in 2019?"
+      },
+      {
+        "source": "Báo cáo công bố ngân sách chính xác của tuyến metro Hà Nội số 5 là bao nhiêu",
+        "query": "What is the exact amount of the metro line 5 budget report published by Hanoi?"
+      }
+    ]
+  },
+  "A19": {
+    "requirements": [
+      "Báo cáo nêu giá đóng cửa VN-Index ngày 31/12/2015 là bao nhiêu"
+    ],
+    "queries": [
+      "What was the closing price of the VN-Index on December 31, 2015?"
+    ],
+    "translations": [
+      {
+        "source": "Báo cáo nêu giá đóng cửa VN-Index ngày 31/12/2015 là bao nhiêu?",
+        "query": "What was the closing price of the VN-Index on December 31, 2015?"
+      }
+    ]
+  },
+  "A20": {
+    "requirements": [
+      "Báo cáo cho biết tên người đoạt Nobel Kinh tế năm 2035 là ai"
+    ],
+    "queries": [
+      "Who won the Nobel Prize in Economics in 2035?",
+      "What is the name of the Nobel Prize in Economics winner in 2035?"
+    ],
+    "translations": [
+      {
+        "source": "Báo cáo cho biết tên người đoạt Nobel Kinh tế năm 2035 là ai?",
+        "query": "Who won the Nobel Prize in Economics in 2035?"
+      },
+      {
+        "source": "Báo cáo cho biết tên người đoạt Nobel Kinh tế năm 2035 là ai",
+        "query": "What is the name of the Nobel Prize in Economics winner in 2035?"
+      }
+    ]
+  }
+}

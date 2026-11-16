@@ -89,10 +89,13 @@ thiện, index toàn bộ báo cáo 409 trang và khóa riêng cấu hình Base/
 Test. Kết quả, phân tích lỗi và quy tắc context nằm trong [`docs/CP3.md`](docs/CP3.md).
 
 CP4 đã chạy cấu hình khóa trên Test. Base đạt 9/9 cho cả dense baseline và BM25
-đã chọn. Advanced đạt 22/30 sau khi chấm tay từng câu theo PDF gốc, chưa đạt
-ngưỡng bonus 27/30; kết quả không được chỉnh lại bằng Test. Metrics, lỗi và lệnh
-tái lập nằm trong [`docs/CP4.md`](docs/CP4.md).
+đã chọn. Advanced ban đầu đạt 22/30. Sau phân tích lỗi, pipeline cải thiện được
+chọn lại trên Dev và chạy trên Test v2 độc lập đã khóa, đạt 25/30; vẫn chưa đạt
+ngưỡng bonus 27/30. Hai kết quả đều được giữ, không chỉnh rồi báo lại trên cùng
+Test. Metrics, lỗi và lệnh tái lập nằm trong [`docs/CP4.md`](docs/CP4.md).
 
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
-Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+Nộp code, cách chạy, cấu hình, benchmark, trace và
+[báo cáo cá nhân](report/individual/2A202603999_LeKhanhCuong.md). Thời gian ở
+[checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
