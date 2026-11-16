@@ -25,7 +25,8 @@ Một cấu hình có thể đồng thời là phương pháp mới và cải th
 
 ## Agent và đánh giá
 
-- Tool, số lượt gọi, điều kiện dừng, cách chọn context và xử lý lỗi: sẽ được điền từ cấu hình đã chạy thật.
+- CP2 dùng `Qwen/Qwen2.5-1.5B-Instruct` revision `989aa7980e4cf806f80c7fef2b1adb7bc71aa306`, chạy local. Model tạo query và câu trả lời; hai tool đầu tiên là exact dense pgvector và BM25. Mỗi smoke có một lượt retrieval, top-3, context tối đa 3.600 ký tự; thiếu citation hợp lệ hoặc thiếu evidence thì abstain. Lỗi được truyền ra, không có mock fallback.
+- Smoke Dev gồm một câu có evidence và một câu thiếu evidence cho mỗi tool. Cả hai tool trả lời đúng `B01` với citation hỗ trợ, đồng thời từ chối đúng `B19`; đây là kiểm tra wiring CP2, chưa được dùng như benchmark đầy đủ để chọn cấu hình.
 
 | Cấu hình / split | Tool use | Số lượt gọi | Grounded answer 0/1/2 và trung bình | Citation hợp lệ | Câu có citation | Abstention đúng | Từ chối nhầm |
 |---|---|---|---|---|---|---|---|

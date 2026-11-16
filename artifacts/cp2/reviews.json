@@ -1,0 +1,30 @@
+[
+  {
+    "query_id": "B01",
+    "strategy": "dense_pgvector",
+    "answer_grade": 2,
+    "citation_support": [true],
+    "review": "Câu trả lời nêu đúng tên đầy đủ của BASIC; chunk được dẫn chứa trực tiếp câu này."
+  },
+  {
+    "query_id": "B19",
+    "strategy": "dense_pgvector",
+    "abstention_correct": true,
+    "citation_support": [],
+    "review": "Context không có Rust hoặc borrow checker; từ chối là đúng."
+  },
+  {
+    "query_id": "B01",
+    "strategy": "bm25",
+    "answer_grade": 2,
+    "citation_support": [true],
+    "review": "Câu trả lời đúng và citation trỏ tới chunk BASIC có evidence nguyên văn."
+  },
+  {
+    "query_id": "B19",
+    "strategy": "bm25",
+    "abstention_correct": true,
+    "citation_support": [],
+    "review": "Các kết quả gần chủ đề kiểu dữ liệu không trả lời về borrow checker; agent không suy đoán."
+  }
+]

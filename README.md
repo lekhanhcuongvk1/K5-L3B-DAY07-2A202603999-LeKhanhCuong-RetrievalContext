@@ -77,6 +77,13 @@ python scripts/validate_cp1.py
 Model và PDF được tải vào thư mục bị Git ignore; source manifest, checksum, benchmark,
 code và metadata index được nộp để người chấm tái lập. CP1 chưa dùng test để chọn cấu hình.
 
+## Agent và retrieval
+
+CP2 đã kết nối agent local thật với hai retrieval tool đầu tiên: exact dense search
+trên pgvector và BM25. Agent lưu đầy đủ query, rank/score, context, raw output,
+citation, latency và chi phí; không thay lỗi bằng mock. Thiết kế và lệnh chạy nằm
+trong [`docs/CP2.md`](docs/CP2.md). Toàn bộ smoke CP2 chỉ dùng Dev, chưa mở Test.
+
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.

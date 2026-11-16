@@ -1,4 +1,4 @@
-"""Download and verify the frozen embedding model in a repo-local ignored cache."""
+"""Download and verify frozen embedding/agent models in the repo-local cache."""
 
 from __future__ import annotations
 
@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".cache" / "huggingface"
 MODEL = "bkai-foundation-models/vietnamese-bi-encoder"
 REVISION = "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0"
+AGENT_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
+AGENT_REVISION = "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
 
 
 def main() -> None:
@@ -22,6 +24,9 @@ def main() -> None:
     from sentence_transformers import SentenceTransformer
 
     snapshot = Path(snapshot_download(MODEL, revision=REVISION, cache_dir=CACHE / "hub"))
+    agent_snapshot = Path(snapshot_download(
+        AGENT_MODEL, revision=AGENT_REVISION, cache_dir=CACHE / "hub"
+    ))
     encoder = SentenceTransformer(str(snapshot), device="cpu")
     dimension = encoder.get_embedding_dimension()
     if dimension != 768:
@@ -32,9 +37,13 @@ def main() -> None:
 
     result = {
         "provider": "Hugging Face local",
-        "model": MODEL,
-        "revision": REVISION,
-        "license": "Apache-2.0",
+        "embedding_model": MODEL,
+        "embedding_revision": REVISION,
+        "embedding_license": "Apache-2.0",
+        "agent_model": AGENT_MODEL,
+        "agent_revision": AGENT_REVISION,
+        "agent_license": "Apache-2.0",
+        "agent_snapshot_present": agent_snapshot.is_dir(),
         "cache": ".cache/huggingface",
         "dimensions": dimension,
         "probe_shape": list(probe.shape),

@@ -1,0 +1,17 @@
+{
+  "checkpoint": "CP2",
+  "split": "dev",
+  "test_opened": false,
+  "real_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "mock_fallback": false,
+  "retrieval_methods": [
+    "dense_pgvector",
+    "bm25"
+  ],
+  "trace_count": 4,
+  "service_cost_usd": 0,
+  "statuses": {
+    "answered": 2,
+    "abstain": 2
+  }
+}
