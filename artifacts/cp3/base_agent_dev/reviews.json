@@ -1,0 +1,23 @@
+[
+  {"query_id":"B01","answer_grade":0,"citation_support":[],"reason":"Từ chối dù evidence có trong context."},
+  {"query_id":"B02","answer_grade":2,"citation_support":[true],"reason":"Đúng người được dùng để đặt tên Ada, citation hỗ trợ trực tiếp."},
+  {"query_id":"B03","answer_grade":0,"citation_support":[false],"reason":"Trả lời Andrei Alexandrescu thay vì Walter Bright và thiếu năm 2001."},
+  {"query_id":"B04","answer_grade":0,"citation_support":[],"reason":"Từ chối câu có evidence."},
+  {"query_id":"B05","answer_grade":0,"citation_support":[],"reason":"Raw output đúng nhưng không cung cấp citation hợp lệ nên final abstain."},
+  {"query_id":"B06","answer_grade":0,"citation_support":[],"reason":"Từ chối và thiếu đầy đủ điều kiện."},
+  {"query_id":"B07","answer_grade":0,"citation_support":[],"reason":"Từ chối; raw output không đúng bốn ứng dụng trong gold."},
+  {"query_id":"B08","answer_grade":0,"citation_support":[],"reason":"Raw output đúng nhưng thiếu citation nên final abstain."},
+  {"query_id":"B09","answer_grade":1,"citation_support":[true],"reason":"Đúng năm 2007 nhưng thiếu người xây dựng và quy mô cuối cùng."},
+  {"query_id":"B10","answer_grade":0,"citation_support":[],"reason":"Không tạo câu trả lời cuối dù retrieval có context."},
+  {"query_id":"B11","answer_grade":2,"citation_support":[false,true,true],"reason":"Đáp án đúng; hai citation hỗ trợ trực tiếp, một citation đầu chỉ nêu bối cảnh AI."},
+  {"query_id":"B12","answer_grade":1,"citation_support":[true],"reason":"Đúng hai tác giả nhưng câu final thiếu khả năng tạo dữ liệu mới."},
+  {"query_id":"B13","answer_grade":0,"citation_support":[],"reason":"Raw output đúng nhưng không có citation hợp lệ nên final abstain."},
+  {"query_id":"B14","answer_grade":0,"citation_support":[],"reason":"Raw output đúng nhưng không có citation hợp lệ nên final abstain."},
+  {"query_id":"B15","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa đầy đủ và citation hỗ trợ trực tiếp."},
+  {"query_id":"B16","answer_grade":0,"citation_support":[],"reason":"Thiếu các hệ điều hành và final abstain."},
+  {"query_id":"B17","answer_grade":0,"citation_support":[],"reason":"Thiếu tên gọi trường và không có citation."},
+  {"query_id":"B18","answer_grade":0,"citation_support":[],"reason":"Không tạo câu trả lời cuối có citation."},
+  {"query_id":"B19","abstention_correct":true,"citation_support":[],"reason":"Corpus không có Rust/borrow checker; final abstain đúng."},
+  {"query_id":"B20","abstention_correct":true,"citation_support":[],"reason":"Corpus không có giới hạn âm thanh GPT-4o; abstain đúng."},
+  {"query_id":"B21","abstention_correct":true,"citation_support":[],"reason":"Corpus không có thay đổi GIL Python 3.13; abstain đúng."}
+]

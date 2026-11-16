@@ -1,0 +1,25 @@
+{
+  "manifest_version": 1,
+  "title": "Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy",
+  "authors": [
+    "World Bank Group",
+    "Ministry of Planning and Investment of Vietnam"
+  ],
+  "publication_year": 2016,
+  "publisher": "World Bank",
+  "doi": "10.1596/978-1-4648-0824-1",
+  "source_page": "https://openknowledge.worldbank.org/",
+  "download_url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/b3534cdb-c1b8-512b-b2af-6fa94624b05a/content",
+  "license": "Creative Commons Attribution 3.0 IGO",
+  "license_spdx": "CC-BY-3.0-IGO",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "attribution": "World Bank and Ministry of Planning and Investment of Vietnam. 2016. Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy. Washington, DC: World Bank. doi:10.1596/978-1-4648-0824-1. License: CC BY 3.0 IGO.",
+  "file_name": "vietnam-2035.pdf",
+  "sha256": "23997557df766f85b6652613d1d92372106e17982dc8c6ad6ad9a8c6ba33b40e",
+  "file_size_bytes": 10062734,
+  "physical_pages": 409,
+  "pages_with_extractable_text": 397,
+  "verified_license_pdf_page": 6,
+  "selected_because": "A fixed, licensed 100+ page report about Vietnam with extractable text, tables, charts, photographs and cross-section evidence suitable for multimodal and multi-hop evaluation.",
+  "redistribution_policy": "The PDF is reproducibly downloaded from the official source and is not committed; derived text, crops and annotations must preserve attribution and identify third-party components when applicable."
+}

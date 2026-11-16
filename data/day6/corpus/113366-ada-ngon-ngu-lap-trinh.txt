@@ -1,0 +1,33 @@
+Ada là ngôn ngữ lập trình xuất xứ từ Bộ quốc phòng Mỹ vào khoảng nửa đầu thập niên 80 của thế kỷ 20 . Ngôn ngữ này được đặt tên theo Ada Augusta nữ bá tước xứ Lovelace (1815 – 1852), nhà toán học với ý tưởng tiên phong coi phần cứng và phần mềm là hai mặt khác nhau đã đi vào lịch sử như lập trình viên đầu tiên của loài người.
+
+Nhu cầu của Lầu Năm Góc lúc đó là một ngôn ngữ lập trình duy nhất thay thế cho khoảng 500 ngôn ngữ dùng cho các hệ thống nhúng ( embedded ). Đặc trưng của các hệ thống như thế là phần cứng đa dạng, phần cứng liền với phần mềm , phần mềm hệ thống liền với phần mềm ứng dụng, thời gian sử dụng lâu dài, tính chất thời gian thực ( real-time ) và độ bền cao ( high-integrity ) thể hiện rõ, nhiều hệ thống nhúng là hệ phân tán ( distributed ).
+
+Ngôn ngữ lập trình đáp ứng những yêu cầu đó phải chặt chẽ, nhỏ gọn nhưng có sức biểu diễn lớn, viết mã nguồn dễ đọc, sinh mã đích hiệu quả.
+
+Vì thế Ada xuất phát từ Pascal , nhưng kiểm tra kiểu mạnh hơn. Mở rộng kiểu ( type extension ), kế thừa ( inheritance ) và đa kế thừa giao diện ( multiple interface inheritance ) hỗ trợ lập trình định hướng đối tượng. Ngoài các kết cấu điều khiển thông thường như rẽ nhánh, lặp, xử lý ngoại lệ ( exception ), và kết cấu đơn vị thông thường như thủ tục ( procedure ), hàm ( function ), Ada còn có kết cấu gói ( package ) hỗ trợ lập trình theo thành phần ( modular ), kết cấu mẫu ( generic ) hỗ trợ lập trình mẫu , kết cấu tác vụ ( task ) và kiểu có bảo vệ ( protected type ) hỗ trợ lập trình song song và tương tranh .
+
+Cú pháp
+
+Ada có cú pháp tương tự như ngôn ngữ lập trình Pascal , thể hiện rõ nhất ở ký hiệu := dùng trong lệnh gán và begin ... end bao quanh mỗi khối lệnh.
+
+Trong một file chương trình Ada, cần có một thủ tục ( procedure ) có tên trùng với tên chương trình, nó sẽ được kích hoạt khi chạy chương trình:
+
+Một số đặc điểm cú pháp khác như sau:
+
+Một vòng lặp viết theo dạng for :
+
+Ứng dụng
+
+Ngoài các ứng dụng truyền thống trong vũ khí, khí tài và các hệ thống liên lạc, tham mưu, chỉ huy, tác chiến, sau hơn 2 thập kỷ ngày nay Ada còn được dùng trong các ứng dụng của ngành thám hiểm không gian , hàng không , giao thông sắt & bộ, năng lượng hạt nhân, viễn thông , và tài chính – ngân hàng.
+
+Trên thế giới, tỉ lệ lập trình viên sử dụng ngôn ngữ Ada chiếm khoảng 5%.
+
+Ada có bộ biên dịch miễn phí GNAT và môi trường phát triển miễn phí GPS, sinh mã đích cho rất nhiều platform khác nhau.
+
+Tham khảo
+
+↑ "Ada 2012 Language Reference Manual" . Ada-auth.org . Truy cập ngày 27 tháng 1 năm 2014 .
+
+↑ "Aonix ObjectAda" . Atego.com. Bản gốc lưu trữ ngày 6 tháng 8 năm 2013 . Truy cập ngày 27 tháng 1 năm 2014 .
+
+↑ "ISO/IEC 8652:2012 Information technology -- Programming languages -- Ada " . ISO . Truy cập ngày 23 tháng 12 năm 2012 .

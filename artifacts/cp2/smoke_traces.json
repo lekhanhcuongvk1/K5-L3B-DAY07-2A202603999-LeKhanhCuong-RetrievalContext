@@ -1,0 +1,486 @@
+[
+  {
+    "status": "answered",
+    "question": "Tên đầy đủ tạo nên chữ viết tắt BASIC là gì?",
+    "answer": "BASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh. [B:viwiki-10293-u01:0001:270ce080da0a1e40]",
+    "citations": [
+      "B:viwiki-10293-u01:0001:270ce080da0a1e40"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "Tên đầy đủ tạo nên chữ viết tắt BASIC là \"Beginner's All-Purpose Symbolic Instruction Code\".",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-10293-u01:0001:270ce080da0a1e40",
+            "text": "BASIC là một ngôn ngữ lập trình bậc cao, đơn giản, dễ sử dụng, nhằm đơn giản hóa quá trình lập trình. BASIC được phát minh vào năm 1963 bởi các giáo sư John George Kemeny và Thomas Eugene Kurtz thuộc viện Đại học Dartmouth ( Dartmouth College ).\n\nBASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh .\n\nLịch sử\n\nBối cảnh ra đời\n\nCho đến giữa thập niên 1960 , máy tính là những công cụ khá đắt giá chỉ dùng cho các công việc có mục đích đặc biệt. Với cách xử lý theo khối ( batch ), những máy tính trên chỉ chạy một chương trình tại một thời điểm. Tuy vậy, trong thập niên này giá máy tính đã hạ đủ để cho các công ty nhỏ cũng có thể mua được, và tốc độ của chúng đã tăng đến mức đa số thời gian của chúng là rỗi.\n\n",
+            "source_id": "viwiki-10293",
+            "source": "data/day6/corpus/10293-basic.txt",
+            "page": "viwiki-10293-u01",
+            "metadata": {
+              "title": "BASIC",
+              "unit_id": "viwiki-10293-u01",
+              "version": "74447232",
+              "char_end": 753,
+              "strategy": "B",
+              "char_start": 0,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/BASIC",
+              "chunk_ordinal": 1,
+              "day6_chunk_id": "B:viwiki-10293-u01:0001:270ce080da0a1e40",
+              "location_type": "content_unit",
+              "normalized_end": 12420,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.5875462643829752,
+            "rank": 1,
+            "strategy": "dense_pgvector"
+          },
+          {
+            "id": "B:viwiki-10293-u01:0014:8377bac6a1d576e4",
+            "text": "Gọi chương trình con Trong chương trình chính GOSUB tên_CTC Đoạn chương trình con khởi đầu bằng SUB và kết thúc bằng RETURN (trở về chương trình chính.\n\nTrong chương trình chính GOSUB tên_CTC\n\nĐoạn chương trình con khởi đầu bằng SUB và kết thúc bằng RETURN (trở về chương trình chính.\n\nVisual Basic\n\nTên tuổi của Basic gắn liền với Visual Basic .\n\nGhi chú\n\n↑ Từ viết tắt xuất phát từ tên trong một quyển sách không được công bố của Thomas Kurtz, không phải tên được nghĩ ra từ từ viết tắt như nhiều người vẫn nghĩ.\n\n↑ đang dịch\n\nTham khảo\n\nDartmouth College Computation Center (1964). A Manual for BASIC, the elementary algebraic language designed for use with the Dartmouth Time Sharing System Lưu trữ ngày 16 tháng 7 năm 2012 tại Wayback Machine - Sách hướng dẫn gốc của Dartmouth BASIC.\n\nLien, David A. (1986). The Basic Handbook: Encyclopedia of the BASIC Computer Language (3rd ed.). Compusoft phát hành. ISBN 0-932760-33-3 . Documents dialect variations for over 250 versions of BASIC.\n\n",
+            "source_id": "viwiki-10293",
+            "source": "data/day6/corpus/10293-basic.txt",
+            "page": "viwiki-10293-u01",
+            "metadata": {
+              "title": "BASIC",
+              "unit_id": "viwiki-10293-u01",
+              "version": "74447232",
+              "char_end": 11136,
+              "strategy": "B",
+              "char_start": 10143,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/BASIC",
+              "chunk_ordinal": 14,
+              "day6_chunk_id": "B:viwiki-10293-u01:0014:8377bac6a1d576e4",
+              "location_type": "content_unit",
+              "normalized_end": 12420,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.49069550688889674,
+            "rank": 2,
+            "strategy": "dense_pgvector"
+          },
+          {
+            "id": "B:viwiki-15438-u01:0014:8e9e40cd3c000512",
+            "text": "Cái tên \"C sharp\" được lấy cảm hứng từ ký hiệu âm nhạc, trong đó một dấu thăng sau nốt nhạc \"#\" nghĩa là một nốt được chơi cao hơn nửa cung. Điều này tương tự như trường hợp đặt tên của ngôn ngữ của C++, trong đó \"++\" chỉ ra rằng giá trị của một biến nên được tăng lên 1. Biểu tượng # cũng giống với bốn ký tự \"+\" (trong một lưới 2x2), ngụ ý rằng ngôn ngữ là một phiên bản tăng cường của C++ (gấp đôi C++). Bởi vì giới hạn kỹ thuật của việc hiển thị (các font chuẩn, trình duyệt...) và sự thật là ký tự thăng ( U+266F ♯ MUSIC SHARP SIGN (HTML & #9839; ) ) không hiện diện trong đa số các bàn phím, ký tự ( U+0023 # NUMBER SIGN (HTML & #35; ) ) đã được chọn để diễn đạt một cách tương đương trong cách viết tên ngôn ngữ.\n\n",
+            "source_id": "viwiki-15438",
+            "source": "data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-15438-u01",
+            "metadata": {
+              "title": "C Sharp (ngôn ngữ lập trình)",
+              "unit_id": "viwiki-15438-u01",
+              "version": "74454567",
+              "char_end": 12030,
+              "strategy": "B",
+              "char_start": 11309,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "chunk_ordinal": 14,
+              "day6_chunk_id": "B:viwiki-15438-u01:0014:8e9e40cd3c000512",
+              "location_type": "content_unit",
+              "normalized_end": 24357,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.4071092848246871,
+            "rank": 3,
+            "strategy": "dense_pgvector"
+          }
+        ],
+        "context": "[B:viwiki-10293-u01:0001:270ce080da0a1e40 | data/day6/corpus/10293-basic.txt | trang viwiki-10293-u01]\nBASIC là một ngôn ngữ lập trình bậc cao, đơn giản, dễ sử dụng, nhằm đơn giản hóa quá trình lập trình. BASIC được phát minh vào năm 1963 bởi các giáo sư John George Kemeny và Thomas Eugene Kurtz thuộc viện Đại học Dartmouth ( Dartmouth College ).\n\nBASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh .\n\nLịch sử\n\nBối cảnh ra đời\n\nCho đến giữa thập niên 1960 , máy tính là những công cụ khá đắt giá chỉ dùng cho các công việc có mục đích đặc biệt. Với cách xử lý theo khối ( batch ), những máy tính trên chỉ chạy một chương trình tại một thời điểm. Tuy vậy, trong thập niên này giá máy tính đã hạ đủ để cho các công ty nhỏ cũng có thể mua được, và tốc độ của chúng đã tăng đến mức đa số thời gian của chúng là rỗi.\n\n\n\n[B:viwiki-10293-u01:0014:8377bac6a1d576e4 | data/day6/corpus/10293-basic.txt | trang viwiki-10293-u01]\nGọi chương trình con Trong chương trình chính GOSUB tên_CTC Đoạn chương trình con khởi đầu bằng SUB và kết thúc bằng RETURN (trở về chương trình chính.\n\nTrong chương trình chính GOSUB tên_CTC\n\nĐoạn chương trình con khởi đầu bằng SUB và kết thúc bằng RETURN (trở về chương trình chính.\n\nVisual Basic\n\nTên tuổi của Basic gắn liền với Visual Basic .\n\nGhi chú\n\n↑ Từ viết tắt xuất phát từ tên trong một quyển sách không được công bố của Thomas Kurtz, không phải tên được nghĩ ra từ từ viết tắt như nhiều người vẫn nghĩ.\n\n↑ đang dịch\n\nTham khảo\n\nDartmouth College Computation Center (1964). A Manual for BASIC, the elementary algebraic language designed for use with the Dartmouth Time Sharing System Lưu trữ ngày 16 tháng 7 năm 2012 tại Wayback Machine - Sách hướng dẫn gốc của Dartmouth BASIC.\n\nLien, David A. (1986). The Basic Handbook: Encyclopedia of the BASIC Computer Language (3rd ed.). Compusoft phát hành. ISBN 0-932760-33-3 . Documents dialect variations for over 250 versions of BASIC.\n\n\n\n[B:viwiki-15438-u01:0014:8e9e40cd3c000512 | data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt | trang viwiki-15438-u01]\nCái tên \"C sharp\" được lấy cảm hứng từ ký hiệu âm nhạc, trong đó một dấu thăng sau nốt nhạc \"#\" nghĩa là một nốt được chơi cao hơn nửa cung. Điều này tương tự như trường hợp đặt tên của ngôn ngữ của C++, trong đó \"++\" chỉ ra rằng giá trị của một biến nên được tăng lên 1. Biểu tượng # cũng giống với bốn ký tự \"+\" (trong một lưới 2x2), ngụ ý rằng ngôn ngữ là một phiên bản tăng cường của C++ (gấp đôi C++). Bởi vì giới hạn kỹ thuật của việc hiển thị (các font chuẩn, trình duyệt...) và sự thật là ký tự thăng ( U+266F ♯ MUSIC SHARP SIGN (HTML & #9839; ) ) không hiện diện trong đa số các bàn phím, ký tự ( U+0023 # NUMBER SIGN (HTML & #35; ) ) đã được chọn để diễn đạt một cách tương đương trong cách viết tên ngôn ngữ.\n\n",
+        "context_ids": [
+          "B:viwiki-10293-u01:0001:270ce080da0a1e40",
+          "B:viwiki-10293-u01:0014:8377bac6a1d576e4",
+          "B:viwiki-15438-u01:0014:8e9e40cd3c000512"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "SUPPORTED: BASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh."
+      }
+    ],
+    "timing_ms": {
+      "query_generation": 2999.99,
+      "retrieval": 92.07,
+      "answer_generation": 8669.37,
+      "total": 11761.57
+    },
+    "model": {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "provider": "local_huggingface"
+    },
+    "service_cost_usd": 0,
+    "query_id": "B01",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "question": "Rust sử dụng bộ kiểm tra mượn như thế nào để bảo đảm an toàn bộ nhớ?",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "Rust sử dụng hệ thống kiểm tra mượn (borrow checker) để bảo đảm an toàn bộ nhớ. Hệ thống này giúp phát hiện và ngăn chặn các lỗi liên quan đến việc mượn và trả lại bộ nhớ trong quá trình lập trình.",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-20015378-u01:0002:e5f36c94d17840c8",
+            "text": "Cơ chế chú ý hoạt động bằng cách so sánh từng phần tử cần xử lý (gọi là \"truy vấn\" query ) với tất cả các phần tử khác trong dữ liệu đầu vào (gọi là \"khóa\" key ), nhằm tính ra mức độ liên quan giữa chúng. Mức độ liên quan này sau đó được chuyển thành trọng số, trong đó phần tử nào giống nhau giữa hai bên nhiều hơn sẽ nhận trọng số cao hơn. Cuối cùng, mô hình lấy tổng có trọng số của các giá trị tương ứng để tạo ra đầu ra, giúp thông tin từ những phần tử liên quan đến nhau đóng góp nhiều hơn so với phần còn lại. Kỹ thuật này có thể được sử dụng khi truy vấn và khóa được lấy từ hai chuỗi khác nhau ( chú ý chéo , cross-attention ), hoặc trên cùng một chuỗi để so sánh từng thành phần trong chính nó ( tự chú ý , self-attention ).\n\nCơ chế chú ý là thành phần cốt lõi của kiến trúc Transformer, kiến trúc nền tảng cho các mô hình ngôn ngữ lớn (LLM) hiện nay như GPT , cũng như nhiều ứng dụng thị giác máy tính hiện đại thông qua các mô hình Vision Transformer (ViT).\n\nLịch sử\n\n",
+            "source_id": "viwiki-20015378",
+            "source": "data/day6/corpus/20015378-co-che-chu-y.txt",
+            "page": "viwiki-20015378-u01",
+            "metadata": {
+              "title": "Cơ chế chú ý",
+              "unit_id": "viwiki-20015378-u01",
+              "version": "75599909",
+              "char_end": 1497,
+              "strategy": "B",
+              "char_start": 517,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_ch%E1%BA%BF_ch%C3%BA_%C3%BD",
+              "chunk_ordinal": 2,
+              "day6_chunk_id": "B:viwiki-20015378-u01:0002:e5f36c94d17840c8",
+              "location_type": "content_unit",
+              "normalized_end": 34391,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.36027411459242686,
+            "rank": 1,
+            "strategy": "dense_pgvector"
+          },
+          {
+            "id": "B:viwiki-20015378-u01:0029:aab1b926ca102ced",
+            "text": "Trong xử lý ngôn ngữ tự nhiên , ngoài dịch máy (nguồn gốc của cơ chế chú ý trong bài báo \" Attention is all you need \"), cơ chế chú ý còn là thành phần cốt lõi của các mô hình dùng cho bài toán trả lời câu hỏi và tóm tắt văn bản. Devlin và cộng sự phát triển BERT , một mô hình chỉ dùng bộ mã hóa Transformer, huấn luyện trước bằng cách dự đoán các từ bị che trong câu, sau đó tinh chỉnh cho các tác vụ hiểu ngôn ngữ khác nhau; trên bộ dữ liệu trả lời câu hỏi SQuAD, mô hình đạt điểm F1 cao hơn hệ thống tốt nhất trước đó tại thời điểm công bố. Với bài toán tóm tắt văn bản, See, Liu và Manning kết hợp chú ý với cơ chế con trỏ ( pointer network ) trong mô hình pointer-generator, cho phép mô hình vừa sinh từ mới vừa sao chép trực tiếp từ trong văn bản gốc dựa trên trọng số chú ý, giảm hiện tượng lặp từ và sai lệch thông tin so với các mô hình sinh văn bản thuần túy trước đó.\n\n",
+            "source_id": "viwiki-20015378",
+            "source": "data/day6/corpus/20015378-co-che-chu-y.txt",
+            "page": "viwiki-20015378-u01",
+            "metadata": {
+              "title": "Cơ chế chú ý",
+              "unit_id": "viwiki-20015378-u01",
+              "version": "75599909",
+              "char_end": 21996,
+              "strategy": "B",
+              "char_start": 21115,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_ch%E1%BA%BF_ch%C3%BA_%C3%BD",
+              "chunk_ordinal": 29,
+              "day6_chunk_id": "B:viwiki-20015378-u01:0029:aab1b926ca102ced",
+              "location_type": "content_unit",
+              "normalized_end": 34391,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.3547603487968445,
+            "rank": 2,
+            "strategy": "dense_pgvector"
+          },
+          {
+            "id": "B:viwiki-20015378-u01:0018:66c072bc276004d2",
+            "text": "Cách diễn giải về trọng số của cơ chế chú ý\n\nNgoài vai trò tính toán, trọng số chú ý còn được dùng như một công cụ trực quan hóa để tìm hiểu quá trình ra quyết định của mô hình. Đối với mô hình dịch máy dựa trên RNN, người ta có thể xếp các vector trọng số chú ý qua từng bước giải mã lại với nhau tạo thành một ma trận căn chỉnh ( alignment matrix ) nhằm thể hiện mức độ tương ứng giữa từng từ của câu nguồn và từng từ của câu đích. Với các mô hình dùng cơ chế tự chú ý như Vision Transformer, việc trực quan hóa trọng số chú ý dưới dạng bản đồ nhiệt ( heat map ), còn gọi là bản đồ chú ý ( attention map ) hoặc bản đồ độ nổi bật ( saliency map ), đã trở thành một cách phổ biến để kiểm tra mô hình đang \"tập trung\" vào vùng nào của ảnh khi đưa ra dự đoán. Có thể tính bản đồ chú ý ứng với bất kỳ đầu chú ý nào ở bất kỳ lớp nào trong mô hình, và các lớp sâu hơn thường cho ra bản đồ mang nhiều ý nghĩa ngữ nghĩa hơn.\n\n",
+            "source_id": "viwiki-20015378",
+            "source": "data/day6/corpus/20015378-co-che-chu-y.txt",
+            "page": "viwiki-20015378-u01",
+            "metadata": {
+              "title": "Cơ chế chú ý",
+              "unit_id": "viwiki-20015378-u01",
+              "version": "75599909",
+              "char_end": 13953,
+              "strategy": "B",
+              "char_start": 13034,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_ch%E1%BA%BF_ch%C3%BA_%C3%BD",
+              "chunk_ordinal": 18,
+              "day6_chunk_id": "B:viwiki-20015378-u01:0018:66c072bc276004d2",
+              "location_type": "content_unit",
+              "normalized_end": 34391,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.34482351870396677,
+            "rank": 3,
+            "strategy": "dense_pgvector"
+          }
+        ],
+        "context": "[B:viwiki-20015378-u01:0002:e5f36c94d17840c8 | data/day6/corpus/20015378-co-che-chu-y.txt | trang viwiki-20015378-u01]\nCơ chế chú ý hoạt động bằng cách so sánh từng phần tử cần xử lý (gọi là \"truy vấn\" query ) với tất cả các phần tử khác trong dữ liệu đầu vào (gọi là \"khóa\" key ), nhằm tính ra mức độ liên quan giữa chúng. Mức độ liên quan này sau đó được chuyển thành trọng số, trong đó phần tử nào giống nhau giữa hai bên nhiều hơn sẽ nhận trọng số cao hơn. Cuối cùng, mô hình lấy tổng có trọng số của các giá trị tương ứng để tạo ra đầu ra, giúp thông tin từ những phần tử liên quan đến nhau đóng góp nhiều hơn so với phần còn lại. Kỹ thuật này có thể được sử dụng khi truy vấn và khóa được lấy từ hai chuỗi khác nhau ( chú ý chéo , cross-attention ), hoặc trên cùng một chuỗi để so sánh từng thành phần trong chính nó ( tự chú ý , self-attention ).\n\nCơ chế chú ý là thành phần cốt lõi của kiến trúc Transformer, kiến trúc nền tảng cho các mô hình ngôn ngữ lớn (LLM) hiện nay như GPT , cũng như nhiều ứng dụng thị giác máy tính hiện đại thông qua các mô hình Vision Transformer (ViT).\n\nLịch sử\n\n\n\n[B:viwiki-20015378-u01:0029:aab1b926ca102ced | data/day6/corpus/20015378-co-che-chu-y.txt | trang viwiki-20015378-u01]\nTrong xử lý ngôn ngữ tự nhiên , ngoài dịch máy (nguồn gốc của cơ chế chú ý trong bài báo \" Attention is all you need \"), cơ chế chú ý còn là thành phần cốt lõi của các mô hình dùng cho bài toán trả lời câu hỏi và tóm tắt văn bản. Devlin và cộng sự phát triển BERT , một mô hình chỉ dùng bộ mã hóa Transformer, huấn luyện trước bằng cách dự đoán các từ bị che trong câu, sau đó tinh chỉnh cho các tác vụ hiểu ngôn ngữ khác nhau; trên bộ dữ liệu trả lời câu hỏi SQuAD, mô hình đạt điểm F1 cao hơn hệ thống tốt nhất trước đó tại thời điểm công bố. Với bài toán tóm tắt văn bản, See, Liu và Manning kết hợp chú ý với cơ chế con trỏ ( pointer network ) trong mô hình pointer-generator, cho phép mô hình vừa sinh từ mới vừa sao chép trực tiếp từ trong văn bản gốc dựa trên trọng số chú ý, giảm hiện tượng lặp từ và sai lệch thông tin so với các mô hình sinh văn bản thuần túy trước đó.\n\n\n\n[B:viwiki-20015378-u01:0018:66c072bc276004d2 | data/day6/corpus/20015378-co-che-chu-y.txt | trang viwiki-20015378-u01]\nCách diễn giải về trọng số của cơ chế chú ý\n\nNgoài vai trò tính toán, trọng số chú ý còn được dùng như một công cụ trực quan hóa để tìm hiểu quá trình ra quyết định của mô hình. Đối với mô hình dịch máy dựa trên RNN, người ta có thể xếp các vector trọng số chú ý qua từng bước giải mã lại với nhau tạo thành một ma trận căn chỉnh ( alignment matrix ) nhằm thể hiện mức độ tương ứng giữa từng từ của câu nguồn và từng từ của câu đích. Với các mô hình dùng cơ chế tự chú ý như Vision Transformer, việc trực quan hóa trọng số chú ý dưới dạng bản đồ nhiệt ( heat map ), còn gọi là bản đồ chú ý ( attention map ) hoặc bản đồ độ nổi bật ( saliency map ), đã trở thành một cách phổ biến để kiểm tra mô hình đang \"tập trung\" vào vùng nào của ảnh khi đưa ra dự đoán. Có thể tính bản đồ chú ý ứng với bất kỳ đầu chú ý nào ở bất kỳ lớp nào trong mô hình, và các lớp sâu hơn thường cho ra bản đồ mang nhiều ý nghĩa ngữ nghĩa hơn.\n\n",
+        "context_ids": [
+          "B:viwiki-20015378-u01:0002:e5f36c94d17840c8",
+          "B:viwiki-20015378-u01:0029:aab1b926ca102ced",
+          "B:viwiki-20015378-u01:0018:66c072bc276004d2"
+        ]
+      },
+      {
+        "event": "abstain",
+        "raw_model_output": "INSUFFICIENT"
+      }
+    ],
+    "timing_ms": {
+      "query_generation": 6932.1,
+      "retrieval": 113.41,
+      "answer_generation": 5310.54,
+      "total": 12356.1
+    },
+    "model": {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "provider": "local_huggingface"
+    },
+    "service_cost_usd": 0,
+    "query_id": "B19",
+    "split": "dev",
+    "answerable": false
+  },
+  {
+    "status": "answered",
+    "question": "Tên đầy đủ tạo nên chữ viết tắt BASIC là gì?",
+    "answer": "BASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh. [B:viwiki-10293-u01:0001:270ce080da0a1e40]",
+    "citations": [
+      "B:viwiki-10293-u01:0001:270ce080da0a1e40"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "Tên đầy đủ tạo nên chữ viết tắt BASIC là \"Beginner's All-Purpose Symbolic Instruction Code\".",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-15438-u01:0008:39832de7e3591d6c",
+            "text": "C# hỗ trợ mạnh mẽ cho phương pháp lập trình hướng đối tượng, ngoài ra C# còn hỗ trợ các phương pháp lập trình chức năng thông qua các biểu thức lamba, khớp mẫu, functions, các thuộc tính bất biến.\n\nC# là ngôn ngữ gõ tĩnh, định kiểu mạnh, hỗ trợ gõ động. C# được gõ tĩnh nên nó mang đầy đủ các ưu việt của phương pháp gõ tĩnh như bảo đảm an toàn kiểu, tự động phân tích và nhận biết lỗi cú pháp ngay trong quá trình viết mã... Ngoài ra khi sử dụng C# kết hợp với IDE Visual Studio, C# được hỗ trợ gợi ý code bởi Visual Studio IntelliCode sử dụng trí tuệ nhân tạo giúp cho việc viết code trở nên nhanh chóng và dễ dàng hơn\n\nC# được gõ tĩnh nên nó mang đầy đủ các ưu việt của phương pháp gõ tĩnh như bảo đảm an toàn kiểu, tự động phân tích và nhận biết lỗi cú pháp ngay trong quá trình viết mã...\n\nNgoài ra khi sử dụng C# kết hợp với IDE Visual Studio, C# được hỗ trợ gợi ý code bởi Visual Studio IntelliCode sử dụng trí tuệ nhân tạo giúp cho việc viết code trở nên nhanh chóng và dễ dàng hơn\n\n",
+            "source_id": "viwiki-15438",
+            "source": "data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-15438-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74454567",
+              "title": "C Sharp (ngôn ngữ lập trình)",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 24357,
+              "strategy": "B",
+              "chunk_ordinal": 8,
+              "unit_id": "viwiki-15438-u01",
+              "char_start": 6199,
+              "char_end": 7190,
+              "day6_chunk_id": "B:viwiki-15438-u01:0008:39832de7e3591d6c"
+            },
+            "score": 23.492879048012195,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "B:viwiki-10293-u01:0001:270ce080da0a1e40",
+            "text": "BASIC là một ngôn ngữ lập trình bậc cao, đơn giản, dễ sử dụng, nhằm đơn giản hóa quá trình lập trình. BASIC được phát minh vào năm 1963 bởi các giáo sư John George Kemeny và Thomas Eugene Kurtz thuộc viện Đại học Dartmouth ( Dartmouth College ).\n\nBASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh .\n\nLịch sử\n\nBối cảnh ra đời\n\nCho đến giữa thập niên 1960 , máy tính là những công cụ khá đắt giá chỉ dùng cho các công việc có mục đích đặc biệt. Với cách xử lý theo khối ( batch ), những máy tính trên chỉ chạy một chương trình tại một thời điểm. Tuy vậy, trong thập niên này giá máy tính đã hạ đủ để cho các công ty nhỏ cũng có thể mua được, và tốc độ của chúng đã tăng đến mức đa số thời gian của chúng là rỗi.\n\n",
+            "source_id": "viwiki-10293",
+            "source": "data/day6/corpus/10293-basic.txt",
+            "page": "viwiki-10293-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74447232",
+              "title": "BASIC",
+              "canonical_url": "https://vi.wikipedia.org/wiki/BASIC",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 12420,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-10293-u01",
+              "char_start": 0,
+              "char_end": 753,
+              "day6_chunk_id": "B:viwiki-10293-u01:0001:270ce080da0a1e40"
+            },
+            "score": 23.024047764681377,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "B:viwiki-311392-u01:0003:0468597c96a60927",
+            "text": "Đối với mẫu, còn có thể dùng các toán tử logic như || (hoặc), && (và). Để trình bày được đơn giản, ở đây ta không đề cập đến.\n\nCâu lệnh\n\nCâu lệnh thường dùng trong Awk là lệnh in ra màn hình ( print ). Chẳng hạn:\n\nIn ra tên người:\n\nIn ra chiều cao quy đổi ra mét:\n\nTrong trường hợp in đầy đủ cả dòng thì ta bỏ qua phần {câu lệnh} .\n\nCâu lệnh của Awk còn bao gồm cả những cấu trúc điều khiển (lặp, rẽ nhánh) thường gặp trong các ngôn ngữ lập trình. Ở đây, để đơn giản ta không đề cập đến.\n\nNgoài ra, nếu có nhiều câu lệnh trong một cặp { } thì chúng cần được phân tách bởi dấu chấm phẩy.\n\nLệnh đầy đủ: mẫu đi kèm câu lệnh\n\nIn ra tên và chiều cao những người là nam giới\n\nIn ra chiều cao quy ra mét của mọi người trong danh sách (không cần viết ra mẫu )\n\nIn ra thông tin đầy đủ của tất cả những người có tên Minh (không cần viết câu lệnh print )\n\nTrường hợp đặc biệt\n\n",
+            "source_id": "viwiki-311392",
+            "source": "data/day6/corpus/311392-awk.txt",
+            "page": "viwiki-311392-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74445887",
+              "title": "AWK",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AWK",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 4197,
+              "strategy": "B",
+              "chunk_ordinal": 3,
+              "unit_id": "viwiki-311392-u01",
+              "char_start": 1773,
+              "char_end": 2639,
+              "day6_chunk_id": "B:viwiki-311392-u01:0003:0468597c96a60927"
+            },
+            "score": 18.06366131711013,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[B:viwiki-15438-u01:0008:39832de7e3591d6c | data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt | trang viwiki-15438-u01]\nC# hỗ trợ mạnh mẽ cho phương pháp lập trình hướng đối tượng, ngoài ra C# còn hỗ trợ các phương pháp lập trình chức năng thông qua các biểu thức lamba, khớp mẫu, functions, các thuộc tính bất biến.\n\nC# là ngôn ngữ gõ tĩnh, định kiểu mạnh, hỗ trợ gõ động. C# được gõ tĩnh nên nó mang đầy đủ các ưu việt của phương pháp gõ tĩnh như bảo đảm an toàn kiểu, tự động phân tích và nhận biết lỗi cú pháp ngay trong quá trình viết mã... Ngoài ra khi sử dụng C# kết hợp với IDE Visual Studio, C# được hỗ trợ gợi ý code bởi Visual Studio IntelliCode sử dụng trí tuệ nhân tạo giúp cho việc viết code trở nên nhanh chóng và dễ dàng hơn\n\nC# được gõ tĩnh nên nó mang đầy đủ các ưu việt của phương pháp gõ tĩnh như bảo đảm an toàn kiểu, tự động phân tích và nhận biết lỗi cú pháp ngay trong quá trình viết mã...\n\nNgoài ra khi sử dụng C# kết hợp với IDE Visual Studio, C# được hỗ trợ gợi ý code bởi Visual Studio IntelliCode sử dụng trí tuệ nhân tạo giúp cho việc viết code trở nên nhanh chóng và dễ dàng hơn\n\n\n\n[B:viwiki-10293-u01:0001:270ce080da0a1e40 | data/day6/corpus/10293-basic.txt | trang viwiki-10293-u01]\nBASIC là một ngôn ngữ lập trình bậc cao, đơn giản, dễ sử dụng, nhằm đơn giản hóa quá trình lập trình. BASIC được phát minh vào năm 1963 bởi các giáo sư John George Kemeny và Thomas Eugene Kurtz thuộc viện Đại học Dartmouth ( Dartmouth College ).\n\nBASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh .\n\nLịch sử\n\nBối cảnh ra đời\n\nCho đến giữa thập niên 1960 , máy tính là những công cụ khá đắt giá chỉ dùng cho các công việc có mục đích đặc biệt. Với cách xử lý theo khối ( batch ), những máy tính trên chỉ chạy một chương trình tại một thời điểm. Tuy vậy, trong thập niên này giá máy tính đã hạ đủ để cho các công ty nhỏ cũng có thể mua được, và tốc độ của chúng đã tăng đến mức đa số thời gian của chúng là rỗi.\n\n\n\n[B:viwiki-311392-u01:0003:0468597c96a60927 | data/day6/corpus/311392-awk.txt | trang viwiki-311392-u01]\nĐối với mẫu, còn có thể dùng các toán tử logic như || (hoặc), && (và). Để trình bày được đơn giản, ở đây ta không đề cập đến.\n\nCâu lệnh\n\nCâu lệnh thường dùng trong Awk là lệnh in ra màn hình ( print ). Chẳng hạn:\n\nIn ra tên người:\n\nIn ra chiều cao quy đổi ra mét:\n\nTrong trường hợp in đầy đủ cả dòng thì ta bỏ qua phần {câu lệnh} .\n\nCâu lệnh của Awk còn bao gồm cả những cấu trúc điều khiển (lặp, rẽ nhánh) thường gặp trong các ngôn ngữ lập trình. Ở đây, để đơn giản ta không đề cập đến.\n\nNgoài ra, nếu có nhiều câu lệnh trong một cặp { } thì chúng cần được phân tách bởi dấu chấm phẩy.\n\nLệnh đầy đủ: mẫu đi kèm câu lệnh\n\nIn ra tên và chiều cao những người là nam giới\n\nIn ra chiều cao quy ra mét của mọi người trong danh sách (không cần viết ra mẫu )\n\nIn ra thông tin đầy đủ của tất cả những người có tên Minh (không cần viết câu lệnh print )\n\nTrường hợp đặc biệt\n\n",
+        "context_ids": [
+          "B:viwiki-15438-u01:0008:39832de7e3591d6c",
+          "B:viwiki-10293-u01:0001:270ce080da0a1e40",
+          "B:viwiki-311392-u01:0003:0468597c96a60927"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "SUPPORTED: BASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh."
+      }
+    ],
+    "timing_ms": {
+      "query_generation": 3604.22,
+      "retrieval": 1.91,
+      "answer_generation": 7904.4,
+      "total": 11510.56
+    },
+    "model": {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "provider": "local_huggingface"
+    },
+    "service_cost_usd": 0,
+    "query_id": "B01",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "question": "Rust sử dụng bộ kiểm tra mượn như thế nào để bảo đảm an toàn bộ nhớ?",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "Rust sử dụng hệ thống kiểm tra mượn (borrow checker) để bảo đảm an toàn bộ nhớ. Hệ thống này giúp phát hiện và ngăn chặn các lỗi liên quan đến việc mượn và trả lại bộ nhớ trong quá trình lập trình.",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-2419095-u01:0005:c6d2ec9c513b2d7d",
+            "text": "Kiểm tra kiểu động là thủ tục kiểm tra kiểu của giá trị trong quá trình chạy; kiểm tra kiểu tĩnh là thủ tục kiểm tra kiểu của giá trị trong lúc biên dịch.\n\nMột số ngôn ngữ lập trình không kiểm tra kiểu tĩnh. Bằng những ngôn ngữ đó, ta có thể dễ dàng viết các chương trình \"khác thường\" mà thủ tục kiểm tra kiểu tĩnh thông thường sẽ ngăn chặn. Ví dụ: một biến có thể lưu giá trị số lẫn logic \"sai\". Một số lập trình viên coi các ngôn ngữ này là \"kiểu yếu\", vì chúng có vẻ như không thi hành các biện pháp để đảm bảo tính nghiêm ngặt về kiểu có trong các ngôn ngữ có thủ tục kiểm tra kiểu tĩnh.\n\nKiểm tra kiểu tĩnh\n\nTrong bài viết Typeful Programming của Luca Cardelli , một \"hệ thống kiểu mạnh\" được mô tả là một hệ thống trong đó lỗi về kiểu trong quá trình chạy không thể xảy ra. Nói cách khác, sự tồn tại của lỗi chạy chưa được phát hiện được coi là tính an toàn hay an toàn về kiểu ; những bài viết đầu tiên của Tony Hoare gọi đặc tính này là tính bảo mật .\n\nTính dự đoán được\n\n",
+            "source_id": "viwiki-2419095",
+            "source": "data/day6/corpus/2419095-kieu-manh-va-kieu-yeu.txt",
+            "page": "viwiki-2419095-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74477752",
+              "title": "Kiểu mạnh và kiểu yếu",
+              "canonical_url": "https://vi.wikipedia.org/wiki/Ki%E1%BB%83u_m%E1%BA%A1nh_v%C3%A0_ki%E1%BB%83u_y%E1%BA%BFu",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 7212,
+              "strategy": "B",
+              "chunk_ordinal": 5,
+              "unit_id": "viwiki-2419095-u01",
+              "char_start": 3519,
+              "char_end": 4500,
+              "day6_chunk_id": "B:viwiki-2419095-u01:0005:c6d2ec9c513b2d7d"
+            },
+            "score": 59.53200665838853,
+            "rank": 1,
+            "strategy": "bm25"
+          },
+          {
+            "id": "B:viwiki-13486371-u01:0002:f2e98cb060afcbce",
+            "text": "Các tính năng định kiểu biến, quản lý bộ nhớ tự động và cú pháp đặc biệt cho các kiểu thường dùng cho phép phát triển phần mềm nhanh hơn, trong khi việc kiểm tra giới hạn, thiết kế theo các tính năng của hợp đồng và hệ thống kiểu nhận thức tương tranh đồng thời giúp giảm sự xuất hiện của các lỗi phần mềm .\n\nTính năng\n\n",
+            "source_id": "viwiki-13486371",
+            "source": "data/day6/corpus/13486371-d-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-13486371-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "75579460",
+              "title": "D (ngôn ngữ lập trình)",
+              "canonical_url": "https://vi.wikipedia.org/wiki/D_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 8413,
+              "strategy": "B",
+              "chunk_ordinal": 2,
+              "unit_id": "viwiki-13486371-u01",
+              "char_start": 772,
+              "char_end": 1092,
+              "day6_chunk_id": "B:viwiki-13486371-u01:0002:f2e98cb060afcbce"
+            },
+            "score": 43.975429507698536,
+            "rank": 2,
+            "strategy": "bm25"
+          },
+          {
+            "id": "B:viwiki-15438-u01:0002:3d382dddb12be777",
+            "text": "Ngôn ngữ và việc triển khai đáp ứng các nguyên tắc của ngành kỹ thuật phần mềm như kiểm tra chặt chẽ kiểu dữ liệu, kiểm tra giới hạn mảng, phát hiện các trường hợp sử dụng các biến chưa có dữ liệu, và tự động thu gom rác . Tính mạnh mẽ, sự bền bỉ, và năng suất của việc lập trình là rất quan trọng đối với ngôn ngữ này.\n\nNgôn ngữ sẽ được sử dụng để phát triển các thành phần của phần mềm theo hướng thích hợp cho việc triển khai trong các môi trường phân tán.\n\nKhả năng di chuyển (portability) là rất quan trọng, đặc biệt là đối với những lập trình viên đã quen với C và C++.\n\nHỗ trợ quốc tế hóa (i18n).\n\nNgôn ngữ sẽ được thiết kế để phù hợp với việc viết các ứng dụng cho cả hai hệ thống: hosted và nhúng , từ các phần mềm quy mô lớn, đến các phần mềm chỉ có các chức năng đơn giản.\n\nMặc dù các ứng dụng C# có tính kinh tế đối với các yêu cầu về bộ nhớ và chế độ xử lý, ngôn ngữ này không cạnh tranh trực tiếp về hiệu năng và kích thước đối với ngôn ngữ C hoặc assembly .\n\nỨng dụng của C#\n\n",
+            "source_id": "viwiki-15438",
+            "source": "data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-15438-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74454567",
+              "title": "C Sharp (ngôn ngữ lập trình)",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 24357,
+              "strategy": "B",
+              "chunk_ordinal": 2,
+              "unit_id": "viwiki-15438-u01",
+              "char_start": 896,
+              "char_end": 1887,
+              "day6_chunk_id": "B:viwiki-15438-u01:0002:3d382dddb12be777"
+            },
+            "score": 42.49122277828257,
+            "rank": 3,
+            "strategy": "bm25"
+          }
+        ],
+        "context": "[B:viwiki-2419095-u01:0005:c6d2ec9c513b2d7d | data/day6/corpus/2419095-kieu-manh-va-kieu-yeu.txt | trang viwiki-2419095-u01]\nKiểm tra kiểu động là thủ tục kiểm tra kiểu của giá trị trong quá trình chạy; kiểm tra kiểu tĩnh là thủ tục kiểm tra kiểu của giá trị trong lúc biên dịch.\n\nMột số ngôn ngữ lập trình không kiểm tra kiểu tĩnh. Bằng những ngôn ngữ đó, ta có thể dễ dàng viết các chương trình \"khác thường\" mà thủ tục kiểm tra kiểu tĩnh thông thường sẽ ngăn chặn. Ví dụ: một biến có thể lưu giá trị số lẫn logic \"sai\". Một số lập trình viên coi các ngôn ngữ này là \"kiểu yếu\", vì chúng có vẻ như không thi hành các biện pháp để đảm bảo tính nghiêm ngặt về kiểu có trong các ngôn ngữ có thủ tục kiểm tra kiểu tĩnh.\n\nKiểm tra kiểu tĩnh\n\nTrong bài viết Typeful Programming của Luca Cardelli , một \"hệ thống kiểu mạnh\" được mô tả là một hệ thống trong đó lỗi về kiểu trong quá trình chạy không thể xảy ra. Nói cách khác, sự tồn tại của lỗi chạy chưa được phát hiện được coi là tính an toàn hay an toàn về kiểu ; những bài viết đầu tiên của Tony Hoare gọi đặc tính này là tính bảo mật .\n\nTính dự đoán được\n\n\n\n[B:viwiki-13486371-u01:0002:f2e98cb060afcbce | data/day6/corpus/13486371-d-ngon-ngu-lap-trinh.txt | trang viwiki-13486371-u01]\nCác tính năng định kiểu biến, quản lý bộ nhớ tự động và cú pháp đặc biệt cho các kiểu thường dùng cho phép phát triển phần mềm nhanh hơn, trong khi việc kiểm tra giới hạn, thiết kế theo các tính năng của hợp đồng và hệ thống kiểu nhận thức tương tranh đồng thời giúp giảm sự xuất hiện của các lỗi phần mềm .\n\nTính năng\n\n\n\n[B:viwiki-15438-u01:0002:3d382dddb12be777 | data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt | trang viwiki-15438-u01]\nNgôn ngữ và việc triển khai đáp ứng các nguyên tắc của ngành kỹ thuật phần mềm như kiểm tra chặt chẽ kiểu dữ liệu, kiểm tra giới hạn mảng, phát hiện các trường hợp sử dụng các biến chưa có dữ liệu, và tự động thu gom rác . Tính mạnh mẽ, sự bền bỉ, và năng suất của việc lập trình là rất quan trọng đối với ngôn ngữ này.\n\nNgôn ngữ sẽ được sử dụng để phát triển các thành phần của phần mềm theo hướng thích hợp cho việc triển khai trong các môi trường phân tán.\n\nKhả năng di chuyển (portability) là rất quan trọng, đặc biệt là đối với những lập trình viên đã quen với C và C++.\n\nHỗ trợ quốc tế hóa (i18n).\n\nNgôn ngữ sẽ được thiết kế để phù hợp với việc viết các ứng dụng cho cả hai hệ thống: hosted và nhúng , từ các phần mềm quy mô lớn, đến các phần mềm chỉ có các chức năng đơn giản.\n\nMặc dù các ứng dụng C# có tính kinh tế đối với các yêu cầu về bộ nhớ và chế độ xử lý, ngôn ngữ này không cạnh tranh trực tiếp về hiệu năng và kích thước đối với ngôn ngữ C hoặc assembly .\n\nỨng dụng của C#\n\n",
+        "context_ids": [
+          "B:viwiki-2419095-u01:0005:c6d2ec9c513b2d7d",
+          "B:viwiki-13486371-u01:0002:f2e98cb060afcbce",
+          "B:viwiki-15438-u01:0002:3d382dddb12be777"
+        ]
+      },
+      {
+        "event": "abstain",
+        "raw_model_output": "INSUFFICIENT"
+      }
+    ],
+    "timing_ms": {
+      "query_generation": 6986.86,
+      "retrieval": 6.47,
+      "answer_generation": 4781.07,
+      "total": 11774.43
+    },
+    "model": {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "provider": "local_huggingface"
+    },
+    "service_cost_usd": 0,
+    "query_id": "B19",
+    "split": "dev",
+    "answerable": false
+  }
+]

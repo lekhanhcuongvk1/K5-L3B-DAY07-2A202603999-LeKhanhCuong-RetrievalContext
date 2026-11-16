@@ -1,0 +1,109 @@
+Cơ sở dữ liệu MNIST ( tiếng Anh : MNIST database , viết tắt từ Modified National Institute of Standards and Technology database , dịch là Cơ sở Dữ liệu từ Viện Tiêu chuẩn và Công nghệ Quốc gia đã qua Chỉnh sửa ) là một cơ sở dữ liệu lớn gồm các chữ số viết tay từ 0 đến 9, được tạo ra bởi Yann LeCun , Corinna Cortes và Christopher J.C. Burges .
+
+MNIST bao gồm 60.000 ảnh huấn luyện và 10.000 ảnh kiểm thử, mỗi ảnh là một chữ số từ 0 đến 9 trên nền đen, kích thước 28×28 pixel, mã hóa thang xám. Đây là một trong những tập dữ liệu chuẩn phổ biến nhất trong học máy và thị giác máy tính , thường được dùng để đánh giá và so sánh các thuật toán phân loại ảnh .
+
+Tệp dữ liệu
+
+Mỗi ảnh trong MNIST được chuẩn hóa về kích thước 28×28 pixel bằng cách thu nhỏ ảnh gốc vào một khung 20×20 pixel, rồi dịch chuyển ảnh sao cho khối tâm của các điểm ảnh nằm ở trung tâm khung 28×28. Quá trình thu nhỏ áp dụng khử răng cưa ( anti-aliasing ), tạo ra các mức xám trung gian thay vì chỉ đen trắng thuần túy.
+
+Tập huấn luyện và tập kiểm thử đều được lấy từ hai nguồn: nhân viên Cục điều tra dân số Hoa Kỳ và học sinh trung học phổ thông ở Bethesda, Maryland . Mỗi nguồn đóng góp 250 người viết vào tập huấn luyện và 250 người viết vào tập kiểm thử, đảm bảo cả hai tập có phân phối tương đồng nhau.
+
+Trong tập dữ liệu này, có ít nhất 4 ảnh bị dán nhãn sai.
+
+Các biến thể
+
+Năm 2019, Yadav và Bottou phục dựng lại toàn bộ 60.000 ảnh kiểm thử gốc vốn bị loại bỏ khi tạo MNIST, từ đó xây dựng QMNIST , gồm 60.000 ảnh huấn luyện và 60.000 ảnh kiểm thử.
+
+EMNIST ( Extended MNIST ) được NIST phát hành năm 2017 như phiên bản kế thừa chính thức của MNIST. EMNIST được xây dựng từ toàn bộ dữ liệu trong SD-19, chuyển đổi về cùng định dạng 28×28 pixel, và bổ sung thêm chữ cái viết tay bên cạnh chữ số, do đó các công cụ viết cho MNIST thường hoạt động được ngay trên EMNIST mà không cần chỉnh sửa.
+
+Fashion-MNIST được Zalando Research tạo ra năm 2017 như một thay thế khó hơn cho MNIST. Tập dữ liệu gồm 70.000 ảnh 28×28 pixel của các sản phẩm thời trang thuộc 10 danh mục, chia thành 60.000 ảnh huấn luyện và 10.000 ảnh kiểm thử – giữ nguyên định dạng của MNIST để có thể dùng thay thế trực tiếp.
+
+Lịch sử
+
+Vào cuối những năm 1980s, Cục điều tra dân số Hoa Kỳ muốn tự động hóa việc đọc các mẫu điều tra viết tay, nên đã thuê Nhóm Nhận dạng Ảnh ( Image Recognition Group ) của NIST nghiên cứu các hệ thống nhận dạng ký tự quang học ( OCR ). Song song đó, Bưu điện Hoa Kỳ cũng có nhu cầu tương tự khi cần đọc mã bưu chính viết tay trên thư từ. Cả hai bài toán thực tiễn này đều đặt ra một câu hỏi cốt lõi: làm thế nào để máy tính nhận dạng được chữ số viết tay vốn rất đa dạng về phong cách giữa các cá nhân?
+
+Năm 1988, LeCun và các cộng sự tại AT&T Bell Laboratories xây dựng một tập dữ liệu chữ số từ mã bưu chính viết tay trên thư tín qua Bưu điện Buffalo, New York, gồm 7.291 ảnh huấn luyện và 2.007 ảnh kiểm thử, mỗi ảnh 16×16 pixel thang xám. Đây là tập dữ liệu được dùng để huấn luyện LeNet đầu tiên.
+
+Về phía NIST, nhiều năm làm việc đã tạo ra một loạt các "Cơ sở dữ liệu Đặc biệt". Trong số đó, SD-3 (phát hành tháng 2 năm 1992) chứa 223.125 chữ số viết tay dạng ảnh nhị phân 128×128 pixel, được thu thập từ nhân viên Cục điều tra dân số. SD-7 (phát hành tháng 4 năm 1992) là tập kiểm thử, gồm 58.646 ảnh tương tự được viết bởi 500 học sinh trung học ở Bethesda, Maryland.
+
+Vấn đề lớn nảy sinh khi các hệ thống học máy được huấn luyện trên SD-3 bị sụt giảm hiệu suất mạnh khi kiểm thử trên SD-7, khi tỉ lệ lỗi tăng từ dưới 1% lên khoảng 10%. Nguyên nhân là sự khác biệt về phân phối ( distribution shift ) giữa hai nguồn: SD-3 do nhân viên nhà nước viết nên có xu hướng ngăn nắp gọn gàng hơn, còn SD-7 do học sinh viết nên đa dạng và khó đọc hơn. Thêm vào đó, bộ phân đoạn ký tự của SD-3 là thiết kế cũ hơn, thường bỏ sót các trường hợp khó, khiến SD-3 vô tình trở nên quá "dễ".
+
+Năm 1992, NIST và Cục điều tra dân số tổ chức một cuộc thi để đánh giá trạng thái của ngành: 45 thuật toán từ 26 công ty thuộc 7 quốc gia được nộp, với SD-3 làm tập huấn luyện và SD-7 làm tập kiểm thử. Trong số các đội dùng SD-3 để huấn luyện, đội thắng cuộc sử dụng bộ giải thuật K hàng xóm gần nhất với metric bất biến với phép biến đổi Euclid.
+
+MNIST được xây dựng vào khoảng năm 1994 để giải quyết vấn đề distribution shift nói trên. Thay vì chỉ dùng một nguồn dữ liệu duy nhất, LeCun và các cộng sự trộn ảnh từ cả SD-3 lẫn SD-7 vào cả tập huấn luyện lẫn tập kiểm thử: 250 người viết từ mỗi nguồn đóng góp vào tập huấn luyện, 250 người viết từ mỗi nguồn đóng góp vào tập kiểm thử. Nhờ đó, tập huấn luyện và tập kiểm thử có phân phối phong cách viết tương đồng nhau, loại bỏ lợi thế nhân tạo mà các hệ thống trước đây hưởng khi SD-3 vô tình dễ hơn SD-7.
+
+MNIST cũng là tập dữ liệu chuẩn để phát triển LeNet . LeNet-1, mạng neuron tích chập đầu tiên của nhóm LeCun, ban đầu được huấn luyện trên tập dữ liệu bưu chính, nhưng đến khi MNIST ra đời thì kiến trúc này đã quá nhỏ để xử lý được bộ dữ liệu tương đối lớn này. Nhóm nghiên cứu phát triển LeNet-4, rồi đến năm 1998 công bố LeNet-5 trong bài báo "Gradient-Based Learning Applied to Document Recognition" cùng với mô tả đầy đủ về MNIST.
+
+Hiệu suất
+
+Bài báo năm 1998 của LeCun và các cộng sự là công trình benchmark hệ thống đầu tiên trên MNIST, so sánh nhiều phương pháp khác nhau. LeNet-5 đạt tỉ lệ lỗi 0,95% trên tập kiểm thử. Kết quả tốt nhất trong bài đến từ một tập hợp ba mạng LeNet-4 được tăng cường bằng kỹ thuật boosting, đạt 0,7%. Trong khi đó, tỉ lệ lỗi cao nhất được ghi nhận là 12%, đến từ bộ phân loại tuyến tính đơn giản không qua tiền xử lý.
+
+Năm 2004, Kussul và Baidyk đạt 0,42% bằng bộ phân loại LIRA, một mạng neuron ba lớp dựa trên nguyên lý perceptron của Rosenblatt. Năm 2011, Ciresan và các cộng sự đạt 0,27% bằng việc tăng cường dữ liệu ( data augmentation ). Năm 2013, kỹ thuật DropConnect (một biến thể của dropout áp dụng lên trọng số thay vì neuron) được báo cáo đạt 0,21%.
+
+Đến năm 2012, một mô hình 35 mạng CNN với biến dạng đàn hồi đạt 0,23%. Tính đến năm 2018, kết quả tốt nhất của một mạng CNN đơn lẻ huấn luyện trên MNIST không dùng data augmentation là 0,25%. Năm 2020, một tập hợp ba CNN với kích thước kernel khác nhau đạt tỉ lệ lỗi 0,09% – kết quả thấp nhất được công bố tính đến thời điểm đó.
+
+Tham khảo
+
+1 2 3 4 LeCun, Yann; Cortes, Corinna; Burges, Christopher C.J. "The MNIST Handwritten Digit Database" . Bản gốc lưu trữ ngày 30 tháng 4 năm 2020.
+
+↑ Kussul, Ernst; Baidyk, Tatiana (2004). "Improved method of handwritten digit recognition tested on MNIST database" . Image and Vision Computing . 22 (12): 971– 981. doi : 10.1016/j.imavis.2004.03.008 .
+
+↑ Qiao, Yu (2007). "THE MNIST DATABASE of handwritten digits" . Bản gốc lưu trữ ngày 11 tháng 2 năm 2018 . Truy cập ngày 18 tháng 8 năm 2013 .
+
+↑ Platt, John C. (1999). "Using analytic QP and sparseness to speed training of support vector machines" (PDF) . Advances in Neural Information Processing Systems : 557– 563. Bản gốc (PDF) lưu trữ ngày 4 tháng 3 năm 2016 . Truy cập ngày 18 tháng 8 năm 2013 .
+
+1 2 3 Bottou, Léon; và đồng nghiệp (1994). "Comparison of classifier methods: A case study in handwritten digit recognition". Proceedings of the 12th IAPR International Conference on Pattern Recognition . tr. 77– 82. doi : 10.1109/ICPR.1994.576879 .
+
+↑ Muller, Nicolas M.; Markert, Karla (tháng 7 năm 2019). Identifying Mislabeled Instances in Classification Datasets . 2019 International Joint Conference on Neural Networks (IJCNN). IEEE. tr. 1– 8. arXiv : 1912.05283 . doi : 10.1109/IJCNN.2019.8851920 . ISBN 978-1-7281-1985-4 .
+
+↑ Yadav, Chhavi; Bottou, Leon (2019). "Cold Case: The Lost MNIST Digits" . Advances in Neural Information Processing Systems . 32 . arXiv : 1905.10498 .
+
+↑ Cohen, G.; Afshar, S.; Tapson, J.; van Schaik, A. (2017). "EMNIST: an extension of MNIST to handwritten letters". arXiv : 1702.05373 [ cs.CV ].
+
+↑ Xiao, Han; Rasul, Kashif; Vollgraf, Roland (ngày 15 tháng 9 năm 2017). "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms". arXiv : 1708.07747 [ cs.LG ].
+
+↑ Denker, John; và đồng nghiệp (1988). "Neural Network Recognizer for Hand-Written Zip Code Digits" . Advances in Neural Information Processing Systems . 1 .
+
+↑ LeCun, Y.; và đồng nghiệp (1989). "Backpropagation Applied to Handwritten Zip Code Recognition" . Neural Computation . 1 (4): 541– 551. doi : 10.1162/neco.1989.1.4.541 .
+
+1 2 Wilkinson, R. Allen; và đồng nghiệp (1992). The first census optical character recognition system conference (Báo cáo). National Institute of Standards and Technology. doi : 10.6028/nist.ir.4912 .
+
+↑ Simard, Patrice; LeCun, Yann; Denker, John (1992). "Efficient Pattern Recognition Using a New Transformation Distance" . Advances in Neural Information Processing Systems . 5 .
+
+1 2 3 LeCun, Yann; Bottou, Léon; Bengio, Yoshua; Haffner, Patrick (1998). "Gradient-Based Learning Applied to Document Recognition" . Proceedings of the IEEE . 86 (11): 2278– 2324. doi : 10.1109/5.726791 .
+
+↑ Kussul, Ernst; Baidyk, Tatiana (2004). "Improved method of handwritten digit recognition tested on MNIST database" . Image and Vision Computing . 22 (12): 971– 981. doi : 10.1016/j.imavis.2004.03.008 .
+
+↑ Ciresan, Dan Claudiu; và đồng nghiệp (2011). "Convolutional neural network committees for handwritten character classification". 2011 International Conference on Document Analysis and Recognition (ICDAR) . tr. 1135– 1139. doi : 10.1109/ICDAR.2011.229 .
+
+↑ Wan, Li; và đồng nghiệp (2013). Regularization of Neural Network using DropConnect . International Conference on Machine Learning (ICML).
+
+↑ Ciresan, Dan; và đồng nghiệp (2012). "Multi-column deep neural networks for image classification". 2012 IEEE Conference on Computer Vision and Pattern Recognition . arXiv : 1202.2745 . doi : 10.1109/CVPR.2012.6248110 .
+
+↑ SimpleNet (2016). "Lets Keep it simple, Using simple architectures to outperform deeper and more complex architectures" . arXiv : 1608.06037 .
+
+↑ An, Sanghyeon; và đồng nghiệp (ngày 4 tháng 10 năm 2020). "An Ensemble of Simple Convolutional Neural Network Models for MNIST Digit Recognition". arXiv : 2008.10400 [ cs.CV ].
+
+Xem thêm
+
+Trang web cơ sở dữ liệu MNIST
+
+Danh sách tập dữ liệu dành cho nghiên cứu học máy
+
+Caltech 101
+
+LabelMe
+
+Nhận dạng ký tự quang học
+
+Đọc thêm
+
+Ciresan, Dan; Meier, Ueli; Schmidhuber, Jürgen (tháng 6 năm 2012). "Multi-column deep neural networks for image classification" (PDF) . 2012 IEEE Conference on Computer Vision and Pattern Recognition . New York, NY: Hội Kỹ sư Điện và Điện tử . tr. 3642– 3649. arXiv : 1202.2745 . CiteSeerX 10.1.1.300.3283 . doi : 10.1109/CVPR.2012.6248110 . ISBN 9781467312264 . OCLC 812295155 . Truy cập ngày 9 tháng 12 năm 2013 .
+
+Liên kết ngoài
+
+Website chính thức
+
+Neural Net for Handwritten Digit Recognition in JavaScript – a JavaScript implementation of a neural network for handwritten digit classification based on the MNIST database
+
+Visualization of the MNIST database – groups of images of MNIST handwritten digits on GitHub

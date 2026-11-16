@@ -1,0 +1,125 @@
+Khoa học máy tính ( tiếng Anh : computer science ) là ngành nghiên cứu các cơ sở lý thuyết về thông tin và tính toán cùng sự thực hiện và ứng dụng của chúng trong các hệ thống máy tính . Khoa học máy tính là cách tiếp cận khoa học và thực tiễn để tính toán và các ứng dụng của nó và nghiên cứu có hệ thống về tính khả thi , cấu trúc, biểu hiện và cơ giới hóa các thủ tục (hoặc các thuật toán ) cơ bản làm cơ sở cho việc thu thập, đại diện, xử lý, lưu trữ, truyền thông và truy cập thông tin. Một định nghĩa thay thế, gọn gàng hơn về khoa học máy tính là nghiên cứu về các quy trình thuật toán tự động hóa mà có thể nhân rộng trên quy mô lớn. Một nhà khoa học máy tính là chuyên gia về lý thuyết tính toán và thiết kế các hệ thống tính toán .
+
+Khoa học máy tính gồm nhiều ngành hẹp; một số ngành tập trung vào các ứng dụng thực tiễn cụ thể chẳng hạn như đồ họa máy tính , trong khi một số ngành khác lại tập trung nghiên cứu đến tính chất cơ bản của các bài toán tính toán như lý thuyết độ phức tạp tính toán ). Ngoài ra còn có những ngành khác nghiên cứu các vấn đề trong việc thực thi các phương pháp tính toán. Ví dụ, ngành lý thuyết ngôn ngữ lập trình nghiên cứu những phương thức mô tả cách tính toán khác nhau, trong khi ngành lập trình nghiên cứu cách sử dụng các ngôn ngữ lập trình và các hệ thống phức tạp , và ngành tương tác người-máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng.
+
+Lịch sử
+
+Lịch sử của khoa học máy tính đã bắt đầu từ nhiều năm trước phát minh ra máy tính hiện đại. Các máy móc dành cho việc tính toán các bài toán số học đã tồn tại từ thời cổ đại, chẳng hạn như bàn tính . Hơn nữa, các thuật toán để thực hiện tính toán đã có kể từ thời cổ đại, ngay cả trước khi phát triển các thiết bị tính toán phức tạp.
+
+Wilhelm Schickard đã thiết kế và hoàn thành chiếc máy tính cơ học đầu tiên năm 1623. Năm 1673, Gottfried Leibniz trình diễn một máy tính cơ học số, được gọi là Stepped Reckoner . Ông có thể được coi là nhà khoa học máy tính đầu tiên và nhà lý thuyết thông tin mà đã ghi lại hệ thống số nhị phân.
+
+Blaise Pascal thiết kế và xây dựng máy tính cơ học hoạt động được mang tên Pascaline , năm 1642. Charles Babbage đã thiết kế một máy tính theo hiệu ( difference engine ) vào thời Victoria , và Ada Lovelace đã viết bản hướng dẫn sử dụng máy. Nhờ công trình này, ngày nay, bà được coi là lập trình viên đầu tiên trên thế giới. Vào khoảng năm 1900, tập đoàn IBM đã bán những chiếc máy tính dùng thẻ đục lỗ. Tuy nhiên, tất cả những chiếc máy này đều chỉ thực hiện một nhiệm vụ đơn, hoặc cùng lắm là một tập hợp nhỏ các nhiệm vụ.
+
+Trước năm 1920, công việc tính toán được thực hiện chủ yếu bởi những nhân viên chuyên nghiệp. Những nhà nghiên cứu đầu tiên về ngành mà sau này được gọi là khoa học máy tính, chẳng hạn Kurt Gödel , Alonzo Church và Alan Turing , đã quan tâm đến câu hỏi về khả năng tính toán: những gì có thể được tính toán bởi một người thủ quỹ - người chỉ đơn giản dùng giấy và bút chì để làm một danh sách các bước tính toán, cho đến khi nào xong việc mà không cần đến trí thông minh hay hiểu biết? Một phần của động cơ này là ước muốn phát triển các máy tính có khả năng tự động hóa các công việc tính toán thường là buồn tẻ và dễ sai của một người tính toán . Vấn đề then chốt là xây dựng các hệ thống tính toán phổ dụng có khả năng (về lý thuyết) thực hiện mọi nhiệm vụ tính toán có thể cần đến, và nhờ đó tổng quát hóa tất cả các máy tính chuyên biệt trước kia thành một khái niệm đơn nhất về chiếc máy tính phổ dụng.
+
+Trong những năm 1940, khi các máy tính mới hơn và mạnh hơn được phát triển, người ta thấy rõ ràng hơn rằng máy tính có thể được sử dụng cho nhiều mục đích khác ngoài các tính toán toán học, lĩnh vực khoa học máy tính được mở rộng thành ngành nghiên cứu tính toán nói chung. Từ thập kỷ 1960, khoa học máy tính bắt đầu được thiết lập như là một ngành học riêng biệt, với sự ra đời của các khoa Khoa học máy tính đầu tiên và các chương trình đào tạo đại học chuyên ngành Khoa học máy tính. Từ khi các máy tính được sử dụng trong thực tiễn, nhiều ứng dụng của tính toán đã trở thành các lĩnh vực nghiên cứu riêng biệt.
+
+Những thành tựu đáng kể
+
+Tuy được trở thành một bộ môn giáo dục chính thức với một quãng thời gian lịch sử ngắn ngủi, khoa học máy tính đã có một số cống hiến quan trọng đối với khoa học và xã hội. Những cống hiến này bao gồm:
+
+Đã định nghĩa được một cách chính thức về tính toán ( computation ) và khả năng tính toán ( computability ), đồng thời đưa ra bằng chứng rằng có những vấn đề bất khả tính toán ( computationally unsolvable ) và những vẫn đề rất khó tính toán ( intractable ).
+
+Đã đưa ra khái niệm về ngôn ngữ lập trình , một dụng cụ dùng để biểu đạt thông tin đã được trật tự hóa một cách chính xác trong nhiều tầng lớp trừu tượng khác nhau.
+
+Làm tiền đề cho cuộc cách mạng kỹ thuật số ( Digital Revolution ) là cái dẫn đến thời đại thông tin ( Information Age ) và internet hiện nay.
+
+Trong mật mã học ( cryptography ), sự phá mã của máy Enigma là một đóng góp quan trọng trong chiến thắng của quân Đồng minh trong Đại Chiến Thế giới lần thứ II .
+
+Tính toán khoa học ( Scientific computing ) cho phép việc nghiên cứu bộ não con người, đồ thị hóa cấu hình của GEN ( mapping the human genome ) như Dự án bản đồ gen người ( Human Genome Project ) ở mức độ uyên thâm. Những đề án tính toán phân tán như Folding@home khám phá quá trình gấp cuộn của chất đạm ( protein folding ).
+
+Giao dịch bằng thuật toán làm tăng hiệu quả và tính thanh khoản của thị trường tài chính bằng cách sử dụng trí tuệ nhân tạo , học máy và các kĩ thuật thống kê / giải tích số khác trên quy mô lớn.
+
+Các lĩnh vực của khoa học máy tính
+
+Cơ sở toán học
+
+Lý thuyết tính toán
+
+Cấu trúc dữ liệu và giải thuật
+
+Ngôn ngữ lập trình và trình biên dịch
+
+Hệ thống phân tán, song song, tương tranh
+
+Kỹ nghệ phần mềm
+
+Kiến trúc máy tính
+
+Truyền thông - Viễn thông
+
+Cơ sở dữ liệu
+
+Trí tuệ nhân tạo
+
+Tính toán mềm
+
+Một thuật ngữ tổng hợp dành cho các kỹ thuật được sử dụng để giải các bài toán cụ thể, xem bài chính.
+
+Đồ họa máy tính
+
+Tương tác người-máy
+
+Tính toán khoa học
+
+Đào tạo về khoa học máy tính
+
+Một số trường đại học đào tạo khoa học máy tính như là một ngành nghiên cứu lý thuyết về tính toán và lập luận thuật toán. Các chương trình đào tạo này thường bao gồm các môn lý thuyết tính toán , phân tích thuật toán , các phương pháp hình thức , lý thuyết tương tranh , cơ sở dữ liệu , đồ họa máy tính và phân tích hệ thống cùng các môn khác. Các chương trình này thường cũng dạy cả lập trình , nhưng coi đây chỉ là một phương tiện để hỗ trợ các lĩnh vực khác của khoa học máy tính chứ không phải là một trọng tâm của nghiên cứu ở mức độ cao.
+
+Các trường cao đẳng và đại học khác, cũng như các trường trung học và những chương trình dạy nghề có giảng dạy về khoa học máy tính, lại nhấn mạnh thực hành lập trình cao cấp thay vì lý thuyết đối với các thuật toán và tính toán trong chương trình giáo dục của họ. Những chương trình này thường có xu hướng tập trung vào những kỹ năng quan trọng cho những người đi làm trong ngành công nghiệp phần mềm. Phương diện thực hành của việc lập trình thường được gọi là kỹ nghệ phần mềm . Tuy nhiên, có rất nhiều bất đồng xung quanh ý nghĩa thật của từ " kỹ nghệ phần mềm " ( software engineering ) và về việc nó với lập trình ( programming ) có phải là một hay không.
+
+Xem thêm
+
+Tính toán
+
+Tin học
+
+Khoa học thông tin
+
+Danh sách các chủ đề cơ bản của khoa học máy tính
+
+Danh sách các hội thảo khoa học máy tính
+
+Danh sách các bài toán mở trong khoa học máy tính
+
+Danh sách các ấn bản khoa học máy tính
+
+Danh sách các nhà tiên phong trong khoa học máy tính
+
+Danh sách các chủ đề kỹ nghệ phần mềm
+
+Tham khảo
+
+↑ "WordNet Search—3.1" . Wordnetweb.princeton.edu . Truy cập ngày 14 tháng 5 năm 2012 .
+
+↑ Nigel Tout (2006). "Calculator Timeline" . Vintage Calculator Web Museum . Truy cập ngày 18 tháng 9 năm 2006 .
+
+↑ "A Brief History of Computing" . Bản gốc lưu trữ ngày 29 tháng 6 năm 2012 . Truy cập ngày 13 tháng 3 năm 2018 .
+
+↑ "Science Museum - Introduction to Babbage" . Bản gốc lưu trữ ngày 8 tháng 9 năm 2006 . Truy cập ngày 24 tháng 9 năm 2006 .
+
+↑ "IBM Punch Cards in the U.S. Army" . Truy cập ngày 24 tháng 9 năm 2006 .
+
+↑ Denning, P.J. (2000). " Computer science:the discipline ". Encyclopedia of Computer Science . {{ Chú thích tạp chí }} : Liên kết ngoài trong | title= ( trợ giúp )
+
+1 2 David Kahn , The Codebreakers , 1967, ISBN 0-684-83130-9 .
+
+↑ Constable, R.L. (tháng 3 năm 2000). "Computer Science: Achievements and Challenges circa 2000" (PDF) . {{ Chú thích tạp chí }} : Chú thích magazine cần | magazine= ( trợ giúp )
+
+↑ Structure and Interpretation of Computer Programs (ấn bản thứ 2). MIT Press. 1996. ISBN 0-262-01153-0 . Cách mạng khoa học tính toán được gọi là một cuộc cách mạng vì nó thay đổi cách suy nghĩ của chúng ta, và thay đổi cách chúng ta biểu đạt những suy nghĩ của mình. Khái niệm căn bản trong sự thay đổi này là sự xuất hiện của cái mà chúng ta có thể đặt tên cho là "Quan niệm tri thức trình tự" ( procedural epistemology ) - tức sự nghiên cứu cấu trúc của ngôn ngữ từ góc độ "mệnh lệnh" ( imperative ), thay vì góc độc "tường thuật" ( declarative ) mà những bộ môn toán học cổ truyền khác vẫn sử dụng {{ Chú thích sách }} : Đã bỏ qua tham số không rõ | authors= ( trợ giúp )
+
+1 2
+
+↑ "Black box traders are on the march" . The Telegraph. ngày 26 tháng 8 năm 2006.
+
+Association for Computing Machinery . 1998 ACM Computing Classification System Lưu trữ ngày 28 tháng 8 năm 2008 tại Wayback Machine . 1998.
+
+IEEE Computer Society and the Association for Computing Machinery . Computing Curricula 2001: Computer Science . 15 tháng 12 năm 2001.
+
+Peter J. Denning . Is computer science science? , Communications of the ACM, tháng 4 năm 2005.
+
+Liên kết ngoài
+
+Open Directory Project: Computer Science
+
+Collection of Computer Science Bibliographies Lưu trữ ngày 7 tháng 6 năm 2011 tại Wayback Machine

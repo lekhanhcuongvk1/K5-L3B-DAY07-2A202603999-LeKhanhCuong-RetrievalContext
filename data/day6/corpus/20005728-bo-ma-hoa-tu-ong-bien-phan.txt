@@ -1,0 +1,77 @@
+Bộ mã hóa tự động biến phân , hay bộ tự mã hóa biến phân ( tiếng Anh : Variational Autoencoder , viết tắt VAE ) là một kiến trúc mạng neuron nhân tạo do Diederik P. Kingma và Max Welling giới thiệu năm 2013. VAE là một mô hình xác suất đồ thị và phương pháp Bayes biến phân , đồng thời là một dạng mô hình tạo sinh có khả năng tạo ra dữ liệu mới.
+
+Về cấu trúc, VAE tương tự bộ tự mã hóa thông thường với một bộ mã hóa và một bộ giải mã, nhưng khác ở điểm then chốt: thay vì ánh xạ đầu vào thành một vector cố định trong không gian biểu diễn, bộ mã hóa của VAE ánh xạ đầu vào thành một phân phối xác suất (thường là phân phối chuẩn ) và bộ giải mã lấy mẫu từ phân phối đó để tái tạo đầu vào. Cách tiếp cận xác suất này giúp VAE tránh quá khớp và cho phép sinh dữ liệu mới bằng cách lấy mẫu trực tiếp từ không gian biểu diễn.
+
+Dù ban đầu được thiết kế cho học tự giám sát , hiệu quả của VAE cũng đã được chứng minh trong học bán giám sát và học có giám sát .
+
+Kiến trúc
+
+Bộ mã hóa, bộ giải mã và không gian biểu diễn
+
+VAE là một mô hình tạo sinh với một phân phối tiên nghiệm ( prior ) và một phân phối nhiễu. Bộ mã hóa E ϕ nhận đầu vào x và ánh xạ sang không gian biểu diễn dưới dạng một phân phối xác suất q ϕ ( z | x ) , thay vì một vector cố định. Bộ giải mã D θ thực hiện chiều ngược lại, ánh xạ từ không gian biểu diễn sang không gian đầu vào theo phân phối p θ ( x | z ) .
+
+Mục tiêu là tối đa hóa hàm khả năng của dữ liệu p θ ( x ) . Tuy nhiên, tính toán trực tiếp đòi hỏi lấy tích phân theo z : p θ ( x ) = ∫ z p θ ( x | z ) p θ ( z ) d z tích phân này thường không tính được ( intractable ). Do đó, VAE dùng một phân phối xấp xỉ q ϕ ( z | x ) ≈ p θ ( z | x ) , còn gọi là suy diễn phân bổ ( amortized inference ), để thay thế xác suất hậu nghiệm chính xác, cho phép tối ưu hóa chung trên toàn bộ tập dữ liệu thay vì từng điểm riêng lẻ.
+
+Cận dưới bằng chứng (ELBO)
+
+Vì không thể tối đa hóa trực tiếp ln ⁡ p θ ( x ) , VAE tối đa hóa một cận dưới của nó gọi là cận dưới bằng chứng ( evidence lower bound , ELBO): L θ , ϕ ( x ) = 𝔼 z ∼ q ϕ ( ⋅ | x ) [ ln ⁡ p θ ( x | z ) ] − D KL ( q ϕ ( ⋅ | x ) ‖ p θ ( ⋅ ) ) Số hạng đầu là sai số tái tạo, đo mức độ bộ giải mã phục hồi được đầu vào từ mẫu lấy trong không gian biểu diễn. Số hạng thứ hai là phân kỳ Kullback–Leibler giữa xác suất hậu nghiệm xấp xỉ q ϕ ( z | x ) và phân phối tiên nghiệm p θ ( z ) , đóng vai trò chính quy hóa bằng cách buộc không gian biểu diễn có cấu trúc gần với phân phối chuẩn. Tối đa hóa ELBO đồng thời tối đa hóa log-likelihood của dữ liệu và tối thiểu hóa khoảng cách giữa xác suất hậu nghiệm xấp xỉ và xác suất hậu nghiệm chính xác.
+
+Thủ thuật tái tham số hóa
+
+Để tối ưu hóa ELBO bằng suy giảm độ dốc , cần tính gradient theo ϕ của giá trị kỳ vọng 𝔼 z ∼ q ϕ ( ⋅ | x ) [ ⋅ ] . Điều này không thể thực hiện được trực tiếp vì ϕ xuất hiện trong chính phân phối lấy mẫu. Thủ thuật tái tham số hóa ( reparameterization trick ) giải quyết vấn đề này bằng cách tách phần ngẫu nhiên ra khỏi tham số: thay vì lấy mẫu z ∼ 𝒩 ( μ ϕ ( x ) , σ ϕ ( x ) 2 I ) trực tiếp, ta lấy ε ∼ 𝒩 ( 0 , I ) rồi đặt: z = μ ϕ ( x ) + σ ϕ ( x ) ⋅ ε Khi đó gradient theo ϕ có thể lan truyền ngược qua z một cách bình thường, vì phần ngẫu nhiên ε không phụ thuộc vào ϕ .
+
+Biến thể
+
+β-VAE
+
+β-VAE là biến thể thêm trọng số β vào số hạng phân kỳ Kullback–Leibler trong hàm mất mát : L θ , ϕ ( x ) = 𝔼 z ∼ q ϕ ( ⋅ | x ) [ ln ⁡ p θ ( x | z ) ] − β ⋅ D KL ( q ϕ ( ⋅ | x ) ‖ p θ ( ⋅ ) ) Với β > 1 , mô hình bị buộc học các biểu diễn biểu diễn tách biệt ( disentangled ), tức các chiều trong không gian biểu diễn tương ứng với các yếu tố biến đổi độc lập của dữ liệu mà không cần nhãn giám sát.
+
+VAE có điều kiện (CVAE)
+
+VAE có điều kiện ( Conditional VAE , CVAE) đưa thêm thông tin nhãn vào không gian biểu diễn để buộc mô hình học biểu diễn có ràng buộc xác định. Khác với VAE thông thường chỉ học phân phối chung của dữ liệu, CVAE cho phép sinh dữ liệu có kiểm soát theo điều kiện cho trước, ví dụ sinh ảnh chữ số theo nhãn chữ số mong muốn.
+
+VAE kết hợp GAN
+
+Một số kiến trúc kết hợp VAE với mạng đối nghịch tạo sinh (GAN) để tận dụng ưu điểm của cả hai. GAN thuần túy sinh ảnh sắc nét nhưng không có cơ chế mã hóa ngược từ ảnh sang không gian biểu diễn, đồng thời hay gặp vấn đề sụp đổ chế độ ( mode collapse ) khi tức bỏ sót các vùng của phân phối dữ liệu. VAE giải quyết cả hai: bộ mã hóa cung cấp khả năng suy diễn ngược, đồng thời ràng buộc phân kỳ KL buộc không gian biểu diễn liên tục và bao phủ toàn bộ phân phối. Đổi lại, phần GAN cải thiện độ sắc nét của ảnh sinh ra so với VAE thuần túy bằng cách thay thế hàm mất mát tái tạo theo bình phương sai số bằng một độ đo tương đồng học được từ discriminator.
+
+Các biến thể khoảng cách thống kê
+
+Sau công trình gốc của Kingma và Welling, nhiều biến thể đề xuất thay thế phân kỳ Kullback–Leibler bằng các khoảng cách thống kê khác trong hàm mất mát. Nguyên nhân là phân kỳ KL có xu hướng gặp vấn đề gọi là mode-seeking: phân phối xấp xỉ bị phạt nặng khi có xác suất dương ở những vùng mà phân phối mục tiêu gần bằng 0, nên có xu hướng tập trung vào một số vùng cố định của phân phối dữ liệu và bỏ qua phần còn lại. Hàm mất mát tổng quát có dạng: L θ , ϕ = 𝔼 x ∼ ℙ real [ ‖ x − D θ ( E ϕ ( x ) ) ‖ 2 2 ] + d ( μ , E ϕ ♯ ℙ real ) 2 trong đó d là một khoảng cách thống kê giữa phân phối tiên nghiệm mục tiêu μ và phân phối tiềm ẩn thực tế thu được qua bộ mã hóa. Tùy theo lựa chọn d , ta có các biến thể khác nhau: khoảng cách Wasserstein trong WAE, khoảng cách Wasserstein cắt lát ( sliced Wasserstein ) trong SWAE, và độ lệch trung bình cực đại ( maximum mean discrepancy ) trong MMD-VAE.
+
+Ứng dụng
+
+Tạo sinh ảnh
+
+VAE là một trong những mô hình tạo sinh đầu tiên có khả năng sinh ảnh mới bằng cách lấy mẫu từ không gian biểu diễn liên tục. Tuy nhiên, ảnh sinh ra từ VAE thường bị mờ do bản chất xác suất của bộ giải mã – hàm mất mát tái tạo theo bình phương sai số có xu hướng tạo ra ảnh trung bình của nhiều khả năng thay vì một ảnh sắc nét. So với mạng đối nghịch tạo sinh (GAN), VAE thua kém đáng kể về chất lượng thị giác. Hiện nay, cả VAE lẫn GAN đã phần lớn bị thay thế bởi mô hình khuếch tán trong các bài toán tạo sinh ảnh chất lượng cao, mặc dù VAE vẫn được dùng như thành phần nén ảnh trong các mô hình khuếch tán biểu diễn như Stable Diffusion .
+
+Tham khảo
+
+1 2 3 4 Kingma, Diederik P.; Welling, Max (2013). Auto-Encoding Variational Bayes . International Conference on Learning Representations (ICLR). arXiv : 1312.6114 .
+
+↑ Kingma, Diederik P.; Welling, Max (2019). "An Introduction to Variational Autoencoders" . Foundations and Trends in Machine Learning . 12 (4): 307– 392. arXiv : 1906.02691 . doi : 10.1561/2200000056 .
+
+↑ Abbasnejad, M. Ehsan; Dick, Anthony; van den Hengel, Anton (2017). Infinite Variational Autoencoder for Semi-Supervised Learning . IEEE Conference on Computer Vision and Pattern Recognition (CVPR). tr. 5888–5897.
+
+↑ Xu, Weidi; Sun, Haoze; Deng, Chao; Tan, Ying (2017). "Variational Autoencoder for Semi-Supervised Text Classification". Proceedings of the AAAI Conference on Artificial Intelligence . 31 (1). doi : 10.1609/aaai.v31i1.10966 .
+
+↑ Kameoka, Hirokazu; Li, Li; Inoue, Shota; Makino, Shoji (2019). "Supervised Determined Source Separation with Multichannel Variational Autoencoder". Neural Computation . 31 (9): 1891– 1914. doi : 10.1162/neco_a_01217 . PMID 31335290 .
+
+↑ Rezende, Danilo Jimenez; Mohamed, Shakir; Wierstra, Daan (2014). "Stochastic Backpropagation and Approximate Inference in Deep Generative Models" . Proceedings of the 31st International Conference on Machine Learning (ICML) : 1278–1286. arXiv : 1401.4082 .
+
+↑ Higgins, Irina; Matthey, Loic; Pal, Arka; Burgess, Christopher; Glorot, Xavier; Botvinick, Matthew; Mohamed, Shakir; Lerchner, Alexander (2016). beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework . NeurIPS.
+
+↑ Sohn, Kihyuk; Lee, Honglak; Yan, Xinchen (2015). Learning Structured Output Representation using Deep Conditional Generative Models (PDF) . NeurIPS.
+
+1 2 Larsen, Anders Boesen Lindbo; Sønderby, Søren Kaae; Larochelle, Hugo; Winther, Ole (2016). "Autoencoding beyond pixels using a learned similarity metric" . Proceedings of the 33rd International Conference on Machine Learning (ICML) : 1558–1566. arXiv : 1512.09300 .
+
+↑ Tolstikhin, Ilya; Bousquet, Olivier; Gelly, Sylvain; Schölkopf, Bernhard (2018). "Wasserstein Auto-Encoders" . arXiv : 1711.01558 . {{ Chú thích tập san học thuật }} : Chú thích journal cần | journal= ( trợ giúp )
+
+↑ Kolouri, Soheil; Pope, Phillip E.; Martin, Charles E.; Rohde, Gustavo K. (2019). Sliced Wasserstein Auto-Encoders . International Conference on Learning Representations (ICLR).
+
+↑ Tolstikhin, Ilya; Bousquet, Olivier; Gelly, Sylvain; Schölkopf, Bernhard (2018). "Wasserstein Auto-Encoders" . International Conference on Learning Representations (ICLR) . arXiv : 1711.01558 .
+
+↑ Kingma, Diederik P.; Welling, Max (2019). "An Introduction to Variational Autoencoders" . Foundations and Trends in Machine Learning . 12 (4): 307– 392. arXiv : 1906.02691 . doi : 10.1561/2200000056 .
+
+↑ Ho, Jonathan; Jain, Ajay; Abbeel, Pieter (2020). Denoising Diffusion Probabilistic Models . NeurIPS. arXiv : 2006.11239 .
+
+↑ Rombach, Robin; Blattmann, Andreas; Lorenz, Dominik; Esser, Patrick; Ommer, Björn (2022). High-Resolution Image Synthesis with Latent Diffusion Models . IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). tr. 10684–10695. arXiv : 2112.10752 . doi : 10.1109/CVPR52688.2022.01042 .

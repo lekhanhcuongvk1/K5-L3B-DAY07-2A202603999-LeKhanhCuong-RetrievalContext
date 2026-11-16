@@ -1,0 +1,89 @@
+{
+  "configs": [
+    {
+      "config_id": "advanced_dense_original",
+      "split": "dev",
+      "answerable_n": 17,
+      "method": "dense_pgvector",
+      "translated_query": false,
+      "top_k": 3,
+      "hypothesis": "Baseline cross-language retrieval with original Vietnamese query.",
+      "hit1": 4,
+      "evidence_hit3": 7,
+      "complete_context_evidence": 6,
+      "median_retrieval_ms": 73.222,
+      "service_cost_usd": 0
+    },
+    {
+      "config_id": "advanced_bm25_original",
+      "split": "dev",
+      "answerable_n": 17,
+      "method": "bm25",
+      "translated_query": false,
+      "top_k": 3,
+      "hypothesis": "Lexical control; expected to expose Vietnamese-English vocabulary mismatch.",
+      "hit1": 2,
+      "evidence_hit3": 4,
+      "complete_context_evidence": 4,
+      "median_retrieval_ms": 4.344,
+      "service_cost_usd": 0
+    },
+    {
+      "config_id": "advanced_hybrid_original",
+      "split": "dev",
+      "answerable_n": 17,
+      "method": "hybrid_rrf",
+      "translated_query": false,
+      "top_k": 3,
+      "hypothesis": "Improvement 1: RRF combines dense and lexical rankings.",
+      "hit1": 4,
+      "evidence_hit3": 8,
+      "complete_context_evidence": 8,
+      "median_retrieval_ms": 78.324,
+      "service_cost_usd": 0
+    },
+    {
+      "config_id": "advanced_dense_translated",
+      "split": "dev",
+      "answerable_n": 17,
+      "method": "dense_pgvector",
+      "translated_query": true,
+      "top_k": 5,
+      "hypothesis": "Improvement 2: local-model English query addresses corpus language mismatch.",
+      "hit1": 3,
+      "evidence_hit3": 5,
+      "complete_context_evidence": 4,
+      "median_retrieval_ms": 77.469,
+      "service_cost_usd": 0
+    },
+    {
+      "config_id": "advanced_hybrid_translated",
+      "split": "dev",
+      "answerable_n": 17,
+      "method": "hybrid_rrf",
+      "translated_query": true,
+      "top_k": 5,
+      "hypothesis": "Improvement 3: translated query plus RRF and wider context.",
+      "hit1": 12,
+      "evidence_hit3": 15,
+      "complete_context_evidence": 14,
+      "median_retrieval_ms": 90.587,
+      "service_cost_usd": 0
+    },
+    {
+      "config_id": "advanced_hybrid_translated_wide",
+      "split": "dev",
+      "answerable_n": 17,
+      "method": "hybrid_rrf",
+      "translated_query": true,
+      "top_k": 10,
+      "hypothesis": "Improvement 4: preserve translated constraints and widen context for visual/multi-hop evidence.",
+      "hit1": 12,
+      "evidence_hit3": 16,
+      "complete_context_evidence": 16,
+      "median_retrieval_ms": 90.435,
+      "service_cost_usd": 0
+    }
+  ],
+  "selected": "advanced_hybrid_translated_wide"
+}

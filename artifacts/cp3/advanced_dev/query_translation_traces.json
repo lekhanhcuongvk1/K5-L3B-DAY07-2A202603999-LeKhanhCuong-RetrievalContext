@@ -1,0 +1,104 @@
+[
+  {
+    "query_id": "A01",
+    "original_query": "Theo Bảng O.1, Việt Nam xếp hạng LPI tổng thể và hạ tầng năm 2014 lần lượt là bao nhiêu?",
+    "translated_query": "What is Vietnam's overall and infrastructure LPI ranking in 2014 according to Table O.1?",
+    "raw_model_output": "What is Vietnam's overall and infrastructure LPI ranking in 2014 according to Table O.1?"
+  },
+  {
+    "query_id": "A02",
+    "original_query": "Theo Bảng 4.1, từ 1995 đến 2015 số đô thị tăng từ bao nhiêu lên bao nhiêu?",
+    "translated_query": "How many times has the number of urban areas increased from 1995 to 2015? Table 4.1",
+    "raw_model_output": "How many times has the number of urban areas increased from 1995 to 2015?"
+  },
+  {
+    "query_id": "A03",
+    "original_query": "Bảng B5.3.1 ước tính tổng chi phí do tác động của vệ sinh kém là bao nhiêu?",
+    "translated_query": "What is the estimated total cost of poor sanitation in Table B5.3.1? Table B5.3",
+    "raw_model_output": "What is the estimated total cost of poor sanitation in Table B5.3.1?"
+  },
+  {
+    "query_id": "A04",
+    "original_query": "Theo Bảng 7.1, tỷ lệ công chức trên 50 tuổi thay đổi thế nào từ 2005 đến 2012?",
+    "translated_query": "How has the ratio of senior civil servants changed from 2005 to 2012 according to Table 7.1? Table 7.1",
+    "raw_model_output": "How has the ratio of senior civil servants changed from 2005 to 2012 according to Table 7.1?"
+  },
+  {
+    "query_id": "A05",
+    "original_query": "Bản đồ 4.3 cho thấy giá trị sản lượng công nghiệp trên mỗi km² tập trung cao nhất ở hai đô thị nào?",
+    "translated_query": "Which two cities have the highest concentration of industrial production output per square kilometer shown on map 4.3? Map 4.3",
+    "raw_model_output": "Which two cities have the highest concentration of industrial production output per square kilometer shown on map 4.3?"
+  },
+  {
+    "query_id": "A06",
+    "original_query": "Bản đồ 4.4 kết luận không gian đường phố của thành phố nào không phù hợp với giao thông đô thị?",
+    "translated_query": "4.4 Street Pattern Map of Which City Does Not Match Urban Traffic? Map 4.4",
+    "raw_model_output": "4.4 Street Pattern Map of Which City Does Not Match Urban Traffic?"
+  },
+  {
+    "query_id": "A07",
+    "original_query": "Trong sơ đồ Hình 7.12, ba chức năng đầu tiên của trung tâm chính phủ là gì?",
+    "translated_query": "What are the first three functions of the central government in Figure 7.12? Figure 7.12",
+    "raw_model_output": "What are the first three functions of the central government in Figure 7.12?"
+  },
+  {
+    "query_id": "A08",
+    "original_query": "Hình 5.1 phân bổ mức sử dụng nước giữa nông nghiệp và công nghiệp lần lượt bao nhiêu phần trăm?",
+    "translated_query": "What percentage of water usage is allocated between agriculture and industry in Figure 5.1? Figure 5.1",
+    "raw_model_output": "What percentage of water usage is allocated between agriculture and industry in Figure 5.1?"
+  },
+  {
+    "query_id": "A09",
+    "original_query": "Theo Hình 4.11, nhóm thành phố trên 2 triệu dân tăng tỷ trọng dân số bao nhiêu điểm phần trăm giai đoạn 1989–2009?",
+    "translated_query": "How much did the urban population over 2 million increase in percentage terms from 1989 to 2009? Figure 4.11",
+    "raw_model_output": "How much did the urban population over 2 million increase in percentage terms from 1989 to 2009?"
+  },
+  {
+    "query_id": "A10",
+    "original_query": "Hình 6.35 và phần diễn giải dự báo tỷ lệ phụ thuộc người cao tuổi tăng từ bao nhiêu lên bao nhiêu trong giai đoạn 2015–2035?",
+    "translated_query": "How has the percentage of elderly dependent population increased from what it was in 2015 to what it will be by 2035, as shown in Figure 6.35? Figure 6.35",
+    "raw_model_output": "How has the percentage of elderly dependent population increased from what it was in 2015 to what it will be by 2035, as shown in Figure 6.35?"
+  },
+  {
+    "query_id": "A11",
+    "original_query": "Kết hợp dự báo dân số cao tuổi và tỷ lệ phụ thuộc: đến 2035 có bao nhiêu người trên 65 tuổi và tỷ lệ phụ thuộc người cao tuổi là bao nhiêu?",
+    "translated_query": "How many people over 65 will there be and what is the elderly dependency ratio by 2035?",
+    "raw_model_output": "How many people over 65 will there be and what is the elderly dependency ratio by 2035?"
+  },
+  {
+    "query_id": "A12",
+    "original_query": "Đối chiếu đô thị hóa và giao thông: dân số đô thị hiện tại được nêu là bao nhiêu và mất khoảng bao lâu để đi 40 km từ trung tâm TP.HCM đến Bình Dương?",
+    "translated_query": "How many people are currently in urban areas, and how long does it take to travel 40 km from the center of HCMC to Binh Duong?",
+    "raw_model_output": "How many people are currently in urban areas, and how long does it take to travel 40 km from the center of HCMC to Binh Duong?"
+  },
+  {
+    "query_id": "A13",
+    "original_query": "So sánh hai chỉ báo môi trường: nông nghiệp chiếm bao nhiêu phần trăm sử dụng nước và rừng nguyên sinh đã giảm bao nhiêu phần trăm trong 20 năm?",
+    "translated_query": "What percentage of agricultural water use has decreased by 20% in 20 years compared to forested areas?",
+    "raw_model_output": "What percentage of agricultural water use has decreased by 20% in 20 years compared to forested areas?"
+  },
+  {
+    "query_id": "A14",
+    "original_query": "Báo cáo nêu bốn hướng cải cách tức thời nào để phục hồi tăng trưởng năng suất?",
+    "translated_query": "What are the four immediate reform directions mentioned in the report to revive productivity growth?",
+    "raw_model_output": "What are the four immediate reform directions mentioned in the report to revive productivity growth?"
+  },
+  {
+    "query_id": "A15",
+    "original_query": "Bốn nền tảng của nền kinh tế dẫn dắt bởi đổi mới trong Hộp 3.1 tập trung vào những gì?",
+    "translated_query": "What are the four pillars of the economy led by innovation in Box 3.1 focused on?",
+    "raw_model_output": "What are the four pillars of the economy led by innovation in Box 3.1 focused on?"
+  },
+  {
+    "query_id": "A16",
+    "original_query": "Báo cáo định nghĩa hiệu quả của chính phủ là gì?",
+    "translated_query": "What is the definition of government effectiveness as measured by Transparency International?",
+    "raw_model_output": "What is the definition of government effectiveness as measured by Transparency International?"
+  },
+  {
+    "query_id": "A17",
+    "original_query": "Mục tiêu giảm phát thải khí nhà kính năm 2030 của Việt Nam là bao nhiêu nếu không và nếu có hỗ trợ quốc tế?",
+    "translated_query": "What are Vietnam's 2030 greenhouse gas emission reduction targets without and with international support?",
+    "raw_model_output": "What are Vietnam's 2030 greenhouse gas emission reduction targets without and with international support?"
+  }
+]

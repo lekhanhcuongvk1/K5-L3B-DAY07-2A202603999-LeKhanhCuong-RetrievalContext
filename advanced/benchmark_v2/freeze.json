@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "vietnam-2035-independent-v2",
+  "question_count": 30,
+  "group_counts": {
+    "table": 6,
+    "image_or_diagram": 5,
+    "chart": 5,
+    "multi_hop": 4,
+    "text": 4,
+    "unanswerable": 6
+  },
+  "questions_sha256": "2224b668cd44bd34651bdd1437161b2afcfe0cc4c179ad2265bbc7b130cfeba1",
+  "test_run_count": 0
+}

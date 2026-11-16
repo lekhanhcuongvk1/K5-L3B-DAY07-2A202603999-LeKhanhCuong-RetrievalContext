@@ -1,0 +1,255 @@
+Bộ trình dịch GNU ( tiếng Anh : GNU Compiler Collection - thường được viết tắt thành GCC ) là một tập hợp các trình biên dịch được thiết kế cho nhiều ngôn ngữ lập trình khác nhau. GCC là một thành phần quan trọng của GNU toolchain , và được hầu hết các hệ điều hành giống Unix , như Linux và Mac OS X chọn làm trình dịch tiêu chuẩn. Các dòng hệ điều hành BSD đa phần đều sử dụng GCC, dù một số dòng như FreeBSD và OpenBSD lại sử dụng Clang làm trình biên dịch chuẩn. Các phiên bản sau đó của GCC cũng hỗ trợ trên cả Microsoft Windows và một số hệ điều hành khác. GCC cũng có thể biên dịch chương trình cho cả Android và iOS .
+
+Tên gốc của GCC là GNU C Compiler (Trình biên dịch C của GNU), do ban đầu nó chỉ hỗ trợ dịch ngôn ngữ lập trình C , GCC 1.0 được phát hành vào năm 1987, sau đó được mở rộng hỗ trợ dịch C++ vào tháng 12 cùng năm đó. Các thành phần đầu vào của trình biên dịch (front end) sau đó cũng được phát triển cho các ngôn ngữ lập trình Fortran , Pascal , Objective C , Java , Ada , Go và một số ngôn ngữ khác.
+
+GCC đã tương thích với rất nhiều nền tảng kiến trúc máy tính đa dạng, và được sử dụng rộng rãi như một công cụ làm môi trường phát triển các phần mềm thương mại, có bản quyền và nguồn đóng . GCC cũng có thể dùng trong hầu hết các hệ thống nhúng (embedded system), như Symbian (gọi là gcce) , kiến trúc ARM , AMCC , Freescale Power Architecture trên chip (Freescale Power ISA-based chips), và nhiều hệ thống nhúng khác. GCC cũng được phát triển cho nhiều nền tảng khác, bao gồm cả những nền tảng video game như Playstation 2 , Cell SPE of PlayStation 3 và Sega Dreamcast .
+
+Quỹ Phần mềm Tự do (Free Software Foundation, viết tắt là FSF) phân phối GCC dưới giấy phép công cộng GNU (GNU GPL) và giấy phép công cộng cấp thấp GNU (GNU LGPL). GCC cũng đóng một vai trò quan trọng trong lịch sử phát triển của phần mềm tự do . Những công ty như CodeSourcery kinh doanh bằng cách hỗ trợ và phát triển tính tương thích của GCC với đa dạng các nền tảng, còn các nhà sản xuất chip ngày nay thì cho rằng một kiến trúc thành công thì phải có yếu tố cần thiết là sự tương thích với GCC.
+
+Lịch sử phát triển
+
+Richard Stallman bắt đầu phát triển GCC từ năm 1985 . Ông đã mở rộng một trình dịch có sẵn để dịch ngôn ngữ C. Trình dịch nguyên dùng để dịch ngôn ngữ Pastel, một phần mở rộng và không tương thích với ngôn ngữ Pascal , và được viết bằng Pastel. Nó đã được Len Tower và Stallman viết lại bằng ngôn ngữ C, và được cho ra mắt năm 1987 trong vai trò là trình dịch cho dự án GNU, nhằm mục đích tạo ra một trình dịch miễn phí. Quá trình phát triển GCC được giám sát bởi quỹ phần mềm tự do Chi tiết về các lịch trình công bố của GCC được đăng tại: http://gcc.gnu.org/releases.html
+
+EGCS
+
+Đến năm 1991 , GCC 1.x đã đạt đến độ ổn định, nhưng những hạn chế trong thiết kế đã cản trở nhiều đòi hỏi cải thiện, do đó quỹ phần mềm tự do (FSF) đã bắt đầu phát triển phiên bản 2.x. Nhưng suốt những năm giữa thập kỷ 90, FSF không công khai những gì được đưa thêm vào phiên bản chính thức của GCC 2.x, đến nỗi GCC đã được Eric S. Raymond đưa vào bài luận The Cathedral and the Bazaar của ông - một bài luận về kỹ nghệ phần mềm - như một ví dụ cho mô hình phát triển "cathedral".
+
+Do GCC là phần mềm tự do , nhiều nhà lập trình muốn sử dụng nó để phát triển các ứng dụng dùng ngôn ngữ khác ngôn ngữ C, đã tự do phát triển trình dịch này thành các nhánh khác nhau của riêng mình. Quá nhiều bản phân phối dẫn đến việc khó sử dụng và thiếu hiệu quả, tuy nhiên, phiên bản chính thức thì cũng không làm hài lòng nhiều người do không đáp ứng được nhu cầu sử dụng của họ.
+
+Đến năm 1997 , một nhóm các nhà phát triển lấy tên EGCS, đã hợp nhất nhiều nhánh của trình dịch này thành một dự án duy nhất. Quá trình hợp nhất cơ bản được tiến hành ở giữa hai phiên bản 2.7 và 2.81. Các dự án được hợp nhất có cả g77 của Fortran , PGCC (tối ưu GCC), các cải thiện về C++ , và nhiều nhánh trên các kiến trúc và hệ điều hành khác nhau.
+
+Quá trình phát triển EGCS đã chứng tỏ sự vượt bậc đáng kể hơn so với sự phát triển của GCC, do đó FSF đã chính thức tạm dừng chương trình phát triển GCC 2.x của họ, phiên bản EGCS trở thành bản phân phối chính thức của GCC còn dự án EGCS được bổ nhiệm làm nhiệm vụ bảo trì và phát triển GCC từ tháng 4 năm 1999 . Ngoài ra, dự án quyết định chọn mô hình phát triển "bazaar" thay cho mô hình "cathedral". Với phiên bản GCC 2.95 được công bố vào tháng 7 năm 1999 , hai dự án một lần nữa đã hợp nhất.
+
+Sử dụng
+
+GCC thường được lựa chọn làm trình dịch để phát triển các sản phẩm phần mềm yêu cầu phải chạy trên nhiều nền tảng phần cứng đa dạng. Sự khác biệt trong các trình dịch địa phương (chỉ dùng cho nền tảng đó) dẫn đến việc phát triển các đoạn mã để có thể dịch chính xác ở tất cả các trình dịch hay xây dựng các lệnh có thể chạy ở tất cả các nền tảng là hết sức khó khăn. Trong khi nếu dùng GCC, cùng một cú pháp có thể được dùng cho mọi nền tảng, do đó nếu đoạn mã có thể dịch chính xác ở một trong các nền tảng, cơ hội dịch chính xác ở các nền tảng khác sẽ cao hơn nhiều.
+
+GCC hiện nay được bảo trì bởi rất nhiều nhóm phát triển trên khắp thế giới. Nó đã trở nên tương thích với nhiều loại CPU và hệ điều hành hơn bất cứ trình dịch nào khác.
+
+Ngôn ngữ
+
+Phiên bản tiêu chuẩn 4.3 bao gồm hỗ trợ đầu vào cho: C , C++ ( G++ ), Java ( GCJ ), Ada ( GNAT ), Objective-C , Objective-C++ , và Fortran ( GFortran ). Các ngôn ngữ có hỗ trợ, nhưng không thuộc tiêu chuẩn bao gồm: Modula-2 , Modula-3 , Pascal , PL/I , D ( gdc ), Mercury , VHDL ( GHDL ). Một ngôn ngữ mở rộng khá phổ biến là OpenMP cũng được hỗ trợ.
+
+Các kiến trúc
+
+GCC phiên bản 4.3 tương thích với các vi xử lý:
+
+Alpha
+
+ARM
+
+Atmel AVR
+
+Blackfin
+
+HC12
+
+H8/300
+
+IA-32 ( x86 )
+
+x86-64
+
+IA-64
+
+Motorola 68000
+
+MIPS
+
+PA-RISC
+
+PDP-11
+
+PowerPC
+
+R8C / M16C / M32C
+
+SPU
+
+System/390 / zSeries
+
+SuperH
+
+SPARC
+
+VAX
+
+Các vi xử lý ít thông dụng được phiên bản tiêu chuẩn hỗ trợ gồm có:
+
+A29K
+
+ARC
+
+ETRAX CRIS
+
+D30V
+
+DSP16xx
+
+FR-30
+
+FR-V
+
+Intel i960
+
+IP2000
+
+M32R
+
+68HC11
+
+MCORE
+
+MMIX
+
+MN10200
+
+MN10300
+
+Motorola 88000
+
+NS32K
+
+ROMP
+
+Stormy16
+
+V850
+
+Xtensa
+
+AVR32
+
+Các vi xử lý được hỗ trợ bởi các phiên bản GCC do FSF phát triển riêng gồm có:
+
+D10V
+
+LatticeMico32
+
+MeP
+
+Motorola 6809
+
+MicroBlaze
+
+MSP430
+
+Nios II và Nios
+
+PDP-10
+
+TIGCC ( m68k variant)
+
+Z8000
+
+PIC24/dsPIC
+
+Cấu trúc
+
+Giao diện ngoài của GCC nhìn chung là tiêu chuẩn cho một trình dịch của Unix . Người dùng sẽ gọi đến một chương trình điều khiển có tên là gcc , có nhiệm vụ thông dịch các lệnh và đối số, và đưa ra quyết định trình dịch cho ngôn ngữ nào sẽ được chọn đối với từng tập tin đầu vào, chạy chương trình dịch mã máy ở đầu ra quá trình này, sau đó sẽ liên kết mã nguồn để tạo ra chương trình mã nhị phân thực thi.
+
+Mỗi trình dịch của một ngôn ngữ là một chương trình tách biệt đưa vào đầu vào mã nguồn và đưa ra mã hợp ngữ . Tất cả đều có một cấu trúc thông thường bên trong.
+
+Gần như toàn bộ GCC được viết bằng ngôn ngữ C ngoại trừ chương trình khởi tạo cho Ada; rất nhiều phần của trình khởi tạo cho Ada được viết bằng chính ngôn ngữ Ada.
+
+Gỡ lỗi các chương trình với GCC
+
+Công cụ cơ bản để sửa lỗi các đoạn mã GCC là trình gỡ lỗi GNU (gdb). Ngoài ra cũng có các công cụ chuyên dụng hơn như Valgrind dùng để tìm lỗi bộ nhớ và các lỗ hổng. Chương trình GNU Profiler (gprof) có thể cho biết thời gian dùng để chạy chương trình, cũng như tần suất được gọi đến của hàm có thường xuyên hay không; điều này đòi hỏi các chương trình phải được dịch với các tùy chọn profiling .
+
+Bản quyền
+
+"GCC 4.2.1 là phiên bản cuối cùng được phân phối bằng giấy phép công cộng GNU phiên bản 2. Tất cả những phiên bản tiếp theo sẽ được phân phối bởi giấy phép cùng loại phiên bản 3."
+
+Xem thêm
+
+Portable C Compiler
+
+Amsterdam Compiler Kit
+
+distcc
+
+introspector (program)
+
+Low Level Virtual Machine
+
+MinGW
+
+OpenMP
+
+DJGPP
+
+GCC Summit
+
+Watcom C compiler
+
+Tiny C Compiler
+
+Boehm garbage collector
+
+Tham khảo
+
+↑ "GCC Releases" . GNU Project . Truy cập ngày 27 tháng 12 năm 2006 .
+
+↑ "Programming Languages Supported by GCC" . GNU Project . Truy cập ngày 27 tháng 12 năm 2006 .
+
+↑ "Symbian GCC Improvement Project" . Bản gốc lưu trữ ngày 1 tháng 8 năm 2014 . Truy cập ngày 8 tháng 11 năm 2007 .
+
+↑ "Linux Board Support Packages" . Truy cập ngày 7 tháng 8 năm 2008 .
+
+↑ "setting up gcc as a cross-compiler" . ngày 8 tháng 6 năm 2002. Bản gốc lưu trữ ngày 11 tháng 12 năm 2008 . Truy cập ngày 4 tháng 10 năm 2020 .
+
+↑ "GCC Compile Farm Project" . gcc.gnu.org . Truy cập ngày 3 tháng 10 năm 2020 .
+
+↑ "How to get SH4-GCC to work with C++ code" . http://www.ngine.de . Bản gốc lưu trữ ngày 20 tháng 12 năm 2002 . Truy cập ngày 3 tháng 10 năm 2020 . {{ Chú thích web }} : Liên kết ngoài trong | website= ( trợ giúp )
+
+↑ Stallman, Richard M. (tháng 2 năm 1986). "GNU Status" . GNU's Bulletin . Quyển 1 số 1. Free Software Foundation . Truy cập ngày 26 tháng 9 năm 2006 .
+
+↑ Tower, Leonard (1987) " GNU C compiler beta test release, " comp.lang.misc USENET newsgroup; see also http://gcc.gnu.org/releases.html#timeline
+
+↑ Stallman, Richard M. (2001) " Contributors to GCC, " in Using and Porting the GNU Compiler Collection (GCC) for gcc version 2.95 (Cambridge, Mass.: Free Software Foundation)
+
+↑ "A Brief History of GCC" .
+
+↑ "The Short History of GCC development" .
+
+↑ Linux Information Project Lưu trữ ngày 20 tháng 8 năm 2008 tại Wayback Machine (LINFO) truy cập 2007-03-20
+
+↑ GCC Front Ends , GCC.org, Truy cập 11 tháng 5 năm 2008.
+
+↑ "Tools: GCC 4.2.1 Released" . Bản gốc lưu trữ ngày 17 tháng 2 năm 2012 . Truy cập ngày 7 tháng 9 năm 2008 . {{ Chú thích web }} : Đã bỏ qua văn bản “KernelTrap” ( trợ giúp ) 080208 kerneltrap.org
+
+Đọc thêm
+
+Richard M. Stallman : Using and Porting the GNU Compiler Collection , Free Software Foundation , ISBN 0-595-10035-X
+
+Richard M. Stallman: Using Gcc: The Gnu Compiler Collection Reference , Free Software Foundation, ISBN 1-882114-39-6
+
+Brian J. Gough : An Introduction to GCC Lưu trữ ngày 6 tháng 11 năm 2012 tại Wayback Machine , Network Theory Ltd., ISBN 0-9541617-9-3
+
+Arthur Griffith, GCC: The Complete Reference . McGrawHill/Osborne. ISBN 0-07-222405-3 .
+
+Liên kết ngoài
+
+GCC trang chủ
+
+Tổng hợp các tài liệu về kiến trúc bên trong GCC Lưu trữ ngày 16 tháng 1 năm 2009 tại Wayback Machine
+
+Marketing Cygnus Support , bài luận nói về quá trình phát triển của GCC trong những năm 1990
+
+Giới thiệu về GCC Lưu trữ ngày 31 tháng 5 năm 2010 tại Wayback Machine , by Brian Gough
+
+Tài liệu chính thức hướng dẫn sử dụng GCC cho người dùng , viết bởi đội ngũ phát triển GCC
+
+Kerner, Sean Michael (ngày 22 tháng 4 năm 2005). "Open Source GCC 4.0: Older, Faster" . internetnews.com. Bản gốc lưu trữ ngày 17 tháng 9 năm 2006 . Truy cập ngày 7 tháng 9 năm 2008 .
+
+Kerner, Sean Michael (ngày 2 tháng 3 năm 2006). "New GCC Heavy on Optimization" . internetnews.com.
+
+công bố EGCS 1.0 Lưu trữ ngày 17 tháng 8 năm 2007 tại Wayback Machine
+
+Danh sách các tính năng của EGCS 1.0
+
+Fear of Forking
+
+#gcc IRC channel
+
+Bản mẫu:FLOSS

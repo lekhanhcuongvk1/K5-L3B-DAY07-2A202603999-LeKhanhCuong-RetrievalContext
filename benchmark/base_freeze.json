@@ -1,0 +1,25 @@
+{
+  "benchmark_id": "day07-vi-computing-agent-v1",
+  "questions_sha256": "e613c85710c56cda512df442fd91de488454c03f2222d35b7d3cd2f2bc10838f",
+  "counts": {
+    "dev": {
+      "answerable": 18,
+      "unanswerable": 3,
+      "total": 21
+    },
+    "test": {
+      "answerable": 6,
+      "unanswerable": 3,
+      "total": 9
+    }
+  },
+  "filter_questions": [
+    "B04",
+    "B07",
+    "B13",
+    "B18",
+    "B23",
+    "B27"
+  ],
+  "policy": "Select and tune on Dev only; freeze before the first Test run."
+}

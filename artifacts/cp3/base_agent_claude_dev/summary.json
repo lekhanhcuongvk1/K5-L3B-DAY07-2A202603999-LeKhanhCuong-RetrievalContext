@@ -1,0 +1,20 @@
+{
+  "split": "dev",
+  "n": 21,
+  "passed": 20,
+  "pass_rate": 0.9524,
+  "answered": 17,
+  "abstained": 4,
+  "errors": 0,
+  "tool_use": 21,
+  "valid_citations": 20,
+  "total_citations": 20,
+  "citation_validity": 1.0,
+  "input_tokens": 46141,
+  "output_tokens": 2920,
+  "median_total_ms": 6224.09,
+  "service_cost_usd": null,
+  "cost_note": "Gateway returned token usage but no USD price; no cost was fabricated.",
+  "human_reviewed": true,
+  "test_opened": false
+}

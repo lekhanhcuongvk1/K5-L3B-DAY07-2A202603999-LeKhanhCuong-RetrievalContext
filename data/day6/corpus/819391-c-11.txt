@@ -1,0 +1,77 @@
+C++11 , được biết đến trước đây với tên gọi C++0x, là tên gọi của tiêu chuẩn của ngôn ngữ lập trình C++ . Tiêu chuẩn này được chấp nhận bởi tổ chức ISO vào ngày 12 tháng 4 năm 2011 nhằm thay thế cho tiêu chuẩn C++03. Tên gọi C++11 của tiêu chuẩn này dược dựa trên truyền thống đặt tên phiên bản ngôn ngữ theo ngày xuất bản của bản chi tiết kỹ thuật (specification).
+
+C++11 đưa thêm một số mở rộng mới vào phần ngôn ngữ cốt lõi C++ và một số mở rộng cho thư viện chuẩn của C++, trong đó bao gồm hầu hết các thư viện trong báo cáo kỹ thuật TR1 (C++ Technical Report 1) ngoại trừ thư viện các hàm toán học đặc biệt. C++11 được ban hành dưới dạng tiêu chuẩn ISO/IEC 14882:2011 vào tháng 9/2011. Bản thảo tiêu chuẩn mới nhất là N3242 được viết vào ngày 28 tháng 2 năm 2011. Tuy nhiên sự khác biệt giữa bản thảo này và C++11 là không đáng kể.
+
+Một số đề xuất thay đổi cho việc cập nhật tiêu chuẩn
+
+Các thay đổi cho C++ bao gồm cả những thay đổi cho phần cốt lõi ngôn ngữ và những thay đổi cho phần thư viện chuẩn. Trong quá trình phát triển tiêu chuẩn mới, ủy ban cập nhật dựa trên các nguyên tắc sau:
+
+Duy trì sự ổn định và tương thích với chuẩn C++98 và có thể tương thích với cả ngôn ngữ C .
+
+Ưu tiên việc đưa các thay đổi vào thư viện chuẩn hơn là đưa vào phần ngôn ngữ cốt lõi.
+
+Ưu tiên các thay đổi có thể thay đổi căn bản các kỹ thuật lập trình.
+
+Ưu tiên nâng cấp các thiết kế hệ thống và thiết kế thư viện hơn là việc đơn thuần đưa thêm các chức năng mới cho các ứng dụng cụ thể.
+
+Tăng cường độ an toàn cho các kiểu (type) bằng cách đưa vào các kỹ thuật mới an toàn hơn.
+
+Tăng hiệu năng và khả năng làm việc trực tiếp với phần cứng .
+
+Cung cấp các giải pháp chính xác cho các vấn đề hay các bài toán thực tế.
+
+Thực thi nguyên tắc "zero-overhead" (tạm dịch: chi phí phát sinh bằng không) trong đó quy định các hỗ trợ thêm cho một số tính năng chỉ được sử dụng khi ta sử dụng tính năng đó.
+
+Làm cho ngôn ngữ C++ trở nên dễ học và dễ dạy hơn bằng các giảm thiểu các tính năng mà cần các lập trình viên chuyên nghiệp.
+
+Việc chú trọng vào những người mới học được coi là rất quan trọng vì đối tượng này chiếm phần lớn số lượng các lập trình viện và đa số họ có xu hướng chỉ chú tâm vào các lĩnh vực chuyên môn hóa. Việc đưa ra mẫu hình lập trình mới cũng có thể gây ra những khó khăn nhất định cho việc tiếp cận ngay cả với những người có nhiều kinh nghiệm lập trình C++.
+
+Các mở rộng cho phần ngôn ngữ cốt lõi của C++
+
+Một chức năng của C++11 là sự phát triển của ngôn ngữ cốt lõi. Lĩnh vực ngôn ngữ cốt lõi đã được cải thiện đáng kể bao gồm hỗ trợ đa luồng (multithreading), hỗ trợ lập trình tổng quát? , khởi tạo đồng bộ, và cải tiến hiệu suất.
+Về mục đích của điều khoản này, các tính năng ngôn ngữ cốt lõi và những thay đổi được nhóm lại thành bốn phần chung: tăng cường thời gian chạy hiệu suất, cải tiến hiệu suất thời gian xây dựng, cải tiến khả năng sử dụng và các chức năng mới. Một số tính năng có thể rơi vào nhiều nhóm, nhưng chúng chỉ được nhắc đến trong các nhóm chủ yếu đại diện cho tính năng này.
+
+Các cải tiến hiệu năng thực thi của ngôn ngữ cốt lõi
+
+C++11 đưa ra nhiều cải tiến nhằm nâng cao hiệu năng thực thi về việc sử dụng bộ nhớ hay về tốc độ thực thi của chương trình.
+
+Tham chiếu R - value và cấu trúc động
+
+Trong C++03 và các phiên bản trước, biến tạm? (được gọi là R - value) thường nằm bên phải của phép gán, được xây dựng chắc chắn như không thể thay đổi - như trong C, được xem là giống như từ const T và các "type". Tuy nhiên trong một số trường hợp, các biến tạm có thể được thay đổi, động thái này thậm chí được coi là một kẽ hở hữu ích. C++11 cho biết thêm một kiểu tham chiếu không dùng hằng mới gọi là "tham chiếu R - value", được xác định bởi T&&. Điều này có nghĩa là biến tạm vẫn được phép sửa đổi sau khi khởi tạo, với mục đích cho phép một "ngôn ngữ khả chuyển".
+
+Một vấn đề hiệu suất kình niên với C++03 là bản sao chìm tốn nhiều bộ nhớ và không cần thiết có thể xuất hiện khi một đối tượng được truyền theo tham trị. Để minh họa cho vấn đề này, ta xét một biến cục bộ std::vector<T>, bao hàm một mảng kiểu C với kích thước xác định. Nếu một vector<T> dùng làm biến tạm được tạo ra hay là giá trị trả về từ một hàm, nó có thể được lưu trữ chỉ bằng cách tạo ra một vector<T> mới và sao chép tất cả dữ liệu từ R - value vào nó (để đơn giản, ta bỏ qua việc tối ưu hóa giá trị trả về)
+
+Các cải tiến hiệu năng biên dịch của ngôn ngữ cốt lõi
+
+Tiêu bản ngoài
+
+Tiểu bản ngoài ( tiếng Anh : extern template) là cú pháp mới được C++11 cung cấp nhằm rút ngắn thời gian biên dịch.
+Trong phiên bản C++03, chương trình biên dịch phải khởi tạo một tiêu bản (template) mỗi khi gặp tiêu bản đó khi dịch một đoạn mã lệnh nào đó. Nếu chỉ một tiêu bản của cùng một kiểu dữ liệu của các đoạn mã lệnh cần dịch được khởi tạo một lần thì việc biên dịch sẽ trở nên nhanh hơn rất nhiều. Hiện tại chúng ta không có cách nào làm được việc này trong C++03. Chính vì vậy C++11 đã giới thiệu cú pháp mới: tiêu bản ngoài (extern template) nhằm hỗ trợ cho việc định nghĩa tiêu bản ngoài. Ví dụ:
+
+Trong C++03, cú pháp sau dùng để yêu cầu trình biên dịch khởi tạo một tiêu bản:
+
+Hiện tại C++11 cung cấp cú pháp sau để yêu cầu trình biên dịch không khởi tạo tiêu bản khi dịch đoạn mã này:
+
+Các cải tiến về việc sử dụng ngôn ngữ cốt lõi
+
+Các cải tiến này nhằm làm cho việc sử dụng ngôn ngữ trở nên dễ dàng hơn và tăng sự an toàn các kiểu dữ liệu, loại bớt các đoạn mã lặp và giúp tránh nhiều đoạn mã lệnh sai.
+
+Các danh sách khởi tạo
+
+C++03 kế thừa tính năng "danh sách khởi tạo" từ ngôn ngữ C. Một kiểu cấu trúc (struct) hay một mảng (array) có thể được khởi tạo bằng một danh sách các tham số đầu vào theo thứ tự của các thành viên trong cấu trúc hoặc mảng đó. Các danh sách khởi tạo này có thể được tạo ra theo phương thức đệ quy (recursive) nhằm định nghĩa các cấu trúc hay mảng lồng xếp nhau. Ví dụ:
+
+Tính năng này rất hữu ích khi sử dụng với các cấu trúc dữ liệu tĩnh (static).
+
+C++ cũng hỗ trợ việc sử dụng hàm khởi tạo (constructor) để khởi tạo một đối tượng của một lớp nào đó nhưng không tạo được sự thuận tiện như danh sách khởi tạo. C++03 chỉ hỗ trợ danh sách khởi tạo cho các cấu trúc (struct) và các lớp (class) phù họp với định nghĩa Dữ liệu cũ đơn giả (POD - Plain Old Data). C++11 mở rộng danh sách khởi tạo bằng cách cho phép chúng có thể được sử dụng với tất cả các lớp (class), kể cả các thùng chứa chuẩn (standard containers) của C++ như std::vector . Ví dụ:
+
+Khai báo trên cho phép chúng ta khởi tạo một đối tượng mới như sau:
+
+Hàm khởi tạo đặc biệt này được gọi là hàm khởi tạo theo danh sách khởi tạo (initializer-list constructor). Các lớp có các hàm khởi tạo đặc biệt này sẽ được xử lý một cách đặc biệt trong quá trình khởi tạo đồng nhất(xem thêm dưới đây ).
+
+Các cải tiến về tính năng ngôn ngữ cốt lõi
+
+Các thay đổi của thư viện chuẩn C++
+
+Tham khảo
+
+↑ "We have an international standard: C++0x is unanimously approved" . Truy cập ngày 12 tháng 8 năm 2011 .

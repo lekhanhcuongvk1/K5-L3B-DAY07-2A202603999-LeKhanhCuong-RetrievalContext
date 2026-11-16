@@ -1,0 +1,89 @@
+D là một ngôn ngữ lập trình hệ thống hướng đối tượng , dùng câu lệnh , đa mẫu hình do Walter Bright của Digital Mars tạo ra và phát hành năm 2001. Quá trình thiết kế và phát triển ngôn ngữ này trong năm 2007 được Andrei Alexandrescu tham gia đóng góp. Mặc dù nó có nguồn gốc như là một bản phát triển kỹ thuật của C++ , D là một ngôn ngữ riêng biệt, đã thiết kế lại một số tính năng cốt lõi của C++ trong khi cũng lấy cảm hứng từ các ngôn ngữ khác, đáng chú ý là các ngôn ngữ Java , Python , Ruby , C# , và Eiffel .
+
+Mục tiêu thiết kế của D cố gắng kết hợp hiệu suất và sự an toàn của các ngôn ngữ biên dịch với sức mạnh biểu đạt của các ngôn ngữ năng động hiện đại. Mã D sau khi dịch thường nhanh như mã C++ tương đương, trong khi ngắn hơn và an toàn hơn về mặt bộ nhớ.
+
+Các tính năng định kiểu biến, quản lý bộ nhớ tự động và cú pháp đặc biệt cho các kiểu thường dùng cho phép phát triển phần mềm nhanh hơn, trong khi việc kiểm tra giới hạn, thiết kế theo các tính năng của hợp đồng và hệ thống kiểu nhận thức tương tranh đồng thời giúp giảm sự xuất hiện của các lỗi phần mềm .
+
+Tính năng
+
+D được thiết kế với các bài học kinh nghiệm từ việc sử dụng C++ thực tế hơn là từ một quan điểm hoàn toàn lý thuyết. Mặc dù nó sử dụng nhiều khái niệm C và C++ nhưng nó cũng loại bỏ một số, và như vậy mã nguồn của nó không tương thích với mã nguồn C và C++. Tuy nhiên D đã bị hạn chế trong thiết kế của nó bởi quy tắc rằng bất kỳ mã nào là hợp pháp trong cả C và D sẽ hoạt động theo cùng một cách. D đã đạt được một số tính năng trước khi C++ đã làm, ví dụ bao đóng , các hàm ẩn danh, và biên dịch thực thi hàm thời gian. D thêm vào chức năng của C++ bằng cách thực hiện thiết kế theo hợp đồng, kiểm thử đơn vị , lập modul thực, thu gom rác , mảng hạng nhất , mảng kết hợp, mảng động, mảng cắt, hàm lồng nhau, tính toán biểu thức khi nó được gọi, và một cú pháp tổng quát được thiết kế lại. D giữ lại tính năng của C++ để thực hiện các lệnh ngôn ngữ lập trình bậc thấp và thêm hợp ngữ trong dòng lệnh. Tính kế thừa đa mức của C++ được thay thế bằng kế thừa đơn kiểu Java với các giao diện và các mixin. Mặt khác, cú pháp khai báo, khai báo và biểu thức của D gần giống với C++.
+
+Trình biên dịch trên dòng lệnh đánh dấu sự khác biệt giữa D và các ngôn ngữ ứng dụng như Java và C# . Một bộ giải mã hợp ngữ trên dòng lệnh cho phép các lập trình viên nhập mã máy cụ thể trong mã lệnh D chuẩn, một phương thức thường được các lập trình viên hệ thống sử dụng để truy cập các tính năng cấp thấp của bộ xử lý cần thiết để chạy các chương trình giao diện trực tiếp với phần cứng , chẳng hạn như hệ điều hành và trình điều khiển thiết bị .
+
+D đã tích hợp sẵn hỗ trợ cho các nhận xét, cho phép tạo tài liệu bình luận trong mã nguồn một cách tự động.
+
+Mẫu hình lập trình
+
+D hỗ trợ 5 mẫu hình lập trình : dùng lệnh , hướng đối tượng , lập trình meta , lập trình hàm và lập trình đồng thời (mô hình diễn viên).
+
+Dùng câu lệnh
+
+Lập trình dùng lệnh trong D gần giống với C. Hàm, dữ liệu, câu lệnh, khai báo và biểu thức hoạt động giống như trong C và có thể dùng trực tiếp thư viện của C. Mặt khác, một số khác biệt đáng chú ý giữa D và C trong lĩnh vực lập trình dùng lệnh bao gồm xây dựng vòng lặp for của D, cho phép lặp qua một danh sách, và các hàm lồng nhau, là các hàm được khai báo bên trong và có thể có các biến cục bộ bên trong hàm.
+
+Hướng đối tượng
+
+Lập trình hướng đối tượng trong D được dựa trên một hệ thống phân cấp thừa kế đơn mức, với tất cả các lớp bắt nguồn từ lớp Object. D không hỗ trợ đa thừa kế; thay vào đó, nó sử dụng các giao diện kiểu Java, có thể so sánh với các lớp trừu tượng thuần túy của C ++ và các mixin, phân tách các chức năng phổ biến từ hệ thống phân cấp thừa kế. D cũng cho phép định nghĩa các phương thức tĩnh và cuối cùng (không phải ảo) trong các giao diện.
+
+Lập trình meta
+
+Lập trình meta được hỗ trợ bởi sự kết hợp của các mẫu, biên dịch thực thi hàm thời gian, các bộ dữ liệu và các chuỗi hỗn hợp. Các ví dụ sau đây minh họa một số tính năng biên dịch theo thời gian của D.
+
+Các mẫu trong D có thể được viết theo phong cách dòng lệnh hơn so với phong cách hàm của C++ cho các mẫu. Đây là một hàm thông thường tính toán giai thừa của một số:
+
+Ở đây, với việc dùng static if , cấu trúc điều kiện biên dịch thời gian của D, được dùng để mô tả việc xây dựng một khuôn mẫu thực hiện cùng một phép tính bằng cách sử dụng mã tương tự như của hàm ở trên:
+
+Trong hai ví dụ sau, mẫu và hàm được định nghĩa ở trên được sử dụng để tính giai thừa. Các loại hằng số không cần phải được chỉ định rõ ràng khi trình biên dịch nhập các loại của chúng từ phía bên phải khi gán kết quả:
+
+Đây là một ví dụ về việc thực hiện hàm khi biên dịch. Các hàm bình thường có thể được sử dụng trong các biểu thức biên dịch có thời gian không đổi, miễn là chúng thỏa mãn các tiêu chí nhất định:
+
+Hàm std.string.format thực hiện các định dạng chuỗi giống hàm printf (cũng tại thời gian biên dịch, thông qua CTFE), và pragma "msg" hiển thị kết quả tại thời gian biên dịch:
+
+Các kết hợp chuỗi, kết hợp với thực thi hàm biên dịch, cho phép tạo mã nguồn D bằng cách sử dụng các phép toán chuỗi tại thời gian biên dịch. Điều này có thể được sử dụng để phân tích các ngôn ngữ cụ thể theo miền thành mã nguồn D, sẽ được biên dịch như một phần của chương trình:
+
+Lập trình hàm
+
+D hỗ trợ các tính năng lập trình làm như chức năng hàm ẩn danh, hàm đóng, đối tượng đệ quy và sử dụng các hàm bậc cao hơn. Có hai cú pháp cho các hàm ẩn danh, bao gồm một biểu mẫu nhiều câu lệnh và ký hiệu một biểu thức "viết tắt":
+
+Có hai kiểu dựng sẵn cho hàm chức năng, function, chỉ đơn giản là một con trỏ tới một hàm được phân bổ theo chồng và delegate, cũng bao gồm một con trỏ tới môi trường xung quanh. Việc chuyển kiểu có thể được sử dụng với một hàm ẩn danh, trong trường hợp đó trình biên dịch tạo ra một delegate trừ khi nó có thể chứng minh rằng một con trỏ môi trường là không cần thiết. Tương tự như vậy, để thực hiện một việc đóng hàm, trình biên dịch đặt các biến cục bộ chỉ trên vùng heap nếu cần thiết (ví dụ, nếu một hàm đóng được trả về bởi một hàm khác và thoát khỏi phạm vi của hàm đó). Khi sử dụng suy luận kiểu , trình biên dịch cũng sẽ thêm các thuộc tính như thuần túy và không thuần túy vào kiểu của một hàm, nếu nó có thể chứng minh rằng chúng cần được áp dụng.
+
+Lập trình đồng bộ
+
+Quản lý bộ nhớ
+
+Bộ nhớ thường được quản lý bằng việc thu gom rác , nhưng các đối tượng cụ thể có thể được hoàn thành ngay lập tức khi chúng đi ra khỏi phạm vi. Quản lý bộ nhớ rõ ràng có thể sử dụng toán tử nạp chồng new và delete , và chỉ đơn giản gọi các hàm malloc và free trực tiếp. Việc thu thập rác có thể được kiểm soát: các lập trình viên có thể thêm và loại trừ phạm vi bộ nhớ khỏi bộ thu thập, có thể vô hiệu hóa và kích hoạt việc thu rác và ép buộc hoặc một chu trình thu thập rác hoặc toàn bộ chu kỳ thu thập rác. Tài liệu hướng dẫn đưa ra nhiều ví dụ về cách triển khai các lược đồ quản lý bộ nhớ được tối ưu hóa khác nhau khi thu gom rác không đầy đủ trong một chương trình.
+
+Chú thích
+
+1 2 "Expressions" . Digital Mars . Truy cập ngày 27 tháng 12 năm 2012 .
+
+↑ Bright, Walter. D programming Language Specification . 7227: Digital Mars (via Amazon). {{ Chú thích sách }} : Quản lý CS1: địa điểm ( liên kết ) Memory Safety has an entire chapter, with recipes. It's a major theme of the language. Failures to reach this standard are defects.
+
+↑ Andrei Alexandrescu (ngày 2 tháng 8 năm 2010). Three Cool Things About D .
+
+↑ "std.gc" . D Programming Language 1.0 . Digital Mars . Truy cập ngày 6 tháng 7 năm 2010 .
+
+↑ "Memory Management" . D Programming Language 2.0 . Digital Mars . Truy cập ngày 17 tháng 2 năm 2012 .
+
+Đọc thêm
+
+Alexandrescu, Andrei (ngày 4 tháng 1 năm 2010). The D Programming Language (ấn bản thứ 1). Addison-Wesley Professional. ISBN 978-0-321-63536-5 .
+
+Alexandrescu, Andrei (ngày 15 tháng 6 năm 2009). "The Case for D" . Dr. Dobb's Journal.
+
+Bright, Walter (ngày 8 tháng 4 năm 2014). "How I Came to Write D" . Dr. Dobb's Journal.
+
+Çehreli, Ali (ngày 1 tháng 2 năm 2012). "Programming in D" . (distributed under CC-BY-NC-SA license). This book teaches programming to novices but covers many advanced D topics as well.
+
+Metz, Cade (ngày 7 tháng 7 năm 2014). "The Next Big Programming Language You've Never Heard Of" . Wired.
+
+Ruppe, Adam (tháng 5 năm 2014). D Cookbook (ấn bản thứ 1). PACKT Publishing. ISBN 978-1-783-28721-5 .
+
+Liên kết ngoài
+
+Website chính thức
+
+Digital Mars
+
+Turkish Forum
+
+Dlang trên GitHub

@@ -1,0 +1,79 @@
+Trong khoa học máy tính , cấu trúc dữ liệu là một cách lưu dữ liệu trong máy tính sao cho nó có thể được sử dụng một cách hiệu quả.
+
+Trong thiết kế nhiều loại chương trình, việc chọn cấu trúc dữ liệu là vấn đề quan trọng. Kinh nghiệm trong việc xây dựng các hệ thống lớn cho thấy khó khăn của việc triển khai chương trình, chất lượng và hiệu năng của kết quả cuối cùng phụ thuộc rất nhiều vào việc chọn cấu trúc dữ liệu tốt nhất.
+
+Mỗi loại cấu trúc dữ liệu phù hợp với một vài loại ứng dụng khác nhau, một số cấu trúc dữ liệu dành cho những công việc đặc biệt. Ví dụ, các B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu. Sau khi cấu trúc dữ liệu được chọn, người ta thường dễ nhận thấy thuật toán cần sử dụng. Đôi khi trình tự công việc diễn ra theo thứ tự ngược lại: cấu trúc dữ liệu được chọn do những bài toán quan trọng nhất định có thuật toán chạy tốt nhất với một số cấu trúc dữ liệu cụ thể. Trong cả hai trường hợp, việc lựa chọn cấu trúc dữ liệu là rất quan trọng.
+
+Tổng quan
+
+Thông thường, một cấu trúc dữ liệu được chọn cẩn thận sẽ cho phép thực hiện thuật toán hiệu quả hơn. Việc chọn cấu trúc dữ liệu thường bắt đầu từ chọn một cấu trúc dữ liệu trừu tượng . Một cấu trúc dữ liệu được thiết kế tốt cho phép thực hiện nhiều phép toán, sử dụng càng ít tài nguyên, thời gian xử lý và không gian bộ nhớ càng tốt. Các cấu trúc dữ liệu được triển khai bằng cách sử dụng các kiểu dữ liệu , các tham chiếu và các phép toán trên đó được cung cấp bởi một ngôn ngữ lập trình .
+
+Tri thức đó đã dẫn đến sự nổi lên của nhiều ngôn ngữ lập trình và phương pháp thiết kế được hình thức hóa, mà trong đó, nhân tố tổ chức quan trọng là các cấu trúc dữ liệu chứ không phải các thuật toán. Đa số ngôn ngữ có một tính năng thuộc dạng hệ thống module cho phép các cấu trúc dữ liệu được tái sử dụng an toàn trong các ứng dụng khác nhau, bằng cách dùng các giao diện có điều khiển để che các chi tiết cài đặt đã được kiểm thử. Đặc biệt, các ngôn ngữ lập trình hướng đối tượng như C++ và Java sử dụng lớp (class) cho mục đích này.
+
+Vì cấu trúc dữ liệu có tính chất quyết định đối với các chương trình chuyên nghiệp nên có rất nhiều hỗ trợ về cấu trúc dữ liệu trong các thư viện chuẩn của các ngôn ngữ lập trình hiện đại, ví dụ thư viện mẫu chuẩn của C++, Java API, và Microsoft .NET Framework .
+
+Các cấu trúc xây dựng căn bản của hầu hết các cấu trúc dữ liệu là mảng ( array ), bản ghi ( record ), tổ hợp phân biệt(?) ( discriminated union ), và tham chiếu ( reference ). Ví dụ, tham chiếu khả rỗng (có thể có giá trị null) là một kết hợp của tham chiếu và cấu trúc discriminated union, và cấu trúc dữ liệu liên kết đơn giản nhất, danh sách liên kết , được xây dựng từ các bản ghi và các tham chiếu khả rỗng.
+
+Các nguyên tắc cơ bản
+
+Ngôn ngữ hỗ trợ
+
+Hầu hết hợp ngữ và những ngôn ngữ lập trình cấp thấp , chẳng hạn BCPL (Basic Combined Programming Language), không hỗ trợ sẵn cấu trúc dữ liệu. Ngôn ngữ lập trình ở cấp cao và một số hợp ngữ ở mức cao có những cú pháp hay chức năng sẵn có hỗ trợ những cấu trúc dữ liệu nhất định như là bản ghi và mảng. Ví dụ ngôn ngữ C và Pascal hỗ trợ kiểu cấu trúc và bản ghi bên cạnh hỗ trợ mảng một chiều và mảng đa chiều.
+
+Hầu hết những ngôn ngữ lập trình đều có những thư viện có sẵn, hỗ trợ việc xây dựng cấu trúc dữ liệu, chẳng hạn bộ thư viện chuẩn C++ , Java Collections Framework và .Net Framework .
+
+Các cấu trúc dữ liệu thường dùng
+
+Mảng (cấu trúc dữ liệu) (array list)
+
+Ngăn xếp (stack)
+
+Hàng đợi (queue)
+
+Bảng băm (hash table)
+
+Danh sách liên kết (linked list)
+
+Cây (cấu trúc dữ liệu) (tree)
+
+Đồ thị (cấu trúc dữ liệu) (graph)
+
+Xem thêm
+
+Danh sách các cấu trúc dữ liệu
+
+Mô hình dữ liệu
+
+Danh sách liên kết
+
+Tham khảo
+
+↑ Paul E. Black (ed.), entry for data structure in Dictionary of Algorithms and Data Structures . Hoa Kỳ National Institute of Standards and Technology . ngày 15 tháng 12 năm 2004. Online version Accessed ngày 21 tháng 5 năm 2009.
+
+↑ Entry data structure in the Encyclopædia Britannica (2009) Online entry accessed on ngày 21 tháng 5 năm 2009.
+
+Đọc thêm
+
+Peter Brass, Advanced Data Structures , Cambridge University Press , 2008.
+
+Donald Knuth , The Art of Computer Programming , vol. 1. Addison-Wesley , 3rd edition, 1997.
+
+Dinesh Mehta and Sartaj Sahni Handbook of Data Structures and Applications , Chapman and Hall / CRC Press , 2007.
+
+Niklaus Wirth , Algorithms and Data Structures , Prentice Hall , 1985.
+
+Liên kết ngoài
+
+UC Berkeley video course on data structures
+
+Descriptions from the Dictionary of Algorithms and Data Structures
+
+CSE.unr.edu
+
+Data structures course with animations
+
+Data structure tutorials with animations Lưu trữ ngày 18 tháng 6 năm 2012 tại Wayback Machine
+
+An Examination of Data Structures from.NET perspective
+
+Schaffer, C. Data Structures and Algorithm Analysis

@@ -1,0 +1,79 @@
+Biểu thức chính quy ( tiếng Anh : regular expression , viết tắt là regexp , regex hay regxp ) là một xâu miêu tả một bộ các xâu khác, theo những quy tắc cú pháp nhất định. Biểu thức chính quy thường được dùng trong các trình biên tập văn bản và các tiện ích tìm kiếm và xử lý văn bản dựa trên các mẫu được quy định. Nhiều ngôn ngữ lập trình cũng hỗ trợ biểu thức chính quy trong việc xử lý xâu, chẳng hạn như Perl có bộ máy mạnh mẽ để xử lý biểu thức chính quy được xây dựng trực tiếp trong cú pháp của chúng. Bộ các trình tiện ích (gồm trình biên tập sed và trình lọc grep ) đi kèm các bản phân phối Unix có vai trò đầu tiên trong việc phổ biến khái niệm biểu thức chính quy.
+
+Các khái niệm cơ bản
+
+Biểu thức chính quy, thường được gọi là mẫu, là biểu thức được sử dụng để chỉ định một xâu các xâu cần thiết cho một mục đích cụ thể. Một cách đơn giản để xác định một bộ xâu hữu hạn là liệt kê các thành phần hoặc thành viên của nó. Tuy nhiên, thường có nhiều cách ngắn gọn hơn để chỉ định bộ xâu mong muốn.
+
+Ví dụ: tập hợp chứa ba xâu "Handel", "Händel" và "Haendel" có thể được chỉ định bởi mẫu H(ä|ae?)ndel; chúng tôi nói rằng mô hình này phù hợp với từng trong ba xâu. Trong hầu hết các xâu, nếu tồn tại ít nhất một biểu thức chính quy khớp với một tập hợp cụ thể thì sẽ tồn tại vô số các biểu thức chính quy khác cũng khớp với nó. Biểu thức chính quy không phải là duy nhất. Hầu hết các hình thức cung cấp các hoạt động sau đây để xây dựng các biểu thức thông thường.
+
+Các ký tự đại diện . phù hợp với bất kỳ ký tự. Ví dụ: a.b khớp với bất kỳ xâu nào chứa "a", sau đó là bất kỳ ký tự nào khác và sau đó là "b", a.*b khớp với bất kỳ xâu nào có chứa "a" và "b" ở một điểm nào sau đó.
+
+Các cấu trúc này có thể được kết hợp để tạo thành các biểu thức phức tạp tùy ý, giống như người ta có thể xây dựng các biểu thức tính toán từ các số và các phép toán +, -, × và:. Ví dụ, H(ae?|ä)ndel và H(a|ae|ä)ndel đều là các mẫu hợp lệ khớp với các xâu giống như ví dụ trước đó, H(ä|ae?)ndel .
+
+Cú pháp chính xác cho các biểu thức chính quy khác nhau giữa các công cụ và ngữ cảnh; chi tiết hơn được đưa ra trong phần Cú pháp.
+
+Tham khảo
+
+Aho, Alfred V. (1990). "Algorithms for finding patterns in strings". Trong van Leeuwen, Jan (biên tập). Handbook of Theoretical Computer Science, volume A: Algorithms and Complexity . The MIT Press. tr. 255– 300.
+
+"The Single UNIX ® Specification, Version 2" (Tài liệu). The Open Group. 1997. {{ Chú thích tài liệu }} : Đã bỏ qua tham số không rõ | contribution= ( trợ giúp ) ; Đã bỏ qua tham số không rõ | url= ( trợ giúp )
+
+"The Open Group Base Specifications Issue 6, IEEE Std 1003.1, 2004 Edition" (Tài liệu). The Open Group. 2004. {{ Chú thích tài liệu }} : Đã bỏ qua tham số không rõ | contribution= ( trợ giúp ) ; Đã bỏ qua tham số không rõ | url= ( trợ giúp )
+
+Cox, Russ (2007). "Regular Expression Matching Can Be Simple and Fast" .
+
+Forta, Ben (2004). Sams Teach Yourself Regular Expressions in 10 Minutes . Sams. ISBN 0-672-32566-7 .
+
+Friedl, Jeffrey (2002). Mastering Regular Expressions . O'Reilly . ISBN 0-596-00289-0 .
+
+Gelade, Wouter; Neven, Frank (2008). "Succinctness of the Complement and Intersection of Regular Expressions" . Proceedings of the 25th International Symposium on Theoretical Aspects of Computer Science (STACS 2008) . tr. 325– 336.
+
+Gruber, Hermann; Holzer, Markus (2008). "Finite Automata, Digraph Connectivity, and Regular Expression Size" (PDF) . Proceedings of the 35th International Colloquium on Automata, Languages and Programming (ICALP 2008) . Quyển 5126. tr. 39– 50. doi : 10.1007/978-3-540-70583-3_4 .
+
+Habibi, Mehran (2004). Real World Regular Expressions with Java 1.4 . Springer. ISBN 1-59059-107-0 .
+
+Hopcroft, John E.; Motwani, Rajeev; Ullman, Jeffrey D. (2000). Introduction to Automata Theory, Languages, and Computation (ấn bản thứ 2). Addison-Wesley.
+
+Kleene, Stephen C. (1956). "Representation of Events in Nerve Nets and Finite Automata". Trong Shannon, Claude E.; McCarthy, John (biên tập). Automata Studies . Princeton University Press. tr. 3– 42.
+
+Kozen, Dexter (1991). "Proceedings of the 6th Annual IEEE Symposium on Logic in Computer Science (LICS 1991)". tr. 214– 225. {{ Chú thích tạp chí }} : Chú thích magazine cần | magazine= ( trợ giúp ) ; | contribution= bị bỏ qua ( trợ giúp )
+
+Laurikari, Ville (2009). "TRE library 0.7.6" . Bản gốc lưu trữ ngày 14 tháng 7 năm 2010 . Truy cập ngày 10 tháng 6 năm 2012 .
+
+Liger, Francois (2002). Visual Basic.NET Text Manipulation Handbook . Craig McQueen , Paul Wilton . Wrox Press . ISBN 1-86100-730-2 .
+
+Sipser, Michael (1998). "Chapter 1: Regular Languages". Introduction to the Theory of Computation . PWS Publishing. tr. 31 –90. ISBN 0-534-94728-X .
+
+Stubblebine, Tony (2003). Regular Expression Pocket Reference . O'Reilly. ISBN 0-596-00415-X .
+
+Wall, Larry (2002). "Apocalypse 5: Pattern Matching" . Bản gốc lưu trữ ngày 12 tháng 1 năm 2010 . Truy cập ngày 10 tháng 6 năm 2012 .
+
+Goyvaerts, Jan (2009). Regular Expressions Cookbook . [Jan Goyvaerts], [Steven Levithan]. [O'reilly]. ISBN 978-0-596-52068-7 .
+
+Liên kết ngoài
+
+ISO/IEC 9945-2:1993 Information technology -- Portable Operating System Interface (POSIX) -- Part 2: Shell and Utilities
+
+ISO/IEC 9945-2:2002 Information technology -- Portable Operating System Interface (POSIX) -- Part 2: System Interfaces
+
+ISO/IEC 9945-2:2003 Information technology -- Portable Operating System Interface (POSIX) -- Part 2: System Interfaces
+
+ISO/IEC/IEEE 9945:2009 Information technology -- Portable Operating System Interface (POSIX®) Base Specifications, Issue 7
+
+Java Tutorials: Regular Expressions
+
+Perl Regular Expressions documentation
+
+VBScript and Regular Expressions
+
+Framework Regular Expressions
+
+Regular Expressions trên DMOZ
+
+Pattern matching tools and libraries
+
+Structural Regular Expressions by Rob Pike
+
+JavaScript Regular Expressions Chapter Lưu trữ ngày 3 tháng 12 năm 2008 tại Wayback Machine and RegExp Object Reference at the Mozilla Developer Center
+
+1 2 3 grep(1) man page

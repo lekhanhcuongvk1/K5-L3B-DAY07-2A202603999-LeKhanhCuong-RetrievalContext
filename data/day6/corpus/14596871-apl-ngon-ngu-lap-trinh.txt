@@ -1,0 +1,99 @@
+APL (được đặt tên theo cuốn sách A Programming Language ) là một ngôn ngữ lập trình được phát triển vào những năm 1960 bởi Kenneth E. Iverson . Kiểu dữ liệu trung tâm của nó là mảng đa chiều . Nó sử dụng một tập lớn các ký hiệu đồ họa đặc biệt để mô tả hầu hết các hàm và toán tử, khiến cho mã nguồn rất súc tích. Nó đã có ảnh hưởng lớn đến sự phát triển của mô hình hóa khái niệm, bảng tính , lập trình hàm , và gói tính toán máy tính. Nó cũng truyền cảm hứng cho một số ngôn ngữ lập trình khác.
+
+Tham khảo
+
+↑ "APL Quotations and Anecdotes" . jsoftware.com . jsoftware . Truy cập ngày 14 tháng 4 năm 2018 .
+
+↑ Iverson, Kenneth E. (1962). A Programming Language . Wiley. ISBN 0-471-43014-5 .
+
+↑ McIntyre, Donald B. (1991). "Language as an Intellectual Tool: From Hieroglyphics to APL" . IBM Systems Journal . Quyển 30 số 4. tr. 554– 581. doi : 10.1147/sj.304.0554 . Bản gốc lưu trữ ngày 4 tháng 3 năm 2016 . Truy cập ngày 9 tháng 1 năm 2015 .
+
+↑ "ACM Award Citation – John Backus" . Awards.acm.org. 1977. Bản gốc lưu trữ ngày 12 tháng 2 năm 2008 . Truy cập ngày 3 tháng 2 năm 2010 .
+
+Đọc thêm
+
+An APL Machine Lưu trữ ngày 31 tháng 3 năm 2019 tại Wayback Machine (1970 Stanford doctoral dissertation by Philip Abrams)
+
+A Personal History Of APL (1982 article by Michael S. Montalbano )
+
+McIntyre, Donald B. (1991). "Language as an intellectual tool: From hieroglyphics to APL" (PDF) . IBM Systems Journal . Quyển 30 số 4. tr. 554– 581. doi : 10.1147/sj.304.0554 . Bản gốc (PDF) lưu trữ ngày 4 tháng 5 năm 2006.
+
+Iverson, Kenneth E. (1991). "A Personal view of APL" (PDF) . IBM Systems Journal . Quyển 30 số 4. tr. 582– 593. doi : 10.1147/sj.304.0582 . Bản gốc (PDF) lưu trữ ngày 27 tháng 2 năm 2008.
+
+A Programming Language by Kenneth E. Iverson
+
+APL in Exposition by Kenneth E. Iverson
+
+Brooks, Frederick P.; Kenneth Iverson (1965). Automatic Data Processing, System/360 Edition . ISBN 0-471-10605-4 .
+
+Askoolum, Ajay (tháng 8 năm 2006). System Building with APL + Win . Wiley. ISBN 978-0-470-03020-2 .
+
+Falkoff, Adin D.; Iverson, Kenneth E. ; Sussenguth, Edward H. (1964). "A Formal Description of System/360" (PDF) . IBM Systems Journal . Quyển 3 số 3. New York. tr. 198– 261. doi : 10.1147/sj.32.0198 . Bản gốc (PDF) lưu trữ ngày 27 tháng 2 năm 2008.
+
+History of Programming Languages , chapter 14
+
+Banon, Gerald Jean Francis (1989). Bases da Computacao Grafica . Rio de Janeiro: Campus. tr. 141.
+
+LePage, Wilbur R. (1978). Applied A.P.L. Programming . Prentice Hall.
+
+Mougin, Philippe; Ducasse, Stephane (tháng 11 năm 2003). "OOPAL: Integrating Array Programming in ObjectOriented Programming" (PDF) . Proceeding OOPSLA '03 Proceedings of the 18th annual ACM SIGPLAN conference on Object-oriented programing, systems, languages, and applications . Quyển 38 số 11. tr. 65– 77. doi : 10.1145/949343.949312 . Bản gốc (PDF) lưu trữ ngày 14 tháng 11 năm 2006.
+
+Dyalog Limited (tháng 9 năm 2006). An Introduction to Object Oriented Programming For APL Programmers (PDF) . Dyalog Limited. Bản gốc (PDF) lưu trữ ngày 4 tháng 10 năm 2007.
+
+Shustek, Len (ngày 10 tháng 10 năm 2012). "The APL Programming Language Source Code" . Computer History Museum (CHM). Lưu trữ bản gốc ngày 6 tháng 9 năm 2017 . Truy cập ngày 6 tháng 9 năm 2017 .
+
+Video
+
+The Origins of APL - a 1974 talk show style interview with the original developers of APL.
+
+APL demonstration - a 1975 live demonstration of APL by Professor Bob Spence , Imperial College London .
+
+Conway's Game Of Life in APL - a 2009 tutorial by John Scholes of Dyalog Ltd. which implements Conway's Game of Life in a single line of APL.
+
+50 Years of APL - a 2009 introduction to APL by Graeme Robertson.
+
+Liên kết ngoài
+
+Tài nguyên trực tuyến
+
+TryAPL.org , an online APL primer
+
+APL Wiki
+
+APL trên DMOZ
+
+APL2C , a source of links to APL compilers
+
+Nhà cung cấp
+
+IBM APL2
+
+Dyalog APL
+
+APLX
+
+APL2000
+
+NARS2000
+
+GNU APL Lưu trữ ngày 10 tháng 1 năm 2016 tại Wayback Machine
+
+OpenAPL
+
+Nhóm người dùng và xã hội
+
+Phần Lan : Finnish APL Association (FinnAPL)
+
+Pháp : APL et J
+
+Đức : APL-Germany e.V.
+
+Nhật Bản : Japan APL Association (JAPLA)
+
+Thụy Điển : Swedish APL User Group (SwedAPL) Lưu trữ ngày 2 tháng 4 năm 2018 tại Wayback Machine
+
+Thụy Sĩ : Swiss APL User Group (SAUG)
+
+United Kingdom : The British APL Association Lưu trữ ngày 16 tháng 1 năm 2019 tại Wayback Machine
+
+Hoa Kỳ : ACM SIGPLAN chapter on Array Programming Languages (SIGAPL)

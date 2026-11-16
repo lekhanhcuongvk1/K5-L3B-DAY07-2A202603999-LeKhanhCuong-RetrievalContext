@@ -1,0 +1,53 @@
+Brainfuck là một ngôn ngữ lập trình được rất ít người biết đến. Nó được thiết kế để thử thách cũng như làm trò giải trí cho các lập trình viên và không thích hợp cho người mới tập. Trong một số tài liệu, tên của ngôn ngữ này được viết là brainf*ck hay brainfsck, không được viết hoa dù brainfuck là một danh từ riêng.
+
+Lịch sử
+
+Urban Muller thiết kế brainfuck vào năm 1993 với mục đích tạo ra ngôn ngữ lập trình sử dụng công cụ biên dịch nhỏ nhất có thể, công cụ biên dịch 1024 byte theo ngôn ngữ lập trình FALSE hoặc một số dạng khác dưới 200 byte. Phiên bản Muller 2.0 chứa công cụ biên dịch Amiga.
+
+Thiết kế ngôn ngữ
+
+Brainfuck có thiết kế tương tự máy Turing , gồm một con trỏ đọc/ghi và một mảng nhớ rất lớn. Mỗi ô nhớ chứa một số dương 8-bit (0-255) và có giá trị khởi tạo bằng 0. Con trỏ ban đầu ở vị trí đầu tiên của mảng nhớ, có thể được điều khiển bằng 8 lệnh sau đây :
+
+Như tên gọi, brainfuck gây khó khăn cho trong việc đọc hiểu code. Một mặt là vì mã liệu là một chuỗi ký tự dài phức tạp, mặt khác là do chương trình không biểu hiện rõ các phần đọc, xử lý dữ liệu và ghi.
+
+Ví dụ
+
+Sau đây là các ví dụ về chương trình viết bằng brainfuck:
+
+Phép cộng và phép trừ
+
+Đoạn mã sau đây sẽ thực hiện phép cộng hai ô nhớ liền kề và lưu kết quả về ô nhớ đứng sau:
+
+Với mỗi vòng lặp, ô nhớ đứng trước sẽ giảm đi 1 đơn vị, đồng thời ô nhớ đứng sau sẽ tăng lên 1 đơn vị. Vòng lặp kết thúc khi ô nhớ đầu tiên bằng 0.
+
+Tương tự, phép trừ ô nhớ liền trước vào ô nhớ liền sau cũng có thể thực hiện bằng đoạn mã sau:
+
+Phép nhân
+
+Đoạn mã sau đây sẽ nhân 5 giá trị của một ô nhớ và cộng vào ô nhớ liền sau
+
+Một ví dụ khác, chương trình sau sẽ viết ra chữ 'd' (có mã ASCII là 100) :
+
+"Hello, World!"
+
+Chương trình sau sẽ viết xâu "Hello, World!" ra màn hình và xuống dòng:
+
+Sau khi bỏ đi các phần không được thực thi, chương trình trên sẽ còn lại như dưới đây:
+
+Upcase
+
+Đoạn mã ví dụ: Đọc vào một số chữ cái latin viết thường và in ra chữ cái đó dạng viết hoa. Dữ liệu vào kết thúc bằng một ký tự rỗng .
+
+Đầu tiên, con trỏ đang ở ô nhớ thứ nhất. Đọc vào ký tự đầu, nếu ký tự đó rỗng thì a [ 0 ] = 0 {\textstyle a[0]=0} , chương trình kết thúc, ngược lại thực hiện vòng lặp. Trong mỗi vòng lặp, cộng 8 vào a [ 1 ] {\textstyle a[1]} và thực hiện vòng lặp con cho đến khi a [ 1 ] = 0 {\textstyle a[1]=0} . Trong mỗi vòng lặp con, a [ 0 ] {\textstyle a[0]} bị trừ đi 8 đơn vị. Tổng cộng, a [ 0 ] {\textstyle a[0]} đã bị trừ đi 32 đơn vị để giá trị được mã ASCII của ký tự in hoa (Mã ASCII của 'A' là 65, của 'a' là 97) . Mã lệnh '.' thực hiện xuất kết quả được lưu ở ô nhớ hiện tại tức a [ 0 ] {\textstyle a[0]} . Sau đó, đọc ký tự tiếp theo vào a [ 0 ] {\textstyle a[0]} và tiếp tục. Nếu ký tự tiếp theo rỗng thì a [ 0 ] = 0 {\textstyle a[0]=0} vòng lặp kết thúc.
+
+Tham khảo
+
+↑ Brainfuck readme
+
+↑ Michael Haupt, Implementing Brainfuck in COLA , 2007
+
+Liên kết ngoài
+
+Brainfuck trên DMOZ
+
+Brainfuck on the Esolang (Esoteric Languages) wiki

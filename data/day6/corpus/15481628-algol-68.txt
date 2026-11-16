@@ -1,0 +1,47 @@
+ALGOL 68 (viết tắt của Algorithmic Language 1968 ) là ngôn ngữ lập trình máy tính dùng lệnh được coi là sự kế thừa của ngôn ngữ lập trình ALGOL 60 , được thiết kế với mục tiêu phạm vi ứng dụng rộng hơn nhiều và cú pháp và ngữ nghĩa được xác định chặt chẽ hơn.
+
+Sự phức tạp của định nghĩa ngôn ngữ, chạy tới hàng trăm trang chứa đầy thuật ngữ không chuẩn, khiến việc thực hiện trình biên dịch của ngôn ngữ lập trình này trở nên khó khăn và người ta nói rằng nó "không có triển khai và không có người dùng". Điều này chỉ đúng một phần; ALGOL 68 đã được sử dụng trong một số thị trường thích hợp, đặc biệt là ở Vương quốc Anh nơi nó phổ biến trên các máy ICL và trong vai trò giảng dạy. Bên ngoài những thị trường này, việc sử dụng nó tương đối hạn chế.
+
+Tuy nhiên, những đóng góp của ALGOL 68 cho lĩnh vực khoa học máy tính rất sâu rộng, rộng khắp và bền bỉ, mặc dù nhiều đóng góp này chỉ được xác định công khai khi chúng xuất hiện trở lại trong các ngôn ngữ lập trình được phát triển sau đó. Nhiều ngôn ngữ được phát triển đặc biệt như là một phản ứng đối với sự phức tạp nhận thức của ngôn ngữ, đáng chú ý nhất là Pascal hoặc được thực hiện lại cho các vai trò cụ thể, như Ada .
+
+Nhiều ngôn ngữ của thập niên 1970 theo dõi thiết kế của họ cụ thể theo ALGOL 68, chọn các tính năng cụ thể trong khi từ bỏ các ngôn ngữ khác được coi là quá phức tạp hoặc nằm ngoài phạm vi cho các vai trò cụ thể. Một trong số đó là ngôn ngữ lập trình C , chịu ảnh hưởng trực tiếp của ALGOL 68, đặc biệt là cấu trúc và kiểu dữ li mạnh . Hầu hết các ngôn ngữ hiện đại theo dõi ít nhất một số cú pháp của chúng theo C hoặc Pascal, và do đó trực tiếp hoặc gián tiếp đến ALGOL 68.
+
+Tổng quan
+
+Các tính năng của ALGOL 68 bao gồm cú pháp dựa trên biểu thức, kiểu khai báo và cấu trúc / liên kết được gắn thẻ của người dùng, mô hình tham chiếu của các biến và tham số tham chiếu, chuỗi, mảng và ma trận cắt, và cả đồng thời.
+
+ALGOL 68 được thiết kế bởi Nhóm làm việc IFIP 2.1. Vào ngày 20/12/1968, ngôn ngữ này được Nhóm làm việc 2.1 chính thức thông qua và sau đó được Đại hội đồng IFIP chấp thuận cho xuất bản.
+
+ALGOL 68 được định nghĩa bằng cách sử dụng một hình thức ngữ pháp hai cấp độ được phát minh bởi Adriaan van Wijngaarden . Các ngữ pháp Van Wijngaarden sử dụng một ngữ pháp không ngữ cảnh để tạo ra một bộ sản phẩm vô hạn sẽ nhận ra một chương trình ALGOL 68 cụ thể; Đáng chú ý, họ có thể thể hiện loại yêu cầu mà trong nhiều tiêu chuẩn ngôn ngữ lập trình khác được gắn nhãn "ngữ nghĩa" và phải được thể hiện bằng văn xuôi ngôn ngữ tự nhiên mơ hồ, và sau đó được triển khai trong trình biên dịch dưới dạng mã ad hoc gắn liền với ngôn ngữ chính thức trình phân tích cú pháp.
+
+Tham khảo
+
+↑ Dennis Ritchie (tháng 4 năm 1993). "The Development of the C Language" (PDF) . Bản gốc (PDF) lưu trữ ngày 6 tháng 11 năm 2005 . Truy cập ngày 26 tháng 4 năm 2007 .
+
+↑ Influence on C: types, structures, arrays, pointers and procedures - Dennis Ritchie
+
+↑ Dennis Ritchie (tháng 6 năm 1988). "C and Algol 68" . Bản gốc lưu trữ ngày 27 tháng 8 năm 2009 . Truy cập ngày 15 tháng 9 năm 2006 .
+
+↑ Influence on C: union, structure, syntax and long precision - Dennis Ritchie
+
+↑ "A History of C++: 1979−1991" (PDF) . tháng 3 năm 1993. Page 12, 2nd paragraph: Algol68 [gave] operator overloading(§3.3.3), references (§3.3.4), and the ability to declare variables anywhere in a block (§3.3.1) . Truy cập ngày 6 tháng 5 năm 2008 .
+
+↑ "Interview with Guido van Rossum" . tháng 7 năm 1998. Bản gốc lưu trữ ngày 1 tháng 5 năm 2007 . Truy cập ngày 29 tháng 4 năm 2007 .
+
+van Wijngaarden, Adriaan ; Mailloux, Barry James ; Peck, John Edward Lancelot ; Koster, Cornelis Hermanus Antonius ; Sintzoff, Michel [bằng tiếng Pháp] ; Lindsey, Charles Hodgson ; Meertens, Lambert Guillaume Louis Théodore ; Fisker, Richard G., biên tập (1976). Revised Report on the Algorithmic Language ALGOL 68 (PDF) . Springer-Verlag . ISBN 978-0-387-07592-1 . OCLC 1991170 . Lưu trữ (PDF) bản gốc ngày 19 tháng 4 năm 2019 . Truy cập ngày 11 tháng 5 năm 2019 .
+
+Nguồn tham khảo
+
+Brailsford, D. F. and Walker, A. N., Introductory ALGOL 68 Programming , Ellis Horwood/Wiley, 1979
+
+Lindsey, C. H. and van der Meulen, S. G., Informal Introduction to ALGOL 68 , North-Holland, 1971
+
+Lindsey, C. H. (ngày 2 tháng 3 năm 1993). "A History of ALGOL 68". ACM SIGPLAN Notices . Quyển 28 số 3. tr. 1– 71.
+
+McGettrick, A. D., ALGOL 68, A First and Second Course , Cambridge Univ. Press, 1978
+
+Peck, J. E. L., An ALGOL 68 Companion , Univ. of British Columbia, October 1971
+
+Tanenbaum, A. S., A Tutorial on ALGOL 68 , Computing Surveys 8 , 155-190, June 1976 and 9 , 255-256, September 1977,
+
+Woodward, P. M. and Bond, S. G., ALGOL 68-R Users sic Guide , London, Her Majesty's Stationery Office, 1972

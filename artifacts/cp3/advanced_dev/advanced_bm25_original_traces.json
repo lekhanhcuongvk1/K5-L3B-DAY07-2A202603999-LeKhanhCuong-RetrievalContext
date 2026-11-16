@@ -1,0 +1,1476 @@
+[
+  {
+    "query_id": "A01",
+    "primary_group": "table",
+    "original_query": "Theo Bảng O.1, Việt Nam xếp hạng LPI tổng thể và hạ tầng năm 2014 lần lượt là bao nhiêu?",
+    "retrieval_query": "Theo Bảng O.1, Việt Nam xếp hạng LPI tổng thể và hạ tầng năm 2014 lần lượt là bao nhiêu?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p315:b03:afe874974700",
+        "text": "Wheeler, Nhan Thi Lam, and Khuc Xuyen. 2005. “Pesticide Poisoning of Farm Workers: Implications of Blood Test Results from Vietnam.” Policy Research Working Paper 3624, World Bank, Washington, DC. Duc, D., M. Nhuan, and C. Van Ngoi. 2012. “An\nPau Queraltó Ros. 2008. The Socioeconomic Impact of the Spatial Data Infrastructure of Catalonia. JRC Scientiﬁ c and Technical Reports. Brussels, Belgium: European Commission. http://inspire.ec.europa.eu/reports/Study_reports / catalonia_impact _ study_report.pdf. Bao, Tran Quang, and Melinda Laituri. 2011.\nAnalysis of Coastal Erosion in the Tropical Rapid Accretion Delta of the Red River, Vietnam.” Journal of Asian Earth Sciences 43 (1): 98–109. Electricity Regulatory Authority of Vietnam. 2016.\n“Deﬁ ning Required Forest Area for Protection Soil from Erosion in Vietnam: A GIS-based Application.” VNU Journal of Science, Earth Sciences 27 (1): 63–76. BirdLife International. 2013. Country Profile:\nMinistry of Industry and Trade. EU Food and Veterinary Office. 2014. Final\nVietnam. Cambridge, UK: BirdLife International. http://www.birdlife.org/datazone/country / vietnam. Blankespoor, B., S. Dasgupta, and B. Laplante. 2012.\nSea-Level Rise and Coastal Wetlands Impacts and Costs. Washington, DC: World Bank. Bridle, Richard, and Christopher Beaton. 2012.\nReport of an Audit Carried Out in Viet Nam from 18 to 27 February 2014 to Evaluate Controls of Pesticides in Food of Plant Origin Intended for Export to the EU. DG (SANCO) 2014-2177-MR Final. Ref. Ares(2014)1935555-13/06/2014.\nAssessing the Cost-Effectiveness of Renewable",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 315,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            485.45,
+            476.58,
+            704.96
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 12.747679849426227,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p206:b01:e16b0d8790f3",
+        "text": "168 V I E T N A M 2 0 3 5\nWorld Bank. 2007. An East Asian Renaissance:\nSekkat, Khalid. 2009. “Does Competition Improve\nIdeas for Economic Growth. Washington, DC: World Bank. ———. 2011. Vietnam Development Report\nProductivity in Developing Countries?” Journal of Economic Policy Reform 12 (2): 145–62. Steer, Liesbet, and Kunal Sen. 2010. “Formal and\n2012: Market Economy for a Middle-Income Vietnam. Washington, DC: World Bank. ———. 2014. “Vietnam: Financial Sector\nInformal Institutions in a Transition Economy: The Case of Vietnam.” World Development 38 (11): 1603–15. Symeonidis, George. 2008. “The Effect of\nAssessment.” Washington, DC: World Bank. http://documents .worldbank.org/curated / en/2014/06/20375067 / vietnam-financial -sector-assessment. ———. n.d. Global Financial Development\nCompetition on Wages and Productivity: Evidence from the United Kingdom.” The Review of Economics and Statistics 90 (1): 134–46. Tu Anh, Vu Thanh, David Dapice, Nguyen\nDatabase. World Bank, Washington, DC. http://data.worldbank.org/data-catalog / g lobal-ﬁ nancial-development. ———. n.d. Logistics Performance Index (LPI).\nXuan Thanh, and Do Thien Anh Tuan. 2015. “A Retrospective on the Past 30 Years of Development in Vietnam.” Background paper for V ietnam 2035 Report. UNCTAD, Investment Policy Review Viet\nWorld Bank, Washington, DC. http://lpi .worldbank.org/. ———. n.d. Services Trade Restriction Index.\nNam, United Nations. 2008. New York and Geneva. Urzua, Carlos. 2009. “Distributive and Regional\nWorld Bank, Washington, DC. http:// iresearch .worldbank.org/servicetrade/. ———. n.d. World Development Indicators\nEffects of Monopoly Power.” Working Paper 2009–04, EGAP and Tecnológico de Monterrey, Mexico City. Voigt, Stefan. 2009. “The Effects of Competition",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 206,
+        "metadata": {
+          "printed_page": "168",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.55,
+            375.25
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 12.530941789464933,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p066:b03:c760cba17ae5",
+        "text": "Vietnam, 2007 53 37 60 47 56 53 65 Vietnam, 2014 48 61 44 42 49 48 56 China, 2014 25 27 26 10 32 23 31 Malaysia, 2014 28 38 23 22 35 29 36 Thailand, 2014 35 36 30 39 38 33 29\nSource: World Bank’s Logistics Performance Index (LPI).",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 66,
+        "metadata": {
+          "printed_page": "28",
+          "bbox_points": [
+            36.0,
+            625.54,
+            480.19,
+            687.61
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 11.282543432843665,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [
+          0
+        ],
+        "gold_hit": true
+      }
+    ],
+    "context": "[adv:p315:b03:afe874974700 | advanced/source/vietnam-2035.pdf | trang 315]\nWheeler, Nhan Thi Lam, and Khuc Xuyen. 2005. “Pesticide Poisoning of Farm Workers: Implications of Blood Test Results from Vietnam.” Policy Research Working Paper 3624, World Bank, Washington, DC. Duc, D., M. Nhuan, and C. Van Ngoi. 2012. “An\nPau Queraltó Ros. 2008. The Socioeconomic Impact of the Spatial Data Infrastructure of Catalonia. JRC Scientiﬁ c and Technical Reports. Brussels, Belgium: European Commission. http://inspire.ec.europa.eu/reports/Study_reports / catalonia_impact _ study_report.pdf. Bao, Tran Quang, and Melinda Laituri. 2011.\nAnalysis of Coastal Erosion in the Tropical Rapid Accretion Delta of the Red River, Vietnam.” Journal of Asian Earth Sciences 43 (1): 98–109. Electricity Regulatory Authority of Vietnam. 2016.\n“Deﬁ ning Required Forest Area for Protection Soil from Erosion in Vietnam: A GIS-based Application.” VNU Journal of Science, Earth Sciences 27 (1): 63–76. BirdLife International. 2013. Country Profile:\nMinistry of Industry and Trade. EU Food and Veterinary Office. 2014. Final\nVietnam. Cambridge, UK: BirdLife International. http://www.birdlife.org/datazone/country / vietnam. Blankespoor, B., S. Dasgupta, and B. Laplante. 2012.\nSea-Level Rise and Coastal Wetlands Impacts and Costs. Washington, DC: World Bank. Bridle, Richard, and Christopher Beaton. 2012.\nReport of an Audit Carried Out in Viet Nam from 18 to 27 February 2014 to Evaluate Controls of Pesticides in Food of Plant Origin Intended for Export to the EU. DG (SANCO) 2014-2177-MR Final. Ref. Ares(2014)1935555-13/06/2014.\nAssessing the Cost-Effectiveness of Renewable\n\n[adv:p206:b01:e16b0d8790f3 | advanced/source/vietnam-2035.pdf | trang 206]\n168 V I E T N A M 2 0 3 5\nWorld Bank. 2007. An East Asian Renaissance:\nSekkat, Khalid. 2009. “Does Competition Improve\nIdeas for Economic Growth. Washington, DC: World Bank. ———. 2011. Vietnam Development Report\nProductivity in Developing Countries?” Journal of Economic Policy Reform 12 (2): 145–62. Steer, Liesbet, and Kunal Sen. 2010. “Formal and\n2012: Market Economy for a Middle-Income Vietnam. Washington, DC: World Bank. ———. 2014. “Vietnam: Financial Sector\nInformal Institutions in a Transition Economy: The Case of Vietnam.” World Development 38 (11): 1603–15. Symeonidis, George. 2008. “The Effect of\nAssessment.” Washington, DC: World Bank. http://documents .worldbank.org/curated / en/2014/06/20375067 / vietnam-financial -sector-assessment. ———. n.d. Global Financial Development\nCompetition on Wages and Productivity: Evidence from the United Kingdom.” The Review of Economics and Statistics 90 (1): 134–46. Tu Anh, Vu Thanh, David Dapice, Nguyen\nDatabase. World Bank, Washington, DC. http://data.worldbank.org/data-catalog / g lobal-ﬁ nancial-development. ———. n.d. Logistics Performance Index (LPI).\nXuan Thanh, and Do Thien Anh Tuan. 2015. “A Retrospective on the Past 30 Years of Development in Vietnam.” Background paper for V ietnam 2035 Report. UNCTAD, Investment Policy Review Viet\nWorld Bank, Washington, DC. http://lpi .worldbank.org/. ———. n.d. Services Trade Restriction Index.\nNam, United Nations. 2008. New York and Geneva. Urzua, Carlos. 2009. “Distributive and Regional\nWorld Bank, Washington, DC. http:// iresearch .worldbank.org/servicetrade/. ———. n.d. World Development Indicators\nEffects of Monopoly Power.” Working Paper 2009–04, EGAP and Tecnológico de Monterrey, Mexico City. Voigt, Stefan. 2009. “The Effects of Competition\n\n[adv:p066:b03:c760cba17ae5 | advanced/source/vietnam-2035.pdf | trang 66]\nVietnam, 2007 53 37 60 47 56 53 65 Vietnam, 2014 48 61 44 42 49 48 56 China, 2014 25 27 26 10 32 23 31 Malaysia, 2014 28 38 23 22 35 29 36 Thailand, 2014 35 36 30 39 38 33 29\nSource: World Bank’s Logistics Performance Index (LPI).",
+    "context_ids": [
+      "adv:p315:b03:afe874974700",
+      "adv:p206:b01:e16b0d8790f3",
+      "adv:p066:b03:c760cba17ae5"
+    ],
+    "hit1": false,
+    "evidence_hit3": true,
+    "complete_context_evidence": true,
+    "required_gold_regions": 1,
+    "found_gold_regions": [
+      0
+    ],
+    "elapsed_ms": 3.805,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A02",
+    "primary_group": "table",
+    "original_query": "Theo Bảng 4.1, từ 1995 đến 2015 số đô thị tăng từ bao nhiêu lên bao nhiêu?",
+    "retrieval_query": "Theo Bảng 4.1, từ 1995 đến 2015 số đô thị tăng từ bao nhiêu lên bao nhiêu?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p278:b01:07107ccf4b92",
+        "text": "240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 278,
+        "metadata": {
+          "printed_page": "240",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.64,
+            361.76
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 15.580846321627341,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p405:b03:1805cf95a12a",
+        "text": "Executive Studies in Britain.” Public Administration 68 (1): 3–28. Dương, Thị Thanh Mai, and Dr. Nguyễn Văn\nCapital in Rural Viet Nam.” Working Paper 2015/087, United Nations University World Institute for Development Economics Research, Helsinki. MONRE (Ministry of Natural Resources and\nCương. 2015. “Policy Making and Enforcement in Vietnam: Context, Expected Transformation, and Vision to 2035.” Background paper for Vietnam 2035 Report. Evans, Peter. 2005. “Harnessing the State:\nRebalancing Strategies for Monitoring and Motivation.” In States and Development:\nEnvironment). 2012. MONRE Review Report on the implementation of the 2003 Land Law, No. 193/BC-BTNMT. September 6, MONRE.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 405,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            71.99,
+            583.4,
+            476.61,
+            693.82
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 13.012090849358687,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p248:b01:7f044e6107f0",
+        "text": "210 V I E T N A M 2 0 3 5\nFIGURE 4.5 Vietnam’s urban population growth in the global picture\na. Vietnam’s increasing urban population,\n1960–2013 b. Vietnam’s urbanization was faster than\nthe global rate over 1991–2013\n35\n0.7\n30\n0.6\n25\n0.5\n0.4\n20\n0.3\n15\nGrowth rate (%)\n0.2\n10\nShare of population (%)\n0.1\n5\nUrban population (millions)\n0\n0 10 20 30 40 50 60 70 80 90\n0\n1960 1964 1968 1972 1976 1980 1984 1988 1992 1996 2000 2004 2008 2012\n1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013\nVietnam: Urbanization growth rate Global (unweighted) average: Urbanization growth rate\nUrban population share Rural population share Urban population (right axis)\nSource: Calculations based on World Development Indicators.\nTABLE 4.1 Urbanization of land and people, 1995–2015\nTotal number of\nTotal area of urban land\nUrban percentage of\nTotal urban population\nUrban share of the\nYear\nurban areas\n(hectares)\ntotal land area\n(millions)\npopulation (%)\nUrban density (urban residents per hectare)\n1995 420 836,117 2.53 14.9 20.8 17.9\n2000 629 990,276 2.99 18.7 24.1 18.9\n2005 675 1,153,549 3.48 22.3 27.1 19.4\n2010 752 1,372,038 4.14 25.4 29.6 18.6\n2015 775 1,642,420 4.96 31.0 34.3 18.9\nSource: Vo and Van Thang 2013 (p. 33) and General Statistics Oﬃ ce of Vietnam.\nFIGURE 4.6 Low-density spatial expansion can dampen agglomeration economies\na. Ho Chi Minh City\nurban centers around the world are far higher: downtown Singapore, 1 million persons/km2; downtown Hong Kong SAR, China, more than 6 million; and Manhattan, 3.7 million.4\n2 million people 3 million people\n1.15 million people 1.5 million people\nDensity\n10,000 20,000 30,000 40,000 50,000\n(inhab/km²)\n0\n100 200 300 400 500 600 700 800 900 1,000\nBuilt-up area (km²)\nb. Hanoi\n1.3 million people\nDensity\n10,000 20,000 30,000 40,000 50,000",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 248,
+        "metadata": {
+          "printed_page": "210",
+          "bbox_points": [
+            35.99,
+            57.93,
+            506.78,
+            658.04
+          ],
+          "modality": "table",
+          "block_group": 1
+        },
+        "score": 12.882295014729264,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [
+          0
+        ],
+        "gold_hit": true
+      }
+    ],
+    "context": "[adv:p278:b01:07107ccf4b92 | advanced/source/vietnam-2035.pdf | trang 278]\n240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial\n\n[adv:p405:b03:1805cf95a12a | advanced/source/vietnam-2035.pdf | trang 405]\nExecutive Studies in Britain.” Public Administration 68 (1): 3–28. Dương, Thị Thanh Mai, and Dr. Nguyễn Văn\nCapital in Rural Viet Nam.” Working Paper 2015/087, United Nations University World Institute for Development Economics Research, Helsinki. MONRE (Ministry of Natural Resources and\nCương. 2015. “Policy Making and Enforcement in Vietnam: Context, Expected Transformation, and Vision to 2035.” Background paper for Vietnam 2035 Report. Evans, Peter. 2005. “Harnessing the State:\nRebalancing Strategies for Monitoring and Motivation.” In States and Development:\nEnvironment). 2012. MONRE Review Report on the implementation of the 2003 Land Law, No. 193/BC-BTNMT. September 6, MONRE.\n\n[adv:p248:b01:7f044e6107f0 | advanced/source/vietnam-2035.pdf | trang 248]\n210 V I E T N A M 2 0 3 5\nFIGURE 4.5 Vietnam’s urban population growth in the global picture\na. Vietnam’s increasing urban population,\n1960–2013 b. Vietnam’s urbanization was faster than\nthe global rate over 1991–2013\n35\n0.7\n30\n0.6\n25\n0.5\n0.4\n20\n0.3\n15\nGrowth rate (%)\n0.2\n10\nShare of population (%)\n0.1\n5\nUrban population (millions)\n0\n0 10 20 30 40 50 60 70 80 90\n0\n1960 1964 1968 1972 1976 1980 1984 1988 1992 1996 2000 2004 2008 2012\n1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013\nVietnam: Urbanization growth rate Global (unweighted) average: Urbanization growth rate\nUrban population share Rural population share Urban population (right axis)\nSource: Calculations based on World Development Indicators.\nTABLE 4.1 Urbanization of land and people, 1995–2015\nTotal number of\nTotal area of urban land\nUrban percentage of\nTotal urban population\nUrban share of the\nYear\nurban areas\n(hectares)\ntotal land area\n(millions)\npopulation (%)\nUrban density (urban residents per hectare)\n1995 420 836,117 2.53 14.9 20.8 17.9\n2000 629 990,276 2.99 18.7 24.1 18.9\n2005 675 1,153,549 3.48 22.3 27.1 19.4\n2010 752 1,372,038 4.14 25.4 29.6 18.6\n2015 775 1,642,420 4.96 31.0 34.3 18.9\nSource: Vo and Van Thang 2013 (p. 33) and General Statistics Oﬃ ce of Vietnam.\nFIGURE 4.6 Low-density spatial expansion can dampen agglomeration economies\na. Ho Chi Minh City\nurban centers around the world are far higher: downtown Singapore, 1 million persons/km2; downtown Hong Kong SAR, China, more than 6 million; and Manhattan, 3.7 million.4\n2 million people 3 million people\n1.15 million people 1.5 million people\nDensity\n10,000 20,000 30,000 40,000 50,000\n(inhab/km²)\n0\n100 200 300 400 500 600 700 800 900 1,000\nBuilt-up area (km²)\nb. Hanoi\n1.3 million people\nDensity\n10,000 20,000 30,000 40,000 50,000",
+    "context_ids": [
+      "adv:p278:b01:07107ccf4b92",
+      "adv:p405:b03:1805cf95a12a",
+      "adv:p248:b01:7f044e6107f0"
+    ],
+    "hit1": false,
+    "evidence_hit3": true,
+    "complete_context_evidence": true,
+    "required_gold_regions": 1,
+    "found_gold_regions": [
+      0
+    ],
+    "elapsed_ms": 3.063,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A03",
+    "primary_group": "table",
+    "original_query": "Bảng B5.3.1 ước tính tổng chi phí do tác động của vệ sinh kém là bao nhiêu?",
+    "retrieval_query": "Bảng B5.3.1 ước tính tổng chi phí do tác động của vệ sinh kém là bao nhiêu?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p293:b02:34bd1a852c3b",
+        "text": "Industrial water pollution. Industrial zones discharge an estimated 1 million cubic meters of untreated wastewater a day directly into\nSource: World Bank and Australian Aid 2013.\nBOX 5.3 Costs of poor sanitation\nDiarrhea is also the main cause of death from poor sanitation and hygiene, accounting for around 4,600 deaths a year. Malnutrition-related diseases, such as lower respiratory infections, account for an estimated further 1,500 deaths a year and are attributed to poor sanitation. Malaria follows with 600 deaths a year.\nDiarrhea is the sanitation-related disease with the most cases, at 7.05 million a year, and significant economic costs (table B5.3.1) (World Bank 2008). The economic cost of treating patients can be esti- mated using an average cost of $4.50 per case of waterborne illness, for a total cost of $31.7 million.\nTABLE B5.3.1 The estimated cost of poor sanitation-related impacts is US$780 million\nAspect Cost (US$ million)\nImpact of poor sanitation 780 Water-related diseases 262 Impact on water sources 287 Land use 119 Other welfare losses 43 Tourism 69\nSource: World Bank and the Ministry of Planning and Investment of Vietnam calculations, drawing from diﬀ erent sources.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 293,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            364.28,
+            521.62,
+            673.88
+          ],
+          "modality": "table",
+          "block_group": 2
+        },
+        "score": 11.659515689903847,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [
+          0
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "adv:p017:b03:fce235903baf",
+        "text": "environmental footprint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 249 B5.3.1 The estimated cost of poor sanitation-related impacts is US$780 million . . . . . . 255 5.1 Vietnam has a high and increasing exposure to gradual-onset impacts of climate change . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 258 5.2 Climate change and sea-level rise will affect yields and production of key crops . . . . 260 5.3 Cumulative inﬂ ation surpassed tariffs and percentage increase show that real electricity prices are among the lowest in the region . . . . . . . . . . . . . . . 264 5.4 Trade-offs should be balanced with the urgency required for the measures . . . . . 276",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 17,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            565.06,
+            474.0,
+            660.78
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 11.08300668080796,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p025:b02:c9b15bb94b98",
+        "text": "Administration and communications activities from the World Bank Group side were managed by Bo Thi Hong Mai (Senior Communications Ofﬁ cer), Tran Kim Chi (Communications Asso ciate), Vu Lan Huong (Communications Associate), Nguyen Hong Ngan (Communications Ofﬁ cer), and Vu Thi Anh Linh (Program Assistant).\nAdditional editing of the report was han- dled by a Vietnamese editorial team with participation of Dr. Cao Viet Sinh (former Vice Minister of Planning and Investment, team leader), Prof. Hoang The Lien (former Vice Minister of Justice), Dr. Nguyen Quang Thai (Secretary General, Vietnam Association of Economists), Nguyen Van Vinh (Vice President, DSI), Pham Chi Lan (former member of Prime Minister’s Economic Advisory Board), Dr. Vo Tri Thanh (Vice President, CIEM), and Doan Hong Quang (Senior Economist).\nIt is with great pleasure that the Ministry of Planning and Investment and the World Bank Group introduce the report Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy with the hope that Vietnamese leaders and policy-making agen- cies will ﬁ nd it useful.\nBùi Quang Vinh Minister of Planning and Investment Socialist Republic of Vietnam\nAxel van Trotsenburg Vice President for East Asia and Paciﬁ c World Bank Group",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 25,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            340.28,
+            476.83,
+            684.8
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 9.492877578630086,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p293:b02:34bd1a852c3b | advanced/source/vietnam-2035.pdf | trang 293]\nIndustrial water pollution. Industrial zones discharge an estimated 1 million cubic meters of untreated wastewater a day directly into\nSource: World Bank and Australian Aid 2013.\nBOX 5.3 Costs of poor sanitation\nDiarrhea is also the main cause of death from poor sanitation and hygiene, accounting for around 4,600 deaths a year. Malnutrition-related diseases, such as lower respiratory infections, account for an estimated further 1,500 deaths a year and are attributed to poor sanitation. Malaria follows with 600 deaths a year.\nDiarrhea is the sanitation-related disease with the most cases, at 7.05 million a year, and significant economic costs (table B5.3.1) (World Bank 2008). The economic cost of treating patients can be esti- mated using an average cost of $4.50 per case of waterborne illness, for a total cost of $31.7 million.\nTABLE B5.3.1 The estimated cost of poor sanitation-related impacts is US$780 million\nAspect Cost (US$ million)\nImpact of poor sanitation 780 Water-related diseases 262 Impact on water sources 287 Land use 119 Other welfare losses 43 Tourism 69\nSource: World Bank and the Ministry of Planning and Investment of Vietnam calculations, drawing from diﬀ erent sources.\n\n[adv:p017:b03:fce235903baf | advanced/source/vietnam-2035.pdf | trang 17]\nenvironmental footprint . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 249 B5.3.1 The estimated cost of poor sanitation-related impacts is US$780 million . . . . . . 255 5.1 Vietnam has a high and increasing exposure to gradual-onset impacts of climate change . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 258 5.2 Climate change and sea-level rise will affect yields and production of key crops . . . . 260 5.3 Cumulative inﬂ ation surpassed tariffs and percentage increase show that real electricity prices are among the lowest in the region . . . . . . . . . . . . . . . 264 5.4 Trade-offs should be balanced with the urgency required for the measures . . . . . 276\n\n[adv:p025:b02:c9b15bb94b98 | advanced/source/vietnam-2035.pdf | trang 25]\nAdministration and communications activities from the World Bank Group side were managed by Bo Thi Hong Mai (Senior Communications Ofﬁ cer), Tran Kim Chi (Communications Asso ciate), Vu Lan Huong (Communications Associate), Nguyen Hong Ngan (Communications Ofﬁ cer), and Vu Thi Anh Linh (Program Assistant).\nAdditional editing of the report was han- dled by a Vietnamese editorial team with participation of Dr. Cao Viet Sinh (former Vice Minister of Planning and Investment, team leader), Prof. Hoang The Lien (former Vice Minister of Justice), Dr. Nguyen Quang Thai (Secretary General, Vietnam Association of Economists), Nguyen Van Vinh (Vice President, DSI), Pham Chi Lan (former member of Prime Minister’s Economic Advisory Board), Dr. Vo Tri Thanh (Vice President, CIEM), and Doan Hong Quang (Senior Economist).\nIt is with great pleasure that the Ministry of Planning and Investment and the World Bank Group introduce the report Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy with the hope that Vietnamese leaders and policy-making agen- cies will ﬁ nd it useful.\nBùi Quang Vinh Minister of Planning and Investment Socialist Republic of Vietnam\nAxel van Trotsenburg Vice President for East Asia and Paciﬁ c World Bank Group",
+    "context_ids": [
+      "adv:p293:b02:34bd1a852c3b",
+      "adv:p017:b03:fce235903baf",
+      "adv:p025:b02:c9b15bb94b98"
+    ],
+    "hit1": true,
+    "evidence_hit3": true,
+    "complete_context_evidence": true,
+    "required_gold_regions": 1,
+    "found_gold_regions": [
+      0
+    ],
+    "elapsed_ms": 3.732,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A04",
+    "primary_group": "table",
+    "original_query": "Theo Bảng 7.1, tỷ lệ công chức trên 50 tuổi thay đổi thế nào từ 2005 đến 2012?",
+    "retrieval_query": "Theo Bảng 7.1, tỷ lệ công chức trên 50 tuổi thay đổi thế nào từ 2005 đến 2012?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p248:b01:7f044e6107f0",
+        "text": "210 V I E T N A M 2 0 3 5\nFIGURE 4.5 Vietnam’s urban population growth in the global picture\na. Vietnam’s increasing urban population,\n1960–2013 b. Vietnam’s urbanization was faster than\nthe global rate over 1991–2013\n35\n0.7\n30\n0.6\n25\n0.5\n0.4\n20\n0.3\n15\nGrowth rate (%)\n0.2\n10\nShare of population (%)\n0.1\n5\nUrban population (millions)\n0\n0 10 20 30 40 50 60 70 80 90\n0\n1960 1964 1968 1972 1976 1980 1984 1988 1992 1996 2000 2004 2008 2012\n1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013\nVietnam: Urbanization growth rate Global (unweighted) average: Urbanization growth rate\nUrban population share Rural population share Urban population (right axis)\nSource: Calculations based on World Development Indicators.\nTABLE 4.1 Urbanization of land and people, 1995–2015\nTotal number of\nTotal area of urban land\nUrban percentage of\nTotal urban population\nUrban share of the\nYear\nurban areas\n(hectares)\ntotal land area\n(millions)\npopulation (%)\nUrban density (urban residents per hectare)\n1995 420 836,117 2.53 14.9 20.8 17.9\n2000 629 990,276 2.99 18.7 24.1 18.9\n2005 675 1,153,549 3.48 22.3 27.1 19.4\n2010 752 1,372,038 4.14 25.4 29.6 18.6\n2015 775 1,642,420 4.96 31.0 34.3 18.9\nSource: Vo and Van Thang 2013 (p. 33) and General Statistics Oﬃ ce of Vietnam.\nFIGURE 4.6 Low-density spatial expansion can dampen agglomeration economies\na. Ho Chi Minh City\nurban centers around the world are far higher: downtown Singapore, 1 million persons/km2; downtown Hong Kong SAR, China, more than 6 million; and Manhattan, 3.7 million.4\n2 million people 3 million people\n1.15 million people 1.5 million people\nDensity\n10,000 20,000 30,000 40,000 50,000\n(inhab/km²)\n0\n100 200 300 400 500 600 700 800 900 1,000\nBuilt-up area (km²)\nb. Hanoi\n1.3 million people\nDensity\n10,000 20,000 30,000 40,000 50,000",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 248,
+        "metadata": {
+          "printed_page": "210",
+          "bbox_points": [
+            35.99,
+            57.93,
+            506.78,
+            658.04
+          ],
+          "modality": "table",
+          "block_group": 1
+        },
+        "score": 12.959395804112425,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p152:b01:810914724c8f",
+        "text": "114 V I E T N A M 2 0 3 5\nFIGURE 2.4 Vietnam’s structural changes are broadly consistent with global patterns\nb. GDP share of agriculture\na. Employment share of agriculture\n100\n100\n90\n90\n80\n80\n70\n70\n60\n60\n50\n50\n40\n40\n30\n30\n20\nGDP share of agriculture (%)\n20\n10\nEmployment share of agriculture (%)\n10\n500 1,000 10,000 25,000 50,000 100,000\n500 1,000 10,000 25,000 50,000 100,000\nGDP per capita (2005 PPP US$) GDP per capita (2005 PPP US$)\nd. GDP share of industry\nc. Employment share of industry\n100\n100\n90\n90\n80\n80\n70\n70\n60\n60\n50\n50\n40\n40\n30\n30\nGDP share of industry (%)\n20\n20\nEmployment share of industry (%)\n10\n10\n500 1,000 10,000 25,00050,000 100,000\n500 1,000 10,000 25,000 50,000 100,000\nGDP per capita (2005 PPP US$)\nGDP per capita (2005 PPP US$)\ne. Employment share of services f. GDP share of services\n100\n100\n90\n90\n80\n80\n70\n70\n60\n60\n50\n50\n40\n40\n30\nGDP share of services (%)\n30\n20\nEmployment share of services (%)\n20\n10\n10\n500 1,000 10,000 25,00050,000 100,000\n500 1,000 10,000 25,000 50,000100,000\nGDP per capita (2005 PPP US$) GDP per capita (2005 PPP US$)\nAll Countries Korea, Rep. Vietnam China\nSources: Calculations based on the General Statistics Oﬃ ce of Vietnam (for Vietnam) and World Development Indicators (for all other countries) for sectoral shares of GDP and employment; http://www.rug.nl/research/ggdc/data/pwt/ for GDP per capita.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 152,
+        "metadata": {
+          "printed_page": "114",
+          "bbox_points": [
+            36.0,
+            57.93,
+            504.3,
+            651.18
+          ],
+          "modality": "chart",
+          "block_group": 1
+        },
+        "score": 11.95425797205613,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p118:b02:b1519435db6c",
+        "text": "2008–11: Macro-instability and lower growth Since 2012: Improvement of macrostability, recovered growth, eﬀorts to restructure the\n10\neconomy and to deepen integration\n1976–80: “Shortage” and\n8\nstagnated\neconomy\n2.0\n6\n4\n1.0\nGrowth rate\nLog(1+inﬂation*100)\n2\n0\n0\n–2\n–4\n–1.0\n1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015\nSince 1989: Market-oriented reform (with socialism orientation) and Integration (EU: 1992; ASEAN: 1995; APEC 1998; VN-US BTA 2000; WTO: 2007; ASEAN + 1 FTAs;…\nVN-Japan CEP; Currently in negotiation: TPP;\n1976–80: A CPE and autarkic economy 1980–88: Modiﬁed Planned Economy (Microreforms and failure of “price-salary-money reform”) 1986: Đổi Mới began (“multi-components” economy)\nVN-EU FTA; RCEP; VN-Russia, Belarus, Kazaxtan Custom Union FTA, VN-Korea FTA..)\nSources: General Statistics data and World Bank and the Ministry of Planning and Investment of Vietnam calculations. Note: The blue bars measures inﬂ ation, and the green line indicates growth rate. APEC = Asia-Paciﬁ c Economic Cooperation; ASEAN = Association of Southeast Asian Nations; BTA = bilateral trade agreement; CEP = comprehensive economic partnership; CPE = centrally planned economy; EU = European Union; FTA = free trade agreement; RCEP = Regional Comprehensive Economic Partnership; TPP = Trans-Paciﬁ c Partnership; VN = Vietnam; WTO = World Trade Organization.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 118,
+        "metadata": {
+          "printed_page": "80",
+          "bbox_points": [
+            36.0,
+            404.95,
+            505.59,
+            699.55
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 11.890814413134718,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p248:b01:7f044e6107f0 | advanced/source/vietnam-2035.pdf | trang 248]\n210 V I E T N A M 2 0 3 5\nFIGURE 4.5 Vietnam’s urban population growth in the global picture\na. Vietnam’s increasing urban population,\n1960–2013 b. Vietnam’s urbanization was faster than\nthe global rate over 1991–2013\n35\n0.7\n30\n0.6\n25\n0.5\n0.4\n20\n0.3\n15\nGrowth rate (%)\n0.2\n10\nShare of population (%)\n0.1\n5\nUrban population (millions)\n0\n0 10 20 30 40 50 60 70 80 90\n0\n1960 1964 1968 1972 1976 1980 1984 1988 1992 1996 2000 2004 2008 2012\n1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013\nVietnam: Urbanization growth rate Global (unweighted) average: Urbanization growth rate\nUrban population share Rural population share Urban population (right axis)\nSource: Calculations based on World Development Indicators.\nTABLE 4.1 Urbanization of land and people, 1995–2015\nTotal number of\nTotal area of urban land\nUrban percentage of\nTotal urban population\nUrban share of the\nYear\nurban areas\n(hectares)\ntotal land area\n(millions)\npopulation (%)\nUrban density (urban residents per hectare)\n1995 420 836,117 2.53 14.9 20.8 17.9\n2000 629 990,276 2.99 18.7 24.1 18.9\n2005 675 1,153,549 3.48 22.3 27.1 19.4\n2010 752 1,372,038 4.14 25.4 29.6 18.6\n2015 775 1,642,420 4.96 31.0 34.3 18.9\nSource: Vo and Van Thang 2013 (p. 33) and General Statistics Oﬃ ce of Vietnam.\nFIGURE 4.6 Low-density spatial expansion can dampen agglomeration economies\na. Ho Chi Minh City\nurban centers around the world are far higher: downtown Singapore, 1 million persons/km2; downtown Hong Kong SAR, China, more than 6 million; and Manhattan, 3.7 million.4\n2 million people 3 million people\n1.15 million people 1.5 million people\nDensity\n10,000 20,000 30,000 40,000 50,000\n(inhab/km²)\n0\n100 200 300 400 500 600 700 800 900 1,000\nBuilt-up area (km²)\nb. Hanoi\n1.3 million people\nDensity\n10,000 20,000 30,000 40,000 50,000\n\n[adv:p152:b01:810914724c8f | advanced/source/vietnam-2035.pdf | trang 152]\n114 V I E T N A M 2 0 3 5\nFIGURE 2.4 Vietnam’s structural changes are broadly consistent with global patterns\nb. GDP share of agriculture\na. Employment share of agriculture\n100\n100\n90\n90\n80\n80\n70\n70\n60\n60\n50\n50\n40\n40\n30\n30\n20\nGDP share of agriculture (%)\n20\n10\nEmployment share of agriculture (%)\n10\n500 1,000 10,000 25,000 50,000 100,000\n500 1,000 10,000 25,000 50,000 100,000\nGDP per capita (2005 PPP US$) GDP per capita (2005 PPP US$)\nd. GDP share of industry\nc. Employment share of industry\n100\n100\n90\n90\n80\n80\n70\n70\n60\n60\n50\n50\n40\n40\n30\n30\nGDP share of industry (%)\n20\n20\nEmployment share of industry (%)\n10\n10\n500 1,000 10,000 25,00050,000 100,000\n500 1,000 10,000 25,000 50,000 100,000\nGDP per capita (2005 PPP US$)\nGDP per capita (2005 PPP US$)\ne. Employment share of services f. GDP share of services\n100\n100\n90\n90\n80\n80\n70\n70\n60\n60\n50\n50\n40\n40\n30\nGDP share of services (%)\n30\n20\nEmployment share of services (%)\n20\n10\n10\n500 1,000 10,000 25,00050,000 100,000\n500 1,000 10,000 25,000 50,000100,000\nGDP per capita (2005 PPP US$) GDP per capita (2005 PPP US$)\nAll Countries Korea, Rep. Vietnam China\nSources: Calculations based on the General Statistics Oﬃ ce of Vietnam (for Vietnam) and World Development Indicators (for all other countries) for sectoral shares of GDP and employment; http://www.rug.nl/research/ggdc/data/pwt/ for GDP per capita.\n\n[adv:p118:b02:b1519435db6c | advanced/source/vietnam-2035.pdf | trang 118]\n2008–11: Macro-instability and lower growth Since 2012: Improvement of macrostability, recovered growth, eﬀorts to restructure the\n10\neconomy and to deepen integration\n1976–80: “Shortage” and\n8\nstagnated\neconomy\n2.0\n6\n4\n1.0\nGrowth rate\nLog(1+inﬂation*100)\n2\n0\n0\n–2\n–4\n–1.0\n1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015\nSince 1989: Market-oriented reform (with socialism orientation) and Integration (EU: 1992; ASEAN: 1995; APEC 1998; VN-US BTA 2000; WTO: 2007; ASEAN + 1 FTAs;…\nVN-Japan CEP; Currently in negotiation: TPP;\n1976–80: A CPE and autarkic economy 1980–88: Modiﬁed Planned Economy (Microreforms and failure of “price-salary-money reform”) 1986: Đổi Mới began (“multi-components” economy)\nVN-EU FTA; RCEP; VN-Russia, Belarus, Kazaxtan Custom Union FTA, VN-Korea FTA..)\nSources: General Statistics data and World Bank and the Ministry of Planning and Investment of Vietnam calculations. Note: The blue bars measures inﬂ ation, and the green line indicates growth rate. APEC = Asia-Paciﬁ c Economic Cooperation; ASEAN = Association of Southeast Asian Nations; BTA = bilateral trade agreement; CEP = comprehensive economic partnership; CPE = centrally planned economy; EU = European Union; FTA = free trade agreement; RCEP = Regional Comprehensive Economic Partnership; TPP = Trans-Paciﬁ c Partnership; VN = Vietnam; WTO = World Trade Organization.",
+    "context_ids": [
+      "adv:p248:b01:7f044e6107f0",
+      "adv:p152:b01:810914724c8f",
+      "adv:p118:b02:b1519435db6c"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 5.758,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A05",
+    "primary_group": "image_or_diagram",
+    "original_query": "Bản đồ 4.3 cho thấy giá trị sản lượng công nghiệp trên mỗi km² tập trung cao nhất ở hai đô thị nào?",
+    "retrieval_query": "Bản đồ 4.3 cho thấy giá trị sản lượng công nghiệp trên mỗi km² tập trung cao nhất ở hai đô thị nào?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p248:b01:7f044e6107f0",
+        "text": "210 V I E T N A M 2 0 3 5\nFIGURE 4.5 Vietnam’s urban population growth in the global picture\na. Vietnam’s increasing urban population,\n1960–2013 b. Vietnam’s urbanization was faster than\nthe global rate over 1991–2013\n35\n0.7\n30\n0.6\n25\n0.5\n0.4\n20\n0.3\n15\nGrowth rate (%)\n0.2\n10\nShare of population (%)\n0.1\n5\nUrban population (millions)\n0\n0 10 20 30 40 50 60 70 80 90\n0\n1960 1964 1968 1972 1976 1980 1984 1988 1992 1996 2000 2004 2008 2012\n1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013\nVietnam: Urbanization growth rate Global (unweighted) average: Urbanization growth rate\nUrban population share Rural population share Urban population (right axis)\nSource: Calculations based on World Development Indicators.\nTABLE 4.1 Urbanization of land and people, 1995–2015\nTotal number of\nTotal area of urban land\nUrban percentage of\nTotal urban population\nUrban share of the\nYear\nurban areas\n(hectares)\ntotal land area\n(millions)\npopulation (%)\nUrban density (urban residents per hectare)\n1995 420 836,117 2.53 14.9 20.8 17.9\n2000 629 990,276 2.99 18.7 24.1 18.9\n2005 675 1,153,549 3.48 22.3 27.1 19.4\n2010 752 1,372,038 4.14 25.4 29.6 18.6\n2015 775 1,642,420 4.96 31.0 34.3 18.9\nSource: Vo and Van Thang 2013 (p. 33) and General Statistics Oﬃ ce of Vietnam.\nFIGURE 4.6 Low-density spatial expansion can dampen agglomeration economies\na. Ho Chi Minh City\nurban centers around the world are far higher: downtown Singapore, 1 million persons/km2; downtown Hong Kong SAR, China, more than 6 million; and Manhattan, 3.7 million.4\n2 million people 3 million people\n1.15 million people 1.5 million people\nDensity\n10,000 20,000 30,000 40,000 50,000\n(inhab/km²)\n0\n100 200 300 400 500 600 700 800 900 1,000\nBuilt-up area (km²)\nb. Hanoi\n1.3 million people\nDensity\n10,000 20,000 30,000 40,000 50,000",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 248,
+        "metadata": {
+          "printed_page": "210",
+          "bbox_points": [
+            35.99,
+            57.93,
+            506.78,
+            658.04
+          ],
+          "modality": "table",
+          "block_group": 1
+        },
+        "score": 11.734468513906819,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p262:b02:f68fe3a3334f",
+        "text": "There are coordination issues between the Ministry of Home Affairs (MOHA), which is responsible for defining the administrative boundary of urban areas, and the Ministry of Construction, which runs the City Classiﬁ cation System (CCS) and is the leading agency of urban planning and management. For example, the merging of the provinces within Hanoi has led to the absorption of rural populations in the Hanoi agglomera- tion. Similarly, the indicators for cities upgraded to Class I reveal deviation from tar- gets related to density, highlighting the sprawling growth in peri-urban areas. Between 2009 and 2011, seven cities attained\nFIGURE 4.15 After receiving Class I status in 2009, Thai Nguyen’s local receipts nearly doubled\n120\n100\nSocioeconomic development plans are one of the most important and are the responsibil- ity of the Ministry of Planning and Investment. They are usually developed every five years, with the latest being the Ninth Five-Year Plan (2011–15). They set goals and detailed production and investment targets across regions and productive sectors of the economy and combine (often without priori- tizing) sector-plan proposals. They are\n80\nTABLE 4.4 Criteria assessment of cities upgraded from Class II to Class I\n60\nCity Year upgraded Population Density (average)\n40\nCan Tho 2008 1,199,817 856/km²\nDa Lat 2007 n.a. n.a.\nVietnamese Dong (millions)\n20\nNha Trang 2007 397,563 30,000/km2 (city center)\n0\nNam Dinh 2010 352,108 5,290/km²\nTay Nguyen 2009 279,689 1,474/km²\nViet Tri 2011 188,564 4,561/km2\n2007 2008 2009 2010 2011 Local receipts Central transfers Attained class I status in 2009\nVinh 2007 305,609 2,911/km2\nSource: Ministry of Finance data and World Bank and Ministry of Planning and Investment calculations.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 262,
+        "metadata": {
+          "printed_page": "224",
+          "bbox_points": [
+            102.0,
+            244.28,
+            506.93,
+            699.75
+          ],
+          "modality": "table",
+          "block_group": 2
+        },
+        "score": 11.292079734036342,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p248:b02:ce2cfc4a93be",
+        "text": "0.5 million people 0.6 million people 0.25 million people\n(inhab/km²)\n0\n100 200 300 400 500 600 700 800 900 1,000\nBuilt-up area (km²)\nMuch of the development in the metropoli- tan areas of Ho Chi Minh City and Hanoi is in peri-urban areas beyond the urban core (ﬁ gure 4.6). Featuring low-density develop- ment with weak regional connections, Vietnam’s urban areas are like fragmented oases that do not function like economically and physically integrated metropolitan regions. For example, on an ordinary day, and even at off-peak hours, it takes nearly two hours to travel from the central business district of Ho Chi Minh City to the center of Binh Duong New City, a distance of only 40 kilometers. If such patterns persist,\nSource: Salat 2013.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 248,
+        "metadata": {
+          "printed_page": "210",
+          "bbox_points": [
+            36.0,
+            528.94,
+            506.92,
+            704.75
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 11.097137615697514,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p248:b01:7f044e6107f0 | advanced/source/vietnam-2035.pdf | trang 248]\n210 V I E T N A M 2 0 3 5\nFIGURE 4.5 Vietnam’s urban population growth in the global picture\na. Vietnam’s increasing urban population,\n1960–2013 b. Vietnam’s urbanization was faster than\nthe global rate over 1991–2013\n35\n0.7\n30\n0.6\n25\n0.5\n0.4\n20\n0.3\n15\nGrowth rate (%)\n0.2\n10\nShare of population (%)\n0.1\n5\nUrban population (millions)\n0\n0 10 20 30 40 50 60 70 80 90\n0\n1960 1964 1968 1972 1976 1980 1984 1988 1992 1996 2000 2004 2008 2012\n1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013\nVietnam: Urbanization growth rate Global (unweighted) average: Urbanization growth rate\nUrban population share Rural population share Urban population (right axis)\nSource: Calculations based on World Development Indicators.\nTABLE 4.1 Urbanization of land and people, 1995–2015\nTotal number of\nTotal area of urban land\nUrban percentage of\nTotal urban population\nUrban share of the\nYear\nurban areas\n(hectares)\ntotal land area\n(millions)\npopulation (%)\nUrban density (urban residents per hectare)\n1995 420 836,117 2.53 14.9 20.8 17.9\n2000 629 990,276 2.99 18.7 24.1 18.9\n2005 675 1,153,549 3.48 22.3 27.1 19.4\n2010 752 1,372,038 4.14 25.4 29.6 18.6\n2015 775 1,642,420 4.96 31.0 34.3 18.9\nSource: Vo and Van Thang 2013 (p. 33) and General Statistics Oﬃ ce of Vietnam.\nFIGURE 4.6 Low-density spatial expansion can dampen agglomeration economies\na. Ho Chi Minh City\nurban centers around the world are far higher: downtown Singapore, 1 million persons/km2; downtown Hong Kong SAR, China, more than 6 million; and Manhattan, 3.7 million.4\n2 million people 3 million people\n1.15 million people 1.5 million people\nDensity\n10,000 20,000 30,000 40,000 50,000\n(inhab/km²)\n0\n100 200 300 400 500 600 700 800 900 1,000\nBuilt-up area (km²)\nb. Hanoi\n1.3 million people\nDensity\n10,000 20,000 30,000 40,000 50,000\n\n[adv:p262:b02:f68fe3a3334f | advanced/source/vietnam-2035.pdf | trang 262]\nThere are coordination issues between the Ministry of Home Affairs (MOHA), which is responsible for defining the administrative boundary of urban areas, and the Ministry of Construction, which runs the City Classiﬁ cation System (CCS) and is the leading agency of urban planning and management. For example, the merging of the provinces within Hanoi has led to the absorption of rural populations in the Hanoi agglomera- tion. Similarly, the indicators for cities upgraded to Class I reveal deviation from tar- gets related to density, highlighting the sprawling growth in peri-urban areas. Between 2009 and 2011, seven cities attained\nFIGURE 4.15 After receiving Class I status in 2009, Thai Nguyen’s local receipts nearly doubled\n120\n100\nSocioeconomic development plans are one of the most important and are the responsibil- ity of the Ministry of Planning and Investment. They are usually developed every five years, with the latest being the Ninth Five-Year Plan (2011–15). They set goals and detailed production and investment targets across regions and productive sectors of the economy and combine (often without priori- tizing) sector-plan proposals. They are\n80\nTABLE 4.4 Criteria assessment of cities upgraded from Class II to Class I\n60\nCity Year upgraded Population Density (average)\n40\nCan Tho 2008 1,199,817 856/km²\nDa Lat 2007 n.a. n.a.\nVietnamese Dong (millions)\n20\nNha Trang 2007 397,563 30,000/km2 (city center)\n0\nNam Dinh 2010 352,108 5,290/km²\nTay Nguyen 2009 279,689 1,474/km²\nViet Tri 2011 188,564 4,561/km2\n2007 2008 2009 2010 2011 Local receipts Central transfers Attained class I status in 2009\nVinh 2007 305,609 2,911/km2\nSource: Ministry of Finance data and World Bank and Ministry of Planning and Investment calculations.\n\n[adv:p248:b02:ce2cfc4a93be | advanced/source/vietnam-2035.pdf | trang 248]\n0.5 million people 0.6 million people 0.25 million people\n(inhab/km²)\n0\n100 200 300 400 500 600 700 800 900 1,000\nBuilt-up area (km²)\nMuch of the development in the metropoli- tan areas of Ho Chi Minh City and Hanoi is in peri-urban areas beyond the urban core (ﬁ gure 4.6). Featuring low-density develop- ment with weak regional connections, Vietnam’s urban areas are like fragmented oases that do not function like economically and physically integrated metropolitan regions. For example, on an ordinary day, and even at off-peak hours, it takes nearly two hours to travel from the central business district of Ho Chi Minh City to the center of Binh Duong New City, a distance of only 40 kilometers. If such patterns persist,\nSource: Salat 2013.",
+    "context_ids": [
+      "adv:p248:b01:7f044e6107f0",
+      "adv:p262:b02:f68fe3a3334f",
+      "adv:p248:b02:ce2cfc4a93be"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 5.542,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A06",
+    "primary_group": "image_or_diagram",
+    "original_query": "Bản đồ 4.4 kết luận không gian đường phố của thành phố nào không phù hợp với giao thông đô thị?",
+    "retrieval_query": "Bản đồ 4.4 kết luận không gian đường phố của thành phố nào không phù hợp với giao thông đô thị?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p023:b02:bfc8145495a7",
+        "text": "The chapter builds on background papers and notes prepared by Alwaleed Fareed Alabatani (Lead Financial Sector Specialist), Guillermo Arenas (Consultant), Reyes Aterido (Consultant), Ruth Banomyong (Consultant), Dr. Dang Kim Son (former Director of the Institute of Policy and Strategy for Agriculture and Rural Development [IPSARD]), David Dollar (Brookings Institutions), Dang Hung Vo (Consultant), Mary Hallward-Driemeier (Senior Principal Specialist), Stacey Frederick (Consultant), Gian Thanh Cong (Consultant), James Hanson (Consultant), Tanja Goodwin (Private Sector Development Specialist), Claire Honore Hollweg (Economist), Victor Kümmritz (Consultant), Dr. Le Dang Doanh (former President, CIEM), William Mako (Consultant), Miles McKenna (Consultant), Martha Martinez Licetti (Lead Specialist), Martin Molinuevo (Consultant), Ben Shepard (Consultant), Dr. Nguyen Do Anh Tuan, (Director, IPSARD), Dr. Nguyen Dinh Cung (President, CIEM), Dr. Nguyen Thi Tue Anh (Vice President, CIEM), Georgiana Pop (Senior Economist), Timothy Sturgeon (Massachusetts Institute of Technology), Prof. Tran Van Tho (Waseda University, Japan), Vu Kim Hanh (Director, Center for Business Research and Support), Deborah Winkler (Consultant), Dr. Vu Thanh Tu Anh (Director of Research, Fulbright Economics Teaching Program), Chunlin Zhang (Lead Private Sector Development Specialist), and Ezequiel Zylbeberg (University of Oxford).\nManaging Urbanization for Greater Economic Effi ciency\nCapable research assistance was provided by Gian Thanh Cong (Consultant).\nLead authors: Dr. Huynh The Du (Fulbright School of Public Policy), Somik Lall (Lead Urban Economist), Dr. Nguyen Do Anh Tuan (Director, IPSARD), and Madhu Raghunath (Senior Urban Specialist).",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 23,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            172.28,
+            476.78,
+            658.03
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 9.140360988536479,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p405:b03:1805cf95a12a",
+        "text": "Executive Studies in Britain.” Public Administration 68 (1): 3–28. Dương, Thị Thanh Mai, and Dr. Nguyễn Văn\nCapital in Rural Viet Nam.” Working Paper 2015/087, United Nations University World Institute for Development Economics Research, Helsinki. MONRE (Ministry of Natural Resources and\nCương. 2015. “Policy Making and Enforcement in Vietnam: Context, Expected Transformation, and Vision to 2035.” Background paper for Vietnam 2035 Report. Evans, Peter. 2005. “Harnessing the State:\nRebalancing Strategies for Monitoring and Motivation.” In States and Development:\nEnvironment). 2012. MONRE Review Report on the implementation of the 2003 Land Law, No. 193/BC-BTNMT. September 6, MONRE.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 405,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            71.99,
+            583.4,
+            476.61,
+            693.82
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 8.602632570021957,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p166:b01:15e4e90a46bb",
+        "text": "128 V I E T N A M 2 0 3 5\nTABLE 2.1 Sources of growth in Vietnam, 1990–2013 Percent\n1991–2000 2001–13\nAverage annual GDP growth 7.6 6.6 Labor productivity growth 5.2 3.8 Labor force growth 2.2 2.7\nDeterminants of labor productivity growth\nContributions of within-sector productivity and structural transformation\nWithin-sector labor productivity 99.8 37 Structural transformation 0.2 63 Contributions by factors of production to labor productivity a\nCapital deepening (growth of capital–output ratio) −3 59 Human capital 30 40 Total factor productivity 72 0\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. a. Annex 2B, using the scenario with increasing value of α.\nTABLE 2.2 Sectoral GDP and productivity growth, 1990–2035 Percent\nWholesale and\nFinance and\nPeriod Agriculture Mining Manufacturing\nPublic utilities Construction\nretail trade\nreal estate\nOther services Aggregate\nGDP growth 1990–2000 3.9 7.6 10.3 11.1 8.9 7.4 6.8 4.5 7.6 2000–13 3.5 2.3 9.9 10.6 8.1 7.8 5.7 10.4 6.6 2013–35 (projected) 2.9 2.7 7.9 3.0 6.8 7.0 6.4 6.5 6.1\nLabor force growth 1990–2000 1.5 −1.9 3.4 0.6 3.4 6.7 3.9 2.9 2.2 2000–13 0.1 2.7 6.9 15.9 10.4 5.5 10.0 5.6 2.7 2013–35 (projected) −2.6 0.5 2.9 −1.1 3.0 2.1 2.2 1.3 0.4\nLabor productivity growth 1990–2000 2.7 17.1 7.1 11.0 6.3 0.1 4.1 1.6 5.2 2000–13 3.4 −0.4 2.8 −4.6 −2.1 2.1 −4.0 4.6 3.8 2013–35 (projected) 5.6 2.3 4.9 4.1 3.7 4.8 4.3 5.1 5.6\nSource: Calculations and projections based on the General Statistics Oﬃ ce of Vietnam.\nby 2014, their asset productivity had fallen to less than half that of Chinese nonpublic ﬁ rms.\nGiven its hesitant emergence, Vietnam’s much lower entrepreneurial conﬁ dence than many of its developing-country peers is hardly surprising (box 2.4).",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 166,
+        "metadata": {
+          "printed_page": "128",
+          "bbox_points": [
+            35.98,
+            57.93,
+            506.75,
+            580.25
+          ],
+          "modality": "table",
+          "block_group": 1
+        },
+        "score": 7.0269678842182275,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p023:b02:bfc8145495a7 | advanced/source/vietnam-2035.pdf | trang 23]\nThe chapter builds on background papers and notes prepared by Alwaleed Fareed Alabatani (Lead Financial Sector Specialist), Guillermo Arenas (Consultant), Reyes Aterido (Consultant), Ruth Banomyong (Consultant), Dr. Dang Kim Son (former Director of the Institute of Policy and Strategy for Agriculture and Rural Development [IPSARD]), David Dollar (Brookings Institutions), Dang Hung Vo (Consultant), Mary Hallward-Driemeier (Senior Principal Specialist), Stacey Frederick (Consultant), Gian Thanh Cong (Consultant), James Hanson (Consultant), Tanja Goodwin (Private Sector Development Specialist), Claire Honore Hollweg (Economist), Victor Kümmritz (Consultant), Dr. Le Dang Doanh (former President, CIEM), William Mako (Consultant), Miles McKenna (Consultant), Martha Martinez Licetti (Lead Specialist), Martin Molinuevo (Consultant), Ben Shepard (Consultant), Dr. Nguyen Do Anh Tuan, (Director, IPSARD), Dr. Nguyen Dinh Cung (President, CIEM), Dr. Nguyen Thi Tue Anh (Vice President, CIEM), Georgiana Pop (Senior Economist), Timothy Sturgeon (Massachusetts Institute of Technology), Prof. Tran Van Tho (Waseda University, Japan), Vu Kim Hanh (Director, Center for Business Research and Support), Deborah Winkler (Consultant), Dr. Vu Thanh Tu Anh (Director of Research, Fulbright Economics Teaching Program), Chunlin Zhang (Lead Private Sector Development Specialist), and Ezequiel Zylbeberg (University of Oxford).\nManaging Urbanization for Greater Economic Effi ciency\nCapable research assistance was provided by Gian Thanh Cong (Consultant).\nLead authors: Dr. Huynh The Du (Fulbright School of Public Policy), Somik Lall (Lead Urban Economist), Dr. Nguyen Do Anh Tuan (Director, IPSARD), and Madhu Raghunath (Senior Urban Specialist).\n\n[adv:p405:b03:1805cf95a12a | advanced/source/vietnam-2035.pdf | trang 405]\nExecutive Studies in Britain.” Public Administration 68 (1): 3–28. Dương, Thị Thanh Mai, and Dr. Nguyễn Văn\nCapital in Rural Viet Nam.” Working Paper 2015/087, United Nations University World Institute for Development Economics Research, Helsinki. MONRE (Ministry of Natural Resources and\nCương. 2015. “Policy Making and Enforcement in Vietnam: Context, Expected Transformation, and Vision to 2035.” Background paper for Vietnam 2035 Report. Evans, Peter. 2005. “Harnessing the State:\nRebalancing Strategies for Monitoring and Motivation.” In States and Development:\nEnvironment). 2012. MONRE Review Report on the implementation of the 2003 Land Law, No. 193/BC-BTNMT. September 6, MONRE.\n\n[adv:p166:b01:15e4e90a46bb | advanced/source/vietnam-2035.pdf | trang 166]\n128 V I E T N A M 2 0 3 5\nTABLE 2.1 Sources of growth in Vietnam, 1990–2013 Percent\n1991–2000 2001–13\nAverage annual GDP growth 7.6 6.6 Labor productivity growth 5.2 3.8 Labor force growth 2.2 2.7\nDeterminants of labor productivity growth\nContributions of within-sector productivity and structural transformation\nWithin-sector labor productivity 99.8 37 Structural transformation 0.2 63 Contributions by factors of production to labor productivity a\nCapital deepening (growth of capital–output ratio) −3 59 Human capital 30 40 Total factor productivity 72 0\nSource: Calculations based on the General Statistics Oﬃ ce of Vietnam. a. Annex 2B, using the scenario with increasing value of α.\nTABLE 2.2 Sectoral GDP and productivity growth, 1990–2035 Percent\nWholesale and\nFinance and\nPeriod Agriculture Mining Manufacturing\nPublic utilities Construction\nretail trade\nreal estate\nOther services Aggregate\nGDP growth 1990–2000 3.9 7.6 10.3 11.1 8.9 7.4 6.8 4.5 7.6 2000–13 3.5 2.3 9.9 10.6 8.1 7.8 5.7 10.4 6.6 2013–35 (projected) 2.9 2.7 7.9 3.0 6.8 7.0 6.4 6.5 6.1\nLabor force growth 1990–2000 1.5 −1.9 3.4 0.6 3.4 6.7 3.9 2.9 2.2 2000–13 0.1 2.7 6.9 15.9 10.4 5.5 10.0 5.6 2.7 2013–35 (projected) −2.6 0.5 2.9 −1.1 3.0 2.1 2.2 1.3 0.4\nLabor productivity growth 1990–2000 2.7 17.1 7.1 11.0 6.3 0.1 4.1 1.6 5.2 2000–13 3.4 −0.4 2.8 −4.6 −2.1 2.1 −4.0 4.6 3.8 2013–35 (projected) 5.6 2.3 4.9 4.1 3.7 4.8 4.3 5.1 5.6\nSource: Calculations and projections based on the General Statistics Oﬃ ce of Vietnam.\nby 2014, their asset productivity had fallen to less than half that of Chinese nonpublic ﬁ rms.\nGiven its hesitant emergence, Vietnam’s much lower entrepreneurial conﬁ dence than many of its developing-country peers is hardly surprising (box 2.4).",
+    "context_ids": [
+      "adv:p023:b02:bfc8145495a7",
+      "adv:p405:b03:1805cf95a12a",
+      "adv:p166:b01:15e4e90a46bb"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 3.732,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A07",
+    "primary_group": "image_or_diagram",
+    "original_query": "Trong sơ đồ Hình 7.12, ba chức năng đầu tiên của trung tâm chính phủ là gì?",
+    "retrieval_query": "Trong sơ đồ Hình 7.12, ba chức năng đầu tiên của trung tâm chính phủ là gì?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p294:b02:069ab7be9f2a",
+        "text": "The two most heavily polluted water basins are Nhue-Day River Basin in the north and Dong Nai River Basin in the south passing through the country’s most industrialized provinces. Over the next 15 years urban wastewater is expected to account for the largest share of effluents (about 60 percent). Industrial wastewater (25–28 percent) and rural wastewater (12– 15 percent) follow (ﬁ gure 5.5). The Food and Agriculture Organization of the United Nations estimates the global cost of treat- ing water to range from $1 to $1.5 per cubic meter. This implies costs for Vietnam of $12.4–18.6 million a day by 2030 if treatment measures are only put in place then. In Vietnam’s southern key economic zones, the cost estimate for 2010 was $867 million.\nFIGURE 5.5 The economic implications of Vietnam’s wastewater cleanup gives pause\n14\n12\n10\n8\n6\n4\nDischarge (cubic\n2\nmeters per day, millions)\n0\nEvery year, the coastal waters of Ba Lat River (Nam Dinh Province) receive 37.3 bil- lion m3 wastewater from the Red River, con- taining 232,000 tons of BOD, 353,000 tons of COD, 31,000 tons of nitrogen, 7,000 tons of phosphorus, 29 million tons of suspended solids (organic waste), 4,000 tons of heavy metals, 210 tons of pesticides, 343 tons of chemical fertilizers, and more than 13,000 tons of oil. The waste comes not only from manufacturing establishments, agricultural production, and trading and cities in Vietnam, but also from watersheds of other countries.\n2020 2030 2020 2030 2020 2030 2020 2030\nCau River\nBasin\nNhue-Day River Basin\nDong Nai River Basin\nTotal discharge\nvolume\nUrban wastewater\nRural wastewater\nIndustrial wastewater\nSource: Thang 2015.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 294,
+        "metadata": {
+          "printed_page": "256",
+          "bbox_points": [
+            102.0,
+            244.28,
+            506.93,
+            699.75
+          ],
+          "modality": "chart",
+          "block_group": 2
+        },
+        "score": 10.13256979225017,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p250:b01:68279251cc29",
+        "text": "212 V I E T N A M 2 0 3 5\nFIGURE 4.7 Productivity is higher in industrial zones than in neighboring cities\n250\n200\n150\n100\n13 km from the city center. But the Tan Phu Trung industrial zone in Cu Chi District was completely unoccupied in 2014; it is 24 km from the city center. Similarly, the Dau Giay industrial zone in Dong Nai Province, 50 km from the center of Ho Chi Minh City, has an occupancy rate of 2.5 percent (map 4.2). Patterns are similar in Hanoi.\nValue added per worker\n50\nHanoi Haiphong Danang Cantho All others\n0 Total Ho Chi Minh City\nTotal industrial zones Total non industrial zones\nSource: World Bank spatial analysis by geo-referencing ﬁ rm-level data for 2011.\nUrban expansion and development of industrial zones led by administrative direc- tive rather than demand is thus unlikely to spur economic growth. That view is but- tressed by using nightlights as a proxy for economic growth: urban expansion over 2000–10 was not a leading indicator for sub- sequent economic growth in 2011–12.\nTABLE 4.2 Occupancy rates of industrial zones with comparable zoning and boundary defi nitions\nCity\nOccupancy rate of industrial zones (%) Year Source\nHo Chi Minh City 56.4 2013 Government\nHanoi 44.7 2013 Government\nDa Nang 49.6 2013 Government\nMetro Manila 90.2 2014 Colliers International\nShanghai 89.8 2014 Colliers International\nBeijing 99.0 2012 Beijing Business News",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 250,
+        "metadata": {
+          "printed_page": "212",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.9,
+            429.25
+          ],
+          "modality": "table",
+          "block_group": 1
+        },
+        "score": 9.975266504701283,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p096:b03:92a09440e898",
+        "text": "The prime minister approved a master plan in 2005 calling for four ports to relocate to the coastal province of Ba Ria–Vung Tau by 2010. Shortly after- ward the Japan Bank for International Cooperation approved a loan of ¥36.4 billion ($328.6 million) for the Cai Mep–Thi Vai port complex. But each of the ports in Ho Chi Minh City is owned and operated by\nSource: Nguyen and Pincus 2011.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 96,
+        "metadata": {
+          "printed_page": "58",
+          "bbox_points": [
+            36.0,
+            589.21,
+            263.56,
+            693.25
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 7.752807046328263,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p294:b02:069ab7be9f2a | advanced/source/vietnam-2035.pdf | trang 294]\nThe two most heavily polluted water basins are Nhue-Day River Basin in the north and Dong Nai River Basin in the south passing through the country’s most industrialized provinces. Over the next 15 years urban wastewater is expected to account for the largest share of effluents (about 60 percent). Industrial wastewater (25–28 percent) and rural wastewater (12– 15 percent) follow (ﬁ gure 5.5). The Food and Agriculture Organization of the United Nations estimates the global cost of treat- ing water to range from $1 to $1.5 per cubic meter. This implies costs for Vietnam of $12.4–18.6 million a day by 2030 if treatment measures are only put in place then. In Vietnam’s southern key economic zones, the cost estimate for 2010 was $867 million.\nFIGURE 5.5 The economic implications of Vietnam’s wastewater cleanup gives pause\n14\n12\n10\n8\n6\n4\nDischarge (cubic\n2\nmeters per day, millions)\n0\nEvery year, the coastal waters of Ba Lat River (Nam Dinh Province) receive 37.3 bil- lion m3 wastewater from the Red River, con- taining 232,000 tons of BOD, 353,000 tons of COD, 31,000 tons of nitrogen, 7,000 tons of phosphorus, 29 million tons of suspended solids (organic waste), 4,000 tons of heavy metals, 210 tons of pesticides, 343 tons of chemical fertilizers, and more than 13,000 tons of oil. The waste comes not only from manufacturing establishments, agricultural production, and trading and cities in Vietnam, but also from watersheds of other countries.\n2020 2030 2020 2030 2020 2030 2020 2030\nCau River\nBasin\nNhue-Day River Basin\nDong Nai River Basin\nTotal discharge\nvolume\nUrban wastewater\nRural wastewater\nIndustrial wastewater\nSource: Thang 2015.\n\n[adv:p250:b01:68279251cc29 | advanced/source/vietnam-2035.pdf | trang 250]\n212 V I E T N A M 2 0 3 5\nFIGURE 4.7 Productivity is higher in industrial zones than in neighboring cities\n250\n200\n150\n100\n13 km from the city center. But the Tan Phu Trung industrial zone in Cu Chi District was completely unoccupied in 2014; it is 24 km from the city center. Similarly, the Dau Giay industrial zone in Dong Nai Province, 50 km from the center of Ho Chi Minh City, has an occupancy rate of 2.5 percent (map 4.2). Patterns are similar in Hanoi.\nValue added per worker\n50\nHanoi Haiphong Danang Cantho All others\n0 Total Ho Chi Minh City\nTotal industrial zones Total non industrial zones\nSource: World Bank spatial analysis by geo-referencing ﬁ rm-level data for 2011.\nUrban expansion and development of industrial zones led by administrative direc- tive rather than demand is thus unlikely to spur economic growth. That view is but- tressed by using nightlights as a proxy for economic growth: urban expansion over 2000–10 was not a leading indicator for sub- sequent economic growth in 2011–12.\nTABLE 4.2 Occupancy rates of industrial zones with comparable zoning and boundary defi nitions\nCity\nOccupancy rate of industrial zones (%) Year Source\nHo Chi Minh City 56.4 2013 Government\nHanoi 44.7 2013 Government\nDa Nang 49.6 2013 Government\nMetro Manila 90.2 2014 Colliers International\nShanghai 89.8 2014 Colliers International\nBeijing 99.0 2012 Beijing Business News\n\n[adv:p096:b03:92a09440e898 | advanced/source/vietnam-2035.pdf | trang 96]\nThe prime minister approved a master plan in 2005 calling for four ports to relocate to the coastal province of Ba Ria–Vung Tau by 2010. Shortly after- ward the Japan Bank for International Cooperation approved a loan of ¥36.4 billion ($328.6 million) for the Cai Mep–Thi Vai port complex. But each of the ports in Ho Chi Minh City is owned and operated by\nSource: Nguyen and Pincus 2011.",
+    "context_ids": [
+      "adv:p294:b02:069ab7be9f2a",
+      "adv:p250:b01:68279251cc29",
+      "adv:p096:b03:92a09440e898"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 4.344,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A08",
+    "primary_group": "chart",
+    "original_query": "Hình 5.1 phân bổ mức sử dụng nước giữa nông nghiệp và công nghiệp lần lượt bao nhiêu phần trăm?",
+    "retrieval_query": "Hình 5.1 phân bổ mức sử dụng nước giữa nông nghiệp và công nghiệp lần lượt bao nhiêu phần trăm?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p278:b01:07107ccf4b92",
+        "text": "240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 278,
+        "metadata": {
+          "printed_page": "240",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.64,
+            361.76
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 7.855520934391983,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p286:b01:cfc85a2729f8",
+        "text": "248 V I E T N A M 2 0 3 5\nenvironment, and increasing access to long-term ﬁ nancing. 3. Improve public access to and use of infor- mation for decision making, monitoring, and accountability.\nchange in soil features, vegetation, rainfall patterns, and climatic conditions in some parts (Bao and Laituri 2011). The total erosion-prone area amounts to 13 million hectares, or 40 percent of natural areas (Nguyen 2010).\nEnvironmental Challenges in Vietnam Today and in the Future\nUnsustainable agricultural practices loom large in accelerating land degradation as well as other environmental concerns (box 5.2). Despite the conversion of an esti- mated 700,000 hectares from agricultural to nonagricultural uses, the total area under agriculture has grown nearly 15 percent (from 8.9 million to 10.2 million hectares) since 2000. Most of this expansion took place at the expense of upland or mangrove forests. The 1990s’ growth of coffee and aquaculture production also occurred largely at a cost to forests.2 Expansion con- tinues through increased use of steeply sloped land for cassava production in upland areas and a surge in rubber planta- tion areas on the back of recent price increases.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 286,
+        "metadata": {
+          "printed_page": "248",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.91,
+            388.0
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 7.020602834220313,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p315:b03:afe874974700",
+        "text": "Wheeler, Nhan Thi Lam, and Khuc Xuyen. 2005. “Pesticide Poisoning of Farm Workers: Implications of Blood Test Results from Vietnam.” Policy Research Working Paper 3624, World Bank, Washington, DC. Duc, D., M. Nhuan, and C. Van Ngoi. 2012. “An\nPau Queraltó Ros. 2008. The Socioeconomic Impact of the Spatial Data Infrastructure of Catalonia. JRC Scientiﬁ c and Technical Reports. Brussels, Belgium: European Commission. http://inspire.ec.europa.eu/reports/Study_reports / catalonia_impact _ study_report.pdf. Bao, Tran Quang, and Melinda Laituri. 2011.\nAnalysis of Coastal Erosion in the Tropical Rapid Accretion Delta of the Red River, Vietnam.” Journal of Asian Earth Sciences 43 (1): 98–109. Electricity Regulatory Authority of Vietnam. 2016.\n“Deﬁ ning Required Forest Area for Protection Soil from Erosion in Vietnam: A GIS-based Application.” VNU Journal of Science, Earth Sciences 27 (1): 63–76. BirdLife International. 2013. Country Profile:\nMinistry of Industry and Trade. EU Food and Veterinary Office. 2014. Final\nVietnam. Cambridge, UK: BirdLife International. http://www.birdlife.org/datazone/country / vietnam. Blankespoor, B., S. Dasgupta, and B. Laplante. 2012.\nSea-Level Rise and Coastal Wetlands Impacts and Costs. Washington, DC: World Bank. Bridle, Richard, and Christopher Beaton. 2012.\nReport of an Audit Carried Out in Viet Nam from 18 to 27 February 2014 to Evaluate Controls of Pesticides in Food of Plant Origin Intended for Export to the EU. DG (SANCO) 2014-2177-MR Final. Ref. Ares(2014)1935555-13/06/2014.\nAssessing the Cost-Effectiveness of Renewable",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 315,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            485.45,
+            476.58,
+            704.96
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 6.849258393349636,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p278:b01:07107ccf4b92 | advanced/source/vietnam-2035.pdf | trang 278]\n240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial\n\n[adv:p286:b01:cfc85a2729f8 | advanced/source/vietnam-2035.pdf | trang 286]\n248 V I E T N A M 2 0 3 5\nenvironment, and increasing access to long-term ﬁ nancing. 3. Improve public access to and use of infor- mation for decision making, monitoring, and accountability.\nchange in soil features, vegetation, rainfall patterns, and climatic conditions in some parts (Bao and Laituri 2011). The total erosion-prone area amounts to 13 million hectares, or 40 percent of natural areas (Nguyen 2010).\nEnvironmental Challenges in Vietnam Today and in the Future\nUnsustainable agricultural practices loom large in accelerating land degradation as well as other environmental concerns (box 5.2). Despite the conversion of an esti- mated 700,000 hectares from agricultural to nonagricultural uses, the total area under agriculture has grown nearly 15 percent (from 8.9 million to 10.2 million hectares) since 2000. Most of this expansion took place at the expense of upland or mangrove forests. The 1990s’ growth of coffee and aquaculture production also occurred largely at a cost to forests.2 Expansion con- tinues through increased use of steeply sloped land for cassava production in upland areas and a surge in rubber planta- tion areas on the back of recent price increases.\n\n[adv:p315:b03:afe874974700 | advanced/source/vietnam-2035.pdf | trang 315]\nWheeler, Nhan Thi Lam, and Khuc Xuyen. 2005. “Pesticide Poisoning of Farm Workers: Implications of Blood Test Results from Vietnam.” Policy Research Working Paper 3624, World Bank, Washington, DC. Duc, D., M. Nhuan, and C. Van Ngoi. 2012. “An\nPau Queraltó Ros. 2008. The Socioeconomic Impact of the Spatial Data Infrastructure of Catalonia. JRC Scientiﬁ c and Technical Reports. Brussels, Belgium: European Commission. http://inspire.ec.europa.eu/reports/Study_reports / catalonia_impact _ study_report.pdf. Bao, Tran Quang, and Melinda Laituri. 2011.\nAnalysis of Coastal Erosion in the Tropical Rapid Accretion Delta of the Red River, Vietnam.” Journal of Asian Earth Sciences 43 (1): 98–109. Electricity Regulatory Authority of Vietnam. 2016.\n“Deﬁ ning Required Forest Area for Protection Soil from Erosion in Vietnam: A GIS-based Application.” VNU Journal of Science, Earth Sciences 27 (1): 63–76. BirdLife International. 2013. Country Profile:\nMinistry of Industry and Trade. EU Food and Veterinary Office. 2014. Final\nVietnam. Cambridge, UK: BirdLife International. http://www.birdlife.org/datazone/country / vietnam. Blankespoor, B., S. Dasgupta, and B. Laplante. 2012.\nSea-Level Rise and Coastal Wetlands Impacts and Costs. Washington, DC: World Bank. Bridle, Richard, and Christopher Beaton. 2012.\nReport of an Audit Carried Out in Viet Nam from 18 to 27 February 2014 to Evaluate Controls of Pesticides in Food of Plant Origin Intended for Export to the EU. DG (SANCO) 2014-2177-MR Final. Ref. Ares(2014)1935555-13/06/2014.\nAssessing the Cost-Effectiveness of Renewable",
+    "context_ids": [
+      "adv:p278:b01:07107ccf4b92",
+      "adv:p286:b01:cfc85a2729f8",
+      "adv:p315:b03:afe874974700"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 5.78,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A09",
+    "primary_group": "chart",
+    "original_query": "Theo Hình 4.11, nhóm thành phố trên 2 triệu dân tăng tỷ trọng dân số bao nhiêu điểm phần trăm giai đoạn 1989–2009?",
+    "retrieval_query": "Theo Hình 4.11, nhóm thành phố trên 2 triệu dân tăng tỷ trọng dân số bao nhiêu điểm phần trăm giai đoạn 1989–2009?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p254:b02:36b796004134",
+        "text": "Reﬂ ecting their higher economic concen- tration, productivity in the two metropolitan areas is also higher, leading to wage premi- ums in the two cores (9 percent for Hanoi and 16 percent for Ho Chi Minh City) in addition to the 8 percent general wage pre- mium for urban areas over rural areas, con- trolling for job, sector, education, gender, and age (Demombynes 2015). These wage premi- ums reﬂ ect higher labor productivity in the two cities (ﬁ gure 4.12). These ﬁ gures together with evidence from many other countries indicate that stagnation in urban density will\nFIGURE 4.11 Change in share of Vietnam’s population, by city size, 1989–2009\nFIGURE 4.10 Share of Vietnam’s population, by city size, 2009\n>2 million (n=2)\n5.6\n10.0\n>2 million (n=2)\n500,000–2 million (n=4)\n1.9\n3.6\n500,000–2 million (n=4)\n–0.1\nCity population\n200,000–500,000 (n=9)\nCity population\n2.6\n200,000–500,000 (n=9)\n100,000–200,000 (n=17)\n0.7\n3.0\n100,000–200,000 (n=17)\n–1 0 1 2 3 4 5 6\n0 2 4 6 8 10 12\nChange in share of Vietnam’s population,\nShare of Vietnam’s population, 2009 (%)\n1989–2009 (%)\nSource: General Statistics Oﬃ ce of Vietnam.\nSource: General Statistics Oﬃ ce of Vietnam.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 254,
+        "metadata": {
+          "printed_page": "216",
+          "bbox_points": [
+            102.0,
+            328.28,
+            506.91,
+            699.75
+          ],
+          "modality": "chart",
+          "block_group": 2
+        },
+        "score": 17.2555672640339,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [
+          0
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "adv:p107:b02:1f063872a517",
+        "text": "average lower-middle-income country has currently borrowed from a ﬁ nan- cial institution (World Bank’s Global Findex database). 11. As per the Global Findex database, 31 percent of Vietnamese adults have accounts with financial institutions (the SBV estimates that 50 percent of adults have accounts), much less than the lower-middle-income country average of 43 percent. The gap is even worse for poor adults — 19 percent in Vietnam compared with an average of 33 percent in lower-middle-income countries. 12. According to a report by Nhân Dân (The People), the ofﬁ cial Communist Party news agency, the government received more than 1.2 million com- plaints and denunciations between 2003 and 2010, of which 70 percent were related to land. See http://www .nhandan.com.vn/mobile/_mobile _chinhtri/_mobile_tintucsukien/item /788102.html, accessed on October 19, 2015. 13. Changes in this realm typically involve a rising share of food distribution through modern supermarkets and out- of-home eating establishments, greater consumption of branded processed/convenient foods, a con- solidation in agricultural collection and intermediate trading, the spread of cold-chain storage and logisti- cal methods, and the application of increasingly stringent standards and sophisticated product traceability and quality management. 14. http://www.digitaltrends.com/mobile / iphone-cost-what-apple-is-paying/. 15. Customs procedures were evaluated before the 2014 rollout of Vietnam’s web-based, single-window, e- customs system VNACCS/VCIS (Vietnam Automated Cargo and Port Consoli- dated System and Vietnam Customs",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 107,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            281.99,
+            100.19,
+            477.04,
+            687.27
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 14.502953063901007,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p118:b02:b1519435db6c",
+        "text": "2008–11: Macro-instability and lower growth Since 2012: Improvement of macrostability, recovered growth, eﬀorts to restructure the\n10\neconomy and to deepen integration\n1976–80: “Shortage” and\n8\nstagnated\neconomy\n2.0\n6\n4\n1.0\nGrowth rate\nLog(1+inﬂation*100)\n2\n0\n0\n–2\n–4\n–1.0\n1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015\nSince 1989: Market-oriented reform (with socialism orientation) and Integration (EU: 1992; ASEAN: 1995; APEC 1998; VN-US BTA 2000; WTO: 2007; ASEAN + 1 FTAs;…\nVN-Japan CEP; Currently in negotiation: TPP;\n1976–80: A CPE and autarkic economy 1980–88: Modiﬁed Planned Economy (Microreforms and failure of “price-salary-money reform”) 1986: Đổi Mới began (“multi-components” economy)\nVN-EU FTA; RCEP; VN-Russia, Belarus, Kazaxtan Custom Union FTA, VN-Korea FTA..)\nSources: General Statistics data and World Bank and the Ministry of Planning and Investment of Vietnam calculations. Note: The blue bars measures inﬂ ation, and the green line indicates growth rate. APEC = Asia-Paciﬁ c Economic Cooperation; ASEAN = Association of Southeast Asian Nations; BTA = bilateral trade agreement; CEP = comprehensive economic partnership; CPE = centrally planned economy; EU = European Union; FTA = free trade agreement; RCEP = Regional Comprehensive Economic Partnership; TPP = Trans-Paciﬁ c Partnership; VN = Vietnam; WTO = World Trade Organization.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 118,
+        "metadata": {
+          "printed_page": "80",
+          "bbox_points": [
+            36.0,
+            404.95,
+            505.59,
+            699.55
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 13.646281745407899,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p254:b02:36b796004134 | advanced/source/vietnam-2035.pdf | trang 254]\nReﬂ ecting their higher economic concen- tration, productivity in the two metropolitan areas is also higher, leading to wage premi- ums in the two cores (9 percent for Hanoi and 16 percent for Ho Chi Minh City) in addition to the 8 percent general wage pre- mium for urban areas over rural areas, con- trolling for job, sector, education, gender, and age (Demombynes 2015). These wage premi- ums reﬂ ect higher labor productivity in the two cities (ﬁ gure 4.12). These ﬁ gures together with evidence from many other countries indicate that stagnation in urban density will\nFIGURE 4.11 Change in share of Vietnam’s population, by city size, 1989–2009\nFIGURE 4.10 Share of Vietnam’s population, by city size, 2009\n>2 million (n=2)\n5.6\n10.0\n>2 million (n=2)\n500,000–2 million (n=4)\n1.9\n3.6\n500,000–2 million (n=4)\n–0.1\nCity population\n200,000–500,000 (n=9)\nCity population\n2.6\n200,000–500,000 (n=9)\n100,000–200,000 (n=17)\n0.7\n3.0\n100,000–200,000 (n=17)\n–1 0 1 2 3 4 5 6\n0 2 4 6 8 10 12\nChange in share of Vietnam’s population,\nShare of Vietnam’s population, 2009 (%)\n1989–2009 (%)\nSource: General Statistics Oﬃ ce of Vietnam.\nSource: General Statistics Oﬃ ce of Vietnam.\n\n[adv:p107:b02:1f063872a517 | advanced/source/vietnam-2035.pdf | trang 107]\naverage lower-middle-income country has currently borrowed from a ﬁ nan- cial institution (World Bank’s Global Findex database). 11. As per the Global Findex database, 31 percent of Vietnamese adults have accounts with financial institutions (the SBV estimates that 50 percent of adults have accounts), much less than the lower-middle-income country average of 43 percent. The gap is even worse for poor adults — 19 percent in Vietnam compared with an average of 33 percent in lower-middle-income countries. 12. According to a report by Nhân Dân (The People), the ofﬁ cial Communist Party news agency, the government received more than 1.2 million com- plaints and denunciations between 2003 and 2010, of which 70 percent were related to land. See http://www .nhandan.com.vn/mobile/_mobile _chinhtri/_mobile_tintucsukien/item /788102.html, accessed on October 19, 2015. 13. Changes in this realm typically involve a rising share of food distribution through modern supermarkets and out- of-home eating establishments, greater consumption of branded processed/convenient foods, a con- solidation in agricultural collection and intermediate trading, the spread of cold-chain storage and logisti- cal methods, and the application of increasingly stringent standards and sophisticated product traceability and quality management. 14. http://www.digitaltrends.com/mobile / iphone-cost-what-apple-is-paying/. 15. Customs procedures were evaluated before the 2014 rollout of Vietnam’s web-based, single-window, e- customs system VNACCS/VCIS (Vietnam Automated Cargo and Port Consoli- dated System and Vietnam Customs\n\n[adv:p118:b02:b1519435db6c | advanced/source/vietnam-2035.pdf | trang 118]\n2008–11: Macro-instability and lower growth Since 2012: Improvement of macrostability, recovered growth, eﬀorts to restructure the\n10\neconomy and to deepen integration\n1976–80: “Shortage” and\n8\nstagnated\neconomy\n2.0\n6\n4\n1.0\nGrowth rate\nLog(1+inﬂation*100)\n2\n0\n0\n–2\n–4\n–1.0\n1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015\nSince 1989: Market-oriented reform (with socialism orientation) and Integration (EU: 1992; ASEAN: 1995; APEC 1998; VN-US BTA 2000; WTO: 2007; ASEAN + 1 FTAs;…\nVN-Japan CEP; Currently in negotiation: TPP;\n1976–80: A CPE and autarkic economy 1980–88: Modiﬁed Planned Economy (Microreforms and failure of “price-salary-money reform”) 1986: Đổi Mới began (“multi-components” economy)\nVN-EU FTA; RCEP; VN-Russia, Belarus, Kazaxtan Custom Union FTA, VN-Korea FTA..)\nSources: General Statistics data and World Bank and the Ministry of Planning and Investment of Vietnam calculations. Note: The blue bars measures inﬂ ation, and the green line indicates growth rate. APEC = Asia-Paciﬁ c Economic Cooperation; ASEAN = Association of Southeast Asian Nations; BTA = bilateral trade agreement; CEP = comprehensive economic partnership; CPE = centrally planned economy; EU = European Union; FTA = free trade agreement; RCEP = Regional Comprehensive Economic Partnership; TPP = Trans-Paciﬁ c Partnership; VN = Vietnam; WTO = World Trade Organization.",
+    "context_ids": [
+      "adv:p254:b02:36b796004134",
+      "adv:p107:b02:1f063872a517",
+      "adv:p118:b02:b1519435db6c"
+    ],
+    "hit1": true,
+    "evidence_hit3": true,
+    "complete_context_evidence": true,
+    "required_gold_regions": 1,
+    "found_gold_regions": [
+      0
+    ],
+    "elapsed_ms": 6.024,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A10",
+    "primary_group": "chart",
+    "original_query": "Hình 6.35 và phần diễn giải dự báo tỷ lệ phụ thuộc người cao tuổi tăng từ bao nhiêu lên bao nhiêu trong giai đoạn 2015–2035?",
+    "retrieval_query": "Hình 6.35 và phần diễn giải dự báo tỷ lệ phụ thuộc người cao tuổi tăng từ bao nhiêu lên bao nhiêu trong giai đoạn 2015–2035?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p278:b01:07107ccf4b92",
+        "text": "240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 278,
+        "metadata": {
+          "printed_page": "240",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.64,
+            361.76
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 14.379296923584523,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p200:b02:dca81bb40f70",
+        "text": "α = 0.4 TFP growth 4.2 0.1 3.6 α/(1−α)*Capital-output ratio growth −0.5 2.2 0.5 Contribution of TFP growth to labor productivity growth 79.8 1.7 65.2 Contribution of capital deepening −10.2 57.3 9.2 Contribution of human capital growth 29.8 40.1 24.2 α = 0.33 TFP growth 4.0 0.6 3.8 α/(1−α)*Capital-output ratio growth −0.4 1.6 0.4 Contribution of TFP growth to labor productivity 77.0 16.5 67.7 Contribution of capital deepening −7.6 42.2 6.8 Contribution of human capital growth 29.8 40.1 24.2\nα = 0.33 in 1990 gradually increasing to 0.38 in 2014 and 0.42 in 2035* TFP growth 3.8 0.0 3.1 α/(1−α)*Capital-output ratio growth −0.5 2.2 0.5 Contribution of TFP growth to labor productivity 72.1 0.1 55.0 Contribution of capital deepening −2.9 58.8 19.2 Contribution of human capital growth 29.8 40.1 24.2\nNote: (1) r = 0.1, a standard assumption in the literature for Mincerian return to education. (2) Average annual GDP growth for 2015–35 assumed at 6.1 percent. (3) Average annual capital stock growth for 2015–35 assumed at 6.9 percent (compared with 8.5 percent for 1990–2015). (4) Average annual human capital growth for 2015–35 = 1.4 percent (compared with 1 percent for 1990–2015). (5) Average annual labor force growth for 2015–35 = 0.5 percent (compared with 2 percent for 1990–2015). *α gradually increases as the production function become increasingly more capital intensive with the changing structure of the economy from farming to industry and services.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 200,
+        "metadata": {
+          "printed_page": "162",
+          "bbox_points": [
+            101.99,
+            431.97,
+            503.14,
+            699.76
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 12.883360843200283,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p134:b01:12e2f96a45ea",
+        "text": "96 V I E T N A M 2 0 3 5\nTABLE 1.2 Overview of the Trans-Pacifi c Partnership and Free Trade Area of the Asia-Pacifi c impacts on Vietnam, 2015–35 Cumulative percentage change relative to baseline growth, unless otherwise noted\n2020 2025 2030 2035\nTPP FTAAP TPP FTAAP TPP FTAAP TPP FTAAP\nReal GDP 3.6 3.6 6.8 11.2 8.2 14.1 8.1 14.7\nReal exports 5.0 5.4 13.4 14.4 16.8 20.3 17.1 23.7\nReal imports 7.6 7.5 15.7 17.6 16.0 19.8 14.2 20.2\nReal investment 13.6 12.9 21.3 32.2 15.0 27.0 6.3 17.8\nCapital stock 3.1 2.9 9.3 11.2 12.9 18.8 11.9 20.1\nChange in trade balance (USD million) −4,941 −4,648 −9,148 −13,689 −6,051 −11,313 −169 −5,166\nSource: Minor, Walmsley, and Strutt 2015.\nFIGURE 1.6 Change in Vietnam’s real GDP as a result of the Trans-Pacifi c Partnership, 2015–35\n9\nTop-down multilateral trade integration is likely to be complemented by important sub- regional collaboration, including that within the Greater Mekong Subregion.\n8\n7\n6\n5\n4\n3\nto baseline growth\n2\n1\nCumulative percentage change relative\n0\n2020 2025 2030 2035\nTariffs Nontariff measures, goods Nontariff measures, services\nSource: Minor, Walmsley, and Strutt 2015.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 134,
+        "metadata": {
+          "printed_page": "96",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.85,
+            540.63
+          ],
+          "modality": "table",
+          "block_group": 1
+        },
+        "score": 12.857185317820239,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p278:b01:07107ccf4b92 | advanced/source/vietnam-2035.pdf | trang 278]\n240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial\n\n[adv:p200:b02:dca81bb40f70 | advanced/source/vietnam-2035.pdf | trang 200]\nα = 0.4 TFP growth 4.2 0.1 3.6 α/(1−α)*Capital-output ratio growth −0.5 2.2 0.5 Contribution of TFP growth to labor productivity growth 79.8 1.7 65.2 Contribution of capital deepening −10.2 57.3 9.2 Contribution of human capital growth 29.8 40.1 24.2 α = 0.33 TFP growth 4.0 0.6 3.8 α/(1−α)*Capital-output ratio growth −0.4 1.6 0.4 Contribution of TFP growth to labor productivity 77.0 16.5 67.7 Contribution of capital deepening −7.6 42.2 6.8 Contribution of human capital growth 29.8 40.1 24.2\nα = 0.33 in 1990 gradually increasing to 0.38 in 2014 and 0.42 in 2035* TFP growth 3.8 0.0 3.1 α/(1−α)*Capital-output ratio growth −0.5 2.2 0.5 Contribution of TFP growth to labor productivity 72.1 0.1 55.0 Contribution of capital deepening −2.9 58.8 19.2 Contribution of human capital growth 29.8 40.1 24.2\nNote: (1) r = 0.1, a standard assumption in the literature for Mincerian return to education. (2) Average annual GDP growth for 2015–35 assumed at 6.1 percent. (3) Average annual capital stock growth for 2015–35 assumed at 6.9 percent (compared with 8.5 percent for 1990–2015). (4) Average annual human capital growth for 2015–35 = 1.4 percent (compared with 1 percent for 1990–2015). (5) Average annual labor force growth for 2015–35 = 0.5 percent (compared with 2 percent for 1990–2015). *α gradually increases as the production function become increasingly more capital intensive with the changing structure of the economy from farming to industry and services.\n\n[adv:p134:b01:12e2f96a45ea | advanced/source/vietnam-2035.pdf | trang 134]\n96 V I E T N A M 2 0 3 5\nTABLE 1.2 Overview of the Trans-Pacifi c Partnership and Free Trade Area of the Asia-Pacifi c impacts on Vietnam, 2015–35 Cumulative percentage change relative to baseline growth, unless otherwise noted\n2020 2025 2030 2035\nTPP FTAAP TPP FTAAP TPP FTAAP TPP FTAAP\nReal GDP 3.6 3.6 6.8 11.2 8.2 14.1 8.1 14.7\nReal exports 5.0 5.4 13.4 14.4 16.8 20.3 17.1 23.7\nReal imports 7.6 7.5 15.7 17.6 16.0 19.8 14.2 20.2\nReal investment 13.6 12.9 21.3 32.2 15.0 27.0 6.3 17.8\nCapital stock 3.1 2.9 9.3 11.2 12.9 18.8 11.9 20.1\nChange in trade balance (USD million) −4,941 −4,648 −9,148 −13,689 −6,051 −11,313 −169 −5,166\nSource: Minor, Walmsley, and Strutt 2015.\nFIGURE 1.6 Change in Vietnam’s real GDP as a result of the Trans-Pacifi c Partnership, 2015–35\n9\nTop-down multilateral trade integration is likely to be complemented by important sub- regional collaboration, including that within the Greater Mekong Subregion.\n8\n7\n6\n5\n4\n3\nto baseline growth\n2\n1\nCumulative percentage change relative\n0\n2020 2025 2030 2035\nTariffs Nontariff measures, goods Nontariff measures, services\nSource: Minor, Walmsley, and Strutt 2015.",
+    "context_ids": [
+      "adv:p278:b01:07107ccf4b92",
+      "adv:p200:b02:dca81bb40f70",
+      "adv:p134:b01:12e2f96a45ea"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 5.975,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A11",
+    "primary_group": "multi_hop",
+    "original_query": "Kết hợp dự báo dân số cao tuổi và tỷ lệ phụ thuộc: đến 2035 có bao nhiêu người trên 65 tuổi và tỷ lệ phụ thuộc người cao tuổi là bao nhiêu?",
+    "retrieval_query": "Kết hợp dự báo dân số cao tuổi và tỷ lệ phụ thuộc: đến 2035 có bao nhiêu người trên 65 tuổi và tỷ lệ phụ thuộc người cao tuổi là bao nhiêu?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p021:b01:fd9ef5a9d27a",
+        "text": "Preface and Acknowledgments\nT\nhe report, Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy, is a joint initiative of the Government of Vietnam and the World Bank Group formally forged between Prime Minister Nguyễn Tấn Dũng and President Jim Yong Kim in July 2014.\nto coordinate the line ministries, agencies, and research institutes, and to collaborate with the World Bank Group in the preparation of the report. A joint Vietnam–World Bank Group coordination team was established, which was led by Dr. Cao Viet Sinh (former Vice Minister of Planning and Investment), Victoria Kwakwa (Country Director), and Sandeep Mahajan (Lead Economist).\nThe Government of Australia, the Korea International Cooperation Agency (KOICA), and the U.K. Department of International Development (DFID) provided ﬁ nancial sup- port for the report, which is gratefully acknowledged.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 21,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            71.29,
+            138.71,
+            476.82,
+            472.0
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 16.02395472744857,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p025:b02:c9b15bb94b98",
+        "text": "Administration and communications activities from the World Bank Group side were managed by Bo Thi Hong Mai (Senior Communications Ofﬁ cer), Tran Kim Chi (Communications Asso ciate), Vu Lan Huong (Communications Associate), Nguyen Hong Ngan (Communications Ofﬁ cer), and Vu Thi Anh Linh (Program Assistant).\nAdditional editing of the report was han- dled by a Vietnamese editorial team with participation of Dr. Cao Viet Sinh (former Vice Minister of Planning and Investment, team leader), Prof. Hoang The Lien (former Vice Minister of Justice), Dr. Nguyen Quang Thai (Secretary General, Vietnam Association of Economists), Nguyen Van Vinh (Vice President, DSI), Pham Chi Lan (former member of Prime Minister’s Economic Advisory Board), Dr. Vo Tri Thanh (Vice President, CIEM), and Doan Hong Quang (Senior Economist).\nIt is with great pleasure that the Ministry of Planning and Investment and the World Bank Group introduce the report Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy with the hope that Vietnamese leaders and policy-making agen- cies will ﬁ nd it useful.\nBùi Quang Vinh Minister of Planning and Investment Socialist Republic of Vietnam\nAxel van Trotsenburg Vice President for East Asia and Paciﬁ c World Bank Group",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 25,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            340.28,
+            476.83,
+            684.8
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 13.818386168727324,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p022:b02:02bc6ede829d",
+        "text": "The English version of the report was edited by Bruce Ross-Larson and a team at Communications Development Incorporated that included Jonathan Aspin, Joe Caponio, and Mike Crumplar. Production and publi- cation of the English version was managed by Rumit Pancholi, Susan Graham, and Patricia Katayama of the World Bank Group’s Publishing and Knowledge Division, External Communications.\nThe Vietnam 2035 report has seven chap- ters and an Overview written by individual chapter teams, whose members are listed below in alphabetical order of their surnames.\nThe chapter builds on background papers and notes prepared by Dr. Nguyen Duc Thanh (Director, Vietnam Institute for Economic and Policy Research), Dr. Nguyen Quang Thai (Secretary General, Vietnam Association of Economists), and Prof. Tran Dinh Thien (Director, Vietnam Institute of Economics).\nOverview\nCapable research assistance was provided by Dang Huyen Linh, Vu Thu Trang, Nguyen Dang Hung, Nguyen Thi Huong Giang, and Nguyen Thi My Hanh (DSI).\nLead authors: Dr. Cao Viet Sinh (former Vice Minister of Planning and Investment), Gabriel Demombynes (Senior Economist), Victoria Kwakwa (Country Director), Sandeep Mahajan (Lead Economist), and Sudhir Shetty (Chief Economist).\nEnabling Economic Modernization and Private Sector Development\nLead authors: Mona Haddad (Practice Manager), Sandeep Mahajan (Lead Economist), Pham Chi Lan (former Vice President of the Vietnam Chamber of Commerce and Industry [VCCI]), and Pham Thi Thu Hang (Secretary General, VCCI).",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 22,
+        "metadata": {
+          "printed_page": "xx",
+          "bbox_points": [
+            102.0,
+            316.28,
+            506.82,
+            692.5
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 12.982557223835405,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p021:b01:fd9ef5a9d27a | advanced/source/vietnam-2035.pdf | trang 21]\nPreface and Acknowledgments\nT\nhe report, Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy, is a joint initiative of the Government of Vietnam and the World Bank Group formally forged between Prime Minister Nguyễn Tấn Dũng and President Jim Yong Kim in July 2014.\nto coordinate the line ministries, agencies, and research institutes, and to collaborate with the World Bank Group in the preparation of the report. A joint Vietnam–World Bank Group coordination team was established, which was led by Dr. Cao Viet Sinh (former Vice Minister of Planning and Investment), Victoria Kwakwa (Country Director), and Sandeep Mahajan (Lead Economist).\nThe Government of Australia, the Korea International Cooperation Agency (KOICA), and the U.K. Department of International Development (DFID) provided ﬁ nancial sup- port for the report, which is gratefully acknowledged.\n\n[adv:p025:b02:c9b15bb94b98 | advanced/source/vietnam-2035.pdf | trang 25]\nAdministration and communications activities from the World Bank Group side were managed by Bo Thi Hong Mai (Senior Communications Ofﬁ cer), Tran Kim Chi (Communications Asso ciate), Vu Lan Huong (Communications Associate), Nguyen Hong Ngan (Communications Ofﬁ cer), and Vu Thi Anh Linh (Program Assistant).\nAdditional editing of the report was han- dled by a Vietnamese editorial team with participation of Dr. Cao Viet Sinh (former Vice Minister of Planning and Investment, team leader), Prof. Hoang The Lien (former Vice Minister of Justice), Dr. Nguyen Quang Thai (Secretary General, Vietnam Association of Economists), Nguyen Van Vinh (Vice President, DSI), Pham Chi Lan (former member of Prime Minister’s Economic Advisory Board), Dr. Vo Tri Thanh (Vice President, CIEM), and Doan Hong Quang (Senior Economist).\nIt is with great pleasure that the Ministry of Planning and Investment and the World Bank Group introduce the report Vietnam 2035: Toward Prosperity, Creativity, Equity, and Democracy with the hope that Vietnamese leaders and policy-making agen- cies will ﬁ nd it useful.\nBùi Quang Vinh Minister of Planning and Investment Socialist Republic of Vietnam\nAxel van Trotsenburg Vice President for East Asia and Paciﬁ c World Bank Group\n\n[adv:p022:b02:02bc6ede829d | advanced/source/vietnam-2035.pdf | trang 22]\nThe English version of the report was edited by Bruce Ross-Larson and a team at Communications Development Incorporated that included Jonathan Aspin, Joe Caponio, and Mike Crumplar. Production and publi- cation of the English version was managed by Rumit Pancholi, Susan Graham, and Patricia Katayama of the World Bank Group’s Publishing and Knowledge Division, External Communications.\nThe Vietnam 2035 report has seven chap- ters and an Overview written by individual chapter teams, whose members are listed below in alphabetical order of their surnames.\nThe chapter builds on background papers and notes prepared by Dr. Nguyen Duc Thanh (Director, Vietnam Institute for Economic and Policy Research), Dr. Nguyen Quang Thai (Secretary General, Vietnam Association of Economists), and Prof. Tran Dinh Thien (Director, Vietnam Institute of Economics).\nOverview\nCapable research assistance was provided by Dang Huyen Linh, Vu Thu Trang, Nguyen Dang Hung, Nguyen Thi Huong Giang, and Nguyen Thi My Hanh (DSI).\nLead authors: Dr. Cao Viet Sinh (former Vice Minister of Planning and Investment), Gabriel Demombynes (Senior Economist), Victoria Kwakwa (Country Director), Sandeep Mahajan (Lead Economist), and Sudhir Shetty (Chief Economist).\nEnabling Economic Modernization and Private Sector Development\nLead authors: Mona Haddad (Practice Manager), Sandeep Mahajan (Lead Economist), Pham Chi Lan (former Vice President of the Vietnam Chamber of Commerce and Industry [VCCI]), and Pham Thi Thu Hang (Secretary General, VCCI).",
+    "context_ids": [
+      "adv:p021:b01:fd9ef5a9d27a",
+      "adv:p025:b02:c9b15bb94b98",
+      "adv:p022:b02:02bc6ede829d"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 2,
+    "found_gold_regions": [],
+    "elapsed_ms": 7.142,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A12",
+    "primary_group": "multi_hop",
+    "original_query": "Đối chiếu đô thị hóa và giao thông: dân số đô thị hiện tại được nêu là bao nhiêu và mất khoảng bao lâu để đi 40 km từ trung tâm TP.HCM đến Bình Dương?",
+    "retrieval_query": "Đối chiếu đô thị hóa và giao thông: dân số đô thị hiện tại được nêu là bao nhiêu và mất khoảng bao lâu để đi 40 km từ trung tâm TP.HCM đến Bình Dương?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p405:b03:1805cf95a12a",
+        "text": "Executive Studies in Britain.” Public Administration 68 (1): 3–28. Dương, Thị Thanh Mai, and Dr. Nguyễn Văn\nCapital in Rural Viet Nam.” Working Paper 2015/087, United Nations University World Institute for Development Economics Research, Helsinki. MONRE (Ministry of Natural Resources and\nCương. 2015. “Policy Making and Enforcement in Vietnam: Context, Expected Transformation, and Vision to 2035.” Background paper for Vietnam 2035 Report. Evans, Peter. 2005. “Harnessing the State:\nRebalancing Strategies for Monitoring and Motivation.” In States and Development:\nEnvironment). 2012. MONRE Review Report on the implementation of the 2003 Land Law, No. 193/BC-BTNMT. September 6, MONRE.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 405,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            71.99,
+            583.4,
+            476.61,
+            693.82
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 25.80789771006587,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p021:b02:06b07cd98d84",
+        "text": "The report was written by a Vietnamese– World Bank Group team under the supervi- sion and guidance of Deputy Prime Minister Vu Duc Dam; Minister of Planning and Investment Bui Quang Vinh; Axel van Trotsenburg, World Bank Group Vice President for East Asia and Paciﬁ c; Victoria Kwakwa, Country Director for Vietnam; and Sudhir Shetty, World Bank Group Chief Economist for East Asia and Pacific. Gratitude for insightful advice is extended to members of the Steering Committee for the Vietnam 2035 Report: Prof. Nguyen Xuan Thang (President, Vietnam Academy of Social Sciences), Nguyen VanTung (Vice Chairman of the Ofﬁ ce of Government), Nguyen Ngoc Bao (Vice Chairman, Economic Commission of the Central Committee of the Communist Party of Vietnam), Bui Thanh Son (Vice Minister of Foreign Affairs), Truong Chi Trung (Vice Minister of Finance), Nguyen Toan Thang (Deputy Governor), and Prof. Bui Tat Thang (President, Development Strategy Institute).\nThe Ministry of Planning and Investment was assigned by the Government of Vietnam\nThe report benefitted from invaluable comments from World Bank Group peer reviewers Ted Chu (Chief Economist), Mario Marcel (former Senior Director), Martin Rama (Chief Economist), and Ana Revenga (Senior Director), as well as reviewers who provided comments on the concept note and decision draft. We extend special thanks for the insights and recommendations on the Overview and chapters of the report from an advisory panel that comprised David Dollar (Brookings Institution), Ravi Kanbur (Cornell University), Homi Kharas (Brookings Institution), Danny Leipziger (Growth Dialogue and George Washington University), Vikram Nehru (Carnegie Endowment for International Peace), Mari Pangestu (Columbia University), Graham Teskey (Abt\nV I E T N A M 2 0 3 5 xix",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 21,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            71.99,
+            376.28,
+            540.01,
+            717.05
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 14.445158339763548,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p286:b01:cfc85a2729f8",
+        "text": "248 V I E T N A M 2 0 3 5\nenvironment, and increasing access to long-term ﬁ nancing. 3. Improve public access to and use of infor- mation for decision making, monitoring, and accountability.\nchange in soil features, vegetation, rainfall patterns, and climatic conditions in some parts (Bao and Laituri 2011). The total erosion-prone area amounts to 13 million hectares, or 40 percent of natural areas (Nguyen 2010).\nEnvironmental Challenges in Vietnam Today and in the Future\nUnsustainable agricultural practices loom large in accelerating land degradation as well as other environmental concerns (box 5.2). Despite the conversion of an esti- mated 700,000 hectares from agricultural to nonagricultural uses, the total area under agriculture has grown nearly 15 percent (from 8.9 million to 10.2 million hectares) since 2000. Most of this expansion took place at the expense of upland or mangrove forests. The 1990s’ growth of coffee and aquaculture production also occurred largely at a cost to forests.2 Expansion con- tinues through increased use of steeply sloped land for cassava production in upland areas and a surge in rubber planta- tion areas on the back of recent price increases.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 286,
+        "metadata": {
+          "printed_page": "248",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.91,
+            388.0
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 13.704229748174937,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p405:b03:1805cf95a12a | advanced/source/vietnam-2035.pdf | trang 405]\nExecutive Studies in Britain.” Public Administration 68 (1): 3–28. Dương, Thị Thanh Mai, and Dr. Nguyễn Văn\nCapital in Rural Viet Nam.” Working Paper 2015/087, United Nations University World Institute for Development Economics Research, Helsinki. MONRE (Ministry of Natural Resources and\nCương. 2015. “Policy Making and Enforcement in Vietnam: Context, Expected Transformation, and Vision to 2035.” Background paper for Vietnam 2035 Report. Evans, Peter. 2005. “Harnessing the State:\nRebalancing Strategies for Monitoring and Motivation.” In States and Development:\nEnvironment). 2012. MONRE Review Report on the implementation of the 2003 Land Law, No. 193/BC-BTNMT. September 6, MONRE.\n\n[adv:p021:b02:06b07cd98d84 | advanced/source/vietnam-2035.pdf | trang 21]\nThe report was written by a Vietnamese– World Bank Group team under the supervi- sion and guidance of Deputy Prime Minister Vu Duc Dam; Minister of Planning and Investment Bui Quang Vinh; Axel van Trotsenburg, World Bank Group Vice President for East Asia and Paciﬁ c; Victoria Kwakwa, Country Director for Vietnam; and Sudhir Shetty, World Bank Group Chief Economist for East Asia and Pacific. Gratitude for insightful advice is extended to members of the Steering Committee for the Vietnam 2035 Report: Prof. Nguyen Xuan Thang (President, Vietnam Academy of Social Sciences), Nguyen VanTung (Vice Chairman of the Ofﬁ ce of Government), Nguyen Ngoc Bao (Vice Chairman, Economic Commission of the Central Committee of the Communist Party of Vietnam), Bui Thanh Son (Vice Minister of Foreign Affairs), Truong Chi Trung (Vice Minister of Finance), Nguyen Toan Thang (Deputy Governor), and Prof. Bui Tat Thang (President, Development Strategy Institute).\nThe Ministry of Planning and Investment was assigned by the Government of Vietnam\nThe report benefitted from invaluable comments from World Bank Group peer reviewers Ted Chu (Chief Economist), Mario Marcel (former Senior Director), Martin Rama (Chief Economist), and Ana Revenga (Senior Director), as well as reviewers who provided comments on the concept note and decision draft. We extend special thanks for the insights and recommendations on the Overview and chapters of the report from an advisory panel that comprised David Dollar (Brookings Institution), Ravi Kanbur (Cornell University), Homi Kharas (Brookings Institution), Danny Leipziger (Growth Dialogue and George Washington University), Vikram Nehru (Carnegie Endowment for International Peace), Mari Pangestu (Columbia University), Graham Teskey (Abt\nV I E T N A M 2 0 3 5 xix\n\n[adv:p286:b01:cfc85a2729f8 | advanced/source/vietnam-2035.pdf | trang 286]\n248 V I E T N A M 2 0 3 5\nenvironment, and increasing access to long-term ﬁ nancing. 3. Improve public access to and use of infor- mation for decision making, monitoring, and accountability.\nchange in soil features, vegetation, rainfall patterns, and climatic conditions in some parts (Bao and Laituri 2011). The total erosion-prone area amounts to 13 million hectares, or 40 percent of natural areas (Nguyen 2010).\nEnvironmental Challenges in Vietnam Today and in the Future\nUnsustainable agricultural practices loom large in accelerating land degradation as well as other environmental concerns (box 5.2). Despite the conversion of an esti- mated 700,000 hectares from agricultural to nonagricultural uses, the total area under agriculture has grown nearly 15 percent (from 8.9 million to 10.2 million hectares) since 2000. Most of this expansion took place at the expense of upland or mangrove forests. The 1990s’ growth of coffee and aquaculture production also occurred largely at a cost to forests.2 Expansion con- tinues through increased use of steeply sloped land for cassava production in upland areas and a surge in rubber planta- tion areas on the back of recent price increases.",
+    "context_ids": [
+      "adv:p405:b03:1805cf95a12a",
+      "adv:p021:b02:06b07cd98d84",
+      "adv:p286:b01:cfc85a2729f8"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 2,
+    "found_gold_regions": [],
+    "elapsed_ms": 8.075,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A13",
+    "primary_group": "multi_hop",
+    "original_query": "So sánh hai chỉ báo môi trường: nông nghiệp chiếm bao nhiêu phần trăm sử dụng nước và rừng nguyên sinh đã giảm bao nhiêu phần trăm trong 20 năm?",
+    "retrieval_query": "So sánh hai chỉ báo môi trường: nông nghiệp chiếm bao nhiêu phần trăm sử dụng nước và rừng nguyên sinh đã giảm bao nhiêu phần trăm trong 20 năm?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p278:b01:07107ccf4b92",
+        "text": "240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 278,
+        "metadata": {
+          "printed_page": "240",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.64,
+            361.76
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 13.106998709375517,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p286:b01:cfc85a2729f8",
+        "text": "248 V I E T N A M 2 0 3 5\nenvironment, and increasing access to long-term ﬁ nancing. 3. Improve public access to and use of infor- mation for decision making, monitoring, and accountability.\nchange in soil features, vegetation, rainfall patterns, and climatic conditions in some parts (Bao and Laituri 2011). The total erosion-prone area amounts to 13 million hectares, or 40 percent of natural areas (Nguyen 2010).\nEnvironmental Challenges in Vietnam Today and in the Future\nUnsustainable agricultural practices loom large in accelerating land degradation as well as other environmental concerns (box 5.2). Despite the conversion of an esti- mated 700,000 hectares from agricultural to nonagricultural uses, the total area under agriculture has grown nearly 15 percent (from 8.9 million to 10.2 million hectares) since 2000. Most of this expansion took place at the expense of upland or mangrove forests. The 1990s’ growth of coffee and aquaculture production also occurred largely at a cost to forests.2 Expansion con- tinues through increased use of steeply sloped land for cassava production in upland areas and a surge in rubber planta- tion areas on the back of recent price increases.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 286,
+        "metadata": {
+          "printed_page": "248",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.91,
+            388.0
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 11.265407993599275,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p315:b03:afe874974700",
+        "text": "Wheeler, Nhan Thi Lam, and Khuc Xuyen. 2005. “Pesticide Poisoning of Farm Workers: Implications of Blood Test Results from Vietnam.” Policy Research Working Paper 3624, World Bank, Washington, DC. Duc, D., M. Nhuan, and C. Van Ngoi. 2012. “An\nPau Queraltó Ros. 2008. The Socioeconomic Impact of the Spatial Data Infrastructure of Catalonia. JRC Scientiﬁ c and Technical Reports. Brussels, Belgium: European Commission. http://inspire.ec.europa.eu/reports/Study_reports / catalonia_impact _ study_report.pdf. Bao, Tran Quang, and Melinda Laituri. 2011.\nAnalysis of Coastal Erosion in the Tropical Rapid Accretion Delta of the Red River, Vietnam.” Journal of Asian Earth Sciences 43 (1): 98–109. Electricity Regulatory Authority of Vietnam. 2016.\n“Deﬁ ning Required Forest Area for Protection Soil from Erosion in Vietnam: A GIS-based Application.” VNU Journal of Science, Earth Sciences 27 (1): 63–76. BirdLife International. 2013. Country Profile:\nMinistry of Industry and Trade. EU Food and Veterinary Office. 2014. Final\nVietnam. Cambridge, UK: BirdLife International. http://www.birdlife.org/datazone/country / vietnam. Blankespoor, B., S. Dasgupta, and B. Laplante. 2012.\nSea-Level Rise and Coastal Wetlands Impacts and Costs. Washington, DC: World Bank. Bridle, Richard, and Christopher Beaton. 2012.\nReport of an Audit Carried Out in Viet Nam from 18 to 27 February 2014 to Evaluate Controls of Pesticides in Food of Plant Origin Intended for Export to the EU. DG (SANCO) 2014-2177-MR Final. Ref. Ares(2014)1935555-13/06/2014.\nAssessing the Cost-Effectiveness of Renewable",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 315,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            485.45,
+            476.58,
+            704.96
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 10.227836744101547,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p278:b01:07107ccf4b92 | advanced/source/vietnam-2035.pdf | trang 278]\n240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial\n\n[adv:p286:b01:cfc85a2729f8 | advanced/source/vietnam-2035.pdf | trang 286]\n248 V I E T N A M 2 0 3 5\nenvironment, and increasing access to long-term ﬁ nancing. 3. Improve public access to and use of infor- mation for decision making, monitoring, and accountability.\nchange in soil features, vegetation, rainfall patterns, and climatic conditions in some parts (Bao and Laituri 2011). The total erosion-prone area amounts to 13 million hectares, or 40 percent of natural areas (Nguyen 2010).\nEnvironmental Challenges in Vietnam Today and in the Future\nUnsustainable agricultural practices loom large in accelerating land degradation as well as other environmental concerns (box 5.2). Despite the conversion of an esti- mated 700,000 hectares from agricultural to nonagricultural uses, the total area under agriculture has grown nearly 15 percent (from 8.9 million to 10.2 million hectares) since 2000. Most of this expansion took place at the expense of upland or mangrove forests. The 1990s’ growth of coffee and aquaculture production also occurred largely at a cost to forests.2 Expansion con- tinues through increased use of steeply sloped land for cassava production in upland areas and a surge in rubber planta- tion areas on the back of recent price increases.\n\n[adv:p315:b03:afe874974700 | advanced/source/vietnam-2035.pdf | trang 315]\nWheeler, Nhan Thi Lam, and Khuc Xuyen. 2005. “Pesticide Poisoning of Farm Workers: Implications of Blood Test Results from Vietnam.” Policy Research Working Paper 3624, World Bank, Washington, DC. Duc, D., M. Nhuan, and C. Van Ngoi. 2012. “An\nPau Queraltó Ros. 2008. The Socioeconomic Impact of the Spatial Data Infrastructure of Catalonia. JRC Scientiﬁ c and Technical Reports. Brussels, Belgium: European Commission. http://inspire.ec.europa.eu/reports/Study_reports / catalonia_impact _ study_report.pdf. Bao, Tran Quang, and Melinda Laituri. 2011.\nAnalysis of Coastal Erosion in the Tropical Rapid Accretion Delta of the Red River, Vietnam.” Journal of Asian Earth Sciences 43 (1): 98–109. Electricity Regulatory Authority of Vietnam. 2016.\n“Deﬁ ning Required Forest Area for Protection Soil from Erosion in Vietnam: A GIS-based Application.” VNU Journal of Science, Earth Sciences 27 (1): 63–76. BirdLife International. 2013. Country Profile:\nMinistry of Industry and Trade. EU Food and Veterinary Office. 2014. Final\nVietnam. Cambridge, UK: BirdLife International. http://www.birdlife.org/datazone/country / vietnam. Blankespoor, B., S. Dasgupta, and B. Laplante. 2012.\nSea-Level Rise and Coastal Wetlands Impacts and Costs. Washington, DC: World Bank. Bridle, Richard, and Christopher Beaton. 2012.\nReport of an Audit Carried Out in Viet Nam from 18 to 27 February 2014 to Evaluate Controls of Pesticides in Food of Plant Origin Intended for Export to the EU. DG (SANCO) 2014-2177-MR Final. Ref. Ares(2014)1935555-13/06/2014.\nAssessing the Cost-Effectiveness of Renewable",
+    "context_ids": [
+      "adv:p278:b01:07107ccf4b92",
+      "adv:p286:b01:cfc85a2729f8",
+      "adv:p315:b03:afe874974700"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 2,
+    "found_gold_regions": [],
+    "elapsed_ms": 6.859,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A14",
+    "primary_group": "text",
+    "original_query": "Báo cáo nêu bốn hướng cải cách tức thời nào để phục hồi tăng trưởng năng suất?",
+    "retrieval_query": "Báo cáo nêu bốn hướng cải cách tức thời nào để phục hồi tăng trưởng năng suất?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [],
+    "context": "",
+    "context_ids": [],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 4.139,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A15",
+    "primary_group": "text",
+    "original_query": "Bốn nền tảng của nền kinh tế dẫn dắt bởi đổi mới trong Hộp 3.1 tập trung vào những gì?",
+    "retrieval_query": "Bốn nền tảng của nền kinh tế dẫn dắt bởi đổi mới trong Hộp 3.1 tập trung vào những gì?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p118:b01:efc6482258b3",
+        "text": "80 V I E T N A M 2 0 3 5\nstagnant and heavily dependent on foreign aid (Tran 2015), food was in short supply, the budget was chronically short of resources (Tu-Anh et al. 2015), and most people lived in poverty. A growing income gap with the ris- ing East Asian economies (such as the Republic of Korea; Malaysia; Singapore; Taiwan, China; and Thailand) provided addi- tional motivation for introspection and reform.\nSpontaneous responses to localized reforms helped change mindsets of both the general population and some in the leadership. This helped lay the foundations for the subsequent, more comprehensive Ðổi Mới reforms. And guiding the Ðổi Mới reforms were some of the local leaders (subsequently elevated to national positions) who were at the center of the fence-breaking actions (Rama 2008). But fragmented power structures made it difﬁ cult to develop a more systematic and comprehen- sive approach to implementing more broad- based institutional reform.\nPressures for Change and Major Đổi Mới Reforms\nFacing a “social and economic crisis” ( ﬁ gure 1.1), Vietnam embarked on a path of economic renovation (Ðổi Mới) in 1986 (box 1.1) (CPV 1991). Ðổi Mới reflected a fundamental shift in the country’s economic ideology, a recognition of the failures of cen- tral planning, and awareness that the fence- breaking market reforms of the previous decade were useful locally, but inadequate nationally to address the dire economic situation.\nThe economic situation was dire on the eve of the formal launching of Ðổi Mới. Annual inﬂ ation was running at more than 400 per- cent (Rama 2014), the real economy was\nFIGURE 1.1 Vietnam: Reform, growth, and infl ation, 1977–2015\n12\n4.0\n1985–88: Macro crisis\n1996–99: Asian crisis and slowdown of reform\n3.0",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 118,
+        "metadata": {
+          "printed_page": "80",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.92,
+            423.68
+          ],
+          "modality": "chart",
+          "block_group": 1
+        },
+        "score": 13.184282766059109,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p116:b01:020aebf7513f",
+        "text": "78 V I E T N A M 2 0 3 5\navoid falling into the “middle-income trap” and lagging behind other more successful regional economies.\nFuture reform opportunities are consider- able. Vietnam has learned valuable lessons from 30 years of Ðổi Mới. There is a growing national consensus on the need for reform and renovation for the country’s develop- ment. Participation in global economic inte- gration trends and agreements provide additional opportunities for Vietnam to deepen its commitment to reform.\nAchieving these objectives will require renewed reform efforts to manage six basic transformations or breakthroughs: enabling economic modernization and private sector development; building national innovation capacity; managing urbanization for greater economic efficiency; achieving sustainable and climate-resilient growth; promoting equity and social inclusion; and building modern institutions for an effective state. Each of these long-term transitions and their related set of reforms are discussed in depth in the following chapters.\nĐổi Mới: Motivation, Process, and Results\nLead Up to Đổi Mới\nA key challenge is to change the mindsets of policy makers and the country’s leaders, to catch up with the needs of a country that is transitioning from central planning to a socialist-oriented market economy. Part of it entails ending the conﬂ icted attitude to what a socialist-oriented market economy is, and not allowing that to be used to justify pre- serving the state’s dominance of the economy. The state would still have an important role in a functioning modern market-economy system (with the private sector at its core), by being an effective regulator and facilitator, correcting market failures, and providing a level playing ﬁ eld for all, on social and eco- nomic fronts.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 116,
+        "metadata": {
+          "printed_page": "78",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.93,
+            436.0
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 11.520988157430324,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p123:b02:2d68f290d259",
+        "text": "Despite its challenges, decentralization has allowed local governments to be more proac- tive in improving the business environment and in meeting basic service delivery needs. The more proactive provinces have consis- tently performed well in Vietnam’s Provincial Competitiveness Index (PCI).6\nSocial equity Throughout the reform process, Vietnam has retained a strong emphasis on equity and social inclusion (chapter 6). The socio- economic aspiration of developing a\nVietnam has always prioritized human resource development, achieving some equi- table outcomes in basic literacy and numer- acy. The approach to education changed with the launch of Ðổi Mới, signiﬁ ed by a move from viewing education as part of the “ideology–culture revolution” and a form of welfare to seeing it as a necessary investment in development (box 1.2). Efforts to direct education now focus on specific solutions rather than general directions.\nBOX 1.2 The education philosophy of Vietnam under Đổi Mới\n1. The common principle: education and training is the top national priority.\n5. The goal is to promote positive impacts (linking training with the needs of the labor market) while limiting the negative effects of the market mecha- nism on education and training: resisting the ten- dency toward commercialization.\n2. The common mission of education and training: raising intellectual standards of the general popu- lation, training a skilled workforce, and develop- ing talent.\n3. The overall objective: the people are both the goal and the driving force of socioeconomic development.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 123,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            292.28,
+            523.3,
+            626.44
+          ],
+          "modality": "table",
+          "block_group": 2
+        },
+        "score": 11.450807460507665,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p118:b01:efc6482258b3 | advanced/source/vietnam-2035.pdf | trang 118]\n80 V I E T N A M 2 0 3 5\nstagnant and heavily dependent on foreign aid (Tran 2015), food was in short supply, the budget was chronically short of resources (Tu-Anh et al. 2015), and most people lived in poverty. A growing income gap with the ris- ing East Asian economies (such as the Republic of Korea; Malaysia; Singapore; Taiwan, China; and Thailand) provided addi- tional motivation for introspection and reform.\nSpontaneous responses to localized reforms helped change mindsets of both the general population and some in the leadership. This helped lay the foundations for the subsequent, more comprehensive Ðổi Mới reforms. And guiding the Ðổi Mới reforms were some of the local leaders (subsequently elevated to national positions) who were at the center of the fence-breaking actions (Rama 2008). But fragmented power structures made it difﬁ cult to develop a more systematic and comprehen- sive approach to implementing more broad- based institutional reform.\nPressures for Change and Major Đổi Mới Reforms\nFacing a “social and economic crisis” ( ﬁ gure 1.1), Vietnam embarked on a path of economic renovation (Ðổi Mới) in 1986 (box 1.1) (CPV 1991). Ðổi Mới reflected a fundamental shift in the country’s economic ideology, a recognition of the failures of cen- tral planning, and awareness that the fence- breaking market reforms of the previous decade were useful locally, but inadequate nationally to address the dire economic situation.\nThe economic situation was dire on the eve of the formal launching of Ðổi Mới. Annual inﬂ ation was running at more than 400 per- cent (Rama 2014), the real economy was\nFIGURE 1.1 Vietnam: Reform, growth, and infl ation, 1977–2015\n12\n4.0\n1985–88: Macro crisis\n1996–99: Asian crisis and slowdown of reform\n3.0\n\n[adv:p116:b01:020aebf7513f | advanced/source/vietnam-2035.pdf | trang 116]\n78 V I E T N A M 2 0 3 5\navoid falling into the “middle-income trap” and lagging behind other more successful regional economies.\nFuture reform opportunities are consider- able. Vietnam has learned valuable lessons from 30 years of Ðổi Mới. There is a growing national consensus on the need for reform and renovation for the country’s develop- ment. Participation in global economic inte- gration trends and agreements provide additional opportunities for Vietnam to deepen its commitment to reform.\nAchieving these objectives will require renewed reform efforts to manage six basic transformations or breakthroughs: enabling economic modernization and private sector development; building national innovation capacity; managing urbanization for greater economic efficiency; achieving sustainable and climate-resilient growth; promoting equity and social inclusion; and building modern institutions for an effective state. Each of these long-term transitions and their related set of reforms are discussed in depth in the following chapters.\nĐổi Mới: Motivation, Process, and Results\nLead Up to Đổi Mới\nA key challenge is to change the mindsets of policy makers and the country’s leaders, to catch up with the needs of a country that is transitioning from central planning to a socialist-oriented market economy. Part of it entails ending the conﬂ icted attitude to what a socialist-oriented market economy is, and not allowing that to be used to justify pre- serving the state’s dominance of the economy. The state would still have an important role in a functioning modern market-economy system (with the private sector at its core), by being an effective regulator and facilitator, correcting market failures, and providing a level playing ﬁ eld for all, on social and eco- nomic fronts.",
+    "context_ids": [
+      "adv:p118:b01:efc6482258b3",
+      "adv:p116:b01:020aebf7513f"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 4.239,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A16",
+    "primary_group": "text",
+    "original_query": "Báo cáo định nghĩa hiệu quả của chính phủ là gì?",
+    "retrieval_query": "Báo cáo định nghĩa hiệu quả của chính phủ là gì?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p374:b02:4fdf3f4af6b8",
+        "text": "Social Affairs). 2014. “Thực hiện chính sách ASXH đối với NCT” [Implementation of Social Protection Policies for Older People]. Presentation at the National Assembly Committee for Social Affairs, September 15, 2014. Hanoi, Vietnam. Mont, Daniel, and Cuong Nguyen. 2011.\nand Actuarial Services. 2013. ILO, Vietnam, Hanoi. Institute of Sociology. 2015. Household\n“Disability and Poverty in Vietnam.” World Bank Economic Review 25 (2): 323–35. National Institute of Nutrition Surveys (database).\nRegistration System in Vietnam from Multidirectional Perspectives. Unpublished manuscript. Hanoi, August 2015. Jackson, Richard, and Tobias Peter. 2015. From\nHanoi: Ministry of Health. http:// viendinhduong .vn/news/en/158/110/a/national-institute-of -nutrition.aspx. NCCD (National Coordinating Council on\nChallenge to Opportunity: Wave 2 of the East Asia Retirement Survey. Alexandria, VA: Global Aging Institute. Jamieson, N. L., T. C. Le, and A. T. Rambo.\nDisability). 2010. Annual Report on Status of People with Disabilities in Vietnam, Hanoi. December 2010. Nguyen, P., and B. Baulch. 2007. A Review of Ethnic\n1998. “The Development Crisis in Vietnam’s Mountains.” East-West Center Special Report 6, East-West Center, Honoluu, HI. Kham, Tran. 2014. “Social Construction of\nMinority Programmes and Policies in Vietnam. Hanoi: Centre for Analysis and Forecasting, Vietnam Academy of Social Sciences. OECD (Organisation for Economic Co-operation\nand Development). 2004. Employment Outlook. Paris: OECD. ———. 2010. Indicators of Employment Protection.\nDisability and its Potential Impacts to Welfare Practice in Vietnamese Contexts.” Springeplus 3 (1): 325. Kharas, Homi. 2010. “The Emerging Middle Class",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 374,
+        "metadata": {
+          "printed_page": "336",
+          "bbox_points": [
+            102.01,
+            297.74,
+            506.6,
+            572.92
+          ],
+          "modality": "text",
+          "block_group": 2
+        },
+        "score": 6.127272664864343,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p374:b02:4fdf3f4af6b8 | advanced/source/vietnam-2035.pdf | trang 374]\nSocial Affairs). 2014. “Thực hiện chính sách ASXH đối với NCT” [Implementation of Social Protection Policies for Older People]. Presentation at the National Assembly Committee for Social Affairs, September 15, 2014. Hanoi, Vietnam. Mont, Daniel, and Cuong Nguyen. 2011.\nand Actuarial Services. 2013. ILO, Vietnam, Hanoi. Institute of Sociology. 2015. Household\n“Disability and Poverty in Vietnam.” World Bank Economic Review 25 (2): 323–35. National Institute of Nutrition Surveys (database).\nRegistration System in Vietnam from Multidirectional Perspectives. Unpublished manuscript. Hanoi, August 2015. Jackson, Richard, and Tobias Peter. 2015. From\nHanoi: Ministry of Health. http:// viendinhduong .vn/news/en/158/110/a/national-institute-of -nutrition.aspx. NCCD (National Coordinating Council on\nChallenge to Opportunity: Wave 2 of the East Asia Retirement Survey. Alexandria, VA: Global Aging Institute. Jamieson, N. L., T. C. Le, and A. T. Rambo.\nDisability). 2010. Annual Report on Status of People with Disabilities in Vietnam, Hanoi. December 2010. Nguyen, P., and B. Baulch. 2007. A Review of Ethnic\n1998. “The Development Crisis in Vietnam’s Mountains.” East-West Center Special Report 6, East-West Center, Honoluu, HI. Kham, Tran. 2014. “Social Construction of\nMinority Programmes and Policies in Vietnam. Hanoi: Centre for Analysis and Forecasting, Vietnam Academy of Social Sciences. OECD (Organisation for Economic Co-operation\nand Development). 2004. Employment Outlook. Paris: OECD. ———. 2010. Indicators of Employment Protection.\nDisability and its Potential Impacts to Welfare Practice in Vietnamese Contexts.” Springeplus 3 (1): 325. Kharas, Homi. 2010. “The Emerging Middle Class",
+    "context_ids": [
+      "adv:p374:b02:4fdf3f4af6b8"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 2.041,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "A17",
+    "primary_group": "text",
+    "original_query": "Mục tiêu giảm phát thải khí nhà kính năm 2030 của Việt Nam là bao nhiêu nếu không và nếu có hỗ trợ quốc tế?",
+    "retrieval_query": "Mục tiêu giảm phát thải khí nhà kính năm 2030 của Việt Nam là bao nhiêu nếu không và nếu có hỗ trợ quốc tế?",
+    "query_transformed": false,
+    "config_id": "advanced_bm25_original",
+    "top_k": 3,
+    "results": [
+      {
+        "id": "adv:p294:b02:069ab7be9f2a",
+        "text": "The two most heavily polluted water basins are Nhue-Day River Basin in the north and Dong Nai River Basin in the south passing through the country’s most industrialized provinces. Over the next 15 years urban wastewater is expected to account for the largest share of effluents (about 60 percent). Industrial wastewater (25–28 percent) and rural wastewater (12– 15 percent) follow (ﬁ gure 5.5). The Food and Agriculture Organization of the United Nations estimates the global cost of treat- ing water to range from $1 to $1.5 per cubic meter. This implies costs for Vietnam of $12.4–18.6 million a day by 2030 if treatment measures are only put in place then. In Vietnam’s southern key economic zones, the cost estimate for 2010 was $867 million.\nFIGURE 5.5 The economic implications of Vietnam’s wastewater cleanup gives pause\n14\n12\n10\n8\n6\n4\nDischarge (cubic\n2\nmeters per day, millions)\n0\nEvery year, the coastal waters of Ba Lat River (Nam Dinh Province) receive 37.3 bil- lion m3 wastewater from the Red River, con- taining 232,000 tons of BOD, 353,000 tons of COD, 31,000 tons of nitrogen, 7,000 tons of phosphorus, 29 million tons of suspended solids (organic waste), 4,000 tons of heavy metals, 210 tons of pesticides, 343 tons of chemical fertilizers, and more than 13,000 tons of oil. The waste comes not only from manufacturing establishments, agricultural production, and trading and cities in Vietnam, but also from watersheds of other countries.\n2020 2030 2020 2030 2020 2030 2020 2030\nCau River\nBasin\nNhue-Day River Basin\nDong Nai River Basin\nTotal discharge\nvolume\nUrban wastewater\nRural wastewater\nIndustrial wastewater\nSource: Thang 2015.",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 294,
+        "metadata": {
+          "printed_page": "256",
+          "bbox_points": [
+            102.0,
+            244.28,
+            506.93,
+            699.75
+          ],
+          "modality": "chart",
+          "block_group": 2
+        },
+        "score": 9.599251161032807,
+        "rank": 1,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p278:b01:07107ccf4b92",
+        "text": "240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 278,
+        "metadata": {
+          "printed_page": "240",
+          "bbox_points": [
+            36.0,
+            57.93,
+            506.64,
+            361.76
+          ],
+          "modality": "text",
+          "block_group": 1
+        },
+        "score": 9.155267732936027,
+        "rank": 2,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      },
+      {
+        "id": "adv:p315:b03:afe874974700",
+        "text": "Wheeler, Nhan Thi Lam, and Khuc Xuyen. 2005. “Pesticide Poisoning of Farm Workers: Implications of Blood Test Results from Vietnam.” Policy Research Working Paper 3624, World Bank, Washington, DC. Duc, D., M. Nhuan, and C. Van Ngoi. 2012. “An\nPau Queraltó Ros. 2008. The Socioeconomic Impact of the Spatial Data Infrastructure of Catalonia. JRC Scientiﬁ c and Technical Reports. Brussels, Belgium: European Commission. http://inspire.ec.europa.eu/reports/Study_reports / catalonia_impact _ study_report.pdf. Bao, Tran Quang, and Melinda Laituri. 2011.\nAnalysis of Coastal Erosion in the Tropical Rapid Accretion Delta of the Red River, Vietnam.” Journal of Asian Earth Sciences 43 (1): 98–109. Electricity Regulatory Authority of Vietnam. 2016.\n“Deﬁ ning Required Forest Area for Protection Soil from Erosion in Vietnam: A GIS-based Application.” VNU Journal of Science, Earth Sciences 27 (1): 63–76. BirdLife International. 2013. Country Profile:\nMinistry of Industry and Trade. EU Food and Veterinary Office. 2014. Final\nVietnam. Cambridge, UK: BirdLife International. http://www.birdlife.org/datazone/country / vietnam. Blankespoor, B., S. Dasgupta, and B. Laplante. 2012.\nSea-Level Rise and Coastal Wetlands Impacts and Costs. Washington, DC: World Bank. Bridle, Richard, and Christopher Beaton. 2012.\nReport of an Audit Carried Out in Viet Nam from 18 to 27 February 2014 to Evaluate Controls of Pesticides in Food of Plant Origin Intended for Export to the EU. DG (SANCO) 2014-2177-MR Final. Ref. Ares(2014)1935555-13/06/2014.\nAssessing the Cost-Effectiveness of Renewable",
+        "source_id": "vietnam-2035-world-bank-2016",
+        "source": "advanced/source/vietnam-2035.pdf",
+        "page": 315,
+        "metadata": {
+          "printed_page": null,
+          "bbox_points": [
+            72.0,
+            485.45,
+            476.58,
+            704.96
+          ],
+          "modality": "text",
+          "block_group": 3
+        },
+        "score": 7.699704489642481,
+        "rank": 3,
+        "strategy": "bm25",
+        "matched_gold_regions": [],
+        "gold_hit": false
+      }
+    ],
+    "context": "[adv:p294:b02:069ab7be9f2a | advanced/source/vietnam-2035.pdf | trang 294]\nThe two most heavily polluted water basins are Nhue-Day River Basin in the north and Dong Nai River Basin in the south passing through the country’s most industrialized provinces. Over the next 15 years urban wastewater is expected to account for the largest share of effluents (about 60 percent). Industrial wastewater (25–28 percent) and rural wastewater (12– 15 percent) follow (ﬁ gure 5.5). The Food and Agriculture Organization of the United Nations estimates the global cost of treat- ing water to range from $1 to $1.5 per cubic meter. This implies costs for Vietnam of $12.4–18.6 million a day by 2030 if treatment measures are only put in place then. In Vietnam’s southern key economic zones, the cost estimate for 2010 was $867 million.\nFIGURE 5.5 The economic implications of Vietnam’s wastewater cleanup gives pause\n14\n12\n10\n8\n6\n4\nDischarge (cubic\n2\nmeters per day, millions)\n0\nEvery year, the coastal waters of Ba Lat River (Nam Dinh Province) receive 37.3 bil- lion m3 wastewater from the Red River, con- taining 232,000 tons of BOD, 353,000 tons of COD, 31,000 tons of nitrogen, 7,000 tons of phosphorus, 29 million tons of suspended solids (organic waste), 4,000 tons of heavy metals, 210 tons of pesticides, 343 tons of chemical fertilizers, and more than 13,000 tons of oil. The waste comes not only from manufacturing establishments, agricultural production, and trading and cities in Vietnam, but also from watersheds of other countries.\n2020 2030 2020 2030 2020 2030 2020 2030\nCau River\nBasin\nNhue-Day River Basin\nDong Nai River Basin\nTotal discharge\nvolume\nUrban wastewater\nRural wastewater\nIndustrial wastewater\nSource: Thang 2015.\n\n[adv:p278:b01:07107ccf4b92 | advanced/source/vietnam-2035.pdf | trang 278]\n240 V I E T N A M 2 0 3 5\nNotes\n1. After controlling for skill level of the labor\nforce. See Rosenthal and Strange 2003. 2. See http://www.evn.com.vn/News/Tin-tuc-Hoat\n-dong/Dau-tu-Xay-dung/998-so-xa-nong -thon -tren-ca-nuoc-co-dien201618.aspx. 3. See http://www.baomoi.com/Nam-2015-Viet\ndue to ﬁ nancing, technical, and implementa- tion constraints (such as delays in land acqui- sition and resettlement compensation). It is also necessary to ensure that the quality and standard of all connecting infrastructure— across local roads, expressways, waterways, and railways—remain adequate to handle the expected higher volumes facilitated by Lach Huyen and the other Haiphong terminals.\n-Nam-co-120-6-trieu-thue-bao-di -dong /c/18268774.epi. 4. See http://densityatlas.org/casestudies/. 5. See http://khucongnghiep.com.vn/tinhoatdong\n/ tabid/63/articleType/ArticleView/articleId /1113/Default.aspx. 6. The planning framework for urban develop-\nment in Vietnam follows the orientation speci- ﬁ ed in the General Plan for Urban System in Vietnam (Decision 445/QD-TTg dated 07/4/2009). 7. This is an estimate by the World Bank; the lack\nof data in transport and logistics is a serious impediment to policy reform and moderniza- tion of this sector. 8. These data are taken from the substantial\n\n[adv:p315:b03:afe874974700 | advanced/source/vietnam-2035.pdf | trang 315]\nWheeler, Nhan Thi Lam, and Khuc Xuyen. 2005. “Pesticide Poisoning of Farm Workers: Implications of Blood Test Results from Vietnam.” Policy Research Working Paper 3624, World Bank, Washington, DC. Duc, D., M. Nhuan, and C. Van Ngoi. 2012. “An\nPau Queraltó Ros. 2008. The Socioeconomic Impact of the Spatial Data Infrastructure of Catalonia. JRC Scientiﬁ c and Technical Reports. Brussels, Belgium: European Commission. http://inspire.ec.europa.eu/reports/Study_reports / catalonia_impact _ study_report.pdf. Bao, Tran Quang, and Melinda Laituri. 2011.\nAnalysis of Coastal Erosion in the Tropical Rapid Accretion Delta of the Red River, Vietnam.” Journal of Asian Earth Sciences 43 (1): 98–109. Electricity Regulatory Authority of Vietnam. 2016.\n“Deﬁ ning Required Forest Area for Protection Soil from Erosion in Vietnam: A GIS-based Application.” VNU Journal of Science, Earth Sciences 27 (1): 63–76. BirdLife International. 2013. Country Profile:\nMinistry of Industry and Trade. EU Food and Veterinary Office. 2014. Final\nVietnam. Cambridge, UK: BirdLife International. http://www.birdlife.org/datazone/country / vietnam. Blankespoor, B., S. Dasgupta, and B. Laplante. 2012.\nSea-Level Rise and Coastal Wetlands Impacts and Costs. Washington, DC: World Bank. Bridle, Richard, and Christopher Beaton. 2012.\nReport of an Audit Carried Out in Viet Nam from 18 to 27 February 2014 to Evaluate Controls of Pesticides in Food of Plant Origin Intended for Export to the EU. DG (SANCO) 2014-2177-MR Final. Ref. Ares(2014)1935555-13/06/2014.\nAssessing the Cost-Effectiveness of Renewable",
+    "context_ids": [
+      "adv:p294:b02:069ab7be9f2a",
+      "adv:p278:b01:07107ccf4b92",
+      "adv:p315:b03:afe874974700"
+    ],
+    "hit1": false,
+    "evidence_hit3": false,
+    "complete_context_evidence": false,
+    "required_gold_regions": 1,
+    "found_gold_regions": [],
+    "elapsed_ms": 4.291,
+    "service_cost_usd": 0
+  }
+]

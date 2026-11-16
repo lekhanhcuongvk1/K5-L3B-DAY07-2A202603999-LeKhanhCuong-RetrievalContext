@@ -1,0 +1,16 @@
+{
+  "provider": "Hugging Face local",
+  "embedding_model": "bkai-foundation-models/vietnamese-bi-encoder",
+  "embedding_revision": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+  "embedding_license": "Apache-2.0",
+  "agent_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "agent_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "agent_license": "Apache-2.0",
+  "agent_snapshot_present": true,
+  "cache": ".cache/huggingface",
+  "dimensions": 768,
+  "probe_shape": [
+    1,
+    768
+  ]
+}

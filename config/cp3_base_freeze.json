@@ -1,0 +1,36 @@
+{
+  "checkpoint": "CP3",
+  "selection_split": "dev",
+  "test_opened": false,
+  "benchmark_sha256": "e613c85710c56cda512df442fd91de488454c03f2222d35b7d3cd2f2bc10838f",
+  "selection_rule": [
+    "context_evidence",
+    "evidence_hit3",
+    "hit1",
+    "lower_median_retrieval_ms"
+  ],
+  "selected_config": {
+    "config_id": "bm25",
+    "split": "dev",
+    "answerable_n": 18,
+    "method": "bm25",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "hypothesis": "Lexical method; tests exact names and rare terms.",
+    "hit1": 13,
+    "evidence_hit3": 17,
+    "context_evidence": 17,
+    "median_retrieval_ms": 1.147,
+    "service_cost_usd": 0
+  },
+  "selected_agent_config": {
+    "retriever": "bm25",
+    "rewrite_query": false,
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "Anthropic-compatible gateway at api.nghimmo.com",
+    "reason": "BM25 led the predeclared retrieval tie-break; original queries avoided unsupported rewrite details. Claude Dev achieved 20/21 after human review, versus 0.444/2 grounded-answer mean for the local model."
+  },
+  "test_run_count_at_freeze": 0
+}

@@ -1,0 +1,2170 @@
+[
+  {
+    "query_id": "B01",
+    "split": "dev",
+    "original_query": "Tên đầy đủ tạo nên chữ viết tắt BASIC là gì?",
+    "retrieval_query": "Tên đầy đủ tạo nên chữ viết tắt BASIC là gì?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-10293-u01:0014:8377bac6a1d576e4",
+        "text": "Gọi chương trình con Trong chương trình chính GOSUB tên_CTC Đoạn chương trình con khởi đầu bằng SUB và kết thúc bằng RETURN (trở về chương trình chính.\n\nTrong chương trình chính GOSUB tên_CTC\n\nĐoạn chương trình con khởi đầu bằng SUB và kết thúc bằng RETURN (trở về chương trình chính.\n\nVisual Basic\n\nTên tuổi của Basic gắn liền với Visual Basic .\n\nGhi chú\n\n↑ Từ viết tắt xuất phát từ tên trong một quyển sách không được công bố của Thomas Kurtz, không phải tên được nghĩ ra từ từ viết tắt như nhiều người vẫn nghĩ.\n\n↑ đang dịch\n\nTham khảo\n\nDartmouth College Computation Center (1964). A Manual for BASIC, the elementary algebraic language designed for use with the Dartmouth Time Sharing System Lưu trữ ngày 16 tháng 7 năm 2012 tại Wayback Machine - Sách hướng dẫn gốc của Dartmouth BASIC.\n\nLien, David A. (1986). The Basic Handbook: Encyclopedia of the BASIC Computer Language (3rd ed.). Compusoft phát hành. ISBN 0-932760-33-3 . Documents dialect variations for over 250 versions of BASIC.\n\n",
+        "source_id": "viwiki-10293",
+        "source": "data/day6/corpus/10293-basic.txt",
+        "page": "viwiki-10293-u01",
+        "metadata": {
+          "title": "BASIC",
+          "unit_id": "viwiki-10293-u01",
+          "version": "74447232",
+          "char_end": 11136,
+          "strategy": "B",
+          "char_start": 10143,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/BASIC",
+          "chunk_ordinal": 14,
+          "day6_chunk_id": "B:viwiki-10293-u01:0014:8377bac6a1d576e4",
+          "location_type": "content_unit",
+          "normalized_end": 12420,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03200204813108039,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03200204813108039,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 3
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-10293-u01:0001:270ce080da0a1e40",
+        "text": "BASIC là một ngôn ngữ lập trình bậc cao, đơn giản, dễ sử dụng, nhằm đơn giản hóa quá trình lập trình. BASIC được phát minh vào năm 1963 bởi các giáo sư John George Kemeny và Thomas Eugene Kurtz thuộc viện Đại học Dartmouth ( Dartmouth College ).\n\nBASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh .\n\nLịch sử\n\nBối cảnh ra đời\n\nCho đến giữa thập niên 1960 , máy tính là những công cụ khá đắt giá chỉ dùng cho các công việc có mục đích đặc biệt. Với cách xử lý theo khối ( batch ), những máy tính trên chỉ chạy một chương trình tại một thời điểm. Tuy vậy, trong thập niên này giá máy tính đã hạ đủ để cho các công ty nhỏ cũng có thể mua được, và tốc độ của chúng đã tăng đến mức đa số thời gian của chúng là rỗi.\n\n",
+        "source_id": "viwiki-10293",
+        "source": "data/day6/corpus/10293-basic.txt",
+        "page": "viwiki-10293-u01",
+        "metadata": {
+          "title": "BASIC",
+          "unit_id": "viwiki-10293-u01",
+          "version": "74447232",
+          "char_end": 753,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/BASIC",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-10293-u01:0001:270ce080da0a1e40",
+          "location_type": "content_unit",
+          "normalized_end": 12420,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03177805800756621,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03177805800756621,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 5
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-10293-u01:0015:7d8bce6538b1846d",
+        "text": "Kemeny, John G.; Kurtz, Thomas E. (1985). Back To BASIC: The History, Corruption, and Future of the Language . Addison-Wesley. 141 pp. ISBN 0-201-13433-0 .\n\nJean E. Sammet. Programming languages: History and fundamentals . Prentice-Hall, Englewood Cliffs, N.J. 1969.\n\nCác chuẩn\n\nANSI/ISO/IEC Chuẩn cho BASIC rút gọn: ANSI X3.60-1978 \"FOR MINIMAL BASIC\" ISO/IEC 6373:1984 \"DATA PROCESSING - PROGRAMMING LANGUAGES - MINIMAL BASIC\"\n\nANSI X3.60-1978 \"FOR MINIMAL BASIC\"\n\nISO/IEC 6373:1984 \"DATA PROCESSING - PROGRAMMING LANGUAGES - MINIMAL BASIC\"\n\nANSI/ISO/IEC Chuẩn cho BASIC đầy đủ: ANSI X3.113-1987 \"PROGRAMMING LANGUAGES FULL BASIC\" ISO/IEC 10279:1991 \"INFORMATION TECHNOLOGY - PROGRAMMING LANGUAGES - FULL BASIC\"\n\nANSI X3.113-1987 \"PROGRAMMING LANGUAGES FULL BASIC\"\n\nISO/IEC 10279:1991 \"INFORMATION TECHNOLOGY - PROGRAMMING LANGUAGES - FULL BASIC\"\n\n",
+        "source_id": "viwiki-10293",
+        "source": "data/day6/corpus/10293-basic.txt",
+        "page": "viwiki-10293-u01",
+        "metadata": {
+          "title": "BASIC",
+          "unit_id": "viwiki-10293-u01",
+          "version": "74447232",
+          "char_end": 11986,
+          "strategy": "B",
+          "char_start": 11136,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/BASIC",
+          "chunk_ordinal": 15,
+          "day6_chunk_id": "B:viwiki-10293-u01:0015:7d8bce6538b1846d",
+          "location_type": "content_unit",
+          "normalized_end": 12420,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.030309988518943745,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.030309988518943745,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 7
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-10293-u01:0014:8377bac6a1d576e4 | data/day6/corpus/10293-basic.txt | trang viwiki-10293-u01]\nGọi chương trình con Trong chương trình chính GOSUB tên_CTC Đoạn chương trình con khởi đầu bằng SUB và kết thúc bằng RETURN (trở về chương trình chính.\n\nTrong chương trình chính GOSUB tên_CTC\n\nĐoạn chương trình con khởi đầu bằng SUB và kết thúc bằng RETURN (trở về chương trình chính.\n\nVisual Basic\n\nTên tuổi của Basic gắn liền với Visual Basic .\n\nGhi chú\n\n↑ Từ viết tắt xuất phát từ tên trong một quyển sách không được công bố của Thomas Kurtz, không phải tên được nghĩ ra từ từ viết tắt như nhiều người vẫn nghĩ.\n\n↑ đang dịch\n\nTham khảo\n\nDartmouth College Computation Center (1964). A Manual for BASIC, the elementary algebraic language designed for use with the Dartmouth Time Sharing System Lưu trữ ngày 16 tháng 7 năm 2012 tại Wayback Machine - Sách hướng dẫn gốc của Dartmouth BASIC.\n\nLien, David A. (1986). The Basic Handbook: Encyclopedia of the BASIC Computer Language (3rd ed.). Compusoft phát hành. ISBN 0-932760-33-3 . Documents dialect variations for over 250 versions of BASIC.\n\n\n\n[B:viwiki-10293-u01:0001:270ce080da0a1e40 | data/day6/corpus/10293-basic.txt | trang viwiki-10293-u01]\nBASIC là một ngôn ngữ lập trình bậc cao, đơn giản, dễ sử dụng, nhằm đơn giản hóa quá trình lập trình. BASIC được phát minh vào năm 1963 bởi các giáo sư John George Kemeny và Thomas Eugene Kurtz thuộc viện Đại học Dartmouth ( Dartmouth College ).\n\nBASIC là viết tắt của B eginner's A ll-purpose S ymbolic I nstruction C ode trong tiếng Anh .\n\nLịch sử\n\nBối cảnh ra đời\n\nCho đến giữa thập niên 1960 , máy tính là những công cụ khá đắt giá chỉ dùng cho các công việc có mục đích đặc biệt. Với cách xử lý theo khối ( batch ), những máy tính trên chỉ chạy một chương trình tại một thời điểm. Tuy vậy, trong thập niên này giá máy tính đã hạ đủ để cho các công ty nhỏ cũng có thể mua được, và tốc độ của chúng đã tăng đến mức đa số thời gian của chúng là rỗi.\n\n\n\n[B:viwiki-10293-u01:0015:7d8bce6538b1846d | data/day6/corpus/10293-basic.txt | trang viwiki-10293-u01]\nKemeny, John G.; Kurtz, Thomas E. (1985). Back To BASIC: The History, Corruption, and Future of the Language . Addison-Wesley. 141 pp. ISBN 0-201-13433-0 .\n\nJean E. Sammet. Programming languages: History and fundamentals . Prentice-Hall, Englewood Cliffs, N.J. 1969.\n\nCác chuẩn\n\nANSI/ISO/IEC Chuẩn cho BASIC rút gọn: ANSI X3.60-1978 \"FOR MINIMAL BASIC\" ISO/IEC 6373:1984 \"DATA PROCESSING - PROGRAMMING LANGUAGES - MINIMAL BASIC\"\n\nANSI X3.60-1978 \"FOR MINIMAL BASIC\"\n\nISO/IEC 6373:1984 \"DATA PROCESSING - PROGRAMMING LANGUAGES - MINIMAL BASIC\"\n\nANSI/ISO/IEC Chuẩn cho BASIC đầy đủ: ANSI X3.113-1987 \"PROGRAMMING LANGUAGES FULL BASIC\" ISO/IEC 10279:1991 \"INFORMATION TECHNOLOGY - PROGRAMMING LANGUAGES - FULL BASIC\"\n\nANSI X3.113-1987 \"PROGRAMMING LANGUAGES FULL BASIC\"\n\nISO/IEC 10279:1991 \"INFORMATION TECHNOLOGY - PROGRAMMING LANGUAGES - FULL BASIC\"\n\n",
+    "context_ids": [
+      "B:viwiki-10293-u01:0014:8377bac6a1d576e4",
+      "B:viwiki-10293-u01:0001:270ce080da0a1e40",
+      "B:viwiki-10293-u01:0015:7d8bce6538b1846d"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 71.318,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B02",
+    "split": "dev",
+    "original_query": "Ngôn ngữ Ada được đặt tên theo ai?",
+    "retrieval_query": "Ngôn ngữ Ada được đặt tên theo ai?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-113366-u01:0001:87bbd696c2f34546",
+        "text": "Ada là ngôn ngữ lập trình xuất xứ từ Bộ quốc phòng Mỹ vào khoảng nửa đầu thập niên 80 của thế kỷ 20 . Ngôn ngữ này được đặt tên theo Ada Augusta nữ bá tước xứ Lovelace (1815 – 1852), nhà toán học với ý tưởng tiên phong coi phần cứng và phần mềm là hai mặt khác nhau đã đi vào lịch sử như lập trình viên đầu tiên của loài người.\n\nNhu cầu của Lầu Năm Góc lúc đó là một ngôn ngữ lập trình duy nhất thay thế cho khoảng 500 ngôn ngữ dùng cho các hệ thống nhúng ( embedded ). Đặc trưng của các hệ thống như thế là phần cứng đa dạng, phần cứng liền với phần mềm , phần mềm hệ thống liền với phần mềm ứng dụng, thời gian sử dụng lâu dài, tính chất thời gian thực ( real-time ) và độ bền cao ( high-integrity ) thể hiện rõ, nhiều hệ thống nhúng là hệ phân tán ( distributed ).\n\nNgôn ngữ lập trình đáp ứng những yêu cầu đó phải chặt chẽ, nhỏ gọn nhưng có sức biểu diễn lớn, viết mã nguồn dễ đọc, sinh mã đích hiệu quả.\n\n",
+        "source_id": "viwiki-113366",
+        "source": "data/day6/corpus/113366-ada-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-113366-u01",
+        "metadata": {
+          "title": "Ada (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-113366-u01",
+          "version": "70444955",
+          "char_end": 910,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Ada_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-113366-u01:0001:87bbd696c2f34546",
+          "location_type": "content_unit",
+          "normalized_end": 2753,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-113366-u01:0003:0a114a664924891d",
+        "text": "Ứng dụng\n\nNgoài các ứng dụng truyền thống trong vũ khí, khí tài và các hệ thống liên lạc, tham mưu, chỉ huy, tác chiến, sau hơn 2 thập kỷ ngày nay Ada còn được dùng trong các ứng dụng của ngành thám hiểm không gian , hàng không , giao thông sắt & bộ, năng lượng hạt nhân, viễn thông , và tài chính – ngân hàng.\n\nTrên thế giới, tỉ lệ lập trình viên sử dụng ngôn ngữ Ada chiếm khoảng 5%.\n\nAda có bộ biên dịch miễn phí GNAT và môi trường phát triển miễn phí GPS, sinh mã đích cho rất nhiều platform khác nhau.\n\nTham khảo\n\n↑ \"Ada 2012 Language Reference Manual\" . Ada-auth.org . Truy cập ngày 27 tháng 1 năm 2014 .\n\n↑ \"Aonix ObjectAda\" . Atego.com. Bản gốc lưu trữ ngày 6 tháng 8 năm 2013 . Truy cập ngày 27 tháng 1 năm 2014 .\n\n↑ \"ISO/IEC 8652:2012 Information technology -- Programming languages -- Ada \" . ISO . Truy cập ngày 23 tháng 12 năm 2012 .",
+        "source_id": "viwiki-113366",
+        "source": "data/day6/corpus/113366-ada-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-113366-u01",
+        "metadata": {
+          "title": "Ada (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-113366-u01",
+          "version": "70444955",
+          "char_end": 2753,
+          "strategy": "B",
+          "char_start": 1907,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Ada_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 3,
+          "day6_chunk_id": "B:viwiki-113366-u01:0003:0a114a664924891d",
+          "location_type": "content_unit",
+          "normalized_end": 2753,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.030330882352941176,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.030330882352941176,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 8
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c",
+        "text": "Tuy nhiên, những đóng góp của ALGOL 68 cho lĩnh vực khoa học máy tính rất sâu rộng, rộng khắp và bền bỉ, mặc dù nhiều đóng góp này chỉ được xác định công khai khi chúng xuất hiện trở lại trong các ngôn ngữ lập trình được phát triển sau đó. Nhiều ngôn ngữ được phát triển đặc biệt như là một phản ứng đối với sự phức tạp nhận thức của ngôn ngữ, đáng chú ý nhất là Pascal hoặc được thực hiện lại cho các vai trò cụ thể, như Ada .\n\nNhiều ngôn ngữ của thập niên 1970 theo dõi thiết kế của họ cụ thể theo ALGOL 68, chọn các tính năng cụ thể trong khi từ bỏ các ngôn ngữ khác được coi là quá phức tạp hoặc nằm ngoài phạm vi cho các vai trò cụ thể. Một trong số đó là ngôn ngữ lập trình C , chịu ảnh hưởng trực tiếp của ALGOL 68, đặc biệt là cấu trúc và kiểu dữ li mạnh . Hầu hết các ngôn ngữ hiện đại theo dõi ít nhất một số cú pháp của chúng theo C hoặc Pascal, và do đó trực tiếp hoặc gián tiếp đến ALGOL 68.\n\nTổng quan\n\n",
+        "source_id": "viwiki-15481628",
+        "source": "data/day6/corpus/15481628-algol-68.txt",
+        "page": "viwiki-15481628-u01",
+        "metadata": {
+          "title": "ALGOL 68",
+          "unit_id": "viwiki-15481628-u01",
+          "version": "70939255",
+          "char_end": 1669,
+          "strategy": "B",
+          "char_start": 752,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/ALGOL_68",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c",
+          "location_type": "content_unit",
+          "normalized_end": 4719,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.030090497737556562,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.030090497737556562,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 5
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-113366-u01:0001:87bbd696c2f34546 | data/day6/corpus/113366-ada-ngon-ngu-lap-trinh.txt | trang viwiki-113366-u01]\nAda là ngôn ngữ lập trình xuất xứ từ Bộ quốc phòng Mỹ vào khoảng nửa đầu thập niên 80 của thế kỷ 20 . Ngôn ngữ này được đặt tên theo Ada Augusta nữ bá tước xứ Lovelace (1815 – 1852), nhà toán học với ý tưởng tiên phong coi phần cứng và phần mềm là hai mặt khác nhau đã đi vào lịch sử như lập trình viên đầu tiên của loài người.\n\nNhu cầu của Lầu Năm Góc lúc đó là một ngôn ngữ lập trình duy nhất thay thế cho khoảng 500 ngôn ngữ dùng cho các hệ thống nhúng ( embedded ). Đặc trưng của các hệ thống như thế là phần cứng đa dạng, phần cứng liền với phần mềm , phần mềm hệ thống liền với phần mềm ứng dụng, thời gian sử dụng lâu dài, tính chất thời gian thực ( real-time ) và độ bền cao ( high-integrity ) thể hiện rõ, nhiều hệ thống nhúng là hệ phân tán ( distributed ).\n\nNgôn ngữ lập trình đáp ứng những yêu cầu đó phải chặt chẽ, nhỏ gọn nhưng có sức biểu diễn lớn, viết mã nguồn dễ đọc, sinh mã đích hiệu quả.\n\n\n\n[B:viwiki-113366-u01:0003:0a114a664924891d | data/day6/corpus/113366-ada-ngon-ngu-lap-trinh.txt | trang viwiki-113366-u01]\nỨng dụng\n\nNgoài các ứng dụng truyền thống trong vũ khí, khí tài và các hệ thống liên lạc, tham mưu, chỉ huy, tác chiến, sau hơn 2 thập kỷ ngày nay Ada còn được dùng trong các ứng dụng của ngành thám hiểm không gian , hàng không , giao thông sắt & bộ, năng lượng hạt nhân, viễn thông , và tài chính – ngân hàng.\n\nTrên thế giới, tỉ lệ lập trình viên sử dụng ngôn ngữ Ada chiếm khoảng 5%.\n\nAda có bộ biên dịch miễn phí GNAT và môi trường phát triển miễn phí GPS, sinh mã đích cho rất nhiều platform khác nhau.\n\nTham khảo\n\n↑ \"Ada 2012 Language Reference Manual\" . Ada-auth.org . Truy cập ngày 27 tháng 1 năm 2014 .\n\n↑ \"Aonix ObjectAda\" . Atego.com. Bản gốc lưu trữ ngày 6 tháng 8 năm 2013 . Truy cập ngày 27 tháng 1 năm 2014 .\n\n↑ \"ISO/IEC 8652:2012 Information technology -- Programming languages -- Ada \" . ISO . Truy cập ngày 23 tháng 12 năm 2012 .\n\n[B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c | data/day6/corpus/15481628-algol-68.txt | trang viwiki-15481628-u01]\nTuy nhiên, những đóng góp của ALGOL 68 cho lĩnh vực khoa học máy tính rất sâu rộng, rộng khắp và bền bỉ, mặc dù nhiều đóng góp này chỉ được xác định công khai khi chúng xuất hiện trở lại trong các ngôn ngữ lập trình được phát triển sau đó. Nhiều ngôn ngữ được phát triển đặc biệt như là một phản ứng đối với sự phức tạp nhận thức của ngôn ngữ, đáng chú ý nhất là Pascal hoặc được thực hiện lại cho các vai trò cụ thể, như Ada .\n\nNhiều ngôn ngữ của thập niên 1970 theo dõi thiết kế của họ cụ thể theo ALGOL 68, chọn các tính năng cụ thể trong khi từ bỏ các ngôn ngữ khác được coi là quá phức tạp hoặc nằm ngoài phạm vi cho các vai trò cụ thể. Một trong số đó là ngôn ngữ lập trình C , chịu ảnh hưởng trực tiếp của ALGOL 68, đặc biệt là cấu trúc và kiểu dữ li mạnh . Hầu hết các ngôn ngữ hiện đại theo dõi ít nhất một số cú pháp của chúng theo C hoặc Pascal, và do đó trực tiếp hoặc gián tiếp đến ALGOL 68.\n\nTổng quan\n\n",
+    "context_ids": [
+      "B:viwiki-113366-u01:0001:87bbd696c2f34546",
+      "B:viwiki-113366-u01:0003:0a114a664924891d",
+      "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 70.209,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B03",
+    "split": "dev",
+    "original_query": "Ai tạo ra ngôn ngữ D và ngôn ngữ này được phát hành năm nào?",
+    "retrieval_query": "Ai tạo ra ngôn ngữ D và ngôn ngữ này được phát hành năm nào?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-13486371-u01:0001:613f499e668ffb79",
+        "text": "D là một ngôn ngữ lập trình hệ thống hướng đối tượng , dùng câu lệnh , đa mẫu hình do Walter Bright của Digital Mars tạo ra và phát hành năm 2001. Quá trình thiết kế và phát triển ngôn ngữ này trong năm 2007 được Andrei Alexandrescu tham gia đóng góp. Mặc dù nó có nguồn gốc như là một bản phát triển kỹ thuật của C++ , D là một ngôn ngữ riêng biệt, đã thiết kế lại một số tính năng cốt lõi của C++ trong khi cũng lấy cảm hứng từ các ngôn ngữ khác, đáng chú ý là các ngôn ngữ Java , Python , Ruby , C# , và Eiffel .\n\nMục tiêu thiết kế của D cố gắng kết hợp hiệu suất và sự an toàn của các ngôn ngữ biên dịch với sức mạnh biểu đạt của các ngôn ngữ năng động hiện đại. Mã D sau khi dịch thường nhanh như mã C++ tương đương, trong khi ngắn hơn và an toàn hơn về mặt bộ nhớ.\n\n",
+        "source_id": "viwiki-13486371",
+        "source": "data/day6/corpus/13486371-d-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-13486371-u01",
+        "metadata": {
+          "title": "D (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-13486371-u01",
+          "version": "75579460",
+          "char_end": 772,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/D_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-13486371-u01:0001:613f499e668ffb79",
+          "location_type": "content_unit",
+          "normalized_end": 8413,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-14596871-u01:0004:2534c08ff2f86209",
+        "text": "Dyalog Limited (tháng 9 năm 2006). An Introduction to Object Oriented Programming For APL Programmers (PDF) . Dyalog Limited. Bản gốc (PDF) lưu trữ ngày 4 tháng 10 năm 2007.\n\nShustek, Len (ngày 10 tháng 10 năm 2012). \"The APL Programming Language Source Code\" . Computer History Museum (CHM). Lưu trữ bản gốc ngày 6 tháng 9 năm 2017 . Truy cập ngày 6 tháng 9 năm 2017 .\n\nVideo\n\nThe Origins of APL - a 1974 talk show style interview with the original developers of APL.\n\nAPL demonstration - a 1975 live demonstration of APL by Professor Bob Spence , Imperial College London .\n\nConway's Game Of Life in APL - a 2009 tutorial by John Scholes of Dyalog Ltd. which implements Conway's Game of Life in a single line of APL.\n\n50 Years of APL - a 2009 introduction to APL by Graeme Robertson.\n\nLiên kết ngoài\n\nTài nguyên trực tuyến\n\nTryAPL.org , an online APL primer\n\nAPL Wiki\n\nAPL trên DMOZ\n\nAPL2C , a source of links to APL compilers\n\nNhà cung cấp\n\nIBM APL2\n\nDyalog APL\n\nAPLX\n\nAPL2000\n\nNARS2000\n\n",
+        "source_id": "viwiki-14596871",
+        "source": "data/day6/corpus/14596871-apl-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-14596871-u01",
+        "metadata": {
+          "title": "APL (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-14596871-u01",
+          "version": "75233756",
+          "char_end": 3850,
+          "strategy": "B",
+          "char_start": 2860,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/APL_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 4,
+          "day6_chunk_id": "B:viwiki-14596871-u01:0004:2534c08ff2f86209",
+          "location_type": "content_unit",
+          "normalized_end": 4381,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.016129032258064516,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.016129032258064516,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": null
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-19996278-u01:0014:d70079ba56c87dff",
+        "text": "Sự phổ biến của các công cụ chuyển văn bản thành video tăng vọt. Với sự ra mắt của Sora của OpenAI vào năm 2024, việc sử dụng các công cụ tạo video bằng AI trở nên phổ biến hơn trong nhiều lĩnh vực, đặc biệt trong quảng cáo , giúp tiết kiệm chi phí sản xuất và tăng tốc độ ra sản phẩm. Tuy nhiên, AI tạo sinh đang phát triển nhanh hơn các công cụ phát hiện hiện có, làm dấy lên lo ngại về việc sử dụng công nghệ này để tạo deepfake phục vụ thông tin sai lệch về chính trị.\n\nNgôn ngữ\n\nGPT-3 là một mô hình ngôn ngữ lớn được OpenAI phát hành năm 2020, có khả năng tạo ra văn bản gần giống người thật với 175 tỷ tham số. Phiên bản mới hơn là GPT-4 được phát hành ngày 14 tháng 3 năm 2023 và được sử dụng trong công cụ tìm kiếm Microsoft Bing . Các mô hình ngôn ngữ lớn khác cũng được phát hành trong giai đoạn này, tiêu biểu là Claude của Anthropic, Gemini của Google, LLaMA của Meta Platforms, Grok của xAI, Qwen của Alibaba, GLM của Zhipu AI, Kimi của Moonshot AI, hay DeepSeek.\n\nPhát triển phần mềm\n\n",
+        "source_id": "viwiki-19996278",
+        "source": "data/day6/corpus/19996278-con-sot-ai.txt",
+        "page": "viwiki-19996278-u01",
+        "metadata": {
+          "location_type": "content_unit",
+          "collection": "khoa_hoc_may_tinh",
+          "version": "75582584",
+          "title": "Cơn sốt AI",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1n_s%E1%BB%91t_AI",
+          "sequence_in_source": 1,
+          "normalized_start": 0,
+          "normalized_end": 37414,
+          "strategy": "B",
+          "chunk_ordinal": 14,
+          "unit_id": "viwiki-19996278-u01",
+          "char_start": 10064,
+          "char_end": 11064,
+          "day6_chunk_id": "B:viwiki-19996278-u01:0014:d70079ba56c87dff"
+        },
+        "score": 0.016129032258064516,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.016129032258064516,
+        "component_ranks": {
+          "dense": null,
+          "bm25": 2
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-13486371-u01:0001:613f499e668ffb79 | data/day6/corpus/13486371-d-ngon-ngu-lap-trinh.txt | trang viwiki-13486371-u01]\nD là một ngôn ngữ lập trình hệ thống hướng đối tượng , dùng câu lệnh , đa mẫu hình do Walter Bright của Digital Mars tạo ra và phát hành năm 2001. Quá trình thiết kế và phát triển ngôn ngữ này trong năm 2007 được Andrei Alexandrescu tham gia đóng góp. Mặc dù nó có nguồn gốc như là một bản phát triển kỹ thuật của C++ , D là một ngôn ngữ riêng biệt, đã thiết kế lại một số tính năng cốt lõi của C++ trong khi cũng lấy cảm hứng từ các ngôn ngữ khác, đáng chú ý là các ngôn ngữ Java , Python , Ruby , C# , và Eiffel .\n\nMục tiêu thiết kế của D cố gắng kết hợp hiệu suất và sự an toàn của các ngôn ngữ biên dịch với sức mạnh biểu đạt của các ngôn ngữ năng động hiện đại. Mã D sau khi dịch thường nhanh như mã C++ tương đương, trong khi ngắn hơn và an toàn hơn về mặt bộ nhớ.\n\n\n\n[B:viwiki-14596871-u01:0004:2534c08ff2f86209 | data/day6/corpus/14596871-apl-ngon-ngu-lap-trinh.txt | trang viwiki-14596871-u01]\nDyalog Limited (tháng 9 năm 2006). An Introduction to Object Oriented Programming For APL Programmers (PDF) . Dyalog Limited. Bản gốc (PDF) lưu trữ ngày 4 tháng 10 năm 2007.\n\nShustek, Len (ngày 10 tháng 10 năm 2012). \"The APL Programming Language Source Code\" . Computer History Museum (CHM). Lưu trữ bản gốc ngày 6 tháng 9 năm 2017 . Truy cập ngày 6 tháng 9 năm 2017 .\n\nVideo\n\nThe Origins of APL - a 1974 talk show style interview with the original developers of APL.\n\nAPL demonstration - a 1975 live demonstration of APL by Professor Bob Spence , Imperial College London .\n\nConway's Game Of Life in APL - a 2009 tutorial by John Scholes of Dyalog Ltd. which implements Conway's Game of Life in a single line of APL.\n\n50 Years of APL - a 2009 introduction to APL by Graeme Robertson.\n\nLiên kết ngoài\n\nTài nguyên trực tuyến\n\nTryAPL.org , an online APL primer\n\nAPL Wiki\n\nAPL trên DMOZ\n\nAPL2C , a source of links to APL compilers\n\nNhà cung cấp\n\nIBM APL2\n\nDyalog APL\n\nAPLX\n\nAPL2000\n\nNARS2000\n\n\n\n[B:viwiki-19996278-u01:0014:d70079ba56c87dff | data/day6/corpus/19996278-con-sot-ai.txt | trang viwiki-19996278-u01]\nSự phổ biến của các công cụ chuyển văn bản thành video tăng vọt. Với sự ra mắt của Sora của OpenAI vào năm 2024, việc sử dụng các công cụ tạo video bằng AI trở nên phổ biến hơn trong nhiều lĩnh vực, đặc biệt trong quảng cáo , giúp tiết kiệm chi phí sản xuất và tăng tốc độ ra sản phẩm. Tuy nhiên, AI tạo sinh đang phát triển nhanh hơn các công cụ phát hiện hiện có, làm dấy lên lo ngại về việc sử dụng công nghệ này để tạo deepfake phục vụ thông tin sai lệch về chính trị.\n\nNgôn ngữ\n\nGPT-3 là một mô hình ngôn ngữ lớn được OpenAI phát hành năm 2020, có khả năng tạo ra văn bản gần giống người thật với 175 tỷ tham số. Phiên bản mới hơn là GPT-4 được phát hành ngày 14 tháng 3 năm 2023 và được sử dụng trong công cụ tìm kiếm Microsoft Bing . Các mô hình ngôn ngữ lớn khác cũng được phát hành trong giai đoạn này, tiêu biểu là Claude của Anthropic, Gemini của Google, LLaMA của Meta Platforms, Grok của xAI, Qwen của Alibaba, GLM của Zhipu AI, Kimi của Moonshot AI, hay DeepSeek.\n\nPhát triển phần mềm\n\n",
+    "context_ids": [
+      "B:viwiki-13486371-u01:0001:613f499e668ffb79",
+      "B:viwiki-14596871-u01:0004:2534c08ff2f86209",
+      "B:viwiki-19996278-u01:0014:d70079ba56c87dff"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 80.056,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B04",
+    "split": "dev",
+    "original_query": "Ngoài ảnh hưởng tới các ngôn ngữ khác, APL đã ảnh hưởng lớn đến bốn lĩnh vực nào?",
+    "retrieval_query": "Ngoài ảnh hưởng tới các ngôn ngữ khác, APL đã ảnh hưởng lớn đến bốn lĩnh vực nào?",
+    "query_transformed": false,
+    "filter": {
+      "collection": "ngon_ngu_lap_trinh"
+    },
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-14596871-u01:0001:ae594f162e75e321",
+        "text": "APL (được đặt tên theo cuốn sách A Programming Language ) là một ngôn ngữ lập trình được phát triển vào những năm 1960 bởi Kenneth E. Iverson . Kiểu dữ liệu trung tâm của nó là mảng đa chiều . Nó sử dụng một tập lớn các ký hiệu đồ họa đặc biệt để mô tả hầu hết các hàm và toán tử, khiến cho mã nguồn rất súc tích. Nó đã có ảnh hưởng lớn đến sự phát triển của mô hình hóa khái niệm, bảng tính , lập trình hàm , và gói tính toán máy tính. Nó cũng truyền cảm hứng cho một số ngôn ngữ lập trình khác.\n\nTham khảo\n\n↑ \"APL Quotations and Anecdotes\" . jsoftware.com . jsoftware . Truy cập ngày 14 tháng 4 năm 2018 .\n\n↑ Iverson, Kenneth E. (1962). A Programming Language . Wiley. ISBN 0-471-43014-5 .\n\n↑ McIntyre, Donald B. (1991). \"Language as an Intellectual Tool: From Hieroglyphics to APL\" . IBM Systems Journal . Quyển 30 số 4. tr. 554– 581. doi : 10.1147/sj.304.0554 . Bản gốc lưu trữ ngày 4 tháng 3 năm 2016 . Truy cập ngày 9 tháng 1 năm 2015 .\n\n",
+        "source_id": "viwiki-14596871",
+        "source": "data/day6/corpus/14596871-apl-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-14596871-u01",
+        "metadata": {
+          "title": "APL (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-14596871-u01",
+          "version": "75233756",
+          "char_end": 944,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/APL_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-14596871-u01:0001:ae594f162e75e321",
+          "location_type": "content_unit",
+          "normalized_end": 4381,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c",
+        "text": "Tuy nhiên, những đóng góp của ALGOL 68 cho lĩnh vực khoa học máy tính rất sâu rộng, rộng khắp và bền bỉ, mặc dù nhiều đóng góp này chỉ được xác định công khai khi chúng xuất hiện trở lại trong các ngôn ngữ lập trình được phát triển sau đó. Nhiều ngôn ngữ được phát triển đặc biệt như là một phản ứng đối với sự phức tạp nhận thức của ngôn ngữ, đáng chú ý nhất là Pascal hoặc được thực hiện lại cho các vai trò cụ thể, như Ada .\n\nNhiều ngôn ngữ của thập niên 1970 theo dõi thiết kế của họ cụ thể theo ALGOL 68, chọn các tính năng cụ thể trong khi từ bỏ các ngôn ngữ khác được coi là quá phức tạp hoặc nằm ngoài phạm vi cho các vai trò cụ thể. Một trong số đó là ngôn ngữ lập trình C , chịu ảnh hưởng trực tiếp của ALGOL 68, đặc biệt là cấu trúc và kiểu dữ li mạnh . Hầu hết các ngôn ngữ hiện đại theo dõi ít nhất một số cú pháp của chúng theo C hoặc Pascal, và do đó trực tiếp hoặc gián tiếp đến ALGOL 68.\n\nTổng quan\n\n",
+        "source_id": "viwiki-15481628",
+        "source": "data/day6/corpus/15481628-algol-68.txt",
+        "page": "viwiki-15481628-u01",
+        "metadata": {
+          "title": "ALGOL 68",
+          "unit_id": "viwiki-15481628-u01",
+          "version": "70939255",
+          "char_end": 1669,
+          "strategy": "B",
+          "char_start": 752,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/ALGOL_68",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c",
+          "location_type": "content_unit",
+          "normalized_end": 4719,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03200204813108039,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03200204813108039,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-15481628-u01:0001:1e7534ae1b6be0aa",
+        "text": "ALGOL 68 (viết tắt của Algorithmic Language 1968 ) là ngôn ngữ lập trình máy tính dùng lệnh được coi là sự kế thừa của ngôn ngữ lập trình ALGOL 60 , được thiết kế với mục tiêu phạm vi ứng dụng rộng hơn nhiều và cú pháp và ngữ nghĩa được xác định chặt chẽ hơn.\n\nSự phức tạp của định nghĩa ngôn ngữ, chạy tới hàng trăm trang chứa đầy thuật ngữ không chuẩn, khiến việc thực hiện trình biên dịch của ngôn ngữ lập trình này trở nên khó khăn và người ta nói rằng nó \"không có triển khai và không có người dùng\". Điều này chỉ đúng một phần; ALGOL 68 đã được sử dụng trong một số thị trường thích hợp, đặc biệt là ở Vương quốc Anh nơi nó phổ biến trên các máy ICL và trong vai trò giảng dạy. Bên ngoài những thị trường này, việc sử dụng nó tương đối hạn chế.\n\n",
+        "source_id": "viwiki-15481628",
+        "source": "data/day6/corpus/15481628-algol-68.txt",
+        "page": "viwiki-15481628-u01",
+        "metadata": {
+          "title": "ALGOL 68",
+          "unit_id": "viwiki-15481628-u01",
+          "version": "70939255",
+          "char_end": 752,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/ALGOL_68",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-15481628-u01:0001:1e7534ae1b6be0aa",
+          "location_type": "content_unit",
+          "normalized_end": 4719,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.02964426877470356,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.02964426877470356,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 9
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-14596871-u01:0001:ae594f162e75e321 | data/day6/corpus/14596871-apl-ngon-ngu-lap-trinh.txt | trang viwiki-14596871-u01]\nAPL (được đặt tên theo cuốn sách A Programming Language ) là một ngôn ngữ lập trình được phát triển vào những năm 1960 bởi Kenneth E. Iverson . Kiểu dữ liệu trung tâm của nó là mảng đa chiều . Nó sử dụng một tập lớn các ký hiệu đồ họa đặc biệt để mô tả hầu hết các hàm và toán tử, khiến cho mã nguồn rất súc tích. Nó đã có ảnh hưởng lớn đến sự phát triển của mô hình hóa khái niệm, bảng tính , lập trình hàm , và gói tính toán máy tính. Nó cũng truyền cảm hứng cho một số ngôn ngữ lập trình khác.\n\nTham khảo\n\n↑ \"APL Quotations and Anecdotes\" . jsoftware.com . jsoftware . Truy cập ngày 14 tháng 4 năm 2018 .\n\n↑ Iverson, Kenneth E. (1962). A Programming Language . Wiley. ISBN 0-471-43014-5 .\n\n↑ McIntyre, Donald B. (1991). \"Language as an Intellectual Tool: From Hieroglyphics to APL\" . IBM Systems Journal . Quyển 30 số 4. tr. 554– 581. doi : 10.1147/sj.304.0554 . Bản gốc lưu trữ ngày 4 tháng 3 năm 2016 . Truy cập ngày 9 tháng 1 năm 2015 .\n\n\n\n[B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c | data/day6/corpus/15481628-algol-68.txt | trang viwiki-15481628-u01]\nTuy nhiên, những đóng góp của ALGOL 68 cho lĩnh vực khoa học máy tính rất sâu rộng, rộng khắp và bền bỉ, mặc dù nhiều đóng góp này chỉ được xác định công khai khi chúng xuất hiện trở lại trong các ngôn ngữ lập trình được phát triển sau đó. Nhiều ngôn ngữ được phát triển đặc biệt như là một phản ứng đối với sự phức tạp nhận thức của ngôn ngữ, đáng chú ý nhất là Pascal hoặc được thực hiện lại cho các vai trò cụ thể, như Ada .\n\nNhiều ngôn ngữ của thập niên 1970 theo dõi thiết kế của họ cụ thể theo ALGOL 68, chọn các tính năng cụ thể trong khi từ bỏ các ngôn ngữ khác được coi là quá phức tạp hoặc nằm ngoài phạm vi cho các vai trò cụ thể. Một trong số đó là ngôn ngữ lập trình C , chịu ảnh hưởng trực tiếp của ALGOL 68, đặc biệt là cấu trúc và kiểu dữ li mạnh . Hầu hết các ngôn ngữ hiện đại theo dõi ít nhất một số cú pháp của chúng theo C hoặc Pascal, và do đó trực tiếp hoặc gián tiếp đến ALGOL 68.\n\nTổng quan\n\n\n\n[B:viwiki-15481628-u01:0001:1e7534ae1b6be0aa | data/day6/corpus/15481628-algol-68.txt | trang viwiki-15481628-u01]\nALGOL 68 (viết tắt của Algorithmic Language 1968 ) là ngôn ngữ lập trình máy tính dùng lệnh được coi là sự kế thừa của ngôn ngữ lập trình ALGOL 60 , được thiết kế với mục tiêu phạm vi ứng dụng rộng hơn nhiều và cú pháp và ngữ nghĩa được xác định chặt chẽ hơn.\n\nSự phức tạp của định nghĩa ngôn ngữ, chạy tới hàng trăm trang chứa đầy thuật ngữ không chuẩn, khiến việc thực hiện trình biên dịch của ngôn ngữ lập trình này trở nên khó khăn và người ta nói rằng nó \"không có triển khai và không có người dùng\". Điều này chỉ đúng một phần; ALGOL 68 đã được sử dụng trong một số thị trường thích hợp, đặc biệt là ở Vương quốc Anh nơi nó phổ biến trên các máy ICL và trong vai trò giảng dạy. Bên ngoài những thị trường này, việc sử dụng nó tương đối hạn chế.\n\n",
+    "context_ids": [
+      "B:viwiki-14596871-u01:0001:ae594f162e75e321",
+      "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c",
+      "B:viwiki-15481628-u01:0001:1e7534ae1b6be0aa"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 75.496,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B05",
+    "split": "dev",
+    "original_query": "Ai là người thiết kế chủ yếu C# và phiên bản 9.0 được phát hành cùng sản phẩm nào?",
+    "retrieval_query": "Ai là người thiết kế chủ yếu C# và phiên bản 9.0 được phát hành cùng sản phẩm nào?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-15438-u01:0001:0df5776c48d44325",
+        "text": "C# ( C Sharp , đọc là \"xi-sáp\" ) là một ngôn ngữ lập trình hướng đối tượng đa năng, mạnh mẽ được phát triển bởi Microsoft , C# là phần khởi đầu cho kế hoạch .NET của họ. Tên của ngôn ngữ bao gồm ký tự thăng theo Microsoft nhưng theo ECMA là C# , chỉ bao gồm dấu số thường. Microsoft phát triển C# dựa trên C++ và Java . C# được miêu tả là ngôn ngữ có được sự cân bằng giữa C++, Visual Basic , Delphi và Java .\n\nC# được thiết kế chủ yếu bởi Anders Hejlsberg kiến trúc sư phần mềm nổi tiếng với các sản phẩm Turbo Pascal , Delphi , J++, WFC. Phiên bản gần đây nhất là 9.0, được phát hành vào năm 2020 cùng với Visual Studio 2019 phiên bản 16.8.\n\nMục tiêu của việc phát triển C#\n\nTiêu chuẩn ECMA liệt kê các mục tiêu của việc thiết kế ngôn ngữ C#:\n\nNgôn ngữ được dự định là một ngôn ngữ lập trình đơn giản, hiện đại, hướng đến nhiều mục đích sử dụng, và là một ngôn ngữ lập trình hướng đối tượng .\n\n",
+        "source_id": "viwiki-15438",
+        "source": "data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-15438-u01",
+        "metadata": {
+          "title": "C Sharp (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-15438-u01",
+          "version": "74454567",
+          "char_end": 896,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-15438-u01:0001:0df5776c48d44325",
+          "location_type": "content_unit",
+          "normalized_end": 24357,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-15438-u01:0013:af8f4fa3ee51fd78",
+        "text": "C# có IDE Visual Studio cùng nhiều plug-in vô cùng mạnh mẽ. ngoài ra có thể viết C# bằng bất kỳ text editor nào khác như Visual Studio Code, Vim, Netbeam...\n\nC# có cấu trúc khá gần gũi với các ngôn ngữ lập trình truyền thống, song cũng được bổ sung các yếu tố mang tính hiện đại nên dễ dàng tiếp cận cho người mới học và học nhanh với C#.\n\nC# có cộng đồng nhà phát triển vô cùng lớn mạnh.\n\nC# được phát triển và cải tiến không ngừng với tần suất 1 phiên bản/ 1 năm, đáp ứng các mong muốn cải thiện, cải tiến cho phù hợp với nhu cầu công nghệ của các nhà phát triển.\n\nC# có tài liệu tham khảo và hướng dẫn vô cùng phong phú và chất lượng, đồng thời có các buổi hội thảo giới thiệu tính năng mới và định hướng phát triển ngôn ngữ trong tương lai.\n\nC# và.NET được đánh giá là có design tốt, vì vậy cú pháp và logic rất nhất quán, mã nguồn C# dễ đọc và mở rộng.\n\nC# được thiết kế và phát triển bởi Microsoft nên rất được Microsoft quan tâm và hỗ trợ.\n\nLịch sử\n\nTừ C và âm nhạc đến C#\n\n",
+        "source_id": "viwiki-15438",
+        "source": "data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-15438-u01",
+        "metadata": {
+          "title": "C Sharp (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-15438-u01",
+          "version": "74454567",
+          "char_end": 11309,
+          "strategy": "B",
+          "char_start": 10328,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 13,
+          "day6_chunk_id": "B:viwiki-15438-u01:0013:af8f4fa3ee51fd78",
+          "location_type": "content_unit",
+          "normalized_end": 24357,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.031754032258064516,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 4
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-15438-u01:0011:736817611b7102c1",
+        "text": "Ngoài ra C# còn có những ưu điểm: C# là ngôn ngữ lập trình mã nguồn mở ,vì vậy C# là miễn phí với tất cả mọi người, đồng thời mọi người đều có thể cùng tham gia phát triển, đề xuất thiết kế ngôn ngữ C# C# là ngôn ngữ đa nền tảng vì vậy có thể biên dịch trên nhiều nền tảng máy tính khác nhau (Windows, Linux, MacOS ) C# có hiệu suất cao và tốc độ thực thi nhanh do sử dụng trình biên dich trung gian ( CLR ), điểm cộng nữa là tốc độ phát triển phần mềm nhanh chóng so với đa số các ngôn ngữ hiện tại. C# có IDE Visual Studio cùng nhiều plug-in vô cùng mạnh mẽ. ngoài ra có thể viết C# bằng bất kỳ text editor nào khác như Visual Studio Code, Vim, Netbeam... C# có cấu trúc khá gần gũi với các ngôn ngữ lập trình truyền thống, song cũng được bổ sung các yếu tố mang tính hiện đại nên dễ dàng tiếp cận cho người mới học và học nhanh với C#. C# có cộng đồng nhà phát triển vô cùng lớn mạnh. C# được phát triển và cải tiến không ngừng với tần suất 1 phiên bản/ 1 năm, đáp ứng các mong muốn cải thiện, cải",
+        "source_id": "viwiki-15438",
+        "source": "data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-15438-u01",
+        "metadata": {
+          "title": "C Sharp (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-15438-u01",
+          "version": "74454567",
+          "char_end": 9415,
+          "strategy": "B",
+          "char_start": 8415,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 11,
+          "day6_chunk_id": "B:viwiki-15438-u01:0011:736817611b7102c1",
+          "location_type": "content_unit",
+          "normalized_end": 24357,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03125763125763126,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03125763125763126,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 3
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-15438-u01:0001:0df5776c48d44325 | data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt | trang viwiki-15438-u01]\nC# ( C Sharp , đọc là \"xi-sáp\" ) là một ngôn ngữ lập trình hướng đối tượng đa năng, mạnh mẽ được phát triển bởi Microsoft , C# là phần khởi đầu cho kế hoạch .NET của họ. Tên của ngôn ngữ bao gồm ký tự thăng theo Microsoft nhưng theo ECMA là C# , chỉ bao gồm dấu số thường. Microsoft phát triển C# dựa trên C++ và Java . C# được miêu tả là ngôn ngữ có được sự cân bằng giữa C++, Visual Basic , Delphi và Java .\n\nC# được thiết kế chủ yếu bởi Anders Hejlsberg kiến trúc sư phần mềm nổi tiếng với các sản phẩm Turbo Pascal , Delphi , J++, WFC. Phiên bản gần đây nhất là 9.0, được phát hành vào năm 2020 cùng với Visual Studio 2019 phiên bản 16.8.\n\nMục tiêu của việc phát triển C#\n\nTiêu chuẩn ECMA liệt kê các mục tiêu của việc thiết kế ngôn ngữ C#:\n\nNgôn ngữ được dự định là một ngôn ngữ lập trình đơn giản, hiện đại, hướng đến nhiều mục đích sử dụng, và là một ngôn ngữ lập trình hướng đối tượng .\n\n\n\n[B:viwiki-15438-u01:0013:af8f4fa3ee51fd78 | data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt | trang viwiki-15438-u01]\nC# có IDE Visual Studio cùng nhiều plug-in vô cùng mạnh mẽ. ngoài ra có thể viết C# bằng bất kỳ text editor nào khác như Visual Studio Code, Vim, Netbeam...\n\nC# có cấu trúc khá gần gũi với các ngôn ngữ lập trình truyền thống, song cũng được bổ sung các yếu tố mang tính hiện đại nên dễ dàng tiếp cận cho người mới học và học nhanh với C#.\n\nC# có cộng đồng nhà phát triển vô cùng lớn mạnh.\n\nC# được phát triển và cải tiến không ngừng với tần suất 1 phiên bản/ 1 năm, đáp ứng các mong muốn cải thiện, cải tiến cho phù hợp với nhu cầu công nghệ của các nhà phát triển.\n\nC# có tài liệu tham khảo và hướng dẫn vô cùng phong phú và chất lượng, đồng thời có các buổi hội thảo giới thiệu tính năng mới và định hướng phát triển ngôn ngữ trong tương lai.\n\nC# và.NET được đánh giá là có design tốt, vì vậy cú pháp và logic rất nhất quán, mã nguồn C# dễ đọc và mở rộng.\n\nC# được thiết kế và phát triển bởi Microsoft nên rất được Microsoft quan tâm và hỗ trợ.\n\nLịch sử\n\nTừ C và âm nhạc đến C#\n\n\n\n[B:viwiki-15438-u01:0011:736817611b7102c1 | data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt | trang viwiki-15438-u01]\nNgoài ra C# còn có những ưu điểm: C# là ngôn ngữ lập trình mã nguồn mở ,vì vậy C# là miễn phí với tất cả mọi người, đồng thời mọi người đều có thể cùng tham gia phát triển, đề xuất thiết kế ngôn ngữ C# C# là ngôn ngữ đa nền tảng vì vậy có thể biên dịch trên nhiều nền tảng máy tính khác nhau (Windows, Linux, MacOS ) C# có hiệu suất cao và tốc độ thực thi nhanh do sử dụng trình biên dich trung gian ( CLR ), điểm cộng nữa là tốc độ phát triển phần mềm nhanh chóng so với đa số các ngôn ngữ hiện tại. C# có IDE Visual Studio cùng nhiều plug-in vô cùng mạnh mẽ. ngoài ra có thể viết C# bằng bất kỳ text editor nào khác như Visual Studio Code, Vim, Netbeam... C# có cấu trúc khá gần gũi với các ngôn ngữ lập trình truyền thống, song cũng được bổ sung các yếu tố mang tính hiện đại nên dễ dàng tiếp cận cho người mới học và học nhanh với C#. C# có cộng đồng nhà phát triển vô cùng lớn mạnh. C# được phát triển và cải tiến không ngừng với tần suất 1 phiên bản/ 1 năm, đáp ứng các mong muốn cải thiện, cải",
+    "context_ids": [
+      "B:viwiki-15438-u01:0001:0df5776c48d44325",
+      "B:viwiki-15438-u01:0013:af8f4fa3ee51fd78",
+      "B:viwiki-15438-u01:0011:736817611b7102c1"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 77.252,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B06",
+    "split": "dev",
+    "original_query": "Nhận định ALGOL 68 không có triển khai và người dùng chỉ đúng một phần vì ngôn ngữ này từng được dùng ở đâu?",
+    "retrieval_query": "Nhận định ALGOL 68 không có triển khai và người dùng chỉ đúng một phần vì ngôn ngữ này từng được dùng ở đâu?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-15481628-u01:0001:1e7534ae1b6be0aa",
+        "text": "ALGOL 68 (viết tắt của Algorithmic Language 1968 ) là ngôn ngữ lập trình máy tính dùng lệnh được coi là sự kế thừa của ngôn ngữ lập trình ALGOL 60 , được thiết kế với mục tiêu phạm vi ứng dụng rộng hơn nhiều và cú pháp và ngữ nghĩa được xác định chặt chẽ hơn.\n\nSự phức tạp của định nghĩa ngôn ngữ, chạy tới hàng trăm trang chứa đầy thuật ngữ không chuẩn, khiến việc thực hiện trình biên dịch của ngôn ngữ lập trình này trở nên khó khăn và người ta nói rằng nó \"không có triển khai và không có người dùng\". Điều này chỉ đúng một phần; ALGOL 68 đã được sử dụng trong một số thị trường thích hợp, đặc biệt là ở Vương quốc Anh nơi nó phổ biến trên các máy ICL và trong vai trò giảng dạy. Bên ngoài những thị trường này, việc sử dụng nó tương đối hạn chế.\n\n",
+        "source_id": "viwiki-15481628",
+        "source": "data/day6/corpus/15481628-algol-68.txt",
+        "page": "viwiki-15481628-u01",
+        "metadata": {
+          "title": "ALGOL 68",
+          "unit_id": "viwiki-15481628-u01",
+          "version": "70939255",
+          "char_end": 752,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/ALGOL_68",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-15481628-u01:0001:1e7534ae1b6be0aa",
+          "location_type": "content_unit",
+          "normalized_end": 4719,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-15481628-u01:0003:289babc6cdb24107",
+        "text": "Các tính năng của ALGOL 68 bao gồm cú pháp dựa trên biểu thức, kiểu khai báo và cấu trúc / liên kết được gắn thẻ của người dùng, mô hình tham chiếu của các biến và tham số tham chiếu, chuỗi, mảng và ma trận cắt, và cả đồng thời.\n\nALGOL 68 được thiết kế bởi Nhóm làm việc IFIP 2.1. Vào ngày 20/12/1968, ngôn ngữ này được Nhóm làm việc 2.1 chính thức thông qua và sau đó được Đại hội đồng IFIP chấp thuận cho xuất bản.\n\nALGOL 68 được định nghĩa bằng cách sử dụng một hình thức ngữ pháp hai cấp độ được phát minh bởi Adriaan van Wijngaarden . Các ngữ pháp Van Wijngaarden sử dụng một ngữ pháp không ngữ cảnh để tạo ra một bộ sản phẩm vô hạn sẽ nhận ra một chương trình ALGOL 68 cụ thể; Đáng chú ý, họ có thể thể hiện loại yêu cầu mà trong nhiều tiêu chuẩn ngôn ngữ lập trình khác được gắn nhãn \"ngữ nghĩa\" và phải được thể hiện bằng văn xuôi ngôn ngữ tự nhiên mơ hồ, và sau đó được triển khai trong trình biên dịch dưới dạng mã ad hoc gắn liền với ngôn ngữ chính thức trình phân tích cú pháp.\n\n",
+        "source_id": "viwiki-15481628",
+        "source": "data/day6/corpus/15481628-algol-68.txt",
+        "page": "viwiki-15481628-u01",
+        "metadata": {
+          "title": "ALGOL 68",
+          "unit_id": "viwiki-15481628-u01",
+          "version": "70939255",
+          "char_end": 2660,
+          "strategy": "B",
+          "char_start": 1669,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/ALGOL_68",
+          "chunk_ordinal": 3,
+          "day6_chunk_id": "B:viwiki-15481628-u01:0003:289babc6cdb24107",
+          "location_type": "content_unit",
+          "normalized_end": 4719,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03225806451612903,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c",
+        "text": "Tuy nhiên, những đóng góp của ALGOL 68 cho lĩnh vực khoa học máy tính rất sâu rộng, rộng khắp và bền bỉ, mặc dù nhiều đóng góp này chỉ được xác định công khai khi chúng xuất hiện trở lại trong các ngôn ngữ lập trình được phát triển sau đó. Nhiều ngôn ngữ được phát triển đặc biệt như là một phản ứng đối với sự phức tạp nhận thức của ngôn ngữ, đáng chú ý nhất là Pascal hoặc được thực hiện lại cho các vai trò cụ thể, như Ada .\n\nNhiều ngôn ngữ của thập niên 1970 theo dõi thiết kế của họ cụ thể theo ALGOL 68, chọn các tính năng cụ thể trong khi từ bỏ các ngôn ngữ khác được coi là quá phức tạp hoặc nằm ngoài phạm vi cho các vai trò cụ thể. Một trong số đó là ngôn ngữ lập trình C , chịu ảnh hưởng trực tiếp của ALGOL 68, đặc biệt là cấu trúc và kiểu dữ li mạnh . Hầu hết các ngôn ngữ hiện đại theo dõi ít nhất một số cú pháp của chúng theo C hoặc Pascal, và do đó trực tiếp hoặc gián tiếp đến ALGOL 68.\n\nTổng quan\n\n",
+        "source_id": "viwiki-15481628",
+        "source": "data/day6/corpus/15481628-algol-68.txt",
+        "page": "viwiki-15481628-u01",
+        "metadata": {
+          "title": "ALGOL 68",
+          "unit_id": "viwiki-15481628-u01",
+          "version": "70939255",
+          "char_end": 1669,
+          "strategy": "B",
+          "char_start": 752,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/ALGOL_68",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c",
+          "location_type": "content_unit",
+          "normalized_end": 4719,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.031746031746031744,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.031746031746031744,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 3
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-15481628-u01:0001:1e7534ae1b6be0aa | data/day6/corpus/15481628-algol-68.txt | trang viwiki-15481628-u01]\nALGOL 68 (viết tắt của Algorithmic Language 1968 ) là ngôn ngữ lập trình máy tính dùng lệnh được coi là sự kế thừa của ngôn ngữ lập trình ALGOL 60 , được thiết kế với mục tiêu phạm vi ứng dụng rộng hơn nhiều và cú pháp và ngữ nghĩa được xác định chặt chẽ hơn.\n\nSự phức tạp của định nghĩa ngôn ngữ, chạy tới hàng trăm trang chứa đầy thuật ngữ không chuẩn, khiến việc thực hiện trình biên dịch của ngôn ngữ lập trình này trở nên khó khăn và người ta nói rằng nó \"không có triển khai và không có người dùng\". Điều này chỉ đúng một phần; ALGOL 68 đã được sử dụng trong một số thị trường thích hợp, đặc biệt là ở Vương quốc Anh nơi nó phổ biến trên các máy ICL và trong vai trò giảng dạy. Bên ngoài những thị trường này, việc sử dụng nó tương đối hạn chế.\n\n\n\n[B:viwiki-15481628-u01:0003:289babc6cdb24107 | data/day6/corpus/15481628-algol-68.txt | trang viwiki-15481628-u01]\nCác tính năng của ALGOL 68 bao gồm cú pháp dựa trên biểu thức, kiểu khai báo và cấu trúc / liên kết được gắn thẻ của người dùng, mô hình tham chiếu của các biến và tham số tham chiếu, chuỗi, mảng và ma trận cắt, và cả đồng thời.\n\nALGOL 68 được thiết kế bởi Nhóm làm việc IFIP 2.1. Vào ngày 20/12/1968, ngôn ngữ này được Nhóm làm việc 2.1 chính thức thông qua và sau đó được Đại hội đồng IFIP chấp thuận cho xuất bản.\n\nALGOL 68 được định nghĩa bằng cách sử dụng một hình thức ngữ pháp hai cấp độ được phát minh bởi Adriaan van Wijngaarden . Các ngữ pháp Van Wijngaarden sử dụng một ngữ pháp không ngữ cảnh để tạo ra một bộ sản phẩm vô hạn sẽ nhận ra một chương trình ALGOL 68 cụ thể; Đáng chú ý, họ có thể thể hiện loại yêu cầu mà trong nhiều tiêu chuẩn ngôn ngữ lập trình khác được gắn nhãn \"ngữ nghĩa\" và phải được thể hiện bằng văn xuôi ngôn ngữ tự nhiên mơ hồ, và sau đó được triển khai trong trình biên dịch dưới dạng mã ad hoc gắn liền với ngôn ngữ chính thức trình phân tích cú pháp.\n\n\n\n[B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c | data/day6/corpus/15481628-algol-68.txt | trang viwiki-15481628-u01]\nTuy nhiên, những đóng góp của ALGOL 68 cho lĩnh vực khoa học máy tính rất sâu rộng, rộng khắp và bền bỉ, mặc dù nhiều đóng góp này chỉ được xác định công khai khi chúng xuất hiện trở lại trong các ngôn ngữ lập trình được phát triển sau đó. Nhiều ngôn ngữ được phát triển đặc biệt như là một phản ứng đối với sự phức tạp nhận thức của ngôn ngữ, đáng chú ý nhất là Pascal hoặc được thực hiện lại cho các vai trò cụ thể, như Ada .\n\nNhiều ngôn ngữ của thập niên 1970 theo dõi thiết kế của họ cụ thể theo ALGOL 68, chọn các tính năng cụ thể trong khi từ bỏ các ngôn ngữ khác được coi là quá phức tạp hoặc nằm ngoài phạm vi cho các vai trò cụ thể. Một trong số đó là ngôn ngữ lập trình C , chịu ảnh hưởng trực tiếp của ALGOL 68, đặc biệt là cấu trúc và kiểu dữ li mạnh . Hầu hết các ngôn ngữ hiện đại theo dõi ít nhất một số cú pháp của chúng theo C hoặc Pascal, và do đó trực tiếp hoặc gián tiếp đến ALGOL 68.\n\nTổng quan\n\n",
+    "context_ids": [
+      "B:viwiki-15481628-u01:0001:1e7534ae1b6be0aa",
+      "B:viwiki-15481628-u01:0003:289babc6cdb24107",
+      "B:viwiki-15481628-u01:0002:55ce1f8c4fa1135c"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 63.48,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B07",
+    "split": "dev",
+    "original_query": "Bộ tự mã hóa được nêu là ứng dụng trong bốn bài toán nào?",
+    "retrieval_query": "Bộ tự mã hóa được nêu là ứng dụng trong bốn bài toán nào?",
+    "query_transformed": false,
+    "filter": {
+      "collection": "khoa_hoc_may_tinh"
+    },
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-19509897-u01:0017:69728501615f9243",
+        "text": "Bộ tự mã hóa đã được áp dụng trong dịch máy bằng neuron (NMT): bộ mã hóa xử lý chuỗi văn bản đầu vào, còn bộ giải mã sinh ra chuỗi tương ứng trong ngôn ngữ đích. Điều này khác với bộ tự mã hóa thông thường ở chỗ đầu ra không phải là tái tạo đầu vào mà là bản dịch. Mặc dù vậy, nhìn chung phương pháp này không phổ biến bằng các mạng thần kinh hồi quy , và hiện nay cả hai đều đã được thay thế bởi các mạng Transformer hiệu quả hơn cho tác vụ này.\n\nHệ thống truyền thông\n\nTrong lĩnh vực truyền thông, bộ tự mã hóa giúp mã hóa dữ liệu thành biểu diễn bền vững hơn trước các suy giảm kênh truyền, từ đó tối thiểu hóa lỗi truyền dẫn. Khác với cách tiếp cận truyền thống thiết kế riêng từng module (mã hóa nguồn, mã hóa kênh, điều chế...), hệ thống dựa trên bộ tự mã hóa tối ưu hóa toàn bộ chuỗi truyền thông từ đầu đến cuối.\n\nTham khảo\n\n",
+        "source_id": "viwiki-19509897",
+        "source": "data/day6/corpus/19509897-bo-tu-ma-hoa.txt",
+        "page": "viwiki-19509897-u01",
+        "metadata": {
+          "title": "Bộ tự mã hóa",
+          "unit_id": "viwiki-19509897-u01",
+          "version": "75710702",
+          "char_end": 12465,
+          "strategy": "B",
+          "char_start": 11632,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_t%E1%BB%B1_m%C3%A3_h%C3%B3a",
+          "chunk_ordinal": 17,
+          "day6_chunk_id": "B:viwiki-19509897-u01:0017:69728501615f9243",
+          "location_type": "content_unit",
+          "normalized_end": 22660,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.031754032258064516,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.031754032258064516,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 4
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-19509897-u01:0002:67e4d7308729839d",
+        "text": "Có nhiều biến thể của bộ tự mã hóa nhằm tạo ra các biểu diễn có ích. Chẳng hạn, các bộ tự mã hóa chính quy hóa ( thưa , khử nhiễu và co rút ) có hiệu quả cao trong việc học biểu diễn phục vụ các tác vụ phân loại , trong khi bộ tự mã hóa biến phân có thể được dùng như một mô hình tạo sinh . Bộ tự mã hóa được ứng dụng trong nhiều bài toán, bao gồm nhận dạng khuôn mặt , phát hiện đặc trưng , phát hiện bất thường , và học nghĩa của từ . Ngoài ra, bộ tự mã hóa còn có thể được dùng để sinh ngẫu nhiên dữ liệu mới có phân phối tương tự dữ liệu huấn luyện.\n\nLịch sử\n\nNền tảng lý thuyết của bộ tự mã hóa xuất hiện từ đầu thập niên 1980, khi Oja (1982) chỉ ra rằng phân tích thành phần chính (PCA) tương đương với một mạng neuron một lớp ẩn với hàm kích hoạt tuyến tính. Baldi và Hornik (1989) cùng Kramer (1991) sau đó tổng quát hóa PCA sang mạng neuron phi tuyến, gọi là \"PCA phi tuyến\".\n\n",
+        "source_id": "viwiki-19509897",
+        "source": "data/day6/corpus/19509897-bo-tu-ma-hoa.txt",
+        "page": "viwiki-19509897-u01",
+        "metadata": {
+          "title": "Bộ tự mã hóa",
+          "unit_id": "viwiki-19509897-u01",
+          "version": "75710702",
+          "char_end": 1378,
+          "strategy": "B",
+          "char_start": 492,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_t%E1%BB%B1_m%C3%A3_h%C3%B3a",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-19509897-u01:0002:67e4d7308729839d",
+          "location_type": "content_unit",
+          "normalized_end": 22660,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03125763125763126,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03125763125763126,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 3
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-19509897-u01:0016:109c1fe4bfcebc9c",
+        "text": "Bộ tự mã hóa có nhiều ứng dụng trong xử lý ảnh. Trong nén ảnh có tổn hao , bộ tự mã hóa cho kết quả ngang ngửa với với phương pháp nén JPEG 2000 . Trong khử nhiễu ảnh, bộ tự mã hóa khử nhiễu được áp dụng rộng rãi trong bối cảnh y tế. Trong chẩn đoán hỗ trợ hình ảnh, bộ tự mã hóa đã được thử nghiệm cho phát hiện ung thư vú và mô hình hóa mối liên hệ giữa suy giảm nhận thức trong bệnh Alzheimer và các đặc trưng học từ ảnh MRI .\n\nKhám phá thuốc\n\nNăm 2019, các phân tử được sinh ra bằng VAE đã được kiểm chứng thực nghiệm trên chuột, mở ra hướng ứng dụng của bộ tự mã hóa trong thiết kế thuốc.\n\nDự đoán độ phổ biến trên mạng xã hội\n\nMột khung bộ tự mã hóa xếp chồng đã cho kết quả khá tốt trong việc dự đoán độ phổ biến của các bài đăng trên mạng xã hội, có ứng dụng thực tiễn trong chiến lược quảng cáo trực tuyến.\n\nDịch máy\n\n",
+        "source_id": "viwiki-19509897",
+        "source": "data/day6/corpus/19509897-bo-tu-ma-hoa.txt",
+        "page": "viwiki-19509897-u01",
+        "metadata": {
+          "title": "Bộ tự mã hóa",
+          "unit_id": "viwiki-19509897-u01",
+          "version": "75710702",
+          "char_end": 11632,
+          "strategy": "B",
+          "char_start": 10805,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_t%E1%BB%B1_m%C3%A3_h%C3%B3a",
+          "chunk_ordinal": 16,
+          "day6_chunk_id": "B:viwiki-19509897-u01:0016:109c1fe4bfcebc9c",
+          "location_type": "content_unit",
+          "normalized_end": 22660,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.0304147465437788,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.0304147465437788,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 2
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-19509897-u01:0017:69728501615f9243 | data/day6/corpus/19509897-bo-tu-ma-hoa.txt | trang viwiki-19509897-u01]\nBộ tự mã hóa đã được áp dụng trong dịch máy bằng neuron (NMT): bộ mã hóa xử lý chuỗi văn bản đầu vào, còn bộ giải mã sinh ra chuỗi tương ứng trong ngôn ngữ đích. Điều này khác với bộ tự mã hóa thông thường ở chỗ đầu ra không phải là tái tạo đầu vào mà là bản dịch. Mặc dù vậy, nhìn chung phương pháp này không phổ biến bằng các mạng thần kinh hồi quy , và hiện nay cả hai đều đã được thay thế bởi các mạng Transformer hiệu quả hơn cho tác vụ này.\n\nHệ thống truyền thông\n\nTrong lĩnh vực truyền thông, bộ tự mã hóa giúp mã hóa dữ liệu thành biểu diễn bền vững hơn trước các suy giảm kênh truyền, từ đó tối thiểu hóa lỗi truyền dẫn. Khác với cách tiếp cận truyền thống thiết kế riêng từng module (mã hóa nguồn, mã hóa kênh, điều chế...), hệ thống dựa trên bộ tự mã hóa tối ưu hóa toàn bộ chuỗi truyền thông từ đầu đến cuối.\n\nTham khảo\n\n\n\n[B:viwiki-19509897-u01:0002:67e4d7308729839d | data/day6/corpus/19509897-bo-tu-ma-hoa.txt | trang viwiki-19509897-u01]\nCó nhiều biến thể của bộ tự mã hóa nhằm tạo ra các biểu diễn có ích. Chẳng hạn, các bộ tự mã hóa chính quy hóa ( thưa , khử nhiễu và co rút ) có hiệu quả cao trong việc học biểu diễn phục vụ các tác vụ phân loại , trong khi bộ tự mã hóa biến phân có thể được dùng như một mô hình tạo sinh . Bộ tự mã hóa được ứng dụng trong nhiều bài toán, bao gồm nhận dạng khuôn mặt , phát hiện đặc trưng , phát hiện bất thường , và học nghĩa của từ . Ngoài ra, bộ tự mã hóa còn có thể được dùng để sinh ngẫu nhiên dữ liệu mới có phân phối tương tự dữ liệu huấn luyện.\n\nLịch sử\n\nNền tảng lý thuyết của bộ tự mã hóa xuất hiện từ đầu thập niên 1980, khi Oja (1982) chỉ ra rằng phân tích thành phần chính (PCA) tương đương với một mạng neuron một lớp ẩn với hàm kích hoạt tuyến tính. Baldi và Hornik (1989) cùng Kramer (1991) sau đó tổng quát hóa PCA sang mạng neuron phi tuyến, gọi là \"PCA phi tuyến\".\n\n\n\n[B:viwiki-19509897-u01:0016:109c1fe4bfcebc9c | data/day6/corpus/19509897-bo-tu-ma-hoa.txt | trang viwiki-19509897-u01]\nBộ tự mã hóa có nhiều ứng dụng trong xử lý ảnh. Trong nén ảnh có tổn hao , bộ tự mã hóa cho kết quả ngang ngửa với với phương pháp nén JPEG 2000 . Trong khử nhiễu ảnh, bộ tự mã hóa khử nhiễu được áp dụng rộng rãi trong bối cảnh y tế. Trong chẩn đoán hỗ trợ hình ảnh, bộ tự mã hóa đã được thử nghiệm cho phát hiện ung thư vú và mô hình hóa mối liên hệ giữa suy giảm nhận thức trong bệnh Alzheimer và các đặc trưng học từ ảnh MRI .\n\nKhám phá thuốc\n\nNăm 2019, các phân tử được sinh ra bằng VAE đã được kiểm chứng thực nghiệm trên chuột, mở ra hướng ứng dụng của bộ tự mã hóa trong thiết kế thuốc.\n\nDự đoán độ phổ biến trên mạng xã hội\n\nMột khung bộ tự mã hóa xếp chồng đã cho kết quả khá tốt trong việc dự đoán độ phổ biến của các bài đăng trên mạng xã hội, có ứng dụng thực tiễn trong chiến lược quảng cáo trực tuyến.\n\nDịch máy\n\n",
+    "context_ids": [
+      "B:viwiki-19509897-u01:0017:69728501615f9243",
+      "B:viwiki-19509897-u01:0002:67e4d7308729839d",
+      "B:viwiki-19509897-u01:0016:109c1fe4bfcebc9c"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 76.884,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B08",
+    "split": "dev",
+    "original_query": "MNIST chứa loại dữ liệu nào, các chữ số trong phạm vi nào và do những ai tạo ra?",
+    "retrieval_query": "MNIST chứa loại dữ liệu nào, các chữ số trong phạm vi nào và do những ai tạo ra?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-19549095-u01:0001:da278e883aab3e82",
+        "text": "Cơ sở dữ liệu MNIST ( tiếng Anh : MNIST database , viết tắt từ Modified National Institute of Standards and Technology database , dịch là Cơ sở Dữ liệu từ Viện Tiêu chuẩn và Công nghệ Quốc gia đã qua Chỉnh sửa ) là một cơ sở dữ liệu lớn gồm các chữ số viết tay từ 0 đến 9, được tạo ra bởi Yann LeCun , Corinna Cortes và Christopher J.C. Burges .\n\nMNIST bao gồm 60.000 ảnh huấn luyện và 10.000 ảnh kiểm thử, mỗi ảnh là một chữ số từ 0 đến 9 trên nền đen, kích thước 28×28 pixel, mã hóa thang xám. Đây là một trong những tập dữ liệu chuẩn phổ biến nhất trong học máy và thị giác máy tính , thường được dùng để đánh giá và so sánh các thuật toán phân loại ảnh .\n\nTệp dữ liệu\n\nMỗi ảnh trong MNIST được chuẩn hóa về kích thước 28×28 pixel bằng cách thu nhỏ ảnh gốc vào một khung 20×20 pixel, rồi dịch chuyển ảnh sao cho khối tâm của các điểm ảnh nằm ở trung tâm khung 28×28. Quá trình thu nhỏ áp dụng khử răng cưa ( anti-aliasing ), tạo ra các mức xám trung gian thay vì chỉ đen trắng thuần túy.\n\n",
+        "source_id": "viwiki-19549095",
+        "source": "data/day6/corpus/19549095-co-so-du-lieu-mnist.txt",
+        "page": "viwiki-19549095-u01",
+        "metadata": {
+          "title": "Cơ sở dữ liệu MNIST",
+          "unit_id": "viwiki-19549095-u01",
+          "version": "75631947",
+          "char_end": 992,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_s%E1%BB%9F_d%E1%BB%AF_li%E1%BB%87u_MNIST",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-19549095-u01:0001:da278e883aab3e82",
+          "location_type": "content_unit",
+          "normalized_end": 10979,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-19549095-u01:0003:5784c7b735f7b78a",
+        "text": "Fashion-MNIST được Zalando Research tạo ra năm 2017 như một thay thế khó hơn cho MNIST. Tập dữ liệu gồm 70.000 ảnh 28×28 pixel của các sản phẩm thời trang thuộc 10 danh mục, chia thành 60.000 ảnh huấn luyện và 10.000 ảnh kiểm thử – giữ nguyên định dạng của MNIST để có thể dùng thay thế trực tiếp.\n\nLịch sử\n\nVào cuối những năm 1980s, Cục điều tra dân số Hoa Kỳ muốn tự động hóa việc đọc các mẫu điều tra viết tay, nên đã thuê Nhóm Nhận dạng Ảnh ( Image Recognition Group ) của NIST nghiên cứu các hệ thống nhận dạng ký tự quang học ( OCR ). Song song đó, Bưu điện Hoa Kỳ cũng có nhu cầu tương tự khi cần đọc mã bưu chính viết tay trên thư từ. Cả hai bài toán thực tiễn này đều đặt ra một câu hỏi cốt lõi: làm thế nào để máy tính nhận dạng được chữ số viết tay vốn rất đa dạng về phong cách giữa các cá nhân?\n\n",
+        "source_id": "viwiki-19549095",
+        "source": "data/day6/corpus/19549095-co-so-du-lieu-mnist.txt",
+        "page": "viwiki-19549095-u01",
+        "metadata": {
+          "title": "Cơ sở dữ liệu MNIST",
+          "unit_id": "viwiki-19549095-u01",
+          "version": "75631947",
+          "char_end": 2680,
+          "strategy": "B",
+          "char_start": 1871,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_s%E1%BB%9F_d%E1%BB%AF_li%E1%BB%87u_MNIST",
+          "chunk_ordinal": 3,
+          "day6_chunk_id": "B:viwiki-19549095-u01:0003:5784c7b735f7b78a",
+          "location_type": "content_unit",
+          "normalized_end": 10979,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03200204813108039,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03200204813108039,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-19549095-u01:0002:8225b108185c16a0",
+        "text": "Tập huấn luyện và tập kiểm thử đều được lấy từ hai nguồn: nhân viên Cục điều tra dân số Hoa Kỳ và học sinh trung học phổ thông ở Bethesda, Maryland . Mỗi nguồn đóng góp 250 người viết vào tập huấn luyện và 250 người viết vào tập kiểm thử, đảm bảo cả hai tập có phân phối tương đồng nhau.\n\nTrong tập dữ liệu này, có ít nhất 4 ảnh bị dán nhãn sai.\n\nCác biến thể\n\nNăm 2019, Yadav và Bottou phục dựng lại toàn bộ 60.000 ảnh kiểm thử gốc vốn bị loại bỏ khi tạo MNIST, từ đó xây dựng QMNIST , gồm 60.000 ảnh huấn luyện và 60.000 ảnh kiểm thử.\n\nEMNIST ( Extended MNIST ) được NIST phát hành năm 2017 như phiên bản kế thừa chính thức của MNIST. EMNIST được xây dựng từ toàn bộ dữ liệu trong SD-19, chuyển đổi về cùng định dạng 28×28 pixel, và bổ sung thêm chữ cái viết tay bên cạnh chữ số, do đó các công cụ viết cho MNIST thường hoạt động được ngay trên EMNIST mà không cần chỉnh sửa.\n\n",
+        "source_id": "viwiki-19549095",
+        "source": "data/day6/corpus/19549095-co-so-du-lieu-mnist.txt",
+        "page": "viwiki-19549095-u01",
+        "metadata": {
+          "title": "Cơ sở dữ liệu MNIST",
+          "unit_id": "viwiki-19549095-u01",
+          "version": "75631947",
+          "char_end": 1871,
+          "strategy": "B",
+          "char_start": 992,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_s%E1%BB%9F_d%E1%BB%AF_li%E1%BB%87u_MNIST",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-19549095-u01:0002:8225b108185c16a0",
+          "location_type": "content_unit",
+          "normalized_end": 10979,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03125763125763126,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03125763125763126,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 3
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-19549095-u01:0001:da278e883aab3e82 | data/day6/corpus/19549095-co-so-du-lieu-mnist.txt | trang viwiki-19549095-u01]\nCơ sở dữ liệu MNIST ( tiếng Anh : MNIST database , viết tắt từ Modified National Institute of Standards and Technology database , dịch là Cơ sở Dữ liệu từ Viện Tiêu chuẩn và Công nghệ Quốc gia đã qua Chỉnh sửa ) là một cơ sở dữ liệu lớn gồm các chữ số viết tay từ 0 đến 9, được tạo ra bởi Yann LeCun , Corinna Cortes và Christopher J.C. Burges .\n\nMNIST bao gồm 60.000 ảnh huấn luyện và 10.000 ảnh kiểm thử, mỗi ảnh là một chữ số từ 0 đến 9 trên nền đen, kích thước 28×28 pixel, mã hóa thang xám. Đây là một trong những tập dữ liệu chuẩn phổ biến nhất trong học máy và thị giác máy tính , thường được dùng để đánh giá và so sánh các thuật toán phân loại ảnh .\n\nTệp dữ liệu\n\nMỗi ảnh trong MNIST được chuẩn hóa về kích thước 28×28 pixel bằng cách thu nhỏ ảnh gốc vào một khung 20×20 pixel, rồi dịch chuyển ảnh sao cho khối tâm của các điểm ảnh nằm ở trung tâm khung 28×28. Quá trình thu nhỏ áp dụng khử răng cưa ( anti-aliasing ), tạo ra các mức xám trung gian thay vì chỉ đen trắng thuần túy.\n\n\n\n[B:viwiki-19549095-u01:0003:5784c7b735f7b78a | data/day6/corpus/19549095-co-so-du-lieu-mnist.txt | trang viwiki-19549095-u01]\nFashion-MNIST được Zalando Research tạo ra năm 2017 như một thay thế khó hơn cho MNIST. Tập dữ liệu gồm 70.000 ảnh 28×28 pixel của các sản phẩm thời trang thuộc 10 danh mục, chia thành 60.000 ảnh huấn luyện và 10.000 ảnh kiểm thử – giữ nguyên định dạng của MNIST để có thể dùng thay thế trực tiếp.\n\nLịch sử\n\nVào cuối những năm 1980s, Cục điều tra dân số Hoa Kỳ muốn tự động hóa việc đọc các mẫu điều tra viết tay, nên đã thuê Nhóm Nhận dạng Ảnh ( Image Recognition Group ) của NIST nghiên cứu các hệ thống nhận dạng ký tự quang học ( OCR ). Song song đó, Bưu điện Hoa Kỳ cũng có nhu cầu tương tự khi cần đọc mã bưu chính viết tay trên thư từ. Cả hai bài toán thực tiễn này đều đặt ra một câu hỏi cốt lõi: làm thế nào để máy tính nhận dạng được chữ số viết tay vốn rất đa dạng về phong cách giữa các cá nhân?\n\n\n\n[B:viwiki-19549095-u01:0002:8225b108185c16a0 | data/day6/corpus/19549095-co-so-du-lieu-mnist.txt | trang viwiki-19549095-u01]\nTập huấn luyện và tập kiểm thử đều được lấy từ hai nguồn: nhân viên Cục điều tra dân số Hoa Kỳ và học sinh trung học phổ thông ở Bethesda, Maryland . Mỗi nguồn đóng góp 250 người viết vào tập huấn luyện và 250 người viết vào tập kiểm thử, đảm bảo cả hai tập có phân phối tương đồng nhau.\n\nTrong tập dữ liệu này, có ít nhất 4 ảnh bị dán nhãn sai.\n\nCác biến thể\n\nNăm 2019, Yadav và Bottou phục dựng lại toàn bộ 60.000 ảnh kiểm thử gốc vốn bị loại bỏ khi tạo MNIST, từ đó xây dựng QMNIST , gồm 60.000 ảnh huấn luyện và 60.000 ảnh kiểm thử.\n\nEMNIST ( Extended MNIST ) được NIST phát hành năm 2017 như phiên bản kế thừa chính thức của MNIST. EMNIST được xây dựng từ toàn bộ dữ liệu trong SD-19, chuyển đổi về cùng định dạng 28×28 pixel, và bổ sung thêm chữ cái viết tay bên cạnh chữ số, do đó các công cụ viết cho MNIST thường hoạt động được ngay trên EMNIST mà không cần chỉnh sửa.\n\n",
+    "context_ids": [
+      "B:viwiki-19549095-u01:0001:da278e883aab3e82",
+      "B:viwiki-19549095-u01:0003:5784c7b735f7b78a",
+      "B:viwiki-19549095-u01:0002:8225b108185c16a0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 59.893,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B09",
+    "split": "dev",
+    "original_query": "ImageNet được xây dựng từ năm nào, bởi ai, và cuối cùng có quy mô khoảng bao nhiêu?",
+    "retrieval_query": "ImageNet được xây dựng từ năm nào, bởi ai, và cuối cùng có quy mô khoảng bao nhiêu?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-19991504-u01:0003:87d0add1a5bc30a2",
+        "text": "Năm 2011, Geoffrey Hinton bắt đầu tiếp cận các đồng nghiệp với câu hỏi làm thế nào để thuyết phục họ rằng mạng thần kinh là tương lai. Jitendra Malik , một người hoài nghi về mạng thần kinh, đề xuất thử thách PASCAL Visual Object Classes. Hinton cho rằng tập dữ liệu đó quá nhỏ, và Malik giới thiệu ông với cuộc thi ImageNet .\n\nTập dữ liệu ImageNet , yếu tố trung tâm cho thành công của AlexNet, được Fei-Fei Li và các cộng sự xây dựng từ năm 2007. Với mục tiêu thúc đẩy nhận dạng hình ảnh qua dữ liệu quy mô lớn, Li đã tạo ra một tập dữ liệu lớn hơn nhiều so với các nỗ lực trước đó, cuối cùng chứa hơn 14 triệu ảnh có nhãn thuộc 22.000 danh mục. ImageNet sau đó trở thành nền tảng của thử thách ILSVRC và một nguồn tài nguyên chủ chốt trong sự trỗi dậy của học sâu .\n\n",
+        "source_id": "viwiki-19991504",
+        "source": "data/day6/corpus/19991504-alexnet.txt",
+        "page": "viwiki-19991504-u01",
+        "metadata": {
+          "title": "AlexNet",
+          "unit_id": "viwiki-19991504-u01",
+          "version": "75631927",
+          "char_end": 2304,
+          "strategy": "B",
+          "char_start": 1534,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AlexNet",
+          "chunk_ordinal": 3,
+          "day6_chunk_id": "B:viwiki-19991504-u01:0003:87d0add1a5bc30a2",
+          "location_type": "content_unit",
+          "normalized_end": 9157,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-19991504-u01:0001:0f653a3fbc7e2689",
+        "text": "AlexNet là một kiến trúc mạng thần kinh tích chập được phát triển để phân loại hình ảnh, nổi bật qua thành tích tại cuộc thi nhận dạng hình ảnh quy mô lớn ImageNet ( ImageNet Large Scale Visual Recognition Challenge , ILSVRC). Mô hình phân loại hình ảnh vào 1.000 danh mục đối tượng khác nhau và được xem là ứng dụng đầu tiên được công nhận rộng rãi của mạng thần kinh tích chập sâu trong nhận dạng hình ảnh quy mô lớn.\n\nAlexNet được phát triển năm 2012 bởi Alex Krizhevsky cùng với Ilya Sutskever và người hướng dẫn nghiên cứu sinh của ông là Geoffrey Hinton tại Đại học Toronto . Mô hình chứa 60 triệu tham số và 650.000 neuron nhân tạo . Kết quả chính của bài báo gốc là độ sâu của mô hình đóng vai trò thiết yếu với hiệu suất cao, đòi hỏi chi phí tính toán lớn nhưng khả thi nhờ sử dụng bộ xử lý đồ họa (GPU) trong quá trình huấn luyện.\n\n",
+        "source_id": "viwiki-19991504",
+        "source": "data/day6/corpus/19991504-alexnet.txt",
+        "page": "viwiki-19991504-u01",
+        "metadata": {
+          "title": "AlexNet",
+          "unit_id": "viwiki-19991504-u01",
+          "version": "75631927",
+          "char_end": 842,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AlexNet",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-19991504-u01:0001:0f653a3fbc7e2689",
+          "location_type": "content_unit",
+          "normalized_end": 9157,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03125763125763126,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03125763125763126,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 5
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-19992736-u01:0004:6d2f9ccd30eae9de",
+        "text": "trường chứng khoán Mỹ lên cao.\n\nDeepSeek và những lo ngại đầu tiên\n\nVào cuối tháng 1 năm 2025, sự ra mắt bất ngờ thành công của chatbot do Trung Quốc phát triển là DeepSeek đã làm dấy lên lo ngại về bong bóng AI. DeepSeek công bố đã xây dựng một mô hình AI có hiệu năng ngang ngửa các sản phẩm hàng đầu của OpenAI và Google, nhưng chỉ tốn khoảng 6 triệu đô la tiền tính toán – một phần rất nhỏ so với hàng trăm triệu đến hàng tỷ đô la mà các công ty Mỹ chi cho mỗi mô hình. Điều này đặt ra câu hỏi mà giới đầu tư không thể bỏ qua: nếu AI có thể được phát triển với chi phí thấp đến vậy, thì liệu hàng nghìn tỷ đô la đang được đổ vào chip GPU và trung tâm dữ liệu có thực sự cần thiết không? Ngay lập tức, giá cổ phiếu của nhiều công ty AI lao dốc, trong đó cổ phiếu Nvidia giảm 17% chỉ trong một ngày, tương đương khoảng 593 tỷ đô la giá trị vốn hóa bị xóa sổ chỉ trong một ngày.\n\n",
+        "source_id": "viwiki-19992736",
+        "source": "data/day6/corpus/19992736-bong-bong-ai.txt",
+        "page": "viwiki-19992736-u01",
+        "metadata": {
+          "title": "Bong bóng AI",
+          "unit_id": "viwiki-19992736-u01",
+          "version": "75582588",
+          "char_end": 3528,
+          "strategy": "B",
+          "char_start": 2647,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Bong_b%C3%B3ng_AI",
+          "chunk_ordinal": 4,
+          "day6_chunk_id": "B:viwiki-19992736-u01:0004:6d2f9ccd30eae9de",
+          "location_type": "content_unit",
+          "normalized_end": 32102,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03057889822595705,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03057889822595705,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 3
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-19991504-u01:0003:87d0add1a5bc30a2 | data/day6/corpus/19991504-alexnet.txt | trang viwiki-19991504-u01]\nNăm 2011, Geoffrey Hinton bắt đầu tiếp cận các đồng nghiệp với câu hỏi làm thế nào để thuyết phục họ rằng mạng thần kinh là tương lai. Jitendra Malik , một người hoài nghi về mạng thần kinh, đề xuất thử thách PASCAL Visual Object Classes. Hinton cho rằng tập dữ liệu đó quá nhỏ, và Malik giới thiệu ông với cuộc thi ImageNet .\n\nTập dữ liệu ImageNet , yếu tố trung tâm cho thành công của AlexNet, được Fei-Fei Li và các cộng sự xây dựng từ năm 2007. Với mục tiêu thúc đẩy nhận dạng hình ảnh qua dữ liệu quy mô lớn, Li đã tạo ra một tập dữ liệu lớn hơn nhiều so với các nỗ lực trước đó, cuối cùng chứa hơn 14 triệu ảnh có nhãn thuộc 22.000 danh mục. ImageNet sau đó trở thành nền tảng của thử thách ILSVRC và một nguồn tài nguyên chủ chốt trong sự trỗi dậy của học sâu .\n\n\n\n[B:viwiki-19991504-u01:0001:0f653a3fbc7e2689 | data/day6/corpus/19991504-alexnet.txt | trang viwiki-19991504-u01]\nAlexNet là một kiến trúc mạng thần kinh tích chập được phát triển để phân loại hình ảnh, nổi bật qua thành tích tại cuộc thi nhận dạng hình ảnh quy mô lớn ImageNet ( ImageNet Large Scale Visual Recognition Challenge , ILSVRC). Mô hình phân loại hình ảnh vào 1.000 danh mục đối tượng khác nhau và được xem là ứng dụng đầu tiên được công nhận rộng rãi của mạng thần kinh tích chập sâu trong nhận dạng hình ảnh quy mô lớn.\n\nAlexNet được phát triển năm 2012 bởi Alex Krizhevsky cùng với Ilya Sutskever và người hướng dẫn nghiên cứu sinh của ông là Geoffrey Hinton tại Đại học Toronto . Mô hình chứa 60 triệu tham số và 650.000 neuron nhân tạo . Kết quả chính của bài báo gốc là độ sâu của mô hình đóng vai trò thiết yếu với hiệu suất cao, đòi hỏi chi phí tính toán lớn nhưng khả thi nhờ sử dụng bộ xử lý đồ họa (GPU) trong quá trình huấn luyện.\n\n\n\n[B:viwiki-19992736-u01:0004:6d2f9ccd30eae9de | data/day6/corpus/19992736-bong-bong-ai.txt | trang viwiki-19992736-u01]\ntrường chứng khoán Mỹ lên cao.\n\nDeepSeek và những lo ngại đầu tiên\n\nVào cuối tháng 1 năm 2025, sự ra mắt bất ngờ thành công của chatbot do Trung Quốc phát triển là DeepSeek đã làm dấy lên lo ngại về bong bóng AI. DeepSeek công bố đã xây dựng một mô hình AI có hiệu năng ngang ngửa các sản phẩm hàng đầu của OpenAI và Google, nhưng chỉ tốn khoảng 6 triệu đô la tiền tính toán – một phần rất nhỏ so với hàng trăm triệu đến hàng tỷ đô la mà các công ty Mỹ chi cho mỗi mô hình. Điều này đặt ra câu hỏi mà giới đầu tư không thể bỏ qua: nếu AI có thể được phát triển với chi phí thấp đến vậy, thì liệu hàng nghìn tỷ đô la đang được đổ vào chip GPU và trung tâm dữ liệu có thực sự cần thiết không? Ngay lập tức, giá cổ phiếu của nhiều công ty AI lao dốc, trong đó cổ phiếu Nvidia giảm 17% chỉ trong một ngày, tương đương khoảng 593 tỷ đô la giá trị vốn hóa bị xóa sổ chỉ trong một ngày.\n\n",
+    "context_ids": [
+      "B:viwiki-19991504-u01:0003:87d0add1a5bc30a2",
+      "B:viwiki-19991504-u01:0001:0f653a3fbc7e2689",
+      "B:viwiki-19992736-u01:0004:6d2f9ccd30eae9de"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 64.299,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B10",
+    "split": "dev",
+    "original_query": "Hai nguyên nhân chính nào làm dấy lên lo ngại về bong bóng AI?",
+    "retrieval_query": "Hai nguyên nhân chính nào làm dấy lên lo ngại về bong bóng AI?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-19992736-u01:0001:da2b9f5b186ccfd7",
+        "text": "Bong bóng AI ( tiếng Anh : AI bubble ) là một bong bóng thị trường chứng khoán được cho là đang hình thành trong bối cảnh bùng nổ AI , một giai đoạn mà đầu tư vào lĩnh vực trí tuệ nhân tạo (AI) đang gia tăng nhanh chóng, tác động trực tiếp đến nền kinh tế rộng lớn hơn. Lo ngại về bong bóng phần lớn xuất phát từ việc các công ty công nghệ AI hàng đầu tham gia vào một vòng đầu tư tuần hoàn nhằm thổi phồng giá trị cổ phiếu của nhau, trong khi không thu lại được số tiền vốn bỏ ra. Bên cạnh đó, nhiều người cũng đưa ra sự so sánh giữa môi trường tài chính công nghệ hiện tại với bong bóng dot-com vào cuối thập niên 1990 và đầu thập niên 2000.\n\nLịch sử\n\nSự bùng nổ của trí tuệ nhân tạo\n\n",
+        "source_id": "viwiki-19992736",
+        "source": "data/day6/corpus/19992736-bong-bong-ai.txt",
+        "page": "viwiki-19992736-u01",
+        "metadata": {
+          "title": "Bong bóng AI",
+          "unit_id": "viwiki-19992736-u01",
+          "version": "75582588",
+          "char_end": 687,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Bong_b%C3%B3ng_AI",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-19992736-u01:0001:da2b9f5b186ccfd7",
+          "location_type": "content_unit",
+          "normalized_end": 32102,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.0315136476426799,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.0315136476426799,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 2
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-19992736-u01:0019:cdcab8db780d2ae0",
+        "text": "Bong bóng AI đã thu hút nhiều so sánh với bong bóng dot-com thập niên 2000. Nhà đầu tư tỷ phú Ray Dalio (người từng dự đoán được khủng hoảng tài chính 2008 ) cảnh báo rằng bong bóng AI phản ánh bong bóng dot-com ở chỗ định giá cổ phiếu công nghệ bị thổi phồng quá mức trong môi trường lãi suất thấp. Trong khi đó, nhà chuyên gia về quan hệ công chúng Ed Zitron cho rằng sự so sánh với bong bóng dot-com là còn nhẹ, bởi vì bong bóng AI còn lớn hơn và do đó sẽ gây tổn hại nhiều hơn khi vỡ. Tài sản cơ bản của bong bóng AI là GPU , thứ có chi phí và công năng hạn chế hơn nhiều so với hạ tầng mạng và cáp quang của thời dot-com. Julien Garran, nhà nghiên cứu và đối tác tại MacroStrategy Partnership, công bố báo cáo vào tháng 10 năm 2025 gọi bong bóng AI là \"bong bóng lớn nhất và nguy hiểm nhất thế giới từng chứng kiến\", với quy mô gấp 17 lần so với bong bóng dot-com.\n\nTuyên bố của Ngân hàng Trung ương Anh\n\n",
+        "source_id": "viwiki-19992736",
+        "source": "data/day6/corpus/19992736-bong-bong-ai.txt",
+        "page": "viwiki-19992736-u01",
+        "metadata": {
+          "title": "Bong bóng AI",
+          "unit_id": "viwiki-19992736-u01",
+          "version": "75582588",
+          "char_end": 14346,
+          "strategy": "B",
+          "char_start": 13436,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Bong_b%C3%B3ng_AI",
+          "chunk_ordinal": 19,
+          "day6_chunk_id": "B:viwiki-19992736-u01:0019:cdcab8db780d2ae0",
+          "location_type": "content_unit",
+          "normalized_end": 32102,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.0315136476426799,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.0315136476426799,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 5
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-19996278-u01:0026:e47b2ffc0db7917b",
+        "text": "Một số nhà kinh tế học tỏ ra lạc quan về tiềm năng của AI trong việc thúc đẩy năng suất và tăng trưởng kinh tế . Nhà kinh tế học Erik Brynjolfsson của Đại học Stanford đã đưa ra lập luận về một \"sự bùng nổ năng suất nhờ AI\", trong khi nhà kinh tế học Robert Gordon của Đại học Northwestern lại bi quan hơn về tác động thực tế do kỳ vọng tương tự đối với sự bùng nổ của công nghệ thông tin đã không những không xảy ra mà còn góp phần vào sự hình thành của bong bóng dot-com . Hai người thậm chí đã đặt cược chính thức tại Long Bets về tốc độ tăng năng suất trong thập niên 2020, dự kiến phân giải vào cuối thập kỷ.\n\n",
+        "source_id": "viwiki-19996278",
+        "source": "data/day6/corpus/19996278-con-sot-ai.txt",
+        "page": "viwiki-19996278-u01",
+        "metadata": {
+          "title": "Cơn sốt AI",
+          "unit_id": "viwiki-19996278-u01",
+          "version": "75582584",
+          "char_end": 19698,
+          "strategy": "B",
+          "char_start": 19083,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1n_s%E1%BB%91t_AI",
+          "chunk_ordinal": 26,
+          "day6_chunk_id": "B:viwiki-19996278-u01:0026:e47b2ffc0db7917b",
+          "location_type": "content_unit",
+          "normalized_end": 37414,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.030679156908665108,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.030679156908665108,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 10
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-19992736-u01:0001:da2b9f5b186ccfd7 | data/day6/corpus/19992736-bong-bong-ai.txt | trang viwiki-19992736-u01]\nBong bóng AI ( tiếng Anh : AI bubble ) là một bong bóng thị trường chứng khoán được cho là đang hình thành trong bối cảnh bùng nổ AI , một giai đoạn mà đầu tư vào lĩnh vực trí tuệ nhân tạo (AI) đang gia tăng nhanh chóng, tác động trực tiếp đến nền kinh tế rộng lớn hơn. Lo ngại về bong bóng phần lớn xuất phát từ việc các công ty công nghệ AI hàng đầu tham gia vào một vòng đầu tư tuần hoàn nhằm thổi phồng giá trị cổ phiếu của nhau, trong khi không thu lại được số tiền vốn bỏ ra. Bên cạnh đó, nhiều người cũng đưa ra sự so sánh giữa môi trường tài chính công nghệ hiện tại với bong bóng dot-com vào cuối thập niên 1990 và đầu thập niên 2000.\n\nLịch sử\n\nSự bùng nổ của trí tuệ nhân tạo\n\n\n\n[B:viwiki-19992736-u01:0019:cdcab8db780d2ae0 | data/day6/corpus/19992736-bong-bong-ai.txt | trang viwiki-19992736-u01]\nBong bóng AI đã thu hút nhiều so sánh với bong bóng dot-com thập niên 2000. Nhà đầu tư tỷ phú Ray Dalio (người từng dự đoán được khủng hoảng tài chính 2008 ) cảnh báo rằng bong bóng AI phản ánh bong bóng dot-com ở chỗ định giá cổ phiếu công nghệ bị thổi phồng quá mức trong môi trường lãi suất thấp. Trong khi đó, nhà chuyên gia về quan hệ công chúng Ed Zitron cho rằng sự so sánh với bong bóng dot-com là còn nhẹ, bởi vì bong bóng AI còn lớn hơn và do đó sẽ gây tổn hại nhiều hơn khi vỡ. Tài sản cơ bản của bong bóng AI là GPU , thứ có chi phí và công năng hạn chế hơn nhiều so với hạ tầng mạng và cáp quang của thời dot-com. Julien Garran, nhà nghiên cứu và đối tác tại MacroStrategy Partnership, công bố báo cáo vào tháng 10 năm 2025 gọi bong bóng AI là \"bong bóng lớn nhất và nguy hiểm nhất thế giới từng chứng kiến\", với quy mô gấp 17 lần so với bong bóng dot-com.\n\nTuyên bố của Ngân hàng Trung ương Anh\n\n\n\n[B:viwiki-19996278-u01:0026:e47b2ffc0db7917b | data/day6/corpus/19996278-con-sot-ai.txt | trang viwiki-19996278-u01]\nMột số nhà kinh tế học tỏ ra lạc quan về tiềm năng của AI trong việc thúc đẩy năng suất và tăng trưởng kinh tế . Nhà kinh tế học Erik Brynjolfsson của Đại học Stanford đã đưa ra lập luận về một \"sự bùng nổ năng suất nhờ AI\", trong khi nhà kinh tế học Robert Gordon của Đại học Northwestern lại bi quan hơn về tác động thực tế do kỳ vọng tương tự đối với sự bùng nổ của công nghệ thông tin đã không những không xảy ra mà còn góp phần vào sự hình thành của bong bóng dot-com . Hai người thậm chí đã đặt cược chính thức tại Long Bets về tốc độ tăng năng suất trong thập niên 2020, dự kiến phân giải vào cuối thập kỷ.\n\n",
+    "context_ids": [
+      "B:viwiki-19992736-u01:0001:da2b9f5b186ccfd7",
+      "B:viwiki-19992736-u01:0019:cdcab8db780d2ae0",
+      "B:viwiki-19996278-u01:0026:e47b2ffc0db7917b"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 61.244,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B11",
+    "split": "dev",
+    "original_query": "ChatGPT ra mắt khi nào và mất bao lâu để đạt 100 triệu người dùng?",
+    "retrieval_query": "ChatGPT ra mắt khi nào và mất bao lâu để đạt 100 triệu người dùng?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-19996278-u01:0009:dd58bc90e21fe2f8",
+        "text": "Bước ngoặt đó đến vào tháng 11 năm 2022 khi OpenAI ra mắt ChatGPT , một giao diện trò chuyện trực tiếp cho phép bất kỳ ai cũng có thể tương tác với mô hình ngôn ngữ lớn mà không cần kiến thức kỹ thuật. ChatGPT đạt 100 triệu người dùng chỉ trong hai tháng, trở thành ứng dụng phần mềm tăng trưởng nhanh nhất trong lịch sử tính đến thời điểm đó.\n\nSự kiện này châm ngòi cho một cuộc chạy đua vũ trang giữa các tập đoàn công nghệ lớn. Google nhanh chóng ra mắt Bard rồi Gemini ; Anthropic phát triển Claude với trọng tâm về an toàn mô hình; xAI của Elon Musk giới thiệu Grok và tích hợp trực tiếp vào nền tảng X (trước đây là Twitter ); Meta phát hành dòng mô hình LLaMA theo hướng mở mã nguồn; còn Microsoft đầu tư hàng chục tỷ đô la vào OpenAI và tích hợp AI vào hệ sinh thái sản phẩm thông qua Copilot .\n\n",
+        "source_id": "viwiki-19996278",
+        "source": "data/day6/corpus/19996278-con-sot-ai.txt",
+        "page": "viwiki-19996278-u01",
+        "metadata": {
+          "title": "Cơn sốt AI",
+          "unit_id": "viwiki-19996278-u01",
+          "version": "75582584",
+          "char_end": 7029,
+          "strategy": "B",
+          "char_start": 6225,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1n_s%E1%BB%91t_AI",
+          "chunk_ordinal": 9,
+          "day6_chunk_id": "B:viwiki-19996278-u01:0009:dd58bc90e21fe2f8",
+          "location_type": "content_unit",
+          "normalized_end": 37414,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03252247488101534,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-19992736-u01:0002:1dccfce90830458b",
+        "text": "Trí tuệ nhân tạo (AI) là lĩnh vực khoa học máy tính nghiên cứu cách tạo ra các hệ thống có khả năng thực hiện những nhiệm vụ thường đòi hỏi trí thông minh của con người, chẳng hạn như đọc hiểu văn bản, trả lời câu hỏi, viết lách, hay phân tích hình ảnh. Dù AI đã tồn tại nhiều thập kỷ dưới vai trò là một lĩnh vực nghiên cứu hàn lâm, nó chỉ thực sự trở thành hiện tượng đại chúng toàn cầu kể từ cuối năm 2022.\n\nVào ngày 30 tháng 11 năm 2022, công ty Mỹ OpenAI ra mắt ChatGPT , một phần mềm cho phép người dùng trò chuyện bằng ngôn ngữ tự nhiên với máy tính và nhận được phản hồi mạch lạc, chi tiết về gần như bất kỳ chủ đề nào. ChatGPT thu hút một triệu người dùng chỉ trong năm ngày đầu tiên nhanh hơn bất kỳ ứng dụng nào trong lịch sử tính đến thời điểm đó và đạt 100 triệu người dùng sau hai tháng. Sự phổ biến nhanh chóng của ChatGPT khiến giới doanh nghiệp và nhà đầu tư toàn cầu nhận ra rằng AI tạo sinh đã đủ chín muồi để ứng dụng thương mại rộng rãi.\n\n",
+        "source_id": "viwiki-19992736",
+        "source": "data/day6/corpus/19992736-bong-bong-ai.txt",
+        "page": "viwiki-19992736-u01",
+        "metadata": {
+          "title": "Bong bóng AI",
+          "unit_id": "viwiki-19992736-u01",
+          "version": "75582588",
+          "char_end": 1647,
+          "strategy": "B",
+          "char_start": 687,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Bong_b%C3%B3ng_AI",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-19992736-u01:0002:1dccfce90830458b",
+          "location_type": "content_unit",
+          "normalized_end": 32102,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.032266458495966696,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.032266458495966696,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 1
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-19996278-u01:0002:2dfaec26e085fd7e",
+        "text": "Bước đột phá được chú ý rộng rãi nhất của cơn sốt AI là sự trỗi dậy của các mô hình ngôn ngữ lớn , tiêu biểu là ChatGPT – một chatbot do OpenAI phát triển, ra mắt vào cuối năm 2022 và đạt 100 triệu người dùng chỉ trong vòng hai tháng, trở thành ứng dụng phần mềm tăng trưởng nhanh nhất trong lịch sử tính đến thời điểm đó. Tính đến năm 2025, ChatGPT đã trở thành trang web được truy cập nhiều thứ 4 trên toàn cầu, chỉ sau Google , YouTube , và Facebook .\n\nLịch sử\n\nNhững năm đầu và mùa đông AI lần thứ nhất (1950–1980)\n\nNăm 1950, Alan Turing đề xuất khái niệm \"máy tính biết suy nghĩ\" và thiết kế bài kiểm tra Turing để đánh giá khả năng này. Năm 1956, John McCarthy lần đầu sử dụng thuật ngữ \"trí tuệ nhân tạo\" tại Hội nghị Dartmouth , sự kiện đặt nền móng cho AI như một lĩnh vực học thuật độc lập. Giai đoạn tiếp theo tràn ngập lạc quan khi các nhà nghiên cứu hàng đầu dự đoán máy tính có thể đạt trí tuệ ngang ngửa con người chỉ trong vài thập kỷ tới.\n\n",
+        "source_id": "viwiki-19996278",
+        "source": "data/day6/corpus/19996278-con-sot-ai.txt",
+        "page": "viwiki-19996278-u01",
+        "metadata": {
+          "title": "Cơn sốt AI",
+          "unit_id": "viwiki-19996278-u01",
+          "version": "75582584",
+          "char_end": 1638,
+          "strategy": "B",
+          "char_start": 681,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1n_s%E1%BB%91t_AI",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-19996278-u01:0002:2dfaec26e085fd7e",
+          "location_type": "content_unit",
+          "normalized_end": 37414,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03200204813108039,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03200204813108039,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 3
+        },
+        "gold_hit": true
+      }
+    ],
+    "context": "[B:viwiki-19996278-u01:0009:dd58bc90e21fe2f8 | data/day6/corpus/19996278-con-sot-ai.txt | trang viwiki-19996278-u01]\nBước ngoặt đó đến vào tháng 11 năm 2022 khi OpenAI ra mắt ChatGPT , một giao diện trò chuyện trực tiếp cho phép bất kỳ ai cũng có thể tương tác với mô hình ngôn ngữ lớn mà không cần kiến thức kỹ thuật. ChatGPT đạt 100 triệu người dùng chỉ trong hai tháng, trở thành ứng dụng phần mềm tăng trưởng nhanh nhất trong lịch sử tính đến thời điểm đó.\n\nSự kiện này châm ngòi cho một cuộc chạy đua vũ trang giữa các tập đoàn công nghệ lớn. Google nhanh chóng ra mắt Bard rồi Gemini ; Anthropic phát triển Claude với trọng tâm về an toàn mô hình; xAI của Elon Musk giới thiệu Grok và tích hợp trực tiếp vào nền tảng X (trước đây là Twitter ); Meta phát hành dòng mô hình LLaMA theo hướng mở mã nguồn; còn Microsoft đầu tư hàng chục tỷ đô la vào OpenAI và tích hợp AI vào hệ sinh thái sản phẩm thông qua Copilot .\n\n\n\n[B:viwiki-19992736-u01:0002:1dccfce90830458b | data/day6/corpus/19992736-bong-bong-ai.txt | trang viwiki-19992736-u01]\nTrí tuệ nhân tạo (AI) là lĩnh vực khoa học máy tính nghiên cứu cách tạo ra các hệ thống có khả năng thực hiện những nhiệm vụ thường đòi hỏi trí thông minh của con người, chẳng hạn như đọc hiểu văn bản, trả lời câu hỏi, viết lách, hay phân tích hình ảnh. Dù AI đã tồn tại nhiều thập kỷ dưới vai trò là một lĩnh vực nghiên cứu hàn lâm, nó chỉ thực sự trở thành hiện tượng đại chúng toàn cầu kể từ cuối năm 2022.\n\nVào ngày 30 tháng 11 năm 2022, công ty Mỹ OpenAI ra mắt ChatGPT , một phần mềm cho phép người dùng trò chuyện bằng ngôn ngữ tự nhiên với máy tính và nhận được phản hồi mạch lạc, chi tiết về gần như bất kỳ chủ đề nào. ChatGPT thu hút một triệu người dùng chỉ trong năm ngày đầu tiên nhanh hơn bất kỳ ứng dụng nào trong lịch sử tính đến thời điểm đó và đạt 100 triệu người dùng sau hai tháng. Sự phổ biến nhanh chóng của ChatGPT khiến giới doanh nghiệp và nhà đầu tư toàn cầu nhận ra rằng AI tạo sinh đã đủ chín muồi để ứng dụng thương mại rộng rãi.\n\n\n\n[B:viwiki-19996278-u01:0002:2dfaec26e085fd7e | data/day6/corpus/19996278-con-sot-ai.txt | trang viwiki-19996278-u01]\nBước đột phá được chú ý rộng rãi nhất của cơn sốt AI là sự trỗi dậy của các mô hình ngôn ngữ lớn , tiêu biểu là ChatGPT – một chatbot do OpenAI phát triển, ra mắt vào cuối năm 2022 và đạt 100 triệu người dùng chỉ trong vòng hai tháng, trở thành ứng dụng phần mềm tăng trưởng nhanh nhất trong lịch sử tính đến thời điểm đó. Tính đến năm 2025, ChatGPT đã trở thành trang web được truy cập nhiều thứ 4 trên toàn cầu, chỉ sau Google , YouTube , và Facebook .\n\nLịch sử\n\nNhững năm đầu và mùa đông AI lần thứ nhất (1950–1980)\n\nNăm 1950, Alan Turing đề xuất khái niệm \"máy tính biết suy nghĩ\" và thiết kế bài kiểm tra Turing để đánh giá khả năng này. Năm 1956, John McCarthy lần đầu sử dụng thuật ngữ \"trí tuệ nhân tạo\" tại Hội nghị Dartmouth , sự kiện đặt nền móng cho AI như một lĩnh vực học thuật độc lập. Giai đoạn tiếp theo tràn ngập lạc quan khi các nhà nghiên cứu hàng đầu dự đoán máy tính có thể đạt trí tuệ ngang ngửa con người chỉ trong vài thập kỷ tới.\n\n",
+    "context_ids": [
+      "B:viwiki-19996278-u01:0009:dd58bc90e21fe2f8",
+      "B:viwiki-19992736-u01:0002:1dccfce90830458b",
+      "B:viwiki-19996278-u01:0002:2dfaec26e085fd7e"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 61.353,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B12",
+    "split": "dev",
+    "original_query": "Ai giới thiệu VAE vào năm 2013 và VAE có khả năng chính nào của mô hình tạo sinh?",
+    "retrieval_query": "Ai giới thiệu VAE vào năm 2013 và VAE có khả năng chính nào của mô hình tạo sinh?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-20005728-u01:0008:39d8c5fec63ac3ef",
+        "text": "VAE là một trong những mô hình tạo sinh đầu tiên có khả năng sinh ảnh mới bằng cách lấy mẫu từ không gian biểu diễn liên tục. Tuy nhiên, ảnh sinh ra từ VAE thường bị mờ do bản chất xác suất của bộ giải mã – hàm mất mát tái tạo theo bình phương sai số có xu hướng tạo ra ảnh trung bình của nhiều khả năng thay vì một ảnh sắc nét. So với mạng đối nghịch tạo sinh (GAN), VAE thua kém đáng kể về chất lượng thị giác. Hiện nay, cả VAE lẫn GAN đã phần lớn bị thay thế bởi mô hình khuếch tán trong các bài toán tạo sinh ảnh chất lượng cao, mặc dù VAE vẫn được dùng như thành phần nén ảnh trong các mô hình khuếch tán biểu diễn như Stable Diffusion .\n\nTham khảo\n\n1 2 3 4 Kingma, Diederik P.; Welling, Max (2013). Auto-Encoding Variational Bayes . International Conference on Learning Representations (ICLR). arXiv : 1312.6114 .\n\n",
+        "source_id": "viwiki-20005728",
+        "source": "data/day6/corpus/20005728-bo-ma-hoa-tu-ong-bien-phan.txt",
+        "page": "viwiki-20005728-u01",
+        "metadata": {
+          "title": "Bộ mã hóa tự động biến phân",
+          "unit_id": "viwiki-20005728-u01",
+          "version": "75587968",
+          "char_end": 6427,
+          "strategy": "B",
+          "char_start": 5606,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_m%C3%A3_h%C3%B3a_t%E1%BB%B1_%C4%91%E1%BB%99ng_bi%E1%BA%BFn_ph%C3%A2n",
+          "chunk_ordinal": 8,
+          "day6_chunk_id": "B:viwiki-20005728-u01:0008:39d8c5fec63ac3ef",
+          "location_type": "content_unit",
+          "normalized_end": 9459,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03252247488101534,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-20005728-u01:0001:dc5e6fbc8058091c",
+        "text": "Bộ mã hóa tự động biến phân , hay bộ tự mã hóa biến phân ( tiếng Anh : Variational Autoencoder , viết tắt VAE ) là một kiến trúc mạng neuron nhân tạo do Diederik P. Kingma và Max Welling giới thiệu năm 2013. VAE là một mô hình xác suất đồ thị và phương pháp Bayes biến phân , đồng thời là một dạng mô hình tạo sinh có khả năng tạo ra dữ liệu mới.\n\nVề cấu trúc, VAE tương tự bộ tự mã hóa thông thường với một bộ mã hóa và một bộ giải mã, nhưng khác ở điểm then chốt: thay vì ánh xạ đầu vào thành một vector cố định trong không gian biểu diễn, bộ mã hóa của VAE ánh xạ đầu vào thành một phân phối xác suất (thường là phân phối chuẩn ) và bộ giải mã lấy mẫu từ phân phối đó để tái tạo đầu vào. Cách tiếp cận xác suất này giúp VAE tránh quá khớp và cho phép sinh dữ liệu mới bằng cách lấy mẫu trực tiếp từ không gian biểu diễn.\n\nDù ban đầu được thiết kế cho học tự giám sát , hiệu quả của VAE cũng đã được chứng minh trong học bán giám sát và học có giám sát .\n\nKiến trúc\n\n",
+        "source_id": "viwiki-20005728",
+        "source": "data/day6/corpus/20005728-bo-ma-hoa-tu-ong-bien-phan.txt",
+        "page": "viwiki-20005728-u01",
+        "metadata": {
+          "title": "Bộ mã hóa tự động biến phân",
+          "unit_id": "viwiki-20005728-u01",
+          "version": "75587968",
+          "char_end": 969,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_m%C3%A3_h%C3%B3a_t%E1%BB%B1_%C4%91%E1%BB%99ng_bi%E1%BA%BFn_ph%C3%A2n",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-20005728-u01:0001:dc5e6fbc8058091c",
+          "location_type": "content_unit",
+          "normalized_end": 9459,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.032266458495966696,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.032266458495966696,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-19509897-u01:0008:4451696182d9a0f0",
+        "text": "Bộ mã hóa tự động biến phân ( Variational autoencoder , VAE) thuộc họ phương pháp Bayes biến phân . Dù có cấu trúc tương tự bộ tự mã hóa thông thường, VAE được thiết kế với mục tiêu khác và có công thức toán học khác biệt: thay vì ánh xạ đầu vào thành một vector cố định trong không gian tiềm ẩn, bộ mã hóa của VAE ánh xạ đầu vào thành một phân phối xác suất dựa trên phân phối chuẩn , và bộ giải mã lấy mẫu từ phân phối đó để tái tạo đầu vào. Nhờ vậy, VAE có thể được dùng như một mô hình tạo sinh để tạo ra dữ liệu mới, dù thường ảnh sẽ có độ phân giải thấp hơn ban đầu vì phần giải mã không thể khôi phục hoàn toàn kích cỡ ban đầu của ảnh. Do đó, VAE không được ưa chuộng trong các mô hình tạo sinh hiện đại so với mạng đối nghịch tạo sinh hay mô hình khuếch tán .\n\nBộ tự mã hóa thưa (SAE)\n\n",
+        "source_id": "viwiki-19509897",
+        "source": "data/day6/corpus/19509897-bo-tu-ma-hoa.txt",
+        "page": "viwiki-19509897-u01",
+        "metadata": {
+          "title": "Bộ tự mã hóa",
+          "unit_id": "viwiki-19509897-u01",
+          "version": "75710702",
+          "char_end": 5383,
+          "strategy": "B",
+          "char_start": 4589,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_t%E1%BB%B1_m%C3%A3_h%C3%B3a",
+          "chunk_ordinal": 8,
+          "day6_chunk_id": "B:viwiki-19509897-u01:0008:4451696182d9a0f0",
+          "location_type": "content_unit",
+          "normalized_end": 22660,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03200204813108039,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03200204813108039,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 3
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-20005728-u01:0008:39d8c5fec63ac3ef | data/day6/corpus/20005728-bo-ma-hoa-tu-ong-bien-phan.txt | trang viwiki-20005728-u01]\nVAE là một trong những mô hình tạo sinh đầu tiên có khả năng sinh ảnh mới bằng cách lấy mẫu từ không gian biểu diễn liên tục. Tuy nhiên, ảnh sinh ra từ VAE thường bị mờ do bản chất xác suất của bộ giải mã – hàm mất mát tái tạo theo bình phương sai số có xu hướng tạo ra ảnh trung bình của nhiều khả năng thay vì một ảnh sắc nét. So với mạng đối nghịch tạo sinh (GAN), VAE thua kém đáng kể về chất lượng thị giác. Hiện nay, cả VAE lẫn GAN đã phần lớn bị thay thế bởi mô hình khuếch tán trong các bài toán tạo sinh ảnh chất lượng cao, mặc dù VAE vẫn được dùng như thành phần nén ảnh trong các mô hình khuếch tán biểu diễn như Stable Diffusion .\n\nTham khảo\n\n1 2 3 4 Kingma, Diederik P.; Welling, Max (2013). Auto-Encoding Variational Bayes . International Conference on Learning Representations (ICLR). arXiv : 1312.6114 .\n\n\n\n[B:viwiki-20005728-u01:0001:dc5e6fbc8058091c | data/day6/corpus/20005728-bo-ma-hoa-tu-ong-bien-phan.txt | trang viwiki-20005728-u01]\nBộ mã hóa tự động biến phân , hay bộ tự mã hóa biến phân ( tiếng Anh : Variational Autoencoder , viết tắt VAE ) là một kiến trúc mạng neuron nhân tạo do Diederik P. Kingma và Max Welling giới thiệu năm 2013. VAE là một mô hình xác suất đồ thị và phương pháp Bayes biến phân , đồng thời là một dạng mô hình tạo sinh có khả năng tạo ra dữ liệu mới.\n\nVề cấu trúc, VAE tương tự bộ tự mã hóa thông thường với một bộ mã hóa và một bộ giải mã, nhưng khác ở điểm then chốt: thay vì ánh xạ đầu vào thành một vector cố định trong không gian biểu diễn, bộ mã hóa của VAE ánh xạ đầu vào thành một phân phối xác suất (thường là phân phối chuẩn ) và bộ giải mã lấy mẫu từ phân phối đó để tái tạo đầu vào. Cách tiếp cận xác suất này giúp VAE tránh quá khớp và cho phép sinh dữ liệu mới bằng cách lấy mẫu trực tiếp từ không gian biểu diễn.\n\nDù ban đầu được thiết kế cho học tự giám sát , hiệu quả của VAE cũng đã được chứng minh trong học bán giám sát và học có giám sát .\n\nKiến trúc\n\n\n\n[B:viwiki-19509897-u01:0008:4451696182d9a0f0 | data/day6/corpus/19509897-bo-tu-ma-hoa.txt | trang viwiki-19509897-u01]\nBộ mã hóa tự động biến phân ( Variational autoencoder , VAE) thuộc họ phương pháp Bayes biến phân . Dù có cấu trúc tương tự bộ tự mã hóa thông thường, VAE được thiết kế với mục tiêu khác và có công thức toán học khác biệt: thay vì ánh xạ đầu vào thành một vector cố định trong không gian tiềm ẩn, bộ mã hóa của VAE ánh xạ đầu vào thành một phân phối xác suất dựa trên phân phối chuẩn , và bộ giải mã lấy mẫu từ phân phối đó để tái tạo đầu vào. Nhờ vậy, VAE có thể được dùng như một mô hình tạo sinh để tạo ra dữ liệu mới, dù thường ảnh sẽ có độ phân giải thấp hơn ban đầu vì phần giải mã không thể khôi phục hoàn toàn kích cỡ ban đầu của ảnh. Do đó, VAE không được ưa chuộng trong các mô hình tạo sinh hiện đại so với mạng đối nghịch tạo sinh hay mô hình khuếch tán .\n\nBộ tự mã hóa thưa (SAE)\n\n",
+    "context_ids": [
+      "B:viwiki-20005728-u01:0008:39d8c5fec63ac3ef",
+      "B:viwiki-20005728-u01:0001:dc5e6fbc8058091c",
+      "B:viwiki-19509897-u01:0008:4451696182d9a0f0"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 64.19,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B13",
+    "split": "dev",
+    "original_query": "Transformer năm 2017 thay thế xử lý tuần tự của RNN bằng cơ chế nào và đem lại lợi ích gì?",
+    "retrieval_query": "Transformer năm 2017 thay thế xử lý tuần tự của RNN bằng cơ chế nào và đem lại lợi ích gì?",
+    "query_transformed": false,
+    "filter": {
+      "collection": "khoa_hoc_may_tinh"
+    },
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-20015378-u01:0006:9b55df6ad12e0841",
+        "text": "Năm 2017, Vaswani và cộng sự công bố kiến trúc Transformer trong bài báo \" Attention is all you need \" nổi tiếng, loại bỏ hoàn toàn thành phần hồi quy và chỉ dùng tự chú ý làm cơ chế tính toán chính, cho phép xử lý song song toàn bộ chuỗi thay vì tuần tự từng ký tự như RNN. Đây được xem là bước ngoặt quan trọng nhất trong lịch sử phát triển của cơ chế chú ý, vì nó chuyển vai trò của chú ý từ một thành phần bổ trợ thành nền tảng tính toán duy nhất của mô hình. Transformer nhanh chóng trở thành nền tảng cho các mô hình ngôn ngữ như BERT và GPT .\n\n",
+        "source_id": "viwiki-20015378",
+        "source": "data/day6/corpus/20015378-co-che-chu-y.txt",
+        "page": "viwiki-20015378-u01",
+        "metadata": {
+          "title": "Cơ chế chú ý",
+          "unit_id": "viwiki-20015378-u01",
+          "version": "75599909",
+          "char_end": 4555,
+          "strategy": "B",
+          "char_start": 4004,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_ch%E1%BA%BF_ch%C3%BA_%C3%BD",
+          "chunk_ordinal": 6,
+          "day6_chunk_id": "B:viwiki-20015378-u01:0006:9b55df6ad12e0841",
+          "location_type": "content_unit",
+          "normalized_end": 34391,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-20015378-u01:0007:6c3fc48b0fe81424",
+        "text": "Sau 2017, tự chú ý được mở rộng ra ngoài phạm vi xử lý ngôn ngữ tự nhiên. Wang và cộng sự đưa tự chú ý vào thị giác máy tính qua mạng neuron phi cục bộ ( non-local neural network ), giúp mô hình nắm bắt quan hệ giữa các vùng ảnh ở khoảng cách xa nhau để không phu thuộc vào các lớp lọc của mạng thần kinh tích chập . Veličković và cộng sự đưa cơ chế chú ý vào mạng neuron đồ thị để tạo thành mạng chú ý đồ thị ( graph attention network ) bằng cách dùng cơ chế này làm phuơng pháp lan truyền thông điẹp giữa các đỉnh. Năm 2021, Dosovitskiy và cộng sự chứng minh rằng Transformer có thể áp dụng trực tiếp cho ảnh bằng cách chia ảnh thành các mảng nhỏ và xử lý như một chuỗi token, tạo ra Vision Transformer (ViT), đạt kết quả tương đương với mạng tích chập trên bài toán phân loại ảnh. Kiến trúc dựa trên chú ý cũng được áp dụng sang các lĩnh vực khoa học khác, như AlphaFold trong dự đoán cấu trúc protein và CLIP trong học biểu diễn kết hợp ảnh và văn bản.\n\nCơ chế toán học\n\n",
+        "source_id": "viwiki-20015378",
+        "source": "data/day6/corpus/20015378-co-che-chu-y.txt",
+        "page": "viwiki-20015378-u01",
+        "metadata": {
+          "title": "Cơ chế chú ý",
+          "unit_id": "viwiki-20015378-u01",
+          "version": "75599909",
+          "char_end": 5530,
+          "strategy": "B",
+          "char_start": 4555,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_ch%E1%BA%BF_ch%C3%BA_%C3%BD",
+          "chunk_ordinal": 7,
+          "day6_chunk_id": "B:viwiki-20015378-u01:0007:6c3fc48b0fe81424",
+          "location_type": "content_unit",
+          "normalized_end": 34391,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.031754032258064516,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-19509897-u01:0017:69728501615f9243",
+        "text": "Bộ tự mã hóa đã được áp dụng trong dịch máy bằng neuron (NMT): bộ mã hóa xử lý chuỗi văn bản đầu vào, còn bộ giải mã sinh ra chuỗi tương ứng trong ngôn ngữ đích. Điều này khác với bộ tự mã hóa thông thường ở chỗ đầu ra không phải là tái tạo đầu vào mà là bản dịch. Mặc dù vậy, nhìn chung phương pháp này không phổ biến bằng các mạng thần kinh hồi quy , và hiện nay cả hai đều đã được thay thế bởi các mạng Transformer hiệu quả hơn cho tác vụ này.\n\nHệ thống truyền thông\n\nTrong lĩnh vực truyền thông, bộ tự mã hóa giúp mã hóa dữ liệu thành biểu diễn bền vững hơn trước các suy giảm kênh truyền, từ đó tối thiểu hóa lỗi truyền dẫn. Khác với cách tiếp cận truyền thống thiết kế riêng từng module (mã hóa nguồn, mã hóa kênh, điều chế...), hệ thống dựa trên bộ tự mã hóa tối ưu hóa toàn bộ chuỗi truyền thông từ đầu đến cuối.\n\nTham khảo\n\n",
+        "source_id": "viwiki-19509897",
+        "source": "data/day6/corpus/19509897-bo-tu-ma-hoa.txt",
+        "page": "viwiki-19509897-u01",
+        "metadata": {
+          "title": "Bộ tự mã hóa",
+          "unit_id": "viwiki-19509897-u01",
+          "version": "75710702",
+          "char_end": 12465,
+          "strategy": "B",
+          "char_start": 11632,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_t%E1%BB%B1_m%C3%A3_h%C3%B3a",
+          "chunk_ordinal": 17,
+          "day6_chunk_id": "B:viwiki-19509897-u01:0017:69728501615f9243",
+          "location_type": "content_unit",
+          "normalized_end": 22660,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.030834914611005692,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.030834914611005692,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 8
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-20015378-u01:0006:9b55df6ad12e0841 | data/day6/corpus/20015378-co-che-chu-y.txt | trang viwiki-20015378-u01]\nNăm 2017, Vaswani và cộng sự công bố kiến trúc Transformer trong bài báo \" Attention is all you need \" nổi tiếng, loại bỏ hoàn toàn thành phần hồi quy và chỉ dùng tự chú ý làm cơ chế tính toán chính, cho phép xử lý song song toàn bộ chuỗi thay vì tuần tự từng ký tự như RNN. Đây được xem là bước ngoặt quan trọng nhất trong lịch sử phát triển của cơ chế chú ý, vì nó chuyển vai trò của chú ý từ một thành phần bổ trợ thành nền tảng tính toán duy nhất của mô hình. Transformer nhanh chóng trở thành nền tảng cho các mô hình ngôn ngữ như BERT và GPT .\n\n\n\n[B:viwiki-20015378-u01:0007:6c3fc48b0fe81424 | data/day6/corpus/20015378-co-che-chu-y.txt | trang viwiki-20015378-u01]\nSau 2017, tự chú ý được mở rộng ra ngoài phạm vi xử lý ngôn ngữ tự nhiên. Wang và cộng sự đưa tự chú ý vào thị giác máy tính qua mạng neuron phi cục bộ ( non-local neural network ), giúp mô hình nắm bắt quan hệ giữa các vùng ảnh ở khoảng cách xa nhau để không phu thuộc vào các lớp lọc của mạng thần kinh tích chập . Veličković và cộng sự đưa cơ chế chú ý vào mạng neuron đồ thị để tạo thành mạng chú ý đồ thị ( graph attention network ) bằng cách dùng cơ chế này làm phuơng pháp lan truyền thông điẹp giữa các đỉnh. Năm 2021, Dosovitskiy và cộng sự chứng minh rằng Transformer có thể áp dụng trực tiếp cho ảnh bằng cách chia ảnh thành các mảng nhỏ và xử lý như một chuỗi token, tạo ra Vision Transformer (ViT), đạt kết quả tương đương với mạng tích chập trên bài toán phân loại ảnh. Kiến trúc dựa trên chú ý cũng được áp dụng sang các lĩnh vực khoa học khác, như AlphaFold trong dự đoán cấu trúc protein và CLIP trong học biểu diễn kết hợp ảnh và văn bản.\n\nCơ chế toán học\n\n\n\n[B:viwiki-19509897-u01:0017:69728501615f9243 | data/day6/corpus/19509897-bo-tu-ma-hoa.txt | trang viwiki-19509897-u01]\nBộ tự mã hóa đã được áp dụng trong dịch máy bằng neuron (NMT): bộ mã hóa xử lý chuỗi văn bản đầu vào, còn bộ giải mã sinh ra chuỗi tương ứng trong ngôn ngữ đích. Điều này khác với bộ tự mã hóa thông thường ở chỗ đầu ra không phải là tái tạo đầu vào mà là bản dịch. Mặc dù vậy, nhìn chung phương pháp này không phổ biến bằng các mạng thần kinh hồi quy , và hiện nay cả hai đều đã được thay thế bởi các mạng Transformer hiệu quả hơn cho tác vụ này.\n\nHệ thống truyền thông\n\nTrong lĩnh vực truyền thông, bộ tự mã hóa giúp mã hóa dữ liệu thành biểu diễn bền vững hơn trước các suy giảm kênh truyền, từ đó tối thiểu hóa lỗi truyền dẫn. Khác với cách tiếp cận truyền thống thiết kế riêng từng module (mã hóa nguồn, mã hóa kênh, điều chế...), hệ thống dựa trên bộ tự mã hóa tối ưu hóa toàn bộ chuỗi truyền thông từ đầu đến cuối.\n\nTham khảo\n\n",
+    "context_ids": [
+      "B:viwiki-20015378-u01:0006:9b55df6ad12e0841",
+      "B:viwiki-20015378-u01:0007:6c3fc48b0fe81424",
+      "B:viwiki-19509897-u01:0017:69728501615f9243"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 60.733,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B14",
+    "split": "dev",
+    "original_query": "Trong Nobel Hóa học 2024 liên quan đến protein, Demis Hassabis và John Jumper được trao giải cho công trình gì, còn David Baker cho công trình gì?",
+    "retrieval_query": "Trong Nobel Hóa học 2024 liên quan đến protein, Demis Hassabis và John Jumper được trao giải cho công trình gì, còn David Baker cho công trình gì?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-20018632-u01:0002:bba15fae14894e79",
+        "text": "Năm 2024, hai lãnh đạo nhóm nghiên cứu của Google DeepMind trong dự án Alphafold Demis Hassabis và John Jumper được trao một nửa giải Nobel Hóa học \"cho công trình dự đoán cấu trúc protein\", nửa giải còn lại thuộc về David Baker \"cho công trình thiết kế protein bằng tính toán\".\n\nBối cảnh\n\nProtein được cấu thành từ các chuỗi amino acid tự cuộn gập lại để hình thành cấu trúc không gian ba chiều. Cấu trúc ba chiều này quyết định phần lớn chức năng sinh học của protein, nên việc biết được cấu trúc là điều kiện cần để hiểu protein hoạt động như thế nào.\n\n",
+        "source_id": "viwiki-20018632",
+        "source": "data/day6/corpus/20018632-alphafold.txt",
+        "page": "viwiki-20018632-u01",
+        "metadata": {
+          "title": "AlphaFold",
+          "unit_id": "viwiki-20018632-u01",
+          "version": "75712623",
+          "char_end": 1333,
+          "strategy": "B",
+          "char_start": 777,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AlphaFold",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-20018632-u01:0002:bba15fae14894e79",
+          "location_type": "content_unit",
+          "normalized_end": 42543,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-20018632-u01:0036:83cc0cc8ec17818e",
+        "text": "Bên cạnh sự đón nhận tích cực, một số nhà khoa học lưu ý rằng dù AlphaFold 2 dự đoán cấu trúc rất chính xác, việc này không đồng nghĩa với việc hiểu được bài toán gấp protein theo nghĩa sâu hơn như cơ chế thực sự khiến một chuỗi amino acid tự gấp lại thành hình dạng đó trong tự nhiên, và tại sao đôi khi quá trình này xảy ra sai lệch (gấp sai, hay proteopathy ).\n\nNăm 2023, Demis Hassabis và John Jumper được trao giải Breakthrough Prize trong lĩnh vực Khoa học Sự sống, cùng giải Albert Lasker cho Nghiên cứu Y học Cơ bản , ghi nhận vai trò lãnh đạo của họ trong dự án AlphaFold. Năm 2024, cả hai tiếp tục được trao chung một nửa giải Nobel Hóa học cho công trình dự đoán cấu trúc protein, cùng với David Baker (nhận nửa giải còn lại cho công trình thiết kế protein bằng tính toán).\n\nỨng dụng\n\n",
+        "source_id": "viwiki-20018632",
+        "source": "data/day6/corpus/20018632-alphafold.txt",
+        "page": "viwiki-20018632-u01",
+        "metadata": {
+          "title": "AlphaFold",
+          "unit_id": "viwiki-20018632-u01",
+          "version": "75712623",
+          "char_end": 26892,
+          "strategy": "B",
+          "char_start": 26096,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AlphaFold",
+          "chunk_ordinal": 36,
+          "day6_chunk_id": "B:viwiki-20018632-u01:0036:83cc0cc8ec17818e",
+          "location_type": "content_unit",
+          "normalized_end": 42543,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03225806451612903,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-20018632-u01:0035:363fba3061d06e85",
+        "text": "Kết quả của AlphaFold 2 tại CASP14 được giới khoa học đón nhận rất tích cực. Venki Ramakrishnan , nhà sinh học cấu trúc từng đoạt giải Nobel Hóa học năm 2009 khi đó là Chủ tịch Hội Hoàng gia Luân Đôn , gọi đây là \"một bước tiến gây kinh ngạc đối với bài toán gấp protein\". Thành tựu này thu hút sự chú ý rộng rãi của truyền thông, với các bài viết trên nhiều tạp chí khoa học lớn như Nature , Science , MIT Technology Review , New Scientist , cùng nhiều tờ báo lớn khác. Chủ đề được nhắc đến nhiều nhất là khả năng dự đoán cấu trúc protein chỉ từ trình tự amino acid, được kỳ vọng mang lại lợi ích cho khoa học sự sống thông qua việc đẩy nhanh quá trình tìm ra thuốc mới và giúp hiểu rõ hơn về cơ chế bệnh tật. Trong kỳ thi CASP15 diễn ra năm 2022, DeepMind không tham gia trực tiếp lần này, nhưng phần lớn các đội tham dự sử dụng AlphaFold hoặc các công cụ xây dựng dựa trên AlphaFold cho dự đoán của mình.\n\n",
+        "source_id": "viwiki-20018632",
+        "source": "data/day6/corpus/20018632-alphafold.txt",
+        "page": "viwiki-20018632-u01",
+        "metadata": {
+          "title": "AlphaFold",
+          "unit_id": "viwiki-20018632-u01",
+          "version": "75712623",
+          "char_end": 26096,
+          "strategy": "B",
+          "char_start": 25187,
+          "collection": "khoa_hoc_may_tinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AlphaFold",
+          "chunk_ordinal": 35,
+          "day6_chunk_id": "B:viwiki-20018632-u01:0035:363fba3061d06e85",
+          "location_type": "content_unit",
+          "normalized_end": 42543,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03076923076923077,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03076923076923077,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 5
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-20018632-u01:0002:bba15fae14894e79 | data/day6/corpus/20018632-alphafold.txt | trang viwiki-20018632-u01]\nNăm 2024, hai lãnh đạo nhóm nghiên cứu của Google DeepMind trong dự án Alphafold Demis Hassabis và John Jumper được trao một nửa giải Nobel Hóa học \"cho công trình dự đoán cấu trúc protein\", nửa giải còn lại thuộc về David Baker \"cho công trình thiết kế protein bằng tính toán\".\n\nBối cảnh\n\nProtein được cấu thành từ các chuỗi amino acid tự cuộn gập lại để hình thành cấu trúc không gian ba chiều. Cấu trúc ba chiều này quyết định phần lớn chức năng sinh học của protein, nên việc biết được cấu trúc là điều kiện cần để hiểu protein hoạt động như thế nào.\n\n\n\n[B:viwiki-20018632-u01:0036:83cc0cc8ec17818e | data/day6/corpus/20018632-alphafold.txt | trang viwiki-20018632-u01]\nBên cạnh sự đón nhận tích cực, một số nhà khoa học lưu ý rằng dù AlphaFold 2 dự đoán cấu trúc rất chính xác, việc này không đồng nghĩa với việc hiểu được bài toán gấp protein theo nghĩa sâu hơn như cơ chế thực sự khiến một chuỗi amino acid tự gấp lại thành hình dạng đó trong tự nhiên, và tại sao đôi khi quá trình này xảy ra sai lệch (gấp sai, hay proteopathy ).\n\nNăm 2023, Demis Hassabis và John Jumper được trao giải Breakthrough Prize trong lĩnh vực Khoa học Sự sống, cùng giải Albert Lasker cho Nghiên cứu Y học Cơ bản , ghi nhận vai trò lãnh đạo của họ trong dự án AlphaFold. Năm 2024, cả hai tiếp tục được trao chung một nửa giải Nobel Hóa học cho công trình dự đoán cấu trúc protein, cùng với David Baker (nhận nửa giải còn lại cho công trình thiết kế protein bằng tính toán).\n\nỨng dụng\n\n\n\n[B:viwiki-20018632-u01:0035:363fba3061d06e85 | data/day6/corpus/20018632-alphafold.txt | trang viwiki-20018632-u01]\nKết quả của AlphaFold 2 tại CASP14 được giới khoa học đón nhận rất tích cực. Venki Ramakrishnan , nhà sinh học cấu trúc từng đoạt giải Nobel Hóa học năm 2009 khi đó là Chủ tịch Hội Hoàng gia Luân Đôn , gọi đây là \"một bước tiến gây kinh ngạc đối với bài toán gấp protein\". Thành tựu này thu hút sự chú ý rộng rãi của truyền thông, với các bài viết trên nhiều tạp chí khoa học lớn như Nature , Science , MIT Technology Review , New Scientist , cùng nhiều tờ báo lớn khác. Chủ đề được nhắc đến nhiều nhất là khả năng dự đoán cấu trúc protein chỉ từ trình tự amino acid, được kỳ vọng mang lại lợi ích cho khoa học sự sống thông qua việc đẩy nhanh quá trình tìm ra thuốc mới và giúp hiểu rõ hơn về cơ chế bệnh tật. Trong kỳ thi CASP15 diễn ra năm 2022, DeepMind không tham gia trực tiếp lần này, nhưng phần lớn các đội tham dự sử dụng AlphaFold hoặc các công cụ xây dựng dựa trên AlphaFold cho dự đoán của mình.\n\n",
+    "context_ids": [
+      "B:viwiki-20018632-u01:0002:bba15fae14894e79",
+      "B:viwiki-20018632-u01:0036:83cc0cc8ec17818e",
+      "B:viwiki-20018632-u01:0035:363fba3061d06e85"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 66.083,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B15",
+    "split": "dev",
+    "original_query": "Theo mô tả của Liskov và Zilles năm 1974, điều kiện nào làm một ngôn ngữ được gọi là kiểu mạnh?",
+    "retrieval_query": "Theo mô tả của Liskov và Zilles năm 1974, điều kiện nào làm một ngôn ngữ được gọi là kiểu mạnh?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-2419095-u01:0001:3d212f4a8f109be4",
+        "text": "Trong việc lập trình, các ngôn ngữ lập trình thường được coi là kiểu yếu hoặc kiểu mạnh . Nói chung thì các khái niệm này không có định nghĩa chính xác cụ thể. Thực ra, người ta lại có xu hướng dùng chúng để ủng hộ hoặc phê bình một ngôn ngữ lập trình nào đó bằng việc giải thích tại sao ngôn ngữ này tốt hơn (kém hơn) ngôn ngữ khác qua tính mạnh yếu về kiểu.\n\nLịch sử\n\nVào năm 1974, Liskov và Zilles mô tả một ngôn ngữ lập trình \"kiểu mạnh\" là ở ngôn ngữ đó \"mỗi khi một đối tượng được truyền từ hàm đang gọi sang hàm được gọi, kiểu của nó phải tương thích với kiểu khai báo trong nguyên mẫu của hàm được gọi.\" Jackson viết, \"Trong một ngôn ngữ kiểu mạnh, mỗi loại dữ liệu có một kiểu riêng biệt và mỗi tiến trình sẽ đề ra các yêu cầu để giao tiếp bằng các kiểu này.\"\n\nĐịnh nghĩa về \"mạnh\" và \"yếu\"\n\n",
+        "source_id": "viwiki-2419095",
+        "source": "data/day6/corpus/2419095-kieu-manh-va-kieu-yeu.txt",
+        "page": "viwiki-2419095-u01",
+        "metadata": {
+          "title": "Kiểu mạnh và kiểu yếu",
+          "unit_id": "viwiki-2419095-u01",
+          "version": "74477752",
+          "char_end": 801,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Ki%E1%BB%83u_m%E1%BA%A1nh_v%C3%A0_ki%E1%BB%83u_y%E1%BA%BFu",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-2419095-u01:0001:3d212f4a8f109be4",
+          "location_type": "content_unit",
+          "normalized_end": 7212,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03278688524590164,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-2419095-u01:0008:fb6a8825fccdddb6",
+        "text": "Vì lý do này, tác giả khi muốn viết một cách chính xác về hệ thống kiểu thường tránh từ \"kiểu mạnh\" và dùng các từ như \"tính an toàn kiểu\" thay vào đó.\n\nTham khảo\n\n↑ Liskov, B; Zilles, S (1974). \"Programming with abstract data types\". ACM Sigplan Notices . CiteSeer x : 10.1.1.136.3043 .\n\n↑ Jackson, K. (1977). \"Parallel processing and modular software construction\" . Lecture Notes in Computer Science . Lecture Notes in Computer Science. Quyển 54. tr. 436– 443. doi : 10.1007/BFb0021435 . ISBN 3-540-08360-X .\n\n↑ Typing: Strong vs. Weak, Static vs. Dynamic\n\n↑ \"Type-punning and strict-aliasing, Thiago Macieira\" . Bản gốc lưu trữ ngày 27 tháng 10 năm 2014 . Truy cập ngày 5 tháng 11 năm 2013 .\n\n↑ \"A hacked Boolean\" . Bản gốc lưu trữ ngày 11 tháng 11 năm 2013 . Truy cập ngày 5 tháng 11 năm 2013 .\n\n↑ ftp://gatekeeper.research.compaq.com/pub/DEC/SRC/research-reports/SRC-045.pdf trang 3",
+        "source_id": "viwiki-2419095",
+        "source": "data/day6/corpus/2419095-kieu-manh-va-kieu-yeu.txt",
+        "page": "viwiki-2419095-u01",
+        "metadata": {
+          "title": "Kiểu mạnh và kiểu yếu",
+          "unit_id": "viwiki-2419095-u01",
+          "version": "74477752",
+          "char_end": 7212,
+          "strategy": "B",
+          "char_start": 6324,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Ki%E1%BB%83u_m%E1%BA%A1nh_v%C3%A0_ki%E1%BB%83u_y%E1%BA%BFu",
+          "chunk_ordinal": 8,
+          "day6_chunk_id": "B:viwiki-2419095-u01:0008:fb6a8825fccdddb6",
+          "location_type": "content_unit",
+          "normalized_end": 7212,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03225806451612903,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-2419095-u01:0007:48f72dfd4ab7dbac",
+        "text": "Các ngôn ngữ có hệ thống kiểu tĩnh (đối lập với kiểu động) yêu cầu người dùng tự khai báo tất cả các kiểu họ dùng trong chương trình. Một số ngôn ngữ như C yêu cầu ta khai báo kiểu cho từng biến. Một số ngôn ngữ khác như Haskell dùng phương pháp Hindley-Milner để suy đoán kiểu dựa trên một quá trình phân tích. Các ngôn ngữ như C# và C++ nằm khoảng giữa hai nhóm đó: một số kiểu có thể được suy đoán dựa trên thông tin liên quan, nhưng một số khác lại phải được khai báo rõ ràng. Một số lập trình viên gọi các ngôn ngữ suy đoán kiểu là \"kiểu yếu\", (thường) không biết rằng thông tin về kiểu có tồn tại, chỉ là ở dạng ngầm.\n\nSự khác nhau giữa các ngôn ngữ lập trình\n\nLưu ý rằng một số định nghĩa trên mâu thuẫn với nhau, một số lại trực giao, và một số khác lại chỉ là trường hợp đặc biệt của một số định nghĩa \"mở\" (ít rõ ràng) khác. Vì sự phân hóa trong các định nghĩa này, ta có thể bào chữa cho hầu hết luận điểm về tính mạnh yếu về kiểu của phần lớn ngôn ngữ lập trình.\n\n",
+        "source_id": "viwiki-2419095",
+        "source": "data/day6/corpus/2419095-kieu-manh-va-kieu-yeu.txt",
+        "page": "viwiki-2419095-u01",
+        "metadata": {
+          "title": "Kiểu mạnh và kiểu yếu",
+          "unit_id": "viwiki-2419095-u01",
+          "version": "74477752",
+          "char_end": 6324,
+          "strategy": "B",
+          "char_start": 5348,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Ki%E1%BB%83u_m%E1%BA%A1nh_v%C3%A0_ki%E1%BB%83u_y%E1%BA%BFu",
+          "chunk_ordinal": 7,
+          "day6_chunk_id": "B:viwiki-2419095-u01:0007:48f72dfd4ab7dbac",
+          "location_type": "content_unit",
+          "normalized_end": 7212,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03057889822595705,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03057889822595705,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 8
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-2419095-u01:0001:3d212f4a8f109be4 | data/day6/corpus/2419095-kieu-manh-va-kieu-yeu.txt | trang viwiki-2419095-u01]\nTrong việc lập trình, các ngôn ngữ lập trình thường được coi là kiểu yếu hoặc kiểu mạnh . Nói chung thì các khái niệm này không có định nghĩa chính xác cụ thể. Thực ra, người ta lại có xu hướng dùng chúng để ủng hộ hoặc phê bình một ngôn ngữ lập trình nào đó bằng việc giải thích tại sao ngôn ngữ này tốt hơn (kém hơn) ngôn ngữ khác qua tính mạnh yếu về kiểu.\n\nLịch sử\n\nVào năm 1974, Liskov và Zilles mô tả một ngôn ngữ lập trình \"kiểu mạnh\" là ở ngôn ngữ đó \"mỗi khi một đối tượng được truyền từ hàm đang gọi sang hàm được gọi, kiểu của nó phải tương thích với kiểu khai báo trong nguyên mẫu của hàm được gọi.\" Jackson viết, \"Trong một ngôn ngữ kiểu mạnh, mỗi loại dữ liệu có một kiểu riêng biệt và mỗi tiến trình sẽ đề ra các yêu cầu để giao tiếp bằng các kiểu này.\"\n\nĐịnh nghĩa về \"mạnh\" và \"yếu\"\n\n\n\n[B:viwiki-2419095-u01:0008:fb6a8825fccdddb6 | data/day6/corpus/2419095-kieu-manh-va-kieu-yeu.txt | trang viwiki-2419095-u01]\nVì lý do này, tác giả khi muốn viết một cách chính xác về hệ thống kiểu thường tránh từ \"kiểu mạnh\" và dùng các từ như \"tính an toàn kiểu\" thay vào đó.\n\nTham khảo\n\n↑ Liskov, B; Zilles, S (1974). \"Programming with abstract data types\". ACM Sigplan Notices . CiteSeer x : 10.1.1.136.3043 .\n\n↑ Jackson, K. (1977). \"Parallel processing and modular software construction\" . Lecture Notes in Computer Science . Lecture Notes in Computer Science. Quyển 54. tr. 436– 443. doi : 10.1007/BFb0021435 . ISBN 3-540-08360-X .\n\n↑ Typing: Strong vs. Weak, Static vs. Dynamic\n\n↑ \"Type-punning and strict-aliasing, Thiago Macieira\" . Bản gốc lưu trữ ngày 27 tháng 10 năm 2014 . Truy cập ngày 5 tháng 11 năm 2013 .\n\n↑ \"A hacked Boolean\" . Bản gốc lưu trữ ngày 11 tháng 11 năm 2013 . Truy cập ngày 5 tháng 11 năm 2013 .\n\n↑ ftp://gatekeeper.research.compaq.com/pub/DEC/SRC/research-reports/SRC-045.pdf trang 3\n\n[B:viwiki-2419095-u01:0007:48f72dfd4ab7dbac | data/day6/corpus/2419095-kieu-manh-va-kieu-yeu.txt | trang viwiki-2419095-u01]\nCác ngôn ngữ có hệ thống kiểu tĩnh (đối lập với kiểu động) yêu cầu người dùng tự khai báo tất cả các kiểu họ dùng trong chương trình. Một số ngôn ngữ như C yêu cầu ta khai báo kiểu cho từng biến. Một số ngôn ngữ khác như Haskell dùng phương pháp Hindley-Milner để suy đoán kiểu dựa trên một quá trình phân tích. Các ngôn ngữ như C# và C++ nằm khoảng giữa hai nhóm đó: một số kiểu có thể được suy đoán dựa trên thông tin liên quan, nhưng một số khác lại phải được khai báo rõ ràng. Một số lập trình viên gọi các ngôn ngữ suy đoán kiểu là \"kiểu yếu\", (thường) không biết rằng thông tin về kiểu có tồn tại, chỉ là ở dạng ngầm.\n\nSự khác nhau giữa các ngôn ngữ lập trình\n\nLưu ý rằng một số định nghĩa trên mâu thuẫn với nhau, một số lại trực giao, và một số khác lại chỉ là trường hợp đặc biệt của một số định nghĩa \"mở\" (ít rõ ràng) khác. Vì sự phân hóa trong các định nghĩa này, ta có thể bào chữa cho hầu hết luận điểm về tính mạnh yếu về kiểu của phần lớn ngôn ngữ lập trình.\n\n",
+    "context_ids": [
+      "B:viwiki-2419095-u01:0001:3d212f4a8f109be4",
+      "B:viwiki-2419095-u01:0008:fb6a8825fccdddb6",
+      "B:viwiki-2419095-u01:0007:48f72dfd4ab7dbac"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 78.246,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B16",
+    "split": "dev",
+    "original_query": "GCC là trình dịch tiêu chuẩn trên những hệ điều hành giống Unix nào được nêu, và còn có thể biên dịch cho hai nền tảng di động nào?",
+    "retrieval_query": "GCC là trình dịch tiêu chuẩn trên những hệ điều hành giống Unix nào được nêu, và còn có thể biên dịch cho hai nền tảng di động nào?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-274357-u01:0001:a5e65f5b94287ce3",
+        "text": "Bộ trình dịch GNU ( tiếng Anh : GNU Compiler Collection - thường được viết tắt thành GCC ) là một tập hợp các trình biên dịch được thiết kế cho nhiều ngôn ngữ lập trình khác nhau. GCC là một thành phần quan trọng của GNU toolchain , và được hầu hết các hệ điều hành giống Unix , như Linux và Mac OS X chọn làm trình dịch tiêu chuẩn. Các dòng hệ điều hành BSD đa phần đều sử dụng GCC, dù một số dòng như FreeBSD và OpenBSD lại sử dụng Clang làm trình biên dịch chuẩn. Các phiên bản sau đó của GCC cũng hỗ trợ trên cả Microsoft Windows và một số hệ điều hành khác. GCC cũng có thể biên dịch chương trình cho cả Android và iOS .\n\n",
+        "source_id": "viwiki-274357",
+        "source": "data/day6/corpus/274357-bo-trinh-dich-gnu.txt",
+        "page": "viwiki-274357-u01",
+        "metadata": {
+          "title": "Bộ trình dịch GNU",
+          "unit_id": "viwiki-274357-u01",
+          "version": "75263869",
+          "char_end": 627,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_tr%C3%ACnh_d%E1%BB%8Bch_GNU",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-274357-u01:0001:a5e65f5b94287ce3",
+          "location_type": "content_unit",
+          "normalized_end": 10871,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.032018442622950824,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.032018442622950824,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 1
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-274357-u01:0009:510e324afe7f5190",
+        "text": "Nios II và Nios\n\nPDP-10\n\nTIGCC ( m68k variant)\n\nZ8000\n\nPIC24/dsPIC\n\nCấu trúc\n\nGiao diện ngoài của GCC nhìn chung là tiêu chuẩn cho một trình dịch của Unix . Người dùng sẽ gọi đến một chương trình điều khiển có tên là gcc , có nhiệm vụ thông dịch các lệnh và đối số, và đưa ra quyết định trình dịch cho ngôn ngữ nào sẽ được chọn đối với từng tập tin đầu vào, chạy chương trình dịch mã máy ở đầu ra quá trình này, sau đó sẽ liên kết mã nguồn để tạo ra chương trình mã nhị phân thực thi.\n\nMỗi trình dịch của một ngôn ngữ là một chương trình tách biệt đưa vào đầu vào mã nguồn và đưa ra mã hợp ngữ . Tất cả đều có một cấu trúc thông thường bên trong.\n\nGần như toàn bộ GCC được viết bằng ngôn ngữ C ngoại trừ chương trình khởi tạo cho Ada; rất nhiều phần của trình khởi tạo cho Ada được viết bằng chính ngôn ngữ Ada.\n\nGỡ lỗi các chương trình với GCC\n\n",
+        "source_id": "viwiki-274357",
+        "source": "data/day6/corpus/274357-bo-trinh-dich-gnu.txt",
+        "page": "viwiki-274357-u01",
+        "metadata": {
+          "title": "Bộ trình dịch GNU",
+          "unit_id": "viwiki-274357-u01",
+          "version": "75263869",
+          "char_end": 7018,
+          "strategy": "B",
+          "char_start": 6172,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_tr%C3%ACnh_d%E1%BB%8Bch_GNU",
+          "chunk_ordinal": 9,
+          "day6_chunk_id": "B:viwiki-274357-u01:0009:510e324afe7f5190",
+          "location_type": "content_unit",
+          "normalized_end": 10871,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.032018442622950824,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.032018442622950824,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 4
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-274357-u01:0002:ecb9c03b8282d366",
+        "text": "Tên gốc của GCC là GNU C Compiler (Trình biên dịch C của GNU), do ban đầu nó chỉ hỗ trợ dịch ngôn ngữ lập trình C , GCC 1.0 được phát hành vào năm 1987, sau đó được mở rộng hỗ trợ dịch C++ vào tháng 12 cùng năm đó. Các thành phần đầu vào của trình biên dịch (front end) sau đó cũng được phát triển cho các ngôn ngữ lập trình Fortran , Pascal , Objective C , Java , Ada , Go và một số ngôn ngữ khác.\n\nGCC đã tương thích với rất nhiều nền tảng kiến trúc máy tính đa dạng, và được sử dụng rộng rãi như một công cụ làm môi trường phát triển các phần mềm thương mại, có bản quyền và nguồn đóng . GCC cũng có thể dùng trong hầu hết các hệ thống nhúng (embedded system), như Symbian (gọi là gcce) , kiến trúc ARM , AMCC , Freescale Power Architecture trên chip (Freescale Power ISA-based chips), và nhiều hệ thống nhúng khác. GCC cũng được phát triển cho nhiều nền tảng khác, bao gồm cả những nền tảng video game như Playstation 2 , Cell SPE of PlayStation 3 và Sega Dreamcast .\n\n",
+        "source_id": "viwiki-274357",
+        "source": "data/day6/corpus/274357-bo-trinh-dich-gnu.txt",
+        "page": "viwiki-274357-u01",
+        "metadata": {
+          "title": "Bộ trình dịch GNU",
+          "unit_id": "viwiki-274357-u01",
+          "version": "75263869",
+          "char_end": 1600,
+          "strategy": "B",
+          "char_start": 627,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_tr%C3%ACnh_d%E1%BB%8Bch_GNU",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-274357-u01:0002:ecb9c03b8282d366",
+          "location_type": "content_unit",
+          "normalized_end": 10871,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03200204813108039,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03200204813108039,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 3
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-274357-u01:0001:a5e65f5b94287ce3 | data/day6/corpus/274357-bo-trinh-dich-gnu.txt | trang viwiki-274357-u01]\nBộ trình dịch GNU ( tiếng Anh : GNU Compiler Collection - thường được viết tắt thành GCC ) là một tập hợp các trình biên dịch được thiết kế cho nhiều ngôn ngữ lập trình khác nhau. GCC là một thành phần quan trọng của GNU toolchain , và được hầu hết các hệ điều hành giống Unix , như Linux và Mac OS X chọn làm trình dịch tiêu chuẩn. Các dòng hệ điều hành BSD đa phần đều sử dụng GCC, dù một số dòng như FreeBSD và OpenBSD lại sử dụng Clang làm trình biên dịch chuẩn. Các phiên bản sau đó của GCC cũng hỗ trợ trên cả Microsoft Windows và một số hệ điều hành khác. GCC cũng có thể biên dịch chương trình cho cả Android và iOS .\n\n\n\n[B:viwiki-274357-u01:0009:510e324afe7f5190 | data/day6/corpus/274357-bo-trinh-dich-gnu.txt | trang viwiki-274357-u01]\nNios II và Nios\n\nPDP-10\n\nTIGCC ( m68k variant)\n\nZ8000\n\nPIC24/dsPIC\n\nCấu trúc\n\nGiao diện ngoài của GCC nhìn chung là tiêu chuẩn cho một trình dịch của Unix . Người dùng sẽ gọi đến một chương trình điều khiển có tên là gcc , có nhiệm vụ thông dịch các lệnh và đối số, và đưa ra quyết định trình dịch cho ngôn ngữ nào sẽ được chọn đối với từng tập tin đầu vào, chạy chương trình dịch mã máy ở đầu ra quá trình này, sau đó sẽ liên kết mã nguồn để tạo ra chương trình mã nhị phân thực thi.\n\nMỗi trình dịch của một ngôn ngữ là một chương trình tách biệt đưa vào đầu vào mã nguồn và đưa ra mã hợp ngữ . Tất cả đều có một cấu trúc thông thường bên trong.\n\nGần như toàn bộ GCC được viết bằng ngôn ngữ C ngoại trừ chương trình khởi tạo cho Ada; rất nhiều phần của trình khởi tạo cho Ada được viết bằng chính ngôn ngữ Ada.\n\nGỡ lỗi các chương trình với GCC\n\n\n\n[B:viwiki-274357-u01:0002:ecb9c03b8282d366 | data/day6/corpus/274357-bo-trinh-dich-gnu.txt | trang viwiki-274357-u01]\nTên gốc của GCC là GNU C Compiler (Trình biên dịch C của GNU), do ban đầu nó chỉ hỗ trợ dịch ngôn ngữ lập trình C , GCC 1.0 được phát hành vào năm 1987, sau đó được mở rộng hỗ trợ dịch C++ vào tháng 12 cùng năm đó. Các thành phần đầu vào của trình biên dịch (front end) sau đó cũng được phát triển cho các ngôn ngữ lập trình Fortran , Pascal , Objective C , Java , Ada , Go và một số ngôn ngữ khác.\n\nGCC đã tương thích với rất nhiều nền tảng kiến trúc máy tính đa dạng, và được sử dụng rộng rãi như một công cụ làm môi trường phát triển các phần mềm thương mại, có bản quyền và nguồn đóng . GCC cũng có thể dùng trong hầu hết các hệ thống nhúng (embedded system), như Symbian (gọi là gcce) , kiến trúc ARM , AMCC , Freescale Power Architecture trên chip (Freescale Power ISA-based chips), và nhiều hệ thống nhúng khác. GCC cũng được phát triển cho nhiều nền tảng khác, bao gồm cả những nền tảng video game như Playstation 2 , Cell SPE of PlayStation 3 và Sega Dreamcast .\n\n",
+    "context_ids": [
+      "B:viwiki-274357-u01:0001:a5e65f5b94287ce3",
+      "B:viwiki-274357-u01:0009:510e324afe7f5190",
+      "B:viwiki-274357-u01:0002:ecb9c03b8282d366"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 72.714,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B17",
+    "split": "dev",
+    "original_query": "Trong AWK, các cột của tệp được gọi là gì và ba cột đầu được đặt tên ra sao?",
+    "retrieval_query": "Trong AWK, các cột của tệp được gọi là gì và ba cột đầu được đặt tên ra sao?",
+    "query_transformed": false,
+    "filter": null,
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-311392-u01:0001:ad683ee894d76677",
+        "text": "AWK là ngôn ngữ lập trình được nhằm mục đích xử lý các Tập tin chữ ( text file ) theo nguyên lý khớp mẫu ( pattern matching ); đồng thời còn là tên gọi một chương trình trong hệ điều hành UNIX . Trong UNIX các chương trình được viết tên chữ thường nên AWK còn được gọi là Awk hoặc awk .\n\nLịch sử\n\nVào đầu những năm 1970 , công cụ mạnh trong UNIX có nhiệm vụ xử lý các file văn bản là grep , dựa trên nguyên tắc khớp mẫu. Các tác giả muốn bổ sung tính năng thao tác với số để đưa Awk thành một công cụ hữu hiệu có thể gần với một ngôn ngữ lập trình thực thụ. Đặc biệt là khả năng phân tách cú pháp ; về phương diện này thì Awk gần như đảm đương được vai trò của lex và yacc .\n\nTên gọi AWK bắt nguồn từ cách gọi đùa của các đồng nghiệp tại Bell Labs , ghép các chữ cái đầu của tên ba tác giả: Aho, Weinberger, và Kernighan.\n\nCú pháp\n\nDạng cú pháp cơ bản của Awk là:\n\n",
+        "source_id": "viwiki-311392",
+        "source": "data/day6/corpus/311392-awk.txt",
+        "page": "viwiki-311392-u01",
+        "metadata": {
+          "title": "AWK",
+          "unit_id": "viwiki-311392-u01",
+          "version": "74445887",
+          "char_end": 865,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AWK",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-311392-u01:0001:ad683ee894d76677",
+          "location_type": "content_unit",
+          "normalized_end": 4197,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03252247488101534,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-311392-u01:0004:29c4ea3c34ec5817",
+        "text": "Thông thường với mỗi dòng mẫu {câu lệnh} máy sẽ kiểm tra đối chiếu với tất cả các dòng trong file chữ, lần lượt từ trên xuống dưới. Nếu dòng nào khớp với mẫu thì thực hiện câu lệnh. Awk cho phép một ngoại lệ là được thực hiện một số câu lệnh trước và sau khi khi rà soát file chữ. Các câu lệnh ngoại lệ này được đặt kèm với BEGIN { } và END { } .\n\nChẳng hạn cần một dòng tiêu đề ở trên cùng, tiếp theo là in ra các con số chiều cao của những người nữ giới (giấu tên); cuối cùng là tổng kết có bao nhiêu người là nữ và chiều cao trung bình là bao nhiêu:\n\nBiến\n\nCác biến trong Awk có kiểu động , không cần khai báo và tự động lấy các giá trị mặc định (bằng 0 với kiểu số, bằng xâu rỗng đối với chuỗi ký tự ).\n\nTrong ví dụ trên hai biến là sonu và caotb được dùng đến mà không cần được khởi tạo trong phần BEGIN .\n\nChạy chương trình\n\nTừ dấu nhắc lệnh có thể gọi trực tiếp Awk với đoạn mã cùng tên file chữ, theo mẫu:\n\nChẳng hạn:\n\nHoặc nếu đã lưu file mã lệnh, chẳng hạn trung_binh.awk thì có thể gọi\n\n",
+        "source_id": "viwiki-311392",
+        "source": "data/day6/corpus/311392-awk.txt",
+        "page": "viwiki-311392-u01",
+        "metadata": {
+          "title": "AWK",
+          "unit_id": "viwiki-311392-u01",
+          "version": "74445887",
+          "char_end": 3637,
+          "strategy": "B",
+          "char_start": 2639,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AWK",
+          "chunk_ordinal": 4,
+          "day6_chunk_id": "B:viwiki-311392-u01:0004:29c4ea3c34ec5817",
+          "location_type": "content_unit",
+          "normalized_end": 4197,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.031746031746031744,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.031746031746031744,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 3
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-311392-u01:0003:0468597c96a60927",
+        "text": "Đối với mẫu, còn có thể dùng các toán tử logic như || (hoặc), && (và). Để trình bày được đơn giản, ở đây ta không đề cập đến.\n\nCâu lệnh\n\nCâu lệnh thường dùng trong Awk là lệnh in ra màn hình ( print ). Chẳng hạn:\n\nIn ra tên người:\n\nIn ra chiều cao quy đổi ra mét:\n\nTrong trường hợp in đầy đủ cả dòng thì ta bỏ qua phần {câu lệnh} .\n\nCâu lệnh của Awk còn bao gồm cả những cấu trúc điều khiển (lặp, rẽ nhánh) thường gặp trong các ngôn ngữ lập trình. Ở đây, để đơn giản ta không đề cập đến.\n\nNgoài ra, nếu có nhiều câu lệnh trong một cặp { } thì chúng cần được phân tách bởi dấu chấm phẩy.\n\nLệnh đầy đủ: mẫu đi kèm câu lệnh\n\nIn ra tên và chiều cao những người là nam giới\n\nIn ra chiều cao quy ra mét của mọi người trong danh sách (không cần viết ra mẫu )\n\nIn ra thông tin đầy đủ của tất cả những người có tên Minh (không cần viết câu lệnh print )\n\nTrường hợp đặc biệt\n\n",
+        "source_id": "viwiki-311392",
+        "source": "data/day6/corpus/311392-awk.txt",
+        "page": "viwiki-311392-u01",
+        "metadata": {
+          "title": "AWK",
+          "unit_id": "viwiki-311392-u01",
+          "version": "74445887",
+          "char_end": 2639,
+          "strategy": "B",
+          "char_start": 1773,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AWK",
+          "chunk_ordinal": 3,
+          "day6_chunk_id": "B:viwiki-311392-u01:0003:0468597c96a60927",
+          "location_type": "content_unit",
+          "normalized_end": 4197,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03055037313432836,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03055037313432836,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 7
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-311392-u01:0001:ad683ee894d76677 | data/day6/corpus/311392-awk.txt | trang viwiki-311392-u01]\nAWK là ngôn ngữ lập trình được nhằm mục đích xử lý các Tập tin chữ ( text file ) theo nguyên lý khớp mẫu ( pattern matching ); đồng thời còn là tên gọi một chương trình trong hệ điều hành UNIX . Trong UNIX các chương trình được viết tên chữ thường nên AWK còn được gọi là Awk hoặc awk .\n\nLịch sử\n\nVào đầu những năm 1970 , công cụ mạnh trong UNIX có nhiệm vụ xử lý các file văn bản là grep , dựa trên nguyên tắc khớp mẫu. Các tác giả muốn bổ sung tính năng thao tác với số để đưa Awk thành một công cụ hữu hiệu có thể gần với một ngôn ngữ lập trình thực thụ. Đặc biệt là khả năng phân tách cú pháp ; về phương diện này thì Awk gần như đảm đương được vai trò của lex và yacc .\n\nTên gọi AWK bắt nguồn từ cách gọi đùa của các đồng nghiệp tại Bell Labs , ghép các chữ cái đầu của tên ba tác giả: Aho, Weinberger, và Kernighan.\n\nCú pháp\n\nDạng cú pháp cơ bản của Awk là:\n\n\n\n[B:viwiki-311392-u01:0004:29c4ea3c34ec5817 | data/day6/corpus/311392-awk.txt | trang viwiki-311392-u01]\nThông thường với mỗi dòng mẫu {câu lệnh} máy sẽ kiểm tra đối chiếu với tất cả các dòng trong file chữ, lần lượt từ trên xuống dưới. Nếu dòng nào khớp với mẫu thì thực hiện câu lệnh. Awk cho phép một ngoại lệ là được thực hiện một số câu lệnh trước và sau khi khi rà soát file chữ. Các câu lệnh ngoại lệ này được đặt kèm với BEGIN { } và END { } .\n\nChẳng hạn cần một dòng tiêu đề ở trên cùng, tiếp theo là in ra các con số chiều cao của những người nữ giới (giấu tên); cuối cùng là tổng kết có bao nhiêu người là nữ và chiều cao trung bình là bao nhiêu:\n\nBiến\n\nCác biến trong Awk có kiểu động , không cần khai báo và tự động lấy các giá trị mặc định (bằng 0 với kiểu số, bằng xâu rỗng đối với chuỗi ký tự ).\n\nTrong ví dụ trên hai biến là sonu và caotb được dùng đến mà không cần được khởi tạo trong phần BEGIN .\n\nChạy chương trình\n\nTừ dấu nhắc lệnh có thể gọi trực tiếp Awk với đoạn mã cùng tên file chữ, theo mẫu:\n\nChẳng hạn:\n\nHoặc nếu đã lưu file mã lệnh, chẳng hạn trung_binh.awk thì có thể gọi\n\n\n\n[B:viwiki-311392-u01:0003:0468597c96a60927 | data/day6/corpus/311392-awk.txt | trang viwiki-311392-u01]\nĐối với mẫu, còn có thể dùng các toán tử logic như || (hoặc), && (và). Để trình bày được đơn giản, ở đây ta không đề cập đến.\n\nCâu lệnh\n\nCâu lệnh thường dùng trong Awk là lệnh in ra màn hình ( print ). Chẳng hạn:\n\nIn ra tên người:\n\nIn ra chiều cao quy đổi ra mét:\n\nTrong trường hợp in đầy đủ cả dòng thì ta bỏ qua phần {câu lệnh} .\n\nCâu lệnh của Awk còn bao gồm cả những cấu trúc điều khiển (lặp, rẽ nhánh) thường gặp trong các ngôn ngữ lập trình. Ở đây, để đơn giản ta không đề cập đến.\n\nNgoài ra, nếu có nhiều câu lệnh trong một cặp { } thì chúng cần được phân tách bởi dấu chấm phẩy.\n\nLệnh đầy đủ: mẫu đi kèm câu lệnh\n\nIn ra tên và chiều cao những người là nam giới\n\nIn ra chiều cao quy ra mét của mọi người trong danh sách (không cần viết ra mẫu )\n\nIn ra thông tin đầy đủ của tất cả những người có tên Minh (không cần viết câu lệnh print )\n\nTrường hợp đặc biệt\n\n",
+    "context_ids": [
+      "B:viwiki-311392-u01:0001:ad683ee894d76677",
+      "B:viwiki-311392-u01:0004:29c4ea3c34ec5817",
+      "B:viwiki-311392-u01:0003:0468597c96a60927"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 81.176,
+    "service_cost_usd": 0
+  },
+  {
+    "query_id": "B18",
+    "split": "dev",
+    "original_query": "Batch chạy dựa trên các phần mở rộng tệp nào và được thực thi trong môi trường gì?",
+    "retrieval_query": "Batch chạy dựa trên các phần mở rộng tệp nào và được thực thi trong môi trường gì?",
+    "query_transformed": false,
+    "filter": {
+      "collection": "ngon_ngu_lap_trinh"
+    },
+    "config_id": "hybrid_rrf",
+    "top_k": 3,
+    "context_budget_chars": 3600,
+    "results": [
+      {
+        "id": "B:viwiki-3646533-u01:0001:021a8da5b15ecfb5",
+        "text": "Batch là một ngôn ngữ lập trình được dựa trên các tập tin thực thi batch (*.bat, *.cmd,...) để chạy. Chúng sẽ được thực thi dưới dạng một cửa sổ Command Prompt để chạy những dòng lệnh. Batch cũng có thể rất nguy hiểm nếu sử dụng không đúng cách (xoá toàn bộ ổ cứng, làm tắt internet vĩnh viễn,...) thậm chí còn có thể làm hư cả hệ điều hành. Batch có thể được viết bằng các phần mềm chỉnh sửa văn bản đơn giản như Notepad , Sublime Text , v.v...\n\nLịch sử\n\nBatch được giới thiệu cùng với hệ điều hành MS-DOS , với khả năng thực hiện nhiều câu lệnh hàng loạt thay vì chạy từng câu lệnh như trước đây.\n\nBatch cho đến nay vẫn còn được sử dụng trên các hệ điều hành Mircosoft Windows , với nhiều cải tiến như khả năng thực hiện các phép tính, đọc dữ liệu từ bàn phím hay thay đổi màu sắc trên cửa sổ Command Prompt.\n\nCú pháp\n\nDo một chương trình Batch là tập hợp các câu lệnh, nên cú pháp của nó rất đơn giản:\n\nTrong Batch có một số câu lệnh đặc biệt, thường hay được sử dụng trong nhiều chương trình:\n\n",
+        "source_id": "viwiki-3646533",
+        "source": "data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-3646533-u01",
+        "metadata": {
+          "title": "Batch (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-3646533-u01",
+          "version": "65334502",
+          "char_end": 998,
+          "strategy": "B",
+          "char_start": 0,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Batch_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 1,
+          "day6_chunk_id": "B:viwiki-3646533-u01:0001:021a8da5b15ecfb5",
+          "location_type": "content_unit",
+          "normalized_end": 3740,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.03252247488101534,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        },
+        "gold_hit": true
+      },
+      {
+        "id": "B:viwiki-437651-u01:0002:02abfda10c4452fd",
+        "text": "Một tập lệnh tự động hóa AutoIt có thể được chuyển đổi thành một tệp thực thi được nén, độc lập có thể chạy trên máy tính ngay cả khi chúng không được cài đặt trình thông dịch AutoIt. Một loạt các thư viện chức năng (được gọi là UDF, hoặc \"User Defined Functions\") cũng được bao gồm dưới dạng tiêu chuẩn hoặc có sẵn trên trang web để thêm chức năng chuyên biệt. AutoIt cũng được phân phối với một IDE dựa trên trình soạn thảo SciTE miễn phí. Trình biên dịch và văn bản trợ giúp được tích hợp đầy đủ và cung cấp môi trường tiêu chuẩn trên thực tế cho các nhà phát triển sử dụng AutoIt.\n\nTính năng\n\nỞ đây là các tính năng chính:\n\nDễ học vì các cú pháp đơn giản.\n\nGiả lập được các hành động nhấn phím và di chuyển chuột.\n\nThao tác được với các tiến trình và cửa sổ.\n\nTương tác được với các control trên cửa sổ.\n\nTệp tin kịch bản có thể được biên dịch thành một tệp tin thực thi duy nhất.\n\nCho phép tạo GUI - giao diện đồ họa người dùng.\n\nHỗ trợ COM (Component Object Model).\n\n",
+        "source_id": "viwiki-437651",
+        "source": "data/day6/corpus/437651-autoit.txt",
+        "page": "viwiki-437651-u01",
+        "metadata": {
+          "title": "AutoIt",
+          "unit_id": "viwiki-437651-u01",
+          "version": "75571888",
+          "char_end": 1726,
+          "strategy": "B",
+          "char_start": 753,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+          "chunk_ordinal": 2,
+          "day6_chunk_id": "B:viwiki-437651-u01:0002:02abfda10c4452fd",
+          "location_type": "content_unit",
+          "normalized_end": 3511,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.030886196246139225,
+        "rank": 2,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.030886196246139225,
+        "component_ranks": {
+          "dense": 9,
+          "bm25": 1
+        },
+        "gold_hit": false
+      },
+      {
+        "id": "B:viwiki-3646533-u01:0004:c38c04eb57865857",
+        "text": "Một số từ khóa trong Batch\n\nver: Trả về phiên bản MS-DOS đang sử dụng\n\ncd: Chuyển hướng thư mục đang làm việc\n\ncls: Xóa màn hình MS-DOS\n\ncopy: Sao chép file\n\ndel: Xóa file\n\ndir: Hiển thị nội dùng của một thư mục\n\necho: Hiển thị văn bản trên màn hình MS-DOS\n\nexit: Thoát chương trình\n\nmd: Tạo một thư mục mởi vị trí hiện tại đang làm việc\n\npause: Ngăn không cho chương trình thoát và đợi cho tới khi bất kì phím nào trên bàn phím đucợ nhấn\n\nGọi tên một chương trình Batch khác\n\nNếu bạn có nhiều chương trình batch trong 1 thư mục, thì bạn cũng có thể gọi cái chương trình ấy ra mà không làm cho chương trình của bạn bị thoát.\n\nSử dụng bằng lệnh \"call <tên chương trình> <các biến>\"\n\nNó còn có thể gọi được tất cả các lệnh của batch nữa. (call echo Hello World)",
+        "source_id": "viwiki-3646533",
+        "source": "data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt",
+        "page": "viwiki-3646533-u01",
+        "metadata": {
+          "title": "Batch (ngôn ngữ lập trình)",
+          "unit_id": "viwiki-3646533-u01",
+          "version": "65334502",
+          "char_end": 3740,
+          "strategy": "B",
+          "char_start": 2981,
+          "collection": "ngon_ngu_lap_trinh",
+          "canonical_url": "https://vi.wikipedia.org/wiki/Batch_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+          "chunk_ordinal": 4,
+          "day6_chunk_id": "B:viwiki-3646533-u01:0004:c38c04eb57865857",
+          "location_type": "content_unit",
+          "normalized_end": 3740,
+          "normalized_start": 0,
+          "sequence_in_source": 1
+        },
+        "score": 0.030798389007344232,
+        "rank": 3,
+        "strategy": "hybrid_rrf",
+        "rrf_score": 0.030798389007344232,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 7
+        },
+        "gold_hit": false
+      }
+    ],
+    "context": "[B:viwiki-3646533-u01:0001:021a8da5b15ecfb5 | data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt | trang viwiki-3646533-u01]\nBatch là một ngôn ngữ lập trình được dựa trên các tập tin thực thi batch (*.bat, *.cmd,...) để chạy. Chúng sẽ được thực thi dưới dạng một cửa sổ Command Prompt để chạy những dòng lệnh. Batch cũng có thể rất nguy hiểm nếu sử dụng không đúng cách (xoá toàn bộ ổ cứng, làm tắt internet vĩnh viễn,...) thậm chí còn có thể làm hư cả hệ điều hành. Batch có thể được viết bằng các phần mềm chỉnh sửa văn bản đơn giản như Notepad , Sublime Text , v.v...\n\nLịch sử\n\nBatch được giới thiệu cùng với hệ điều hành MS-DOS , với khả năng thực hiện nhiều câu lệnh hàng loạt thay vì chạy từng câu lệnh như trước đây.\n\nBatch cho đến nay vẫn còn được sử dụng trên các hệ điều hành Mircosoft Windows , với nhiều cải tiến như khả năng thực hiện các phép tính, đọc dữ liệu từ bàn phím hay thay đổi màu sắc trên cửa sổ Command Prompt.\n\nCú pháp\n\nDo một chương trình Batch là tập hợp các câu lệnh, nên cú pháp của nó rất đơn giản:\n\nTrong Batch có một số câu lệnh đặc biệt, thường hay được sử dụng trong nhiều chương trình:\n\n\n\n[B:viwiki-437651-u01:0002:02abfda10c4452fd | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nMột tập lệnh tự động hóa AutoIt có thể được chuyển đổi thành một tệp thực thi được nén, độc lập có thể chạy trên máy tính ngay cả khi chúng không được cài đặt trình thông dịch AutoIt. Một loạt các thư viện chức năng (được gọi là UDF, hoặc \"User Defined Functions\") cũng được bao gồm dưới dạng tiêu chuẩn hoặc có sẵn trên trang web để thêm chức năng chuyên biệt. AutoIt cũng được phân phối với một IDE dựa trên trình soạn thảo SciTE miễn phí. Trình biên dịch và văn bản trợ giúp được tích hợp đầy đủ và cung cấp môi trường tiêu chuẩn trên thực tế cho các nhà phát triển sử dụng AutoIt.\n\nTính năng\n\nỞ đây là các tính năng chính:\n\nDễ học vì các cú pháp đơn giản.\n\nGiả lập được các hành động nhấn phím và di chuyển chuột.\n\nThao tác được với các tiến trình và cửa sổ.\n\nTương tác được với các control trên cửa sổ.\n\nTệp tin kịch bản có thể được biên dịch thành một tệp tin thực thi duy nhất.\n\nCho phép tạo GUI - giao diện đồ họa người dùng.\n\nHỗ trợ COM (Component Object Model).\n\n\n\n[B:viwiki-3646533-u01:0004:c38c04eb57865857 | data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt | trang viwiki-3646533-u01]\nMột số từ khóa trong Batch\n\nver: Trả về phiên bản MS-DOS đang sử dụng\n\ncd: Chuyển hướng thư mục đang làm việc\n\ncls: Xóa màn hình MS-DOS\n\ncopy: Sao chép file\n\ndel: Xóa file\n\ndir: Hiển thị nội dùng của một thư mục\n\necho: Hiển thị văn bản trên màn hình MS-DOS\n\nexit: Thoát chương trình\n\nmd: Tạo một thư mục mởi vị trí hiện tại đang làm việc\n\npause: Ngăn không cho chương trình thoát và đợi cho tới khi bất kì phím nào trên bàn phím đucợ nhấn\n\nGọi tên một chương trình Batch khác\n\nNếu bạn có nhiều chương trình batch trong 1 thư mục, thì bạn cũng có thể gọi cái chương trình ấy ra mà không làm cho chương trình của bạn bị thoát.\n\nSử dụng bằng lệnh \"call <tên chương trình> <các biến>\"\n\nNó còn có thể gọi được tất cả các lệnh của batch nữa. (call echo Hello World)",
+    "context_ids": [
+      "B:viwiki-3646533-u01:0001:021a8da5b15ecfb5",
+      "B:viwiki-437651-u01:0002:02abfda10c4452fd",
+      "B:viwiki-3646533-u01:0004:c38c04eb57865857"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 58.836,
+    "service_cost_usd": 0
+  }
+]

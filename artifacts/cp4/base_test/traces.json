@@ -1,0 +1,2494 @@
+[
+  {
+    "query_id": "B22",
+    "split": "test",
+    "answerable": true,
+    "config_id": "dense_baseline",
+    "status": "answered",
+    "question": "Mục đích ban đầu của AutoIt là gì?",
+    "answer": "Trong bản phát hành đầu tiên, AutoIt chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros) cho các chương trình Microsoft Windows. [B:viwiki-437651-u01:0001:da8fa7bb50767243]",
+    "citations": [
+      "B:viwiki-437651-u01:0001:da8fa7bb50767243"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "Mục đích ban đầu của AutoIt là gì?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+            "text": "AutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.\n\nNgôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.\n\n",
+            "source_id": "viwiki-437651",
+            "source": "data/day6/corpus/437651-autoit.txt",
+            "page": "viwiki-437651-u01",
+            "metadata": {
+              "title": "AutoIt",
+              "unit_id": "viwiki-437651-u01",
+              "version": "75571888",
+              "char_end": 753,
+              "strategy": "B",
+              "char_start": 0,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+              "chunk_ordinal": 1,
+              "day6_chunk_id": "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+              "location_type": "content_unit",
+              "normalized_end": 3511,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.6509353726544765,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-437651-u01:0003:b2d1a16648f77a57",
+            "text": "Hỗ trợ Biểu thức chính quy ( Regular Expression ).\n\nGọi một cách có định hướng các tệp tin DLL mở rộng và các hàm API .\n\nTài liệu chi tiết và cộng đồng hỗ trợ lớn.\n\nTương thích với tất cả phân hệ của Windows.\n\nHỗ trợ Unicode và x64.\n\nLàm việc với User Account Control (UAC) trên Windows Vista .\n\nAutoIt được thiết kế sao cho nhỏ nhất có thể và không cần dùng đến các tệp tin DLL mở rộng hoặc Registry để nó có thể an toàn khi chạy trên các Server. Các tệp tin kịch bản có thể được biên dịch thành tệp tin thực thi (*.exe) với công cụ Aut2Exe.\n\nSự kết hợp các COM và DLL từ việc gọi AutoItX cho phép bạn thêm các tính năng độc nhất vào các đoạn kịch bản hay ngôn ngữ lập trình yêu thích.\n\nĐiểm yếu\n\nNgoài các thuận lợi nêu ở trên, AutoIt cũng mắc phải một số điểm yếu khiến người dùng vô cùng khó chịu:\n\n",
+            "source_id": "viwiki-437651",
+            "source": "data/day6/corpus/437651-autoit.txt",
+            "page": "viwiki-437651-u01",
+            "metadata": {
+              "title": "AutoIt",
+              "unit_id": "viwiki-437651-u01",
+              "version": "75571888",
+              "char_end": 2529,
+              "strategy": "B",
+              "char_start": 1726,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+              "chunk_ordinal": 3,
+              "day6_chunk_id": "B:viwiki-437651-u01:0003:b2d1a16648f77a57",
+              "location_type": "content_unit",
+              "normalized_end": 3511,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.4846356511116028,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-437651-u01:0002:02abfda10c4452fd",
+            "text": "Một tập lệnh tự động hóa AutoIt có thể được chuyển đổi thành một tệp thực thi được nén, độc lập có thể chạy trên máy tính ngay cả khi chúng không được cài đặt trình thông dịch AutoIt. Một loạt các thư viện chức năng (được gọi là UDF, hoặc \"User Defined Functions\") cũng được bao gồm dưới dạng tiêu chuẩn hoặc có sẵn trên trang web để thêm chức năng chuyên biệt. AutoIt cũng được phân phối với một IDE dựa trên trình soạn thảo SciTE miễn phí. Trình biên dịch và văn bản trợ giúp được tích hợp đầy đủ và cung cấp môi trường tiêu chuẩn trên thực tế cho các nhà phát triển sử dụng AutoIt.\n\nTính năng\n\nỞ đây là các tính năng chính:\n\nDễ học vì các cú pháp đơn giản.\n\nGiả lập được các hành động nhấn phím và di chuyển chuột.\n\nThao tác được với các tiến trình và cửa sổ.\n\nTương tác được với các control trên cửa sổ.\n\nTệp tin kịch bản có thể được biên dịch thành một tệp tin thực thi duy nhất.\n\nCho phép tạo GUI - giao diện đồ họa người dùng.\n\nHỗ trợ COM (Component Object Model).\n\n",
+            "source_id": "viwiki-437651",
+            "source": "data/day6/corpus/437651-autoit.txt",
+            "page": "viwiki-437651-u01",
+            "metadata": {
+              "title": "AutoIt",
+              "unit_id": "viwiki-437651-u01",
+              "version": "75571888",
+              "char_end": 1726,
+              "strategy": "B",
+              "char_start": 753,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+              "chunk_ordinal": 2,
+              "day6_chunk_id": "B:viwiki-437651-u01:0002:02abfda10c4452fd",
+              "location_type": "content_unit",
+              "normalized_end": 3511,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.4773356020450592,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-437651-u01:0001:da8fa7bb50767243 | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nAutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.\n\nNgôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.\n\n\n\n[B:viwiki-437651-u01:0003:b2d1a16648f77a57 | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nHỗ trợ Biểu thức chính quy ( Regular Expression ).\n\nGọi một cách có định hướng các tệp tin DLL mở rộng và các hàm API .\n\nTài liệu chi tiết và cộng đồng hỗ trợ lớn.\n\nTương thích với tất cả phân hệ của Windows.\n\nHỗ trợ Unicode và x64.\n\nLàm việc với User Account Control (UAC) trên Windows Vista .\n\nAutoIt được thiết kế sao cho nhỏ nhất có thể và không cần dùng đến các tệp tin DLL mở rộng hoặc Registry để nó có thể an toàn khi chạy trên các Server. Các tệp tin kịch bản có thể được biên dịch thành tệp tin thực thi (*.exe) với công cụ Aut2Exe.\n\nSự kết hợp các COM và DLL từ việc gọi AutoItX cho phép bạn thêm các tính năng độc nhất vào các đoạn kịch bản hay ngôn ngữ lập trình yêu thích.\n\nĐiểm yếu\n\nNgoài các thuận lợi nêu ở trên, AutoIt cũng mắc phải một số điểm yếu khiến người dùng vô cùng khó chịu:\n\n\n\n[B:viwiki-437651-u01:0002:02abfda10c4452fd | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nMột tập lệnh tự động hóa AutoIt có thể được chuyển đổi thành một tệp thực thi được nén, độc lập có thể chạy trên máy tính ngay cả khi chúng không được cài đặt trình thông dịch AutoIt. Một loạt các thư viện chức năng (được gọi là UDF, hoặc \"User Defined Functions\") cũng được bao gồm dưới dạng tiêu chuẩn hoặc có sẵn trên trang web để thêm chức năng chuyên biệt. AutoIt cũng được phân phối với một IDE dựa trên trình soạn thảo SciTE miễn phí. Trình biên dịch và văn bản trợ giúp được tích hợp đầy đủ và cung cấp môi trường tiêu chuẩn trên thực tế cho các nhà phát triển sử dụng AutoIt.\n\nTính năng\n\nỞ đây là các tính năng chính:\n\nDễ học vì các cú pháp đơn giản.\n\nGiả lập được các hành động nhấn phím và di chuyển chuột.\n\nThao tác được với các tiến trình và cửa sổ.\n\nTương tác được với các control trên cửa sổ.\n\nTệp tin kịch bản có thể được biên dịch thành một tệp tin thực thi duy nhất.\n\nCho phép tạo GUI - giao diện đồ họa người dùng.\n\nHỗ trợ COM (Component Object Model).\n\n",
+        "context_ids": [
+          "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+          "B:viwiki-437651-u01:0003:b2d1a16648f77a57",
+          "B:viwiki-437651-u01:0002:02abfda10c4452fd"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"Trong bản phát hành đầu tiên, AutoIt chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros) cho các chương trình Microsoft Windows.\",\"citations\":[\"B:viwiki-437651-u01:0001:da8fa7bb50767243\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 2048,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 127,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 164.72,
+      "answer_generation": 8185.3,
+      "total": 8350.77
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B23",
+    "split": "test",
+    "answerable": true,
+    "config_id": "dense_baseline",
+    "status": "answered",
+    "question": "Ngành tương tác người–máy tập trung giải quyết thách thức gì?",
+    "answer": "Ngành tương tác người–máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng. [B:viwiki-4663-u01:0002:803ffb5131730e00]",
+    "citations": [
+      "B:viwiki-4663-u01:0002:803ffb5131730e00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "Ngành tương tác người–máy tập trung giải quyết thách thức gì?",
+        "query_transformed": false,
+        "filter": {
+          "collection": "khoa_hoc_may_tinh"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-4663-u01:0002:803ffb5131730e00",
+            "text": "Khoa học máy tính gồm nhiều ngành hẹp; một số ngành tập trung vào các ứng dụng thực tiễn cụ thể chẳng hạn như đồ họa máy tính , trong khi một số ngành khác lại tập trung nghiên cứu đến tính chất cơ bản của các bài toán tính toán như lý thuyết độ phức tạp tính toán ). Ngoài ra còn có những ngành khác nghiên cứu các vấn đề trong việc thực thi các phương pháp tính toán. Ví dụ, ngành lý thuyết ngôn ngữ lập trình nghiên cứu những phương thức mô tả cách tính toán khác nhau, trong khi ngành lập trình nghiên cứu cách sử dụng các ngôn ngữ lập trình và các hệ thống phức tạp , và ngành tương tác người-máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng.\n\nLịch sử\n\n",
+            "source_id": "viwiki-4663",
+            "source": "data/day6/corpus/4663-khoa-hoc-may-tinh.txt",
+            "page": "viwiki-4663-u01",
+            "metadata": {
+              "title": "Khoa học máy tính",
+              "unit_id": "viwiki-4663-u01",
+              "version": "75569049",
+              "char_end": 1484,
+              "strategy": "B",
+              "char_start": 743,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh",
+              "chunk_ordinal": 2,
+              "day6_chunk_id": "B:viwiki-4663-u01:0002:803ffb5131730e00",
+              "location_type": "content_unit",
+              "normalized_end": 9912,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.4096718498771058,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-20005728-u01:0009:928b52e176333ece",
+            "text": "↑ Kingma, Diederik P.; Welling, Max (2019). \"An Introduction to Variational Autoencoders\" . Foundations and Trends in Machine Learning . 12 (4): 307– 392. arXiv : 1906.02691 . doi : 10.1561/2200000056 .\n\n↑ Abbasnejad, M. Ehsan; Dick, Anthony; van den Hengel, Anton (2017). Infinite Variational Autoencoder for Semi-Supervised Learning . IEEE Conference on Computer Vision and Pattern Recognition (CVPR). tr. 5888–5897.\n\n↑ Xu, Weidi; Sun, Haoze; Deng, Chao; Tan, Ying (2017). \"Variational Autoencoder for Semi-Supervised Text Classification\". Proceedings of the AAAI Conference on Artificial Intelligence . 31 (1). doi : 10.1609/aaai.v31i1.10966 .\n\n↑ Kameoka, Hirokazu; Li, Li; Inoue, Shota; Makino, Shoji (2019). \"Supervised Determined Source Separation with Multichannel Variational Autoencoder\". Neural Computation . 31 (9): 1891– 1914. doi : 10.1162/neco_a_01217 . PMID 31335290 .\n\n",
+            "source_id": "viwiki-20005728",
+            "source": "data/day6/corpus/20005728-bo-ma-hoa-tu-ong-bien-phan.txt",
+            "page": "viwiki-20005728-u01",
+            "metadata": {
+              "title": "Bộ mã hóa tự động biến phân",
+              "unit_id": "viwiki-20005728-u01",
+              "version": "75587968",
+              "char_end": 7312,
+              "strategy": "B",
+              "char_start": 6427,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_m%C3%A3_h%C3%B3a_t%E1%BB%B1_%C4%91%E1%BB%99ng_bi%E1%BA%BFn_ph%C3%A2n",
+              "chunk_ordinal": 9,
+              "day6_chunk_id": "B:viwiki-20005728-u01:0009:928b52e176333ece",
+              "location_type": "content_unit",
+              "normalized_end": 9459,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.3746173791473324,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-19996278-u01:0024:37ef15ceca1799c6",
+            "text": "Các mô hình ngôn ngữ lớn bị chỉ trích vì tái tạo và khuếch đại các thiên kiến kế thừa từ dữ liệu huấn luyện. Một nghiên cứu năm 2024 của Đại học Washington thử nghiệm ba mô hình ngôn ngữ lớn hàng đầu trên hơn 550 hồ sơ xin việc thực tế, chỉ thay đổi tên ứng viên để phản ánh các chủng tộc và giới tính khác nhau. Kết quả cho thấy các mô hình ưu tiên tên gắn với người da trắng trong 85% trường hợp, tên gắn với nữ giới chỉ trong 11% trường hợp, và không bao giờ ưu tiên tên thường thuộc về nam giới da đen hơn tên nam giới da trắng. Một nghiên cứu năm 2024 trên tạp chí Nature phân tích sáu mô hình ngôn ngữ lớn hàng đầu và phát hiện tất cả đều thể hiện một mức độ thiên kiến giới tính nhất định. Ngoài lĩnh vực tuyển dụng, thiên kiến AI còn xuất hiện trong các hệ thống nhận diện khuôn mặt, cấp tín dụng và phân tích hình ảnh y tế ; những lĩnh vực mà sai lệch có thể gây ra hậu quả trực tiếp và nghiêm trọng đối với người dùng.\n\n",
+            "source_id": "viwiki-19996278",
+            "source": "data/day6/corpus/19996278-con-sot-ai.txt",
+            "page": "viwiki-19996278-u01",
+            "metadata": {
+              "title": "Cơn sốt AI",
+              "unit_id": "viwiki-19996278-u01",
+              "version": "75582584",
+              "char_end": 18570,
+              "strategy": "B",
+              "char_start": 17640,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1n_s%E1%BB%91t_AI",
+              "chunk_ordinal": 24,
+              "day6_chunk_id": "B:viwiki-19996278-u01:0024:37ef15ceca1799c6",
+              "location_type": "content_unit",
+              "normalized_end": 37414,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.3657513776869403,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-4663-u01:0002:803ffb5131730e00 | data/day6/corpus/4663-khoa-hoc-may-tinh.txt | trang viwiki-4663-u01]\nKhoa học máy tính gồm nhiều ngành hẹp; một số ngành tập trung vào các ứng dụng thực tiễn cụ thể chẳng hạn như đồ họa máy tính , trong khi một số ngành khác lại tập trung nghiên cứu đến tính chất cơ bản của các bài toán tính toán như lý thuyết độ phức tạp tính toán ). Ngoài ra còn có những ngành khác nghiên cứu các vấn đề trong việc thực thi các phương pháp tính toán. Ví dụ, ngành lý thuyết ngôn ngữ lập trình nghiên cứu những phương thức mô tả cách tính toán khác nhau, trong khi ngành lập trình nghiên cứu cách sử dụng các ngôn ngữ lập trình và các hệ thống phức tạp , và ngành tương tác người-máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng.\n\nLịch sử\n\n\n\n[B:viwiki-20005728-u01:0009:928b52e176333ece | data/day6/corpus/20005728-bo-ma-hoa-tu-ong-bien-phan.txt | trang viwiki-20005728-u01]\n↑ Kingma, Diederik P.; Welling, Max (2019). \"An Introduction to Variational Autoencoders\" . Foundations and Trends in Machine Learning . 12 (4): 307– 392. arXiv : 1906.02691 . doi : 10.1561/2200000056 .\n\n↑ Abbasnejad, M. Ehsan; Dick, Anthony; van den Hengel, Anton (2017). Infinite Variational Autoencoder for Semi-Supervised Learning . IEEE Conference on Computer Vision and Pattern Recognition (CVPR). tr. 5888–5897.\n\n↑ Xu, Weidi; Sun, Haoze; Deng, Chao; Tan, Ying (2017). \"Variational Autoencoder for Semi-Supervised Text Classification\". Proceedings of the AAAI Conference on Artificial Intelligence . 31 (1). doi : 10.1609/aaai.v31i1.10966 .\n\n↑ Kameoka, Hirokazu; Li, Li; Inoue, Shota; Makino, Shoji (2019). \"Supervised Determined Source Separation with Multichannel Variational Autoencoder\". Neural Computation . 31 (9): 1891– 1914. doi : 10.1162/neco_a_01217 . PMID 31335290 .\n\n\n\n[B:viwiki-19996278-u01:0024:37ef15ceca1799c6 | data/day6/corpus/19996278-con-sot-ai.txt | trang viwiki-19996278-u01]\nCác mô hình ngôn ngữ lớn bị chỉ trích vì tái tạo và khuếch đại các thiên kiến kế thừa từ dữ liệu huấn luyện. Một nghiên cứu năm 2024 của Đại học Washington thử nghiệm ba mô hình ngôn ngữ lớn hàng đầu trên hơn 550 hồ sơ xin việc thực tế, chỉ thay đổi tên ứng viên để phản ánh các chủng tộc và giới tính khác nhau. Kết quả cho thấy các mô hình ưu tiên tên gắn với người da trắng trong 85% trường hợp, tên gắn với nữ giới chỉ trong 11% trường hợp, và không bao giờ ưu tiên tên thường thuộc về nam giới da đen hơn tên nam giới da trắng. Một nghiên cứu năm 2024 trên tạp chí Nature phân tích sáu mô hình ngôn ngữ lớn hàng đầu và phát hiện tất cả đều thể hiện một mức độ thiên kiến giới tính nhất định. Ngoài lĩnh vực tuyển dụng, thiên kiến AI còn xuất hiện trong các hệ thống nhận diện khuôn mặt, cấp tín dụng và phân tích hình ảnh y tế ; những lĩnh vực mà sai lệch có thể gây ra hậu quả trực tiếp và nghiêm trọng đối với người dùng.\n\n",
+        "context_ids": [
+          "B:viwiki-4663-u01:0002:803ffb5131730e00",
+          "B:viwiki-20005728-u01:0009:928b52e176333ece",
+          "B:viwiki-19996278-u01:0024:37ef15ceca1799c6"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"Ngành tương tác người–máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng.\",\"citations\":[\"B:viwiki-4663-u01:0002:803ffb5131730e00\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 1986,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 120,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 156.5,
+      "answer_generation": 9536.1,
+      "total": 9692.97
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B24",
+    "split": "test",
+    "answerable": true,
+    "config_id": "dense_baseline",
+    "status": "answered",
+    "question": "C++11 được ISO chấp nhận vào ngày nào và thay thế tiêu chuẩn nào?",
+    "answer": "C++11 được tổ chức ISO chấp nhận vào ngày 12 tháng 4 năm 2011, nhằm thay thế cho tiêu chuẩn C++03. [B:viwiki-819391-u01:0001:3ebffd83e5828cc6]",
+    "citations": [
+      "B:viwiki-819391-u01:0001:3ebffd83e5828cc6"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "C++11 được ISO chấp nhận vào ngày nào và thay thế tiêu chuẩn nào?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-819391-u01:0001:3ebffd83e5828cc6",
+            "text": "C++11 , được biết đến trước đây với tên gọi C++0x, là tên gọi của tiêu chuẩn của ngôn ngữ lập trình C++ . Tiêu chuẩn này được chấp nhận bởi tổ chức ISO vào ngày 12 tháng 4 năm 2011 nhằm thay thế cho tiêu chuẩn C++03. Tên gọi C++11 của tiêu chuẩn này dược dựa trên truyền thống đặt tên phiên bản ngôn ngữ theo ngày xuất bản của bản chi tiết kỹ thuật (specification).\n\nC++11 đưa thêm một số mở rộng mới vào phần ngôn ngữ cốt lõi C++ và một số mở rộng cho thư viện chuẩn của C++, trong đó bao gồm hầu hết các thư viện trong báo cáo kỹ thuật TR1 (C++ Technical Report 1) ngoại trừ thư viện các hàm toán học đặc biệt. C++11 được ban hành dưới dạng tiêu chuẩn ISO/IEC 14882:2011 vào tháng 9/2011. Bản thảo tiêu chuẩn mới nhất là N3242 được viết vào ngày 28 tháng 2 năm 2011. Tuy nhiên sự khác biệt giữa bản thảo này và C++11 là không đáng kể.\n\nMột số đề xuất thay đổi cho việc cập nhật tiêu chuẩn\n\n",
+            "source_id": "viwiki-819391",
+            "source": "data/day6/corpus/819391-c-11.txt",
+            "page": "viwiki-819391-u01",
+            "metadata": {
+              "title": "C++11",
+              "unit_id": "viwiki-819391-u01",
+              "version": "74449619",
+              "char_end": 892,
+              "strategy": "B",
+              "char_start": 0,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%2B%2B11",
+              "chunk_ordinal": 1,
+              "day6_chunk_id": "B:viwiki-819391-u01:0001:3ebffd83e5828cc6",
+              "location_type": "content_unit",
+              "normalized_end": 6888,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.6703437566757202,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-819391-u01:0002:d9f80163e3920095",
+            "text": "Các thay đổi cho C++ bao gồm cả những thay đổi cho phần cốt lõi ngôn ngữ và những thay đổi cho phần thư viện chuẩn. Trong quá trình phát triển tiêu chuẩn mới, ủy ban cập nhật dựa trên các nguyên tắc sau:\n\nDuy trì sự ổn định và tương thích với chuẩn C++98 và có thể tương thích với cả ngôn ngữ C .\n\nƯu tiên việc đưa các thay đổi vào thư viện chuẩn hơn là đưa vào phần ngôn ngữ cốt lõi.\n\nƯu tiên các thay đổi có thể thay đổi căn bản các kỹ thuật lập trình.\n\nƯu tiên nâng cấp các thiết kế hệ thống và thiết kế thư viện hơn là việc đơn thuần đưa thêm các chức năng mới cho các ứng dụng cụ thể.\n\nTăng cường độ an toàn cho các kiểu (type) bằng cách đưa vào các kỹ thuật mới an toàn hơn.\n\nTăng hiệu năng và khả năng làm việc trực tiếp với phần cứng .\n\nCung cấp các giải pháp chính xác cho các vấn đề hay các bài toán thực tế.\n\nThực thi nguyên tắc \"zero-overhead\" (tạm dịch: chi phí phát sinh bằng không) trong đó quy định các hỗ trợ thêm cho một số tính năng chỉ được sử dụng khi ta sử dụng tính năng đó.\n\n",
+            "source_id": "viwiki-819391",
+            "source": "data/day6/corpus/819391-c-11.txt",
+            "page": "viwiki-819391-u01",
+            "metadata": {
+              "title": "C++11",
+              "unit_id": "viwiki-819391-u01",
+              "version": "74449619",
+              "char_end": 1891,
+              "strategy": "B",
+              "char_start": 892,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%2B%2B11",
+              "chunk_ordinal": 2,
+              "day6_chunk_id": "B:viwiki-819391-u01:0002:d9f80163e3920095",
+              "location_type": "content_unit",
+              "normalized_end": 6888,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.37005721748216325,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-819391-u01:0009:538ec3f58b86ee1b",
+            "text": "C++ cũng hỗ trợ việc sử dụng hàm khởi tạo (constructor) để khởi tạo một đối tượng của một lớp nào đó nhưng không tạo được sự thuận tiện như danh sách khởi tạo. C++03 chỉ hỗ trợ danh sách khởi tạo cho các cấu trúc (struct) và các lớp (class) phù họp với định nghĩa Dữ liệu cũ đơn giả (POD - Plain Old Data). C++11 mở rộng danh sách khởi tạo bằng cách cho phép chúng có thể được sử dụng với tất cả các lớp (class), kể cả các thùng chứa chuẩn (standard containers) của C++ như std::vector . Ví dụ:\n\nKhai báo trên cho phép chúng ta khởi tạo một đối tượng mới như sau:\n\nHàm khởi tạo đặc biệt này được gọi là hàm khởi tạo theo danh sách khởi tạo (initializer-list constructor). Các lớp có các hàm khởi tạo đặc biệt này sẽ được xử lý một cách đặc biệt trong quá trình khởi tạo đồng nhất(xem thêm dưới đây ).\n\nCác cải tiến về tính năng ngôn ngữ cốt lõi\n\nCác thay đổi của thư viện chuẩn C++\n\nTham khảo\n\n↑ \"We have an international standard: C++0x is unanimously approved\" . Truy cập ngày 12 tháng 8 năm 2011 .",
+            "source_id": "viwiki-819391",
+            "source": "data/day6/corpus/819391-c-11.txt",
+            "page": "viwiki-819391-u01",
+            "metadata": {
+              "title": "C++11",
+              "unit_id": "viwiki-819391-u01",
+              "version": "74449619",
+              "char_end": 6888,
+              "strategy": "B",
+              "char_start": 5888,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%2B%2B11",
+              "chunk_ordinal": 9,
+              "day6_chunk_id": "B:viwiki-819391-u01:0009:538ec3f58b86ee1b",
+              "location_type": "content_unit",
+              "normalized_end": 6888,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.33779990673065186,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-819391-u01:0001:3ebffd83e5828cc6 | data/day6/corpus/819391-c-11.txt | trang viwiki-819391-u01]\nC++11 , được biết đến trước đây với tên gọi C++0x, là tên gọi của tiêu chuẩn của ngôn ngữ lập trình C++ . Tiêu chuẩn này được chấp nhận bởi tổ chức ISO vào ngày 12 tháng 4 năm 2011 nhằm thay thế cho tiêu chuẩn C++03. Tên gọi C++11 của tiêu chuẩn này dược dựa trên truyền thống đặt tên phiên bản ngôn ngữ theo ngày xuất bản của bản chi tiết kỹ thuật (specification).\n\nC++11 đưa thêm một số mở rộng mới vào phần ngôn ngữ cốt lõi C++ và một số mở rộng cho thư viện chuẩn của C++, trong đó bao gồm hầu hết các thư viện trong báo cáo kỹ thuật TR1 (C++ Technical Report 1) ngoại trừ thư viện các hàm toán học đặc biệt. C++11 được ban hành dưới dạng tiêu chuẩn ISO/IEC 14882:2011 vào tháng 9/2011. Bản thảo tiêu chuẩn mới nhất là N3242 được viết vào ngày 28 tháng 2 năm 2011. Tuy nhiên sự khác biệt giữa bản thảo này và C++11 là không đáng kể.\n\nMột số đề xuất thay đổi cho việc cập nhật tiêu chuẩn\n\n\n\n[B:viwiki-819391-u01:0002:d9f80163e3920095 | data/day6/corpus/819391-c-11.txt | trang viwiki-819391-u01]\nCác thay đổi cho C++ bao gồm cả những thay đổi cho phần cốt lõi ngôn ngữ và những thay đổi cho phần thư viện chuẩn. Trong quá trình phát triển tiêu chuẩn mới, ủy ban cập nhật dựa trên các nguyên tắc sau:\n\nDuy trì sự ổn định và tương thích với chuẩn C++98 và có thể tương thích với cả ngôn ngữ C .\n\nƯu tiên việc đưa các thay đổi vào thư viện chuẩn hơn là đưa vào phần ngôn ngữ cốt lõi.\n\nƯu tiên các thay đổi có thể thay đổi căn bản các kỹ thuật lập trình.\n\nƯu tiên nâng cấp các thiết kế hệ thống và thiết kế thư viện hơn là việc đơn thuần đưa thêm các chức năng mới cho các ứng dụng cụ thể.\n\nTăng cường độ an toàn cho các kiểu (type) bằng cách đưa vào các kỹ thuật mới an toàn hơn.\n\nTăng hiệu năng và khả năng làm việc trực tiếp với phần cứng .\n\nCung cấp các giải pháp chính xác cho các vấn đề hay các bài toán thực tế.\n\nThực thi nguyên tắc \"zero-overhead\" (tạm dịch: chi phí phát sinh bằng không) trong đó quy định các hỗ trợ thêm cho một số tính năng chỉ được sử dụng khi ta sử dụng tính năng đó.\n\n\n\n[B:viwiki-819391-u01:0009:538ec3f58b86ee1b | data/day6/corpus/819391-c-11.txt | trang viwiki-819391-u01]\nC++ cũng hỗ trợ việc sử dụng hàm khởi tạo (constructor) để khởi tạo một đối tượng của một lớp nào đó nhưng không tạo được sự thuận tiện như danh sách khởi tạo. C++03 chỉ hỗ trợ danh sách khởi tạo cho các cấu trúc (struct) và các lớp (class) phù họp với định nghĩa Dữ liệu cũ đơn giả (POD - Plain Old Data). C++11 mở rộng danh sách khởi tạo bằng cách cho phép chúng có thể được sử dụng với tất cả các lớp (class), kể cả các thùng chứa chuẩn (standard containers) của C++ như std::vector . Ví dụ:\n\nKhai báo trên cho phép chúng ta khởi tạo một đối tượng mới như sau:\n\nHàm khởi tạo đặc biệt này được gọi là hàm khởi tạo theo danh sách khởi tạo (initializer-list constructor). Các lớp có các hàm khởi tạo đặc biệt này sẽ được xử lý một cách đặc biệt trong quá trình khởi tạo đồng nhất(xem thêm dưới đây ).\n\nCác cải tiến về tính năng ngôn ngữ cốt lõi\n\nCác thay đổi của thư viện chuẩn C++\n\nTham khảo\n\n↑ \"We have an international standard: C++0x is unanimously approved\" . Truy cập ngày 12 tháng 8 năm 2011 .",
+        "context_ids": [
+          "B:viwiki-819391-u01:0001:3ebffd83e5828cc6",
+          "B:viwiki-819391-u01:0002:d9f80163e3920095",
+          "B:viwiki-819391-u01:0009:538ec3f58b86ee1b"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"C++11 được tổ chức ISO chấp nhận vào ngày 12 tháng 4 năm 2011, nhằm thay thế cho tiêu chuẩn C++03.\",\"citations\":[\"B:viwiki-819391-u01:0001:3ebffd83e5828cc6\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 2246,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 148,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 97.67,
+      "answer_generation": 7778.93,
+      "total": 7876.88
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B25",
+    "split": "test",
+    "answerable": true,
+    "config_id": "dense_baseline",
+    "status": "answered",
+    "question": "Cấu trúc dữ liệu B-tree đặc biệt phù hợp với loại ứng dụng nào?",
+    "answer": "B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu. [B:viwiki-85746-u01:0001:684b9a26ea96c31f]",
+    "citations": [
+      "B:viwiki-85746-u01:0001:684b9a26ea96c31f"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "Cấu trúc dữ liệu B-tree đặc biệt phù hợp với loại ứng dụng nào?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-85746-u01:0001:684b9a26ea96c31f",
+            "text": "Trong khoa học máy tính , cấu trúc dữ liệu là một cách lưu dữ liệu trong máy tính sao cho nó có thể được sử dụng một cách hiệu quả.\n\nTrong thiết kế nhiều loại chương trình, việc chọn cấu trúc dữ liệu là vấn đề quan trọng. Kinh nghiệm trong việc xây dựng các hệ thống lớn cho thấy khó khăn của việc triển khai chương trình, chất lượng và hiệu năng của kết quả cuối cùng phụ thuộc rất nhiều vào việc chọn cấu trúc dữ liệu tốt nhất.\n\nMỗi loại cấu trúc dữ liệu phù hợp với một vài loại ứng dụng khác nhau, một số cấu trúc dữ liệu dành cho những công việc đặc biệt. Ví dụ, các B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu. Sau khi cấu trúc dữ liệu được chọn, người ta thường dễ nhận thấy thuật toán cần sử dụng. Đôi khi trình tự công việc diễn ra theo thứ tự ngược lại: cấu trúc dữ liệu được chọn do những bài toán quan trọng nhất định có thuật toán chạy tốt nhất với một số cấu trúc dữ liệu cụ thể. Trong cả hai trường hợp, việc lựa chọn cấu trúc dữ liệu là rất quan trọng.\n\nTổng quan\n\n",
+            "source_id": "viwiki-85746",
+            "source": "data/day6/corpus/85746-cau-truc-du-lieu.txt",
+            "page": "viwiki-85746-u01",
+            "metadata": {
+              "title": "Cấu trúc dữ liệu",
+              "unit_id": "viwiki-85746-u01",
+              "version": "70961981",
+              "char_end": 995,
+              "strategy": "B",
+              "char_start": 0,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%E1%BA%A5u_tr%C3%BAc_d%E1%BB%AF_li%E1%BB%87u",
+              "chunk_ordinal": 1,
+              "day6_chunk_id": "B:viwiki-85746-u01:0001:684b9a26ea96c31f",
+              "location_type": "content_unit",
+              "normalized_end": 4758,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.5480130641468215,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-85746-u01:0002:506fcfaf24a84340",
+            "text": "Thông thường, một cấu trúc dữ liệu được chọn cẩn thận sẽ cho phép thực hiện thuật toán hiệu quả hơn. Việc chọn cấu trúc dữ liệu thường bắt đầu từ chọn một cấu trúc dữ liệu trừu tượng . Một cấu trúc dữ liệu được thiết kế tốt cho phép thực hiện nhiều phép toán, sử dụng càng ít tài nguyên, thời gian xử lý và không gian bộ nhớ càng tốt. Các cấu trúc dữ liệu được triển khai bằng cách sử dụng các kiểu dữ liệu , các tham chiếu và các phép toán trên đó được cung cấp bởi một ngôn ngữ lập trình .\n\n",
+            "source_id": "viwiki-85746",
+            "source": "data/day6/corpus/85746-cau-truc-du-lieu.txt",
+            "page": "viwiki-85746-u01",
+            "metadata": {
+              "title": "Cấu trúc dữ liệu",
+              "unit_id": "viwiki-85746-u01",
+              "version": "70961981",
+              "char_end": 1488,
+              "strategy": "B",
+              "char_start": 995,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%E1%BA%A5u_tr%C3%BAc_d%E1%BB%AF_li%E1%BB%87u",
+              "chunk_ordinal": 2,
+              "day6_chunk_id": "B:viwiki-85746-u01:0002:506fcfaf24a84340",
+              "location_type": "content_unit",
+              "normalized_end": 4758,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.45172598382544327,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-85746-u01:0005:d65e883b00a98db1",
+            "text": "Hầu hết những ngôn ngữ lập trình đều có những thư viện có sẵn, hỗ trợ việc xây dựng cấu trúc dữ liệu, chẳng hạn bộ thư viện chuẩn C++ , Java Collections Framework và .Net Framework .\n\nCác cấu trúc dữ liệu thường dùng\n\nMảng (cấu trúc dữ liệu) (array list)\n\nNgăn xếp (stack)\n\nHàng đợi (queue)\n\nBảng băm (hash table)\n\nDanh sách liên kết (linked list)\n\nCây (cấu trúc dữ liệu) (tree)\n\nĐồ thị (cấu trúc dữ liệu) (graph)\n\nXem thêm\n\nDanh sách các cấu trúc dữ liệu\n\nMô hình dữ liệu\n\nDanh sách liên kết\n\nTham khảo\n\n↑ Paul E. Black (ed.), entry for data structure in Dictionary of Algorithms and Data Structures . Hoa Kỳ National Institute of Standards and Technology . ngày 15 tháng 12 năm 2004. Online version Accessed ngày 21 tháng 5 năm 2009.\n\n↑ Entry data structure in the Encyclopædia Britannica (2009) Online entry accessed on ngày 21 tháng 5 năm 2009.\n\nĐọc thêm\n\nPeter Brass, Advanced Data Structures , Cambridge University Press , 2008.\n\n",
+            "source_id": "viwiki-85746",
+            "source": "data/day6/corpus/85746-cau-truc-du-lieu.txt",
+            "page": "viwiki-85746-u01",
+            "metadata": {
+              "title": "Cấu trúc dữ liệu",
+              "unit_id": "viwiki-85746-u01",
+              "version": "70961981",
+              "char_end": 4093,
+              "strategy": "B",
+              "char_start": 3157,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%E1%BA%A5u_tr%C3%BAc_d%E1%BB%AF_li%E1%BB%87u",
+              "chunk_ordinal": 5,
+              "day6_chunk_id": "B:viwiki-85746-u01:0005:d65e883b00a98db1",
+              "location_type": "content_unit",
+              "normalized_end": 4758,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.4259673610906227,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-85746-u01:0001:684b9a26ea96c31f | data/day6/corpus/85746-cau-truc-du-lieu.txt | trang viwiki-85746-u01]\nTrong khoa học máy tính , cấu trúc dữ liệu là một cách lưu dữ liệu trong máy tính sao cho nó có thể được sử dụng một cách hiệu quả.\n\nTrong thiết kế nhiều loại chương trình, việc chọn cấu trúc dữ liệu là vấn đề quan trọng. Kinh nghiệm trong việc xây dựng các hệ thống lớn cho thấy khó khăn của việc triển khai chương trình, chất lượng và hiệu năng của kết quả cuối cùng phụ thuộc rất nhiều vào việc chọn cấu trúc dữ liệu tốt nhất.\n\nMỗi loại cấu trúc dữ liệu phù hợp với một vài loại ứng dụng khác nhau, một số cấu trúc dữ liệu dành cho những công việc đặc biệt. Ví dụ, các B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu. Sau khi cấu trúc dữ liệu được chọn, người ta thường dễ nhận thấy thuật toán cần sử dụng. Đôi khi trình tự công việc diễn ra theo thứ tự ngược lại: cấu trúc dữ liệu được chọn do những bài toán quan trọng nhất định có thuật toán chạy tốt nhất với một số cấu trúc dữ liệu cụ thể. Trong cả hai trường hợp, việc lựa chọn cấu trúc dữ liệu là rất quan trọng.\n\nTổng quan\n\n\n\n[B:viwiki-85746-u01:0002:506fcfaf24a84340 | data/day6/corpus/85746-cau-truc-du-lieu.txt | trang viwiki-85746-u01]\nThông thường, một cấu trúc dữ liệu được chọn cẩn thận sẽ cho phép thực hiện thuật toán hiệu quả hơn. Việc chọn cấu trúc dữ liệu thường bắt đầu từ chọn một cấu trúc dữ liệu trừu tượng . Một cấu trúc dữ liệu được thiết kế tốt cho phép thực hiện nhiều phép toán, sử dụng càng ít tài nguyên, thời gian xử lý và không gian bộ nhớ càng tốt. Các cấu trúc dữ liệu được triển khai bằng cách sử dụng các kiểu dữ liệu , các tham chiếu và các phép toán trên đó được cung cấp bởi một ngôn ngữ lập trình .\n\n\n\n[B:viwiki-85746-u01:0005:d65e883b00a98db1 | data/day6/corpus/85746-cau-truc-du-lieu.txt | trang viwiki-85746-u01]\nHầu hết những ngôn ngữ lập trình đều có những thư viện có sẵn, hỗ trợ việc xây dựng cấu trúc dữ liệu, chẳng hạn bộ thư viện chuẩn C++ , Java Collections Framework và .Net Framework .\n\nCác cấu trúc dữ liệu thường dùng\n\nMảng (cấu trúc dữ liệu) (array list)\n\nNgăn xếp (stack)\n\nHàng đợi (queue)\n\nBảng băm (hash table)\n\nDanh sách liên kết (linked list)\n\nCây (cấu trúc dữ liệu) (tree)\n\nĐồ thị (cấu trúc dữ liệu) (graph)\n\nXem thêm\n\nDanh sách các cấu trúc dữ liệu\n\nMô hình dữ liệu\n\nDanh sách liên kết\n\nTham khảo\n\n↑ Paul E. Black (ed.), entry for data structure in Dictionary of Algorithms and Data Structures . Hoa Kỳ National Institute of Standards and Technology . ngày 15 tháng 12 năm 2004. Online version Accessed ngày 21 tháng 5 năm 2009.\n\n↑ Entry data structure in the Encyclopædia Britannica (2009) Online entry accessed on ngày 21 tháng 5 năm 2009.\n\nĐọc thêm\n\nPeter Brass, Advanced Data Structures , Cambridge University Press , 2008.\n\n",
+        "context_ids": [
+          "B:viwiki-85746-u01:0001:684b9a26ea96c31f",
+          "B:viwiki-85746-u01:0002:506fcfaf24a84340",
+          "B:viwiki-85746-u01:0005:d65e883b00a98db1"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu.\",\"citations\":[\"B:viwiki-85746-u01:0001:684b9a26ea96c31f\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 1979,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 184,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 103.77,
+      "answer_generation": 85550.05,
+      "total": 85654.07
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B26",
+    "split": "test",
+    "answerable": true,
+    "config_id": "dense_baseline",
+    "status": "answered",
+    "question": "Trong cây biểu diễn tập hợp rời nhau, phần tử đại diện đóng vai trò gì và các phần tử còn lại là gì?",
+    "answer": "Trong cây biểu diễn tập hợp rời nhau, phần tử đại diện được chọn làm **gốc của cây** (nút gốc), đóng vai trò đại diện cho toàn bộ tập hợp. Các phần tử còn lại trong tập là **các nút của cây** (các nút con). [B:viwiki-91470-u01:0002:df2090530f9ac2d8]",
+    "citations": [
+      "B:viwiki-91470-u01:0002:df2090530f9ac2d8"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "Trong cây biểu diễn tập hợp rời nhau, phần tử đại diện đóng vai trò gì và các phần tử còn lại là gì?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-91470-u01:0002:df2090530f9ac2d8",
+            "text": "Để dùng cây biểu diễn tập, ta chọn một phần tử trong tập hợp làm đại diện cho tập. Phần tử này sẽ làm gốc của cây. Các phần tử khác trong tập là các nút của cây. Trong hình vẽ bên có biểu diễn cây của hai tập: một tập hợp gồm các phần tử A, B, C, D, một tập hợp gồm các phần tử E,F. Để lưu trữ cầu trúc cây này, mỗi phần tử được gán thêm một trường parent chỉ tới nút cha của chúng. Trong hình vẽ ta có Parent(D)= B, Parent(C)= A, Parent(E)= F. Vì nút gốc u không có parent nên người ta cũng tận dụng trường parent(u) của nút gốc u để ghi số phần tử của tập mà nó đại diện. Chẳng hạn trong hình bên Parent(A)= -4, Parent(E) = -2. Khi ấy cũng có thể trường parent của các nút không phải là gốc nhận giá trị là chỉ số (index) của nút cha. Chẳng hạn nếu trong hình bên chỉ số của các nút A, B, C, D, E, F tương ứng là các số nguyên dương 1, 2, 3, 4, 5, 6 thì Parent(D)= 2,Parent(C)= 1,Parent(B)= 1,Parent(A)= -4, Parent(F)= 5, Parent(E)=-2.\n\nCác phép toán trên tập\n\n",
+            "source_id": "viwiki-91470",
+            "source": "data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt",
+            "page": "viwiki-91470-u01",
+            "metadata": {
+              "title": "Cây biểu diễn tập hợp",
+              "unit_id": "viwiki-91470-u01",
+              "version": "66810318",
+              "char_end": 1104,
+              "strategy": "B",
+              "char_start": 141,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C3%A2y_bi%E1%BB%83u_di%E1%BB%85n_t%E1%BA%ADp_h%E1%BB%A3p",
+              "chunk_ordinal": 2,
+              "day6_chunk_id": "B:viwiki-91470-u01:0002:df2090530f9ac2d8",
+              "location_type": "content_unit",
+              "normalized_end": 1704,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.40222227573394775,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-91470-u01:0003:541fca1d728c1a33",
+            "text": "Tạo một tập mới chỉ gồm một phần tử u\n\nKhi đó cây biểu diễn tập chỉ có một nút gốc.\n\nTìm tập hợp chứa phần tử u\n\nĐấy chính là tìm phần tử đại diện của tập, hay tìm nút gốc của cây\n\nHợp hai tập\n\nHợp hai tập hợp rời nhau chứa hai phần tử u, v là hợp hai cây thành một cây, bằng cách chọn một trong hai gốc làm gốc của tập mới, còn gốc của cây kia thành con của gốc ấy. Để có thể rút ngắn thời gian tìm kiếm ta chọn gốc của cây chứa nhiều phần tử hơn làm gốc của cây mới. Chẳng hạn trong hình vẽ trên, khi hợp hai tập {A, B, C, B, D} và {E, F} ta gán Parent(E):= 1, Parent (A) = -5.\n\nXem thêm\n\nTham khảo",
+            "source_id": "viwiki-91470",
+            "source": "data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt",
+            "page": "viwiki-91470-u01",
+            "metadata": {
+              "title": "Cây biểu diễn tập hợp",
+              "unit_id": "viwiki-91470-u01",
+              "version": "66810318",
+              "char_end": 1704,
+              "strategy": "B",
+              "char_start": 1104,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C3%A2y_bi%E1%BB%83u_di%E1%BB%85n_t%E1%BA%ADp_h%E1%BB%A3p",
+              "chunk_ordinal": 3,
+              "day6_chunk_id": "B:viwiki-91470-u01:0003:541fca1d728c1a33",
+              "location_type": "content_unit",
+              "normalized_end": 1704,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.3273113965988159,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-91470-u01:0001:90dda6eb3f9f1a1b",
+            "text": "Một trong các ứng dụng của cây là biểu diễn các tập hợp rời nhau. Khi đó có thể thực hiện phép hợp các tập hợp rời nhau.\n\nCây biểu diễn tập\n\n",
+            "source_id": "viwiki-91470",
+            "source": "data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt",
+            "page": "viwiki-91470-u01",
+            "metadata": {
+              "title": "Cây biểu diễn tập hợp",
+              "unit_id": "viwiki-91470-u01",
+              "version": "66810318",
+              "char_end": 141,
+              "strategy": "B",
+              "char_start": 0,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C3%A2y_bi%E1%BB%83u_di%E1%BB%85n_t%E1%BA%ADp_h%E1%BB%A3p",
+              "chunk_ordinal": 1,
+              "day6_chunk_id": "B:viwiki-91470-u01:0001:90dda6eb3f9f1a1b",
+              "location_type": "content_unit",
+              "normalized_end": 1704,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.31794585692559885,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-91470-u01:0002:df2090530f9ac2d8 | data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt | trang viwiki-91470-u01]\nĐể dùng cây biểu diễn tập, ta chọn một phần tử trong tập hợp làm đại diện cho tập. Phần tử này sẽ làm gốc của cây. Các phần tử khác trong tập là các nút của cây. Trong hình vẽ bên có biểu diễn cây của hai tập: một tập hợp gồm các phần tử A, B, C, D, một tập hợp gồm các phần tử E,F. Để lưu trữ cầu trúc cây này, mỗi phần tử được gán thêm một trường parent chỉ tới nút cha của chúng. Trong hình vẽ ta có Parent(D)= B, Parent(C)= A, Parent(E)= F. Vì nút gốc u không có parent nên người ta cũng tận dụng trường parent(u) của nút gốc u để ghi số phần tử của tập mà nó đại diện. Chẳng hạn trong hình bên Parent(A)= -4, Parent(E) = -2. Khi ấy cũng có thể trường parent của các nút không phải là gốc nhận giá trị là chỉ số (index) của nút cha. Chẳng hạn nếu trong hình bên chỉ số của các nút A, B, C, D, E, F tương ứng là các số nguyên dương 1, 2, 3, 4, 5, 6 thì Parent(D)= 2,Parent(C)= 1,Parent(B)= 1,Parent(A)= -4, Parent(F)= 5, Parent(E)=-2.\n\nCác phép toán trên tập\n\n\n\n[B:viwiki-91470-u01:0003:541fca1d728c1a33 | data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt | trang viwiki-91470-u01]\nTạo một tập mới chỉ gồm một phần tử u\n\nKhi đó cây biểu diễn tập chỉ có một nút gốc.\n\nTìm tập hợp chứa phần tử u\n\nĐấy chính là tìm phần tử đại diện của tập, hay tìm nút gốc của cây\n\nHợp hai tập\n\nHợp hai tập hợp rời nhau chứa hai phần tử u, v là hợp hai cây thành một cây, bằng cách chọn một trong hai gốc làm gốc của tập mới, còn gốc của cây kia thành con của gốc ấy. Để có thể rút ngắn thời gian tìm kiếm ta chọn gốc của cây chứa nhiều phần tử hơn làm gốc của cây mới. Chẳng hạn trong hình vẽ trên, khi hợp hai tập {A, B, C, B, D} và {E, F} ta gán Parent(E):= 1, Parent (A) = -5.\n\nXem thêm\n\nTham khảo\n\n[B:viwiki-91470-u01:0001:90dda6eb3f9f1a1b | data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt | trang viwiki-91470-u01]\nMột trong các ứng dụng của cây là biểu diễn các tập hợp rời nhau. Khi đó có thể thực hiện phép hợp các tập hợp rời nhau.\n\nCây biểu diễn tập\n\n",
+        "context_ids": [
+          "B:viwiki-91470-u01:0002:df2090530f9ac2d8",
+          "B:viwiki-91470-u01:0003:541fca1d728c1a33",
+          "B:viwiki-91470-u01:0001:90dda6eb3f9f1a1b"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"Trong cây biểu diễn tập hợp rời nhau, phần tử đại diện được chọn làm **gốc của cây** (nút gốc), đóng vai trò đại diện cho toàn bộ tập hợp. Các phần tử còn lại trong tập là **các nút của cây** (các nút con).\",\"citations\":[\"B:viwiki-91470-u01:0002:df2090530f9ac2d8\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 1609,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 195,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 157.71,
+      "answer_generation": 6518.83,
+      "total": 6676.83
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B27",
+    "split": "test",
+    "answerable": true,
+    "config_id": "dense_baseline",
+    "status": "answered",
+    "question": "Thiết bị không hiển thị thông điệp có thể thay dòng chữ Hello World bằng tín hiệu nào?",
+    "answer": "Theo tài liệu, trong các thiết bị không hiển thị thông điệp, thay vì dòng chữ \"Hello world\", một chương trình đơn giản sẽ phát sinh tín hiệu — ví dụ như bật đèn LED sáng — để thay thế, như một chương trình chỉ dẫn. [B:viwiki-974178-u01:0001:839052f56aefa8c4]",
+    "citations": [
+      "B:viwiki-974178-u01:0001:839052f56aefa8c4"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "Thiết bị không hiển thị thông điệp có thể thay dòng chữ Hello World bằng tín hiệu nào?",
+        "query_transformed": false,
+        "filter": {
+          "collection": "ngon_ngu_lap_trinh"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-3646533-u01:0002:3a804cbe9fc11538",
+            "text": "Ví dụ\n\nMuốn viết được chương trình Hello World, ta có thể sử dụng ví dụ đơn giản dưới đây:\n\nTrong đó:\n\n@: Làm cho câu lệnh không hiển thị ra màn hình (VD: \"C:\\> echo off\" sẽ được ẩn đi trong dòng lệnh này)\n\necho off: Chuyển chế độ sang ẩn câu lệnh (tức là dấu \"@\" sẽ được thêm vào trước các câu lệnh)\n\nLà câu lệnh xoá màn hình.\n\nLà câu lệnh dùng để hiển thị tên của cửa sổ Command Prompt. Trong trường hợp này, cửa sổ có tên là Hello World\n\nLà câu lệnh đổi màu chữ để tăng vẻ đẹp cho chương trình. Chữ thứ nhất chỉ định cho màu nền (0), chữ thứ hai chỉ định cho màu chữ (2). Chúng ta có thể thay thế số 2 bằng các màu khác:\n\n+ 0 là đen (màu ngầm định của nền)\n\n+ 1 là màu xanh dương\n\n+ 2 là màu xanh lá cây\n\n+ 3 là màu xanh mòng biển\n\n+ 4 là màu đỏ\n\n+ 5 là màu tím hồng\n\n+ 6 là màu vàng\n\n+ 7 là màu trắng (màu ngầm định của chữ)\n\n+ 8 là màu xám\n\n+ 9 là màu xanh dương sáng\n\n+ A là màu xanh lá cây sáng\n\n+ B là màu xanh mòng biển sáng\n\n+ C là màu đỏ sáng\n\n+ D là màu hồng sáng\n\n+ E là màu vàng sáng\n\n",
+            "source_id": "viwiki-3646533",
+            "source": "data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-3646533-u01",
+            "metadata": {
+              "title": "Batch (ngôn ngữ lập trình)",
+              "unit_id": "viwiki-3646533-u01",
+              "version": "65334502",
+              "char_end": 1997,
+              "strategy": "B",
+              "char_start": 998,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/Batch_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "chunk_ordinal": 2,
+              "day6_chunk_id": "B:viwiki-3646533-u01:0002:3a804cbe9fc11538",
+              "location_type": "content_unit",
+              "normalized_end": 3740,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.38707685470581055,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-974178-u01:0004:00775d96c72e5e33",
+            "text": "Với các ngôn ngữ hiện đại, chương trình Xin chào thế giới có khuynh hướng phát triển tỉ mỉ hơn. Ví dụ, tập tài liệu \"Về ngôn ngữ lập trình \" giới thiệu nhiều chương trình Xin chào thế giới đa ngôn ngữ , Tập đoàn Sun đưa ra chương trình Xin chào thế giới trên nền Java theo vector đồ họa có khả năng mở rộng, và ngôn ngữ lập trình XL đưa ra chương trình xin chào trái đất dùng đồ họa 3D .\n\nNgười sáng lập Wikipedia Jimmy Wales đã thông báo trong suốt buổi thuyết trình ở Nhà hát Trung tâm Tuscaloosa Ferguson vào tháng 9 năm 2010 rằng trang đầu tiên của Wikipedia là trang 'Hello World'.\n\nSự khác biệt\n\n",
+            "source_id": "viwiki-974178",
+            "source": "data/day6/corpus/974178-hello-world-chuong-trinh-may-tinh.txt",
+            "page": "viwiki-974178-u01",
+            "metadata": {
+              "title": "\"Hello, World!\" (chương trình máy tính)",
+              "unit_id": "viwiki-974178-u01",
+              "version": "75231415",
+              "char_end": 3087,
+              "strategy": "B",
+              "char_start": 2485,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/%22Hello,_World!%22_(ch%C6%B0%C6%A1ng_tr%C3%ACnh_m%C3%A1y_t%C3%ADnh)",
+              "chunk_ordinal": 4,
+              "day6_chunk_id": "B:viwiki-974178-u01:0004:00775d96c72e5e33",
+              "location_type": "content_unit",
+              "normalized_end": 4482,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.37455577774512117,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-974178-u01:0001:839052f56aefa8c4",
+            "text": "\"Hello, World!\" là chương trình máy tính mà đầu ra là dòng chữ \"Hello, world!\" trên thiết bị hiển thị . Vì đây là chương trình đơn giản nhất ở mọi ngôn ngữ lập trình , cho nên nó thường được dùng trong việc mô phỏng cho người mới bắt đầu về cú pháp lập trình cơ bản trong ngôn ngữ lập trình, hay để xác định ngôn ngữ hoặc hệ thống nào đó hoạt động tốt.\n\nTrong các thiết bị không hiển thị thông điệp, một chương trình đơn giản là phát sinh tín hiệu, như bật đèn LED sáng để thay thế cho dòng chữ \"Hello world\" như là một chương trình chỉ dẫn.\n\nMục đích\n\n\"Hello, World!\" đã trở thành chương trình đầu tiên (tiền lệ) của nhiều người muốn học về lập trình . Tóm lại, chương trình đơn giản đến mức mà người học không cần phải có kiến thức & kinh nghiệm lập trình để có thể hiểu và làm, đặc biệt với sự giúp đỡ của giáo viên hoặc các phương pháp hướng dẫn cách viết.\n\n",
+            "source_id": "viwiki-974178",
+            "source": "data/day6/corpus/974178-hello-world-chuong-trinh-may-tinh.txt",
+            "page": "viwiki-974178-u01",
+            "metadata": {
+              "title": "\"Hello, World!\" (chương trình máy tính)",
+              "unit_id": "viwiki-974178-u01",
+              "version": "75231415",
+              "char_end": 862,
+              "strategy": "B",
+              "char_start": 0,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/%22Hello,_World!%22_(ch%C6%B0%C6%A1ng_tr%C3%ACnh_m%C3%A1y_t%C3%ADnh)",
+              "chunk_ordinal": 1,
+              "day6_chunk_id": "B:viwiki-974178-u01:0001:839052f56aefa8c4",
+              "location_type": "content_unit",
+              "normalized_end": 4482,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.37327322363853455,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": true
+          }
+        ],
+        "context": "[B:viwiki-3646533-u01:0002:3a804cbe9fc11538 | data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt | trang viwiki-3646533-u01]\nVí dụ\n\nMuốn viết được chương trình Hello World, ta có thể sử dụng ví dụ đơn giản dưới đây:\n\nTrong đó:\n\n@: Làm cho câu lệnh không hiển thị ra màn hình (VD: \"C:\\> echo off\" sẽ được ẩn đi trong dòng lệnh này)\n\necho off: Chuyển chế độ sang ẩn câu lệnh (tức là dấu \"@\" sẽ được thêm vào trước các câu lệnh)\n\nLà câu lệnh xoá màn hình.\n\nLà câu lệnh dùng để hiển thị tên của cửa sổ Command Prompt. Trong trường hợp này, cửa sổ có tên là Hello World\n\nLà câu lệnh đổi màu chữ để tăng vẻ đẹp cho chương trình. Chữ thứ nhất chỉ định cho màu nền (0), chữ thứ hai chỉ định cho màu chữ (2). Chúng ta có thể thay thế số 2 bằng các màu khác:\n\n+ 0 là đen (màu ngầm định của nền)\n\n+ 1 là màu xanh dương\n\n+ 2 là màu xanh lá cây\n\n+ 3 là màu xanh mòng biển\n\n+ 4 là màu đỏ\n\n+ 5 là màu tím hồng\n\n+ 6 là màu vàng\n\n+ 7 là màu trắng (màu ngầm định của chữ)\n\n+ 8 là màu xám\n\n+ 9 là màu xanh dương sáng\n\n+ A là màu xanh lá cây sáng\n\n+ B là màu xanh mòng biển sáng\n\n+ C là màu đỏ sáng\n\n+ D là màu hồng sáng\n\n+ E là màu vàng sáng\n\n\n\n[B:viwiki-974178-u01:0004:00775d96c72e5e33 | data/day6/corpus/974178-hello-world-chuong-trinh-may-tinh.txt | trang viwiki-974178-u01]\nVới các ngôn ngữ hiện đại, chương trình Xin chào thế giới có khuynh hướng phát triển tỉ mỉ hơn. Ví dụ, tập tài liệu \"Về ngôn ngữ lập trình \" giới thiệu nhiều chương trình Xin chào thế giới đa ngôn ngữ , Tập đoàn Sun đưa ra chương trình Xin chào thế giới trên nền Java theo vector đồ họa có khả năng mở rộng, và ngôn ngữ lập trình XL đưa ra chương trình xin chào trái đất dùng đồ họa 3D .\n\nNgười sáng lập Wikipedia Jimmy Wales đã thông báo trong suốt buổi thuyết trình ở Nhà hát Trung tâm Tuscaloosa Ferguson vào tháng 9 năm 2010 rằng trang đầu tiên của Wikipedia là trang 'Hello World'.\n\nSự khác biệt\n\n\n\n[B:viwiki-974178-u01:0001:839052f56aefa8c4 | data/day6/corpus/974178-hello-world-chuong-trinh-may-tinh.txt | trang viwiki-974178-u01]\n\"Hello, World!\" là chương trình máy tính mà đầu ra là dòng chữ \"Hello, world!\" trên thiết bị hiển thị . Vì đây là chương trình đơn giản nhất ở mọi ngôn ngữ lập trình , cho nên nó thường được dùng trong việc mô phỏng cho người mới bắt đầu về cú pháp lập trình cơ bản trong ngôn ngữ lập trình, hay để xác định ngôn ngữ hoặc hệ thống nào đó hoạt động tốt.\n\nTrong các thiết bị không hiển thị thông điệp, một chương trình đơn giản là phát sinh tín hiệu, như bật đèn LED sáng để thay thế cho dòng chữ \"Hello world\" như là một chương trình chỉ dẫn.\n\nMục đích\n\n\"Hello, World!\" đã trở thành chương trình đầu tiên (tiền lệ) của nhiều người muốn học về lập trình . Tóm lại, chương trình đơn giản đến mức mà người học không cần phải có kiến thức & kinh nghiệm lập trình để có thể hiểu và làm, đặc biệt với sự giúp đỡ của giáo viên hoặc các phương pháp hướng dẫn cách viết.\n\n",
+        "context_ids": [
+          "B:viwiki-3646533-u01:0002:3a804cbe9fc11538",
+          "B:viwiki-974178-u01:0004:00775d96c72e5e33",
+          "B:viwiki-974178-u01:0001:839052f56aefa8c4"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"Theo tài liệu, trong các thiết bị không hiển thị thông điệp, thay vì dòng chữ \\\"Hello world\\\", một chương trình đơn giản sẽ phát sinh tín hiệu — ví dụ như bật đèn LED sáng — để thay thế, như một chương trình chỉ dẫn.\",\"citations\":[\"B:viwiki-974178-u01:0001:839052f56aefa8c4\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": false,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 2050,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 217,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 122.69,
+      "answer_generation": 11711.11,
+      "total": 11834.14
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B28",
+    "split": "test",
+    "answerable": false,
+    "config_id": "dense_baseline",
+    "status": "abstain",
+    "question": "AlphaFold 3 sử dụng learning rate chính xác bao nhiêu trong lần huấn luyện cuối?",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "AlphaFold 3 sử dụng learning rate chính xác bao nhiêu trong lần huấn luyện cuối?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-19996278-u01:0012:124f2d9c89d38087",
+            "text": "Năm 2020, chương trình AlphaFold của Google DeepMind , được thiết kế để dự đoán cấu trúc gấp protein , đã đạt điểm số trên 90 trong bài kiểm tra Global distance test (GDT) của cuộc thi CASP . Nhà sinh học cấu trúc và người đoạt Giải Nobel Hóa học Venki Ramakrishnan gọi kết quả này là \"một bước tiến vượt bậc đáng kinh ngạc trong bài toán gấp protein\". Khả năng dự đoán chính xác cấu trúc protein dựa trên chuỗi axit amin cấu thành có thể thúc đẩy việc tìm ra các loại thuốc mới và giúp hiểu rõ hơn về cơ chế của các bệnh. Khi so với phương pháp truyền thống gọi là homology modeling (dự đoán dựa trên sự giống nhau với các protein đã biết), AlphaFold 2 được phát triển 2 năm sau đó có thể mô hình hóa thêm khoảng 25% số vị trí amino acid với độ chính xác cao. Năm 2024, AlphaFold 3 tiếp tục mở rộng khả năng dự đoán cấu trúc 3D không chỉ của protein mà còn của DNA , RNA và các phân tử nhỏ, mở ra tiềm năng lớn cho thiết kế thuốc và nghiên cứu sinh học phân tử .\n\n",
+            "source_id": "viwiki-19996278",
+            "source": "data/day6/corpus/19996278-con-sot-ai.txt",
+            "page": "viwiki-19996278-u01",
+            "metadata": {
+              "title": "Cơn sốt AI",
+              "unit_id": "viwiki-19996278-u01",
+              "version": "75582584",
+              "char_end": 9411,
+              "strategy": "B",
+              "char_start": 8446,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1n_s%E1%BB%91t_AI",
+              "chunk_ordinal": 12,
+              "day6_chunk_id": "B:viwiki-19996278-u01:0012:124f2d9c89d38087",
+              "location_type": "content_unit",
+              "normalized_end": 37414,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.4738278687000308,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-20018632-u01:0024:de70eccbe5756eb1",
+            "text": "Một số nghiên cứu độc lập khác đặt câu hỏi về mức độ AlphaFold 3 thực sự \"hiểu\" hóa học tương tác protein-phối tử, hay chỉ đang ghi nhớ lại các trường hợp đã gặp trong dữ liệu huấn luyện. Độ chính xác của mô hình giảm rõ rệt khi thử nghiệm trên các phối tử có cấu trúc hóa học khác biệt nhiều so với dữ liệu huấn luyện, chứng minh khả năng tổng quát hóa của nó còn chưa đủ tốt. Một nghiên cứu khác phát hiện AlphaFold 3 không nhạy với các \"mồi nhử đối kháng\" ( adversarial decoy ), tức các phối tử giả được tạo ra bằng cách thay đổi tính chất hóa lý của vùng liên kết giữa các protein. Điều này cho thấy mô hình có thể đang dựa vào việc ghi nhớ dữ liệu huấn luyện thuần túy hơn là hiểu biết hóa học thực sự về tương tác phân tử.\n\n",
+            "source_id": "viwiki-20018632",
+            "source": "data/day6/corpus/20018632-alphafold.txt",
+            "page": "viwiki-20018632-u01",
+            "metadata": {
+              "title": "AlphaFold",
+              "unit_id": "viwiki-20018632-u01",
+              "version": "75712623",
+              "char_end": 17310,
+              "strategy": "B",
+              "char_start": 16580,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AlphaFold",
+              "chunk_ordinal": 24,
+              "day6_chunk_id": "B:viwiki-20018632-u01:0024:de70eccbe5756eb1",
+              "location_type": "content_unit",
+              "normalized_end": 42543,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.4721676425833923,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-20018632-u01:0009:5797bdb7f2c70fe4",
+            "text": "ResNet sâu tới hàng trăm lớp sử dụng tích chập giãn nở ( dilated convolution ) để mô hình học được các tương tác xa nhau trên toàn bộ chiều dài trình tự acid.\n\nTại kỳ thi CASP lần thứ 13 vào tháng 12 năm 2018, AlphaFold đứng đầu bảng xếp hạng chung. Trong nhóm 43 mục tiêu không có cấu trúc mẫu tương đồng sẵn có (nhóm khó nhất theo phân loại của ban tổ chức) AlphaFold đạt điểm TM-score từ 0,7 trở lên cho 24 mục tiêu, trong khi phương pháp tốt thứ hai chỉ đạt mức này cho 14 mục tiêu. Xét trên nhóm mục tiêu khó nhất, AlphaFold đạt điểm GDT trung vị là 58,9, vượt xa hai đội xếp sau với 52,5 và 52,4.\n\nMã nguồn của AlphaFold 1 không được công bố công khai vào thời điểm thi đấu năm 2018. Đến tháng 1 năm 2020, DeepMind mới phát hành mã nguồn minh họa, kèm ghi chú rằng mã này chỉ chạy được trên bộ dữ liệu CASP13 chứ không thể dùng để dự đoán cấu trúc của một trình tự protein bất kỳ, do phần trích xuất đặc trưng gắn chặt với hạ tầng nội bộ của DeepMind.\n\nAlphaFold 2 (2020)\n\nThuật toán\n\n",
+            "source_id": "viwiki-20018632",
+            "source": "data/day6/corpus/20018632-alphafold.txt",
+            "page": "viwiki-20018632-u01",
+            "metadata": {
+              "title": "AlphaFold",
+              "unit_id": "viwiki-20018632-u01",
+              "version": "75712623",
+              "char_end": 6392,
+              "strategy": "B",
+              "char_start": 5401,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AlphaFold",
+              "chunk_ordinal": 9,
+              "day6_chunk_id": "B:viwiki-20018632-u01:0009:5797bdb7f2c70fe4",
+              "location_type": "content_unit",
+              "normalized_end": 42543,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.46694565016355294,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-19996278-u01:0012:124f2d9c89d38087 | data/day6/corpus/19996278-con-sot-ai.txt | trang viwiki-19996278-u01]\nNăm 2020, chương trình AlphaFold của Google DeepMind , được thiết kế để dự đoán cấu trúc gấp protein , đã đạt điểm số trên 90 trong bài kiểm tra Global distance test (GDT) của cuộc thi CASP . Nhà sinh học cấu trúc và người đoạt Giải Nobel Hóa học Venki Ramakrishnan gọi kết quả này là \"một bước tiến vượt bậc đáng kinh ngạc trong bài toán gấp protein\". Khả năng dự đoán chính xác cấu trúc protein dựa trên chuỗi axit amin cấu thành có thể thúc đẩy việc tìm ra các loại thuốc mới và giúp hiểu rõ hơn về cơ chế của các bệnh. Khi so với phương pháp truyền thống gọi là homology modeling (dự đoán dựa trên sự giống nhau với các protein đã biết), AlphaFold 2 được phát triển 2 năm sau đó có thể mô hình hóa thêm khoảng 25% số vị trí amino acid với độ chính xác cao. Năm 2024, AlphaFold 3 tiếp tục mở rộng khả năng dự đoán cấu trúc 3D không chỉ của protein mà còn của DNA , RNA và các phân tử nhỏ, mở ra tiềm năng lớn cho thiết kế thuốc và nghiên cứu sinh học phân tử .\n\n\n\n[B:viwiki-20018632-u01:0024:de70eccbe5756eb1 | data/day6/corpus/20018632-alphafold.txt | trang viwiki-20018632-u01]\nMột số nghiên cứu độc lập khác đặt câu hỏi về mức độ AlphaFold 3 thực sự \"hiểu\" hóa học tương tác protein-phối tử, hay chỉ đang ghi nhớ lại các trường hợp đã gặp trong dữ liệu huấn luyện. Độ chính xác của mô hình giảm rõ rệt khi thử nghiệm trên các phối tử có cấu trúc hóa học khác biệt nhiều so với dữ liệu huấn luyện, chứng minh khả năng tổng quát hóa của nó còn chưa đủ tốt. Một nghiên cứu khác phát hiện AlphaFold 3 không nhạy với các \"mồi nhử đối kháng\" ( adversarial decoy ), tức các phối tử giả được tạo ra bằng cách thay đổi tính chất hóa lý của vùng liên kết giữa các protein. Điều này cho thấy mô hình có thể đang dựa vào việc ghi nhớ dữ liệu huấn luyện thuần túy hơn là hiểu biết hóa học thực sự về tương tác phân tử.\n\n\n\n[B:viwiki-20018632-u01:0009:5797bdb7f2c70fe4 | data/day6/corpus/20018632-alphafold.txt | trang viwiki-20018632-u01]\nResNet sâu tới hàng trăm lớp sử dụng tích chập giãn nở ( dilated convolution ) để mô hình học được các tương tác xa nhau trên toàn bộ chiều dài trình tự acid.\n\nTại kỳ thi CASP lần thứ 13 vào tháng 12 năm 2018, AlphaFold đứng đầu bảng xếp hạng chung. Trong nhóm 43 mục tiêu không có cấu trúc mẫu tương đồng sẵn có (nhóm khó nhất theo phân loại của ban tổ chức) AlphaFold đạt điểm TM-score từ 0,7 trở lên cho 24 mục tiêu, trong khi phương pháp tốt thứ hai chỉ đạt mức này cho 14 mục tiêu. Xét trên nhóm mục tiêu khó nhất, AlphaFold đạt điểm GDT trung vị là 58,9, vượt xa hai đội xếp sau với 52,5 và 52,4.\n\nMã nguồn của AlphaFold 1 không được công bố công khai vào thời điểm thi đấu năm 2018. Đến tháng 1 năm 2020, DeepMind mới phát hành mã nguồn minh họa, kèm ghi chú rằng mã này chỉ chạy được trên bộ dữ liệu CASP13 chứ không thể dùng để dự đoán cấu trúc của một trình tự protein bất kỳ, do phần trích xuất đặc trưng gắn chặt với hạ tầng nội bộ của DeepMind.\n\nAlphaFold 2 (2020)\n\nThuật toán\n\n",
+        "context_ids": [
+          "B:viwiki-19996278-u01:0012:124f2d9c89d38087",
+          "B:viwiki-20018632-u01:0024:de70eccbe5756eb1",
+          "B:viwiki-20018632-u01:0009:5797bdb7f2c70fe4"
+        ]
+      },
+      {
+        "event": "abstain",
+        "raw_model_output": "{\"status\":\"abstain\",\"answer\":\"Thông tin trong CONTEXT không đề cập đến giá trị learning rate cụ thể mà AlphaFold 3 sử dụng trong lần huấn luyện cuối. Các tài liệu chỉ nói về hiệu năng dự đoán, phạm vi mở rộng (protein, DNA, RNA, phân tử nhỏ) và một số hạn chế về khả năng tổng quát hóa, nhưng không có chi tiết về siêu tham số huấn luyện.\",\"citations\":[]}"
+      }
+    ],
+    "retrieval_metrics": null,
+    "usage": {
+      "input_tokens": 2149,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 172,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 94.85,
+      "answer_generation": 6689.31,
+      "total": 6784.43
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B29",
+    "split": "test",
+    "answerable": false,
+    "config_id": "dense_baseline",
+    "status": "abstain",
+    "question": "CIFAR-10 được thu thập bằng loại máy ảnh nào và khẩu độ ống kính bao nhiêu?",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "CIFAR-10 được thu thập bằng loại máy ảnh nào và khẩu độ ống kính bao nhiêu?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-19997266-u01:0001:35c2e63cdc962411",
+            "text": "Cơ sở dữ liệu CIFAR-10 và CIFAR-100 ( tiếng Anh viết tắt từ Canadian Institute For Advanced Research hay Viện Nghiên cứu Cao cấp Canada ) là hai cơ sở dữ liệu ảnh màu được sử dụng rộng rãi trong nghiên cứu học máy và thị giác máy tính , được tạo ra bởi Alex Krizhevsky , Vinod Nair và Geoffrey Hinton tại Đại học Toronto . Cả hai tập dữ liệu đều gồm 60.000 ảnh 32×32 pixel màu RGB , chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. CIFAR-10 phân loại ảnh thành 10 loại nhãn, trong khi CIFAR-100 phân loại thành 100 loại nhãn. Đây là hai trong những benchmark phổ biến nhất trong lịch sử học sâu , đặc biệt đối với bài toán phân loại ảnh.\n\nTệp dữ liệu\n\nCIFAR-10 và CIFAR-100 đều gồm 60.000 ảnh màu RGB kích thước 32×32 pixel, chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. Tập huấn luyện được chia thành năm lô ( batch ), mỗi lô 10.000 ảnh; tập kiểm thử gồm một batch duy nhất với đúng 1.000 ảnh được chọn ngẫu nhiên từ mỗi lớp.\n\n",
+            "source_id": "viwiki-19997266",
+            "source": "data/day6/corpus/19997266-cifar-10.txt",
+            "page": "viwiki-19997266-u01",
+            "metadata": {
+              "title": "CIFAR-10",
+              "unit_id": "viwiki-19997266-u01",
+              "version": "75631948",
+              "char_end": 947,
+              "strategy": "B",
+              "char_start": 0,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/CIFAR-10",
+              "chunk_ordinal": 1,
+              "day6_chunk_id": "B:viwiki-19997266-u01:0001:35c2e63cdc962411",
+              "location_type": "content_unit",
+              "normalized_end": 4304,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.6050318950376635,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-19997266-u01:0002:dfb45e0446fccc55",
+            "text": "CIFAR-10 gồm 10 nhãn với 6.000 ảnh mỗi nhãn: máy bay , ô tô , chim , mèo , nai , chó , ếch , ngựa , tàu thủy và xe tải . CIFAR-100 gồm 100 nhãn mịn ( fine label ) với 600 ảnh mỗi lớp, được nhóm lại thành 20 nhãn thô ( coarse label hay superclass ). Ví dụ, nhãn thô \" động vật có vú sống dưới nước \" bao gồm năm nhãn mịn là hải ly , cá heo , rái cá , hải cẩu và cá voi . Mỗi ảnh trong CIFAR-100 được gán đồng thời cả nhãn mịn lẫn nhãn thô.\n\nLịch sử\n\n",
+            "source_id": "viwiki-19997266",
+            "source": "data/day6/corpus/19997266-cifar-10.txt",
+            "page": "viwiki-19997266-u01",
+            "metadata": {
+              "title": "CIFAR-10",
+              "unit_id": "viwiki-19997266-u01",
+              "version": "75631948",
+              "char_end": 1396,
+              "strategy": "B",
+              "char_start": 947,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/CIFAR-10",
+              "chunk_ordinal": 2,
+              "day6_chunk_id": "B:viwiki-19997266-u01:0002:dfb45e0446fccc55",
+              "location_type": "content_unit",
+              "normalized_end": 4304,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.5447739905388367,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-19997266-u01:0004:b3d9816a4d85bee0",
+            "text": "Năm 2009, Alex Krizhevsky, khi đó còn là nghiên cứu sinh tại Đại học Toronto dưới sự hướng dẫn của Geoffrey Hinton , đã trích xuất từ 80 Million Tiny Images hai tập con được gán nhãn thủ công và công bố trong một báo cáo kỹ thuật. CIFAR-10 gồm 60.000 ảnh thuộc 10 nhãn; CIFAR-100 gồm cùng số ảnh nhưng phân thành 100 nhãn mịn và 20 nhãn thô. Mục tiêu ban đầu là cung cấp benchmark để đánh giá các mô hình sinh học sâu, cụ thể là Restricted Boltzmann Machines và Deep Belief Networks.\n\nKhoảng năm 2017, kết quả trên CIFAR-10 bắt đầu cho thấy dấu hiệu bão hòa khi tỉ lệ lỗi của các phương pháp tốt nhất đã giảm xuống mức xấp xỉ giới hạn của con người trên tập dữ liệu này. Bên cạnh đó, nghiên cứu cũng phát hiện ra 3.3% ảnh trong tập kiểm thử CIFAR-10 bị trùng lặp với tập huấn luyện, dẫn đến sai lệch trong đánh giá.\n\n",
+            "source_id": "viwiki-19997266",
+            "source": "data/day6/corpus/19997266-cifar-10.txt",
+            "page": "viwiki-19997266-u01",
+            "metadata": {
+              "title": "CIFAR-10",
+              "unit_id": "viwiki-19997266-u01",
+              "version": "75631948",
+              "char_end": 2774,
+              "strategy": "B",
+              "char_start": 1957,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/CIFAR-10",
+              "chunk_ordinal": 4,
+              "day6_chunk_id": "B:viwiki-19997266-u01:0004:b3d9816a4d85bee0",
+              "location_type": "content_unit",
+              "normalized_end": 4304,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.5430037004345009,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-19997266-u01:0001:35c2e63cdc962411 | data/day6/corpus/19997266-cifar-10.txt | trang viwiki-19997266-u01]\nCơ sở dữ liệu CIFAR-10 và CIFAR-100 ( tiếng Anh viết tắt từ Canadian Institute For Advanced Research hay Viện Nghiên cứu Cao cấp Canada ) là hai cơ sở dữ liệu ảnh màu được sử dụng rộng rãi trong nghiên cứu học máy và thị giác máy tính , được tạo ra bởi Alex Krizhevsky , Vinod Nair và Geoffrey Hinton tại Đại học Toronto . Cả hai tập dữ liệu đều gồm 60.000 ảnh 32×32 pixel màu RGB , chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. CIFAR-10 phân loại ảnh thành 10 loại nhãn, trong khi CIFAR-100 phân loại thành 100 loại nhãn. Đây là hai trong những benchmark phổ biến nhất trong lịch sử học sâu , đặc biệt đối với bài toán phân loại ảnh.\n\nTệp dữ liệu\n\nCIFAR-10 và CIFAR-100 đều gồm 60.000 ảnh màu RGB kích thước 32×32 pixel, chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. Tập huấn luyện được chia thành năm lô ( batch ), mỗi lô 10.000 ảnh; tập kiểm thử gồm một batch duy nhất với đúng 1.000 ảnh được chọn ngẫu nhiên từ mỗi lớp.\n\n\n\n[B:viwiki-19997266-u01:0002:dfb45e0446fccc55 | data/day6/corpus/19997266-cifar-10.txt | trang viwiki-19997266-u01]\nCIFAR-10 gồm 10 nhãn với 6.000 ảnh mỗi nhãn: máy bay , ô tô , chim , mèo , nai , chó , ếch , ngựa , tàu thủy và xe tải . CIFAR-100 gồm 100 nhãn mịn ( fine label ) với 600 ảnh mỗi lớp, được nhóm lại thành 20 nhãn thô ( coarse label hay superclass ). Ví dụ, nhãn thô \" động vật có vú sống dưới nước \" bao gồm năm nhãn mịn là hải ly , cá heo , rái cá , hải cẩu và cá voi . Mỗi ảnh trong CIFAR-100 được gán đồng thời cả nhãn mịn lẫn nhãn thô.\n\nLịch sử\n\n\n\n[B:viwiki-19997266-u01:0004:b3d9816a4d85bee0 | data/day6/corpus/19997266-cifar-10.txt | trang viwiki-19997266-u01]\nNăm 2009, Alex Krizhevsky, khi đó còn là nghiên cứu sinh tại Đại học Toronto dưới sự hướng dẫn của Geoffrey Hinton , đã trích xuất từ 80 Million Tiny Images hai tập con được gán nhãn thủ công và công bố trong một báo cáo kỹ thuật. CIFAR-10 gồm 60.000 ảnh thuộc 10 nhãn; CIFAR-100 gồm cùng số ảnh nhưng phân thành 100 nhãn mịn và 20 nhãn thô. Mục tiêu ban đầu là cung cấp benchmark để đánh giá các mô hình sinh học sâu, cụ thể là Restricted Boltzmann Machines và Deep Belief Networks.\n\nKhoảng năm 2017, kết quả trên CIFAR-10 bắt đầu cho thấy dấu hiệu bão hòa khi tỉ lệ lỗi của các phương pháp tốt nhất đã giảm xuống mức xấp xỉ giới hạn của con người trên tập dữ liệu này. Bên cạnh đó, nghiên cứu cũng phát hiện ra 3.3% ảnh trong tập kiểm thử CIFAR-10 bị trùng lặp với tập huấn luyện, dẫn đến sai lệch trong đánh giá.\n\n",
+        "context_ids": [
+          "B:viwiki-19997266-u01:0001:35c2e63cdc962411",
+          "B:viwiki-19997266-u01:0002:dfb45e0446fccc55",
+          "B:viwiki-19997266-u01:0004:b3d9816a4d85bee0"
+        ]
+      },
+      {
+        "event": "abstain",
+        "raw_model_output": "{\"status\":\"abstain\",\"answer\":\"Không đủ bằng chứng trong CONTEXT để trả lời. CONTEXT không đề cập đến loại máy ảnh hay khẩu độ ống kính dùng để thu thập CIFAR-10; tài liệu chỉ ghi rằng CIFAR-10 được trích xuất từ tập dữ liệu 80 Million Tiny Images, không có thông tin về thiết bị chụp ảnh.\",\"citations\":[\"B:viwiki-19997266-u01:0004:b3d9816a4d85bee0\"]}"
+      }
+    ],
+    "retrieval_metrics": null,
+    "usage": {
+      "input_tokens": 1852,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 1007,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 114.43,
+      "answer_generation": 163350.05,
+      "total": 163464.91
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B30",
+    "split": "test",
+    "answerable": false,
+    "config_id": "dense_baseline",
+    "status": "abstain",
+    "question": "Phiên bản AutoIt tiếp theo dự kiến phát hành vào ngày cụ thể nào?",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "dense_pgvector",
+        "query": "Phiên bản AutoIt tiếp theo dự kiến phát hành vào ngày cụ thể nào?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+            "text": "AutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.\n\nNgôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.\n\n",
+            "source_id": "viwiki-437651",
+            "source": "data/day6/corpus/437651-autoit.txt",
+            "page": "viwiki-437651-u01",
+            "metadata": {
+              "title": "AutoIt",
+              "unit_id": "viwiki-437651-u01",
+              "version": "75571888",
+              "char_end": 753,
+              "strategy": "B",
+              "char_start": 0,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+              "chunk_ordinal": 1,
+              "day6_chunk_id": "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+              "location_type": "content_unit",
+              "normalized_end": 3511,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.5144293597680721,
+            "rank": 1,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-19509897-u01:0024:414f0f3f20e3a646",
+            "text": "↑ Bourlard, Hervé; Kabil, Selen Hande (ngày 1 tháng 8 năm 2022). \"Autoencoders reloaded\" . Biological Cybernetics (bằng tiếng Anh). 116 (4): 389– 406. doi : 10.1007/s00422-022-00937-6 . ISSN 1432-0770 .\n\n1 2 Vincent, Pascal; Larochelle, Hugo; Lajoie, Isabelle; Bengio, Yoshua; Manzagol, Pierre-Antoine (2010). \"Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion\" . Journal of Machine Learning Research . 11 : 3371–3408.\n\n↑ Rifai, Salah; Vincent, Pascal; Muller, Xavier; Glorot, Xavier; Bengio, Yoshua (2011). \"Contractive Auto-Encoders: Explicit Invariance During Feature Extraction\" (PDF) . Proceedings of the 28th International Conference on Machine Learning (ICML) : 833–840.\n\n↑ Hinton, Geoffrey E.; Zemel, Richard (1993). \"Autoencoders, Minimum Description Length and Helmholtz Free Energy\" . Advances in Neural Information Processing Systems . 6 .\n\n",
+            "source_id": "viwiki-19509897",
+            "source": "data/day6/corpus/19509897-bo-tu-ma-hoa.txt",
+            "page": "viwiki-19509897-u01",
+            "metadata": {
+              "title": "Bộ tự mã hóa",
+              "unit_id": "viwiki-19509897-u01",
+              "version": "75710702",
+              "char_end": 18411,
+              "strategy": "B",
+              "char_start": 17493,
+              "collection": "khoa_hoc_may_tinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_t%E1%BB%B1_m%C3%A3_h%C3%B3a",
+              "chunk_ordinal": 24,
+              "day6_chunk_id": "B:viwiki-19509897-u01:0024:414f0f3f20e3a646",
+              "location_type": "content_unit",
+              "normalized_end": 22660,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.43422913943355523,
+            "rank": 2,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-437651-u01:0004:5e470fcad436ed89",
+            "text": "Hệ thống dữ liệu không định kiểu: AutoIt không định nghĩa kiểu dữ liệu cho các biến, điều này là 1 thuận lợi khá lớn cho người không chuyên nghiệp nhưng đối với những người chuyên nghiệp thì thực sự rất khó chịu vì rất khó debug.\n\nDễ bị Decompile: Khi biên dịch, mã nguồn của AutoIt bị nén luôn vào tệp tin thực thi, dù có được mã hóa đi nữa nhưng vẫn dễ dàng để decompile, một số lập trình viên có trình độ thường phải dùng thêm một số thủ thuật để khắc phục.\n\nThường bị các chương trình diệt Vi-rút nhận diện là mã độc.\n\nChú thích\n\n↑ \"AutoIt Downloads\" .\n\n↑ \"AutoIt v3.3.15.3 Beta\" . AutoIt. ngày 16 tháng 5 năm 2020 . Truy cập ngày 29 tháng 5 năm 2020 .\n\n↑ Reply by Jon (AutoIt creator) to a forum topic discussing correct pronunciation\n\n↑ Kaplan, Steve (2003). Citrix Metaframe Access Suite for Windows Server 2003 . New York: McGraw-Hill. ISBN 0-07-219566-5 .\n\n↑ https://www.autoitscript.com/wiki/User_Defined_Functions\n\nLiên kết ngoài\n\nWebsite chính thức\n\nAutoIt trên Facebook",
+            "source_id": "viwiki-437651",
+            "source": "data/day6/corpus/437651-autoit.txt",
+            "page": "viwiki-437651-u01",
+            "metadata": {
+              "title": "AutoIt",
+              "unit_id": "viwiki-437651-u01",
+              "version": "75571888",
+              "char_end": 3511,
+              "strategy": "B",
+              "char_start": 2529,
+              "collection": "ngon_ngu_lap_trinh",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+              "chunk_ordinal": 4,
+              "day6_chunk_id": "B:viwiki-437651-u01:0004:5e470fcad436ed89",
+              "location_type": "content_unit",
+              "normalized_end": 3511,
+              "normalized_start": 0,
+              "sequence_in_source": 1
+            },
+            "score": 0.4183899413579675,
+            "rank": 3,
+            "strategy": "dense_pgvector",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-437651-u01:0001:da8fa7bb50767243 | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nAutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.\n\nNgôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.\n\n\n\n[B:viwiki-19509897-u01:0024:414f0f3f20e3a646 | data/day6/corpus/19509897-bo-tu-ma-hoa.txt | trang viwiki-19509897-u01]\n↑ Bourlard, Hervé; Kabil, Selen Hande (ngày 1 tháng 8 năm 2022). \"Autoencoders reloaded\" . Biological Cybernetics (bằng tiếng Anh). 116 (4): 389– 406. doi : 10.1007/s00422-022-00937-6 . ISSN 1432-0770 .\n\n1 2 Vincent, Pascal; Larochelle, Hugo; Lajoie, Isabelle; Bengio, Yoshua; Manzagol, Pierre-Antoine (2010). \"Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion\" . Journal of Machine Learning Research . 11 : 3371–3408.\n\n↑ Rifai, Salah; Vincent, Pascal; Muller, Xavier; Glorot, Xavier; Bengio, Yoshua (2011). \"Contractive Auto-Encoders: Explicit Invariance During Feature Extraction\" (PDF) . Proceedings of the 28th International Conference on Machine Learning (ICML) : 833–840.\n\n↑ Hinton, Geoffrey E.; Zemel, Richard (1993). \"Autoencoders, Minimum Description Length and Helmholtz Free Energy\" . Advances in Neural Information Processing Systems . 6 .\n\n\n\n[B:viwiki-437651-u01:0004:5e470fcad436ed89 | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nHệ thống dữ liệu không định kiểu: AutoIt không định nghĩa kiểu dữ liệu cho các biến, điều này là 1 thuận lợi khá lớn cho người không chuyên nghiệp nhưng đối với những người chuyên nghiệp thì thực sự rất khó chịu vì rất khó debug.\n\nDễ bị Decompile: Khi biên dịch, mã nguồn của AutoIt bị nén luôn vào tệp tin thực thi, dù có được mã hóa đi nữa nhưng vẫn dễ dàng để decompile, một số lập trình viên có trình độ thường phải dùng thêm một số thủ thuật để khắc phục.\n\nThường bị các chương trình diệt Vi-rút nhận diện là mã độc.\n\nChú thích\n\n↑ \"AutoIt Downloads\" .\n\n↑ \"AutoIt v3.3.15.3 Beta\" . AutoIt. ngày 16 tháng 5 năm 2020 . Truy cập ngày 29 tháng 5 năm 2020 .\n\n↑ Reply by Jon (AutoIt creator) to a forum topic discussing correct pronunciation\n\n↑ Kaplan, Steve (2003). Citrix Metaframe Access Suite for Windows Server 2003 . New York: McGraw-Hill. ISBN 0-07-219566-5 .\n\n↑ https://www.autoitscript.com/wiki/User_Defined_Functions\n\nLiên kết ngoài\n\nWebsite chính thức\n\nAutoIt trên Facebook",
+        "context_ids": [
+          "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+          "B:viwiki-19509897-u01:0024:414f0f3f20e3a646",
+          "B:viwiki-437651-u01:0004:5e470fcad436ed89"
+        ]
+      },
+      {
+        "event": "abstain",
+        "raw_model_output": "{\"status\":\"abstain\",\"answer\":\"CONTEXT không cung cấp thông tin về ngày phát hành cụ thể của phiên bản AutoIt tiếp theo. Thông tin duy nhất liên quan đến ngày phát hành là AutoIt v3.3.15.3 Beta vào ngày 16 tháng 5 năm 2020, nhưng không có dữ liệu về phiên bản kế tiếp dự kiến.\",\"citations\":[]}"
+      }
+    ],
+    "retrieval_metrics": null,
+    "usage": {
+      "input_tokens": 1989,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 174,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 158.09,
+      "answer_generation": 33395.87,
+      "total": 33554.23
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B22",
+    "split": "test",
+    "answerable": true,
+    "config_id": "bm25_selected",
+    "status": "answered",
+    "question": "Mục đích ban đầu của AutoIt là gì?",
+    "answer": "Mục đích ban đầu của AutoIt là tạo ra các tập lệnh tự động hóa (macros) cho các chương trình Microsoft Windows. [B:viwiki-437651-u01:0001:da8fa7bb50767243]",
+    "citations": [
+      "B:viwiki-437651-u01:0001:da8fa7bb50767243"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "Mục đích ban đầu của AutoIt là gì?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+            "text": "AutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.\n\nNgôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.\n\n",
+            "source_id": "viwiki-437651",
+            "source": "data/day6/corpus/437651-autoit.txt",
+            "page": "viwiki-437651-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "75571888",
+              "title": "AutoIt",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 3511,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-437651-u01",
+              "char_start": 0,
+              "char_end": 753,
+              "day6_chunk_id": "B:viwiki-437651-u01:0001:da8fa7bb50767243"
+            },
+            "score": 15.632013430038711,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-437651-u01:0004:5e470fcad436ed89",
+            "text": "Hệ thống dữ liệu không định kiểu: AutoIt không định nghĩa kiểu dữ liệu cho các biến, điều này là 1 thuận lợi khá lớn cho người không chuyên nghiệp nhưng đối với những người chuyên nghiệp thì thực sự rất khó chịu vì rất khó debug.\n\nDễ bị Decompile: Khi biên dịch, mã nguồn của AutoIt bị nén luôn vào tệp tin thực thi, dù có được mã hóa đi nữa nhưng vẫn dễ dàng để decompile, một số lập trình viên có trình độ thường phải dùng thêm một số thủ thuật để khắc phục.\n\nThường bị các chương trình diệt Vi-rút nhận diện là mã độc.\n\nChú thích\n\n↑ \"AutoIt Downloads\" .\n\n↑ \"AutoIt v3.3.15.3 Beta\" . AutoIt. ngày 16 tháng 5 năm 2020 . Truy cập ngày 29 tháng 5 năm 2020 .\n\n↑ Reply by Jon (AutoIt creator) to a forum topic discussing correct pronunciation\n\n↑ Kaplan, Steve (2003). Citrix Metaframe Access Suite for Windows Server 2003 . New York: McGraw-Hill. ISBN 0-07-219566-5 .\n\n↑ https://www.autoitscript.com/wiki/User_Defined_Functions\n\nLiên kết ngoài\n\nWebsite chính thức\n\nAutoIt trên Facebook",
+            "source_id": "viwiki-437651",
+            "source": "data/day6/corpus/437651-autoit.txt",
+            "page": "viwiki-437651-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "75571888",
+              "title": "AutoIt",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 3511,
+              "strategy": "B",
+              "chunk_ordinal": 4,
+              "unit_id": "viwiki-437651-u01",
+              "char_start": 2529,
+              "char_end": 3511,
+              "day6_chunk_id": "B:viwiki-437651-u01:0004:5e470fcad436ed89"
+            },
+            "score": 10.495507719929645,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-250289-u01:0001:98d480e466740563",
+            "text": "Brainfuck là một ngôn ngữ lập trình được rất ít người biết đến. Nó được thiết kế để thử thách cũng như làm trò giải trí cho các lập trình viên và không thích hợp cho người mới tập. Trong một số tài liệu, tên của ngôn ngữ này được viết là brainf*ck hay brainfsck, không được viết hoa dù brainfuck là một danh từ riêng.\n\nLịch sử\n\nUrban Muller thiết kế brainfuck vào năm 1993 với mục đích tạo ra ngôn ngữ lập trình sử dụng công cụ biên dịch nhỏ nhất có thể, công cụ biên dịch 1024 byte theo ngôn ngữ lập trình FALSE hoặc một số dạng khác dưới 200 byte. Phiên bản Muller 2.0 chứa công cụ biên dịch Amiga.\n\nThiết kế ngôn ngữ\n\nBrainfuck có thiết kế tương tự máy Turing , gồm một con trỏ đọc/ghi và một mảng nhớ rất lớn. Mỗi ô nhớ chứa một số dương 8-bit (0-255) và có giá trị khởi tạo bằng 0. Con trỏ ban đầu ở vị trí đầu tiên của mảng nhớ, có thể được điều khiển bằng 8 lệnh sau đây :\n\n",
+            "source_id": "viwiki-250289",
+            "source": "data/day6/corpus/250289-brainfuck.txt",
+            "page": "viwiki-250289-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "75566952",
+              "title": "Brainfuck",
+              "canonical_url": "https://vi.wikipedia.org/wiki/Brainfuck",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 2927,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-250289-u01",
+              "char_start": 0,
+              "char_end": 881,
+              "day6_chunk_id": "B:viwiki-250289-u01:0001:98d480e466740563"
+            },
+            "score": 10.3625368352607,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-437651-u01:0001:da8fa7bb50767243 | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nAutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.\n\nNgôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.\n\n\n\n[B:viwiki-437651-u01:0004:5e470fcad436ed89 | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nHệ thống dữ liệu không định kiểu: AutoIt không định nghĩa kiểu dữ liệu cho các biến, điều này là 1 thuận lợi khá lớn cho người không chuyên nghiệp nhưng đối với những người chuyên nghiệp thì thực sự rất khó chịu vì rất khó debug.\n\nDễ bị Decompile: Khi biên dịch, mã nguồn của AutoIt bị nén luôn vào tệp tin thực thi, dù có được mã hóa đi nữa nhưng vẫn dễ dàng để decompile, một số lập trình viên có trình độ thường phải dùng thêm một số thủ thuật để khắc phục.\n\nThường bị các chương trình diệt Vi-rút nhận diện là mã độc.\n\nChú thích\n\n↑ \"AutoIt Downloads\" .\n\n↑ \"AutoIt v3.3.15.3 Beta\" . AutoIt. ngày 16 tháng 5 năm 2020 . Truy cập ngày 29 tháng 5 năm 2020 .\n\n↑ Reply by Jon (AutoIt creator) to a forum topic discussing correct pronunciation\n\n↑ Kaplan, Steve (2003). Citrix Metaframe Access Suite for Windows Server 2003 . New York: McGraw-Hill. ISBN 0-07-219566-5 .\n\n↑ https://www.autoitscript.com/wiki/User_Defined_Functions\n\nLiên kết ngoài\n\nWebsite chính thức\n\nAutoIt trên Facebook\n\n[B:viwiki-250289-u01:0001:98d480e466740563 | data/day6/corpus/250289-brainfuck.txt | trang viwiki-250289-u01]\nBrainfuck là một ngôn ngữ lập trình được rất ít người biết đến. Nó được thiết kế để thử thách cũng như làm trò giải trí cho các lập trình viên và không thích hợp cho người mới tập. Trong một số tài liệu, tên của ngôn ngữ này được viết là brainf*ck hay brainfsck, không được viết hoa dù brainfuck là một danh từ riêng.\n\nLịch sử\n\nUrban Muller thiết kế brainfuck vào năm 1993 với mục đích tạo ra ngôn ngữ lập trình sử dụng công cụ biên dịch nhỏ nhất có thể, công cụ biên dịch 1024 byte theo ngôn ngữ lập trình FALSE hoặc một số dạng khác dưới 200 byte. Phiên bản Muller 2.0 chứa công cụ biên dịch Amiga.\n\nThiết kế ngôn ngữ\n\nBrainfuck có thiết kế tương tự máy Turing , gồm một con trỏ đọc/ghi và một mảng nhớ rất lớn. Mỗi ô nhớ chứa một số dương 8-bit (0-255) và có giá trị khởi tạo bằng 0. Con trỏ ban đầu ở vị trí đầu tiên của mảng nhớ, có thể được điều khiển bằng 8 lệnh sau đây :\n\n",
+        "context_ids": [
+          "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+          "B:viwiki-437651-u01:0004:5e470fcad436ed89",
+          "B:viwiki-250289-u01:0001:98d480e466740563"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"Mục đích ban đầu của AutoIt là tạo ra các tập lệnh tự động hóa (macros) cho các chương trình Microsoft Windows.\",\"citations\":[\"B:viwiki-437651-u01:0001:da8fa7bb50767243\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 2062,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 117,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 1.89,
+      "answer_generation": 5199.66,
+      "total": 5201.73
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B23",
+    "split": "test",
+    "answerable": true,
+    "config_id": "bm25_selected",
+    "status": "answered",
+    "question": "Ngành tương tác người–máy tập trung giải quyết thách thức gì?",
+    "answer": "Ngành tương tác người–máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng. [B:viwiki-4663-u01:0002:803ffb5131730e00]",
+    "citations": [
+      "B:viwiki-4663-u01:0002:803ffb5131730e00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "Ngành tương tác người–máy tập trung giải quyết thách thức gì?",
+        "query_transformed": false,
+        "filter": {
+          "collection": "khoa_hoc_may_tinh"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-4663-u01:0002:803ffb5131730e00",
+            "text": "Khoa học máy tính gồm nhiều ngành hẹp; một số ngành tập trung vào các ứng dụng thực tiễn cụ thể chẳng hạn như đồ họa máy tính , trong khi một số ngành khác lại tập trung nghiên cứu đến tính chất cơ bản của các bài toán tính toán như lý thuyết độ phức tạp tính toán ). Ngoài ra còn có những ngành khác nghiên cứu các vấn đề trong việc thực thi các phương pháp tính toán. Ví dụ, ngành lý thuyết ngôn ngữ lập trình nghiên cứu những phương thức mô tả cách tính toán khác nhau, trong khi ngành lập trình nghiên cứu cách sử dụng các ngôn ngữ lập trình và các hệ thống phức tạp , và ngành tương tác người-máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng.\n\nLịch sử\n\n",
+            "source_id": "viwiki-4663",
+            "source": "data/day6/corpus/4663-khoa-hoc-may-tinh.txt",
+            "page": "viwiki-4663-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75569049",
+              "title": "Khoa học máy tính",
+              "canonical_url": "https://vi.wikipedia.org/wiki/Khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 9912,
+              "strategy": "B",
+              "chunk_ordinal": 2,
+              "unit_id": "viwiki-4663-u01",
+              "char_start": 743,
+              "char_end": 1484,
+              "day6_chunk_id": "B:viwiki-4663-u01:0002:803ffb5131730e00"
+            },
+            "score": 29.693494124607078,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-20015378-u01:0001:1e418ef032f4345f",
+            "text": "Trong học máy , cơ chế chú ý ( tiếng Anh : attention mechanism ) là một kỹ thuật giúp mô hình xác định phần nào của dữ liệu đầu vào quan trọng hơn so với các phần còn lại, từ đó tăng giá trị trọng số của những phần đó khi tạo giá trị đầu ra. Một số tác giả so sánh cơ chế này với sự chú ý ở con người , cho rằng nó mô phỏng nhận thức có ý thức của con người về một số thông tin cụ thể, làm nổi bật các chi tiết quan trọng để tập trung nhiều hơn vào những khía cạnh thiết yếu của dữ liệu; dẫn tới tên gọi này của nó.\n\n",
+            "source_id": "viwiki-20015378",
+            "source": "data/day6/corpus/20015378-co-che-chu-y.txt",
+            "page": "viwiki-20015378-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75599909",
+              "title": "Cơ chế chú ý",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C6%A1_ch%E1%BA%BF_ch%C3%BA_%C3%BD",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 34391,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-20015378-u01",
+              "char_start": 0,
+              "char_end": 517,
+              "day6_chunk_id": "B:viwiki-20015378-u01:0001:1e418ef032f4345f"
+            },
+            "score": 14.486650776866394,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-19991504-u01:0003:87d0add1a5bc30a2",
+            "text": "Năm 2011, Geoffrey Hinton bắt đầu tiếp cận các đồng nghiệp với câu hỏi làm thế nào để thuyết phục họ rằng mạng thần kinh là tương lai. Jitendra Malik , một người hoài nghi về mạng thần kinh, đề xuất thử thách PASCAL Visual Object Classes. Hinton cho rằng tập dữ liệu đó quá nhỏ, và Malik giới thiệu ông với cuộc thi ImageNet .\n\nTập dữ liệu ImageNet , yếu tố trung tâm cho thành công của AlexNet, được Fei-Fei Li và các cộng sự xây dựng từ năm 2007. Với mục tiêu thúc đẩy nhận dạng hình ảnh qua dữ liệu quy mô lớn, Li đã tạo ra một tập dữ liệu lớn hơn nhiều so với các nỗ lực trước đó, cuối cùng chứa hơn 14 triệu ảnh có nhãn thuộc 22.000 danh mục. ImageNet sau đó trở thành nền tảng của thử thách ILSVRC và một nguồn tài nguyên chủ chốt trong sự trỗi dậy của học sâu .\n\n",
+            "source_id": "viwiki-19991504",
+            "source": "data/day6/corpus/19991504-alexnet.txt",
+            "page": "viwiki-19991504-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75631927",
+              "title": "AlexNet",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AlexNet",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 9157,
+              "strategy": "B",
+              "chunk_ordinal": 3,
+              "unit_id": "viwiki-19991504-u01",
+              "char_start": 1534,
+              "char_end": 2304,
+              "day6_chunk_id": "B:viwiki-19991504-u01:0003:87d0add1a5bc30a2"
+            },
+            "score": 14.360912487496186,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-4663-u01:0002:803ffb5131730e00 | data/day6/corpus/4663-khoa-hoc-may-tinh.txt | trang viwiki-4663-u01]\nKhoa học máy tính gồm nhiều ngành hẹp; một số ngành tập trung vào các ứng dụng thực tiễn cụ thể chẳng hạn như đồ họa máy tính , trong khi một số ngành khác lại tập trung nghiên cứu đến tính chất cơ bản của các bài toán tính toán như lý thuyết độ phức tạp tính toán ). Ngoài ra còn có những ngành khác nghiên cứu các vấn đề trong việc thực thi các phương pháp tính toán. Ví dụ, ngành lý thuyết ngôn ngữ lập trình nghiên cứu những phương thức mô tả cách tính toán khác nhau, trong khi ngành lập trình nghiên cứu cách sử dụng các ngôn ngữ lập trình và các hệ thống phức tạp , và ngành tương tác người-máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng.\n\nLịch sử\n\n\n\n[B:viwiki-20015378-u01:0001:1e418ef032f4345f | data/day6/corpus/20015378-co-che-chu-y.txt | trang viwiki-20015378-u01]\nTrong học máy , cơ chế chú ý ( tiếng Anh : attention mechanism ) là một kỹ thuật giúp mô hình xác định phần nào của dữ liệu đầu vào quan trọng hơn so với các phần còn lại, từ đó tăng giá trị trọng số của những phần đó khi tạo giá trị đầu ra. Một số tác giả so sánh cơ chế này với sự chú ý ở con người , cho rằng nó mô phỏng nhận thức có ý thức của con người về một số thông tin cụ thể, làm nổi bật các chi tiết quan trọng để tập trung nhiều hơn vào những khía cạnh thiết yếu của dữ liệu; dẫn tới tên gọi này của nó.\n\n\n\n[B:viwiki-19991504-u01:0003:87d0add1a5bc30a2 | data/day6/corpus/19991504-alexnet.txt | trang viwiki-19991504-u01]\nNăm 2011, Geoffrey Hinton bắt đầu tiếp cận các đồng nghiệp với câu hỏi làm thế nào để thuyết phục họ rằng mạng thần kinh là tương lai. Jitendra Malik , một người hoài nghi về mạng thần kinh, đề xuất thử thách PASCAL Visual Object Classes. Hinton cho rằng tập dữ liệu đó quá nhỏ, và Malik giới thiệu ông với cuộc thi ImageNet .\n\nTập dữ liệu ImageNet , yếu tố trung tâm cho thành công của AlexNet, được Fei-Fei Li và các cộng sự xây dựng từ năm 2007. Với mục tiêu thúc đẩy nhận dạng hình ảnh qua dữ liệu quy mô lớn, Li đã tạo ra một tập dữ liệu lớn hơn nhiều so với các nỗ lực trước đó, cuối cùng chứa hơn 14 triệu ảnh có nhãn thuộc 22.000 danh mục. ImageNet sau đó trở thành nền tảng của thử thách ILSVRC và một nguồn tài nguyên chủ chốt trong sự trỗi dậy của học sâu .\n\n",
+        "context_ids": [
+          "B:viwiki-4663-u01:0002:803ffb5131730e00",
+          "B:viwiki-20015378-u01:0001:1e418ef032f4345f",
+          "B:viwiki-19991504-u01:0003:87d0add1a5bc30a2"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"Ngành tương tác người–máy tập trung vào những thách thức trong việc làm cho máy tính và công việc tính toán hữu ích, và dễ sử dụng đối với mọi người dùng.\",\"citations\":[\"B:viwiki-4663-u01:0002:803ffb5131730e00\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 1782,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 150,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 1.68,
+      "answer_generation": 5455.66,
+      "total": 5457.52
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B24",
+    "split": "test",
+    "answerable": true,
+    "config_id": "bm25_selected",
+    "status": "answered",
+    "question": "C++11 được ISO chấp nhận vào ngày nào và thay thế tiêu chuẩn nào?",
+    "answer": "C++11 được tổ chức ISO chấp nhận vào ngày 12 tháng 4 năm 2011, nhằm thay thế cho tiêu chuẩn C++03. [B:viwiki-819391-u01:0001:3ebffd83e5828cc6]",
+    "citations": [
+      "B:viwiki-819391-u01:0001:3ebffd83e5828cc6"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "C++11 được ISO chấp nhận vào ngày nào và thay thế tiêu chuẩn nào?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-819391-u01:0001:3ebffd83e5828cc6",
+            "text": "C++11 , được biết đến trước đây với tên gọi C++0x, là tên gọi của tiêu chuẩn của ngôn ngữ lập trình C++ . Tiêu chuẩn này được chấp nhận bởi tổ chức ISO vào ngày 12 tháng 4 năm 2011 nhằm thay thế cho tiêu chuẩn C++03. Tên gọi C++11 của tiêu chuẩn này dược dựa trên truyền thống đặt tên phiên bản ngôn ngữ theo ngày xuất bản của bản chi tiết kỹ thuật (specification).\n\nC++11 đưa thêm một số mở rộng mới vào phần ngôn ngữ cốt lõi C++ và một số mở rộng cho thư viện chuẩn của C++, trong đó bao gồm hầu hết các thư viện trong báo cáo kỹ thuật TR1 (C++ Technical Report 1) ngoại trừ thư viện các hàm toán học đặc biệt. C++11 được ban hành dưới dạng tiêu chuẩn ISO/IEC 14882:2011 vào tháng 9/2011. Bản thảo tiêu chuẩn mới nhất là N3242 được viết vào ngày 28 tháng 2 năm 2011. Tuy nhiên sự khác biệt giữa bản thảo này và C++11 là không đáng kể.\n\nMột số đề xuất thay đổi cho việc cập nhật tiêu chuẩn\n\n",
+            "source_id": "viwiki-819391",
+            "source": "data/day6/corpus/819391-c-11.txt",
+            "page": "viwiki-819391-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74449619",
+              "title": "C++11",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%2B%2B11",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 6888,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-819391-u01",
+              "char_start": 0,
+              "char_end": 892,
+              "day6_chunk_id": "B:viwiki-819391-u01:0001:3ebffd83e5828cc6"
+            },
+            "score": 36.81876693627964,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-15438-u01:0027:173085878e051518",
+            "text": "↑ \"Overview of C# 3.0\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \" [ LINQ ] Phần 1: Giới thiệu về LINQ Dam-mi-o\" . Dam-mi-o . Truy cập ngày 20 tháng 2 năm 2017 .\n\n↑ \"C# 4.0 - New C# Features in the .NET Framework 4\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \"Shows - Event & Video Content\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \"GitHub - dotnet/roslyn: The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs\" . GitHub . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \"The history of C#\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \"The history of C#\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\nLiên kết ngoài\n\nNgôn ngữ C# (MSDN)\n\nDotNetSpace ASP.NET 2.0 code examples in C#\n\nFull C# Online book Lưu trữ ngày 29 tháng 1 năm 2008 tại Wayback Machine\n\nTiêu chuẩn C#\n\nTiêu chuẩn ECMA-334 về ngôn ngữ C# ( PDF )\n\nTiêu chuẩn ISO về ngôn ngữ C# (phải mua)\n\nMicrosoft Visual C#.NET\n\nF# Lưu trữ ngày 19 tháng 11 năm 2008 tại Wayback Machine",
+            "source_id": "viwiki-15438",
+            "source": "data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-15438-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74454567",
+              "title": "C Sharp (ngôn ngữ lập trình)",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 24357,
+              "strategy": "B",
+              "chunk_ordinal": 27,
+              "unit_id": "viwiki-15438-u01",
+              "char_start": 23396,
+              "char_end": 24357,
+              "day6_chunk_id": "B:viwiki-15438-u01:0027:173085878e051518"
+            },
+            "score": 21.157138817504045,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-819391-u01:0007:e9935ef7a89865f3",
+            "text": "Tiểu bản ngoài ( tiếng Anh : extern template) là cú pháp mới được C++11 cung cấp nhằm rút ngắn thời gian biên dịch.\nTrong phiên bản C++03, chương trình biên dịch phải khởi tạo một tiêu bản (template) mỗi khi gặp tiêu bản đó khi dịch một đoạn mã lệnh nào đó. Nếu chỉ một tiêu bản của cùng một kiểu dữ liệu của các đoạn mã lệnh cần dịch được khởi tạo một lần thì việc biên dịch sẽ trở nên nhanh hơn rất nhiều. Hiện tại chúng ta không có cách nào làm được việc này trong C++03. Chính vì vậy C++11 đã giới thiệu cú pháp mới: tiêu bản ngoài (extern template) nhằm hỗ trợ cho việc định nghĩa tiêu bản ngoài. Ví dụ:\n\nTrong C++03, cú pháp sau dùng để yêu cầu trình biên dịch khởi tạo một tiêu bản:\n\nHiện tại C++11 cung cấp cú pháp sau để yêu cầu trình biên dịch không khởi tạo tiêu bản khi dịch đoạn mã này:\n\nCác cải tiến về việc sử dụng ngôn ngữ cốt lõi\n\n",
+            "source_id": "viwiki-819391",
+            "source": "data/day6/corpus/819391-c-11.txt",
+            "page": "viwiki-819391-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74449619",
+              "title": "C++11",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%2B%2B11",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 6888,
+              "strategy": "B",
+              "chunk_ordinal": 7,
+              "unit_id": "viwiki-819391-u01",
+              "char_start": 4393,
+              "char_end": 5241,
+              "day6_chunk_id": "B:viwiki-819391-u01:0007:e9935ef7a89865f3"
+            },
+            "score": 17.883612612027463,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-819391-u01:0001:3ebffd83e5828cc6 | data/day6/corpus/819391-c-11.txt | trang viwiki-819391-u01]\nC++11 , được biết đến trước đây với tên gọi C++0x, là tên gọi của tiêu chuẩn của ngôn ngữ lập trình C++ . Tiêu chuẩn này được chấp nhận bởi tổ chức ISO vào ngày 12 tháng 4 năm 2011 nhằm thay thế cho tiêu chuẩn C++03. Tên gọi C++11 của tiêu chuẩn này dược dựa trên truyền thống đặt tên phiên bản ngôn ngữ theo ngày xuất bản của bản chi tiết kỹ thuật (specification).\n\nC++11 đưa thêm một số mở rộng mới vào phần ngôn ngữ cốt lõi C++ và một số mở rộng cho thư viện chuẩn của C++, trong đó bao gồm hầu hết các thư viện trong báo cáo kỹ thuật TR1 (C++ Technical Report 1) ngoại trừ thư viện các hàm toán học đặc biệt. C++11 được ban hành dưới dạng tiêu chuẩn ISO/IEC 14882:2011 vào tháng 9/2011. Bản thảo tiêu chuẩn mới nhất là N3242 được viết vào ngày 28 tháng 2 năm 2011. Tuy nhiên sự khác biệt giữa bản thảo này và C++11 là không đáng kể.\n\nMột số đề xuất thay đổi cho việc cập nhật tiêu chuẩn\n\n\n\n[B:viwiki-15438-u01:0027:173085878e051518 | data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt | trang viwiki-15438-u01]\n↑ \"Overview of C# 3.0\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \" [ LINQ ] Phần 1: Giới thiệu về LINQ Dam-mi-o\" . Dam-mi-o . Truy cập ngày 20 tháng 2 năm 2017 .\n\n↑ \"C# 4.0 - New C# Features in the .NET Framework 4\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \"Shows - Event & Video Content\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \"GitHub - dotnet/roslyn: The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs\" . GitHub . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \"The history of C#\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\n↑ \"The history of C#\" . Truy cập ngày 19 tháng 11 năm 2025 .\n\nLiên kết ngoài\n\nNgôn ngữ C# (MSDN)\n\nDotNetSpace ASP.NET 2.0 code examples in C#\n\nFull C# Online book Lưu trữ ngày 29 tháng 1 năm 2008 tại Wayback Machine\n\nTiêu chuẩn C#\n\nTiêu chuẩn ECMA-334 về ngôn ngữ C# ( PDF )\n\nTiêu chuẩn ISO về ngôn ngữ C# (phải mua)\n\nMicrosoft Visual C#.NET\n\nF# Lưu trữ ngày 19 tháng 11 năm 2008 tại Wayback Machine\n\n[B:viwiki-819391-u01:0007:e9935ef7a89865f3 | data/day6/corpus/819391-c-11.txt | trang viwiki-819391-u01]\nTiểu bản ngoài ( tiếng Anh : extern template) là cú pháp mới được C++11 cung cấp nhằm rút ngắn thời gian biên dịch.\nTrong phiên bản C++03, chương trình biên dịch phải khởi tạo một tiêu bản (template) mỗi khi gặp tiêu bản đó khi dịch một đoạn mã lệnh nào đó. Nếu chỉ một tiêu bản của cùng một kiểu dữ liệu của các đoạn mã lệnh cần dịch được khởi tạo một lần thì việc biên dịch sẽ trở nên nhanh hơn rất nhiều. Hiện tại chúng ta không có cách nào làm được việc này trong C++03. Chính vì vậy C++11 đã giới thiệu cú pháp mới: tiêu bản ngoài (extern template) nhằm hỗ trợ cho việc định nghĩa tiêu bản ngoài. Ví dụ:\n\nTrong C++03, cú pháp sau dùng để yêu cầu trình biên dịch khởi tạo một tiêu bản:\n\nHiện tại C++11 cung cấp cú pháp sau để yêu cầu trình biên dịch không khởi tạo tiêu bản khi dịch đoạn mã này:\n\nCác cải tiến về việc sử dụng ngôn ngữ cốt lõi\n\n",
+        "context_ids": [
+          "B:viwiki-819391-u01:0001:3ebffd83e5828cc6",
+          "B:viwiki-15438-u01:0027:173085878e051518",
+          "B:viwiki-819391-u01:0007:e9935ef7a89865f3"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"C++11 được tổ chức ISO chấp nhận vào ngày 12 tháng 4 năm 2011, nhằm thay thế cho tiêu chuẩn C++03.\",\"citations\":[\"B:viwiki-819391-u01:0001:3ebffd83e5828cc6\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 2073,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 94,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 2.56,
+      "answer_generation": 4001.43,
+      "total": 4004.19
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B26",
+    "split": "test",
+    "answerable": true,
+    "config_id": "bm25_selected",
+    "status": "answered",
+    "question": "Trong cây biểu diễn tập hợp rời nhau, phần tử đại diện đóng vai trò gì và các phần tử còn lại là gì?",
+    "answer": "Phần tử đại diện là gốc của cây; các phần tử còn lại trong tập hợp là các nút của cây. [B:viwiki-91470-u01:0002:df2090530f9ac2d8]",
+    "citations": [
+      "B:viwiki-91470-u01:0002:df2090530f9ac2d8"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "Trong cây biểu diễn tập hợp rời nhau, phần tử đại diện đóng vai trò gì và các phần tử còn lại là gì?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-91470-u01:0003:541fca1d728c1a33",
+            "text": "Tạo một tập mới chỉ gồm một phần tử u\n\nKhi đó cây biểu diễn tập chỉ có một nút gốc.\n\nTìm tập hợp chứa phần tử u\n\nĐấy chính là tìm phần tử đại diện của tập, hay tìm nút gốc của cây\n\nHợp hai tập\n\nHợp hai tập hợp rời nhau chứa hai phần tử u, v là hợp hai cây thành một cây, bằng cách chọn một trong hai gốc làm gốc của tập mới, còn gốc của cây kia thành con của gốc ấy. Để có thể rút ngắn thời gian tìm kiếm ta chọn gốc của cây chứa nhiều phần tử hơn làm gốc của cây mới. Chẳng hạn trong hình vẽ trên, khi hợp hai tập {A, B, C, B, D} và {E, F} ta gán Parent(E):= 1, Parent (A) = -5.\n\nXem thêm\n\nTham khảo",
+            "source_id": "viwiki-91470",
+            "source": "data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt",
+            "page": "viwiki-91470-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "66810318",
+              "title": "Cây biểu diễn tập hợp",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C3%A2y_bi%E1%BB%83u_di%E1%BB%85n_t%E1%BA%ADp_h%E1%BB%A3p",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 1704,
+              "strategy": "B",
+              "chunk_ordinal": 3,
+              "unit_id": "viwiki-91470-u01",
+              "char_start": 1104,
+              "char_end": 1704,
+              "day6_chunk_id": "B:viwiki-91470-u01:0003:541fca1d728c1a33"
+            },
+            "score": 50.31398983792244,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-91470-u01:0002:df2090530f9ac2d8",
+            "text": "Để dùng cây biểu diễn tập, ta chọn một phần tử trong tập hợp làm đại diện cho tập. Phần tử này sẽ làm gốc của cây. Các phần tử khác trong tập là các nút của cây. Trong hình vẽ bên có biểu diễn cây của hai tập: một tập hợp gồm các phần tử A, B, C, D, một tập hợp gồm các phần tử E,F. Để lưu trữ cầu trúc cây này, mỗi phần tử được gán thêm một trường parent chỉ tới nút cha của chúng. Trong hình vẽ ta có Parent(D)= B, Parent(C)= A, Parent(E)= F. Vì nút gốc u không có parent nên người ta cũng tận dụng trường parent(u) của nút gốc u để ghi số phần tử của tập mà nó đại diện. Chẳng hạn trong hình bên Parent(A)= -4, Parent(E) = -2. Khi ấy cũng có thể trường parent của các nút không phải là gốc nhận giá trị là chỉ số (index) của nút cha. Chẳng hạn nếu trong hình bên chỉ số của các nút A, B, C, D, E, F tương ứng là các số nguyên dương 1, 2, 3, 4, 5, 6 thì Parent(D)= 2,Parent(C)= 1,Parent(B)= 1,Parent(A)= -4, Parent(F)= 5, Parent(E)=-2.\n\nCác phép toán trên tập\n\n",
+            "source_id": "viwiki-91470",
+            "source": "data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt",
+            "page": "viwiki-91470-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "66810318",
+              "title": "Cây biểu diễn tập hợp",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C3%A2y_bi%E1%BB%83u_di%E1%BB%85n_t%E1%BA%ADp_h%E1%BB%A3p",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 1704,
+              "strategy": "B",
+              "chunk_ordinal": 2,
+              "unit_id": "viwiki-91470-u01",
+              "char_start": 141,
+              "char_end": 1104,
+              "day6_chunk_id": "B:viwiki-91470-u01:0002:df2090530f9ac2d8"
+            },
+            "score": 42.783278078962844,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-91470-u01:0001:90dda6eb3f9f1a1b",
+            "text": "Một trong các ứng dụng của cây là biểu diễn các tập hợp rời nhau. Khi đó có thể thực hiện phép hợp các tập hợp rời nhau.\n\nCây biểu diễn tập\n\n",
+            "source_id": "viwiki-91470",
+            "source": "data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt",
+            "page": "viwiki-91470-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "66810318",
+              "title": "Cây biểu diễn tập hợp",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%C3%A2y_bi%E1%BB%83u_di%E1%BB%85n_t%E1%BA%ADp_h%E1%BB%A3p",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 1704,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-91470-u01",
+              "char_start": 0,
+              "char_end": 141,
+              "day6_chunk_id": "B:viwiki-91470-u01:0001:90dda6eb3f9f1a1b"
+            },
+            "score": 36.73172625220519,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-91470-u01:0003:541fca1d728c1a33 | data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt | trang viwiki-91470-u01]\nTạo một tập mới chỉ gồm một phần tử u\n\nKhi đó cây biểu diễn tập chỉ có một nút gốc.\n\nTìm tập hợp chứa phần tử u\n\nĐấy chính là tìm phần tử đại diện của tập, hay tìm nút gốc của cây\n\nHợp hai tập\n\nHợp hai tập hợp rời nhau chứa hai phần tử u, v là hợp hai cây thành một cây, bằng cách chọn một trong hai gốc làm gốc của tập mới, còn gốc của cây kia thành con của gốc ấy. Để có thể rút ngắn thời gian tìm kiếm ta chọn gốc của cây chứa nhiều phần tử hơn làm gốc của cây mới. Chẳng hạn trong hình vẽ trên, khi hợp hai tập {A, B, C, B, D} và {E, F} ta gán Parent(E):= 1, Parent (A) = -5.\n\nXem thêm\n\nTham khảo\n\n[B:viwiki-91470-u01:0002:df2090530f9ac2d8 | data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt | trang viwiki-91470-u01]\nĐể dùng cây biểu diễn tập, ta chọn một phần tử trong tập hợp làm đại diện cho tập. Phần tử này sẽ làm gốc của cây. Các phần tử khác trong tập là các nút của cây. Trong hình vẽ bên có biểu diễn cây của hai tập: một tập hợp gồm các phần tử A, B, C, D, một tập hợp gồm các phần tử E,F. Để lưu trữ cầu trúc cây này, mỗi phần tử được gán thêm một trường parent chỉ tới nút cha của chúng. Trong hình vẽ ta có Parent(D)= B, Parent(C)= A, Parent(E)= F. Vì nút gốc u không có parent nên người ta cũng tận dụng trường parent(u) của nút gốc u để ghi số phần tử của tập mà nó đại diện. Chẳng hạn trong hình bên Parent(A)= -4, Parent(E) = -2. Khi ấy cũng có thể trường parent của các nút không phải là gốc nhận giá trị là chỉ số (index) của nút cha. Chẳng hạn nếu trong hình bên chỉ số của các nút A, B, C, D, E, F tương ứng là các số nguyên dương 1, 2, 3, 4, 5, 6 thì Parent(D)= 2,Parent(C)= 1,Parent(B)= 1,Parent(A)= -4, Parent(F)= 5, Parent(E)=-2.\n\nCác phép toán trên tập\n\n\n\n[B:viwiki-91470-u01:0001:90dda6eb3f9f1a1b | data/day6/corpus/91470-cay-bieu-dien-tap-hop.txt | trang viwiki-91470-u01]\nMột trong các ứng dụng của cây là biểu diễn các tập hợp rời nhau. Khi đó có thể thực hiện phép hợp các tập hợp rời nhau.\n\nCây biểu diễn tập\n\n",
+        "context_ids": [
+          "B:viwiki-91470-u01:0003:541fca1d728c1a33",
+          "B:viwiki-91470-u01:0002:df2090530f9ac2d8",
+          "B:viwiki-91470-u01:0001:90dda6eb3f9f1a1b"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"Phần tử đại diện là gốc của cây; các phần tử còn lại trong tập hợp là các nút của cây.\",\"citations\":[\"B:viwiki-91470-u01:0002:df2090530f9ac2d8\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": false,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 1609,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 97,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 5.08,
+      "answer_generation": 23283.13,
+      "total": 23288.56
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B27",
+    "split": "test",
+    "answerable": true,
+    "config_id": "bm25_selected",
+    "status": "answered",
+    "question": "Thiết bị không hiển thị thông điệp có thể thay dòng chữ Hello World bằng tín hiệu nào?",
+    "answer": "Trong các thiết bị không hiển thị thông điệp, dòng chữ \"Hello world\" có thể được thay bằng tín hiệu phát sinh, chẳng hạn như **bật đèn LED sáng** — đây được coi là một chương trình chỉ dẫn đơn giản. [B:viwiki-974178-u01:0001:839052f56aefa8c4]",
+    "citations": [
+      "B:viwiki-974178-u01:0001:839052f56aefa8c4"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "Thiết bị không hiển thị thông điệp có thể thay dòng chữ Hello World bằng tín hiệu nào?",
+        "query_transformed": false,
+        "filter": {
+          "collection": "ngon_ngu_lap_trinh"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-974178-u01:0001:839052f56aefa8c4",
+            "text": "\"Hello, World!\" là chương trình máy tính mà đầu ra là dòng chữ \"Hello, world!\" trên thiết bị hiển thị . Vì đây là chương trình đơn giản nhất ở mọi ngôn ngữ lập trình , cho nên nó thường được dùng trong việc mô phỏng cho người mới bắt đầu về cú pháp lập trình cơ bản trong ngôn ngữ lập trình, hay để xác định ngôn ngữ hoặc hệ thống nào đó hoạt động tốt.\n\nTrong các thiết bị không hiển thị thông điệp, một chương trình đơn giản là phát sinh tín hiệu, như bật đèn LED sáng để thay thế cho dòng chữ \"Hello world\" như là một chương trình chỉ dẫn.\n\nMục đích\n\n\"Hello, World!\" đã trở thành chương trình đầu tiên (tiền lệ) của nhiều người muốn học về lập trình . Tóm lại, chương trình đơn giản đến mức mà người học không cần phải có kiến thức & kinh nghiệm lập trình để có thể hiểu và làm, đặc biệt với sự giúp đỡ của giáo viên hoặc các phương pháp hướng dẫn cách viết.\n\n",
+            "source_id": "viwiki-974178",
+            "source": "data/day6/corpus/974178-hello-world-chuong-trinh-may-tinh.txt",
+            "page": "viwiki-974178-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "75231415",
+              "title": "\"Hello, World!\" (chương trình máy tính)",
+              "canonical_url": "https://vi.wikipedia.org/wiki/%22Hello,_World!%22_(ch%C6%B0%C6%A1ng_tr%C3%ACnh_m%C3%A1y_t%C3%ADnh)",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 4482,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-974178-u01",
+              "char_start": 0,
+              "char_end": 862,
+              "day6_chunk_id": "B:viwiki-974178-u01:0001:839052f56aefa8c4"
+            },
+            "score": 51.62965293617065,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-3646533-u01:0002:3a804cbe9fc11538",
+            "text": "Ví dụ\n\nMuốn viết được chương trình Hello World, ta có thể sử dụng ví dụ đơn giản dưới đây:\n\nTrong đó:\n\n@: Làm cho câu lệnh không hiển thị ra màn hình (VD: \"C:\\> echo off\" sẽ được ẩn đi trong dòng lệnh này)\n\necho off: Chuyển chế độ sang ẩn câu lệnh (tức là dấu \"@\" sẽ được thêm vào trước các câu lệnh)\n\nLà câu lệnh xoá màn hình.\n\nLà câu lệnh dùng để hiển thị tên của cửa sổ Command Prompt. Trong trường hợp này, cửa sổ có tên là Hello World\n\nLà câu lệnh đổi màu chữ để tăng vẻ đẹp cho chương trình. Chữ thứ nhất chỉ định cho màu nền (0), chữ thứ hai chỉ định cho màu chữ (2). Chúng ta có thể thay thế số 2 bằng các màu khác:\n\n+ 0 là đen (màu ngầm định của nền)\n\n+ 1 là màu xanh dương\n\n+ 2 là màu xanh lá cây\n\n+ 3 là màu xanh mòng biển\n\n+ 4 là màu đỏ\n\n+ 5 là màu tím hồng\n\n+ 6 là màu vàng\n\n+ 7 là màu trắng (màu ngầm định của chữ)\n\n+ 8 là màu xám\n\n+ 9 là màu xanh dương sáng\n\n+ A là màu xanh lá cây sáng\n\n+ B là màu xanh mòng biển sáng\n\n+ C là màu đỏ sáng\n\n+ D là màu hồng sáng\n\n+ E là màu vàng sáng\n\n",
+            "source_id": "viwiki-3646533",
+            "source": "data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-3646533-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "65334502",
+              "title": "Batch (ngôn ngữ lập trình)",
+              "canonical_url": "https://vi.wikipedia.org/wiki/Batch_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 3740,
+              "strategy": "B",
+              "chunk_ordinal": 2,
+              "unit_id": "viwiki-3646533-u01",
+              "char_start": 998,
+              "char_end": 1997,
+              "day6_chunk_id": "B:viwiki-3646533-u01:0002:3a804cbe9fc11538"
+            },
+            "score": 28.74365866372757,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-3646533-u01:0004:c38c04eb57865857",
+            "text": "Một số từ khóa trong Batch\n\nver: Trả về phiên bản MS-DOS đang sử dụng\n\ncd: Chuyển hướng thư mục đang làm việc\n\ncls: Xóa màn hình MS-DOS\n\ncopy: Sao chép file\n\ndel: Xóa file\n\ndir: Hiển thị nội dùng của một thư mục\n\necho: Hiển thị văn bản trên màn hình MS-DOS\n\nexit: Thoát chương trình\n\nmd: Tạo một thư mục mởi vị trí hiện tại đang làm việc\n\npause: Ngăn không cho chương trình thoát và đợi cho tới khi bất kì phím nào trên bàn phím đucợ nhấn\n\nGọi tên một chương trình Batch khác\n\nNếu bạn có nhiều chương trình batch trong 1 thư mục, thì bạn cũng có thể gọi cái chương trình ấy ra mà không làm cho chương trình của bạn bị thoát.\n\nSử dụng bằng lệnh \"call <tên chương trình> <các biến>\"\n\nNó còn có thể gọi được tất cả các lệnh của batch nữa. (call echo Hello World)",
+            "source_id": "viwiki-3646533",
+            "source": "data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-3646533-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "65334502",
+              "title": "Batch (ngôn ngữ lập trình)",
+              "canonical_url": "https://vi.wikipedia.org/wiki/Batch_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 3740,
+              "strategy": "B",
+              "chunk_ordinal": 4,
+              "unit_id": "viwiki-3646533-u01",
+              "char_start": 2981,
+              "char_end": 3740,
+              "day6_chunk_id": "B:viwiki-3646533-u01:0004:c38c04eb57865857"
+            },
+            "score": 24.448771142806685,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-974178-u01:0001:839052f56aefa8c4 | data/day6/corpus/974178-hello-world-chuong-trinh-may-tinh.txt | trang viwiki-974178-u01]\n\"Hello, World!\" là chương trình máy tính mà đầu ra là dòng chữ \"Hello, world!\" trên thiết bị hiển thị . Vì đây là chương trình đơn giản nhất ở mọi ngôn ngữ lập trình , cho nên nó thường được dùng trong việc mô phỏng cho người mới bắt đầu về cú pháp lập trình cơ bản trong ngôn ngữ lập trình, hay để xác định ngôn ngữ hoặc hệ thống nào đó hoạt động tốt.\n\nTrong các thiết bị không hiển thị thông điệp, một chương trình đơn giản là phát sinh tín hiệu, như bật đèn LED sáng để thay thế cho dòng chữ \"Hello world\" như là một chương trình chỉ dẫn.\n\nMục đích\n\n\"Hello, World!\" đã trở thành chương trình đầu tiên (tiền lệ) của nhiều người muốn học về lập trình . Tóm lại, chương trình đơn giản đến mức mà người học không cần phải có kiến thức & kinh nghiệm lập trình để có thể hiểu và làm, đặc biệt với sự giúp đỡ của giáo viên hoặc các phương pháp hướng dẫn cách viết.\n\n\n\n[B:viwiki-3646533-u01:0002:3a804cbe9fc11538 | data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt | trang viwiki-3646533-u01]\nVí dụ\n\nMuốn viết được chương trình Hello World, ta có thể sử dụng ví dụ đơn giản dưới đây:\n\nTrong đó:\n\n@: Làm cho câu lệnh không hiển thị ra màn hình (VD: \"C:\\> echo off\" sẽ được ẩn đi trong dòng lệnh này)\n\necho off: Chuyển chế độ sang ẩn câu lệnh (tức là dấu \"@\" sẽ được thêm vào trước các câu lệnh)\n\nLà câu lệnh xoá màn hình.\n\nLà câu lệnh dùng để hiển thị tên của cửa sổ Command Prompt. Trong trường hợp này, cửa sổ có tên là Hello World\n\nLà câu lệnh đổi màu chữ để tăng vẻ đẹp cho chương trình. Chữ thứ nhất chỉ định cho màu nền (0), chữ thứ hai chỉ định cho màu chữ (2). Chúng ta có thể thay thế số 2 bằng các màu khác:\n\n+ 0 là đen (màu ngầm định của nền)\n\n+ 1 là màu xanh dương\n\n+ 2 là màu xanh lá cây\n\n+ 3 là màu xanh mòng biển\n\n+ 4 là màu đỏ\n\n+ 5 là màu tím hồng\n\n+ 6 là màu vàng\n\n+ 7 là màu trắng (màu ngầm định của chữ)\n\n+ 8 là màu xám\n\n+ 9 là màu xanh dương sáng\n\n+ A là màu xanh lá cây sáng\n\n+ B là màu xanh mòng biển sáng\n\n+ C là màu đỏ sáng\n\n+ D là màu hồng sáng\n\n+ E là màu vàng sáng\n\n\n\n[B:viwiki-3646533-u01:0004:c38c04eb57865857 | data/day6/corpus/3646533-batch-ngon-ngu-lap-trinh.txt | trang viwiki-3646533-u01]\nMột số từ khóa trong Batch\n\nver: Trả về phiên bản MS-DOS đang sử dụng\n\ncd: Chuyển hướng thư mục đang làm việc\n\ncls: Xóa màn hình MS-DOS\n\ncopy: Sao chép file\n\ndel: Xóa file\n\ndir: Hiển thị nội dùng của một thư mục\n\necho: Hiển thị văn bản trên màn hình MS-DOS\n\nexit: Thoát chương trình\n\nmd: Tạo một thư mục mởi vị trí hiện tại đang làm việc\n\npause: Ngăn không cho chương trình thoát và đợi cho tới khi bất kì phím nào trên bàn phím đucợ nhấn\n\nGọi tên một chương trình Batch khác\n\nNếu bạn có nhiều chương trình batch trong 1 thư mục, thì bạn cũng có thể gọi cái chương trình ấy ra mà không làm cho chương trình của bạn bị thoát.\n\nSử dụng bằng lệnh \"call <tên chương trình> <các biến>\"\n\nNó còn có thể gọi được tất cả các lệnh của batch nữa. (call echo Hello World)",
+        "context_ids": [
+          "B:viwiki-974178-u01:0001:839052f56aefa8c4",
+          "B:viwiki-3646533-u01:0002:3a804cbe9fc11538",
+          "B:viwiki-3646533-u01:0004:c38c04eb57865857"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"Trong các thiết bị không hiển thị thông điệp, dòng chữ \\\"Hello world\\\" có thể được thay bằng tín hiệu phát sinh, chẳng hạn như **bật đèn LED sáng** — đây được coi là một chương trình chỉ dẫn đơn giản.\",\"citations\":[\"B:viwiki-974178-u01:0001:839052f56aefa8c4\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 2134,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 151,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 1.43,
+      "answer_generation": 5268.45,
+      "total": 5270.1
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B28",
+    "split": "test",
+    "answerable": false,
+    "config_id": "bm25_selected",
+    "status": "abstain",
+    "question": "AlphaFold 3 sử dụng learning rate chính xác bao nhiêu trong lần huấn luyện cuối?",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "AlphaFold 3 sử dụng learning rate chính xác bao nhiêu trong lần huấn luyện cuối?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-20018632-u01:0016:29e979ebf56b7e39",
+            "text": "Tại CASP14, AlphaFold 2 đứng đầu bảng xếp hạng, đưa ra dự đoán tốt nhất cho 88 trong tổng số 97 mục tiêu. Trên toàn bộ các mục tiêu, cấu trúc do AlphaFold 2 dự đoán đạt độ chính xác khung xương chính trung vị là 0,096 nm (đo bằng RMSD95 – độ lệch bình phương trung bình gốc của nguyên tử Carbon alpha, tính trên 95% số mắt xích amino acid có độ phủ tốt nhất), so với 2,8 Å của phương pháp tốt thứ hai. Điểm GDT trung vị đạt 92,4 trên thang 100, mức được xem là ngang bằng độ chính xác của các phương pháp thực nghiệm đối với phần lớn mục tiêu.\n\nBản cập nhật tháng 10 năm 2021, gọi là AlphaFold-Multimer, giúp mở rộng dữ liệu huấn luyện để bao gồm cả phức hợp nhiều protein, thay vì chỉ huấn luyện trên các chuỗi đơn lẻ trong tập dữ liệu của cuộc thi CASP14 gốc.\n\nNhược điểm\n\n",
+            "source_id": "viwiki-20018632",
+            "source": "data/day6/corpus/20018632-alphafold.txt",
+            "page": "viwiki-20018632-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75712623",
+              "title": "AlphaFold",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AlphaFold",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 42543,
+              "strategy": "B",
+              "chunk_ordinal": 16,
+              "unit_id": "viwiki-20018632-u01",
+              "char_start": 11030,
+              "char_end": 11805,
+              "day6_chunk_id": "B:viwiki-20018632-u01:0016:29e979ebf56b7e39"
+            },
+            "score": 17.960278162707397,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-19991504-u01:0006:8d9be199f998797e",
+            "text": "C4 áp dụng 384 kernel kích thước 3×3 với padding 1, giữ nguyên kích thước 13×13×384.\n\nC5 áp dụng 256 kernel kích thước 3×3 với padding 1, tạo ra 256 feature map kích thước 13×13, sau đó đi qua max-pooling với cửa sổ 3×3 và stride 2, thu nhỏ xuống còn 6×6×256. Ba lớp tích chập CONV3, CONV4, CONV5 được kết nối trực tiếp với nhau mà không qua bất kỳ lớp pooling hay chuẩn hóa nào.\n\nFC1 và FC2 là hai lớp fully connected, mỗi lớp có 4.096 neuron. Đầu vào của FC6 là vector phẳng 9.216 chiều từ đầu ra của CONV5. Cả hai lớp đều áp dụng dropout với xác suất bỏ 0,5 trong quá trình huấn luyện để tránh overfitting.\n\nFC3 (Softmax) là lớp đầu ra với 1.000 neuron tương ứng với 1.000 danh mục đối tượng của ImageNet, đi qua hàm softmax để cho ra phân phối xác suất.\n\nToàn bộ mạng sử dụng hàm kích hoạt ReLU không bão hòa thay vì tanh hay sigmoid thông thường, giúp tốc độ huấn luyện nhanh hơn đáng kể. Tổng số tham số của mạng vào khoảng 60 triệu, gấp khoảng 1.000 lần so với LeNet-5.\n\nẢnh hưởng\n\n",
+            "source_id": "viwiki-19991504",
+            "source": "data/day6/corpus/19991504-alexnet.txt",
+            "page": "viwiki-19991504-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75631927",
+              "title": "AlexNet",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AlexNet",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 9157,
+              "strategy": "B",
+              "chunk_ordinal": 6,
+              "unit_id": "viwiki-19991504-u01",
+              "char_start": 4258,
+              "char_end": 5247,
+              "day6_chunk_id": "B:viwiki-19991504-u01:0006:8d9be199f998797e"
+            },
+            "score": 16.588869982321278,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-20018632-u01:0024:de70eccbe5756eb1",
+            "text": "Một số nghiên cứu độc lập khác đặt câu hỏi về mức độ AlphaFold 3 thực sự \"hiểu\" hóa học tương tác protein-phối tử, hay chỉ đang ghi nhớ lại các trường hợp đã gặp trong dữ liệu huấn luyện. Độ chính xác của mô hình giảm rõ rệt khi thử nghiệm trên các phối tử có cấu trúc hóa học khác biệt nhiều so với dữ liệu huấn luyện, chứng minh khả năng tổng quát hóa của nó còn chưa đủ tốt. Một nghiên cứu khác phát hiện AlphaFold 3 không nhạy với các \"mồi nhử đối kháng\" ( adversarial decoy ), tức các phối tử giả được tạo ra bằng cách thay đổi tính chất hóa lý của vùng liên kết giữa các protein. Điều này cho thấy mô hình có thể đang dựa vào việc ghi nhớ dữ liệu huấn luyện thuần túy hơn là hiểu biết hóa học thực sự về tương tác phân tử.\n\n",
+            "source_id": "viwiki-20018632",
+            "source": "data/day6/corpus/20018632-alphafold.txt",
+            "page": "viwiki-20018632-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75712623",
+              "title": "AlphaFold",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AlphaFold",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 42543,
+              "strategy": "B",
+              "chunk_ordinal": 24,
+              "unit_id": "viwiki-20018632-u01",
+              "char_start": 16580,
+              "char_end": 17310,
+              "day6_chunk_id": "B:viwiki-20018632-u01:0024:de70eccbe5756eb1"
+            },
+            "score": 16.332182291700228,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-20018632-u01:0016:29e979ebf56b7e39 | data/day6/corpus/20018632-alphafold.txt | trang viwiki-20018632-u01]\nTại CASP14, AlphaFold 2 đứng đầu bảng xếp hạng, đưa ra dự đoán tốt nhất cho 88 trong tổng số 97 mục tiêu. Trên toàn bộ các mục tiêu, cấu trúc do AlphaFold 2 dự đoán đạt độ chính xác khung xương chính trung vị là 0,096 nm (đo bằng RMSD95 – độ lệch bình phương trung bình gốc của nguyên tử Carbon alpha, tính trên 95% số mắt xích amino acid có độ phủ tốt nhất), so với 2,8 Å của phương pháp tốt thứ hai. Điểm GDT trung vị đạt 92,4 trên thang 100, mức được xem là ngang bằng độ chính xác của các phương pháp thực nghiệm đối với phần lớn mục tiêu.\n\nBản cập nhật tháng 10 năm 2021, gọi là AlphaFold-Multimer, giúp mở rộng dữ liệu huấn luyện để bao gồm cả phức hợp nhiều protein, thay vì chỉ huấn luyện trên các chuỗi đơn lẻ trong tập dữ liệu của cuộc thi CASP14 gốc.\n\nNhược điểm\n\n\n\n[B:viwiki-19991504-u01:0006:8d9be199f998797e | data/day6/corpus/19991504-alexnet.txt | trang viwiki-19991504-u01]\nC4 áp dụng 384 kernel kích thước 3×3 với padding 1, giữ nguyên kích thước 13×13×384.\n\nC5 áp dụng 256 kernel kích thước 3×3 với padding 1, tạo ra 256 feature map kích thước 13×13, sau đó đi qua max-pooling với cửa sổ 3×3 và stride 2, thu nhỏ xuống còn 6×6×256. Ba lớp tích chập CONV3, CONV4, CONV5 được kết nối trực tiếp với nhau mà không qua bất kỳ lớp pooling hay chuẩn hóa nào.\n\nFC1 và FC2 là hai lớp fully connected, mỗi lớp có 4.096 neuron. Đầu vào của FC6 là vector phẳng 9.216 chiều từ đầu ra của CONV5. Cả hai lớp đều áp dụng dropout với xác suất bỏ 0,5 trong quá trình huấn luyện để tránh overfitting.\n\nFC3 (Softmax) là lớp đầu ra với 1.000 neuron tương ứng với 1.000 danh mục đối tượng của ImageNet, đi qua hàm softmax để cho ra phân phối xác suất.\n\nToàn bộ mạng sử dụng hàm kích hoạt ReLU không bão hòa thay vì tanh hay sigmoid thông thường, giúp tốc độ huấn luyện nhanh hơn đáng kể. Tổng số tham số của mạng vào khoảng 60 triệu, gấp khoảng 1.000 lần so với LeNet-5.\n\nẢnh hưởng\n\n\n\n[B:viwiki-20018632-u01:0024:de70eccbe5756eb1 | data/day6/corpus/20018632-alphafold.txt | trang viwiki-20018632-u01]\nMột số nghiên cứu độc lập khác đặt câu hỏi về mức độ AlphaFold 3 thực sự \"hiểu\" hóa học tương tác protein-phối tử, hay chỉ đang ghi nhớ lại các trường hợp đã gặp trong dữ liệu huấn luyện. Độ chính xác của mô hình giảm rõ rệt khi thử nghiệm trên các phối tử có cấu trúc hóa học khác biệt nhiều so với dữ liệu huấn luyện, chứng minh khả năng tổng quát hóa của nó còn chưa đủ tốt. Một nghiên cứu khác phát hiện AlphaFold 3 không nhạy với các \"mồi nhử đối kháng\" ( adversarial decoy ), tức các phối tử giả được tạo ra bằng cách thay đổi tính chất hóa lý của vùng liên kết giữa các protein. Điều này cho thấy mô hình có thể đang dựa vào việc ghi nhớ dữ liệu huấn luyện thuần túy hơn là hiểu biết hóa học thực sự về tương tác phân tử.\n\n",
+        "context_ids": [
+          "B:viwiki-20018632-u01:0016:29e979ebf56b7e39",
+          "B:viwiki-19991504-u01:0006:8d9be199f998797e",
+          "B:viwiki-20018632-u01:0024:de70eccbe5756eb1"
+        ]
+      },
+      {
+        "event": "abstain",
+        "raw_model_output": "{\"status\":\"abstain\",\"answer\":\"CONTEXТ không cung cấp learning rate chính xác của AlphaFold 3 trong lần huấn luyện cuối.\",\"citations\":[]}"
+      }
+    ],
+    "retrieval_metrics": null,
+    "usage": {
+      "input_tokens": 2033,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 62,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 2.52,
+      "answer_generation": 14546.08,
+      "total": 14548.81
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B29",
+    "split": "test",
+    "answerable": false,
+    "config_id": "bm25_selected",
+    "status": "abstain",
+    "question": "CIFAR-10 được thu thập bằng loại máy ảnh nào và khẩu độ ống kính bao nhiêu?",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "CIFAR-10 được thu thập bằng loại máy ảnh nào và khẩu độ ống kính bao nhiêu?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-19997266-u01:0001:35c2e63cdc962411",
+            "text": "Cơ sở dữ liệu CIFAR-10 và CIFAR-100 ( tiếng Anh viết tắt từ Canadian Institute For Advanced Research hay Viện Nghiên cứu Cao cấp Canada ) là hai cơ sở dữ liệu ảnh màu được sử dụng rộng rãi trong nghiên cứu học máy và thị giác máy tính , được tạo ra bởi Alex Krizhevsky , Vinod Nair và Geoffrey Hinton tại Đại học Toronto . Cả hai tập dữ liệu đều gồm 60.000 ảnh 32×32 pixel màu RGB , chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. CIFAR-10 phân loại ảnh thành 10 loại nhãn, trong khi CIFAR-100 phân loại thành 100 loại nhãn. Đây là hai trong những benchmark phổ biến nhất trong lịch sử học sâu , đặc biệt đối với bài toán phân loại ảnh.\n\nTệp dữ liệu\n\nCIFAR-10 và CIFAR-100 đều gồm 60.000 ảnh màu RGB kích thước 32×32 pixel, chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. Tập huấn luyện được chia thành năm lô ( batch ), mỗi lô 10.000 ảnh; tập kiểm thử gồm một batch duy nhất với đúng 1.000 ảnh được chọn ngẫu nhiên từ mỗi lớp.\n\n",
+            "source_id": "viwiki-19997266",
+            "source": "data/day6/corpus/19997266-cifar-10.txt",
+            "page": "viwiki-19997266-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75631948",
+              "title": "CIFAR-10",
+              "canonical_url": "https://vi.wikipedia.org/wiki/CIFAR-10",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 4304,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-19997266-u01",
+              "char_start": 0,
+              "char_end": 947,
+              "day6_chunk_id": "B:viwiki-19997266-u01:0001:35c2e63cdc962411"
+            },
+            "score": 22.442287316733413,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-19997266-u01:0003:0dbf36f2519bfcdb",
+            "text": "Vào cuối những năm 2000, nghiên cứu học máy đang cần các tập dữ liệu ảnh màu có độ phức tạp cao hơn MNIST vốn chỉ gồm ảnh đen trắng 28×28 pixel của chữ số viết tay. Nền tảng trực tiếp của CIFAR là tập dữ liệu 80 Million Tiny Images , được Torralba, Fergus và Freeman công bố năm 2008 trên tạp chí IEEE Transactions on Pattern Analysis and Machine Intelligence. Tập dữ liệu này gồm khoảng 79 triệu ảnh 32×32 pixel màu RGB được thu thập từ internet và phân loại lỏng lẻo theo các danh từ trong WordNet , nhưng không được gán nhãn thủ công một cách có kiểm soát.\n\n",
+            "source_id": "viwiki-19997266",
+            "source": "data/day6/corpus/19997266-cifar-10.txt",
+            "page": "viwiki-19997266-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75631948",
+              "title": "CIFAR-10",
+              "canonical_url": "https://vi.wikipedia.org/wiki/CIFAR-10",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 4304,
+              "strategy": "B",
+              "chunk_ordinal": 3,
+              "unit_id": "viwiki-19997266-u01",
+              "char_start": 1396,
+              "char_end": 1957,
+              "day6_chunk_id": "B:viwiki-19997266-u01:0003:0dbf36f2519bfcdb"
+            },
+            "score": 22.287367137719254,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-19997266-u01:0002:dfb45e0446fccc55",
+            "text": "CIFAR-10 gồm 10 nhãn với 6.000 ảnh mỗi nhãn: máy bay , ô tô , chim , mèo , nai , chó , ếch , ngựa , tàu thủy và xe tải . CIFAR-100 gồm 100 nhãn mịn ( fine label ) với 600 ảnh mỗi lớp, được nhóm lại thành 20 nhãn thô ( coarse label hay superclass ). Ví dụ, nhãn thô \" động vật có vú sống dưới nước \" bao gồm năm nhãn mịn là hải ly , cá heo , rái cá , hải cẩu và cá voi . Mỗi ảnh trong CIFAR-100 được gán đồng thời cả nhãn mịn lẫn nhãn thô.\n\nLịch sử\n\n",
+            "source_id": "viwiki-19997266",
+            "source": "data/day6/corpus/19997266-cifar-10.txt",
+            "page": "viwiki-19997266-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "75631948",
+              "title": "CIFAR-10",
+              "canonical_url": "https://vi.wikipedia.org/wiki/CIFAR-10",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 4304,
+              "strategy": "B",
+              "chunk_ordinal": 2,
+              "unit_id": "viwiki-19997266-u01",
+              "char_start": 947,
+              "char_end": 1396,
+              "day6_chunk_id": "B:viwiki-19997266-u01:0002:dfb45e0446fccc55"
+            },
+            "score": 19.780647432310975,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-19997266-u01:0001:35c2e63cdc962411 | data/day6/corpus/19997266-cifar-10.txt | trang viwiki-19997266-u01]\nCơ sở dữ liệu CIFAR-10 và CIFAR-100 ( tiếng Anh viết tắt từ Canadian Institute For Advanced Research hay Viện Nghiên cứu Cao cấp Canada ) là hai cơ sở dữ liệu ảnh màu được sử dụng rộng rãi trong nghiên cứu học máy và thị giác máy tính , được tạo ra bởi Alex Krizhevsky , Vinod Nair và Geoffrey Hinton tại Đại học Toronto . Cả hai tập dữ liệu đều gồm 60.000 ảnh 32×32 pixel màu RGB , chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. CIFAR-10 phân loại ảnh thành 10 loại nhãn, trong khi CIFAR-100 phân loại thành 100 loại nhãn. Đây là hai trong những benchmark phổ biến nhất trong lịch sử học sâu , đặc biệt đối với bài toán phân loại ảnh.\n\nTệp dữ liệu\n\nCIFAR-10 và CIFAR-100 đều gồm 60.000 ảnh màu RGB kích thước 32×32 pixel, chia thành 50.000 ảnh huấn luyện và 10.000 ảnh kiểm thử. Tập huấn luyện được chia thành năm lô ( batch ), mỗi lô 10.000 ảnh; tập kiểm thử gồm một batch duy nhất với đúng 1.000 ảnh được chọn ngẫu nhiên từ mỗi lớp.\n\n\n\n[B:viwiki-19997266-u01:0003:0dbf36f2519bfcdb | data/day6/corpus/19997266-cifar-10.txt | trang viwiki-19997266-u01]\nVào cuối những năm 2000, nghiên cứu học máy đang cần các tập dữ liệu ảnh màu có độ phức tạp cao hơn MNIST vốn chỉ gồm ảnh đen trắng 28×28 pixel của chữ số viết tay. Nền tảng trực tiếp của CIFAR là tập dữ liệu 80 Million Tiny Images , được Torralba, Fergus và Freeman công bố năm 2008 trên tạp chí IEEE Transactions on Pattern Analysis and Machine Intelligence. Tập dữ liệu này gồm khoảng 79 triệu ảnh 32×32 pixel màu RGB được thu thập từ internet và phân loại lỏng lẻo theo các danh từ trong WordNet , nhưng không được gán nhãn thủ công một cách có kiểm soát.\n\n\n\n[B:viwiki-19997266-u01:0002:dfb45e0446fccc55 | data/day6/corpus/19997266-cifar-10.txt | trang viwiki-19997266-u01]\nCIFAR-10 gồm 10 nhãn với 6.000 ảnh mỗi nhãn: máy bay , ô tô , chim , mèo , nai , chó , ếch , ngựa , tàu thủy và xe tải . CIFAR-100 gồm 100 nhãn mịn ( fine label ) với 600 ảnh mỗi lớp, được nhóm lại thành 20 nhãn thô ( coarse label hay superclass ). Ví dụ, nhãn thô \" động vật có vú sống dưới nước \" bao gồm năm nhãn mịn là hải ly , cá heo , rái cá , hải cẩu và cá voi . Mỗi ảnh trong CIFAR-100 được gán đồng thời cả nhãn mịn lẫn nhãn thô.\n\nLịch sử\n\n",
+        "context_ids": [
+          "B:viwiki-19997266-u01:0001:35c2e63cdc962411",
+          "B:viwiki-19997266-u01:0003:0dbf36f2519bfcdb",
+          "B:viwiki-19997266-u01:0002:dfb45e0446fccc55"
+        ]
+      },
+      {
+        "event": "abstain",
+        "raw_model_output": "{\"status\":\"abstain\",\"answer\":\"CONTEXT không cung cấp thông tin về loại máy ảnh hoặc khẩu độ ống kính dùng để thu thập CIFAR-10. Nguồn chỉ ghi rằng CIFAR-10 gồm 60.000 ảnh màu RGB 32×32 pixel, được tạo ra bởi Alex Krizhevsky, Vinod Nair và Geoffrey Hinton tại Đại học Toronto, với nền tảng trực tiếp là tập dữ liệu 80 Million Tiny Images thu thập từ internet.\",\"citations\":[\"B:viwiki-19997266-u01:0001:35c2e63cdc962411\",\"B:viwiki-19997266-u01:0003:0dbf36f2519bfcdb\"]}"
+      }
+    ],
+    "retrieval_metrics": null,
+    "usage": {
+      "input_tokens": 1705,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 184,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 2.46,
+      "answer_generation": 17005.08,
+      "total": 17007.7
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B30",
+    "split": "test",
+    "answerable": false,
+    "config_id": "bm25_selected",
+    "status": "abstain",
+    "question": "Phiên bản AutoIt tiếp theo dự kiến phát hành vào ngày cụ thể nào?",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "Phiên bản AutoIt tiếp theo dự kiến phát hành vào ngày cụ thể nào?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+            "text": "AutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.\n\nNgôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.\n\n",
+            "source_id": "viwiki-437651",
+            "source": "data/day6/corpus/437651-autoit.txt",
+            "page": "viwiki-437651-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "75571888",
+              "title": "AutoIt",
+              "canonical_url": "https://vi.wikipedia.org/wiki/AutoIt",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 3511,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-437651-u01",
+              "char_start": 0,
+              "char_end": 753,
+              "day6_chunk_id": "B:viwiki-437651-u01:0001:da8fa7bb50767243"
+            },
+            "score": 19.541535816061494,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-15438-u01:0020:f549d951bc9f421c",
+            "text": ".NET Core là một nền tảng phát triển đa mục đích, mã nguồn mở được duy trì bởi Microsoft và cộng đồng.NET trên GitHub. Đó là nền tảng chéo (hỗ trợ Windows, macOS và Linux) và có thể được sử dụng để xây dựng các ứng dụng thiết bị, đám mây và IoT.\n\n.NET 5.0\n\nBắt đầu từ.NET 5.0 là nền tảng mới nhất, nó hợp nhất giữa các phiên bản.NET.\n\nTập trung vào hiệu suất và đa nền tảng..NET kế thừa từ các ưu việt của các nền tảng trước đó (.NET Framwork,.NET core,.NET Standard, Mono, Xamarin) để quản lý tập trung 1 framework với một hệ thống API hợp nhất cho các nền tảng phát triển của.NET, giúp nâng cao hiệu suất và tăng tốc độ phát triển các tính năng mới,\n\nMicrosoft dự kiến ra mắt.NET với chu kỳ 1 năm, phiên bản tiếp theo là.NET 6.0 phát hành ngày 09/11/2021, đây là bản phát hành hỗ trợ dài hạn(LTS).\n\nVí dụ đơn giản Hello World\n\nDưới đây là một chương trình C# rất đơn giản, với ví dụ \" Hello World \" kinh điển:\n\nChương trình này sẽ in ra màn hình console kết quả như sau:\n\n",
+            "source_id": "viwiki-15438",
+            "source": "data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt",
+            "page": "viwiki-15438-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74454567",
+              "title": "C Sharp (ngôn ngữ lập trình)",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C_Sharp_(ng%C3%B4n_ng%E1%BB%AF_l%E1%BA%ADp_tr%C3%ACnh)",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 24357,
+              "strategy": "B",
+              "chunk_ordinal": 20,
+              "unit_id": "viwiki-15438-u01",
+              "char_start": 16834,
+              "char_end": 17808,
+              "day6_chunk_id": "B:viwiki-15438-u01:0020:f549d951bc9f421c"
+            },
+            "score": 19.502640248595238,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-274357-u01:0006:e0b02eaa8dfdd7e8",
+            "text": "Đến năm 1997 , một nhóm các nhà phát triển lấy tên EGCS, đã hợp nhất nhiều nhánh của trình dịch này thành một dự án duy nhất. Quá trình hợp nhất cơ bản được tiến hành ở giữa hai phiên bản 2.7 và 2.81. Các dự án được hợp nhất có cả g77 của Fortran , PGCC (tối ưu GCC), các cải thiện về C++ , và nhiều nhánh trên các kiến trúc và hệ điều hành khác nhau.\n\nQuá trình phát triển EGCS đã chứng tỏ sự vượt bậc đáng kể hơn so với sự phát triển của GCC, do đó FSF đã chính thức tạm dừng chương trình phát triển GCC 2.x của họ, phiên bản EGCS trở thành bản phân phối chính thức của GCC còn dự án EGCS được bổ nhiệm làm nhiệm vụ bảo trì và phát triển GCC từ tháng 4 năm 1999 . Ngoài ra, dự án quyết định chọn mô hình phát triển \"bazaar\" thay cho mô hình \"cathedral\". Với phiên bản GCC 2.95 được công bố vào tháng 7 năm 1999 , hai dự án một lần nữa đã hợp nhất.\n\nSử dụng\n\n",
+            "source_id": "viwiki-274357",
+            "source": "data/day6/corpus/274357-bo-trinh-dich-gnu.txt",
+            "page": "viwiki-274357-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "75263869",
+              "title": "Bộ trình dịch GNU",
+              "canonical_url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_tr%C3%ACnh_d%E1%BB%8Bch_GNU",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 10871,
+              "strategy": "B",
+              "chunk_ordinal": 6,
+              "unit_id": "viwiki-274357-u01",
+              "char_start": 3569,
+              "char_end": 4429,
+              "day6_chunk_id": "B:viwiki-274357-u01:0006:e0b02eaa8dfdd7e8"
+            },
+            "score": 18.28089438098127,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-437651-u01:0001:da8fa7bb50767243 | data/day6/corpus/437651-autoit.txt | trang viwiki-437651-u01]\nAutoIt / ɔː t oʊ ɪ t / là một ngôn ngữ lập trình được cung cấp miễn phí , Trong bản phát hành đầu tiên, nó chủ yếu nhằm tạo ra các tập lệnh tự động hóa (đôi khi còn được gọi là macros ) cho các chương trình Microsoft Windows nhưng kể từ đó đã phát triển để bao gồm các cải tiến trong cả thiết kế ngôn ngữ lập trình và chức năng tổng thể.\n\nNgôn ngữ kịch bản trong AutoIt 1 và 2 được thiết kế theo hướng câu lệnh và được thiết kế chủ yếu để mô phỏng tương tác của người dùng. Từ phiên bản 3 trở đi, cú pháp AutoIt tương tự như cú pháp được tìm thấy trong họ ngôn ngữ BASIC . Ở dạng này, AutoIt là ngôn ngữ lập trình thế hệ thứ ba có mục đích chung với mô hình dữ liệu cổ điển và kiểu dữ liệu biến thể có thể lưu trữ một số loại dữ liệu, bao gồm cả mảng.\n\n\n\n[B:viwiki-15438-u01:0020:f549d951bc9f421c | data/day6/corpus/15438-c-sharp-ngon-ngu-lap-trinh.txt | trang viwiki-15438-u01]\n.NET Core là một nền tảng phát triển đa mục đích, mã nguồn mở được duy trì bởi Microsoft và cộng đồng.NET trên GitHub. Đó là nền tảng chéo (hỗ trợ Windows, macOS và Linux) và có thể được sử dụng để xây dựng các ứng dụng thiết bị, đám mây và IoT.\n\n.NET 5.0\n\nBắt đầu từ.NET 5.0 là nền tảng mới nhất, nó hợp nhất giữa các phiên bản.NET.\n\nTập trung vào hiệu suất và đa nền tảng..NET kế thừa từ các ưu việt của các nền tảng trước đó (.NET Framwork,.NET core,.NET Standard, Mono, Xamarin) để quản lý tập trung 1 framework với một hệ thống API hợp nhất cho các nền tảng phát triển của.NET, giúp nâng cao hiệu suất và tăng tốc độ phát triển các tính năng mới,\n\nMicrosoft dự kiến ra mắt.NET với chu kỳ 1 năm, phiên bản tiếp theo là.NET 6.0 phát hành ngày 09/11/2021, đây là bản phát hành hỗ trợ dài hạn(LTS).\n\nVí dụ đơn giản Hello World\n\nDưới đây là một chương trình C# rất đơn giản, với ví dụ \" Hello World \" kinh điển:\n\nChương trình này sẽ in ra màn hình console kết quả như sau:\n\n\n\n[B:viwiki-274357-u01:0006:e0b02eaa8dfdd7e8 | data/day6/corpus/274357-bo-trinh-dich-gnu.txt | trang viwiki-274357-u01]\nĐến năm 1997 , một nhóm các nhà phát triển lấy tên EGCS, đã hợp nhất nhiều nhánh của trình dịch này thành một dự án duy nhất. Quá trình hợp nhất cơ bản được tiến hành ở giữa hai phiên bản 2.7 và 2.81. Các dự án được hợp nhất có cả g77 của Fortran , PGCC (tối ưu GCC), các cải thiện về C++ , và nhiều nhánh trên các kiến trúc và hệ điều hành khác nhau.\n\nQuá trình phát triển EGCS đã chứng tỏ sự vượt bậc đáng kể hơn so với sự phát triển của GCC, do đó FSF đã chính thức tạm dừng chương trình phát triển GCC 2.x của họ, phiên bản EGCS trở thành bản phân phối chính thức của GCC còn dự án EGCS được bổ nhiệm làm nhiệm vụ bảo trì và phát triển GCC từ tháng 4 năm 1999 . Ngoài ra, dự án quyết định chọn mô hình phát triển \"bazaar\" thay cho mô hình \"cathedral\". Với phiên bản GCC 2.95 được công bố vào tháng 7 năm 1999 , hai dự án một lần nữa đã hợp nhất.\n\nSử dụng\n\n",
+        "context_ids": [
+          "B:viwiki-437651-u01:0001:da8fa7bb50767243",
+          "B:viwiki-15438-u01:0020:f549d951bc9f421c",
+          "B:viwiki-274357-u01:0006:e0b02eaa8dfdd7e8"
+        ]
+      },
+      {
+        "event": "abstain",
+        "raw_model_output": "{\"status\":\"abstain\",\"answer\":\"CONTEXT không cung cấp thông tin về ngày phát hành dự kiến của phiên bản AutoIt tiếp theo.\",\"citations\":[]}"
+      }
+    ],
+    "retrieval_metrics": null,
+    "usage": {
+      "input_tokens": 2099,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 155,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 1.87,
+      "answer_generation": 6698.73,
+      "total": 6700.78
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  },
+  {
+    "query_id": "B25",
+    "split": "test",
+    "answerable": true,
+    "config_id": "bm25_selected",
+    "status": "answered",
+    "question": "Cấu trúc dữ liệu B-tree đặc biệt phù hợp với loại ứng dụng nào?",
+    "answer": "B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu. [B:viwiki-85746-u01:0001:684b9a26ea96c31f]",
+    "citations": [
+      "B:viwiki-85746-u01:0001:684b9a26ea96c31f"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "bm25",
+        "query": "Cấu trúc dữ liệu B-tree đặc biệt phù hợp với loại ứng dụng nào?",
+        "query_transformed": false,
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:viwiki-85746-u01:0001:684b9a26ea96c31f",
+            "text": "Trong khoa học máy tính , cấu trúc dữ liệu là một cách lưu dữ liệu trong máy tính sao cho nó có thể được sử dụng một cách hiệu quả.\n\nTrong thiết kế nhiều loại chương trình, việc chọn cấu trúc dữ liệu là vấn đề quan trọng. Kinh nghiệm trong việc xây dựng các hệ thống lớn cho thấy khó khăn của việc triển khai chương trình, chất lượng và hiệu năng của kết quả cuối cùng phụ thuộc rất nhiều vào việc chọn cấu trúc dữ liệu tốt nhất.\n\nMỗi loại cấu trúc dữ liệu phù hợp với một vài loại ứng dụng khác nhau, một số cấu trúc dữ liệu dành cho những công việc đặc biệt. Ví dụ, các B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu. Sau khi cấu trúc dữ liệu được chọn, người ta thường dễ nhận thấy thuật toán cần sử dụng. Đôi khi trình tự công việc diễn ra theo thứ tự ngược lại: cấu trúc dữ liệu được chọn do những bài toán quan trọng nhất định có thuật toán chạy tốt nhất với một số cấu trúc dữ liệu cụ thể. Trong cả hai trường hợp, việc lựa chọn cấu trúc dữ liệu là rất quan trọng.\n\nTổng quan\n\n",
+            "source_id": "viwiki-85746",
+            "source": "data/day6/corpus/85746-cau-truc-du-lieu.txt",
+            "page": "viwiki-85746-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "70961981",
+              "title": "Cấu trúc dữ liệu",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%E1%BA%A5u_tr%C3%BAc_d%E1%BB%AF_li%E1%BB%87u",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 4758,
+              "strategy": "B",
+              "chunk_ordinal": 1,
+              "unit_id": "viwiki-85746-u01",
+              "char_start": 0,
+              "char_end": 995,
+              "day6_chunk_id": "B:viwiki-85746-u01:0001:684b9a26ea96c31f"
+            },
+            "score": 39.37793623488359,
+            "rank": 1,
+            "strategy": "bm25",
+            "gold_hit": true
+          },
+          {
+            "id": "B:viwiki-819391-u01:0009:538ec3f58b86ee1b",
+            "text": "C++ cũng hỗ trợ việc sử dụng hàm khởi tạo (constructor) để khởi tạo một đối tượng của một lớp nào đó nhưng không tạo được sự thuận tiện như danh sách khởi tạo. C++03 chỉ hỗ trợ danh sách khởi tạo cho các cấu trúc (struct) và các lớp (class) phù họp với định nghĩa Dữ liệu cũ đơn giả (POD - Plain Old Data). C++11 mở rộng danh sách khởi tạo bằng cách cho phép chúng có thể được sử dụng với tất cả các lớp (class), kể cả các thùng chứa chuẩn (standard containers) của C++ như std::vector . Ví dụ:\n\nKhai báo trên cho phép chúng ta khởi tạo một đối tượng mới như sau:\n\nHàm khởi tạo đặc biệt này được gọi là hàm khởi tạo theo danh sách khởi tạo (initializer-list constructor). Các lớp có các hàm khởi tạo đặc biệt này sẽ được xử lý một cách đặc biệt trong quá trình khởi tạo đồng nhất(xem thêm dưới đây ).\n\nCác cải tiến về tính năng ngôn ngữ cốt lõi\n\nCác thay đổi của thư viện chuẩn C++\n\nTham khảo\n\n↑ \"We have an international standard: C++0x is unanimously approved\" . Truy cập ngày 12 tháng 8 năm 2011 .",
+            "source_id": "viwiki-819391",
+            "source": "data/day6/corpus/819391-c-11.txt",
+            "page": "viwiki-819391-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "ngon_ngu_lap_trinh",
+              "version": "74449619",
+              "title": "C++11",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%2B%2B11",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 6888,
+              "strategy": "B",
+              "chunk_ordinal": 9,
+              "unit_id": "viwiki-819391-u01",
+              "char_start": 5888,
+              "char_end": 6888,
+              "day6_chunk_id": "B:viwiki-819391-u01:0009:538ec3f58b86ee1b"
+            },
+            "score": 19.34728584500846,
+            "rank": 2,
+            "strategy": "bm25",
+            "gold_hit": false
+          },
+          {
+            "id": "B:viwiki-85746-u01:0003:fc968fef061358eb",
+            "text": "Tri thức đó đã dẫn đến sự nổi lên của nhiều ngôn ngữ lập trình và phương pháp thiết kế được hình thức hóa, mà trong đó, nhân tố tổ chức quan trọng là các cấu trúc dữ liệu chứ không phải các thuật toán. Đa số ngôn ngữ có một tính năng thuộc dạng hệ thống module cho phép các cấu trúc dữ liệu được tái sử dụng an toàn trong các ứng dụng khác nhau, bằng cách dùng các giao diện có điều khiển để che các chi tiết cài đặt đã được kiểm thử. Đặc biệt, các ngôn ngữ lập trình hướng đối tượng như C++ và Java sử dụng lớp (class) cho mục đích này.\n\nVì cấu trúc dữ liệu có tính chất quyết định đối với các chương trình chuyên nghiệp nên có rất nhiều hỗ trợ về cấu trúc dữ liệu trong các thư viện chuẩn của các ngôn ngữ lập trình hiện đại, ví dụ thư viện mẫu chuẩn của C++, Java API, và Microsoft .NET Framework .\n\n",
+            "source_id": "viwiki-85746",
+            "source": "data/day6/corpus/85746-cau-truc-du-lieu.txt",
+            "page": "viwiki-85746-u01",
+            "metadata": {
+              "location_type": "content_unit",
+              "collection": "khoa_hoc_may_tinh",
+              "version": "70961981",
+              "title": "Cấu trúc dữ liệu",
+              "canonical_url": "https://vi.wikipedia.org/wiki/C%E1%BA%A5u_tr%C3%BAc_d%E1%BB%AF_li%E1%BB%87u",
+              "sequence_in_source": 1,
+              "normalized_start": 0,
+              "normalized_end": 4758,
+              "strategy": "B",
+              "chunk_ordinal": 3,
+              "unit_id": "viwiki-85746-u01",
+              "char_start": 1488,
+              "char_end": 2291,
+              "day6_chunk_id": "B:viwiki-85746-u01:0003:fc968fef061358eb"
+            },
+            "score": 19.11958084248928,
+            "rank": 3,
+            "strategy": "bm25",
+            "gold_hit": false
+          }
+        ],
+        "context": "[B:viwiki-85746-u01:0001:684b9a26ea96c31f | data/day6/corpus/85746-cau-truc-du-lieu.txt | trang viwiki-85746-u01]\nTrong khoa học máy tính , cấu trúc dữ liệu là một cách lưu dữ liệu trong máy tính sao cho nó có thể được sử dụng một cách hiệu quả.\n\nTrong thiết kế nhiều loại chương trình, việc chọn cấu trúc dữ liệu là vấn đề quan trọng. Kinh nghiệm trong việc xây dựng các hệ thống lớn cho thấy khó khăn của việc triển khai chương trình, chất lượng và hiệu năng của kết quả cuối cùng phụ thuộc rất nhiều vào việc chọn cấu trúc dữ liệu tốt nhất.\n\nMỗi loại cấu trúc dữ liệu phù hợp với một vài loại ứng dụng khác nhau, một số cấu trúc dữ liệu dành cho những công việc đặc biệt. Ví dụ, các B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu. Sau khi cấu trúc dữ liệu được chọn, người ta thường dễ nhận thấy thuật toán cần sử dụng. Đôi khi trình tự công việc diễn ra theo thứ tự ngược lại: cấu trúc dữ liệu được chọn do những bài toán quan trọng nhất định có thuật toán chạy tốt nhất với một số cấu trúc dữ liệu cụ thể. Trong cả hai trường hợp, việc lựa chọn cấu trúc dữ liệu là rất quan trọng.\n\nTổng quan\n\n\n\n[B:viwiki-819391-u01:0009:538ec3f58b86ee1b | data/day6/corpus/819391-c-11.txt | trang viwiki-819391-u01]\nC++ cũng hỗ trợ việc sử dụng hàm khởi tạo (constructor) để khởi tạo một đối tượng của một lớp nào đó nhưng không tạo được sự thuận tiện như danh sách khởi tạo. C++03 chỉ hỗ trợ danh sách khởi tạo cho các cấu trúc (struct) và các lớp (class) phù họp với định nghĩa Dữ liệu cũ đơn giả (POD - Plain Old Data). C++11 mở rộng danh sách khởi tạo bằng cách cho phép chúng có thể được sử dụng với tất cả các lớp (class), kể cả các thùng chứa chuẩn (standard containers) của C++ như std::vector . Ví dụ:\n\nKhai báo trên cho phép chúng ta khởi tạo một đối tượng mới như sau:\n\nHàm khởi tạo đặc biệt này được gọi là hàm khởi tạo theo danh sách khởi tạo (initializer-list constructor). Các lớp có các hàm khởi tạo đặc biệt này sẽ được xử lý một cách đặc biệt trong quá trình khởi tạo đồng nhất(xem thêm dưới đây ).\n\nCác cải tiến về tính năng ngôn ngữ cốt lõi\n\nCác thay đổi của thư viện chuẩn C++\n\nTham khảo\n\n↑ \"We have an international standard: C++0x is unanimously approved\" . Truy cập ngày 12 tháng 8 năm 2011 .\n\n[B:viwiki-85746-u01:0003:fc968fef061358eb | data/day6/corpus/85746-cau-truc-du-lieu.txt | trang viwiki-85746-u01]\nTri thức đó đã dẫn đến sự nổi lên của nhiều ngôn ngữ lập trình và phương pháp thiết kế được hình thức hóa, mà trong đó, nhân tố tổ chức quan trọng là các cấu trúc dữ liệu chứ không phải các thuật toán. Đa số ngôn ngữ có một tính năng thuộc dạng hệ thống module cho phép các cấu trúc dữ liệu được tái sử dụng an toàn trong các ứng dụng khác nhau, bằng cách dùng các giao diện có điều khiển để che các chi tiết cài đặt đã được kiểm thử. Đặc biệt, các ngôn ngữ lập trình hướng đối tượng như C++ và Java sử dụng lớp (class) cho mục đích này.\n\nVì cấu trúc dữ liệu có tính chất quyết định đối với các chương trình chuyên nghiệp nên có rất nhiều hỗ trợ về cấu trúc dữ liệu trong các thư viện chuẩn của các ngôn ngữ lập trình hiện đại, ví dụ thư viện mẫu chuẩn của C++, Java API, và Microsoft .NET Framework .\n\n",
+        "context_ids": [
+          "B:viwiki-85746-u01:0001:684b9a26ea96c31f",
+          "B:viwiki-819391-u01:0009:538ec3f58b86ee1b",
+          "B:viwiki-85746-u01:0003:fc968fef061358eb"
+        ]
+      },
+      {
+        "event": "answered",
+        "raw_model_output": "{\"status\":\"answered\",\"answer\":\"B-tree đặc biệt phù hợp trong việc thiết kế cơ sở dữ liệu.\",\"citations\":[\"B:viwiki-85746-u01:0001:684b9a26ea96c31f\"]}"
+      }
+    ],
+    "retrieval_metrics": {
+      "hit1": true,
+      "evidence_hit3": true,
+      "context_evidence": true
+    },
+    "usage": {
+      "input_tokens": 2234,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 72,
+      "service_tier": "standard"
+    },
+    "timing_ms": {
+      "retrieval": 2.3,
+      "answer_generation": 19698.85,
+      "total": 19701.88
+    },
+    "model": "nghi/claude-sonnet-5.5",
+    "provider": "anthropic_compatible_gateway",
+    "service_cost_usd": null,
+    "cost_note": "Gateway returned tokens but no USD price; no cost was fabricated."
+  }
+]

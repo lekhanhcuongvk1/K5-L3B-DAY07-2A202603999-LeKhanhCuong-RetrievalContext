@@ -1,0 +1,189 @@
+Bộ tự mã hóa ( tiếng Anh : Autoencoder ) là một loại mạng neuron nhân tạo được dùng để học biểu diễn của dữ liệu không có nhãn thông qua phương pháp học tự giám sát . Bộ tự mã hóa học hai hàm số: một hàm mã hóa biến đổi dữ liệu đầu vào, và một hàm giải mã tái tạo lại dữ liệu đầu vào từ biểu diễn đã mã hóa. Thông thường, mục tiêu là học một biểu diễn rút gọn (mã hóa) cho tập dữ liệu, phục vụ giảm chiều dữ liệu để tạo ra các embedding ít chiều hơn cho các thuật toán học máy khác sử dụng.
+
+Có nhiều biến thể của bộ tự mã hóa nhằm tạo ra các biểu diễn có ích. Chẳng hạn, các bộ tự mã hóa chính quy hóa ( thưa , khử nhiễu và co rút ) có hiệu quả cao trong việc học biểu diễn phục vụ các tác vụ phân loại , trong khi bộ tự mã hóa biến phân có thể được dùng như một mô hình tạo sinh . Bộ tự mã hóa được ứng dụng trong nhiều bài toán, bao gồm nhận dạng khuôn mặt , phát hiện đặc trưng , phát hiện bất thường , và học nghĩa của từ . Ngoài ra, bộ tự mã hóa còn có thể được dùng để sinh ngẫu nhiên dữ liệu mới có phân phối tương tự dữ liệu huấn luyện.
+
+Lịch sử
+
+Nền tảng lý thuyết của bộ tự mã hóa xuất hiện từ đầu thập niên 1980, khi Oja (1982) chỉ ra rằng phân tích thành phần chính (PCA) tương đương với một mạng neuron một lớp ẩn với hàm kích hoạt tuyến tính. Baldi và Hornik (1989) cùng Kramer (1991) sau đó tổng quát hóa PCA sang mạng neuron phi tuyến, gọi là "PCA phi tuyến".
+
+Ngay sau làn sóng hồi sinh của mạng neuron nhân tạo vào thập niên 1980, ý tưởng đặt mạng vào "chế độ tự liên kết" được đề xuất năm 1986 và sớm được hiện thực hóa trong các ứng dụng nhận dạng giọng nói và ảnh. Trong giai đoạn này, kiến trúc còn được gọi bằng nhiều tên khác nhau như identity mapping , Diabolo network , hay self-supervised backpropagation , phản ánh sự chưa thống nhất về thuật ngữ.
+
+Bước ngoặt quan trọng đến vào năm 2006 khi Hinton và Salakhutdinov công bố kỹ thuật huấn luyện bộ tự mã hóa nhiều lớp bằng mạng Boltzmann hạn chế , mở đường cho học sâu hiện đại. Từ đó, bộ tự mã hóa trở thành thành phần cốt lõi trong nhiều hệ thống AI lớn của thập niên 2010, nổi bật là bộ mã hóa tự động biến phân (VAE) trong Stable Diffusion và VAE rời rạc trong DALL-E 1 .
+
+Về mặt phân loại, bộ tự mã hóa ban đầu được xếp vào học không giám sát vì không cần nhãn do con người gán. Tuy nhiên, quá trình huấn luyện thực chất vẫn dùng chính dữ liệu đầu vào làm nhãn mục tiêu nên về sau bộ tự mã hóa được xếp lại vào học tự giám sát , chính xác hơn với cơ chế hoạt động của nó.
+
+Kiến trúc
+
+Bộ mã hóa và bộ giải mã
+
+Về mặt hình thức, một bộ tự mã hóa được xác định bởi hai thành phần: bộ mã hóa (encoder) E ϕ : 𝒳 → 𝒵 ánh xạ dữ liệu đầu vào từ không gian thông điệp 𝒳 sang không gian mã 𝒵 , và bộ giải mã (decoder) D θ : 𝒵 → 𝒳 thực hiện chiều ngược lại. Với mỗi đầu vào x ∈ 𝒳 , giá trị z = E ϕ ( x ) được gọi là mã, hay biến tiềm ẩn (latent variable). Cả hai thành phần thường được xây dựng dưới dạng perceptron đa lớp .
+
+Hàm mất mát
+
+Mục tiêu huấn luyện là tối thiểu hóa sai số tái tạo, tức là đầu ra của bộ giải mã phải càng gần với đầu vào ban đầu càng tốt. Trong trường hợp phổ biến nhất, hàm mất mát là tổng bình phương sai số trên tập dữ liệu { x 1 , … , x N } : min θ , ϕ 1 N ∑ i = 1 N ‖ x i − D θ ( E ϕ ( x i ) ) ‖ 2 2 Quá trình tối ưu hóa này thường được thực hiện bằng suy giảm độ dốc .
+
+Bộ tự mã hóa thiếu chiều và thừa chiều
+
+Để bộ tự mã hóa không học cách chỉ sao chép nguyên xi đầu vào, không gian mã 𝒵 thường có số chiều nhỏ hơn không gian đầu vào 𝒳 . Kiến trúc như vậy gọi là thiếu chiều ( undercomplete ) và buộc mạng phải nén dữ liệu, tức học các đặc trưng quan trọng nhất. Ngược lại, nếu không gian mã có số chiều lớn hơn hoặc bằng đầu vào, bộ tự mã hóa được gọi là thừa chiều ( overcomplete ) và có thể suy biến thành hàm đồng nhất – tức chỉ sao chép đầu vào mà không học được gì có ích. Tuy nhiên, thực nghiệm cho thấy bộ tự mã hóa thừa chiều vẫn có thể học được các đặc trưng có giá trị nếu áp thêm các ràng buộc chính quy hóa phù hợp.
+
+Kiến trúc sâu
+
+Bộ tự mã hóa có thể được xây dựng với encoder và decoder nhiều lớp thay vì một lớp duy nhất. Kiến trúc sâu mang lại một số lợi thế: chi phí tính toán để biểu diễn một số hàm số giảm theo hàm mũ theo chiều sâu, lượng dữ liệu huấn luyện cần thiết cũng giảm tương tự, và thực nghiệm cho thấy bộ tự mã hóa sâu cho kết quả nén tốt hơn đáng kể so với phiên bản nông hoặc tuyến tính. Hinton phát triển kỹ thuật huấn luyện bộ tự mã hóa sâu bằng cách coi từng cặp lớp liền kề là một mạng Boltzmann giới hạn , dùng tiền huấn luyện để khởi tạo nghiệm tốt, sau đó tinh chỉnh toàn bộ mạng bằng lan truyền ngược.
+
+Biến thể
+
+Bộ tự mã hóa biến phân (VAE)
+
+Bộ mã hóa tự động biến phân ( Variational autoencoder , VAE) thuộc họ phương pháp Bayes biến phân . Dù có cấu trúc tương tự bộ tự mã hóa thông thường, VAE được thiết kế với mục tiêu khác và có công thức toán học khác biệt: thay vì ánh xạ đầu vào thành một vector cố định trong không gian tiềm ẩn, bộ mã hóa của VAE ánh xạ đầu vào thành một phân phối xác suất dựa trên phân phối chuẩn , và bộ giải mã lấy mẫu từ phân phối đó để tái tạo đầu vào. Nhờ vậy, VAE có thể được dùng như một mô hình tạo sinh để tạo ra dữ liệu mới, dù thường ảnh sẽ có độ phân giải thấp hơn ban đầu vì phần giải mã không thể khôi phục hoàn toàn kích cỡ ban đầu của ảnh. Do đó, VAE không được ưa chuộng trong các mô hình tạo sinh hiện đại so với mạng đối nghịch tạo sinh hay mô hình khuếch tán .
+
+Bộ tự mã hóa thưa (SAE)
+
+Bộ tự mã hóa thưa ( Sparse autoencoder , SAE) được lấy cảm hứng từ giả thuyết mã hóa thưa trong khoa học thần kinh, theo đó não bộ biểu diễn thông tin bằng cách chỉ kích hoạt một số ít neuron tại một thời điểm. Tương tự, SAE được huấn luyện sao cho phần lớn các đơn vị trong không gian tiềm ẩn gần bằng 0 với mọi đầu vào – tức biểu diễn thưa. Khuyến khích đặc tính thưa này giúp cải thiện hiệu suất trên các tác vụ phân loại.
+
+Có hai cách chính để áp đặt tính thưa. Cách thứ nhất là bộ tự mã hóa k-thưa : giữ lại k kích hoạt lớn nhất trong lớp tiềm ẩn và đặt phần còn lại về 0. Cách thứ hai là thêm một hàm mất mát chính quy hóa thưa L sparse vào hàm mất mát tái tạo: min θ , ϕ L ( θ , ϕ ) + λ L sparse ( θ , ϕ ) trong đó λ > 0 kiểm soát mức độ thưa mong muốn. Hàm đo độ khác biệt giữa độ thưa thực tế và mục tiêu thường là phân kỳ Kullback–Leibler , chuẩn L1 (tổng giá trị tuyệt đối của khoảng cách), hoặc chuẩn L2 (tổng bình phương khoảng cách).
+
+Bộ tự mã hóa khử nhiễu (DAE)
+
+Bộ tự mã hóa khử nhiễu ( Denoising autoencoder , DAE) học biểu diễn tốt bằng cách thay đổi tiêu chí tái tạo: thay vì tái tạo chính xác đầu vào, mạng được huấn luyện để phục hồi đầu vào gốc từ phiên bản đã bị làm nhiễu có chủ ý. Quá trình nhiễu hóa chỉ được áp dụng trong quá trình huấn luyện, không dùng ở giai đoạn triển khai. Các dạng nhiễu phổ biến bao gồm nhiễu Gaussian có hướng, nhiễu che (masking noise – đặt ngẫu nhiên một phần đầu vào về 0), và nhiễu muối tiêu (salt-and-pepper noise – đặt ngẫu nhiên một phần đầu vào về giá trị cực tiểu hoặc cực đại).
+
+Bộ tự mã hóa co rút (CAE)
+
+Bộ tự mã hóa co rút ( Contractive autoencoder , CAE) thêm một hàm mất mát chính quy hóa co rút vào hàm mất mát tái tạo: min θ , ϕ L ( θ , ϕ ) + λ L cont ( θ , ϕ ) trong đó hàm mất mát co rút được định nghĩa là kỳ vọng của bình phương chuẩn Frobenius của ma trận Jacobi của bộ mã hóa theo đầu vào: L cont ( θ , ϕ ) = 𝔼 x ∼ μ ref ‖ ∇ x E ϕ ( x ) ‖ F 2 Ý nghĩa của số hạng này là: nếu ‖ ∇ x E ϕ ( x ) ‖ F 2 nhỏ, thì một lân cận nhỏ của đầu vào sẽ được ánh xạ vào một điểm lân cận của mã – tức là biểu diễn có thể học ổn định trước các nhiễu nhỏ của đầu vào. DAE có thể được xem là giới hạn vô cùng nhỏ của CAE: khi nhiễu Gaussian đầu vào tiến về 0, hai phương pháp hội tụ về cùng một hành vi.
+
+Bộ tự mã hóa độ dài mô tả tối thiểu (MDL-AE)
+
+Bộ tự mã hóa độ dài mô tả tối thiểu ( Minimum description length autoencoder , MDL-AE) áp dụng nguyên lý độ dài mô tả tối thiểu (MDL) từ lý thuyết thông tin: mô hình tốt nhất cho một tập dữ liệu là mô hình cho phép mã hóa ngắn nhất cả mô hình lẫn dữ liệu. MDL-AE bên cạnh việc học cách mã hóa dữ liệu còn tối thiểu hóa tổng độ dài mô tả bao gồm độ dài của biểu diễn tiềm ẩn L code và sai số tái tạo L error .
+
+Bộ tự mã hóa concrete (Concrete AE)
+
+Bộ tự mã hóa concrete được thiết kế cho bài toán chọn đặc trưng rời rạc: thay vì học một biểu diễn tổng quát, mạng buộc không gian tiềm ẩn chỉ gồm một số lượng đặc trưng đầu vào do người dùng chỉ định. Để cho phép lan truyền ngược qua bước chọn đặc trưng vốn rời rạc và không khả vi , mạng dùng một xấp xỉ liên tục của phân phối phân loại (còn gọi là phân phối Gumbel-softmax).
+
+Ứng dụng
+
+Hai ứng dụng chính của bộ tự mã hóa là giảm chiều dữ liệu và truy hồi thông tin , nhưng các biến thể hiện đại đã được áp dụng cho nhiều bài toán khác.
+
+Giảm chiều dữ liệu
+
+Giảm chiều dữ liệu là một trong những ứng dụng đầu tiên của học sâu . Trong nghiên cứu năm 2006, Hinton tiền huấn luyện một bộ tự mã hóa nhiều lớp bằng ngăn xếp các mạng Boltzmann giới hạn, thu hẹp dần số lượng neuron ẩn cho đến khi chỉ còn 30 chiều. Biểu diễn 30 chiều thu được có sai số tái tạo nhỏ hơn 30 thành phần chính đầu tiên của PCA, đồng thời dễ diễn giải hơn và phân tách rõ ràng hơn các cụm dữ liệu.
+
+Khi dùng hàm kích hoạt tuyến tính hoặc chỉ một lớp ẩn sigmoid, bộ tự mã hóa có quan hệ chặt chẽ với phân tích thành phần chính (PCA): trọng số của bộ tự mã hóa một lớp ẩn kích thước p trải dài cùng không gian con với p thành phần chính đầu tiên, và đầu ra là một phép chiếu trực giao lên không gian con đó. Tuy nhiên, tiềm năng thực sự của bộ tự mã hóa nằm ở tính phi tuyến , cho phép học các tổng quát hóa mạnh hơn PCA và tái tạo đầu vào với mất mát thông tin thấp hơn đáng kể.
+
+Truy hồi thông tin
+
+Truy hồi thông tin được hưởng lợi từ giảm chiều vì tìm kiếm trong không gian thấp chiều có thể hiệu quả hơn nhiều. Salakhutdinov và Hinton (2007) đề xuất ứng dụng bộ tự mã hóa vào băm ngữ nghĩa ( semantic hashing ): huấn luyện mạng tạo ra mã nhị phân thấp chiều cho mỗi mục trong cơ sở dữ liệu, lưu tất cả vào một bảng băm ánh xạ từ mã nhị phân sang mục tương ứng. Khi truy vấn, hệ thống trả về các mục có cùng mã nhị phân, hoặc các mục tương tự gần đó bằng cách lật một số bit.
+
+Phát hiện bất thường
+
+Trong phát hiện bất thường , bộ tự mã hóa được huấn luyện chỉ trên dữ liệu bình thường. Sau huấn luyện, mạng thần kinh của bộ mã hóa tự động thường sẽ tái tạo tốt dữ liệu bình thường nhưng lại khó có thể tái tạo được dữ liệu bất thường chưa từng gặp – qua đó sai số tái tạo lớn được dùng làm điểm đánh giá sự bất thường. Thực tế, một ngưỡng t được xác định từ phân phối sai số tái tạo trên tập kiểm định (ví dụ phân vị percentile thứ 95) và mô hình sẽ gắn nhãn bất thường cho điểm dữ liệu nếu sai số vượt qua ngưỡng đó. Tuy nhiên, một số nghiên cứu gần đây chỉ ra rằng một số mô hình tự mã hóa vẫn có thể tái tạo tốt cả dữ liệu bất thường, làm giảm độ tin cậy của phương pháp này.
+
+Xử lý ảnh
+
+Bộ tự mã hóa có nhiều ứng dụng trong xử lý ảnh. Trong nén ảnh có tổn hao , bộ tự mã hóa cho kết quả ngang ngửa với với phương pháp nén JPEG 2000 . Trong khử nhiễu ảnh, bộ tự mã hóa khử nhiễu được áp dụng rộng rãi trong bối cảnh y tế. Trong chẩn đoán hỗ trợ hình ảnh, bộ tự mã hóa đã được thử nghiệm cho phát hiện ung thư vú và mô hình hóa mối liên hệ giữa suy giảm nhận thức trong bệnh Alzheimer và các đặc trưng học từ ảnh MRI .
+
+Khám phá thuốc
+
+Năm 2019, các phân tử được sinh ra bằng VAE đã được kiểm chứng thực nghiệm trên chuột, mở ra hướng ứng dụng của bộ tự mã hóa trong thiết kế thuốc.
+
+Dự đoán độ phổ biến trên mạng xã hội
+
+Một khung bộ tự mã hóa xếp chồng đã cho kết quả khá tốt trong việc dự đoán độ phổ biến của các bài đăng trên mạng xã hội, có ứng dụng thực tiễn trong chiến lược quảng cáo trực tuyến.
+
+Dịch máy
+
+Bộ tự mã hóa đã được áp dụng trong dịch máy bằng neuron (NMT): bộ mã hóa xử lý chuỗi văn bản đầu vào, còn bộ giải mã sinh ra chuỗi tương ứng trong ngôn ngữ đích. Điều này khác với bộ tự mã hóa thông thường ở chỗ đầu ra không phải là tái tạo đầu vào mà là bản dịch. Mặc dù vậy, nhìn chung phương pháp này không phổ biến bằng các mạng thần kinh hồi quy , và hiện nay cả hai đều đã được thay thế bởi các mạng Transformer hiệu quả hơn cho tác vụ này.
+
+Hệ thống truyền thông
+
+Trong lĩnh vực truyền thông, bộ tự mã hóa giúp mã hóa dữ liệu thành biểu diễn bền vững hơn trước các suy giảm kênh truyền, từ đó tối thiểu hóa lỗi truyền dẫn. Khác với cách tiếp cận truyền thống thiết kế riêng từng module (mã hóa nguồn, mã hóa kênh, điều chế...), hệ thống dựa trên bộ tự mã hóa tối ưu hóa toàn bộ chuỗi truyền thông từ đầu đến cuối.
+
+Tham khảo
+
+↑ Bank, Dor; Koenigstein, Noam; Giryes, Raja (2023). "Autoencoders". Trong Rokach, Lior; Maimon, Oded; Shmueli, Erez (biên tập). Machine Learning for Data Science Handbook . tr. 353–374. doi : 10.1007/978-3-031-24628-9_16 . ISBN 978-3-031-24627-2 .
+
+↑ Goodfellow, Ian; Bengio, Yoshua; Courville, Aaron (2016). Deep learning . Adaptive computation and machine learning. Cambridge, Massachusetts: The MIT Press. ISBN 978-0-262-03561-3 .
+
+↑ Vincent, Pascal; Larochelle, Hugo; Lajoie, Isabelle; Bengio, Yoshua; Manzagol, Pierre-Antoine (ngày 1 tháng 12 năm 2010). "Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion" . J. Mach. Learn. Res . 11 : 3371– 3408. ISSN 1532-4435 .
+
+↑ Kingma, Diederik P.; Welling, Max (ngày 28 tháng 11 năm 2019). "An Introduction to Variational Autoencoders" . Foundations and Trends® in Machine Learning (bằng tiếng Anh). 12 (4): 307– 392. doi : 10.1561/2200000056 . ISSN 1935-8237 .
+
+↑ Liou, Cheng-Yuan; Huang, Jau-Chi; Yang, Wen-Chie (ngày 1 tháng 10 năm 2008). "Modeling word perception using the Elman network" . Neurocomputing . 71 (16): 3150– 3157. doi : 10.1016/j.neucom.2008.04.030 . ISSN 0925-2312 .
+
+↑ Géron, Aurélien (2019). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow: concepts, tools, and techniques to build intelligent systems (ấn bản thứ 2). Beijing Boston Farnham Sebastopol Tokyo: O'Reilly. tr. 139 -140. ISBN 978-1-4920-3264-9 .
+
+↑ Oja, Erkki (1982). "Simplified neuron model as a principal component analyzer" . Journal of Mathematical Biology . 15 (3): 267– 273. doi : 10.1007/BF00275687 . PMID 7153672 .
+
+↑ Baldi, Pierre; Hornik, Kurt (1989). "Neural networks and principal component analysis: Learning from examples without local minima" . Neural Networks . 2 (1): 53– 58. doi : 10.1016/0893-6080(89)90014-2 .
+
+↑ Kramer, Mark A. (1991). "Nonlinear principal component analysis using autoassociative neural networks" . AIChE Journal . 37 (2): 233– 243. doi : 10.1002/aic.690370209 .
+
+↑ Rumelhart, David E.; McClelland, James L. (1986). Parallel Distributed Processing: Explorations in the Microstructure of Cognition . MIT Press. doi : 10.7551/mitpress/5236.001.0001 . ISBN 978-0-262-29140-8 .
+
+↑ Schmidhuber, Jürgen (2015). "Deep learning in neural networks: An overview". Neural Networks . 61 : 85– 117. arXiv : 1404.7828 . doi : 10.1016/j.neunet.2014.09.003 . PMID 25462637 .
+
+1 2 Hinton, G. E.; Salakhutdinov, R. R. (2006). "Reducing the Dimensionality of Data with Neural Networks" . Science . 313 (5786): 504– 507. doi : 10.1126/science.1127647 . PMID 16873662 .
+
+↑ Rombach, Robin; Blattmann, Andreas; Lorenz, Dominik; Esser, Patrick; Ommer, Bjorn (tháng 6 năm 2022). "High-Resolution Image Synthesis with Latent Diffusion Models" . Computer Vision and Pattern Recognition (CVPR) . IEEE: 10674– 10685. doi : 10.1109/CVPR52688.2022.01042 . ISBN 978-1-6654-6946-3 .
+
+↑ Ramesh, Aditya; Pavlov, Mikhail; Goh, Gabriel; Gray, Scott; Voss, Chelsea; Radford, Alec; Chen, Mark; Sutskever, Ilya (ngày 1 tháng 7 năm 2021). "Zero-Shot Text-to-Image Generation" . Proceedings of the 38th International Conference on Machine Learning (bằng tiếng Anh). PMLR: 8821– 8831.
+
+↑ Bommasani, Rishi; và đồng nghiệp (2021). "On the Opportunities and Risks of Foundation Models" . arXiv . arXiv : 2108.07258 .
+
+↑ Gui, Jie; Chen, Tuo; Zhang, Jing; Cao, Qiong; Sun, Zhenan; Luo, Hao; Tao, Dacheng (tháng 12 năm 2024). "A Survey on Self-Supervised Learning: Algorithms, Applications, and Future Trends" . IEEE Transactions on Pattern Analysis and Machine Intelligence . 46 (12): 9052– 9071. doi : 10.1109/TPAMI.2024.3415112 . ISSN 1939-3539 .
+
+↑ Goodfellow, Ian; Bengio, Yoshua; Courville, Aaron (2016). Deep Learning . MIT Press. ISBN 978-0-262-03561-3 .
+
+↑ Goodfellow, Ian; Bengio, Yoshua; Courville, Aaron (2016). Deep Learning . MIT Press. ISBN 978-0-262-03561-3 .
+
+↑ Kramer, Mark A. (1991). "Nonlinear principal component analysis using autoassociative neural networks" . AIChE Journal . 37 (2): 233– 243. doi : 10.1002/aic.690370209 .
+
+↑ Bengio, Y. (2009). "Learning Deep Architectures for AI" (PDF) . Foundations and Trends in Machine Learning . 2 (8): 1– 127. doi : 10.1561/2200000006 . PMID 23946944 .
+
+↑ Hinton, G. E.; Salakhutdinov, R. R. (2006). "Reducing the Dimensionality of Data with Neural Networks" . Science . 313 (5786): 504– 507. doi : 10.1126/science.1127647 . PMID 16873662 .
+
+↑ Hinton, G. E.; Salakhutdinov, R. R. (2006). "Reducing the Dimensionality of Data with Neural Networks" . Science . 313 (5786): 504– 507. doi : 10.1126/science.1127647 . PMID 16873662 .
+
+↑ Kingma, Diederik P.; Welling, Max (2019). "An Introduction to Variational Autoencoders" . Foundations and Trends in Machine Learning . 12 (4): 307– 392. arXiv : 1906.02691 . doi : 10.1561/2200000056 .
+
+↑ Makhzani, Alireza; Frey, Brendan (2013). "K-Sparse Autoencoders" . International Conference on Learning Representations (ICLR) . arXiv : 1312.5663 .
+
+↑ Ng, Andrew (2011). "Sparse autoencoder" (PDF) . Stanford University.
+
+↑ Bourlard, Hervé; Kabil, Selen Hande (ngày 1 tháng 8 năm 2022). "Autoencoders reloaded" . Biological Cybernetics (bằng tiếng Anh). 116 (4): 389– 406. doi : 10.1007/s00422-022-00937-6 . ISSN 1432-0770 .
+
+1 2 Vincent, Pascal; Larochelle, Hugo; Lajoie, Isabelle; Bengio, Yoshua; Manzagol, Pierre-Antoine (2010). "Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion" . Journal of Machine Learning Research . 11 : 3371–3408.
+
+↑ Rifai, Salah; Vincent, Pascal; Muller, Xavier; Glorot, Xavier; Bengio, Yoshua (2011). "Contractive Auto-Encoders: Explicit Invariance During Feature Extraction" (PDF) . Proceedings of the 28th International Conference on Machine Learning (ICML) : 833–840.
+
+↑ Hinton, Geoffrey E.; Zemel, Richard (1993). "Autoencoders, Minimum Description Length and Helmholtz Free Energy" . Advances in Neural Information Processing Systems . 6 .
+
+↑ Balın, Muhammed Fatih; Abid, Abubakar; Zou, James (ngày 24 tháng 5 năm 2019). "Concrete Autoencoders: Differentiable Feature Selection and Reconstruction" . Proceedings of the 36th International Conference on Machine Learning (bằng tiếng Anh). PMLR: 444– 453.
+
+↑ Goodfellow, Ian; Bengio, Yoshua; Courville, Aaron (2016). Deep Learning . MIT Press. ISBN 978-0-262-03561-3 .
+
+↑ Hinton, G. E.; Salakhutdinov, R. R. (2006). "Reducing the Dimensionality of Data with Neural Networks" . Science . 313 (5786): 504– 507. doi : 10.1126/science.1127647 . PMID 16873662 .
+
+↑ Bourlard, H.; Kamp, Y. (1988). "Auto-association by multilayer perceptrons and singular value decomposition" . Biological Cybernetics . 59 ( 4– 5): 291– 294. doi : 10.1007/BF00332918 . PMID 3196773 .
+
+↑ Salakhutdinov, Ruslan; Hinton, Geoffrey (2009). "Semantic hashing". International Journal of Approximate Reasoning . 50 (7): 969– 978. doi : 10.1016/j.ijar.2008.11.006 .
+
+↑ Sakurada, Mayu; Yairi, Takehisa (ngày 2 tháng 12 năm 2014). "Anomaly Detection Using Autoencoders with Nonlinear Dimensionality Reduction" . MLSDA'14: Proceedings of the MLSDA 2014 2nd Workshop on Machine Learning for Sensory Data Analysis : 4 - 11. doi : 10.1145/2689746.2689747 .
+
+↑ Nalisnick, Eric; Matsukawa, Akihiro; Teh, Yee Whye; Gorur, Dilan; Lakshminarayanan, Balaji (2019). "Do Deep Generative Models Know What They Don't Know?". International Conference on Learning Representations (ICLR) . arXiv : 1810.09136 .
+
+↑ Theis, Lucas; Shi, Wenzhe; Cunningham, Andrew; Huszár, Ferenc (2017). "Lossy Image Compression with Compressive Autoencoders". International Conference on Learning Representations (ICLR) . arXiv : 1703.00395 .
+
+↑ Gondara, Lovedeep (tháng 12 năm 2016). "Medical Image Denoising Using Convolutional Denoising Autoencoders" . 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW) : 241– 246. doi : 10.1109/ICDMW.2016.0041 .
+
+↑ Xu, Jun; Xiang, Lei; Liu, Qingshan; Gilmore, Hannah; Wu, Jianzhong; Tang, Jinghai; Madabhushi, Anant (2016). "Stacked Sparse Autoencoder (SSAE) for Nuclei Detection on Breast Cancer Histopathology Images" . IEEE Transactions on Medical Imaging . 35 (1): 119– 130. doi : 10.1109/TMI.2015.2458702 . PMC 4729702 . PMID 26208307 .
+
+↑ Martinez-Murcia, Francisco J.; Ortiz, Andres; Gorriz, Juan M.; Ramirez, Javier; Castillo-Barnes, Diego (2020). "Studying the Manifold Structure of Alzheimer's Disease: A Deep Learning Approach Using Convolutional Autoencoders". IEEE Journal of Biomedical and Health Informatics . 24 (1): 17– 26. doi : 10.1109/JBHI.2019.2914970 . PMID 31217131 .
+
+↑ Zhavoronkov, Alex (2019). "Deep learning enables rapid identification of potent DDR1 kinase inhibitors". Nature Biotechnology . 37 (9): 1038– 1040. doi : 10.1038/s41587-019-0224-x . PMID 31477924 .
+
+↑ De, Shaunak; Maity, Abhishek; Goel, Vritti; Shitole, Sanjay; Bhattacharya, Avik (tháng 4 năm 2017). "Predicting the popularity of instagram posts for a lifestyle magazine using deep learning" . 2017 2nd International Conference on Communication Systems, Computing and IT Applications (CSCITA) : 174– 177. doi : 10.1109/CSCITA.2017.8066548 .
+
+↑ Cho, Kyunghyun; van Merriënboer, Bart; Bahdanau, Dzmitry; Bengio, Yoshua (tháng 10 năm 2014). Wu, Dekai; Carpuat, Marine; Carreras, Xavier; Vecchi, Eva Maria (biên tập). "On the Properties of Neural Machine Translation: Encoder–Decoder Approaches" . Proceedings of SSST-8, Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation . Doha, Qatar: Association for Computational Linguistics: 103– 111. doi : 10.3115/v1/W14-4012 .
+
+↑ Sutskever, Ilya; Vinyals, Oriol; Le, Quoc V. (ngày 8 tháng 12 năm 2014). "Sequence to sequence learning with neural networks" . Proceedings of the 28th International Conference on Neural Information Processing Systems - Volume 2 . 2 . Cambridge, MA, USA: MIT Press: 3104– 3112.
+
+↑ Alnaseri, Omar; Alzubaidi, Laith; Himeur, Yassine; Ala’Anzy, Mohammed Alaa; Timmermann, Jens; Gismalla, Mohammed Salih Mohammed; Atalla, Shadi; Mansoor, Wathiq (2026). "A Review on Deep Learning Autoencoder in the Design of Next-Generation Communication Systems" . IEEE Open Journal of the Communications Society . 7 : 3850– 3880. doi : 10.1109/OJCOMS.2026.3683457 . ISSN 2644-125X .

@@ -1,0 +1,13 @@
+{
+  "table": "day07_base_chunks",
+  "rows": 418,
+  "model": "bkai-foundation-models/vietnamese-bi-encoder",
+  "revision": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+  "dimensions": 768,
+  "metric": "cosine",
+  "search": "exact",
+  "model_load_seconds": 0.882,
+  "embedding_seconds": 63.366,
+  "upsert_seconds": 0.66,
+  "api_cost_usd": 0
+}

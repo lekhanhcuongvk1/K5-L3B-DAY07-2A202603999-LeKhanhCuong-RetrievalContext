@@ -1,0 +1,59 @@
+"Hello, World!" là chương trình máy tính mà đầu ra là dòng chữ "Hello, world!" trên thiết bị hiển thị . Vì đây là chương trình đơn giản nhất ở mọi ngôn ngữ lập trình , cho nên nó thường được dùng trong việc mô phỏng cho người mới bắt đầu về cú pháp lập trình cơ bản trong ngôn ngữ lập trình, hay để xác định ngôn ngữ hoặc hệ thống nào đó hoạt động tốt.
+
+Trong các thiết bị không hiển thị thông điệp, một chương trình đơn giản là phát sinh tín hiệu, như bật đèn LED sáng để thay thế cho dòng chữ "Hello world" như là một chương trình chỉ dẫn.
+
+Mục đích
+
+"Hello, World!" đã trở thành chương trình đầu tiên (tiền lệ) của nhiều người muốn học về lập trình . Tóm lại, chương trình đơn giản đến mức mà người học không cần phải có kiến thức & kinh nghiệm lập trình để có thể hiểu và làm, đặc biệt với sự giúp đỡ của giáo viên hoặc các phương pháp hướng dẫn cách viết.
+
+Việc sử dụng chương trình đơn giản như là nền tảng , các chính sách hoặc yếu tố khoa học máy tính của đặc tả ngôn ngữ lập trình có thể được giải thích tới các lập trình viên sơ nhập. Các lập trình viên khi học ngôn ngữ mới có thể đạt được nhiều thông tin về cú pháp và cấu trúc chương trình từ chương trình "Hello, World!".
+
+Thêm nữa, "Hello, World!" rất hữu ích khi dùng để thử nghiệm để chắc chắn một ngôn ngữ biên dịch , môi trường phát triển , và môi trường thực thi thời gian thực được cài đặt đúng.
+
+"Hello, World!" cũng được các hacker máy tính sử dụng như một khái niệm chứng minh rằng mã có thể tùy ý thực thi trong việc khai thác (bảo mật máy tính) khi nhà thiết kế chương trình đã không để ý đến việc thực thi , ví dụ như công cụ điện tử cầm tay Playstation của Sony . Đây là bước đầu tiên trong việc làm các sản phẩm video game tại nhà trên một thiết bị nào đó.
+
+Lịch sử
+
+Trong khi các chương trình thử nghiệm quy mô nhỏ tồn tại từ sự phát triển của lập trình máy tính , cách sử dụng truyền thống cụm từ "Hello, world!" như là thông điệp ảnh hưởng bởi một chương trình ví dụ trong cuốn sách chuyên đề The C Programming Language . Chương trình ví dụ từ cuốn sách là dòng mã " hello, world " (không có ký tự in hoa hay dấu,), và được kế thừa từ phòng thí nghiệm Bell năm 1974 trong biên bản ghi nhớ nội dung của Brian Kernighan , Programming in C: A Tutorial , trong đó chứa phiên bản đầu tiên nổi tiếng như sau:
+
+Phiên bản đầu tiên sử dụng các từ "hello" và "world" cùng nhau trong cách viết văn máy tính lúc đó, ở cuốn sách của Kernighan năm 1972 Tutorial Introduction to the Language B với dòng code như sau:
+
+Với các ngôn ngữ hiện đại, chương trình Xin chào thế giới có khuynh hướng phát triển tỉ mỉ hơn. Ví dụ, tập tài liệu "Về ngôn ngữ lập trình " giới thiệu nhiều chương trình Xin chào thế giới đa ngôn ngữ , Tập đoàn Sun đưa ra chương trình Xin chào thế giới trên nền Java theo vector đồ họa có khả năng mở rộng, và ngôn ngữ lập trình XL đưa ra chương trình xin chào trái đất dùng đồ họa 3D .
+
+Người sáng lập Wikipedia Jimmy Wales đã thông báo trong suốt buổi thuyết trình ở Nhà hát Trung tâm Tuscaloosa Ferguson vào tháng 9 năm 2010 rằng trang đầu tiên của Wikipedia là trang 'Hello World'.
+
+Sự khác biệt
+
+Có một vài sai khác về dấu câu hoặc cụm từ. Sự sai khác bao gồm việc thiếu dấu phẩy và dấu chấm than, hay như chữ 'H' phải viết hoa, hoặc chữ 'H' và 'W' viết hoa, hay một trong 2. Một số ngôn ngữ lập trình bị ép thực thi nhiều kiểu khác nhau như " HELLO WORLD! ", trên các hệ thống chỉ dùng các ký tự viết hoa, trong khi nhiều chương trình "hello world" ở ngôn ngữ lập trình Esoteric in ra một chuỗi có sự thay đổi đôi chút. Ví dụ, chương trình lập trình Malbolge in dòng chữ "HEllO WORld", điều này vẫn được chấp nhận.
+
+Xem thêm
+
+Lập trình
+
+Khoa học máy tính
+
+Ngôn ngữ C
+
+Perl
+
+Tham khảo
+
+↑ "The Programming Language B" . Bản gốc lưu trữ ngày 8 tháng 8 năm 2007 . Truy cập ngày 8 tháng 2 năm 2012 .
+
+↑ A Tutorial for the Go Programming Language. The Go Programming Language. Truy cập ngày 26 tháng 7 năm 2011.
+
+↑ Jolif, Christophe (tháng 1 năm 2003). "Bringing SVG Power to Java Applications". Sun Developer Network .
+
+↑ de Dinechin, Christophe (ngày 24 tháng 7 năm 2010). "Hello world!" . Grenouille Bouillie.
+
+Liên kết ngoài
+
+Programming in C: A Tutorial bởi Brian Kernighan — nội bộ phòng Lab Bell
+
+Viết chương trình Hello World theo 4 cách, từ dở nhất đến tốt nhất
+
+Góc "Hello wordl" Lưu trữ ngày 26 tháng 11 năm 2009 tại Wayback Machine
+
+Hello World collection với +400 chương trình, bao gồm chương trình "Hello World" trong +60 ngôn ngữ nhân loại.
+
+MSDN – "Hello Data" ví dụ cơ sở dữ liệu
